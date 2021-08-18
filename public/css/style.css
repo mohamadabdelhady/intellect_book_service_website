@@ -8,4 +8,15 @@
     background: url('/images/intellect_logo.png');
     background-repeat: no-repeat;
 }
+body{
+    background-color: #ebe8e3;
+}
+.jumbotron{
+    min-height: 100vh;
+    border-radius: 0;
+    background-image: url("../images/jumptrob-img.jpg");
+    background-size: cover;
+    height: 100%;
+
+}
 
