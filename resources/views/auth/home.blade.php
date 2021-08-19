@@ -27,6 +27,23 @@
     <a href="#"><img src="/images/google-play-icon.png"></a>
 
 </div>
+<div class="ml-5">
+    <h1 class="display-4">About us</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div class="ml-5">
+    <h1 class="display-4">Subscription plans</h1>
+    <div align="center">
+{{--    <span class="mr-5 card">1</span><span class="mr-5 display-1">6</span><span class="mr-5 display-2">1</span>--}}
+        <div class="container ">
+            <div class="row plans">
+                <div class="col card mr-5 pt-2"><p class="display-2">1</p><p style="font-size: large">month</p><p style="font-size: x-large">10 &#36;</p></div>
+                <div class="col card mr-5 pt-2"><p class="display-2">6</p><p style="font-size: large">month</p><p style="font-size: x-large">45 &#36;</p></div>
+                <div class="col card pt-2"><p class="display-2">1</p><p style="font-size: large">year</p><p style="font-size: x-large">100 &#36;</p></div>
+            </div>
+    </div>
+</div>
+<div class="mt-5 ml-3">all copyright reserved for intellect book service&copy; 2021</div>
 </body>
 </html>
 
