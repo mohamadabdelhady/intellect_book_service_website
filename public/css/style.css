@@ -1,6 +1,11 @@
 #nav-bar{
     background-color: #565c68;
     border-bottom: 1px solid #18181f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 1;
 }
 #logo-img{
     width: 200px;
@@ -10,6 +15,7 @@
 }
 body{
     background-color: #ebe8e3;
+    padding-top: 57px;
 }
 .jumbotron{
     min-height: 100vh;
@@ -23,3 +29,82 @@ body{
     border: 2px solid
     #e1cfa9;
 }
+.sign-up-form{
+    width: 35vw;
+    margin-top: 10vh;
+    padding: 20px;
+    border: 1px solid #e1cfa9;
+    margin-bottom: 15vh;
+}
+
+.form-control:focus{
+    border-color: #e1cfa9;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(225, 207, 169, 0.5);
+}
+.btn:focus{
+    border-color: #e1cfa9;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(225, 207, 169, 0.5);
+}
+.btn{
+    background-color: #18181f;
+    color: #ebe8e3;
+}
+.btn:hover{
+    background-color: #ebe8e3;
+    color:#18181f ;
+    border: 1px solid #e1cfa9;
+}
+.sign-up-form button{
+    width: 200px;
+}
+a{
+    text-decoration: none;
+    color: #323844;
+}
+a:hover{
+    text-decoration: none;
+    color: #18181f;
+}
+.signup-icon{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+#userAvatar{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.main-menu{
+margin-right: 10%;
+    position: relative;
+    display: inline-block;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 10px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.menu-content{
+    display: none;
+    border: 1px solid #e1cfa9;
+
+    border-radius:5%;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.menu-content .dropdown-item{
+    margin-bottom: 2px;
+}
+.show {display:block;}

@@ -11,7 +11,8 @@
 <body>
 <nav class="navbar" id="nav-bar">
     <div class="container-fluid">
-        <div class="navbar-brand" id="logo-img"></div>
+        <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
+        <div style="float: right"><button type="submit" class="btn" onclick="window.location.href='login-form';">login</button></div>
     </div>
 </nav>
 <div class="jumbotron">
@@ -20,7 +21,7 @@
     <hr class="my-4">
     <p>Subscribe now and enjoy 30 days free trial.</p>
     <p class="lead">
-        <a class="btn btn-lg" style="background-color: #18181f; color: #f5eee2;" href="#" role="button">Subscribe</a>
+        <a class="btn btn-lg" style="background-color: #18181f; color: #f5eee2;" href="subscribe" role="button">Subscribe</a>
     </p>
 </div>
 <div align="center" class="">
@@ -31,10 +32,9 @@
     <h1 class="display-4">About us</h1>
     <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
-<div class="ml-5">
+<div class="ml-5 mb-2">
     <h1 class="display-4">Subscription plans</h1>
     <div align="center">
-{{--    <span class="mr-5 card">1</span><span class="mr-5 display-1">6</span><span class="mr-5 display-2">1</span>--}}
         <div class="container ">
             <div class="row plans">
                 <div class="col card mr-5 pt-2"><p class="display-2">1</p><p style="font-size: large">month</p><p style="font-size: x-large">10 &#36;</p></div>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +15,27 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('auth.home');
+    if (Auth::check()) {
+        return view('pages.main');}
+    else
+    {
+        return view('auth.home');
+    }
+});
+Route::get('/subscribe', function () {
+    if (Auth::check()) {
+        return view('pages.main');}
+    else {
+        return view('auth.subscribe');
+    }
+});
+Route::get('/login-form', function () {
+    if (Auth::check()) {
+        return view('pages.main');}
+    else {
+        return view('auth.login');
+    }
+});
+Route::get('/main', function () {
+    return view('pages.main');
 });
