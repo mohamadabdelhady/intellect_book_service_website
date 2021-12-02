@@ -32,6 +32,6 @@ return [
     'google' => [
         'google_client_id' => env('GITHUB_CLIENT_ID'),
         'client_secret' => env('GITHUB_CLIENT_SECRET'),
-        'redirect' =>  env('APP_URL').'/oauth/google/callback',
+        'redirect' =>  env('APP_URL'),
     ],
 ];

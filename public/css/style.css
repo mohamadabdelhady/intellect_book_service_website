@@ -76,6 +76,14 @@ a:hover{
     height: 40px;
     border-radius: 50%;
 }
+
+#search-input{
+    border-radius: 25px;
+    border: none;
+    box-shadow: none;
+    background-color: #ebe8e3;
+    width: 300px;
+}
 .main-menu{
 margin-right: 10%;
     position: relative;

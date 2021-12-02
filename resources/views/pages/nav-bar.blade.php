@@ -1,6 +1,11 @@
 <nav class="navbar" id="nav-bar">
     <div class="container-fluid">
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
+        <div>
+            <form class="navbar-nav ml-auto mr-auto" id="Search-form" >
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input" name="q">
+            </form>
+        </div>
 {{--        <div class="dropdown">--}}
 
 {{--            <button class="main-menu dropdown-toggle mr-3 " type="button" id="userlogindrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
