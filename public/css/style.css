@@ -1,6 +1,6 @@
 #nav-bar{
     background-color: #565c68;
-    border-bottom: 1px solid #18181f;
+
     position: fixed;
     top: 0;
     width: 100%;
@@ -83,6 +83,13 @@ a:hover{
     box-shadow: none;
     background-color: #ebe8e3;
     width: 300px;
+}
+.sub-navbar{
+
+    background-color: #878a92;
+    border-bottom: 1px solid #18181f;
+    margin-top: 15px;
+
 }
 .main-menu{
 margin-right: 10%;
