@@ -1,5 +1,6 @@
 <nav class="navbar" id="nav-bar">
-    <div class="container-fluid">
+    <div class="container-fluid" style="justify-content: normal; margin-left: 10px;">
+       <a href="#" onclick="event.preventDefault(); openNav()"> <img src="/images/menu.png" style="width: 30px;height: 40px; margin-left: 0; margin-right: 10px;"></a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
         <div>
             <form class="navbar-nav ml-auto mr-auto" id="Search-form" >
@@ -59,15 +60,25 @@
     </div>
     <div></div>
 </nav>
-<div class="sub-navbar">
-    <div style="margin-left: 35px">
-
-    </div>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+    <a href="#">book genera</a>
+    <a href="#">audio books</a>
+    <a href="#">about us</a>
+    <a href="#">Contact us</a>
 </div>
 <script>
     function view_menu(){
 
         document.getElementById('menu-content').classList.toggle("show");
     }
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
 
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
 </script>
