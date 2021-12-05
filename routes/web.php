@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Laravel\Socialite\Facades\Socialite;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,19 +25,22 @@ Route::get('/', function () {
     }
 });
 Route::get('/subscribe', function () {
-    if (Auth::check()) {
-        return view('pages.main');}
-    else {
+
         return view('auth.subscribe');
-    }
+
 });
 Route::get('/login-form', function () {
-    if (Auth::check()) {
-        return view('pages.main');}
-    else {
+
         return view('auth.login');
-    }
 });
-Route::get('/main', function () {
-    return view('pages.main');
+//Route::get('/main', function () {
+//    return view('pages.main');
+//});
+Route::get('/auth/redirect', function () {
+    return Socialite::driver('google')->redirect();
+
+});
+Route::get('/auth/callback', function () {
+    $user = Socialite::driver('google')->user();
+
 });

@@ -30,8 +30,8 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
     'google' => [
-        'google_client_id' => env('GITHUB_CLIENT_ID'),
-        'client_secret' => env('GITHUB_CLIENT_SECRET'),
-        'redirect' =>  env('APP_URL'),
+        'client_id' => env('google_client_id'),
+        'client_secret' => env('google_client_secrets'),
+        'redirect' => env('GOOGLE_REDIRECT_URI'),
     ],
 ];

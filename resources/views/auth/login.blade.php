@@ -42,8 +42,8 @@
     <hr style="background-color: #e1cfa9">
     <div align="center">
         <p style="font-size: large">Or log in with</p>
-        <a href="#"><img class="signup-icon" src="/images/gmail-icon.png"></a>
-        <a href="#"><img class="signup-icon" src="/images/facebook-icon.png"></a>
+        <a href="/auth/redirect"><img class="signup-icon" src="/images/gmail-icon.png"></a>
+{{--        <a href="#"><img class="signup-icon" src="/images/facebook-icon.png"></a>--}}
     </div>
 </div>
 <div class="mt-5 ml-3">all copyright reserved for intellect book service&copy; 2021</div>
