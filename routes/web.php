@@ -33,14 +33,5 @@ Route::get('/login-form', function () {
 
         return view('auth.login');
 });
-//Route::get('/main', function () {
-//    return view('pages.main');
-//});
-Route::get('/auth/redirect', function () {
-    return Socialite::driver('google')->redirect();
-
-});
-Route::get('/auth/callback', function () {
-    $user = Socialite::driver('google')->user();
-
-});
+Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
+Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
