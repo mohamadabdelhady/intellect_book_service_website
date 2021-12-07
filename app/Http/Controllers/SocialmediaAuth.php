@@ -24,6 +24,7 @@ public function handleGoogleCallback()
 
         $finduser = User::where('google_id', $user->id)->first();
 
+
         if($finduser){
 
             Auth::login($finduser);
@@ -32,6 +33,7 @@ public function handleGoogleCallback()
 
         }else{
             $randString = Str::random(10);
+//            dd($user);
             $newUser = User::create([
 
                 'name' => $user->name,
@@ -40,7 +42,6 @@ public function handleGoogleCallback()
                 'password'=>Hash::make($randString),
                 'profile_img'=>$user->avatar,
             ]);
-
             Auth::login($newUser);
 
             return redirect()->intended('/');

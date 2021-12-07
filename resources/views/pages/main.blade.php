@@ -10,6 +10,6 @@
 </head>
 <body>
 @include('pages.nav-bar')
-
+<load_book></load_book>
 </body>
 </html>

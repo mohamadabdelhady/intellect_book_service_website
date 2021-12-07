@@ -19,7 +19,7 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('nav-bar', require('./components/nav-bar.vue').default);
+Vue.component('load_book', require('./components/load_book.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -28,5 +28,5 @@ Vue.component('nav-bar', require('./components/nav-bar.vue').default);
  */
 
 const app = new Vue({
-    el: '#app',
+    el: 'load_book',
 });

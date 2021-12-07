@@ -178,6 +178,16 @@ margin-right: 10%;
     font-size: 36px;
     margin-left: 50px;
 }
+.books_genera{
+    background-color: #ebe8e3;
+    transition: 0.5s;
+    display: none;
+    margin: 10px;
+    border-radius: 15%;
+}
+.books_genera a:hover{
+    color: #1b1e21;
+}
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

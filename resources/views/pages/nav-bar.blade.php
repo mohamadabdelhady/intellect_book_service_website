@@ -2,9 +2,9 @@
     <div class="container-fluid" style="justify-content: normal; margin-left: 10px;">
        <a href="#" onclick="event.preventDefault(); openNav()"> <img src="/images/menu.png" style="width: 30px;height: 40px; margin-left: 0; margin-right: 10px;"></a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
-        <div>
-            <form class="navbar-nav ml-auto mr-auto" id="Search-form" >
-                <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input" name="q">
+        <div class="m-auto">
+            <form class="navbar-nav"  >
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input">
             </form>
         </div>
 {{--        <div class="dropdown">--}}
@@ -36,9 +36,10 @@
         <div class="main-menu">
             <a href="" class="main-btn" onclick="event.preventDefault(); view_menu();">
             <div>
-                @if(auth()->user()->profile_img)
+                @if(auth()->user()->profile_img&&auth()->user()->google_id)
+                    <p> <img src="{{url(auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
+                @elseif(auth()->user()->profile_img)
                 <p> <img src="{{url('/images/users_profile_img/' . auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
-
                                 @else
                     <p>  <img src="/images/user_default.png" id="userAvatar"><i class="arrow down"></i></p>
 
@@ -62,19 +63,36 @@
 </nav>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    
-    <a href="#">book genera</a>
+
+    <a href="#"onclick="event.preventDefault(); openGen()">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
+    <div class="books_genera" id="genera">
+        <a href="">Classics</a>
+        <a href="">History</a>
+        <a href="">Science</a>
+    </div>
     <a href="#">audio books</a>
     <a href="#">about us</a>
     <a href="#">Contact us</a>
 </div>
 <script>
+    function openGen() {
+
+       var is= document.getElementById("genera").style.display;
+       if(is=="none")
+       {
+           document.getElementById("genera").style.display="block";
+       }
+       else
+           document.getElementById("genera").style.display="none";
+    }
+
     function view_menu(){
 
         document.getElementById('menu-content').classList.toggle("show");
     }
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("genera").style.display="none";
     }
 
     /* Set the width of the side navigation to 0 */
