@@ -3,20 +3,22 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Laravel\Socialite\Facades\Socialite;
 use App\Models\User;
+
 
 class SocialmediaAuth extends Controller
 {
 public function redirectToGoogle()
 {
-    return Socialite::driver('google')->redirect();
+    return Socialite::driver('google')->stateless()->redirect();
 }
 public function handleGoogleCallback()
 {
     try {
 
-        $user = Socialite::driver('google')->user();
+        $user = Socialite::driver('google')->stateless()->user();
 
         $finduser = User::where('google_id', $user->id)->first();
 
@@ -31,6 +33,7 @@ public function handleGoogleCallback()
                 'name' => $user->name,
                 'email' => $user->email,
                 'google_id'=> $user->id,
+                'password'=>'123',
                 'profile_img'=>$user->avatar,
             ]);
 
