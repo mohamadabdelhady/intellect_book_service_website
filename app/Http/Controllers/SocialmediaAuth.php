@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 use Laravel\Socialite\Facades\Socialite;
 use App\Models\User;
 
@@ -29,11 +31,13 @@ public function handleGoogleCallback()
             return redirect()->intended('/');
 
         }else{
+            $randString = Str::random(10);
             $newUser = User::create([
+
                 'name' => $user->name,
                 'email' => $user->email,
                 'google_id'=> $user->id,
-                'password'=>'123',
+                'password'=>Hash::make($randString),
                 'profile_img'=>$user->avatar,
             ]);
 
@@ -46,4 +50,6 @@ public function handleGoogleCallback()
         dd($e->getMessage());
     }
 }
+
+
 }
