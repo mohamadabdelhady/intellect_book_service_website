@@ -10,6 +10,11 @@
 </head>
 <body>
 @include('pages.nav-bar')
-<load_book></load_book>
+<div class="container">
+<div class="row"style="padding-top: 100px">
+  <div class="col-2"></div>
+    <div class="col-10"><load_book></load_book></div>
+</div>
+</div>
 </body>
 </html>
