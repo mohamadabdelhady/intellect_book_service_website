@@ -35,3 +35,5 @@ Route::get('/login-form', function () {
 });
 Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
 Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
+Route::get('/load_all_books',[\App\Http\Controllers\load_book::class,'get_all_books']);
+Route::get('/load_all_audio_books',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
