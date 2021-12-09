@@ -18,6 +18,8 @@
     <load_audiobooks></load_audiobooks>
     </div>
 </div>
+
+    <div class="mt-5 ml-3"><hr>all copyright reserved for intellect book service&copy; 2021</div>
 </div>
 </body>
 </html>

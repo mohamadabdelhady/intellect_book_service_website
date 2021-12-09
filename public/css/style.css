@@ -1,11 +1,9 @@
 #nav-bar{
     background-color: #565c68;
-
     position: fixed;
     top: 0;
     width: 100%;
-
-    z-index: 1;
+    z-index: 2;
 }
 #logo-img{
     width: 200px;
@@ -148,6 +146,7 @@ margin-right: 10%;
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
+    z-index: 1;
     left: 0;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
