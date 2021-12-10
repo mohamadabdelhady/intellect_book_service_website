@@ -2,14 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use http\Env\Response;
 use Illuminate\Http\Request;
 use App\Models\books;
 use App\Models\audio_books;
+use Illuminate\Support\Facades\DB;
+
 class load_book extends Controller
 {
     public function get_all_books()
     {
-        return $books=books::all();
+          $books=DB::table('books')->paginate(10);
+          return $books;
+//            return $books=books::all();
     }
     public function get_all_audiobooks()
     {

@@ -2,7 +2,7 @@
     <div>
 <p class="h3">E-books</p>
     <hr >
-        <div class="row">
+        <div class="row" >
         <div class="book_card card " v-for="(book, index) in books">
         <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
@@ -20,8 +20,11 @@
             </div>
             <div class="m-auto"><a :href="'read_book_'+book['id']"><i class="fas fa-book-reader fa-3x"></i></a></div>
             </div>
-        </div>
 
+        </div>
+        <div class="row">
+            <button class="btn m-auto mt-4" v-on:click="get_books">Load more E-books</button>
+        </div>
     </div>
 
 </template>
@@ -32,13 +35,14 @@ export default {
     data(){
         return {
             books:[],
+            page:1,
 
         }
         },
     methods:{
         get_books(){
-            axios.get('load_all_books').then(response=>(this.books=response.data))
-        }
+            axios.get('load_all_books?page='+this.page).then(response=>(this.books=response.data.data))
+        },
     },
     mounted(){
    this.get_books();
