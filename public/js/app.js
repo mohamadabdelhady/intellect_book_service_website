@@ -16495,6 +16495,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       audio_books: [],
+      page: 1,
       last_page: false
     };
   },

@@ -33,6 +33,7 @@ export default {
     ,data(){
         return{
             audio_books:[],
+            page:1,
             last_page:false,
         }
 
@@ -49,6 +50,7 @@ export default {
                 });
             })
             this.page++;
+
         }
     },
     mounted(){
