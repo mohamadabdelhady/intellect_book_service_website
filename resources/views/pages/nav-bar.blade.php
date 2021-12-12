@@ -64,26 +64,32 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <a href="#"onclick="event.preventDefault(); openGen()">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
-    <div class="books_genera" id="genera">
+    <a href="#"onclick="event.preventDefault(); openGen('genera_b')">books<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
+    <div class="books_genera" id="genera_b">
         <a href="">Classics</a>
         <a href="">History</a>
         <a href="">Science</a>
     </div>
-    <a href="#">audio books</a>
+    <a href="#"onclick="event.preventDefault(); openGen('genera_a')">audio books<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
+    <div class="books_genera" id="genera_a">
+        <a href="">Classics</a>
+        <a href="">History</a>
+        <a href="">Science</a>
+    </div>
     <a href="#">about us</a>
     <a href="#">Contact us</a>
 </div>
 <script>
-    function openGen() {
+    function openGen(type) {
 
-       var is= document.getElementById("genera").style.display;
+
+       var is= document.getElementById(type).style.display;
        if(is=="none")
        {
-           document.getElementById("genera").style.display="block";
+           document.getElementById(type).style.display="block";
        }
        else
-           document.getElementById("genera").style.display="none";
+           document.getElementById(type).style.display="none";
     }
 
     function view_menu(){
@@ -92,7 +98,8 @@
     }
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("genera").style.display="none";
+        document.getElementById("genera_a").style.display="none";
+        document.getElementById("genera_b").style.display="none";
     }
 
     /* Set the width of the side navigation to 0 */

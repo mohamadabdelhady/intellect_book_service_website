@@ -148,7 +148,7 @@ margin-right: 10%;
     position: fixed; /* Stay in place */
     z-index: 1;
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #18181f; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
