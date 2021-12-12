@@ -18,6 +18,7 @@ class load_book extends Controller
     }
     public function get_all_audiobooks()
     {
-        return $audiobooks=audio_books::all();
+        $audio_books=DB::table('audio_books')->paginate(10);
+        return $audio_books;
     }
 }

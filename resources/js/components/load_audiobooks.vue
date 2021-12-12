@@ -21,6 +21,9 @@
                 <div class="m-auto"><a :href="'listen_book_'+book['id']"><i class="fas fa-headphones-alt fa-3x"></i></a></div>
             </div>
         </div>
+        <div class="row">
+            <button class="btn m-auto mt-4" v-on:click="get_books" :disabled="last_page==true">Load more audio books</button>
+        </div>
     </div>
 </template>
 
@@ -30,12 +33,22 @@ export default {
     ,data(){
         return{
             audio_books:[],
+            last_page:false,
         }
 
     },
     methods:{
         get_books(){
-            axios.get('load_all_audio_books').then(response=>(this.audio_books=response.data))
+            axios.get('load_all_audio_books?page='+this.page).then(response=> {
+                $.each(response.data.data, (key, v) => {
+                    this.audio_books.push(v);
+                    if (response.data.current_page==response.data.last_page){
+                        this.last_page=true;
+                    }
+
+                });
+            })
+            this.page++;
         }
     },
     mounted(){

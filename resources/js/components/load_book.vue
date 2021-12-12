@@ -23,7 +23,7 @@
 
         </div>
         <div class="row">
-            <button class="btn m-auto mt-4" v-on:click="get_books">Load more E-books</button>
+            <button class="btn m-auto mt-4" v-on:click="get_books" :disabled="last_page==true">Load more E-books</button>
         </div>
     </div>
 
@@ -31,17 +31,30 @@
 
 <script>
 export default {
+name:'load_book',
 
     data(){
         return {
             books:[],
             page:1,
+            last_page:false,
+
 
         }
         },
     methods:{
         get_books(){
-            axios.get('load_all_books?page='+this.page).then(response=>(this.books=response.data.data))
+            axios.get('load_all_books?page='+this.page).then(response=> {
+                $.each(response.data.data, (key, v) => {
+                    this.books.push(v);
+                    if (response.data.current_page==response.data.last_page){
+                        this.last_page=true;
+                    }
+
+                });
+            })
+                    this.page++;
+
         },
     },
     mounted(){

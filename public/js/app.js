@@ -16487,20 +16487,31 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "load_AudioBooks",
   data: function data() {
     return {
-      audio_books: []
+      audio_books: [],
+      last_page: false
     };
   },
   methods: {
     get_books: function get_books() {
       var _this = this;
 
-      axios.get('load_all_audio_books').then(function (response) {
-        return _this.audio_books = response.data;
+      axios.get('load_all_audio_books?page=' + this.page).then(function (response) {
+        $.each(response.data.data, function (key, v) {
+          _this.audio_books.push(v);
+
+          if (response.data.current_page == response.data.last_page) {
+            _this.last_page = true;
+          }
+        });
       });
+      this.page++;
     }
   },
   mounted: function mounted() {
@@ -16553,10 +16564,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'load_book',
   data: function data() {
     return {
       books: [],
-      page: 1
+      page: 1,
+      last_page: false
     };
   },
   methods: {
@@ -16564,8 +16577,15 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       axios.get('load_all_books?page=' + this.page).then(function (response) {
-        return _this.books = response.data.data;
+        $.each(response.data.data, function (key, v) {
+          _this.books.push(v);
+
+          if (response.data.current_page == response.data.last_page) {
+            _this.last_page = true;
+          }
+        });
       });
+      this.page++;
     }
   },
   mounted: function mounted() {
@@ -52764,7 +52784,19 @@ var render = function() {
         ])
       }),
       0
-    )
+    ),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn m-auto mt-4",
+          attrs: { disabled: _vm.last_page == true },
+          on: { click: _vm.get_books }
+        },
+        [_vm._v("Load more audio books")]
+      )
+    ])
   ])
 }
 var staticRenderFns = []
@@ -52844,7 +52876,11 @@ var render = function() {
     _c("div", { staticClass: "row" }, [
       _c(
         "button",
-        { staticClass: "btn m-auto mt-4", on: { click: _vm.get_books } },
+        {
+          staticClass: "btn m-auto mt-4",
+          attrs: { disabled: _vm.last_page == true },
+          on: { click: _vm.get_books }
+        },
         [_vm._v("Load more E-books")]
       )
     ])
