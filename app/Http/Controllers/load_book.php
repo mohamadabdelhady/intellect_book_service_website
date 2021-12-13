@@ -10,15 +10,51 @@ use Illuminate\Support\Facades\DB;
 
 class load_book extends Controller
 {
-    public function get_all_books()
+    public function get_all_books($sort)
     {
-          $books=DB::table('books')->paginate(10);
-          return $books;
-//            return $books=books::all();
+        if($sort=="default")
+        {
+            $books=DB::table('books')->paginate(10);
+            return $books;
+        }
+        elseif ($sort=="rate")
+        {
+            $books=DB::table('books')->orderBy('rating','desc')->paginate(10);
+            return $books;
+        }
+        elseif ($sort=="newest")
+        {
+            $books=DB::table('books')->orderBy('created_at','desc')->paginate(10);
+            return $books;
+        }
+        elseif ($sort=="oldest")
+        {
+            $books=DB::table('books')->orderBy('rating')->paginate(10);
+            return $books;
+        }
+
     }
-    public function get_all_audiobooks()
+    public function get_all_audiobooks($sort)
     {
-        $audio_books=DB::table('audio_books')->paginate(10);
-        return $audio_books;
+        if($sort=="default")
+        {
+            $books=DB::table('audio_books')->paginate(10);
+            return $books;
+        }
+        elseif ($sort=="rate")
+        {
+            $books=DB::table('audio_books')->orderBy('rating','desc')->paginate(10);
+            return $books;
+        }
+        elseif ($sort=="newest")
+        {
+            $books=DB::table('audio_books')->orderBy('created_at','desc')->paginate(10);
+            return $books;
+        }
+        elseif ($sort=="oldest")
+        {
+            $books=DB::table('audio_books')->orderBy('rating')->paginate(10);
+            return $books;
+        }
     }
 }

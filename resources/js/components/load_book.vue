@@ -1,7 +1,20 @@
 <template>
     <div>
+
 <p class="h3">E-books</p>
+
     <hr >
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('default')">default</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('rating')">rating</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('newest')">newest</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('oldest')">oldest</a>
+            </div>
+        </div>
         <div class="row" >
         <div class="book_card card " v-for="(book, index) in books">
         <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
@@ -38,13 +51,14 @@ name:'load_book',
             books:[],
             page:1,
             last_page:false,
+            sorting:"default",
 
 
         }
         },
     methods:{
         get_books(){
-            axios.get('load_all_books?page='+this.page).then(response=> {
+            axios.get('load_all_books/'+this.sorting+'?page='+this.page).then(response=> {
                 $.each(response.data.data, (key, v) => {
                     this.books.push(v);
                     if (response.data.current_page==response.data.last_page){
@@ -56,6 +70,10 @@ name:'load_book',
                     this.page++;
 
         },
+        change_sort(sort)
+        {
+            this.sorting=sort;
+        }
     },
     mounted(){
    this.get_books();

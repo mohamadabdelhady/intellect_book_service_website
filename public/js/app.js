@@ -16490,20 +16490,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "load_AudioBooks",
   data: function data() {
     return {
       audio_books: [],
       page: 1,
-      last_page: false
+      last_page: false,
+      sorting: "default"
     };
   },
   methods: {
     get_books: function get_books() {
       var _this = this;
 
-      axios.get('load_all_audio_books?page=' + this.page).then(function (response) {
+      axios.get('load_all_audio_books/' + this.sorting + '?page=' + this.page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this.audio_books.push(v);
 
@@ -16513,6 +16525,14 @@ __webpack_require__.r(__webpack_exports__);
         });
       });
       this.page++;
+    },
+    show: function show() {
+      console.log(this.sorting);
+    },
+    change_sort: function change_sort(sort) {
+      this.sorting = sort;
+      console.log(this.sorting);
+      console.log(this.audio_books);
     }
   },
   mounted: function mounted() {
@@ -16564,20 +16584,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'load_book',
   data: function data() {
     return {
       books: [],
       page: 1,
-      last_page: false
+      last_page: false,
+      sorting: "default"
     };
   },
   methods: {
     get_books: function get_books() {
       var _this = this;
 
-      axios.get('load_all_books?page=' + this.page).then(function (response) {
+      axios.get('load_all_books/' + this.sorting + '?page=' + this.page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this.books.push(v);
 
@@ -16587,6 +16621,9 @@ __webpack_require__.r(__webpack_exports__);
         });
       });
       this.page++;
+    },
+    change_sort: function change_sort(sort) {
+      this.sorting = sort;
     }
   },
   mounted: function mounted() {
@@ -52741,9 +52778,95 @@ var render = function() {
     _vm._v(" "),
     _c("hr"),
     _vm._v(" "),
+    _c("div", { staticClass: "dropdown" }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn dropdown-toggle",
+          attrs: {
+            type: "button",
+            id: "dropdownMenuButton",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [_vm._v("\n            Sort by\n        ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "dropdownMenuButton" }
+        },
+        [
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("default")
+                }
+              }
+            },
+            [_vm._v("default")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("rate")
+                }
+              }
+            },
+            [_vm._v("rating")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("newest")
+                }
+              }
+            },
+            [_vm._v("newest")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("oldest")
+                }
+              }
+            },
+            [_vm._v("oldest")]
+          )
+        ]
+      )
+    ]),
+    _vm._v(" "),
     _c(
       "div",
-      { staticClass: "row" },
+      { key: "sorting", staticClass: "row" },
       _vm._l(_vm.audio_books, function(book, index) {
         return _c("div", { staticClass: "book_card card " }, [
           _c("img", {
@@ -52827,6 +52950,92 @@ var render = function() {
     _c("p", { staticClass: "h3" }, [_vm._v("E-books")]),
     _vm._v(" "),
     _c("hr"),
+    _vm._v(" "),
+    _c("div", { staticClass: "dropdown" }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn dropdown-toggle",
+          attrs: {
+            type: "button",
+            id: "dropdownMenuButton",
+            "data-toggle": "dropdown",
+            "aria-haspopup": "true",
+            "aria-expanded": "false"
+          }
+        },
+        [_vm._v("\n                Sort by\n            ")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "dropdown-menu",
+          attrs: { "aria-labelledby": "dropdownMenuButton" }
+        },
+        [
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("default")
+                }
+              }
+            },
+            [_vm._v("default")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("rating")
+                }
+              }
+            },
+            [_vm._v("rating")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("newest")
+                }
+              }
+            },
+            [_vm._v("newest")]
+          ),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "dropdown-item",
+              attrs: { href: "#" },
+              on: {
+                click: function($event) {
+                  $event.preventDefault()
+                  return _vm.change_sort("oldest")
+                }
+              }
+            },
+            [_vm._v("oldest")]
+          )
+        ]
+      )
+    ]),
     _vm._v(" "),
     _c(
       "div",

@@ -2,7 +2,18 @@
     <div>
         <p class="h3">Audio books</p>
         <hr >
-        <div class="row">
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sort by
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('default')">default</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('rate')">rating</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('newest')">newest</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('oldest')">oldest</a>
+            </div>
+        </div>
+        <div class="row" key="sorting">
             <div class="book_card card " v-for="(book, index) in audio_books">
                 <img :src="'/audio_books/covers/'+book['cover_img']" class="book_img m-auto">
                 <p class="book_title m-auto h4">{{book['name']}}</p>
@@ -35,12 +46,13 @@ export default {
             audio_books:[],
             page:1,
             last_page:false,
+            sorting:"default",
         }
 
     },
     methods:{
         get_books(){
-            axios.get('load_all_audio_books?page='+this.page).then(response=> {
+            axios.get('load_all_audio_books/'+this.sorting+'?page='+this.page).then(response=> {
                 $.each(response.data.data, (key, v) => {
                     this.audio_books.push(v);
                     if (response.data.current_page==response.data.last_page){
@@ -50,6 +62,17 @@ export default {
                 });
             })
             this.page++;
+
+        },
+        show(){
+            console.log(this.sorting);
+        },
+        change_sort(sort)
+        {
+            this.sorting=sort;
+            console.log(this.sorting);
+
+            console.log(this.audio_books);
 
         }
     },

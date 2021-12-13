@@ -36,5 +36,5 @@ Route::get('/login-form', function () {
 Route::get('/settings',[\App\Http\Controllers\Controller::class, 'user_settings'])->middleware('auth');
 Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
 Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
-Route::get('/load_all_books',[\App\Http\Controllers\load_book::class,'get_all_books']);
-Route::get('/load_all_audio_books',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
+Route::get('/load_all_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_books']);
+Route::get('/load_all_audio_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
