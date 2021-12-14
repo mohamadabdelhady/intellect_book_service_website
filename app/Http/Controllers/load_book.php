@@ -29,7 +29,7 @@ class load_book extends Controller
         }
         elseif ($sort=="oldest")
         {
-            $books=DB::table('books')->orderBy('rating')->paginate(10);
+            $books=DB::table('books')->orderBy('created_at')->paginate(10);
             return $books;
         }
 
@@ -53,7 +53,7 @@ class load_book extends Controller
         }
         elseif ($sort=="oldest")
         {
-            $books=DB::table('audio_books')->orderBy('rating')->paginate(10);
+            $books=DB::table('audio_books')->orderBy('created_at')->paginate(10);
             return $books;
         }
     }

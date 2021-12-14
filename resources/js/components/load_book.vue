@@ -10,7 +10,7 @@
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('default')">default</a>
-                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('rating')">rating</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('rate')">rating</a>
                 <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('newest')">newest</a>
                 <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('oldest')">oldest</a>
             </div>
@@ -72,7 +72,10 @@ name:'load_book',
         },
         change_sort(sort)
         {
+            this.page=1;
             this.sorting=sort;
+            this.books=[];
+            this.get_books();
         }
     },
     mounted(){

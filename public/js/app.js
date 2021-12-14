@@ -16530,9 +16530,10 @@ __webpack_require__.r(__webpack_exports__);
       console.log(this.sorting);
     },
     change_sort: function change_sort(sort) {
+      this.page = 1;
       this.sorting = sort;
-      console.log(this.sorting);
-      console.log(this.audio_books);
+      this.audio_books = [];
+      this.get_books();
     }
   },
   mounted: function mounted() {
@@ -16623,7 +16624,10 @@ __webpack_require__.r(__webpack_exports__);
       this.page++;
     },
     change_sort: function change_sort(sort) {
+      this.page = 1;
       this.sorting = sort;
+      this.books = [];
+      this.get_books();
     }
   },
   mounted: function mounted() {
@@ -52997,7 +53001,7 @@ var render = function() {
               on: {
                 click: function($event) {
                   $event.preventDefault()
-                  return _vm.change_sort("rating")
+                  return _vm.change_sort("rate")
                 }
               }
             },

@@ -69,11 +69,10 @@ export default {
         },
         change_sort(sort)
         {
+            this.page=1;
             this.sorting=sort;
-            console.log(this.sorting);
-
-            console.log(this.audio_books);
-
+            this.audio_books=[];
+            this.get_books();
         }
     },
     mounted(){
