@@ -17,6 +17,7 @@
         </div>
         <div class="row" >
         <div class="book_card card " v-for="(book, index) in books">
+
         <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
             <div class="row m-auto">
@@ -31,7 +32,7 @@
             <span class="fa fa-star checked fa-2x" v-if="book['rating']>=5"></span>
             <span class="fa fa-star fa-2x" v-else></span>
             </div>
-            <div class="m-auto"><a :href="'read_book_'+book['id']"><i class="fas fa-book-reader fa-3x"></i></a></div>
+            <div class="m-auto"><a :href="'check_book_'+book['id']"><i class="fas fa-book-reader fa-3x"></i></a></div>
             </div>
 
         </div>

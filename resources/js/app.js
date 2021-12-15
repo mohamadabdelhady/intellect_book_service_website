@@ -21,6 +21,8 @@ window.Vue = require('vue').default;
 
 Vue.component('load_book', require('./components/load_book.vue').default);
 Vue.component('load_audiobooks', require('./components/load_audiobooks.vue').default);
+Vue.component('generate_stars', require('./components/generate_stars.vue').default);
+Vue.component('comment_section', require('./components/comment_Section.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -43,6 +45,14 @@ const app = new Vue({
 });
 const app2=new Vue({
     el:'load_audiobooks',
-})
+});
+const app3=new Vue({
+    el:'generate_stars',
+});
+const app4=new Vue({
+    el:'comment_section',
+});
 app.component("font-awesome-icon", FontAwesomeIcon);
 app2.component("font-awesome-icon", FontAwesomeIcon);
+app3.component("font-awesome-icon", FontAwesomeIcon);
+app4.component("font-awesome-icon", FontAwesomeIcon);

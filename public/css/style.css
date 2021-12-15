@@ -61,7 +61,7 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: #18181f;
+    color: #565c68;
 }
 .signup-icon{
     height: 50px;
@@ -186,6 +186,10 @@ margin-right: 10%;
 }
 .books_genera a:hover{
     color: #1b1e21;
+}
+.cover_overview{
+    height: 300px;
+    width: 100%;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}

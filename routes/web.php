@@ -38,3 +38,4 @@ Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redi
 Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
 Route::get('/load_all_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_books']);
 Route::get('/load_all_audio_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
+Route::get('/check_book_{id}',[\App\Http\Controllers\read_book::class,'check_book']);
