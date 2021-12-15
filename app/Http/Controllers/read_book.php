@@ -19,7 +19,8 @@ class read_book extends Controller
     }
     public function get_comments($id,$type)
     {
-        $comments=DB::table('comments')->where('book_id','=',$id)->where('type','=',$type)->paginate(10);
+        $comments=DB::table('comments','c')->join('users as u','c.user_id','=','u.id')->select(
+        'type','content','c.updated_at','u.profile_img','u.name','u.google_id')->where('book_id','=',$id)->where('type','=',$type)->paginate(10);
         return $comments;
     }
     public function post_comment(Request $request)

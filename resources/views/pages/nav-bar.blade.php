@@ -14,9 +14,6 @@
                     <p> <img src="{{url(auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
                 @elseif(auth()->user()->profile_img)
                 <p> <img src="{{url('/images/users_profile_img/' . auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
-                                @else
-                    <p>  <img src="/images/user_default.png" id="userAvatar"><i class="arrow down"></i></p>
-
                                 @endif
 
             </div>
