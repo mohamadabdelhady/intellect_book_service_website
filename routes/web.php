@@ -39,3 +39,5 @@ Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'han
 Route::get('/load_all_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_books']);
 Route::get('/load_all_audio_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
 Route::get('/check_book_{id}',[\App\Http\Controllers\read_book::class,'check_book']);
+Route::get('/load_all_comments/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_comments']);
+Route::post('/post_comment',[\App\Http\Controllers\read_book::class,'post_comment']);

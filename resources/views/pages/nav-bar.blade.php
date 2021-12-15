@@ -7,32 +7,6 @@
                 <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input">
             </form>
         </div>
-{{--        <div class="dropdown">--}}
-
-{{--            <button class="main-menu dropdown-toggle mr-3 " type="button" id="userlogindrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">--}}
-{{--                @if(auth()->user()->profile_img)--}}
-{{--                    <img src="{{url('/images/users_profile_img/' . auth()->user()->profile_img)}}" id="userAvatar">--}}
-{{--                @else--}}
-{{--                    <img src="/images/user_default.png" id="userAvatar">--}}
-{{--                @endif--}}
-{{--                    <span--}}
-{{--                        class="ml-3">{{auth()->user()->name}}</span>--}}
-
-{{--            </button>--}}
-{{--            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">--}}
-
-{{--                <a class="dropdown-item" href="{{route('settings')}}"onclick="event.preventDefault(); document.getElementById('settings').submit();"><img src="/settings.png" id="user_icons"> <span class="ml-2">settings</span></a>--}}
-{{--                <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><img src="/images/logout_icon.png" id="user_icons"> <span class="ml-2">log out</span></a>--}}
-{{--                <form id="logout-form" action="{{route('logout')}}" method="post" style="display: none;">--}}
-{{--                    @csrf--}}
-{{--                </form>--}}
-{{--                <form id="settings" action="{{route('settings')}}" method="post" style="display: none;">--}}
-{{--                    @csrf--}}
-{{--                </form>--}}
-
-
-{{--            </div>--}}
-{{--        </div>--}}
         <div class="main-menu">
             <a href="" class="main-btn" onclick="event.preventDefault(); view_menu();">
             <div>
