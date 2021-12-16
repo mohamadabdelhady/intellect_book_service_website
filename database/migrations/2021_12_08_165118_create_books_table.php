@@ -20,6 +20,7 @@ class CreateBooksTable extends Migration
             $table->string('text');
             $table->string('cover_img');
             $table->string('rating');
+            $table->string('category');
             $table->timestamps();
         });
     }

@@ -12,22 +12,22 @@
 @include('pages.nav-bar')
 <div class="container">
     <div class="row" style="padding-top: 100px">
-<div class="col-3">
-    <img src="/books/{{$book_data->cover_img}}" class="cover_overview">
-    <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('read_btn').click();"><i class="fas fa-book-reader fa-2x" style=""></i></button>
-    <a href="read_{{$book_data->id}}" style="display: none" id="read_btn"></a>
-    <button class="btn mt-3" style="width: 100%"><i class="fas fa-bookmark fa-2x"></i></button>
-</div>
+        <div class="col-3">
+            <img src="/audio_books/covers/{{$book_data->cover_img}}" class="cover_overview">
+            <button class="btn mt-3" style="width: 100%"><i class="fas fa-headphones-alt fa-2x"></i></button>
+            <button class="btn mt-3" style="width: 100%"><i class="fas fa-bookmark fa-2x"></i></button>
+        </div>
         <div class="col-8">
             <p class="m-3 h2">{{$book_data->name}}</p>
             <p class="m-3 h5">by <a href="#">{{$book_data->author}}</a></p>
+            <p class="m-3 h5">narrated by <a href="#">{{$book_data->narrator}}</a></p>
             <generate_stars :rating="{{$book_data->rating}}" class="m-3"></generate_stars>
             <hr>
             <p class="h4">Description</p>
             <p class="m-3" style="min-height: 37vh">{{$book_data->text}}</p>
             <hr>
             <comment_section :profile="{{json_encode(auth()->user()->profile_img)}}":is0auth="{{json_encode(auth()->user()->google_id)}}"
-            :type="0":id="{{$book_data->id}}":user_id="{{json_encode(auth()->user()->id)}}"></comment_section>
+                             :type="1":id="{{$book_data->id}}":user_id="{{json_encode(auth()->user()->id)}}"></comment_section>
         </div>
 
     </div>

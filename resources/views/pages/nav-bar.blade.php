@@ -21,11 +21,15 @@
             <div class="menu-content" id="menu-content">
                 <br>
                 <span class="ml-3">{{auth()->user()->name}}<hr></span>
+                <a class="dropdown-item" href="#">profile</a>
+                <a class="dropdown-item" href="#">Bookmark list</a>
+                <a class="dropdown-item" href="settings">Settings</a>
                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="ml-1">Sign out</span></a>
                                 <form id="logout-form" action="{{route('logout')}}" method="post" style="display: none;">
                                     @csrf
                                 </form>
-                <a class="dropdown-item" href="settings">Settings</a>
+
+
                 <br>
             </div>
         </div>

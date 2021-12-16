@@ -20,6 +20,7 @@ class CreateAudioBooksTable extends Migration
             $table->string('text');
             $table->string('cover_img');
             $table->string('rating');
+            $table->string('category');
             $table->string('narrator');
             $table->timestamps();
         });

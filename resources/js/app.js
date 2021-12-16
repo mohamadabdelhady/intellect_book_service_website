@@ -7,6 +7,8 @@
 require('./bootstrap');
 window.Vue = require('vue').default;
 
+
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -22,6 +24,7 @@ Vue.component('load_book', require('./components/load_book.vue').default);
 Vue.component('load_audiobooks', require('./components/load_audiobooks.vue').default);
 Vue.component('generate_stars', require('./components/generate_stars.vue').default);
 Vue.component('comment_section', require('./components/comment_Section.vue').default);
+Vue.component('read_book', require('./components/read_book.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -50,6 +53,9 @@ const app3=new Vue({
 });
 const app4=new Vue({
     el:'comment_section',
+});
+const app5=new Vue({
+    el:'read_book',
 });
 app.component("font-awesome-icon", FontAwesomeIcon);
 app2.component("font-awesome-icon", FontAwesomeIcon);

@@ -17,6 +17,13 @@ class read_book extends Controller
 //        dd($book_data);
         return view('pages.check_book')->with('book_data',$book_data);
     }
+    public function check_audio($id)
+    {
+        $book_data=DB::table('audio_books')->select('cover_img','name','author','text','rating','id','narrator')->where('id','=',$id)->first();
+
+//        dd($book_data);
+        return view('pages.check_audio')->with('book_data',$book_data);
+    }
     public function get_comments($id,$type)
     {
         $comments=DB::table('comments','c')->join('users as u','c.user_id','=','u.id')->select(
@@ -37,5 +44,12 @@ class read_book extends Controller
             'created_at' =>  \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now(),
         ]);
+    }
+    public function load_book($id)
+    {
+        $name=DB::table('books')->where('id','=',$id)->select('name')->first();
+
+        $book_name="id_".$id."_".$name->name;
+        return view('pages.read')->with('book_name',$book_name);
     }
 }

@@ -29,7 +29,7 @@
                     <span class="fa fa-star checked fa-2x" v-if="book['rating']>=5"></span>
                     <span class="fa fa-star fa-2x" v-else></span>
                 </div>
-                <div class="m-auto"><a :href="'listen_book_'+book['id']"><i class="fas fa-headphones-alt fa-3x"></i></a></div>
+                <div class="m-auto"><a :href="'check_audio_'+book['id']"><i class="fas fa-headphones-alt fa-3x"></i></a></div>
             </div>
         </div>
         <div class="row">

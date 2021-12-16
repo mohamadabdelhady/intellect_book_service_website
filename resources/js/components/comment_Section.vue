@@ -25,6 +25,7 @@
 
 <script>
 import moment from 'moment';
+
 export default {
     name: "comment_section",
     props: ['profile', 'is0auth', 'type', 'id', 'user_id'],
@@ -59,8 +60,7 @@ export default {
     },
     mounted() {
         this.get_comments();
-        // console.log(this.comments_data);
-        console.log(this.is0auth);
+        console.log(this.comments_data);
     },
     filters: {
         fromNow(date) {

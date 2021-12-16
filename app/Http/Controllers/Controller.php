@@ -19,7 +19,7 @@ return view('pages.settings');
     {
         for($i=0;$i<=100;$i++ )
         {
-            DB::select (DB::raw("INSERT INTO `audio_books` (`id`, `name`, `author`, `text`, `cover_img`, `rating`, `narrator`, `created_at`, `updated_at`) VALUES (NULL, 'The Great Gatsby', 'F. Scott Fitzgerald', ';lkfj;ofjlaskdjfl;a', '5.jpeg', '4', 'Mohamad abdelhady', '2021-12-09 22:40:18', '2021-12-09 22:40:18');"));
+            DB::select (DB::raw("INSERT INTO `books` (`id`, `name`, `author`, `text`, `cover_img`, `rating`,`category`, `created_at`, `updated_at`) VALUES (NULL, 'Frankenstein', 'Mary Shelley', ';lkfj;ofjlaskdjfl;a', '4.jpg', '4', 'Classics','2021-12-09 22:40:18', '2021-12-09 22:40:18');"));
             echo "dfjjf";
         }
 

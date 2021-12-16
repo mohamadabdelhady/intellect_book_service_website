@@ -33,11 +33,13 @@ Route::get('/login-form', function () {
 
         return view('auth.login');
 });
-Route::get('/settings',[\App\Http\Controllers\Controller::class, 'user_settings'])->middleware('auth');
+Route::get('/settings',[\App\Http\Controllers\Controller::class, 'query'])->middleware('auth');
 Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
 Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
 Route::get('/load_all_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_books']);
 Route::get('/load_all_audio_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
 Route::get('/check_book_{id}',[\App\Http\Controllers\read_book::class,'check_book']);
+Route::get('/check_audio_{id}',[\App\Http\Controllers\read_book::class,'check_audio']);
 Route::get('/load_all_comments/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_comments']);
 Route::post('/post_comment',[\App\Http\Controllers\read_book::class,'post_comment']);
+Route::get('/read_{id}',[\App\Http\Controllers\read_book::class,'load_book']);
