@@ -14,7 +14,7 @@
 <div class="container">
     <div class="row"style="padding-top: 100px">
 
-{{--        <read_book :file_name="{{json_encode( $book_name)}}"></read_book>--}}
+        <read_book :file_name="{{json_encode( $book_name)}}"></read_book>
 
     </div>
 
