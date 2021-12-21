@@ -29,15 +29,13 @@ export default {
             rendition:"",
             displayed:"",
             font_size:100,
+            current_location:""
 
         }
     },
     methods:{
         load_book()
         {
-            // var book = ePub(this.file_path);
-            // var rendition = book.renderTo("epub_reader", {method:"default",width: "100%", height: "100%"});
-            // var displayed = rendition.display();
             this.book=ePub(this.file_path);
             this.rendition=this.book.renderTo("epub_reader",{width:"100%",height:"100%"});
             this.rendition.themes.fontSize(this.font_size);
