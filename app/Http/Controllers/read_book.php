@@ -52,4 +52,11 @@ class read_book extends Controller
         $book_name="id_".$id."_".$name->name;
         return view('pages.read')->with('book_name',$book_name);
     }
+    public function load_audio($id)
+    {
+        $name=DB::table('audio_books')->where('id','=',$id)->select('name')->first();
+        $book_name="id_".$id."_".$name->name;
+//        dd($book_name);
+        return view('pages.listen')->with('book_name',$book_name);
+    }
 }

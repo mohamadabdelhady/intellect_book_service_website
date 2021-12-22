@@ -12,9 +12,14 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class="row"style="padding-top: 100px">
+    <div class=""style="padding-top: 100px">
 
+        <listen_audiobook :file_name="{{json_encode($book_name)}}"></listen_audiobook>
+    </div>
 
 @include('pages.footer')
 </body>
 </html>
+<script>
+
+</script>

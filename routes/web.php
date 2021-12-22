@@ -43,3 +43,4 @@ Route::get('/check_audio_{id}',[\App\Http\Controllers\read_book::class,'check_au
 Route::get('/load_all_comments/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_comments']);
 Route::post('/post_comment',[\App\Http\Controllers\read_book::class,'post_comment']);
 Route::get('/read_{id}',[\App\Http\Controllers\read_book::class,'load_book']);
+Route::get('/listen_{id}',[\App\Http\Controllers\read_book::class,'load_audio']);

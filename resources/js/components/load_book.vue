@@ -82,6 +82,7 @@ name:'load_book',
     mounted(){
    this.get_books();
 
+
     }
 }
 </script>

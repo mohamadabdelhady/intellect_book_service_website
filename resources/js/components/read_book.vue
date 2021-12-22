@@ -65,7 +65,7 @@ export default {
     },
     mounted() {
         this.load_book();
-        console.log();
+        console.log(this.book.currentLocation);
     }
 }
 </script>
