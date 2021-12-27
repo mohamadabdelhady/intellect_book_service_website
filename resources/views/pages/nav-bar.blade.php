@@ -20,7 +20,7 @@
             </a>
             <div class="menu-content" id="menu-content">
                 <br>
-                <span class="ml-3">{{auth()->user()->name}}<hr></span>
+                <span class="ml-3">{{auth()->user()->name}} <hr></span>
                 <a class="dropdown-item" href="#">profile</a>
                 <a class="dropdown-item" href="#">Bookmark list</a>
                 <a class="dropdown-item" href="settings">Settings</a>
