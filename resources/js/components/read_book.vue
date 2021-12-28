@@ -15,7 +15,7 @@
 </div>
 </div>
     <div class="control_set col ml-1">
-        <a href="#" v-on:click.prevent="next_page"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
+        <a href="#" v-on:click.prevent="next_page" k><i class="fas fa-chevron-circle-right fa-2x"></i></a>
         <a href="#" v-on:click.prevent="previous_page"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
         <a href="#" v-on:click.prevent="fullScreen"><i class="fas fa-expand fa-2x"></i></a>
 
@@ -100,6 +100,16 @@ export default {
             }
             else {
                 document.getElementById('full_screen_controllers').style.display='none';
+            }
+        }
+        document.onkeydown = e => {
+            if(e.keyCode=='39')
+            {
+                this.next_page();
+            }
+            else if(e.keyCode=='37')
+            {
+                this.previous_page();
             }
         }
     },

@@ -2,16 +2,21 @@
     <div class="row">
         <img src="/audio_books/covers/5.jpeg" class="m-auto cover">
         <div class=" player m-auto">
-            <div>kfd;kf;</div>
-<div class="controllers row">
+            <div class="song-slider">
+                <input type="range" value="0" class="seek-bar">
+                <span class="current-time">00:00</span>
+                <span class="song-duration">{{this.get_duration()}}</span>
+            </div>
+            <div class="controllers row">
+                <div class="m-auto">
+                <a href="#" v-on:click.prevent="play_sound" class="ml-1"><i class="fas fa-play fa-2x" style=""></i></a>
+<!--                <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-stop fa-2x"></i></a>-->
+                    <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-pause fa-2x"></i></a>
+                </div>
+            </div>
+            </div>
 
-    <div class="ml-auto mr-auto">
-    <a href="#" v-on:click.prevent="play_sound" class="ml-1"><i class="fas fa-play fa-2x" style=""></i></a>
-    <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-stop fa-2x"></i></a>
-    </div>
-</div>
         </div>
-    </div>
 </template>
 
 <script>
@@ -24,7 +29,8 @@ export default {
         return{
             sound:"",
             file_path:"/audio_books/audio_files/"+this.file_name+".mp3",
-            is_playing:false,
+            seek:"",
+
         }
     },
     methods:
@@ -40,39 +46,106 @@ export default {
             {
                 if(!this.sound.playing()) {
                     this.sound.play();
-                    this.is_playing=true;
                 }
+
             },
             stop_sound()
             {
                 if(this.sound.playing())
                 {
                     this.sound.stop();
-                    this.is_playing=false;
                 }
+            },
+            pause_sound()
+            {
+              if(this.sound.playing())
+              {
+                  this.sound.pause();
+                  this.seek=this.sound.seek();
+              }
+            },
+            get_duration()
+            {
+                let duration=this.sound.duration();
+                let hrs = ~~(duration / 3600);
+                let mins = ~~((duration % 3600) / 60);
+                let secs = ~~duration % 60;
+
+                let ret = "";
+
+                if (hrs > 0) {
+                    ret += "" + hrs + ":" + (mins < 10 ? "0" : "");
+                }
+
+                ret += "" + mins + ":" + (secs < 10 ? "0" : "");
+                ret += "" + secs;
+                return ret;
             }
         },
     mounted() {
 this.load_audio();
-
+console.log(this.sound.seek());
     }
 }
 </script>
 
 <style scoped>
 .player{
-    background-color: #18181f;
+    background-color: #565c68;
     width:100vw;
-    height:60px;
+    height:80px;
 
 }
 
 .controllers a{
     color: #e1cfa9;
-    margin:5px;
+
 }
 .cover{
     height: 350px;
     width: 200px;
 }
+/*#myProgress {*/
+/*    width: 100%;*/
+/*    background-color: #18181f;*/
+/*}*/
+
+/*#myBar {*/
+/*    width: 1%;*/
+/*    height: 30px;*/
+/*    background-color: white;*/
+/*}*/
+.song-slider{
+    width: 98%;
+    position: relative;
+}
+
+.seek-bar{
+    -webkit-appearance: none;
+    margin-left:5px;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background: #e1cfa9;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.seek-bar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 1px;
+    height: 20px;
+    box-shadow: -400px 0 0 400px #f5eee2;
+}
+.current-time,
+.song-duration{
+    font-size: 14px;
+    margin-left:5px;
+}
+
+.song-duration{
+    position: absolute;
+    right: 0;
+}
+
 </style>
