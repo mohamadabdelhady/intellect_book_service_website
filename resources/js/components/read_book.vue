@@ -37,7 +37,7 @@
         <div class="row">
 
         <p class="h4">You can check the reviews other reader leave on this book, and make your own by going to the previous page</p>
-        <button class="btn m-auto" v-on:click.prevent="go_check">Go check reviews</button>
+        <button class="btn m-auto mt-2" v-on:click.prevent="go_check">Go check reviews</button>
             <a :href="'check_book_'+book_id" target="_blank" style="display:none;" id="check_reviews"></a>
         </div>
     </div>

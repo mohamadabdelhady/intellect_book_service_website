@@ -23,7 +23,7 @@ window.Vue = require('vue').default;
 Vue.component('load_book', require('./components/load_book.vue').default);
 Vue.component('load_audiobooks', require('./components/load_audiobooks.vue').default);
 Vue.component('generate_stars', require('./components/generate_stars.vue').default);
-Vue.component('comment_section', require('./components/comment_Section.vue').default);
+Vue.component('reviews_section', require('./components/reviews_section.vue').default);
 Vue.component('read_book', require('./components/read_book.vue').default);
 Vue.component('listen_audiobook', require('./components/listen_audiobook.vue').default);
 Vue.component('make_review', require('./components/make_review.vue').default);
@@ -54,7 +54,7 @@ const app3=new Vue({
     el:'generate_stars',
 });
 const app4=new Vue({
-    el:'comment_section',
+    el:'reviews_section',
 });
 const app5=new Vue({
     el:'read_book',

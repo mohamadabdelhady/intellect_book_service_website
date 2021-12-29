@@ -24,23 +24,25 @@ class read_book extends Controller
 //        dd($book_data);
         return view('pages.check_audio')->with('book_data',$book_data);
     }
-    public function get_comments($id,$type)
+    public function get_reviews($id,$type)
     {
-        $comments=DB::table('comments','c')->join('users as u','c.user_id','=','u.id')->select(
-        'type','content','c.updated_at','u.profile_img','u.name','u.google_id')->where('book_id','=',$id)->where('type','=',$type)->paginate(10);
-        return $comments;
+        $reviews=DB::table('reviews','r')->join('users as u','r.user_id','=','u.id')->select(
+        'type','content','r.updated_at','u.profile_img','u.name','u.google_id','r.rating')->where('book_id','=',$id)->where('type','=',$type)->paginate(10);
+        return $reviews;
     }
-    public function post_comment(Request $request)
+    public function post_review(Request $request)
     {
         $id=$request->id;
         $type=$request->type;
         $comment=$request->comment;
         $user_id=$request->user;
-        DB::table('comments')->insert([
+        $rating=$request->rating;
+        DB::table('reviews')->insert([
             'book_id'=>$id,
             'type'=>$type,
             'content'=>$comment,
             'user_id'=>$user_id,
+            'rating'=>$rating,
             'created_at' =>  \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now(),
         ]);

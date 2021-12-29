@@ -11,8 +11,8 @@
         <span v-if="my_rating!=''" class="ml-2"><a href="#" v-on:click.prevent="clear_rating">Clear rating</a></span>
     </span>
     <div class="mt-3">
-        <textarea row="10" placeholder=" Write a review (optional)." class="comment_in" v-model="user_comment" @keyup.enter="add_comment"></textarea>
-        <button class="btn" style="height: 40px;" :disabled="user_comment==''" v-on:click="add_comment">Post</button>
+        <textarea row="10" placeholder=" Write a review (optional)." class="comment_in" v-model="user_review" @keyup.enter="add_review"></textarea>
+        <button class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="add_review">Post</button>
     </div>
 </div>
 </template>
@@ -25,7 +25,7 @@ export default {
         return {
             my_rating: "",
             my_review: "",
-            user_comment: "",
+            user_review: "",
         }
     },
     methods: {
@@ -49,15 +49,16 @@ export default {
         {
             this.my_rating=num;
         },
-        add_comment() {
+        add_review() {
 
-            axios.post('post_comment', {
-                comment: this.user_comment,
+            axios.post('post_review', {
+                review: this.user_review,
+                rating:this.my_rating,
                 id: this.id,
                 type: this.type,
                 user: this.user_id,
             })
-            this.user_comment = "";
+            this.user_review = "";
         },
         clear_rating()
         {
@@ -73,10 +74,10 @@ export default {
 
 <style scoped>
 .comment_in{
+    min-height: 100px;
     width: 100%;
     outline: none;
     border: none;
-    height: 40px;
     background-color: white;
     border: 1px solid #f5eee2;
 }
