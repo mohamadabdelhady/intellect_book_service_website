@@ -1,4 +1,5 @@
 <template>
+    <div>
 <div class="row" id="reader_frame">
 <div id="epub_reader" class="m-auto">
 <div id="full_screen_controllers" style="display: none;" class="ml-2 mb-2 mt-1">
@@ -30,14 +31,23 @@
 
             </span>
     </div>
+
 </div>
+        <hr>
+        <div class="row">
+
+        <p class="h4">You can check the reviews other reader leave on this book, and make your own by going to the previous page</p>
+        <button class="btn m-auto" v-on:click.prevent="go_check">Go check reviews</button>
+            <a :href="'check_book_'+book_id" target="_blank" style="display:none;" id="check_reviews"></a>
+        </div>
+    </div>
 </template>
 
 <script>
 import ePub from "epubjs";
 export default {
     name: "read_book",
-    props:['file_name'],
+    props:['file_name','rate','name','book_id'],
     data()
     {
         return{
@@ -47,7 +57,7 @@ export default {
             displayed:"",
             font_size:100,
             current_location:'',
-            is_full:document.fullscreenElement,
+
 
         }
     },
@@ -88,6 +98,10 @@ export default {
         exit_fullScreen()
         {
             document.exitFullscreen();
+        },
+        go_check()
+        {
+            document.getElementById('check_reviews').click();
         }
     },
     mounted() {

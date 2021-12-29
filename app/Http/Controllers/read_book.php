@@ -47,10 +47,12 @@ class read_book extends Controller
     }
     public function load_book($id)
     {
-        $name=DB::table('books')->where('id','=',$id)->select('name')->first();
-
-        $book_name="id_".$id."_".$name->name;
-        return view('pages.read')->with('book_name',$book_name);
+        $row=DB::table('books')->where('id','=',$id)->first();
+        $name=$row->name;
+        $rate=$row->rating;
+        $id=$row->id;
+        $book_name="id_".$id."_".$row->name;
+        return view('pages.read')->with(compact('book_name','rate','name','id'));
     }
     public function load_audio($id)
     {

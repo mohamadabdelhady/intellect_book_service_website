@@ -94,7 +94,7 @@ console.log(this.sound.seek());
     background-color: #565c68;
     width:100vw;
     height:80px;
-
+    border-radius: 1%;
 }
 
 .controllers a{

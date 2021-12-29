@@ -26,6 +26,7 @@ Vue.component('generate_stars', require('./components/generate_stars.vue').defau
 Vue.component('comment_section', require('./components/comment_Section.vue').default);
 Vue.component('read_book', require('./components/read_book.vue').default);
 Vue.component('listen_audiobook', require('./components/listen_audiobook.vue').default);
+Vue.component('make_review', require('./components/make_review.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -61,9 +62,14 @@ const app5=new Vue({
 const app6=new Vue({
     el:'listen_audiobook',
 });
+const app7=new Vue({
+    el:'make_review',
+});
+
 app.component("font-awesome-icon", FontAwesomeIcon);
 app2.component("font-awesome-icon", FontAwesomeIcon);
 app3.component("font-awesome-icon", FontAwesomeIcon);
 app4.component("font-awesome-icon", FontAwesomeIcon);
 app5.component("font-awesome-icon", FontAwesomeIcon);
 app6.component("font-awesome-icon", FontAwesomeIcon);
+app7.component("font-awesome-icon", FontAwesomeIcon);

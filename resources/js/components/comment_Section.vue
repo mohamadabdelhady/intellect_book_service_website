@@ -1,14 +1,11 @@
 <template>
     <div>
-<p class="h4">Comment section</p>
-    <div class="mt-3">
-        <img :src="profile" class="userAvatar" v-if="is0auth!=null">
-        <img :src="'/images/users_profile_img/'+profile" v-else class="userAvatar">
-        <input placeholder=" Add a comment" class="comment_in" v-model="user_comment" @keyup.enter="add_comment">
-        <button class="btn" style="height: 40px;" :disabled="user_comment==''" v-on:click="add_comment">Post</button>
-    </div>
+<make_review :user_id="this.user_id" :type="this.type" :id="this.id"></make_review>
+        <hr>
+<p class="h4 mt-4">What other readers think of the book.</p>
+
         <div class="mt-5">
-            <p v-if="!comments_data.length" class="h5" style="margin-left:50px;">There is no comments on this book, be the first one to comment.</p>
+            <p v-if="!comments_data.length" class="h5" style="margin-left:50px;">There is no reviews on this book, be the first one to review it.</p>
             <div class="comments" v-for="(comment,index) in comments_data">
                 <div>
                     <img :src="comment.profile_img" class="userAvatar" v-if="comment.google_id!=null">
@@ -32,7 +29,6 @@ export default {
     data() {
         return {
             comments_data: [],
-            user_comment: "",
             page: 1,
 
         }
@@ -46,16 +42,7 @@ export default {
             })
 
         },
-        add_comment() {
 
-            axios.post('post_comment', {
-                comment: this.user_comment,
-                id: this.id,
-                type: this.type,
-                user: this.user_id,
-            })
-            this.user_comment = "";
-        }
 
     },
     mounted() {
@@ -78,12 +65,5 @@ export default {
     height: 40px;
     border-radius: 50%;
 }
-.comment_in{
-    width: 80%;
-    margin-left: 10px;
-    outline: none;
-    border: none;
-    height: 40px;
-    background-color: white;
-}
+
 </style>
