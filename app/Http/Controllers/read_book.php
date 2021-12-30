@@ -27,25 +27,32 @@ class read_book extends Controller
     public function get_reviews($id,$type)
     {
         $reviews=DB::table('reviews','r')->join('users as u','r.user_id','=','u.id')->select(
-        'type','content','r.updated_at','u.profile_img','u.name','u.google_id','r.rating')->where('book_id','=',$id)->where('type','=',$type)->paginate(10);
+        'type','review','r.updated_at','u.profile_img','u.name','u.google_id','r.rating')->where('book_id','=',$id)->where('type','=',$type)->where('user_id','!=',auth()->user()->id)->paginate(10);
+//        $reviews=DB::table('reviews')->where('book_id','=',$id)->where('type','=',$type)->where('')
+//        dd($reviews);
         return $reviews;
     }
     public function post_review(Request $request)
     {
         $id=$request->id;
         $type=$request->type;
-        $comment=$request->comment;
+        $review=$request->review;
         $user_id=$request->user;
         $rating=$request->rating;
         DB::table('reviews')->insert([
             'book_id'=>$id,
             'type'=>$type,
-            'content'=>$comment,
+            'review'=>$review,
             'user_id'=>$user_id,
             'rating'=>$rating,
             'created_at' =>  \Carbon\Carbon::now(),
             'updated_at' => \Carbon\Carbon::now(),
         ]);
+    }
+    public function get_my_review($id,$type)
+    {
+        $review=DB::table('reviews')->where('book_id','=',$id)->where('type','=',$type)->where('user_id','=',auth()->user()->id)->first();
+        return $review;
     }
     public function load_book($id)
     {

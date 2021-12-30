@@ -1,5 +1,6 @@
 <template>
-<div class="review p-2">
+    <div>
+<div v-if="!my_review.length" class="review p-2">
         <p class="h3">What did you think of this book</p>
     <span class="mt-2" style="padding-left: 60px;">
         <a href="#" class='' id="star_1" @mouseover="fill_star(1)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(1)"><i class="fa fa-star fa-3x"></i></a>
@@ -13,8 +14,16 @@
     <div class="mt-3">
         <textarea row="10" placeholder=" Write a review (optional)." class="comment_in" v-model="user_review" @keyup.enter="add_review"></textarea>
         <button class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="add_review">Post</button>
+        <p id="error_post" style="color: firebrick; display: none;">You have to pick a rating to post a review.</p>
     </div>
 </div>
+    <div v-else class="my_review p-2" v-for="(review,index) in my_review">
+        <span class="h3">Your review</span>
+        <a href="#"><span class="pl-1">{{review.name}}</span></a>
+        <span style="float: right;"><generate_stars :rating="review.rating"></generate_stars></span>
+        <p class="pt-2" style="padding-left: 60px;">{{review.review}}</p>
+    </div>
+    </div>
 </template>
 
 <script>
@@ -24,8 +33,9 @@ export default {
     data() {
         return {
             my_rating: "",
-            my_review: "",
             user_review: "",
+            made_review:0,
+            my_review:[],
         }
     },
     methods: {
@@ -50,15 +60,32 @@ export default {
             this.my_rating=num;
         },
         add_review() {
+            if(this.my_rating!='') {
+                document.getElementById('error_post').style.display='none';
+                axios.post('post_review', {
+                    review: this.user_review,
+                    rating: this.my_rating,
+                    id: this.id,
+                    type: this.type,
+                    user: this.user_id,
+                })
+                this.user_review = "";
+                console.log('kljflkaj');
+                this.$emit('update_review');
+            }
+            else {
+                document.getElementById('error_post').style.display='block';
+            }
+        },
+        get_my_review() {
+            axios.get('get_my_review/' + this.id + '/' + this.type).then(response => {
+                if (response.data != "") {
+                    this.my_review.push(response.data);
 
-            axios.post('post_review', {
-                review: this.user_review,
-                rating:this.my_rating,
-                id: this.id,
-                type: this.type,
-                user: this.user_id,
-            })
-            this.user_review = "";
+                } else {
+                    this.my_review = [];
+                }
+            });
         },
         clear_rating()
         {
@@ -67,7 +94,7 @@ export default {
         }
     },
     mounted() {
-
+this.get_my_review();
     }
 }
 </script>
@@ -86,6 +113,10 @@ export default {
     border: 1px solid #565c68;
 }
 .review{
+    background-color: #e1cfa9;
+    border-radius: 1%;
+}
+.my_review{
     background-color: #e1cfa9;
     border-radius: 1%;
 }

@@ -42,5 +42,6 @@ Route::get('/check_book_{id}',[\App\Http\Controllers\read_book::class,'check_boo
 Route::get('/check_audio_{id}',[\App\Http\Controllers\read_book::class,'check_audio']);
 Route::get('/load_all_reviews/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_reviews']);
 Route::post('/post_review',[\App\Http\Controllers\read_book::class,'post_review']);
+Route::get('/get_my_review/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_my_review']);
 Route::get('/read_{id}',[\App\Http\Controllers\read_book::class,'load_book']);
 Route::get('/listen_{id}',[\App\Http\Controllers\read_book::class,'load_audio']);
