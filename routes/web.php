@@ -45,4 +45,5 @@ Route::post('/post_review',[\App\Http\Controllers\read_book::class,'post_review'
 Route::post('/edit_review',[\App\Http\Controllers\read_book::class,'update_review']);
 Route::get('/get_my_review/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_my_review']);
 Route::get('/read_{id}',[\App\Http\Controllers\read_book::class,'load_book']);
+Route::get('/delete_review/{id}/{type}',[\App\Http\Controllers\read_book::class,'delete_review']);
 Route::get('/listen_{id}',[\App\Http\Controllers\read_book::class,'load_audio']);

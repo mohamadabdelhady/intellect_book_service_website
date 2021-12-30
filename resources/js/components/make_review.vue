@@ -30,7 +30,7 @@
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('edit-btn').click();">Edit</a>
                 <button type="button" class="btn btn-info btn-lg" v-on:click="edit_reviewF" style="display: none;" id="edit-btn"></button>
-                <a class="dropdown-item" href="#">Delete</a>
+                <a class="dropdown-item" href="#" v-on:click.prevent="delete_review">Delete</a>
 
             </div>
         </div>
@@ -118,6 +118,12 @@ export default {
             } else {
                 document.getElementById('error_post').style.display = 'block';
             }
+        },
+        delete_review()
+        {
+            axios.get('delete_review/'+this.id+'/'+this.type).then(response => {
+                this.$emit('update_review');
+            });
         }
     },
     mounted() {

@@ -28,8 +28,7 @@ class read_book extends Controller
     {
         $reviews=DB::table('reviews','r')->join('users as u','r.user_id','=','u.id')->select(
         'type','review','r.updated_at','u.profile_img','u.name','u.google_id','r.rating')->where('book_id','=',$id)->where('type','=',$type)->where('user_id','!=',auth()->user()->id)->paginate(10);
-//        $reviews=DB::table('reviews')->where('book_id','=',$id)->where('type','=',$type)->where('')
-//        dd($reviews);
+
         return $reviews;
     }
     public function post_review(Request $request)
@@ -52,6 +51,11 @@ class read_book extends Controller
     public  function update_review(Request $request)
     {
         DB::table('reviews')->where('user_id','=',$request->user)->update(['review'=>$request->review,'rating'=>$request->rating]);
+    }
+    public function delete_review($id,$type)
+    {
+        DB::table('reviews')->where('user_id','=',auth()->user()->id)->where('book_id','=',$id)->where('type','=',$type)->delete();
+
     }
     public function get_my_review($id,$type)
     {

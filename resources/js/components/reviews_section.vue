@@ -37,7 +37,6 @@ export default {
     data() {
         return {
             review_data: [],
-            // my_review:[],
             page: 1,
             made_review:1,
         }
@@ -52,21 +51,7 @@ export default {
             })
 
         },
-        // get_my_review()
-        // {
-        //     axios.get('get_my_review/'+this.id+'/'+this.type).then(response=>{
-        //         if(response.data!="")
-        //         {
-        //             this.my_review.push(response.data);
-        //
-        //         }
-        //         else
-        //         {
-        //             this.my_review=[];
-        //         }
-        //     });
 
-        // },
         updateR()
         {
             this.made_review++;
@@ -74,7 +59,6 @@ export default {
         },
     },
     mounted() {
-        // this.get_my_review();
         this.get_reviews();
 
 
