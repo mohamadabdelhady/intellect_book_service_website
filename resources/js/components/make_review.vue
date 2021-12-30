@@ -1,6 +1,6 @@
 <template>
     <div>
-<div v-if="!my_review.length" class="review p-2">
+<div v-if="!my_review.length" class="review p-2" >
         <p class="h3">What did you think of this book</p>
     <span class="mt-2" style="padding-left: 60px;">
         <a href="#" class='' id="star_1" @mouseover="fill_star(1)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(1)"><i class="fa fa-star fa-3x"></i></a>
@@ -13,7 +13,8 @@
     </span>
     <div class="mt-3">
         <textarea row="10" placeholder=" Write a review (optional)." class="comment_in" v-model="user_review" @keyup.enter="add_review"></textarea>
-        <button class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="add_review">Post</button>
+        <button v-if="edit_review==false" class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="add_review">Post</button>
+        <button v-else class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="update_review">Edit</button>
         <p id="error_post" style="color: firebrick; display: none;">You have to pick a rating to post a review.</p>
     </div>
 </div>
@@ -22,6 +23,17 @@
         <a href="#"><span class="pl-1">{{review.name}}</span></a>
         <span style="float: right;"><generate_stars :rating="review.rating"></generate_stars></span>
         <p class="pt-2" style="padding-left: 60px;">{{review.review}}</p>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ...
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('edit-btn').click();">Edit</a>
+                <button type="button" class="btn btn-info btn-lg" v-on:click="edit_reviewF" style="display: none;" id="edit-btn"></button>
+                <a class="dropdown-item" href="#">Delete</a>
+
+            </div>
+        </div>
     </div>
     </div>
 </template>
@@ -29,39 +41,35 @@
 <script>
 export default {
     name: "make_review",
-    props:['user_id','type','id'],
+    props: ['user_id', 'type', 'id'],
     data() {
         return {
             my_rating: "",
             user_review: "",
-            made_review:0,
-            my_review:[],
+            my_review: [],
+            edit_review: false,
         }
     },
     methods: {
-        fill_star(num)
-        {
-            for (let i=1;i<=num;i++)
-            {
-                document.getElementById('star_'+i).style.color='goldenrod';
+        fill_star(num) {
+            console.log(num);
+            for (let i = 1; i <= num; i++) {
+                document.getElementById('star_' + i).style.color = 'goldenrod';
             }
         },
-        empty_star()
-        {
+        empty_star() {
 
-            let current_rate=this.my_rating;
-            for (let i=5;i>current_rate;i--)
-            {
-                document.getElementById('star_'+i).style.color='#212529';
+            let current_rate = this.my_rating;
+            for (let i = 5; i > current_rate; i--) {
+                document.getElementById('star_' + i).style.color = '#212529';
             }
         },
-        set_rating(num)
-        {
-            this.my_rating=num;
+        set_rating(num) {
+            this.my_rating = num;
         },
         add_review() {
-            if(this.my_rating!='') {
-                document.getElementById('error_post').style.display='none';
+            if (this.my_rating != '') {
+                document.getElementById('error_post').style.display = 'none';
                 axios.post('post_review', {
                     review: this.user_review,
                     rating: this.my_rating,
@@ -70,11 +78,9 @@ export default {
                     user: this.user_id,
                 })
                 this.user_review = "";
-                console.log('kljflkaj');
                 this.$emit('update_review');
-            }
-            else {
-                document.getElementById('error_post').style.display='block';
+            } else {
+                document.getElementById('error_post').style.display = 'block';
             }
         },
         get_my_review() {
@@ -87,14 +93,40 @@ export default {
                 }
             });
         },
-        clear_rating()
-        {
-            this.my_rating="";
+        clear_rating() {
+            this.my_rating = "";
             this.empty_star();
+        },
+        edit_reviewF() {
+            this.user_review = this.my_review[0].review;
+            this.my_rating = this.my_review[0].rating;
+            this.my_review = [];
+            this.edit_review = true;
+
+        },
+        update_review()
+        {
+            if (this.my_rating != '') {
+                document.getElementById('error_post').style.display = 'none';
+                axios.post('edit_review', {
+                    review: this.user_review,
+                    rating: this.my_rating,
+                    user: this.user_id,
+                })
+                this.user_review = "";
+                this.$emit('update_review');
+            } else {
+                document.getElementById('error_post').style.display = 'block';
+            }
         }
     },
     mounted() {
-this.get_my_review();
+        this.get_my_review();
+        this.fill_star(this.my_rating);
+    },
+    watch:{
+        edit_review:function(){
+}
     }
 }
 </script>

@@ -49,6 +49,10 @@ class read_book extends Controller
             'updated_at' => \Carbon\Carbon::now(),
         ]);
     }
+    public  function update_review(Request $request)
+    {
+        DB::table('reviews')->where('user_id','=',$request->user)->update(['review'=>$request->review,'rating'=>$request->rating]);
+    }
     public function get_my_review($id,$type)
     {
         $review=DB::table('reviews')->where('book_id','=',$id)->where('type','=',$type)->where('user_id','=',auth()->user()->id)->first();

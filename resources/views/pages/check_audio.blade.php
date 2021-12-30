@@ -28,8 +28,8 @@
             <p class="h4">Description</p>
             <p class="m-3" style="min-height: 37vh">{{$book_data->text}}</p>
             <hr>
-            <comment_section :profile="{{json_encode(auth()->user()->profile_img)}}":is0auth="{{json_encode(auth()->user()->google_id)}}"
-                             :type="1":id="{{$book_data->id}}":user_id="{{json_encode(auth()->user()->id)}}"></comment_section>
+            <reviews_section :profile="{{json_encode(auth()->user()->profile_img)}}":is0auth="{{json_encode(auth()->user()->google_id)}}"
+                             :type="1":id="{{$book_data->id}}":user_id="{{json_encode(auth()->user()->id)}}"></reviews_section>
         </div>
 
     </div>
