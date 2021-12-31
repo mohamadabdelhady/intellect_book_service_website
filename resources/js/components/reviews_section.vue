@@ -1,12 +1,7 @@
 <template>
     <div>
 <make_review :user_id="this.user_id" :type="this.type" :id="this.id"  @update_review="updateR" :key="made_review"></make_review>
-<!--        <div v-else class="my_review p-2" v-for="(review,index) in my_review">-->
-<!--            <span class="h3">Your review</span>-->
-<!--            <a href="#"><span class="pl-1">{{review.name}}</span></a>-->
-<!--            <span style="float: right;"><generate_stars :rating="review.rating"></generate_stars></span>-->
-<!--        <p class="pt-2" style="padding-left: 60px;">{{review.review}}</p>-->
-<!--        </div>-->
+
         <hr>
 <p class="h4 mt-4">What other readers think of the book.</p>
 
@@ -39,6 +34,7 @@ export default {
             review_data: [],
             page: 1,
             made_review:1,
+            edit_review:false,
         }
     },
 
