@@ -40,6 +40,7 @@
         <button class="btn m-auto mt-2" v-on:click.prevent="go_check">Go check reviews</button>
             <a :href="'check_book_'+book_id" target="_blank" style="display:none;" id="check_reviews"></a>
         </div>
+<!--        <button v-on:click="test">dfsa</button>-->
     </div>
 </template>
 
@@ -47,7 +48,7 @@
 import ePub from "epubjs";
 export default {
     name: "read_book",
-    props:['file_name','rate','name','book_id'],
+    props:['file_name','type','name','book_id'],
     data()
     {
         return{
@@ -56,8 +57,8 @@ export default {
             rendition:"",
             displayed:"",
             font_size:100,
-            current_location:'',
-
+            reader_progress:'',
+           id:this.book_id
 
         }
     },
@@ -72,6 +73,7 @@ export default {
         next_page()
         {
             this.rendition.next();
+            // this.set_reader_progress();
         },
         previous_page()
         {
@@ -102,10 +104,34 @@ export default {
         go_check()
         {
             document.getElementById('check_reviews').click();
+        },
+        set_reader_progress()
+        {
+        axios.post('set_book_progress',{
+            book_id:this.book_id,
+            progress:this.reader_progress,
+            type:this.type
+        });
+        alert("hi");
+        },
+
+        get_reader_progress()
+        {
+            axios.get('get_book_progress/'+this.id+'/'+this.type).then(response => {
+                if (response.data!=null) {
+                    this.rendition.display(response.data)
+                }
+            });
+
         }
     },
     mounted() {
         this.load_book();
+        this.get_reader_progress();
+        this.rendition.on('relocated', (location) => {
+            let temp=location.start.cfi;
+            this.reader_progress=temp;
+        });
         document.onfullscreenchange=function()
         {
             if(document.fullscreenElement!=null)
@@ -126,6 +152,9 @@ export default {
                 this.previous_page();
             }
         }
+
+        window.addEventListener('unload', this.set_reader_progress);
+
     },
     created() {
 

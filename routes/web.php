@@ -47,3 +47,6 @@ Route::get('/get_my_review/{id}/{type}',[\App\Http\Controllers\read_book::class,
 Route::get('/read_{id}',[\App\Http\Controllers\read_book::class,'load_book']);
 Route::get('/delete_review/{id}/{type}',[\App\Http\Controllers\read_book::class,'delete_review']);
 Route::get('/listen_{id}',[\App\Http\Controllers\read_book::class,'load_audio']);
+Route::post('/set_book_progress',[\App\Http\Controllers\ProgressController::class,'set_book_progress']);
+Route::get('/get_book_progress/{id}/{type}',[\App\Http\Controllers\ProgressController::class,'get_book_progress']);
+Route::get('/set_book_progress',[\App\Http\Controllers\ProgressController::class,'set_book_progress']);

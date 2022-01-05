@@ -10,12 +10,14 @@
         <a href="#" class='' id="star_5" @mouseover="fill_star(5)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(5)"><i class="fa fa-star fa-3x"></i></a>
         <span class="ml-2">{{this.my_rating}}/5</span>
         <span v-if="my_rating!=''" class="ml-2"><a href="#" v-on:click.prevent="clear_rating">Clear rating</a></span>
-
     </span>
     <div class="mt-3">
         <textarea row="10" placeholder=" Write a review (optional)." class="comment_in" v-model="user_review" @keyup.enter="add_review"></textarea>
         <button v-if="edit_review==false" class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="add_review">Post</button>
-        <button v-else class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="update_review">Edit</button>
+        <div v-else>
+        <button class="btn" style="height: 40px;" :disabled="user_review==''" v-on:click="update_review">Edit</button>
+        <button class="btn ml-2 btn-cancel" style="height: 40px;" :disabled="user_review==''" v-on:click="cancel_edit">Cancel</button>
+            </div>
         <p id="error_post" style="color: firebrick; display: none;">You have to pick a rating to post a review.</p>
     </div>
 
@@ -128,6 +130,10 @@ export default {
             axios.get('delete_review/'+this.id+'/'+this.type).then(response => {
                 this.$emit('update_review');
             });
+        },
+        cancel_edit()
+        {
+            this.$emit('update_review');
         }
     },
     mounted() {
@@ -135,10 +141,6 @@ export default {
     },
     updated() {
         this.fill_star(this.my_rating)
-    },
-    watch:{
-        edit_review:function(){
-}
     }
 }
 </script>

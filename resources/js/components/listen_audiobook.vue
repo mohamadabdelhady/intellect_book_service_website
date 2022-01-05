@@ -123,10 +123,10 @@ console.log(this.sound.seek());
 .seek-bar{
     -webkit-appearance: none;
     margin-left:5px;
-    width: 100%;
+    width: 80vw;
     height: 5px;
     border-radius: 10px;
-    background: #e1cfa9;
+    background: white;
     overflow: hidden;
     cursor: pointer;
 }
@@ -135,7 +135,7 @@ console.log(this.sound.seek());
     -webkit-appearance: none;
     width: 1px;
     height: 20px;
-    box-shadow: -400px 0 0 400px #f5eee2;
+    box-shadow: -80vw 0 0 80vw #e1cfa9;
 }
 .current-time,
 .song-duration{

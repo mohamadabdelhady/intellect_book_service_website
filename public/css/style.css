@@ -52,6 +52,19 @@ body{
     color:#18181f ;
     border: 1px solid #e1cfa9;
 }
+.btn-cancel:focus{
+    border-color: #e1cfa9;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(225, 207, 169, 0.5);
+}
+.btn-cancel{
+    background-color: firebrick;
+    color: #ebe8e3;
+}
+.btn-cancel:hover{
+    background-color: #ebe8e3;
+    color:#18181f ;
+    border: 1px solid #e1cfa9;
+}
 .sign-up-form button{
     width: 200px;
 }

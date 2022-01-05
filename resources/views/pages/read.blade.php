@@ -14,7 +14,7 @@
 <div class="container">
     <div class="row"style="padding-top: 100px">
 
-        <read_book :file_name="{{json_encode( $book_name)}}":rate="{{json_encode($rate)}}":name="{{json_encode($name)}}" :book_id="{{json_encode($id)}}"></read_book>
+        <read_book :file_name="{{json_encode( $book_name)}}":type="0":name="{{json_encode($name)}}" :book_id="{{json_encode($id)}}"></read_book>
 
     </div>
 

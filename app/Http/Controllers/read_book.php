@@ -66,10 +66,10 @@ class read_book extends Controller
     {
         $row=DB::table('books')->where('id','=',$id)->first();
         $name=$row->name;
-        $rate=$row->rating;
+
         $id=$row->id;
         $book_name="id_".$id."_".$row->name;
-        return view('pages.read')->with(compact('book_name','rate','name','id'));
+        return view('pages.read')->with(compact('book_name','name','id'));
     }
     public function load_audio($id)
     {
