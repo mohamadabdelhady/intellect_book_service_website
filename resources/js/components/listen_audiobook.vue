@@ -37,9 +37,15 @@ export default {
         {
             load_audio()
             {
-                 this.sound = new Howl({
+                this.sound = new Howl({
+                    xhr: {
+                        method: 'GET',
+                        headers: {
+                            'Accept-Ranges': 'bytes',
+                        },
+                    },
                     src: [this.file_path],
-                    html5: true
+                         html5: true
                 });
             },
             play_sound()
