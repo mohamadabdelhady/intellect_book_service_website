@@ -11,7 +11,7 @@
                 <div class="m-auto">
                 <a href="#" v-on:click.prevent="play_sound" class="ml-1"><i class="fas fa-play fa-2x" style=""></i></a>
 <!--                <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-stop fa-2x"></i></a>-->
-                    <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-pause fa-2x"></i></a>
+                    <a href="#" v-on:click.prevent="pause_sound" class="ml-1"><i class="fas fa-pause fa-2x"></i></a>
                 </div>
             </div>
             </div>
@@ -37,15 +37,11 @@ export default {
         {
             load_audio()
             {
-                this.sound = new Howl({
-                    xhr: {
-                        method: 'GET',
-                        headers: {
-                            'Accept-Ranges': 'bytes',
-                        },
-                    },
+                 this.sound = new Howl({
                     src: [this.file_path],
-                         html5: true
+                    html5: true,
+                     autoplay:false,
+
                 });
             },
             play_sound()
