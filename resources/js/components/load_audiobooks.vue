@@ -75,7 +75,7 @@ export default {
             this.get_books();
         }
     },
-    mounted(){
+    created(){
         this.get_books();
 
     }

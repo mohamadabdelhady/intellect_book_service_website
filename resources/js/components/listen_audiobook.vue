@@ -3,7 +3,7 @@
         <img src="/audio_books/covers/5.jpeg" class="m-auto cover">
         <div class=" player m-auto">
             <div class="song-slider">
-                <input type="range" value="0" class="seek-bar">
+                <input type="range" :value="audio_seek" class="seek-bar" id="audio-seek">
                 <span class="current-time">00:00</span>
                 <span class="song-duration">{{this.get_duration()}}</span>
             </div>
@@ -29,8 +29,10 @@ export default {
         return{
             sound:"",
             file_path:"/audio_books/audio_files/"+this.file_name+".mp3",
-            seek:"",
-
+            audio_seek:0,
+            volume:1.0,
+            audio_duration:0,
+            is_playing:false,
         }
     },
     methods:
@@ -41,29 +43,24 @@ export default {
                     src: [this.file_path],
                     html5: true,
                      autoplay:false,
-
+                     onplay: function(){
+                         this.update_seekbar();
+                     }
                 });
+
             },
             play_sound()
             {
                 if(!this.sound.playing()) {
-                    this.sound.play();
+                   this.sound.play();
                 }
 
-            },
-            stop_sound()
-            {
-                if(this.sound.playing())
-                {
-                    this.sound.stop();
-                }
             },
             pause_sound()
             {
               if(this.sound.playing())
               {
                   this.sound.pause();
-                  this.seek=this.sound.seek();
               }
             },
             get_duration()
@@ -82,25 +79,43 @@ export default {
                 ret += "" + mins + ":" + (secs < 10 ? "0" : "");
                 ret += "" + secs;
                 return ret;
-            }
+            },
+            update_seekbar(){
+                console.log('jfla');
+                let seek=this.sound.seek();
+                this.audio_seek=(((seek / this.sound.duration()) * 100) || 0);
+                if(this.sound.playing())
+                {
+                    this.update_seekbar();
+                }
+            },
         },
     mounted() {
-this.load_audio();
-console.log(this.sound.seek());
-    }
+        this.$nextTick(function () {
+
+        });
+    },
+    created() {
+        this.load_audio();
+    },
+    beforeUpdate() {
+        // console.log(this.sound.duration());
+    },
+
 }
 </script>
 
 <style scoped>
 .player{
-    background-color: #565c68;
+    background-color: #f1f1f0;
+    border:1px solid #e1cfa9;
     width:100vw;
     height:80px;
     border-radius: 1%;
 }
 
 .controllers a{
-    color: #e1cfa9;
+    color: #565c68;
 
 }
 .cover{

@@ -112,7 +112,6 @@ export default {
             progress:this.reader_progress,
             type:this.type
         });
-        alert("hi");
         },
 
         get_reader_progress()
@@ -125,6 +124,7 @@ export default {
 
         }
     },
+
     mounted() {
         this.load_book();
         this.get_reader_progress();
