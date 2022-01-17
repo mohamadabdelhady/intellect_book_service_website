@@ -14,7 +14,6 @@
     <div class="row" style="padding-top: 100px">
         <div class="col-3">
             <img src="/audio_books/covers/{{$book_data->cover_img}}" class="cover_overview">
-{{--            <button class="btn mt-3" style="width: 100%"><i class="fas fa-headphones-alt fa-2x"></i></button>--}}
             <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('listen_btn').click();"><i class="fas fa-headphones-alt fa-2x" style=""></i></button>
             <a href="listen_{{$book_data->id}}" style="display: none" id="listen_btn"></a>
             <button class="btn mt-3" style="width: 100%"><i class="fas fa-bookmark fa-2x"></i></button>

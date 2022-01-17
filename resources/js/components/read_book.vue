@@ -40,7 +40,6 @@
         <button class="btn m-auto mt-2" v-on:click.prevent="go_check">Go check reviews</button>
             <a :href="'check_book_'+book_id" target="_blank" style="display:none;" id="check_reviews"></a>
         </div>
-<!--        <button v-on:click="test">dfsa</button>-->
     </div>
 </template>
 

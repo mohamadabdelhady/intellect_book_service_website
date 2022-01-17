@@ -76,6 +76,7 @@ class read_book extends Controller
         $name=DB::table('audio_books')->where('id','=',$id)->select('name')->first();
         $book_name="id_".$id."_".$name->name;
 //        dd($book_name);
-        return view('pages.listen')->with('book_name',$book_name);
+        $book_id=$id;
+        return view('pages.listen')->with(compact('book_name','book_id'));
     }
 }
