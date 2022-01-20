@@ -2,9 +2,9 @@
     <div>
     <div class="row">
         <img src="/audio_books/covers/5.jpeg" class="m-auto cover">
-        <div class=" player m-auto">
+        <div class="player">
             <div class="song-slider">
-                <input type="range" :value="audio_seek" class="seek-bar" id="audio-seek">
+                <input type="range" value="0" class="seek-bar" id="audio-seek" >
                 <span class="current-time">{{audio_seek_formated}}</span>
                 <span class="song-duration">{{get_duration(sound.duration())}}</span>
             </div>
@@ -13,9 +13,24 @@
                 <a href="#" v-on:click.prevent="play_sound" class="ml-1"><i class="fas fa-play fa-2x" style=""></i></a>
 <!--                <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-stop fa-2x"></i></a>-->
                     <a href="#" v-on:click.prevent="pause_sound" class="ml-1"><i class="fas fa-pause fa-2x"></i></a>
-                    <button v-on:click="seek">seek</button>
+
+                </div>
+
+                <div>
+                    <span class="mr-2">
+                        <span>play rate</span>
+        <a href="#" v-on:click.prevent="change_rate('-')"><i class="fas fa-minus-circle"></i></a>
+        <span>{{playback_rate}}</span>
+        <a href="#" v-on:click.prevent="change_rate('+')"><i class="fas fa-plus-circle"></i></a>
+
+    </span>
+                    <a href="#" v-on:click.prevent="mute_sound" class="ml-1"><i class="fas fa-volume-mute" style="" id="mute"></i></a>
+                    <span>{{volume}}%</span>
+                    <input type="range" :value="volume" class="seek-bar" id="volume" style="width:5vw;margin-right:50px " >
+
                 </div>
             </div>
+
             </div>
 
         </div>
@@ -41,9 +56,11 @@ export default {
             file_path:"/audio_books/audio_files/"+this.file_name+".mp3",
             audio_seek:0,
             audio_seek_formated:"00:00",
-            volume:1.0,
+            volume:100,
             audio_duration:0,
             is_playing:"",
+            playback_rate:1.0,
+            mute:false,
         }
     },
     methods:
@@ -60,8 +77,32 @@ export default {
                 });
 
             },
-            seek(){
+            change_rate(sign){
 
+                if(sign=='-'&&this.playback_rate>0.5)
+                {
+
+                    this.playback_rate=this.playback_rate-0.5;
+                    this.sound.rate(this.playback_rate);
+                }
+                else if(sign=='+'&&this.playback_rate<4.0)
+                {
+                    this.playback_rate=this.playback_rate+0.5;
+                    this.sound.rate(this.playback_rate);
+                }
+            },
+            mute_sound()
+            {
+                this.mute=!this.mute;
+                if(this.mute==true)
+                {
+                    document.getElementById('mute').style='color:firebrick';
+                }
+                else {
+                    document.getElementById('mute').style='color:#565c68';
+
+                }
+                this.sound.mute(this.mute);
             },
             go_check()
             {
@@ -82,7 +123,7 @@ export default {
               if(this.sound.playing())
               {
                   this.sound.pause();
-                  clearInterval(this.is_playing);
+
               }
             },
             get_duration(duration)
@@ -94,14 +135,34 @@ export default {
             update_seekbar(){
                 let seek=this.sound.seek();
                 this.audio_seek=(((seek / this.sound.duration()) * 100) || 0);
+                document.getElementById('audio-seek').value=this.audio_seek;
                this.audio_seek_formated= this.get_duration(Math.round(seek));
+               if (!this.sound.playing())
+               {
+                   clearInterval(this.is_playing);
+               }
 
             },
+            change_seek()
+            {
+
+                let per=document.getElementById('audio-seek').value;
+                let seek=(this.sound.duration()*(per/100));
+                this.sound.seek(seek);
+                // console.log(per);
+                // console.log(seek);
+                // console.log('this '+this.sound.seek());
+            },
+            change_volume()
+            {
+                this.volume=document.getElementById('volume').value;
+                let set_vol=this.volume/100;
+                this.sound.volume(set_vol);
+            }
         },
     mounted() {
-        this.$nextTick(function () {
-
-        });
+        document.getElementById('audio-seek').addEventListener('change', this.change_seek, false);
+        document.getElementById('volume').addEventListener('change', this.change_volume, false);
     },
     created() {
         this.load_audio();
@@ -117,7 +178,6 @@ export default {
 .player{
     background-color: #f1f1f0;
     border:1px solid #e1cfa9;
-    width:100vw;
     height:80px;
     border-radius: 1%;
 }
