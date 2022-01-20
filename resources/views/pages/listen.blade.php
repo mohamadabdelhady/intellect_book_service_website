@@ -14,7 +14,7 @@
 <div class="container">
     <div class=""style="padding-top: 100px">
 
-        <listen_audiobook :file_name="{{json_encode($book_name)}}" :book_id="{{json_encode($book_id)}}"></listen_audiobook>
+        <listen_audiobook :file_name="{{json_encode($book_name)}}" :book_id="{{json_encode($book_id)}}" :type="1"></listen_audiobook>
     </div>
 
 @include('pages.footer')

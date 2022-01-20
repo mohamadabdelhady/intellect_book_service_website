@@ -11,7 +11,6 @@
             <div class="controllers row">
                 <div class="m-auto">
                 <a href="#" v-on:click.prevent="play_sound" class="ml-1"><i class="fas fa-play fa-2x" style=""></i></a>
-<!--                <a href="#" v-on:click.prevent="stop_sound" class="ml-1"><i class="fas fa-stop fa-2x"></i></a>-->
                     <a href="#" v-on:click.prevent="pause_sound" class="ml-1"><i class="fas fa-pause fa-2x"></i></a>
 
                 </div>
@@ -48,7 +47,7 @@
 import {Howl, Howler} from 'howler';
 export default {
     name: "listen_audiobook",
-    props:['file_name','book_id'],
+    props:['file_name','book_id','type'],
     data()
     {
         return{
@@ -61,6 +60,7 @@ export default {
             is_playing:"",
             playback_rate:1.0,
             mute:false,
+            reader_progress:0,
         }
     },
     methods:
@@ -111,9 +111,14 @@ export default {
             play_sound()
             {
                 if(!this.sound.playing()) {
-
-                   this.sound.play();
-
+                    if(this.reader_progress!=0)
+                    {
+                        this.sound.seek(this.reader_progress);
+                        this.sound.play();
+                    }
+                    else {
+                        this.sound.play();
+                    }
                 }
 
 
@@ -158,11 +163,32 @@ export default {
                 this.volume=document.getElementById('volume').value;
                 let set_vol=this.volume/100;
                 this.sound.volume(set_vol);
+            },
+            set_reader_progress()
+            {
+                let progress=this.sound.seek();
+                axios.post('set_book_progress',{
+                    book_id:this.book_id,
+                    progress:progress,
+                    type:this.type
+                });
+            },
+
+            get_reader_progress()
+            {
+                axios.get('get_book_progress/'+this.book_id+'/'+this.type).then(response => {
+                    if (response.data!=null) {
+                        this.reader_progress=response.data;
+                    }
+                });
+
             }
         },
     mounted() {
         document.getElementById('audio-seek').addEventListener('change', this.change_seek, false);
         document.getElementById('volume').addEventListener('change', this.change_volume, false);
+        this.get_reader_progress();
+        window.addEventListener('unload', this.set_reader_progress);
     },
     created() {
         this.load_audio();
@@ -190,16 +216,6 @@ export default {
     height: 350px;
     width: 200px;
 }
-/*#myProgress {*/
-/*    width: 100%;*/
-/*    background-color: #18181f;*/
-/*}*/
-
-/*#myBar {*/
-/*    width: 1%;*/
-/*    height: 30px;*/
-/*    background-color: white;*/
-/*}*/
 .song-slider{
     width: 98%;
     position: relative;

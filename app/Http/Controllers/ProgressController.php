@@ -32,6 +32,12 @@ class ProgressController extends Controller
     {
        $prog=DB::table('books_progresses')->where('user_id','=',auth()->user()->id)->where('book_id','=',$id)
             ->where('type','=',$type)->select('progress')->first();
-       return$prog->progress;
+       if($prog!=null) {
+           return $prog->progress;
+       }
+       else
+       {
+           return null;
+       }
     }
 }
