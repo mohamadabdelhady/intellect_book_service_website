@@ -13,16 +13,31 @@ class read_book extends Controller
     public function check_book($id)
     {
         $book_data=DB::table('books')->select('cover_img','name','author','text','rating','id')->where('id','=',$id)->first();
-
-//        dd($book_data);
-        return view('pages.check_book')->with('book_data',$book_data);
+        $is_bookmark=DB::table('bookmarks')->where('book_id','=',$id)->where('type','=',0)->where('user_id','=',auth()->user()->id)->first();
+        if($is_bookmark!=null)
+        {
+            $is_bookmark=true;
+        }
+        else
+        {
+            $is_bookmark=false;
+        }
+        return view('pages.check_book')->with(compact('book_data','is_bookmark'));
     }
     public function check_audio($id)
     {
         $book_data=DB::table('audio_books')->select('cover_img','name','author','text','rating','id','narrator')->where('id','=',$id)->first();
 
-//        dd($book_data);
-        return view('pages.check_audio')->with('book_data',$book_data);
+        $is_bookmark=DB::table('bookmarks')->where('book_id','=',$id)->where('type','=',1)->where('user_id','=',auth()->user()->id)->first();
+        if($is_bookmark!=null)
+        {
+            $is_bookmark=true;
+        }
+        else
+        {
+            $is_bookmark=false;
+        }
+        return view('pages.check_audio')->with(compact('book_data','is_bookmark'));
     }
     public function get_reviews($id,$type)
     {

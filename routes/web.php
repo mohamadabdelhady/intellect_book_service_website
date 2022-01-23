@@ -50,3 +50,6 @@ Route::get('/listen_{id}',[\App\Http\Controllers\read_book::class,'load_audio'])
 Route::post('/set_book_progress',[\App\Http\Controllers\ProgressController::class,'set_book_progress']);
 Route::get('/get_book_progress/{id}/{type}',[\App\Http\Controllers\ProgressController::class,'get_book_progress']);
 Route::get('/set_book_progress',[\App\Http\Controllers\ProgressController::class,'set_book_progress']);
+Route::get('/get_{author}',[\App\Http\Controllers\Controller::class,'get_author']);
+Route::get('/bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'set_bookmark']);
+Route::get('/remove_bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'remove_bookmark']);

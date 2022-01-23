@@ -26,4 +26,10 @@ return view('pages.settings');
         }
 
     }
+    public function get_author($author)
+    {
+        $data=DB::table('authors')->where('name','=',$author)->first();
+//dd($data);
+        return view('pages.about_author')->with('data',$data);
+    }
 }

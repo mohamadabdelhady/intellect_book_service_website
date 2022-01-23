@@ -16,11 +16,18 @@
     <img src="/books/{{$book_data->cover_img}}" class="cover_overview">
     <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('read_btn').click();"><i class="fas fa-book-reader fa-2x" style=""></i></button>
     <a href="read_{{$book_data->id}}" style="display: none" id="read_btn"></a>
-    <button class="btn mt-3" style="width: 100%"><i class="fas fa-bookmark fa-2x"></i></button>
+    @if(!$is_bookmark)
+
+    <button class="btn mt-3" style="width: 100%"><i class="fas fa-bookmark fa-2x" onclick="event.preventDefault(); document.getElementById('bookmark_btn').click();"></i></button>
+    <a href="bookmark_{{$book_data->id}}/0" style="display: none" id="bookmark_btn" ></a>
+    @else
+        <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault();document.getElementById('Rbookmark_btn').click();"><img src="https://img.icons8.com/glyph-neue/32/000000/delete-bookmark.png"/></button>
+        <a href="remove_bookmark_{{$book_data->id}}/0" style="display: none" id="Rbookmark_btn" ></a>
+    @endif
 </div>
         <div class="col-8">
             <p class="m-3 h2">{{$book_data->name}}</p>
-            <p class="m-3 h5">by <a href="#">{{$book_data->author}}</a></p>
+            <p class="m-3 h5">by <a href="get_{{$book_data->author}}">{{$book_data->author}}</a></p>
             <generate_stars :rating="{{$book_data->rating}}" class="m-3"></generate_stars>
             <hr>
             <p class="h4">Description</p>
