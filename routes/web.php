@@ -53,3 +53,4 @@ Route::get('/set_book_progress',[\App\Http\Controllers\ProgressController::class
 Route::get('/get_{author}',[\App\Http\Controllers\Controller::class,'get_author']);
 Route::get('/bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'set_bookmark']);
 Route::get('/remove_bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'remove_bookmark']);
+Route::post('/search-results',['as' => 'search-results', 'uses' =>'\App\Http\Controllers\search@search']);

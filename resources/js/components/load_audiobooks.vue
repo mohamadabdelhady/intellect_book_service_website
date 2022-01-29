@@ -14,22 +14,16 @@
             </div>
         </div>
         <div class="row" key="sorting">
-            <div class="book_card card " v-for="(book, index) in audio_books">
+            <div class="" v-for="(book, index) in audio_books">
+                <a :href="'check_audio_'+book['id']" class="book_card card">
                 <img :src="'/audio_books/covers/'+book['cover_img']" class="book_img m-auto">
                 <p class="book_title m-auto h4">{{book['name']}}</p>
+                    <p class="book_title m-auto h6">By {{book['author']}}</p>
+                    <p class="book_title m-auto h6">Narrator {{book['narrator']}}</p>
                 <div class="row m-auto">
-                    <span class="fa fa-star checked fa-2x" v-if="book['rating']>=1"></span>
-                    <span class="fa fa-star fa-2x" v-else></span>
-                    <span class="fa fa-star checked fa-2x" v-if="book['rating']>=2"></span>
-                    <span class="fa fa-star fa-2x" v-else></span>
-                    <span class="fa fa-star checked fa-2x" v-if="book['rating']>=3"></span>
-                    <span class="fa fa-star fa-2x" v-else></span>
-                    <span class="fa fa-star checked fa-2x" v-if="book['rating']>=4"></span>
-                    <span class="fa fa-star fa-2x" v-else></span>
-                    <span class="fa fa-star checked fa-2x" v-if="book['rating']>=5"></span>
-                    <span class="fa fa-star fa-2x" v-else></span>
+                    <generate_stars :rating="book['rating']"></generate_stars>
                 </div>
-                <div class="m-auto"><a :href="'check_audio_'+book['id']"><i class="fas fa-headphones-alt fa-3x"></i></a></div>
+                </a>
             </div>
         </div>
         <div class="row">
@@ -85,8 +79,8 @@ export default {
 <style scoped>
 .book_card{
     border: 1px solid #e1cfa9;
-    width: 15vw;
-    height: 60vh;
+    width: 17vw;
+    height: 65vh;
     margin: 10px;
     background-color: white;
 }
@@ -94,12 +88,6 @@ export default {
 {
     width:80%;
     height: 60%;
-
-    /*text-align: center;*/
-
-}
-.checked {
-    color: goldenrod;
 }
 .fa-book-reader{
 

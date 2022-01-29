@@ -15,24 +15,16 @@
                 <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('oldest')">oldest</a>
             </div>
         </div>
-        <div class="row" >
-        <div class="book_card card " v-for="(book, index) in books">
-
+        <div class="row">
+        <div class="" v-for="(book, index) in books">
+            <a :href="'check_book_'+book['id']" class="book_card card">
         <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
+                <p class="book_title m-auto h6">By {{book['author']}}</p>
             <div class="row m-auto">
-            <span class="fa fa-star checked fa-2x" v-if="book['rating']>=1"></span>
-            <span class="fa fa-star fa-2x" v-else></span>
-            <span class="fa fa-star checked fa-2x" v-if="book['rating']>=2"></span>
-            <span class="fa fa-star fa-2x" v-else></span>
-            <span class="fa fa-star checked fa-2x" v-if="book['rating']>=3"></span>
-            <span class="fa fa-star fa-2x" v-else></span>
-            <span class="fa fa-star checked fa-2x" v-if="book['rating']>=4"></span>
-            <span class="fa fa-star fa-2x" v-else></span>
-            <span class="fa fa-star checked fa-2x" v-if="book['rating']>=5"></span>
-            <span class="fa fa-star fa-2x" v-else></span>
+           <generate_stars :rating="book['rating']"></generate_stars>
             </div>
-            <div class="m-auto"><a :href="'check_book_'+book['id']"><i class="fas fa-book-reader fa-3x"></i></a></div>
+            </a>
             </div>
 
         </div>
@@ -99,14 +91,5 @@ created(){
 {
     width:80%;
     height: 60%;
-
-    /*text-align: center;*/
-
-}
-.checked {
-    color: goldenrod;
-}
-.fa-book-reader{
-
 }
 </style>

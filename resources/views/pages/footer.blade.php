@@ -2,22 +2,16 @@
 
 <hr>
 <div class="row">
+    <div class="col-4" style="min-width: 100%"></div>
 <div class="col-4">
-    <p class="h4">Ebooks genera</p>
+    <p class="h4">book genera</p>
     <ul>
         <li><a>Classics</a></li>
         <li><a>History</a></li>
         <li><a>Science</a></li>
     </ul>
 </div>
-    <div class="col-4">
-        <p class="h4">Audio books genera</p>
-        <ul>
-            <li><a>Classics</a></li>
-            <li><a>History</a></li>
-            <li><a>Science</a></li>
-        </ul>
-    </div>
+
     <div class="col-4">
         <p class="h4">About this site</p>
         <ul>

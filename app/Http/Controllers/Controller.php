@@ -32,4 +32,8 @@ return view('pages.settings');
 //dd($data);
         return view('pages.about_author')->with('data',$data);
     }
+    public function get_genera($genera)
+    {
+        return view('pages.genera.blade')->with('genera',$genera);
+    }
 }

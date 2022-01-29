@@ -3,8 +3,8 @@
        <a href="#" onclick="event.preventDefault(); openNav()"> <img src="/images/menu.png" style="width: 30px;height: 40px; margin-left: 0; margin-right: 10px;"></a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
         <div class="m-auto">
-            <form class="navbar-nav"  >
-                <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input">
+            <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input" name="q">
             </form>
         </div>
         <div class="main-menu">
@@ -40,14 +40,8 @@
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-    <a href="#"onclick="event.preventDefault(); openGen('genera_b')">books<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
+    <a href="#"onclick="event.preventDefault(); openGen('genera_b')">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
     <div class="books_genera" id="genera_b">
-        <a href="">Classics</a>
-        <a href="">History</a>
-        <a href="">Science</a>
-    </div>
-    <a href="#"onclick="event.preventDefault(); openGen('genera_a')">audio books<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
-    <div class="books_genera" id="genera_a">
         <a href="">Classics</a>
         <a href="">History</a>
         <a href="">Science</a>
@@ -78,7 +72,6 @@
         document.getElementById("genera_b").style.display="none";
     }
 
-    /* Set the width of the side navigation to 0 */
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
