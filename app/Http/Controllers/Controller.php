@@ -29,8 +29,9 @@ return view('pages.settings');
     public function get_author($author)
     {
         $data=DB::table('authors')->where('name','=',$author)->first();
-//dd($data);
-        return view('pages.about_author')->with('data',$data);
+        $books=DB::table('books')->where('author','=',$author)->get();
+        $audio=DB::table('audio_books')->where('author','=',$author)->get();
+        return view('pages.about_author')->with(compact('data','books','audio'));
     }
     public function get_genera($genera)
     {

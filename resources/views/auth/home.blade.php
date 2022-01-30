@@ -21,7 +21,7 @@
     <hr class="my-4">
     <p>Subscribe now and enjoy 30 days free trial.</p>
     <p class="lead">
-        <a class="btn btn-lg" style="background-color: #18181f; color: #f5eee2;" href="subscribe" role="button">Subscribe</a>
+        <a class="btn btn-lg" style="" href="subscribe" role="button">Subscribe</a>
     </p>
 </div>
 <div align="center" class="">

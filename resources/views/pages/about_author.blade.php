@@ -20,6 +20,7 @@
             <hr>
             <p>{{$data->About}}</p>
             <hr>
+            <get_author_work :books="{{json_encode($books)}}" :audio="{{json_encode($audio)}}"></get_author_work>
         </div>
 
     </div>
@@ -28,3 +29,12 @@
 
 </body>
 </html>
+<script>
+    import Get_author
+    import Get_author
+    export default {
+        components: {
+            Get_author's_work }),
+            Get_author's_work })}
+        }
+</script>

@@ -89,7 +89,4 @@ export default {
     width:80%;
     height: 60%;
 }
-.fa-book-reader{
-
-}
 </style>
