@@ -8,7 +8,7 @@
         <a href="#" class='' id="star_3" @mouseover="fill_star(3)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(3)"><i class="fa fa-star fa-3x"></i></a>
         <a href="#" class='' id="star_4" @mouseover="fill_star(4)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(4)"><i class="fa fa-star fa-3x"></i></a>
         <a href="#" class='' id="star_5" @mouseover="fill_star(5)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(5)"><i class="fa fa-star fa-3x"></i></a>
-        <span class="ml-2">{{this.my_rating}}/5</span>
+        <span class="ml-2">{{my_rating}}/5</span>
         <span v-if="my_rating!=''" class="ml-2"><a href="#" v-on:click.prevent="clear_rating">Clear rating</a></span>
     </span>
     <div class="mt-3">

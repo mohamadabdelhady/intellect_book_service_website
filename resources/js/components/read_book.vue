@@ -8,7 +8,7 @@
     <a href="#" v-on:click.prevent="next_page"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
     <span class="ml-5">
         <a href="#" v-on:click.prevent="change_fontsize('-')"><i class="fas fa-minus-circle"></i></a>
-        <span>{{this.font_size}}%</span>
+        <span>{{font_size}}%</span>
         <a href="#" v-on:click.prevent="change_fontsize('+')"><i class="fas fa-plus-circle"></i></a>
 
     </span>
@@ -16,7 +16,7 @@
 </div>
 </div>
     <div class="control_set col ml-1">
-        <a href="#" v-on:click.prevent="next_page" k><i class="fas fa-chevron-circle-right fa-2x"></i></a>
+        <a href="#" v-on:click.prevent="next_page"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
         <a href="#" v-on:click.prevent="previous_page"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
         <a href="#" v-on:click.prevent="fullScreen"><i class="fas fa-expand fa-2x"></i></a>
 
@@ -26,7 +26,7 @@
 
         <span>
          <a href="#" v-on:click.prevent="change_fontsize('-')"><i class="fas fa-minus-circle"></i></a>
-        <span>{{this.font_size}}%</span>
+        <span>{{font_size}}%</span>
         <a href="#" v-on:click.prevent="change_fontsize('+')"><i class="fas fa-plus-circle"></i></a>
 
             </span>
