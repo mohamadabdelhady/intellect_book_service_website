@@ -15,8 +15,8 @@
     <div class="col-4">
         <p class="h4">About this site</p>
         <ul>
-            <li><a>About us</a></li>
-            <li><a>contact us</a></li>
+            <li><a href="about">About us</a></li>
+            <li><a href="contact">contact us</a></li>
             <li>Our social media accounts</li>
             <ul>
                 <li><a><i class="fab fa-facebook"></i></a></li>

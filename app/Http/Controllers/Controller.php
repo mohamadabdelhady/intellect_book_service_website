@@ -38,4 +38,12 @@ public function get_settings()
 {
     return view('pages.settings');
 }
+public function get_aboutus()
+{
+    return view('pages.about_us');
+}
+public function get_contact()
+{
+    return view('pages.contact_us');
+}
 }

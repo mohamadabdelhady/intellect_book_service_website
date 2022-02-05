@@ -58,4 +58,6 @@ Route::get('/bookmarks_list',[\App\Http\Controllers\bookmark::class,'get_user_bo
 Route::get('/settings',[\App\Http\Controllers\Controller::class,'get_settings']);
 Route::get('/load_genera_books/{genera}/{sort}',[\App\Http\Controllers\genera::class,'get_all_books']);
 Route::get('/load_genera_audio/{genera}/{sort}',[\App\Http\Controllers\genera::class,'get_all_audiobooks']);
+Route::get('/about',[\App\Http\Controllers\Controller::class,'get_aboutus']);
+Route::get('/contact',[\App\Http\Controllers\Controller::class,'get_contact']);
 Route::get('/{genera}',[\App\Http\Controllers\genera::class,'get_genera']);
