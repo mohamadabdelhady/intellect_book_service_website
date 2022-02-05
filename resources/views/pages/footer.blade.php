@@ -6,9 +6,9 @@
 <div class="col-4">
     <p class="h4">book genera</p>
     <ul>
-        <li><a>Classics</a></li>
-        <li><a>History</a></li>
-        <li><a>Science</a></li>
+        <li><a href="classics">Classics</a></li>
+        <li><a href="history">History</a></li>
+        <li><a href="science">Science</a></li>
     </ul>
 </div>
 

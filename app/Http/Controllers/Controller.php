@@ -34,5 +34,8 @@ return view('pages.settings');
         $audio=DB::table('audio_books')->where('author','=',$author)->get();
         return view('pages.about_author')->with(compact('data','books','audio'));
     }
-
+public function get_settings()
+{
+    return view('pages.settings');
+}
 }

@@ -14,9 +14,8 @@
 <div class="container">
     <div class="row"style="padding-top: 100px">
         <div class="genera-banner h1"><p>{{$genera}}</p></div>
-        <div class="col-12"><load_book :genera="{{$genera}}"></load_book>
-            <br>
-            <load_audiobooks :genera="{{$genera}}"></load_audiobooks>
+        <div class="col-12">
+           <book_genera :genera="{{json_encode($genera)}}"></book_genera>
         </div>
         @include('pages.footer')
 </body>

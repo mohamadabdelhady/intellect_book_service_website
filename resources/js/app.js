@@ -30,6 +30,8 @@ Vue.component('make_review', require('./components/make_review.vue').default);
 Vue.component('search_results', require('./components/search_results.vue').default);
 Vue.component('get_author_work', require('./components/get_author_work.vue').default);
 Vue.component('user_bookmark', require('./components/user_bookmark.vue').default);
+Vue.component('user_settings', require('./components/user_settings.vue').default);
+Vue.component('book_genera', require('./components/book_genera.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -76,6 +78,12 @@ const app9=new Vue({
 });
 const app10=new Vue({
     el:'user_bookmark',
+});
+const app11=new Vue({
+    el:'user_settings',
+});
+const app12=new Vue({
+    el:'book_genera',
 });
 app.component("font-awesome-icon", FontAwesomeIcon);
 app2.component("font-awesome-icon", FontAwesomeIcon);

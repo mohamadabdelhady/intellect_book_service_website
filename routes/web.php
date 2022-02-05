@@ -33,7 +33,7 @@ Route::get('/login-form', function () {
 
         return view('auth.login');
 });
-Route::get('/settings',[\App\Http\Controllers\Controller::class, 'query'])->middleware('auth');
+//Route::get('/settings',[\App\Http\Controllers\Controller::class, 'query'])->middleware('auth');
 Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
 Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
 Route::get('/load_all_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_books']);
@@ -55,3 +55,7 @@ Route::get('/bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'set_
 Route::get('/remove_bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'remove_bookmark']);
 Route::post('/search-results',['as' => 'search-results', 'uses' =>'\App\Http\Controllers\search@search']);
 Route::get('/bookmarks_list',[\App\Http\Controllers\bookmark::class,'get_user_bookmarks']);
+Route::get('/settings',[\App\Http\Controllers\Controller::class,'get_settings']);
+Route::get('/load_genera_books/{genera}/{sort}',[\App\Http\Controllers\genera::class,'get_all_books']);
+Route::get('/load_genera_audio/{genera}/{sort}',[\App\Http\Controllers\genera::class,'get_all_audiobooks']);
+Route::get('/{genera}',[\App\Http\Controllers\genera::class,'get_genera']);

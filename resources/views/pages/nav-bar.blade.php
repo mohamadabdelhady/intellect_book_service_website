@@ -21,7 +21,6 @@
             <div class="menu-content" id="menu-content">
                 <br>
                 <span class="ml-3">{{auth()->user()->name}} <hr></span>
-                <a class="dropdown-item" href="#">profile</a>
                 <a class="dropdown-item" href="bookmarks_list">Bookmark list</a>
                 <a class="dropdown-item" href="settings">Settings</a>
                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="ml-1">Sign out</span></a>
@@ -42,9 +41,9 @@
 
     <a href="#"onclick="event.preventDefault(); openGen('genera_b')">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
     <div class="books_genera" id="genera_b">
-        <a href="">Classics</a>
-        <a href="">History</a>
-        <a href="">Science</a>
+        <a href="Classics">Classics</a>
+        <a href="history">History</a>
+        <a href="science">Science</a>
     </div>
     <a href="#">about us</a>
     <a href="#">Contact us</a>
