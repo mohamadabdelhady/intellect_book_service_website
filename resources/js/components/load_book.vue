@@ -82,8 +82,8 @@ created(){
 <style scoped>
 .book_card{
     border: 1px solid #e1cfa9;
-    width: 15vw;
-    height: 60vh;
+    width: 200px;
+    height: 400px;
     margin: 10px;
     background-color: white;
 }
@@ -91,5 +91,11 @@ created(){
 {
     width:80%;
     height: 60%;
+}
+/*for small screen*/
+@media only screen and (max-width: 786px) {
+    .search-bar{
+        display: none;
+    }
 }
 </style>

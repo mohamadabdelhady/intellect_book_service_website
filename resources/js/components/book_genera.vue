@@ -162,9 +162,10 @@ export default {
 }
 .book_card{
     border: 1px solid #e1cfa9;
-    width: 17vw;
-    height: 65vh;
+    width: 200px;
+    height: 400px;
     margin: 10px;
+    padding:5px;
     background-color: white;
 }
 .book_img

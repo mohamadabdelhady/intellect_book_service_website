@@ -1,12 +1,12 @@
 <template>
     <div>
         <p class="h1">{{ user_name }}'s bookmark list</p>
-        <div class="results_tab float-right">
+        <div class="results_tab">
             <a href="#" v-on:click.prevent="change_selected('ebook_results')"><span id="ebook_results" class="ml-3">E-books ({{books.length}})</span></a>
             <a href="#" v-on:click.prevent="change_selected('audiobooks_results')"> <span id="audiobooks_results" class="ml-3">Audio books ({{audio.length}})</span></a>
             <hr style="width: 80vw">
         </div>
-
+        <div>
         <div id="ebook_results_area"  style="display: none;">
             <div v-if="books.length!=0" class="row">
                 <div class=" " v-for="(book, index) in books">
@@ -41,6 +41,7 @@
             <div v-else>
                 <p style="font-size: medium">Sorry, we didn't find any bookmark in Audio books</p>
             </div>
+        </div>
         </div>
     </div>
 </template>
@@ -86,8 +87,8 @@ export default {
 }
 .book_card{
     border: 1px solid #e1cfa9;
-    width: 17vw;
-    height: 65vh;
+    width: 200px;
+    height: 400px;
     margin: 10px;
     background-color: white;
 }

@@ -5,9 +5,15 @@
             <a href="#" v-on:click.prevent="change_selected('profile')"><span id="profile" class="ml-3">Profile settings</span></a>
             <a href="#" v-on:click.prevent="change_selected('subscription')"> <span id="subscription" class="ml-3">subscription settings</span></a>
             <hr>
+            <div class="col-4">
+                <img src="/images/users_profile_img/1.jpg" class="user_profile">
+            </div>
+            <div class="col-8">
             <div id="profile_area"  style="display: none;">
+
             </div>
             <div id="subscription_area"  style="display: none;">
+            </div>
             </div>
         </div>
 
@@ -18,6 +24,7 @@
 <script>
 export default {
     name: "user_settings",
+    props:['user_name','profile_img'],
     data(){
         return{
             selected:"profile",
@@ -53,6 +60,10 @@ export default {
 
     font-size: large;
 }
-
+.user_profile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 
 </style>

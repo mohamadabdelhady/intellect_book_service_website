@@ -17,6 +17,8 @@
         <div class="col-12">
             <user_bookmark :books="{{json_encode($books)}}" :audio="{{json_encode($audio)}}" :user_name="{{json_encode(auth()->user()->name)}}"></user_bookmark>
         </div>
+    </div>
+</div>
 @include('pages.footer')
 </body>
 </html>

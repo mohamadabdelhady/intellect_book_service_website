@@ -2,7 +2,7 @@
     <div class="container-fluid" style="justify-content: normal; margin-left: 10px;">
        <a href="#" onclick="event.preventDefault(); openNav()"> <img src="/images/menu.png" style="width: 30px;height: 40px; margin-left: 0; margin-right: 10px;"></a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
-        <div class="m-auto">
+        <div class="m-auto search-bar">
             <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
                 <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input" name="q">
             </form>
@@ -20,7 +20,7 @@
             </a>
             <div class="menu-content" id="menu-content">
                 <br>
-                <span class="ml-3">{{auth()->user()->name}} <hr></span>
+                <p class="ml-3">{{auth()->user()->name}} <hr></p>
                 <a class="dropdown-item" href="bookmarks_list">Bookmark list</a>
                 <a class="dropdown-item" href="settings">Settings</a>
                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="ml-1">Sign out</span></a>
@@ -38,7 +38,12 @@
 </nav>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
+    <br>
+    <div class="m-auto" id="nav-small">
+        <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
+            <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="" name="q">
+        </form>
+    </div>
     <a href="#"onclick="event.preventDefault(); openGen('genera_b')">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
     <div class="books_genera" id="genera_b">
         <a href="Classics">Classics</a>

@@ -13,10 +13,10 @@
 @include('pages.nav-bar')
 <div class="container">
     <div class="row"style="padding-top: 100px">
-        <div class="col-12">
+
         <user_settings ></user_settings>
         </div>
-    </div>
+</div>
 @include('pages.footer')
 </body>
 </html>

@@ -14,7 +14,7 @@
 <div class="container">
 <div class="row"style="padding-top: 100px">
 
-    <div class="col-12"><load_book></load_book>
+    <div class="col-lg-12 col-sm-12"><load_book></load_book>
         <br>
     <load_audiobooks></load_audiobooks>
     </div>

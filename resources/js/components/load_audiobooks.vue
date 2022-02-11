@@ -79,8 +79,8 @@ export default {
 <style scoped>
 .book_card{
     border: 1px solid #e1cfa9;
-    width: 17vw;
-    height: 65vh;
+    width: 250px;
+    height: 400px;
     margin: 10px;
     background-color: white;
 }
