@@ -1,4 +1,4 @@
-<img src="public/images/intellect_logo.png">
+<p align="center"><img src="public/images/intellect_logo.png"></p>
 <h2>About the project</h2>
 <p>
 Intellect book service is subscription based website for reading e-books and listening to audiobooks,
@@ -9,18 +9,18 @@ users of the website can enjoy reading and listening to books online for small s
 <li>
 Front-end
 <ul>
-<li>HTML/CSS/<a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></li>
-<li>JavaScript( <a href="https://vuejs.org/" target="_blank">Vue.js</a> )</li>
-<li><a href="https://github.com/futurepress/epub.js/" target="_blank">epub.js</a>( JavaScript library for reading and in on a website )</li>
-<li><a href="https://howlerjs.com/" target="_blank">Howler.js</a>( JavaScript library for playing audio on a website)</li>
+<li>HTML/CSS/<a href="https://getbootstrap.com/">Bootstrap</a></li>
+<li>JavaScript( <a href="https://vuejs.org/">Vue.js</a> )</li>
+<li><a href="https://github.com/futurepress/epub.js/">epub.js</a>( JavaScript library for reading and in on a website )</li>
+<li><a href="https://howlerjs.com/">Howler.js</a>( JavaScript library for playing audio on a website)</li>
 
 </ul>
 </li>
 <li>
 Back-end
 <ul>
-<li>PHP( <a href="https://laravel.com/" target="_blank">Laravel</a> )</li>
-<li>Laravel packages used in this project ( <a href="https://laravel.com/docs/8.x/fortify" target="_blank">Laravel fortify</a>, <a href="https://laravel.com/docs/8.x/socialite">Laravel Socialite</a> )</li>
+<li>PHP( <a href="https://laravel.com/">Laravel</a> )</li>
+<li>Laravel packages used in this project ( <a href="https://laravel.com/docs/8.x/fortify">Laravel fortify</a>, <a href="https://laravel.com/docs/8.x/socialite">Laravel Socialite</a> )</li>
 <li>MySql</li>
 </ul>
 </li>
@@ -39,6 +39,11 @@ How to set up the project after cloning it
 <li>type "php artisan migrate"</li>
 <li>To run the project on your browser type "php artisan serve"</li>
 </ol>
-
+<h2>
+Licence
+</h2>
+<p>
+Intellect book service website is open-sourced software licensed under the <a href="https://opensource.org/licenses/MIT">MIT licence</a>.
+</p>
 
 
