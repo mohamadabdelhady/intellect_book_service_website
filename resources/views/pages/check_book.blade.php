@@ -12,7 +12,8 @@
 @include('pages.nav-bar')
 <div class="container">
     <div class="row" style="padding-top: 100px">
-<div class="col-3">
+<div class="col-sm-4 col-5 col-xl-3 col-lg-3 cover">
+
     <img src="/books/{{$book_data->cover_img}}" class="cover_overview">
     <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('read_btn').click();"><i class="fas fa-book-reader fa-2x" style=""></i></button>
     <a href="read_{{$book_data->id}}" style="display: none" id="read_btn"></a>
@@ -25,17 +26,21 @@
         <a href="remove_bookmark_{{$book_data->id}}/0" style="display: none" id="Rbookmark_btn" ></a>
     @endif
 </div>
-        <div class="col-8">
+        <div class="col-sm-8 col-7 col-xl-9 col-lg-9">
             <p class="m-3 h2">{{$book_data->name}}</p>
             <p class="m-3 h5">by <a href="get_{{$book_data->author}}">{{$book_data->author}}</a></p>
             <generate_stars :rating="{{$book_data->rating}}" class="m-3"></generate_stars>
             <hr>
             <p class="h4">Description</p>
             <p class="m-3" style="min-height: 37vh">{{$book_data->text}}</p>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
             <hr>
             <reviews_section :type="0":id="{{$book_data->id}}":user_id="{{json_encode(auth()->user()->id)}}"></reviews_section>
         </div>
-
     </div>
     @include('pages.footer')
 </div>

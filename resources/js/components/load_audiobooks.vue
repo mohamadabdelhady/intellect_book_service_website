@@ -13,8 +13,8 @@
                 <a class="dropdown-item" href="#" v-on:click.prevent="change_sort('oldest')">oldest</a>
             </div>
         </div>
-        <div class="row" key="sorting">
-            <div class="" v-for="(book, index) in audio_books">
+        <div class="row">
+            <div class="m-auto" v-for="(book, index) in audio_books">
                 <a :href="'check_audio_'+book['id']" class="book_card card">
                 <img :src="'/audio_books/covers/'+book['cover_img']" class="book_img m-auto">
                 <p class="book_title m-auto h4">{{book['name']}}</p>
@@ -83,6 +83,17 @@ export default {
     height: 400px;
     margin: 10px;
     background-color: white;
+}
+@media screen and (max-width: 576px){
+    .book_card{
+        border: 1px solid #e1cfa9;
+        width: 150px;
+        height: 320px;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+        font-size:small;
+    }
 }
 .book_img
 {

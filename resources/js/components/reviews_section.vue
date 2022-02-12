@@ -3,10 +3,10 @@
 <make_review :user_id="this.user_id" :type="this.type" :id="this.id"  @update_review="updateR" :key="made_review"></make_review>
 
         <hr>
-<p class="h4 mt-4">What other readers think of the book.</p>
+<p class="txtb mt-4">What other readers think of the book.</p>
 
         <div class="mt-5">
-            <p v-if="!review_data.length" class="h5" style="margin-left:50px;">There is no reviews on this book, be the first one to review it.</p>
+            <p v-if="!review_data.length" class="txts" style="margin-left:50px;">There is no reviews on this book, be the first one to review it.</p>
             <div class="comments" v-for="(review,index) in review_data">
                 <div>
                     <img :src="review.profile_img" class="userAvatar" v-if="review.google_id!=null">

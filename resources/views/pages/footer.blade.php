@@ -2,8 +2,8 @@
 
 <hr>
 <div class="row">
-    <div class="col-4" style="min-width: 100%"></div>
-<div class="col-4">
+    <div class="" style="min-width: 100%"></div>
+<div class="col-6">
     <p class="h4">book genera</p>
     <ul>
         <li><a href="classics">Classics</a></li>
@@ -12,7 +12,7 @@
     </ul>
 </div>
 
-    <div class="col-4">
+    <div class="col-6">
         <p class="h4">About this site</p>
         <ul>
             <li><a href="about">About us</a></li>
@@ -24,6 +24,6 @@
             </ul>
         </ul>
     </div>
-<div class="mt-1 ml-3"><hr>all copyright reserved for intellect book service&copy; 2021</div>
+<div class="mt-1 ml-3"><hr>All copyright reserved for intellect book service&copy; 2021</div>
 </div>
 </div>

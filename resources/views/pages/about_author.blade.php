@@ -12,10 +12,10 @@
 @include('pages.nav-bar')
 <div class="container">
     <div class="row" style="padding-top: 100px">
-        <div class="col-3">
+        <div class="col-sm-4 col-5 col-xl-3 col-lg-3 cover">
             <img src="/authors_imges/{{$data->img}}" class="cover_overview">
         </div>
-        <div class="col-8">
+        <div class="col-sm-8 col-7 col-xl-9 col-lg-9">
             <p class="h1">{{$data->name}}</p>
             <hr>
             <p>{{$data->About}}</p>

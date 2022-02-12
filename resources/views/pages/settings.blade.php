@@ -16,7 +16,9 @@
 
         <user_settings ></user_settings>
         </div>
+    @include('pages.footer')
 </div>
-@include('pages.footer')
+
+
 </body>
 </html>

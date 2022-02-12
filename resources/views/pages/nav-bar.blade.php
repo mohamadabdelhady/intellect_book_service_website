@@ -1,6 +1,10 @@
 <nav class="navbar" id="nav-bar">
     <div class="container-fluid" style="justify-content: normal; margin-left: 10px;">
-       <a href="#" onclick="event.preventDefault(); openNav()"> <img src="/images/menu.png" style="width: 30px;height: 40px; margin-left: 0; margin-right: 10px;"></a>
+       <a href="#" class="menu-btn" onclick="event.preventDefault(); openNav()">
+           <div></div>
+           <div></div>
+           <div></div>
+       </a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
         <div class="m-auto search-bar">
             <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
@@ -15,20 +19,17 @@
                 @elseif(auth()->user()->profile_img)
                 <p> <img src="{{url('/images/users_profile_img/' . auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
                                 @endif
-
             </div>
             </a>
             <div class="menu-content" id="menu-content">
                 <br>
-                <p class="ml-3">{{auth()->user()->name}} <hr></p>
+                <p class="ml-3"> {{auth()->user()->name}}</p><hr>
                 <a class="dropdown-item" href="bookmarks_list">Bookmark list</a>
                 <a class="dropdown-item" href="settings">Settings</a>
                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="ml-1">Sign out</span></a>
                                 <form id="logout-form" action="{{route('logout')}}" method="post" style="display: none;">
                                     @csrf
                                 </form>
-
-
                 <br>
             </div>
         </div>
@@ -50,8 +51,8 @@
         <a href="history">History</a>
         <a href="science">Science</a>
     </div>
-    <a href="#">about us</a>
-    <a href="#">Contact us</a>
+    <a href="about">about us</a>
+    <a href="contact">Contact us</a>
 </div>
 <script>
     function openGen(type) {

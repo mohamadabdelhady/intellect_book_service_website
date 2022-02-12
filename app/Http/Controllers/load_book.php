@@ -38,22 +38,22 @@ class load_book extends Controller
     {
         if($sort=="default")
         {
-            $books=DB::table('audio_books')->paginate(10);
+            $books=DB::table('audio_books')->paginate(12);
             return $books;
         }
         elseif ($sort=="rate")
         {
-            $books=DB::table('audio_books')->orderBy('rating','desc')->paginate(10);
+            $books=DB::table('audio_books')->orderBy('rating','desc')->paginate(12);
             return $books;
         }
         elseif ($sort=="newest")
         {
-            $books=DB::table('audio_books')->orderBy('created_at','desc')->paginate(10);
+            $books=DB::table('audio_books')->orderBy('created_at','desc')->paginate(12);
             return $books;
         }
         elseif ($sort=="oldest")
         {
-            $books=DB::table('audio_books')->orderBy('created_at')->paginate(10);
+            $books=DB::table('audio_books')->orderBy('created_at')->paginate(12);
             return $books;
         }
     }

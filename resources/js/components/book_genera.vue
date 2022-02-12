@@ -168,6 +168,17 @@ export default {
     padding:5px;
     background-color: white;
 }
+@media screen and (max-width: 576px){
+    .book_card{
+        border: 1px solid #e1cfa9;
+        width: 150px;
+        height: 320px;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+        font-size:small;
+    }
+}
 .book_img
 {
     width:80%;

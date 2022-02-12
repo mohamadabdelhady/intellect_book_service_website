@@ -17,6 +17,9 @@
         <div class="col-12">
            <book_genera :genera="{{json_encode($genera)}}"></book_genera>
         </div>
-        @include('pages.footer')
+
+    </div>
+    @include('pages.footer')
+</div>
 </body>
 </html>

@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="row">
-        <div class="" v-for="(book, index) in books">
+        <div class="m-auto" v-for="(book, index) in books">
             <a :href="'check_book_'+book['id']" class="book_card card">
         <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
@@ -87,15 +87,20 @@ created(){
     margin: 10px;
     background-color: white;
 }
+@media screen and (max-width: 576px){
+    .book_card{
+        border: 1px solid #e1cfa9;
+        width: 150px;
+        height: 200px;
+        margin: 10px;
+        padding: 5px;
+        background-color: white;
+        font-size:small;
+    }
+}
 .book_img
 {
     width:80%;
     height: 60%;
-}
-/*for small screen*/
-@media only screen and (max-width: 786px) {
-    .search-bar{
-        display: none;
-    }
 }
 </style>

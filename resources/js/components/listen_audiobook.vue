@@ -34,10 +34,10 @@
 
         </div>
         <hr>
-        <div class="row">
+        <div class="">
 
-            <p class="h4">You can check the reviews other reader leave on this book, and make your own by going to the previous page</p>
-            <button class="btn m-auto mt-2" v-on:click.prevent="go_check">Go check reviews</button>
+            <p align="center" class="txts">You can check the reviews other reader leave on this book, and make your own by going to the previous page</p>
+            <p align="center"><button class="btn mt-2" v-on:click.prevent="go_check">Go check reviews</button></p>
             <a :href="'check_audio_'+book_id" target="_blank" style="display:none;" id="check_reviews"></a>
         </div>
     </div>

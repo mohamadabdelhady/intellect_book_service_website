@@ -22,7 +22,7 @@
                 <a :href="'check_audio_'+book['id']" class="" target="_blank">
                 <img :src="'books/'+book['cover_img']" class="book_img">
                 <span>{{book['name']}}</span>
-                <generate_stars :rating="book['rating']"></generate_stars>
+                <generate_stars :rating="book['rating']" id="stars"></generate_stars>
                 </a>
             </div>
         </div>
@@ -67,8 +67,13 @@ export default {
 
 <style scoped>
 .results_tab{
-
     font-size: large;
+}
+@media screen and (max-width: 576px){
+    .results_tab{
+        font-size: small;
+    }
+
 }
 .item{
     margin-bottom: 10px;

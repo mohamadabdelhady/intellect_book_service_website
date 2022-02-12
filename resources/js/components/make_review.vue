@@ -1,15 +1,15 @@
 <template>
     <div>
 <div v-if="!my_review.length" class="review p-2" >
-        <p class="h3">What did you think of this book</p>
-    <span class="mt-2" style="padding-left: 60px;">
+        <p class="txtb">What did you think of this book</p>
+    <span class="mt-2 stars" style="padding-left: 60px;">
         <a href="#" class='' id="star_1" @mouseover="fill_star(1)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(1)"><i class="fa fa-star fa-3x"></i></a>
         <a href="#" class='' id="star_2" @mouseover="fill_star(2)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(2)"><i class="fa fa-star fa-3x"></i></a>
         <a href="#" class='' id="star_3" @mouseover="fill_star(3)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(3)"><i class="fa fa-star fa-3x"></i></a>
         <a href="#" class='' id="star_4" @mouseover="fill_star(4)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(4)"><i class="fa fa-star fa-3x"></i></a>
         <a href="#" class='' id="star_5" @mouseover="fill_star(5)" @mouseleave="empty_star()" v-on:click.prevent="set_rating(5)"><i class="fa fa-star fa-3x"></i></a>
-        <span class="ml-2">{{my_rating}}/5</span>
-        <span v-if="my_rating!=''" class="ml-2"><a href="#" v-on:click.prevent="clear_rating">Clear rating</a></span>
+        <span class="ml-2 rate">{{my_rating}}/5</span>
+        <span v-if="my_rating!=''" class="ml-2 rate"><a href="#" v-on:click.prevent="clear_rating">Clear rating</a></span>
     </span>
     <div class="mt-3">
         <textarea row="10" placeholder=" Write a review (optional)." class="comment_in" v-model="user_review" @keyup.enter="add_review"></textarea>
@@ -23,10 +23,10 @@
 
 </div>
     <div v-else class="my_review p-2" v-for="(review,index) in my_review">
-        <span class="h3">Your review</span>
+        <span class="txtb">Your review</span>
         <a href="#"><span class="pl-1">{{review.name}}</span></a>
         <span style="float: right;"><generate_stars :rating="review.rating"></generate_stars></span>
-        <p class="pt-2" style="padding-left: 60px;">{{review.review}}</p>
+        <p class="pt-2 txts" style="padding-left: 60px;">{{review.review}}</p>
         <div class="dropdown">
             <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ...
@@ -166,4 +166,13 @@ export default {
     background-color: #e1cfa9;
     border-radius: 1%;
 }
+    .fa-star {
+        font-size: 4vw;
+    }
+
+    .rate {
+        font-size: 2vw;
+
+}
+
 </style>

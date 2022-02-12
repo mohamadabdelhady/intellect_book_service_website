@@ -11,7 +11,7 @@
         <span class="fa fa-star " v-else></span>
         <span class="fa fa-star checked " v-if="rating>=5"></span>
         <span class="fa fa-star " v-else></span>
-        <span class="ml-2">{{rating}}/5</span>
+        <span class="ml-2 rate">{{rating}}/5</span>
     </div>
 
 </div>
@@ -24,7 +24,7 @@ export default {
     data()
     {
     return{
-
+        size:0,
     }
     },
 mounted(){
@@ -37,5 +37,14 @@ mounted(){
 <style scoped>
 .checked {
     color: goldenrod;
+}
+@media screen and (max-width: 576px) {
+    .fa-star {
+        font-size: .6rem;
+    }
+
+    .rate {
+        font-size: .6rem;
+    }
 }
 </style>

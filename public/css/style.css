@@ -140,9 +140,9 @@ margin-right: 10%;
 .menu-content{
     display: none;
     border: 1px solid #e1cfa9;
-
     border-radius:5%;
     position: absolute;
+    right: 0;
     background-color: #f1f1f1;
     padding: 5px;
 
@@ -186,7 +186,7 @@ margin-right: 10%;
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: 20px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
@@ -201,20 +201,30 @@ margin-right: 10%;
 .books_genera a:hover{
     color: #1b1e21;
 }
+.cover{
+    height: 600px;
+    width: 400px;
+}
 .cover_overview{
-    height: 300px;
+    height: 50%;
     width: 100%;
 }
-/*@media screen and (max-height: 450px) {*/
-/*    .sidenav {padding-top: 15px;}*/
-/*    .sidenav a {font-size: 18px;}*/
-/*    .search{display: none}*/
-/*    .search-small{display:block }*/
-/*}*/
+.menu-btn div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
 #nav-small{
     display: none;
 }
-@media only screen and (max-width: 786px) {
+.txtb{
+    font-size:2vw;
+}
+.txts{
+    font-size: 1.5vw;
+}
+@media only screen and (max-width: 768px) {
     .search-bar{
         display: none;
     }
@@ -226,9 +236,15 @@ margin-right: 10%;
     background-color: #ebe8e3;
     width: 85%;
 }
+
 }
-/*@media only screen and (max-width: 992px) {*/
-/*    .main-menu{*/
-/*        margin-right: 10vw;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 425px){
+    #logo-img{
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        background: url('/images/intellect_logo_sm.png');
+        background-repeat: no-repeat;
+    }
+    .sidenav a {font-size: 18px;}
+}

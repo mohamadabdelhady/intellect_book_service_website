@@ -12,13 +12,16 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class="row"style="padding-top: 100px">
+    <div class=""style="padding-top: 100px">
 
         <read_book :file_name="{{json_encode( $book_name)}}":type="0":name="{{json_encode($name)}}" :book_id="{{json_encode($id)}}"></read_book>
 
     </div>
+    @include('pages.footer')
+</div>
 
-@include('pages.footer')
+
+
 </body>
 </html>
 <script>
