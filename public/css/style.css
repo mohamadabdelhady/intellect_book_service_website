@@ -24,8 +24,8 @@ body{
 
 }
 .plans div{
-    border: 2px solid
-    #e1cfa9;
+    border: 2px solid #e1cfa9;
+
 }
 .sign-up-form{
     width: 35vw;
@@ -219,14 +219,24 @@ margin-right: 10%;
     display: none;
 }
 .txtb{
-    font-size:2vw;
+    font-size:1rem;
 }
 .txts{
-    font-size: 1.5vw;
+    font-size: 1rem;
 }
+/*input[type="search"]::-webkit-search-cancel-button {*/
+/*    -webkit-appearance: none;*/
+/*    background-color:rebeccapurple;*/
+/*}*/
 @media only screen and (max-width: 768px) {
     .search-bar{
         display: none;
+    }
+    .txtb{
+        font-size:.8rem;
+    }
+    .txts{
+        font-size: .6rem;
     }
 #nav-small{
     display: block;
@@ -246,5 +256,19 @@ margin-right: 10%;
         background: url('/images/intellect_logo_sm.png');
         background-repeat: no-repeat;
     }
+    #userAvatar{
+        margin-top: 20px;
+    }
+    .display-4{
+        font-size: 7vw;
+        margin-top: 10px;
+    }
+   .display-2{
+       font-size: 7vw;
+   }
     .sidenav a {font-size: 18px;}
+    .sign-up-form{
+        width: 72vw;
+        margin-top: 15vh;
+    }
 }

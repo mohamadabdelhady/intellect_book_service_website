@@ -90,8 +90,8 @@ class read_book extends Controller
     {
         $name=DB::table('audio_books')->where('id','=',$id)->select('name')->first();
         $book_name="id_".$id."_".$name->name;
-//        dd($book_name);
+        $book_cover=DB::table('audio_books')->where('id','=',$id)->select('cover_img')->first();
         $book_id=$id;
-        return view('pages.listen')->with(compact('book_name','book_id'));
+        return view('pages.listen')->with(compact('book_name','book_id','book_cover'));
     }
 }

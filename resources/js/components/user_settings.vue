@@ -4,13 +4,19 @@
         <div class="settings_tab">
             <a href="#" v-on:click.prevent="change_selected('profile')"><span id="profile" class="ml-3">Profile settings</span></a>
             <a href="#" v-on:click.prevent="change_selected('subscription')"> <span id="subscription" class="ml-3">subscription settings</span></a>
+        </div>
             <hr>
-            <div class="col-4">
-                <img src="/images/users_profile_img/1.jpg" class="user_profile">
-            </div>
-            <div class="col-8">
-            <div id="profile_area"  style="display: none;">
+            <div class="row">
+            <div class="col-12">
+            <div id="profile_area" class="row"  style="display: none;">
+                <div class="col-3" style="border-right:1px solid #cbcaca;">
+                    <img :src="profile_img" class="user_profile" v-if="is0auth==true">
+                    <img v-else :src="'/images/users_profile_img/'+profile_img" class="user_profile">
+                    <button class="btn mt-1" style="width: 100%;"><span class=""></span></button>
+                </div>
+                <div class="col-9">
 
+                </div>
             </div>
             <div id="subscription_area"  style="display: none;">
             </div>
@@ -24,7 +30,7 @@
 <script>
 export default {
     name: "user_settings",
-    props:['user_name','profile_img'],
+    props:['user_name','profile_img','is0auth'],
     data(){
         return{
             selected:"profile",

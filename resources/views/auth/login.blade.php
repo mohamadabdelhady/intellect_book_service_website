@@ -6,7 +6,6 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-
 </head>
 <body>
 <nav class="navbar" id="nav-bar">
@@ -14,6 +13,7 @@
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
     </div>
 </nav>
+
 <div class="sign-up-form card ml-auto mr-auto">
 <form method="POST" action="{{ route('login') }}">
     @csrf
@@ -46,6 +46,6 @@
 {{--        <a href="#"><img class="signup-icon" src="/images/facebook-icon.png"></a>--}}
     </div>
 </div>
-<div class="mt-5 ml-3">all copyright reserved for intellect book service&copy; 2021</div>
+<div class="mt-5 ml-3">All copyright reserved for intellect book service&copy; 2021</div>
 </body>
 </html>

@@ -24,6 +24,6 @@
             </ul>
         </ul>
     </div>
-<div class="mt-1 ml-3"><hr>All copyright reserved for intellect book service&copy; 2021</div>
+<div class="mt-1 ml-3"><hr>All copyright reserved for intellect book service&copy; 2022</div>
 </div>
 </div>

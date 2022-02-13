@@ -12,9 +12,11 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class="row"style="padding-top: 100px">
+    <div class=""style="padding-top: 100px">
 
-        <user_settings ></user_settings>
+        <user_settings :profile_img="{{json_encode(auth()->user()->profile_img)}}" :is0auth="{{json_encode($is0auth)}}"></user_settings>
+
+
         </div>
     @include('pages.footer')
 </div>

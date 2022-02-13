@@ -1,7 +1,8 @@
 <template>
     <div>
     <div class="row">
-        <img src="/audio_books/covers/5.jpeg" class="m-auto cover">
+
+        <img :src="'/audio_books/covers/'+book_cover['cover_img']" class="m-auto cover">
         <div class="player">
             <div class="song-slider">
                 <input type="range" value="0" class="seek-bar" id="audio-seek" >
@@ -47,7 +48,7 @@
 import {Howl, Howler} from 'howler';
 export default {
     name: "listen_audiobook",
-    props:['file_name','book_id','type'],
+    props:['file_name','book_id','type','book_cover'],
     data()
     {
         return{
@@ -248,5 +249,11 @@ export default {
     position: absolute;
     right: 0;
 }
+@media screen and (max-width: 576px){
+    .cover{
+        height: 250px;
+        width: 200px;
+    }
 
+}
 </style>

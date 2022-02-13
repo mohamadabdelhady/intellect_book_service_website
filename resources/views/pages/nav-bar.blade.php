@@ -1,15 +1,17 @@
 <nav class="navbar" id="nav-bar">
-    <div class="container-fluid" style="justify-content: normal; margin-left: 10px;">
+    <div class="container-fluid " style="justify-content: normal; margin-left: 10px;">
        <a href="#" class="menu-btn" onclick="event.preventDefault(); openNav()">
            <div></div>
            <div></div>
            <div></div>
        </a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
+
         <div class="m-auto search-bar">
             <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
-                <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="search-input" name="q">
+                <input class="form-control " type="search" placeholder="Search books, audiobooks and authors" aria-label="Search" id="search-input" name="q">
             </form>
+
         </div>
         <div class="main-menu">
             <a href="" class="main-btn" onclick="event.preventDefault(); view_menu();">

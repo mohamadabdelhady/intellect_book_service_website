@@ -28,7 +28,7 @@
         <div class="col-sm-8 col-8 col-xl-9 col-lg-9">
             <p class="m-3 h2">{{$book_data->name}}</p>
             <p class="m-3 h5">by <a href="#">{{$book_data->author}}</a></p>
-            <p class="m-3 h5">narrated by <a href="#">{{$book_data->narrator}}</a></p>
+            <p class="m-3 h5">narrated by <a>{{$book_data->narrator}}</a></p>
             <generate_stars :rating="{{$book_data->rating}}" class="m-3"></generate_stars>
             <hr>
             <p class="h4">Description</p>

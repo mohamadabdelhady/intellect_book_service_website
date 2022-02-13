@@ -19,10 +19,14 @@
             <p class="h1">{{$data->name}}</p>
             <hr>
             <p>{{$data->About}}</p>
-            <hr>
+             </div>
+
+    </div>
+    <div class="row">
+        <div class="row-12">
+
             <get_author_work :books="{{json_encode($books)}}" :audio="{{json_encode($audio)}}"></get_author_work>
         </div>
-
     </div>
     @include('pages.footer')
 </div>

@@ -36,7 +36,10 @@ return view('pages.settings');
     }
 public function get_settings()
 {
-    return view('pages.settings');
+    $check=DB::table('users')->where('id','=',auth()->user()->id)->select('google_id')->first();
+    $is0auth=false;
+    if($check!=null){$is0auth=true;}
+        return view('pages.settings')->with(compact('is0auth'));
 }
 public function get_aboutus()
 {

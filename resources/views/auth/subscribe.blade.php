@@ -57,9 +57,8 @@
     <div align="center">
         <p style="font-size: large">Or sign up with</p>
         <a href="/auth/redirect"><img class="signup-icon" src="/images/gmail-icon.png"></a>
-{{--        <a href="#"><img class="signup-icon" src="/images/facebook-icon.png"></a>--}}
     </div>
 </div>
-<div class="mt-5 ml-3">all copyright reserved for intellect book service&copy; 2021</div>
+<div class="mt-5 ml-3">All copyright reserved for intellect book service&copy; 2021</div>
 </body>
 </html>
