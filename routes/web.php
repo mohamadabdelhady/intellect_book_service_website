@@ -18,21 +18,16 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     if (Auth::check()) {
-        return view('pages.main');}
+        return redirect()->route('home');
+    }
     else
     {
         return view('auth.home');
     }
 });
-Route::get('/subscribe', function () {
-
-        return view('auth.subscribe');
-
-});
-Route::get('/login-form', function () {
-
-        return view('auth.login');
-});
+Route::get('/home',  ['as' => 'home', 'uses' => function(){return view('pages.main');}])->middleware(['auth','verified']);
+Route::get('/subscribe', function () {return view('auth.subscribe');});
+Route::get('/login',['as'=>'login','uses'=> function () {return view('auth.login');}]);
 //Route::get('/settings',[\App\Http\Controllers\Controller::class, 'query'])->middleware('auth');
 Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
 Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);

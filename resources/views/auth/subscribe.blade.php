@@ -16,7 +16,7 @@
 </nav>
 <div class="sign-up-form card ml-auto mr-auto">
 
-    <form method="POST" action="{{route('register')}}">
+    <form method="POST" action="{{ route('register') }}">
         @csrf
         <div class="form-group">
             <input name="name" class="form-control @error('name') is-invalid @enderror" id="uname-input" placeholder="Name">
@@ -50,7 +50,7 @@
             <button type="submit" class="btn">Sign up</button>
 
         </div>
-        <a class="already" href="login-form">Already have an account? Log in here.</a>
+        <a class="already" href="login">Already have an account? Log in here.</a>
     </form>
 
     <hr style="background-color: #e1cfa9">

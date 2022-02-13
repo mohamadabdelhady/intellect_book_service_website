@@ -36,14 +36,15 @@
     <div class="form-group" align="center">
 
         <button type="submit" class="btn">log in</button>
+
     </div>
+    <p class="m-1" ><a href="forgot-password">Forgot your password ? click here to reset it</a></p>
 </form>
-    <a class="already" href="subscribe">Dont have an account? sign up here.</a>
+    <a class="ml-1" href="subscribe">Dont have an account? sign up here.</a>
     <hr style="background-color: #e1cfa9">
     <div align="center">
         <p style="font-size: large">Or log in with</p>
         <a href="/auth/redirect"><img class="signup-icon" src="/images/gmail-icon.png"></a>
-{{--        <a href="#"><img class="signup-icon" src="/images/facebook-icon.png"></a>--}}
     </div>
 </div>
 <div class="mt-5 ml-3">All copyright reserved for intellect book service&copy; 2021</div>

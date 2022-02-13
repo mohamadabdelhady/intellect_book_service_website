@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
     use HasFactory, Notifiable;
 
@@ -21,7 +21,8 @@ class User extends Authenticatable
         'email',
         'password',
         'google_id',
-        'profile_img'
+        'profile_img',
+        'email_verified_at',
     ];
 
     /**

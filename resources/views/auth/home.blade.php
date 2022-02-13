@@ -12,7 +12,7 @@
 <nav class="navbar" id="nav-bar">
     <div class="container-fluid">
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
-        <div style="float: right"><button type="submit" class="btn" onclick="window.location.href='login-form';">login</button></div>
+        <div style="float: right"><button type="submit" class="btn" onclick="window.location.href='login';">login</button></div>
     </div>
 </nav>
 
