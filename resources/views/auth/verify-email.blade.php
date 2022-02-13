@@ -13,7 +13,9 @@
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
     </div>
 </nav>
-
+<div class="notification-bar" id="notification">
+    <i class="fas fa-exclamation-circle"></i><span id="notification-message"></span>
+</div>
 <div class="sign-up-form card ml-auto mr-auto">
     <form method="POST" action="{{ route('verification.send') }}">
         @csrf

@@ -39,12 +39,15 @@
     </div>
     <div></div>
 </nav>
+<div class="notification-bar" id="notification">
+    <i class="fas fa-exclamation-circle"></i><span id="notification-message"></span>
+</div>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <br>
     <div class="m-auto" id="nav-small">
         <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
-            <input class="form-control " type="search" placeholder="Search" aria-label="Search" id="" name="q">
+            <input class="form-control " type="search" placeholder="Search books, audiobooks and authors" aria-label="Search" id="" name="q">
         </form>
     </div>
     <a href="#"onclick="event.preventDefault(); openGen('genera_b')">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
