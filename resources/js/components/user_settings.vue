@@ -12,7 +12,8 @@
                 <div class="col-3" style="border-right:1px solid #cbcaca;">
                     <img :src="profile_img" class="user_profile" v-if="is0auth==true">
                     <img v-else :src="'/images/users_profile_img/'+profile_img" class="user_profile">
-                    <button class="btn mt-1" style="width: 100%;"><span class=""></span></button>
+                    <button class="btn mt-3" style="width: 100%;"><span class="">Change image</span></button>
+
                 </div>
                 <div class="col-9">
 

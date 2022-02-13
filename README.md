@@ -4,7 +4,7 @@
 Intellect book service is subscription based website for reading e-books and listening to audiobooks,
 users of the website can enjoy reading and listening to books online for small subscription fee, users can also read reviews left by other users of the website as well as leaving their own, once the user signup they can enjoy 30 days trial of the website after it end the user can choose one of the three subscription plan put on the main page.
 </p>
-<h2>What is the website built with</h2>
+<h2>What is this website built with</h2>
 <ul>
 <li>
 Front-end

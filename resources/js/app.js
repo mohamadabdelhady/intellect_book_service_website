@@ -92,4 +92,4 @@ app4.component("font-awesome-icon", FontAwesomeIcon);
 app5.component("font-awesome-icon", FontAwesomeIcon);
 app6.component("font-awesome-icon", FontAwesomeIcon);
 app7.component("font-awesome-icon", FontAwesomeIcon);
-app11.component("font-awesome-icon", FontAwesomeIcon);
+app7.component("font-awesome-icon", FontAwesomeIcon);
