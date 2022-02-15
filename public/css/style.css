@@ -160,11 +160,10 @@ margin-right: 10%;
     background-color: #e1cfa9;
     position: absolute;
     left: 0;
-    top: 62px;
+    top: 72px;
     z-index: 1;
     width: 100%;
-    height: 33px;
-    padding: 10px;
+    padding-left:10px;
     display: none;
 }
 .notification-bar span{
@@ -277,6 +276,7 @@ color: #565c68;
     #userAvatar{
         margin-top: 20px;
     }
+    .notification-bar{top: 92px; }
     .display-4{
         font-size: 7vw;
         margin-top: 10px;
