@@ -44,6 +44,5 @@
     </div>
     @include('pages.footer')
 </div>
-
 </body>
 </html>

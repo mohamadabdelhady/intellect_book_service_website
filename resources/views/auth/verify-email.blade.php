@@ -20,9 +20,9 @@
     <form method="POST" action="{{ route('verification.send') }}">
         @csrf
         <div id="logo-img"class="ml-auto mr-auto mb-2" ></div>
-        <p class="h4 form-group">You must verify your email address, please check your email for verification link.</p>
+        <p class="h5 form-group">You have to verify your email address, please check your email for verification link.</p>
         <div class="form-group"><p align="center"><button type="submit" class="btn btn-block btn-log">Resend email</button></p></div>
-        <a class="already" href="/">Already have an account? Log in here.</a>
+{{--        <a class="already" href="/login">Already have an account? Log in here.</a>--}}
     </form>
 </div>
 </body>

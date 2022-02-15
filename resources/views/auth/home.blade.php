@@ -44,8 +44,9 @@
             </div>
     </div>
 </div>
-<div class="mt-5 ml-3">All copyright reserved for intellect book service&copy; 2022</div>
+
 </div>
+<div class="mt-5 ml-3">All copyright reserved for intellect book service&copy; 2022</div>
 </body>
 </html>
 

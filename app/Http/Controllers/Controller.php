@@ -38,8 +38,8 @@ public function get_settings()
 {
     $check=DB::table('users')->where('id','=',auth()->user()->id)->select('google_id')->first();
     $is0auth=false;
-    if($check!=null){$is0auth=true;}
-        return view('pages.settings')->with(compact('is0auth'));
+    if($check->google_id!=null){$is0auth=true;}
+    return view('pages.settings')->with(compact('is0auth'));
 }
 public function get_aboutus()
 {
@@ -48,5 +48,15 @@ public function get_aboutus()
 public function get_contact()
 {
     return view('pages.contact_us');
+}
+public function home_redirect()
+{
+   $days=now()->diffInDays(\Carbon\Carbon::parse(\auth()->user()->created_at));
+   dd($days);
+//    if()
+//    {
+//        return view('pages.main');
+//    }
+
 }
 }
