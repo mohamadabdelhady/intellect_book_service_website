@@ -6,12 +6,10 @@
            <div></div>
        </a>
         <a href="/"><div class="navbar-brand" id="logo-img"></div></a>
-
         <div class="m-auto search-bar">
             <form class="navbar-nav" method="post" action="{{route('search-results')}}">@csrf
                 <input class="form-control " type="search" placeholder="Search books, audiobooks and authors" aria-label="Search" id="search-input" name="q">
             </form>
-
         </div>
         <div class="main-menu">
             <a href="" class="main-btn" onclick="event.preventDefault(); view_menu();">
@@ -61,8 +59,6 @@
 </div>
 <script>
     function openGen(type) {
-
-
        var is= document.getElementById(type).style.display;
        if(is=="none")
        {
@@ -76,12 +72,17 @@
 
         document.getElementById('menu-content').classList.toggle("show");
     }
+    window.onclick = function(event) {
+        var $trigger = $(".main-btn");
+        if($trigger !== event.target && !$trigger.has(event.target).length){
+            document.getElementById("menu-content").classList.remove("show");
+        }
+    }
     function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
         document.getElementById("genera_a").style.display="none";
         document.getElementById("genera_b").style.display="none";
     }
-
     function closeNav() {
         document.getElementById("mySidenav").style.width = "0";
     }
