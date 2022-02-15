@@ -156,6 +156,7 @@ margin-right: 10%;
 #Search-form{
     padding-left:50px ;
 }
+
 .notification-bar{
     background-color: #e1cfa9;
     position: absolute;
@@ -165,6 +166,9 @@ margin-right: 10%;
     width: 100%;
     padding-left:10px;
     display: none;
+}
+.notification-bar li{
+    list-style-type: none;
 }
 .notification-bar span{
 color: #565c68;

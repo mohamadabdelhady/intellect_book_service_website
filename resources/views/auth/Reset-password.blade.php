@@ -42,6 +42,12 @@
         </div>
         <div class="form-group"><p align="center"><button class="btn btn-block btn-log" type="submit">Update</button></p></div>
     </form>
+    @if(session('status'))
+        <script type="text/javascript">
+            document.getElementById('notification').style.display="block";
+            document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>"+"{{ session('status') }}"+"</li>";
+        </script>
+    @endif
 </div>
 </body>
 </html>

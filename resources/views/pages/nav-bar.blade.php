@@ -38,7 +38,7 @@
     <div></div>
 </nav>
 <div class="notification-bar" id="notification">
-    <i class="fas fa-exclamation-circle"></i><span id="notification-message"></span>
+    <ul><div id="notification-message"></div></ul>
 </div>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>

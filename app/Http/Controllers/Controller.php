@@ -49,14 +49,5 @@ public function get_contact()
 {
     return view('pages.contact_us');
 }
-public function home_redirect()
-{
-   $days=now()->diffInDays(\Carbon\Carbon::parse(\auth()->user()->created_at));
-   dd($days);
-//    if()
-//    {
-//        return view('pages.main');
-//    }
 
-}
 }

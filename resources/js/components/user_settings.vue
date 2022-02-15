@@ -10,7 +10,11 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-5" style="border-right:1px solid #cbcaca;">
                     <img :src="profile_img" class="user_profile " v-if="is0auth==true">
                     <img v-else :src="'/images/users_profile_img/'+profile_img" class="user_profile">
-                    <button class="btn mt-3" style="width: 100%;"><span class="">Change image</span></button>
+                    <form id="change_prof" action="prof_change" method="POST"  style="display: none;" enctype="multipart/form-data">
+                        <input type="hidden" name="_token" v-bind:value="csrf">
+                        <input type="file"  directory  accept="image/*" style="display: none;" id="upload-img_prof" class="form-control" name="profimg" onchange="document.getElementById('change_prof').submit()">
+                    </form>
+                    <button class="btn mt-3" style="width: 100%;" onclick="event.preventDefault(); document.getElementById('upload-img_prof').click();"><span class="float-right">Change image</span><i class="fas fa-user-circle fa-2x float-left"></i></button>
                 </div>
                 <div class="col-xl-9 col-lg-9 col-md-8 col-sm-7 col-7">
                     <form method="POST" :action="route_update_info">

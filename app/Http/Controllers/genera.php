@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+
 
 class genera extends Controller
 {
@@ -59,5 +61,13 @@ class genera extends Controller
     {
 
         return view('pages.genera')->with(compact('genera'));
+    }
+    public function change_prof(Request $request)
+    {
+        $imageName = time() . '.' . 'png';
+        $request->file('profimg')->move(public_path('images/users_profile_img'), $imageName);
+       DB::table('users')->where('id','=', Auth::id())
+            ->update(['profile_img' => $imageName]);
+        return back();
     }
 }

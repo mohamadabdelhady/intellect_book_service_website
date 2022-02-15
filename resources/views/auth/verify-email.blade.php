@@ -24,6 +24,12 @@
         <div class="form-group"><p align="center"><button type="submit" class="btn btn-block btn-log">Resend email</button></p></div>
 {{--        <a class="already" href="/login">Already have an account? Log in here.</a>--}}
     </form>
+    @if(session('status'))
+        <script type="text/javascript">
+            document.getElementById('notification').style.display="block";
+            document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>"+"{{ session('status') }}"+"</li>";
+        </script>
+    @endif
 </div>
 </body>
 </html>

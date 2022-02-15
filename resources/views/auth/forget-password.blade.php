@@ -34,7 +34,7 @@
     @if(session('status'))
         <script type="text/javascript">
             document.getElementById('notification').style.display="block";
-            document.getElementById("notification-message").textContent = "{{session('status')}}";
+            document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>"+"{{ session('status') }}"+"</li>";
         </script>
     @endif
 </div>
