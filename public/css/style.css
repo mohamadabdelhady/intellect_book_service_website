@@ -169,6 +169,11 @@ margin-right: 10%;
 }
 .notification-bar li{
     list-style-type: none;
+
+}
+.notification-bar ul{
+    margin: 0;
+    padding-left: 5px;
 }
 .notification-bar span{
 color: #565c68;
