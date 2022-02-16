@@ -36,13 +36,13 @@
                         <input type="hidden" name="_method" value="PUT">
                     <label>Change password</label>
                         <div class="form-group">
-                    <input type="password" class="form-control input mt-3" placeholder="Current password" name="current_password">
+                    <input type="password" class="form-control input mt-3" placeholder="Current password" name="current_password" autocomplete="on">
                         </div>
                         <div class="form-group">
-                    <input type="password" class="form-control input mt-3" placeholder="Password" name="password">
+                    <input type="password" class="form-control input mt-3" placeholder="Password" name="password" autocomplete="on">
                         </div>
                         <div class="form-group">
-                    <input type="password" class="form-control input mt-3" placeholder="Confirm password" name="password_confirmation">
+                    <input type="password" class="form-control input mt-3" placeholder="Confirm password" name="password_confirmation" autocomplete="on">
                         </div>
                     <button class="btn mt-4" type="submit">Change password</button>
                     </form>
@@ -53,10 +53,13 @@
                 <label class="h4">subscription information</label>
                 <p v-if="days<=30">Your free trial status: {{remaining_days}} days left</p>
                 <p v-else>Your free trial status: trial ended</p>
-                <p v-if="plan!=null">Your current plan: {{plan}}</p>
+                <p v-if="plan!=null">Your current plan: plan {{plan}}</p>
                 <p v-else>Your current plan: none</p>
-                <div><span>automatic subscription renew: </span><input type="checkbox"></div>
-                <button class="btn" type="button" data-toggle="modal" data-target="#myModal">Change your plan</button>
+                <div><div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input " id="customSwitch1" v-model="renew_val" >
+                    <label class="custom-control-label" for="customSwitch1">Automatic subscription renewing</label>
+                </div></div>
+                <button class="btn mt-2" type="button" data-toggle="modal" data-target="#myModal">Change your plan</button>
                 <div id="myModal" class="modal fade" role="dialog">
                     <div class="modal-dialog">
 
@@ -97,13 +100,13 @@
 <script>
 export default {
     name: "user_settings",
-    props:['user_name','profile_img','is0auth','user_email','route_update_info','route_update_password','errors_bag','days','plan'],
+    props:['user_name','profile_img','is0auth','user_email','route_update_info','route_update_password','errors_bag','days','plan','is_renew'],
     data(){
         return{
             selected:"profile",
             csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
             remaining_days:30-(this.days),
-
+            renew_val:this.is_renew,
         }
     },
     methods:
@@ -112,13 +115,7 @@ export default {
             {
                 this.selected=select;
             },
-            error_handeling()
-            {
-                    if(errors_bag => updateProfileInformation)
-                    {
 
-                    }
-            }
         },
     mounted() {
 
@@ -132,6 +129,26 @@ export default {
             document.getElementById(oldVal+"_area").style="display:none;";
             document.getElementById(newVal).style="border-bottom:3px solid #565c68;";
             document.getElementById(newVal+"_area").style="display:block;";
+        },
+        renew_val:function ()
+        {
+            axios.post('change_renew_sub',{isRenew:this.renew_val})
+                .then((res)=>{
+                    document.getElementById('notification').style.display="block";
+                    $('#main_div').css('padding-top', function (index, curValue) {
+                        return parseInt(curValue, 10) + 2 + 'px';
+                    });
+                    document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>"+res.data+"</li>";
+
+                })
+                .catch((error)=>{
+                    document.getElementById('notification').style.display="block";
+                    $('#main_div').css('padding-top', function (index, curValue) {
+                        return parseInt(curValue, 10) + 2 + 'px';
+                    });
+                    document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>something went wrong, operation failed.</li>";
+
+                });
         }
     }
 }

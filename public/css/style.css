@@ -218,6 +218,9 @@ color: #565c68;
     font-size: 36px;
     margin-left: 50px;
 }
+#main_div{
+    padding-top: 100px
+}
 .books_genera{
     background-color: #ebe8e3;
     transition: 0.5s;

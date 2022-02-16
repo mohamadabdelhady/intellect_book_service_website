@@ -11,7 +11,7 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class="row" style="padding-top: 100px">
+    <div class="row" id="main_div">
 <div class="col-sm-4 col-5 col-xl-3 col-lg-3 cover">
 
     <img src="/books/{{$book_data->cover_img}}" class="cover_overview">

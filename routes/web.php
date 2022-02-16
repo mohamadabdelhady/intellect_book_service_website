@@ -60,6 +60,8 @@ Route::group(['middleware' => ['auth','verified','subscribed']], function () {
     Route::get('/about',[\App\Http\Controllers\Controller::class,'get_aboutus']);
     Route::get('/contact',[\App\Http\Controllers\Controller::class,'get_contact']);
     Route::get('/{genera}',[\App\Http\Controllers\genera::class,'get_genera']);
-    Route::post('/prof_change',[\App\Http\Controllers\genera::class,'change_prof']);
+    Route::post('/prof_change',[\App\Http\Controllers\settings::class,'change_prof']);
+    Route::post('/change_renew_sub',[\App\Http\Controllers\settings::class,'change_renew']);
+
 });
 

@@ -59,15 +59,9 @@ class genera extends Controller
     }
     public function get_genera($genera)
     {
+        abort_unless(in_array($genera, ['classics', 'history', 'science']), 404);
 
-        return view('pages.genera')->with(compact('genera'));
-    }
-    public function change_prof(Request $request)
-    {
-        $imageName = time() . '.' . 'png';
-        $request->file('profimg')->move(public_path('images/users_profile_img'), $imageName);
-       DB::table('users')->where('id','=', Auth::id())
-            ->update(['profile_img' => $imageName]);
-        return back();
-    }
+        return view('pages.genera', compact('genera'));
+}
+
 }

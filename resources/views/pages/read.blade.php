@@ -12,7 +12,7 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class=""style="padding-top: 100px">
+    <div class="" id="main_div">
 
         <read_book :file_name="{{json_encode( $book_name)}}":type="0":name="{{json_encode($name)}}" :book_id="{{json_encode($id)}}"></read_book>
 

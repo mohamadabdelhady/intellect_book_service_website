@@ -35,7 +35,7 @@
             @enderror
         </div>
         <div class="form-group">
-            <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password-input" placeholder="Password">
+            <input type="password" name="password" class="form-control @error('password') is-invalid @enderror" id="password-input" placeholder="Password" autocomplete="on">
             @error('password')
             <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -43,7 +43,7 @@
             @enderror
         </div>
         <div class="form-group">
-            <input type="password" class="form-control" id="confirm-password-input" placeholder="Confirm password" name="password_confirmation">
+            <input type="password" class="form-control" id="confirm-password-input" placeholder="Confirm password" name="password_confirmation" autocomplete="on">
         </div>
         <div class="form-group" align="center">
 

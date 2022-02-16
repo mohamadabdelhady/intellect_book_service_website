@@ -18,6 +18,7 @@
 <div class="notification-bar" style="display: block;" id="notification">
     <i class="fas fa-exclamation-circle"></i><span id="notification-message">sorry, your trial has ended, but if you wish to continue using this website you can choose one of our following plan plans.</span>
 </div>
+<div id="main_div">
 <div style="margin-top: 100px; min-height: 60vh">
     <div class="ml-5 mb-2">
 
@@ -33,6 +34,7 @@
         </div>
 
     </div>
+</div>
 </div>
 <div class="mt-5 ml-3">All copyright reserved for intellect book service&copy; 2022</div>
 </body>

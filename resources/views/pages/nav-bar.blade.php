@@ -50,7 +50,7 @@
     </div>
     <a href="#"onclick="event.preventDefault(); openGen('genera_b')">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
     <div class="books_genera" id="genera_b">
-        <a href="Classics">Classics</a>
+        <a href="classics">Classics</a>
         <a href="history">History</a>
         <a href="science">Science</a>
     </div>

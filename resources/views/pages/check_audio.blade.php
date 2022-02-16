@@ -11,7 +11,7 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class="row" style="padding-top: 100px">
+    <div class="row" id="main_div">
         <div class="col-sm-4 col-4 col-xl-3 col-lg-3 cover">
             <img src="/audio_books/covers/{{$book_data->cover_img}}" class="cover_overview">
             <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('listen_btn').click();"><i class="fas fa-headphones-alt fa-2x" style=""></i></button>

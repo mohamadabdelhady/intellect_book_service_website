@@ -12,7 +12,7 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-    <div class="row"style="padding-top: 100px">
+    <div class="row" id="main_div">
 
         <div class="col-12">
             <p class="h2">About us</p>

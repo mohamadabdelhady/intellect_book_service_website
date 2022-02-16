@@ -26,7 +26,7 @@
         @enderror
     </div>
     <div class="form-group">
-        <input name="password" type="password" class="form-control @error('password') is-invalid @enderror" id="password-input" placeholder="Password">
+        <input name="password" type="password" class="form-control @error('password') is-invalid @enderror" id="password-input" placeholder="Password" autocomplete="on">
         @error('password')
         <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>

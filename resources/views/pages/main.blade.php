@@ -21,7 +21,7 @@
 <body>
 @include('pages.nav-bar')
 <div class="container">
-<div class="row"style="padding-top: 100px">
+<div class="row" id="main_div">
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
