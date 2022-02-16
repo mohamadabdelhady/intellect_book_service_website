@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Auth;
 //routes that don't require authentication or verification or subscription
 Route::get('/', function () {
     if (Auth::check()) {
+
         return redirect()->route('home');
     }
     else

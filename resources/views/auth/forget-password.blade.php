@@ -15,7 +15,7 @@
     </div>
 </nav>
 <div class="notification-bar" id="notification">
-    <i class="fas fa-exclamation-circle"></i><span id="notification-message"></span>
+    <ul><div id="notification-message"></div></ul>
 </div>
 <div class="sign-up-form card ml-auto mr-auto">
     <form method="POST" action="{{ route('password.request') }}">

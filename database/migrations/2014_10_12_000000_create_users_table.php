@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->string('google_id')->nullable();
             $table->boolean('first_time')->default(true);
-            $table->boolean('renew_subscription')->default(false);
+            $table->boolean('auto_renew_sub')->default(false);
             $table->char('chosen_plan')->nullable();
             $table->rememberToken();
             $table->timestamps();

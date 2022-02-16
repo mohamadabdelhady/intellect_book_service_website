@@ -2,6 +2,7 @@
 
 namespace App\Actions\Fortify;
 
+use App\Rules\AlphSpace;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
@@ -19,7 +20,7 @@ class UpdateUserProfileInformation implements UpdatesUserProfileInformation
     public function update($user, array $input)
     {
         Validator::make($input, [
-            'name' => ['required', 'string', 'max:255','regex:/^[a-zA-Z ]*$/'],
+            'name' => ['required', 'string', 'max:255',new AlphSpace()],
 
             'email' => [
                 'required',

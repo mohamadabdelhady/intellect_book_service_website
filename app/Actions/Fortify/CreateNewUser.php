@@ -3,6 +3,7 @@
 namespace App\Actions\Fortify;
 
 use App\Models\User;
+use App\Rules\AlphSpace;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
@@ -21,7 +22,7 @@ class CreateNewUser implements CreatesNewUsers
     public function create(array $input)
     {
         Validator::make($input, [
-            'name' => ['required', 'string', 'max:255','regex:/^[a-zA-Z ]*$/'],
+            'name' => ['required', 'string', 'max:255',new AlphSpace()],
             'email' => [
                 'required',
                 'string',
