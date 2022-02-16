@@ -11,7 +11,7 @@
                 <div>
                     <img :src="review.profile_img" class="userAvatar" v-if="review.google_id!=null">
                     <img :src="'/images/users_profile_img/'+review.profile_img" v-else class="userAvatar">
-                    <a href="#"><span class="pl-1">{{review.name}}</span></a>
+                    <span class="pl-1">{{review.name}}</span>
                     <span style="float: right;"><generate_stars :rating="review.rating"></generate_stars></span>
                 </div>
                 <p class="pt-2" style="padding-left: 60px;">{{review.review}}</p>
