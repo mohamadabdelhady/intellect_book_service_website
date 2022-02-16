@@ -50,6 +50,44 @@
                 </div>
             </div>
             <div id="subscription_area"  style="display: none;">
+                <label class="h4">subscription information</label>
+                <p v-if="days<=30">Your free trial status: {{remaining_days}} days left</p>
+                <p v-else>Your free trial status: trial ended</p>
+                <p v-if="plan!=null">Your current plan: {{plan}}</p>
+                <p v-else>Your current plan: none</p>
+                <div><span>automatic subscription renew: </span><input type="checkbox"></div>
+                <button class="btn" type="button" data-toggle="modal" data-target="#myModal">Change your plan</button>
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+
+                            <div class="modal-body">
+                                <div><div class="ml-5 mb-2 plan">
+                                    <div align="center">
+                                        <div class="container ">
+                                            <div class="row plans pt-2">
+                                                <div class="col card mr-xl-5 mr-lg-5 mr-md-4 mr-sm-4 mr-3" onclick="window.location.href='choose/planA';" style="cursor: pointer;"><p class="display-2">1</p><p style="font-size: large">month</p><p style="font-size: x-large">10 &#36;</p></div>
+                                                <div class="col card mr-xl-5 mr-lg-5 mr-md-4 mr-sm-4 mr-3" onclick="window.location.href='choose/planB';" style="cursor: pointer;"><p class="display-2">6</p><p style="font-size: large">month</p><p style="font-size: x-large">45 &#36;</p></div>
+                                                <div class="col card mr-xl-5 mr-lg-5 mr-md-4 mr-sm-4 mr-3" onclick="window.location.href='choose/planC';" style="cursor: pointer;"><p class="display-2">1</p><p style="font-size: large">year</p><p style="font-size: x-large">100 &#36;</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn m-auto" data-dismiss="modal">close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <label class="h4">payment method</label>
+                <p><button class="btn">Add payment method</button></p>
+
         </div>
 
 
@@ -59,11 +97,12 @@
 <script>
 export default {
     name: "user_settings",
-    props:['user_name','profile_img','is0auth','user_email','route_update_info','route_update_password','errors_bag'],
+    props:['user_name','profile_img','is0auth','user_email','route_update_info','route_update_password','errors_bag','days','plan'],
     data(){
         return{
             selected:"profile",
             csrf: document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+            remaining_days:30-(this.days),
 
         }
     },
@@ -117,6 +156,9 @@ export default {
     }
     .input{
         width: 45vw;
+    }
+    .plan{
+        display:none;
     }
 }
 </style>
