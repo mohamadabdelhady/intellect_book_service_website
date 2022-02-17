@@ -4,6 +4,7 @@
 Intellect book service is subscription based website for reading e-books and listening to audiobooks,
 users of the website can enjoy reading and listening to books online for small subscription fee, users can also read reviews left by other users of the website as well as leaving their own, once the user signup they can enjoy 30 days trial of the website after it end the user can choose one of the three subscription plan put on the main page.
 </p>
+<a href="https://drive.google.com/drive/folders/1qq9uE8xNG7voJgaiypAV9mGFFhlzICpx?usp=sharing"><p>Screenshots</p></a>
 <h2>What is this website built with</h2>
 <ul>
 <li>
@@ -25,7 +26,7 @@ Back-end
 </ul>
 </li>
 </ul>
-<a href="https://drive.google.com/drive/folders/1qq9uE8xNG7voJgaiypAV9mGFFhlzICpx?usp=sharing"><h2>Screenshots</h2></a>
+
 
 <h2>
 How to set up the project after cloning it
