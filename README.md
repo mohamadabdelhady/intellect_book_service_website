@@ -25,6 +25,8 @@ Back-end
 </ul>
 </li>
 </ul>
+<a href="https://drive.google.com/drive/folders/1qq9uE8xNG7voJgaiypAV9mGFFhlzICpx?usp=sharing"><h2>Screenshots</h2></a>
+
 <h2>
 How to set up the project after cloning it
 </h2>
