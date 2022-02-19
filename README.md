@@ -13,7 +13,7 @@ Front-end
 <ul>
 <li>HTML/CSS/<a href="https://getbootstrap.com/">Bootstrap</a></li>
 <li>JavaScript( <a href="https://vuejs.org/">Vue.js</a> )</li>
-<li><a href="https://github.com/futurepress/epub.js/">epub.js</a>( JavaScript library for reading and in on a website )</li>
+<li><a href="https://github.com/futurepress/epub.js/">epub.js</a>( JavaScript library for rendering ePub documents in the browser, across many devices.)</li>
 <li><a href="https://howlerjs.com/">Howler.js</a>( JavaScript library for playing audio on a website)</li>
 
 </ul>
