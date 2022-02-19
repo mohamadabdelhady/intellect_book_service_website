@@ -64,7 +64,7 @@ How to set up the project after cloning it
 Licence
 </h2>
 <p>
-Intellect book service website is open-sourced software licensed under the <a href="intellect_book_service_website/LICENSE">MIT licence</a>.
+Intellect book service website is open-sourced software licensed under the <a href="/LICENSE">MIT licence</a>.
 </p>
 
 
