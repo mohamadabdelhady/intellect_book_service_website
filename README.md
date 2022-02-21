@@ -13,7 +13,7 @@ Front-end
 <ul>
 <li>HTML/CSS/<a href="https://getbootstrap.com/">Bootstrap</a></li>
 <li>JavaScript( <a href="https://vuejs.org/">Vue.js</a> )</li>
-<li><a href="https://github.com/futurepress/epub.js/">epub.js</a>( JavaScript library for reading and in on a website )</li>
+<li><a href="https://github.com/futurepress/epub.js/">epub.js</a>( JavaScript library for rendering ePub documents in the browser, across many devices.)</li>
 <li><a href="https://howlerjs.com/">Howler.js</a>( JavaScript library for playing audio on a website)</li>
 
 </ul>
@@ -65,7 +65,7 @@ How to set up the project after cloning it
 Licence
 </h2>
 <p>
-Intellect book service website is open-sourced software licensed under the <a href="https://opensource.org/licenses/MIT">MIT licence</a>.
+Intellect book service website is open-sourced software licensed under the <a href="/LICENSE">MIT licence</a>.
 </p>
 
 
