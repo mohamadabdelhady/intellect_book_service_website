@@ -42,6 +42,7 @@ How to set up the project after cloning it
 <li>Creat a database with the same name of the same name as "DB_DATABASE" field in .env file</li>
 <li>type "php artisan migrate"</li>
 <li>To run the project on your browser type "php artisan serve"</li>
+<li>To put test data into the database type "query" into the url</li>
 </ol>
 <h2>How to use the website</h2>
 <ul>
