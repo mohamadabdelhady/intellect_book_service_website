@@ -68,6 +68,7 @@ export default {
         {
             load_audio()
             {
+
                  this.sound = new Howl({
                     src: [this.file_path],
                     html5: true,
@@ -76,7 +77,6 @@ export default {
                          this.is_playing= setInterval(this.update_seekbar,1000);
                      }
                 });
-
             },
             change_rate(sign){
 
