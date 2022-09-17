@@ -14,7 +14,7 @@ class settings extends Controller
         $request->file('profimg')->move(public_path('images/users_profile_img'), $imageName);
         DB::table('users')->where('id','=', Auth::id())
             ->update(['profile_img' => $imageName]);
-        dd($request->file('profimg'));
+//         dd($request->file('profimg'));
         return back();
     }
     public function change_renew(Request $request)
