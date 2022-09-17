@@ -53,7 +53,7 @@ export default {
     {
         return{
             sound:"",
-            file_path:"/audio_books/audio_files/"+this.file_name+".mp3",
+            file_path:"audio_books/audio_files/"+this.file_name+".mp3",
             audio_seek:0,
             audio_seek_formated:"00:00",
             volume:100,

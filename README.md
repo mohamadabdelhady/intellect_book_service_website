@@ -59,7 +59,7 @@ How to set up the project after cloning it
 <h2>Notes</h2>
 <ul>
 <li>I didn't implement a way to add a payment method, so if you are planning to use this project in commercial use you will have to implement one.</li>
-<li>While programming tha audio player I had a problem with it that the play button will play the audio from the beginning after it has been paused(this problem only occurred in chrome it work fine in firefox, some user online refer that this is a problem with the server settings and has nothing to do with howlerjs library ), I haven't found a solution to this problem yet.</li>
+<li>If you run the project using "php artisan serve" the audioplayer will play from the begining when you stop it and play it again, but don't worry this error occuor only on the local larave development but it work perfectly fine on apache server.</li>
 </ul>
 <h2>
 Licence

@@ -51,7 +51,7 @@ export default {
     data()
     {
         return{
-            file_path:"/books/epub_files/"+this.file_name+".epub",
+            file_path:"books/epub_files/"+this.file_name+".epub",
             book:"",
             rendition:"",
             displayed:"",

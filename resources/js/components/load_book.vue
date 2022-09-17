@@ -18,7 +18,7 @@
         <div class="row">
         <div class="m-auto" v-for="(book, index) in books">
             <a :href="'check_book_'+book['id']" class="book_card card">
-        <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
+        <img :src="'books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
                 <p class="book_title m-auto h6">By {{book['author']}}</p>
             <div class="row m-auto">
