@@ -44,4 +44,45 @@ class User extends Authenticatable implements MustVerifyEmail
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    
+    public function isOAuthUser()
+    {
+        return $this->google_id !== null;
+    }
+
+    public function bookmarks()
+    {
+        return $this->hasMany(Bookmark::class);
+    }
+
+
+    public function reviews()
+    {
+        return $this->hasMany(BookReviews::class);
+    }
+
+    public function userBookProgresses()
+    {
+        return $this->hasMany(UserBookProgress::class);
+    }
+
+    public function progressForBook($bookId)
+    {
+        return $this->userBookProgresses()
+                    ->where('book_id', $bookId)
+                    ->first();
+    }
+
+    public function updateProfileImg($imageName)
+    {
+        return $this->where('id', auth()->id())
+            ->update(['profile_img' => $imageName]);
+    }
+
+    public function UpdateRenewSetting($isRenew)
+    {
+        return $this->where('id', auth()->id())
+            ->update(['auto_renew_sub' => $isRenew]);
+    }
 }

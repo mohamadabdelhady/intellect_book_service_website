@@ -11,7 +11,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 
 
 <div class="container">
@@ -35,7 +35,7 @@
             @endforeach
         </script>
     @endif
-    @include('pages.footer')
+    @include('User.footer')
 </div>
 
 

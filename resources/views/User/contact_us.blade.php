@@ -10,17 +10,17 @@
 
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 <div class="container">
-    <div class="" id="main_div">
+    <div class="row" id="main_div">
 
-        <listen_audiobook :file_name="{{json_encode($book_name)}}" :book_id="{{json_encode($book_id)}}" :type="1" :book_cover="{{json_encode($book_cover)}}"></listen_audiobook>
+        <div class="col-12">
+            <p class="h2">contact us</p>
+            <p class="h4">telephone:xxx-xxx-xxx</p>
+            <p class="h4">email:xxx@xxx.com</p>
+               </div>
     </div>
-
-@include('pages.footer')
+@include('User.footer')
 </div>
 </body>
 </html>
-<script>
-
-</script>

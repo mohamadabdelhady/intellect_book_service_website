@@ -13,12 +13,12 @@ class CreateBookReviewsTable extends Migration
      */
     public function up()
     {
-        Schema::create('reviews', function (Blueprint $table) {
+        Schema::create('book_reviews', function (Blueprint $table) {
             $table->id();
-            $table->bigInteger('book_id');
+            $table->foreignId('book_id')->references('id')->on('books');
             $table->integer('type');
             $table->text('review')->nullable();
-            $table->bigInteger('user_id');
+            $table->foreignId('user_id')->references('id')->on('users');
             $table->integer('rating');
             $table->timestamps();
         });

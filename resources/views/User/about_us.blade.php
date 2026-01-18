@@ -10,17 +10,18 @@
 
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 <div class="container">
     <div class="row" id="main_div">
 
         <div class="col-12">
-            <search_results :books="{{json_encode($ebooks)}}" :audio="{{json_encode($audio_books)}}" :authors="{{json_encode($authors)}}"></search_results>
+            <p class="h2">About us</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
         </div>
+
     </div>
-    @include('pages.footer')
+    @include('User.footer')
 </div>
-
-
 </body>
 </html>

@@ -1,9 +1,15 @@
 <?php
 
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\User\HomeController;
+use App\Http\Controllers\User\BookmarkController;
+use App\Http\Controllers\User\BooksController;
+use App\Http\Controllers\User\GeneraController;
+use App\Http\Controllers\User\ReviewsController;
+use App\Http\Controllers\User\SettingsController;
+use App\Http\Controllers\User\AuthController;
 use Illuminate\Support\Facades\Route;
-use Laravel\Socialite\Facades\Socialite;
-use App\Models\User;
-use Illuminate\Support\Facades\Auth;
+use App\Models\UserBookProgress;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,51 +23,50 @@ use Illuminate\Support\Facades\Auth;
 */
 
 //routes that don't require authentication or verification or subscription
-Route::get('/', function () {
-    if (Auth::check()) {
+Route::get('/', [AuthController::class, 'index']);
+Route::get('/subscribe',[AuthController::class, 'register'])->name('register-form');
+Route::get('/login',[AuthController::class, 'login'])->name('login')->name('login-form');
+Route::get('/auth/redirect',[AuthController::class, 'redirectToGoogle'])->name('google-auth-redirect');
+Route::get('/auth/callback', [AuthController::class, 'handleGoogleCallback'])->name('google-auth-callback');
 
-        return redirect()->route('home');
-    }
-    else
-    {
-        return view('auth.home');
-    }
-});
-Route::get('/subscribe', function () {return view('auth.subscribe');});
-Route::get('/login',['as'=>'login','uses'=> function () {return view('auth.login');}]);
-Route::get('/query',[\App\Http\Controllers\Controller::class, 'query'])->middleware('auth');
-Route::get('/auth/redirect',[\App\Http\Controllers\SocialmediaAuth::class, 'redirectToGoogle']);
-Route::get('/auth/callback', [\App\Http\Controllers\SocialmediaAuth::class, 'handleGoogleCallback']);
+Route::get('/test',[Controller::class,'test'])->name('test');
+
 //routes that do require authentication and verification and subscription
 Route::group(['middleware' => ['auth','verified','subscribed']], function () {
-    Route::get('/home',  ['as' => 'home', 'uses' => function(){return view('pages.main');}]);
-    Route::get('/load_all_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_books']);
-    Route::get('/load_all_audio_books/{sort}',[\App\Http\Controllers\load_book::class,'get_all_audiobooks']);
-    Route::get('/check_book_{id}',[\App\Http\Controllers\read_book::class,'check_book']);
-    Route::get('/check_audio_{id}',[\App\Http\Controllers\read_book::class,'check_audio']);
-    Route::get('/load_all_reviews/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_reviews']);
-    Route::post('/post_review',[\App\Http\Controllers\read_book::class,'post_review']);
-    Route::post('/edit_review',[\App\Http\Controllers\read_book::class,'update_review']);
-    Route::get('/get_my_review/{id}/{type}',[\App\Http\Controllers\read_book::class,'get_my_review']);
-    Route::get('/read_{id}',[\App\Http\Controllers\read_book::class,'load_book']);
-    Route::get('/delete_review/{id}/{type}',[\App\Http\Controllers\read_book::class,'delete_review']);
-    Route::get('/listen_{id}',[\App\Http\Controllers\read_book::class,'load_audio']);
-    Route::post('/set_book_progress',[\App\Http\Controllers\ProgressController::class,'set_book_progress']);
-    Route::get('/get_book_progress/{id}/{type}',[\App\Http\Controllers\ProgressController::class,'get_book_progress']);
-    Route::get('/set_book_progress',[\App\Http\Controllers\ProgressController::class,'set_book_progress']);
-    Route::get('/get_{author}',[\App\Http\Controllers\Controller::class,'get_author']);
-    Route::get('/bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'set_bookmark']);
-    Route::get('/remove_bookmark_{id}/{type}',[\App\Http\Controllers\get_books::class,'remove_bookmark']);
-    Route::post('/search-results',['as' => 'search-results', 'uses' =>'\App\Http\Controllers\search@search']);
-    Route::get('/bookmarks_list',[\App\Http\Controllers\bookmark::class,'get_user_bookmarks']);
-    Route::get('/settings',[\App\Http\Controllers\Controller::class,'get_settings']);
-    Route::get('/load_genera_books/{genera}/{sort}',[\App\Http\Controllers\genera::class,'get_all_books']);
-    Route::get('/load_genera_audio/{genera}/{sort}',[\App\Http\Controllers\genera::class,'get_all_audiobooks']);
-    Route::get('/about',[\App\Http\Controllers\Controller::class,'get_aboutus']);
-    Route::get('/contact',[\App\Http\Controllers\Controller::class,'get_contact']);
-    Route::get('/{genera}',[\App\Http\Controllers\genera::class,'get_genera']);
-    Route::post('/prof_change',[\App\Http\Controllers\settings::class,'change_prof']);
-    Route::post('/change_renew_sub',[\App\Http\Controllers\settings::class,'change_renew']);
+    //main pages routes
+    Route::get('/home',  [HomeController::class,'index'])->name('home');
+    Route::get('/about',[HomeController::class,'getAboutus'])->name('about-us');
+    Route::get('/contact',[HomeController::class,'getContact'])->name('contact-us');
+    //books routes
+    Route::get('/load_all_books/{sort}/{type}',[BooksController::class,'index'])->name('get-all-books');
+    Route::get('/check_book_{id}',[BooksController::class,'show'])->name('check-book');
+    Route::get('/read/{id}/{type}',[BooksController::class,'readOrListen'])->name('read-or-listen');
+    Route::post('/search-results',[BooksController::class,'search'])->name("search-results");
+    Route::get('/get/{author}',[BooksController::class,'getAuthor'])->name('get-author');
+    //book reviews routes
+    Route::get('/load_all_reviews/{id}',[ReviewsController::class,'index'])->name('get-all-reviews');
+    Route::post('/post_review',[ReviewsController::class,'post'])->name('post-review');
+    Route::post('/edit_review',[ReviewsController::class,'update'])->name('edit-review');
+    Route::get('/get_my_review/{id}',[ReviewsController::class,'show'])->name('get-my-review');
+    Route::get('/delete_review/{id}',[ReviewsController::class,'destroy'])->name('delete-review');
+    //book progress routes
+    Route::post('/set_book_progress',[UserBookProgress::class,'create'])->name('set-book-progress');
+    Route::get('/get_book_progress/{id}/{type}',[UserBookProgress::class,'get'])->name('get-book-progress');
+    //bookmark routes
+    Route::get('/bookmarks_list',[BookmarkController::class,'index'])->name('user-bookmarks');
+     Route::get('/bookmark/{id}/{type}',[BookmarkController::class,'create'])->name('add-bookmark');
+    Route::get('/remove_bookmark/{id}/{type}',[BookmarkController::class,'destroy'])->name('remove-bookmark');
+    //genera routes
+    Route::get('/load_genera_books/{genera}/{sort}/{type}',[GeneraController::class,'getBooksByGenera'])->name('get-genera-books');
+    Route::get('/{genera}',[GeneraController::class,'getGenera'])->name('get-genera');
+    //settings routes
+    Route::get('/settings',[SettingsController::class,'getSettings'])->name('user-settings');
+    Route::post('/prof_change',[SettingsController::class,'changeProfileImg'])->name('change-profile-img');
+    Route::post('/change_renew_sub',[SettingsController::class,'changeRenewSetting'])->name('change-renew-setting');
+});
+
+//Dashboard routes
+Route::group(['middleware'=>[],'prefix'=>'dashboard'], function () {
 
 });
 

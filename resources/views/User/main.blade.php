@@ -19,7 +19,7 @@
     </script>
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 <div class="container">
 <div class="row" id="main_div">
     <div id="myModal" class="modal fade" role="dialog">
@@ -54,7 +54,7 @@
     <load_audiobooks></load_audiobooks>
     </div>
 </div>
-    @include('pages.footer')
+    @include('User.footer')
 </div>
 </body>
 </html>

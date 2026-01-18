@@ -10,21 +10,20 @@
 
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 <div class="container">
-    <div class="row" id="main_div">
+    <div class="" id="main_div">
 
-        <div class="col-12">
-            <user_bookmark :books="{{json_encode($books)}}" :audio="{{json_encode($audio)}}" :user_name="{{json_encode(auth()->user()->name)}}"></user_bookmark>
-        </div>
+        <read_book :file_name="{{json_encode( $book->stored_name)}}":type="0":name="{{json_encode($book->name)}}" :book_id="{{json_encode($book->id)}}"></read_book>
+
     </div>
-    @include('pages.footer')
+    @include('User.footer')
 </div>
+
+
+
 </body>
 </html>
 <script>
-    import User_bookmark from "../../js/components/user_bookmark";
-    export default {
-        components: {User_bookmark}
-    }
+
 </script>

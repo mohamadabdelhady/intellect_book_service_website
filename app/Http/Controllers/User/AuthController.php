@@ -1,18 +1,32 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\User;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Support\Str;
-use Laravel\Socialite\Facades\Socialite;
+use App\Http\Controllers\Controller;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
+use Laravel\Socialite\Facades\Socialite;
+use phpseclib3\Crypt\Hash;
 
-
-class SocialmediaAuth extends Controller
+class AuthController extends Controller
 {
-public function redirectToGoogle()
+    public function index()
+    {
+        if (auth()->check()) {
+            return redirect()->route('home');
+        }
+        return view('Auth.home');
+    }
+    public function login()
+    {
+        return view('Auth.login');
+    }
+
+    public function register()
+    {
+        return view('Auth.subscribe');
+    }
+    public function redirectToGoogle()
 {
     return Socialite::driver('google')->stateless()->redirect();
 }
@@ -33,7 +47,6 @@ public function handleGoogleCallback()
 
         }else{
             $randString = Str::random(10);
-//            dd($user);
             $newUser = User::create([
 
                 'name' => $user->name,
@@ -51,6 +64,4 @@ public function handleGoogleCallback()
         dd($e->getMessage());
     }
 }
-
-
 }

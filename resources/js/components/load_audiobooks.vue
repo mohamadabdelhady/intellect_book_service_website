@@ -15,10 +15,10 @@
         </div>
         <div class="row">
             <div class="m-auto" v-for="(book, index) in audio_books">
-                <a :href="'check_audio_'+book['id']" class="book_card card">
+                <a :href="'check_book_'+book['id']" class="book_card card">
                 <img :src="'audio_books/covers/'+book['cover_img']" class="book_img m-auto">
                 <p class="book_title m-auto h4">{{book['name']}}</p>
-                    <p class="book_title m-auto h6">By {{book['author']}}</p>
+                    <p class="book_title m-auto h6">By {{book['author_name']}}</p>
                     <p class="book_title m-auto h6">Narrator {{book['narrator']}}</p>
                 <div class="row m-auto">
                     <generate_stars :rating="book['rating']"></generate_stars>
@@ -46,7 +46,7 @@ export default {
     },
     methods:{
         get_books(){
-            axios.get('load_all_audio_books/'+this.sorting+'?page='+this.page).then(response=> {
+            axios.get('load_all_books/'+this.sorting+'/audiobook'+'?page='+this.page).then(response=> {
                 $.each(response.data.data, (key, v) => {
                     this.audio_books.push(v);
                     if (response.data.current_page==response.data.last_page){

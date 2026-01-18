@@ -20,7 +20,7 @@
             <a :href="'check_book_'+book['id']" class="book_card card">
         <img :src="'books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
-                <p class="book_title m-auto h6">By {{book['author']}}</p>
+                <p class="book_title m-auto h6">By {{book['author_name']}}</p>
             <div class="row m-auto">
            <generate_stars :rating="book['rating']"></generate_stars>
             </div>
@@ -51,7 +51,7 @@ name:'load_book',
         },
     methods:{
         get_books(){
-            axios.get('load_all_books/'+this.sorting+'?page='+this.page).then(response=> {
+            axios.get('load_all_books/'+this.sorting+'/book'+'?page='+this.page).then(response=> {
                 $.each(response.data.data, (key, v) => {
                     this.books.push(v);
                     if (response.data.current_page==response.data.last_page){

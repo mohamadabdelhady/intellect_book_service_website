@@ -10,18 +10,15 @@
 
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 <div class="container">
     <div class="" id="main_div">
 
-        <read_book :file_name="{{json_encode( $book_name)}}":type="0":name="{{json_encode($name)}}" :book_id="{{json_encode($id)}}"></read_book>
-
+        <listen_audiobook :file_name="{{json_encode($book->stored_name)}}" :book_id="{{json_encode($book->id)}}" :type="1" :book_cover="{{json_encode($book->cover_img)}}"></listen_audiobook>
     </div>
-    @include('pages.footer')
+
+@include('User.footer')
 </div>
-
-
-
 </body>
 </html>
 <script>

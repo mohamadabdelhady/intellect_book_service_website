@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-@include('pages.nav-bar')
+@include('User.nav-bar')
 <div class="container">
     <div class="row" id="main_div">
         <div class="col-sm-4 col-5 col-xl-3 col-lg-3 cover">
@@ -28,17 +28,11 @@
             <get_author_work :books="{{json_encode($books)}}" :audio="{{json_encode($audio)}}"></get_author_work>
         </div>
     </div>
-    @include('pages.footer')
+    @include('User.footer')
 </div>
 
 </body>
 </html>
 <script>
-    import Get_author
-    import Get_author
-    export default {
-        components: {
-            Get_author's_work }),
-            Get_author's_work })}
-        }
+
 </script>

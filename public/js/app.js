@@ -1,26 +1,26 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js":
+/***/ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js"
 /*!********************************************************************!*\
   !*** ./node_modules/@fortawesome/fontawesome-svg-core/index.es.js ***!
   \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "config": () => (/* binding */ config),
-/* harmony export */   "counter": () => (/* binding */ counter),
-/* harmony export */   "dom": () => (/* binding */ dom),
-/* harmony export */   "findIconDefinition": () => (/* binding */ findIconDefinition),
-/* harmony export */   "icon": () => (/* binding */ icon),
-/* harmony export */   "layer": () => (/* binding */ layer),
-/* harmony export */   "library": () => (/* binding */ library),
-/* harmony export */   "noAuto": () => (/* binding */ noAuto),
-/* harmony export */   "parse": () => (/* binding */ parse),
-/* harmony export */   "text": () => (/* binding */ text),
-/* harmony export */   "toHtml": () => (/* binding */ toHtml)
+/* harmony export */   config: () => (/* binding */ config),
+/* harmony export */   counter: () => (/* binding */ counter),
+/* harmony export */   dom: () => (/* binding */ dom),
+/* harmony export */   findIconDefinition: () => (/* binding */ findIconDefinition),
+/* harmony export */   icon: () => (/* binding */ icon),
+/* harmony export */   layer: () => (/* binding */ layer),
+/* harmony export */   library: () => (/* binding */ library),
+/* harmony export */   noAuto: () => (/* binding */ noAuto),
+/* harmony export */   parse: () => (/* binding */ parse),
+/* harmony export */   text: () => (/* binding */ text),
+/* harmony export */   toHtml: () => (/* binding */ toHtml)
 /* harmony export */ });
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -2459,476 +2459,476 @@ var autoReplace = function autoReplace() {
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js":
+/***/ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js"
 /*!*********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-brands-svg-icons/index.es.js ***!
   \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "fa500px": () => (/* binding */ fa500px),
-/* harmony export */   "faAccessibleIcon": () => (/* binding */ faAccessibleIcon),
-/* harmony export */   "faAccusoft": () => (/* binding */ faAccusoft),
-/* harmony export */   "faAcquisitionsIncorporated": () => (/* binding */ faAcquisitionsIncorporated),
-/* harmony export */   "faAdn": () => (/* binding */ faAdn),
-/* harmony export */   "faAdversal": () => (/* binding */ faAdversal),
-/* harmony export */   "faAffiliatetheme": () => (/* binding */ faAffiliatetheme),
-/* harmony export */   "faAirbnb": () => (/* binding */ faAirbnb),
-/* harmony export */   "faAlgolia": () => (/* binding */ faAlgolia),
-/* harmony export */   "faAlipay": () => (/* binding */ faAlipay),
-/* harmony export */   "faAmazon": () => (/* binding */ faAmazon),
-/* harmony export */   "faAmazonPay": () => (/* binding */ faAmazonPay),
-/* harmony export */   "faAmilia": () => (/* binding */ faAmilia),
-/* harmony export */   "faAndroid": () => (/* binding */ faAndroid),
-/* harmony export */   "faAngellist": () => (/* binding */ faAngellist),
-/* harmony export */   "faAngrycreative": () => (/* binding */ faAngrycreative),
-/* harmony export */   "faAngular": () => (/* binding */ faAngular),
-/* harmony export */   "faAppStore": () => (/* binding */ faAppStore),
-/* harmony export */   "faAppStoreIos": () => (/* binding */ faAppStoreIos),
-/* harmony export */   "faApper": () => (/* binding */ faApper),
-/* harmony export */   "faApple": () => (/* binding */ faApple),
-/* harmony export */   "faApplePay": () => (/* binding */ faApplePay),
-/* harmony export */   "faArtstation": () => (/* binding */ faArtstation),
-/* harmony export */   "faAsymmetrik": () => (/* binding */ faAsymmetrik),
-/* harmony export */   "faAtlassian": () => (/* binding */ faAtlassian),
-/* harmony export */   "faAudible": () => (/* binding */ faAudible),
-/* harmony export */   "faAutoprefixer": () => (/* binding */ faAutoprefixer),
-/* harmony export */   "faAvianex": () => (/* binding */ faAvianex),
-/* harmony export */   "faAviato": () => (/* binding */ faAviato),
-/* harmony export */   "faAws": () => (/* binding */ faAws),
-/* harmony export */   "faBandcamp": () => (/* binding */ faBandcamp),
-/* harmony export */   "faBattleNet": () => (/* binding */ faBattleNet),
-/* harmony export */   "faBehance": () => (/* binding */ faBehance),
-/* harmony export */   "faBehanceSquare": () => (/* binding */ faBehanceSquare),
-/* harmony export */   "faBimobject": () => (/* binding */ faBimobject),
-/* harmony export */   "faBitbucket": () => (/* binding */ faBitbucket),
-/* harmony export */   "faBitcoin": () => (/* binding */ faBitcoin),
-/* harmony export */   "faBity": () => (/* binding */ faBity),
-/* harmony export */   "faBlackTie": () => (/* binding */ faBlackTie),
-/* harmony export */   "faBlackberry": () => (/* binding */ faBlackberry),
-/* harmony export */   "faBlogger": () => (/* binding */ faBlogger),
-/* harmony export */   "faBloggerB": () => (/* binding */ faBloggerB),
-/* harmony export */   "faBluetooth": () => (/* binding */ faBluetooth),
-/* harmony export */   "faBluetoothB": () => (/* binding */ faBluetoothB),
-/* harmony export */   "faBootstrap": () => (/* binding */ faBootstrap),
-/* harmony export */   "faBtc": () => (/* binding */ faBtc),
-/* harmony export */   "faBuffer": () => (/* binding */ faBuffer),
-/* harmony export */   "faBuromobelexperte": () => (/* binding */ faBuromobelexperte),
-/* harmony export */   "faBuyNLarge": () => (/* binding */ faBuyNLarge),
-/* harmony export */   "faBuysellads": () => (/* binding */ faBuysellads),
-/* harmony export */   "faCanadianMapleLeaf": () => (/* binding */ faCanadianMapleLeaf),
-/* harmony export */   "faCcAmazonPay": () => (/* binding */ faCcAmazonPay),
-/* harmony export */   "faCcAmex": () => (/* binding */ faCcAmex),
-/* harmony export */   "faCcApplePay": () => (/* binding */ faCcApplePay),
-/* harmony export */   "faCcDinersClub": () => (/* binding */ faCcDinersClub),
-/* harmony export */   "faCcDiscover": () => (/* binding */ faCcDiscover),
-/* harmony export */   "faCcJcb": () => (/* binding */ faCcJcb),
-/* harmony export */   "faCcMastercard": () => (/* binding */ faCcMastercard),
-/* harmony export */   "faCcPaypal": () => (/* binding */ faCcPaypal),
-/* harmony export */   "faCcStripe": () => (/* binding */ faCcStripe),
-/* harmony export */   "faCcVisa": () => (/* binding */ faCcVisa),
-/* harmony export */   "faCentercode": () => (/* binding */ faCentercode),
-/* harmony export */   "faCentos": () => (/* binding */ faCentos),
-/* harmony export */   "faChrome": () => (/* binding */ faChrome),
-/* harmony export */   "faChromecast": () => (/* binding */ faChromecast),
-/* harmony export */   "faCloudflare": () => (/* binding */ faCloudflare),
-/* harmony export */   "faCloudscale": () => (/* binding */ faCloudscale),
-/* harmony export */   "faCloudsmith": () => (/* binding */ faCloudsmith),
-/* harmony export */   "faCloudversify": () => (/* binding */ faCloudversify),
-/* harmony export */   "faCodepen": () => (/* binding */ faCodepen),
-/* harmony export */   "faCodiepie": () => (/* binding */ faCodiepie),
-/* harmony export */   "faConfluence": () => (/* binding */ faConfluence),
-/* harmony export */   "faConnectdevelop": () => (/* binding */ faConnectdevelop),
-/* harmony export */   "faContao": () => (/* binding */ faContao),
-/* harmony export */   "faCottonBureau": () => (/* binding */ faCottonBureau),
-/* harmony export */   "faCpanel": () => (/* binding */ faCpanel),
-/* harmony export */   "faCreativeCommons": () => (/* binding */ faCreativeCommons),
-/* harmony export */   "faCreativeCommonsBy": () => (/* binding */ faCreativeCommonsBy),
-/* harmony export */   "faCreativeCommonsNc": () => (/* binding */ faCreativeCommonsNc),
-/* harmony export */   "faCreativeCommonsNcEu": () => (/* binding */ faCreativeCommonsNcEu),
-/* harmony export */   "faCreativeCommonsNcJp": () => (/* binding */ faCreativeCommonsNcJp),
-/* harmony export */   "faCreativeCommonsNd": () => (/* binding */ faCreativeCommonsNd),
-/* harmony export */   "faCreativeCommonsPd": () => (/* binding */ faCreativeCommonsPd),
-/* harmony export */   "faCreativeCommonsPdAlt": () => (/* binding */ faCreativeCommonsPdAlt),
-/* harmony export */   "faCreativeCommonsRemix": () => (/* binding */ faCreativeCommonsRemix),
-/* harmony export */   "faCreativeCommonsSa": () => (/* binding */ faCreativeCommonsSa),
-/* harmony export */   "faCreativeCommonsSampling": () => (/* binding */ faCreativeCommonsSampling),
-/* harmony export */   "faCreativeCommonsSamplingPlus": () => (/* binding */ faCreativeCommonsSamplingPlus),
-/* harmony export */   "faCreativeCommonsShare": () => (/* binding */ faCreativeCommonsShare),
-/* harmony export */   "faCreativeCommonsZero": () => (/* binding */ faCreativeCommonsZero),
-/* harmony export */   "faCriticalRole": () => (/* binding */ faCriticalRole),
-/* harmony export */   "faCss3": () => (/* binding */ faCss3),
-/* harmony export */   "faCss3Alt": () => (/* binding */ faCss3Alt),
-/* harmony export */   "faCuttlefish": () => (/* binding */ faCuttlefish),
-/* harmony export */   "faDAndD": () => (/* binding */ faDAndD),
-/* harmony export */   "faDAndDBeyond": () => (/* binding */ faDAndDBeyond),
-/* harmony export */   "faDailymotion": () => (/* binding */ faDailymotion),
-/* harmony export */   "faDashcube": () => (/* binding */ faDashcube),
-/* harmony export */   "faDeezer": () => (/* binding */ faDeezer),
-/* harmony export */   "faDelicious": () => (/* binding */ faDelicious),
-/* harmony export */   "faDeploydog": () => (/* binding */ faDeploydog),
-/* harmony export */   "faDeskpro": () => (/* binding */ faDeskpro),
-/* harmony export */   "faDev": () => (/* binding */ faDev),
-/* harmony export */   "faDeviantart": () => (/* binding */ faDeviantart),
-/* harmony export */   "faDhl": () => (/* binding */ faDhl),
-/* harmony export */   "faDiaspora": () => (/* binding */ faDiaspora),
-/* harmony export */   "faDigg": () => (/* binding */ faDigg),
-/* harmony export */   "faDigitalOcean": () => (/* binding */ faDigitalOcean),
-/* harmony export */   "faDiscord": () => (/* binding */ faDiscord),
-/* harmony export */   "faDiscourse": () => (/* binding */ faDiscourse),
-/* harmony export */   "faDochub": () => (/* binding */ faDochub),
-/* harmony export */   "faDocker": () => (/* binding */ faDocker),
-/* harmony export */   "faDraft2digital": () => (/* binding */ faDraft2digital),
-/* harmony export */   "faDribbble": () => (/* binding */ faDribbble),
-/* harmony export */   "faDribbbleSquare": () => (/* binding */ faDribbbleSquare),
-/* harmony export */   "faDropbox": () => (/* binding */ faDropbox),
-/* harmony export */   "faDrupal": () => (/* binding */ faDrupal),
-/* harmony export */   "faDyalog": () => (/* binding */ faDyalog),
-/* harmony export */   "faEarlybirds": () => (/* binding */ faEarlybirds),
-/* harmony export */   "faEbay": () => (/* binding */ faEbay),
-/* harmony export */   "faEdge": () => (/* binding */ faEdge),
-/* harmony export */   "faEdgeLegacy": () => (/* binding */ faEdgeLegacy),
-/* harmony export */   "faElementor": () => (/* binding */ faElementor),
-/* harmony export */   "faEllo": () => (/* binding */ faEllo),
-/* harmony export */   "faEmber": () => (/* binding */ faEmber),
-/* harmony export */   "faEmpire": () => (/* binding */ faEmpire),
-/* harmony export */   "faEnvira": () => (/* binding */ faEnvira),
-/* harmony export */   "faErlang": () => (/* binding */ faErlang),
-/* harmony export */   "faEthereum": () => (/* binding */ faEthereum),
-/* harmony export */   "faEtsy": () => (/* binding */ faEtsy),
-/* harmony export */   "faEvernote": () => (/* binding */ faEvernote),
-/* harmony export */   "faExpeditedssl": () => (/* binding */ faExpeditedssl),
-/* harmony export */   "faFacebook": () => (/* binding */ faFacebook),
-/* harmony export */   "faFacebookF": () => (/* binding */ faFacebookF),
-/* harmony export */   "faFacebookMessenger": () => (/* binding */ faFacebookMessenger),
-/* harmony export */   "faFacebookSquare": () => (/* binding */ faFacebookSquare),
-/* harmony export */   "faFantasyFlightGames": () => (/* binding */ faFantasyFlightGames),
-/* harmony export */   "faFedex": () => (/* binding */ faFedex),
-/* harmony export */   "faFedora": () => (/* binding */ faFedora),
-/* harmony export */   "faFigma": () => (/* binding */ faFigma),
-/* harmony export */   "faFirefox": () => (/* binding */ faFirefox),
-/* harmony export */   "faFirefoxBrowser": () => (/* binding */ faFirefoxBrowser),
-/* harmony export */   "faFirstOrder": () => (/* binding */ faFirstOrder),
-/* harmony export */   "faFirstOrderAlt": () => (/* binding */ faFirstOrderAlt),
-/* harmony export */   "faFirstdraft": () => (/* binding */ faFirstdraft),
-/* harmony export */   "faFlickr": () => (/* binding */ faFlickr),
-/* harmony export */   "faFlipboard": () => (/* binding */ faFlipboard),
-/* harmony export */   "faFly": () => (/* binding */ faFly),
-/* harmony export */   "faFontAwesome": () => (/* binding */ faFontAwesome),
-/* harmony export */   "faFontAwesomeAlt": () => (/* binding */ faFontAwesomeAlt),
-/* harmony export */   "faFontAwesomeFlag": () => (/* binding */ faFontAwesomeFlag),
-/* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
-/* harmony export */   "faFonticons": () => (/* binding */ faFonticons),
-/* harmony export */   "faFonticonsFi": () => (/* binding */ faFonticonsFi),
-/* harmony export */   "faFortAwesome": () => (/* binding */ faFortAwesome),
-/* harmony export */   "faFortAwesomeAlt": () => (/* binding */ faFortAwesomeAlt),
-/* harmony export */   "faForumbee": () => (/* binding */ faForumbee),
-/* harmony export */   "faFoursquare": () => (/* binding */ faFoursquare),
-/* harmony export */   "faFreeCodeCamp": () => (/* binding */ faFreeCodeCamp),
-/* harmony export */   "faFreebsd": () => (/* binding */ faFreebsd),
-/* harmony export */   "faFulcrum": () => (/* binding */ faFulcrum),
-/* harmony export */   "faGalacticRepublic": () => (/* binding */ faGalacticRepublic),
-/* harmony export */   "faGalacticSenate": () => (/* binding */ faGalacticSenate),
-/* harmony export */   "faGetPocket": () => (/* binding */ faGetPocket),
-/* harmony export */   "faGg": () => (/* binding */ faGg),
-/* harmony export */   "faGgCircle": () => (/* binding */ faGgCircle),
-/* harmony export */   "faGit": () => (/* binding */ faGit),
-/* harmony export */   "faGitAlt": () => (/* binding */ faGitAlt),
-/* harmony export */   "faGitSquare": () => (/* binding */ faGitSquare),
-/* harmony export */   "faGithub": () => (/* binding */ faGithub),
-/* harmony export */   "faGithubAlt": () => (/* binding */ faGithubAlt),
-/* harmony export */   "faGithubSquare": () => (/* binding */ faGithubSquare),
-/* harmony export */   "faGitkraken": () => (/* binding */ faGitkraken),
-/* harmony export */   "faGitlab": () => (/* binding */ faGitlab),
-/* harmony export */   "faGitter": () => (/* binding */ faGitter),
-/* harmony export */   "faGlide": () => (/* binding */ faGlide),
-/* harmony export */   "faGlideG": () => (/* binding */ faGlideG),
-/* harmony export */   "faGofore": () => (/* binding */ faGofore),
-/* harmony export */   "faGoodreads": () => (/* binding */ faGoodreads),
-/* harmony export */   "faGoodreadsG": () => (/* binding */ faGoodreadsG),
-/* harmony export */   "faGoogle": () => (/* binding */ faGoogle),
-/* harmony export */   "faGoogleDrive": () => (/* binding */ faGoogleDrive),
-/* harmony export */   "faGooglePay": () => (/* binding */ faGooglePay),
-/* harmony export */   "faGooglePlay": () => (/* binding */ faGooglePlay),
-/* harmony export */   "faGooglePlus": () => (/* binding */ faGooglePlus),
-/* harmony export */   "faGooglePlusG": () => (/* binding */ faGooglePlusG),
-/* harmony export */   "faGooglePlusSquare": () => (/* binding */ faGooglePlusSquare),
-/* harmony export */   "faGoogleWallet": () => (/* binding */ faGoogleWallet),
-/* harmony export */   "faGratipay": () => (/* binding */ faGratipay),
-/* harmony export */   "faGrav": () => (/* binding */ faGrav),
-/* harmony export */   "faGripfire": () => (/* binding */ faGripfire),
-/* harmony export */   "faGrunt": () => (/* binding */ faGrunt),
-/* harmony export */   "faGuilded": () => (/* binding */ faGuilded),
-/* harmony export */   "faGulp": () => (/* binding */ faGulp),
-/* harmony export */   "faHackerNews": () => (/* binding */ faHackerNews),
-/* harmony export */   "faHackerNewsSquare": () => (/* binding */ faHackerNewsSquare),
-/* harmony export */   "faHackerrank": () => (/* binding */ faHackerrank),
-/* harmony export */   "faHips": () => (/* binding */ faHips),
-/* harmony export */   "faHireAHelper": () => (/* binding */ faHireAHelper),
-/* harmony export */   "faHive": () => (/* binding */ faHive),
-/* harmony export */   "faHooli": () => (/* binding */ faHooli),
-/* harmony export */   "faHornbill": () => (/* binding */ faHornbill),
-/* harmony export */   "faHotjar": () => (/* binding */ faHotjar),
-/* harmony export */   "faHouzz": () => (/* binding */ faHouzz),
-/* harmony export */   "faHtml5": () => (/* binding */ faHtml5),
-/* harmony export */   "faHubspot": () => (/* binding */ faHubspot),
-/* harmony export */   "faIdeal": () => (/* binding */ faIdeal),
-/* harmony export */   "faImdb": () => (/* binding */ faImdb),
-/* harmony export */   "faInnosoft": () => (/* binding */ faInnosoft),
-/* harmony export */   "faInstagram": () => (/* binding */ faInstagram),
-/* harmony export */   "faInstagramSquare": () => (/* binding */ faInstagramSquare),
-/* harmony export */   "faInstalod": () => (/* binding */ faInstalod),
-/* harmony export */   "faIntercom": () => (/* binding */ faIntercom),
-/* harmony export */   "faInternetExplorer": () => (/* binding */ faInternetExplorer),
-/* harmony export */   "faInvision": () => (/* binding */ faInvision),
-/* harmony export */   "faIoxhost": () => (/* binding */ faIoxhost),
-/* harmony export */   "faItchIo": () => (/* binding */ faItchIo),
-/* harmony export */   "faItunes": () => (/* binding */ faItunes),
-/* harmony export */   "faItunesNote": () => (/* binding */ faItunesNote),
-/* harmony export */   "faJava": () => (/* binding */ faJava),
-/* harmony export */   "faJediOrder": () => (/* binding */ faJediOrder),
-/* harmony export */   "faJenkins": () => (/* binding */ faJenkins),
-/* harmony export */   "faJira": () => (/* binding */ faJira),
-/* harmony export */   "faJoget": () => (/* binding */ faJoget),
-/* harmony export */   "faJoomla": () => (/* binding */ faJoomla),
-/* harmony export */   "faJs": () => (/* binding */ faJs),
-/* harmony export */   "faJsSquare": () => (/* binding */ faJsSquare),
-/* harmony export */   "faJsfiddle": () => (/* binding */ faJsfiddle),
-/* harmony export */   "faKaggle": () => (/* binding */ faKaggle),
-/* harmony export */   "faKeybase": () => (/* binding */ faKeybase),
-/* harmony export */   "faKeycdn": () => (/* binding */ faKeycdn),
-/* harmony export */   "faKickstarter": () => (/* binding */ faKickstarter),
-/* harmony export */   "faKickstarterK": () => (/* binding */ faKickstarterK),
-/* harmony export */   "faKorvue": () => (/* binding */ faKorvue),
-/* harmony export */   "faLaravel": () => (/* binding */ faLaravel),
-/* harmony export */   "faLastfm": () => (/* binding */ faLastfm),
-/* harmony export */   "faLastfmSquare": () => (/* binding */ faLastfmSquare),
-/* harmony export */   "faLeanpub": () => (/* binding */ faLeanpub),
-/* harmony export */   "faLess": () => (/* binding */ faLess),
-/* harmony export */   "faLine": () => (/* binding */ faLine),
-/* harmony export */   "faLinkedin": () => (/* binding */ faLinkedin),
-/* harmony export */   "faLinkedinIn": () => (/* binding */ faLinkedinIn),
-/* harmony export */   "faLinode": () => (/* binding */ faLinode),
-/* harmony export */   "faLinux": () => (/* binding */ faLinux),
-/* harmony export */   "faLyft": () => (/* binding */ faLyft),
-/* harmony export */   "faMagento": () => (/* binding */ faMagento),
-/* harmony export */   "faMailchimp": () => (/* binding */ faMailchimp),
-/* harmony export */   "faMandalorian": () => (/* binding */ faMandalorian),
-/* harmony export */   "faMarkdown": () => (/* binding */ faMarkdown),
-/* harmony export */   "faMastodon": () => (/* binding */ faMastodon),
-/* harmony export */   "faMaxcdn": () => (/* binding */ faMaxcdn),
-/* harmony export */   "faMdb": () => (/* binding */ faMdb),
-/* harmony export */   "faMedapps": () => (/* binding */ faMedapps),
-/* harmony export */   "faMedium": () => (/* binding */ faMedium),
-/* harmony export */   "faMediumM": () => (/* binding */ faMediumM),
-/* harmony export */   "faMedrt": () => (/* binding */ faMedrt),
-/* harmony export */   "faMeetup": () => (/* binding */ faMeetup),
-/* harmony export */   "faMegaport": () => (/* binding */ faMegaport),
-/* harmony export */   "faMendeley": () => (/* binding */ faMendeley),
-/* harmony export */   "faMicroblog": () => (/* binding */ faMicroblog),
-/* harmony export */   "faMicrosoft": () => (/* binding */ faMicrosoft),
-/* harmony export */   "faMix": () => (/* binding */ faMix),
-/* harmony export */   "faMixcloud": () => (/* binding */ faMixcloud),
-/* harmony export */   "faMixer": () => (/* binding */ faMixer),
-/* harmony export */   "faMizuni": () => (/* binding */ faMizuni),
-/* harmony export */   "faModx": () => (/* binding */ faModx),
-/* harmony export */   "faMonero": () => (/* binding */ faMonero),
-/* harmony export */   "faNapster": () => (/* binding */ faNapster),
-/* harmony export */   "faNeos": () => (/* binding */ faNeos),
-/* harmony export */   "faNimblr": () => (/* binding */ faNimblr),
-/* harmony export */   "faNode": () => (/* binding */ faNode),
-/* harmony export */   "faNodeJs": () => (/* binding */ faNodeJs),
-/* harmony export */   "faNpm": () => (/* binding */ faNpm),
-/* harmony export */   "faNs8": () => (/* binding */ faNs8),
-/* harmony export */   "faNutritionix": () => (/* binding */ faNutritionix),
-/* harmony export */   "faOctopusDeploy": () => (/* binding */ faOctopusDeploy),
-/* harmony export */   "faOdnoklassniki": () => (/* binding */ faOdnoklassniki),
-/* harmony export */   "faOdnoklassnikiSquare": () => (/* binding */ faOdnoklassnikiSquare),
-/* harmony export */   "faOldRepublic": () => (/* binding */ faOldRepublic),
-/* harmony export */   "faOpencart": () => (/* binding */ faOpencart),
-/* harmony export */   "faOpenid": () => (/* binding */ faOpenid),
-/* harmony export */   "faOpera": () => (/* binding */ faOpera),
-/* harmony export */   "faOptinMonster": () => (/* binding */ faOptinMonster),
-/* harmony export */   "faOrcid": () => (/* binding */ faOrcid),
-/* harmony export */   "faOsi": () => (/* binding */ faOsi),
-/* harmony export */   "faPage4": () => (/* binding */ faPage4),
-/* harmony export */   "faPagelines": () => (/* binding */ faPagelines),
-/* harmony export */   "faPalfed": () => (/* binding */ faPalfed),
-/* harmony export */   "faPatreon": () => (/* binding */ faPatreon),
-/* harmony export */   "faPaypal": () => (/* binding */ faPaypal),
-/* harmony export */   "faPennyArcade": () => (/* binding */ faPennyArcade),
-/* harmony export */   "faPerbyte": () => (/* binding */ faPerbyte),
-/* harmony export */   "faPeriscope": () => (/* binding */ faPeriscope),
-/* harmony export */   "faPhabricator": () => (/* binding */ faPhabricator),
-/* harmony export */   "faPhoenixFramework": () => (/* binding */ faPhoenixFramework),
-/* harmony export */   "faPhoenixSquadron": () => (/* binding */ faPhoenixSquadron),
-/* harmony export */   "faPhp": () => (/* binding */ faPhp),
-/* harmony export */   "faPiedPiper": () => (/* binding */ faPiedPiper),
-/* harmony export */   "faPiedPiperAlt": () => (/* binding */ faPiedPiperAlt),
-/* harmony export */   "faPiedPiperHat": () => (/* binding */ faPiedPiperHat),
-/* harmony export */   "faPiedPiperPp": () => (/* binding */ faPiedPiperPp),
-/* harmony export */   "faPiedPiperSquare": () => (/* binding */ faPiedPiperSquare),
-/* harmony export */   "faPinterest": () => (/* binding */ faPinterest),
-/* harmony export */   "faPinterestP": () => (/* binding */ faPinterestP),
-/* harmony export */   "faPinterestSquare": () => (/* binding */ faPinterestSquare),
-/* harmony export */   "faPlaystation": () => (/* binding */ faPlaystation),
-/* harmony export */   "faProductHunt": () => (/* binding */ faProductHunt),
-/* harmony export */   "faPushed": () => (/* binding */ faPushed),
-/* harmony export */   "faPython": () => (/* binding */ faPython),
-/* harmony export */   "faQq": () => (/* binding */ faQq),
-/* harmony export */   "faQuinscape": () => (/* binding */ faQuinscape),
-/* harmony export */   "faQuora": () => (/* binding */ faQuora),
-/* harmony export */   "faRProject": () => (/* binding */ faRProject),
-/* harmony export */   "faRaspberryPi": () => (/* binding */ faRaspberryPi),
-/* harmony export */   "faRavelry": () => (/* binding */ faRavelry),
-/* harmony export */   "faReact": () => (/* binding */ faReact),
-/* harmony export */   "faReacteurope": () => (/* binding */ faReacteurope),
-/* harmony export */   "faReadme": () => (/* binding */ faReadme),
-/* harmony export */   "faRebel": () => (/* binding */ faRebel),
-/* harmony export */   "faRedRiver": () => (/* binding */ faRedRiver),
-/* harmony export */   "faReddit": () => (/* binding */ faReddit),
-/* harmony export */   "faRedditAlien": () => (/* binding */ faRedditAlien),
-/* harmony export */   "faRedditSquare": () => (/* binding */ faRedditSquare),
-/* harmony export */   "faRedhat": () => (/* binding */ faRedhat),
-/* harmony export */   "faRenren": () => (/* binding */ faRenren),
-/* harmony export */   "faReplyd": () => (/* binding */ faReplyd),
-/* harmony export */   "faResearchgate": () => (/* binding */ faResearchgate),
-/* harmony export */   "faResolving": () => (/* binding */ faResolving),
-/* harmony export */   "faRev": () => (/* binding */ faRev),
-/* harmony export */   "faRocketchat": () => (/* binding */ faRocketchat),
-/* harmony export */   "faRockrms": () => (/* binding */ faRockrms),
-/* harmony export */   "faRust": () => (/* binding */ faRust),
-/* harmony export */   "faSafari": () => (/* binding */ faSafari),
-/* harmony export */   "faSalesforce": () => (/* binding */ faSalesforce),
-/* harmony export */   "faSass": () => (/* binding */ faSass),
-/* harmony export */   "faSchlix": () => (/* binding */ faSchlix),
-/* harmony export */   "faScribd": () => (/* binding */ faScribd),
-/* harmony export */   "faSearchengin": () => (/* binding */ faSearchengin),
-/* harmony export */   "faSellcast": () => (/* binding */ faSellcast),
-/* harmony export */   "faSellsy": () => (/* binding */ faSellsy),
-/* harmony export */   "faServicestack": () => (/* binding */ faServicestack),
-/* harmony export */   "faShirtsinbulk": () => (/* binding */ faShirtsinbulk),
-/* harmony export */   "faShopify": () => (/* binding */ faShopify),
-/* harmony export */   "faShopware": () => (/* binding */ faShopware),
-/* harmony export */   "faSimplybuilt": () => (/* binding */ faSimplybuilt),
-/* harmony export */   "faSistrix": () => (/* binding */ faSistrix),
-/* harmony export */   "faSith": () => (/* binding */ faSith),
-/* harmony export */   "faSketch": () => (/* binding */ faSketch),
-/* harmony export */   "faSkyatlas": () => (/* binding */ faSkyatlas),
-/* harmony export */   "faSkype": () => (/* binding */ faSkype),
-/* harmony export */   "faSlack": () => (/* binding */ faSlack),
-/* harmony export */   "faSlackHash": () => (/* binding */ faSlackHash),
-/* harmony export */   "faSlideshare": () => (/* binding */ faSlideshare),
-/* harmony export */   "faSnapchat": () => (/* binding */ faSnapchat),
-/* harmony export */   "faSnapchatGhost": () => (/* binding */ faSnapchatGhost),
-/* harmony export */   "faSnapchatSquare": () => (/* binding */ faSnapchatSquare),
-/* harmony export */   "faSoundcloud": () => (/* binding */ faSoundcloud),
-/* harmony export */   "faSourcetree": () => (/* binding */ faSourcetree),
-/* harmony export */   "faSpeakap": () => (/* binding */ faSpeakap),
-/* harmony export */   "faSpeakerDeck": () => (/* binding */ faSpeakerDeck),
-/* harmony export */   "faSpotify": () => (/* binding */ faSpotify),
-/* harmony export */   "faSquarespace": () => (/* binding */ faSquarespace),
-/* harmony export */   "faStackExchange": () => (/* binding */ faStackExchange),
-/* harmony export */   "faStackOverflow": () => (/* binding */ faStackOverflow),
-/* harmony export */   "faStackpath": () => (/* binding */ faStackpath),
-/* harmony export */   "faStaylinked": () => (/* binding */ faStaylinked),
-/* harmony export */   "faSteam": () => (/* binding */ faSteam),
-/* harmony export */   "faSteamSquare": () => (/* binding */ faSteamSquare),
-/* harmony export */   "faSteamSymbol": () => (/* binding */ faSteamSymbol),
-/* harmony export */   "faStickerMule": () => (/* binding */ faStickerMule),
-/* harmony export */   "faStrava": () => (/* binding */ faStrava),
-/* harmony export */   "faStripe": () => (/* binding */ faStripe),
-/* harmony export */   "faStripeS": () => (/* binding */ faStripeS),
-/* harmony export */   "faStudiovinari": () => (/* binding */ faStudiovinari),
-/* harmony export */   "faStumbleupon": () => (/* binding */ faStumbleupon),
-/* harmony export */   "faStumbleuponCircle": () => (/* binding */ faStumbleuponCircle),
-/* harmony export */   "faSuperpowers": () => (/* binding */ faSuperpowers),
-/* harmony export */   "faSupple": () => (/* binding */ faSupple),
-/* harmony export */   "faSuse": () => (/* binding */ faSuse),
-/* harmony export */   "faSwift": () => (/* binding */ faSwift),
-/* harmony export */   "faSymfony": () => (/* binding */ faSymfony),
-/* harmony export */   "faTeamspeak": () => (/* binding */ faTeamspeak),
-/* harmony export */   "faTelegram": () => (/* binding */ faTelegram),
-/* harmony export */   "faTelegramPlane": () => (/* binding */ faTelegramPlane),
-/* harmony export */   "faTencentWeibo": () => (/* binding */ faTencentWeibo),
-/* harmony export */   "faTheRedYeti": () => (/* binding */ faTheRedYeti),
-/* harmony export */   "faThemeco": () => (/* binding */ faThemeco),
-/* harmony export */   "faThemeisle": () => (/* binding */ faThemeisle),
-/* harmony export */   "faThinkPeaks": () => (/* binding */ faThinkPeaks),
-/* harmony export */   "faTiktok": () => (/* binding */ faTiktok),
-/* harmony export */   "faTradeFederation": () => (/* binding */ faTradeFederation),
-/* harmony export */   "faTrello": () => (/* binding */ faTrello),
-/* harmony export */   "faTumblr": () => (/* binding */ faTumblr),
-/* harmony export */   "faTumblrSquare": () => (/* binding */ faTumblrSquare),
-/* harmony export */   "faTwitch": () => (/* binding */ faTwitch),
-/* harmony export */   "faTwitter": () => (/* binding */ faTwitter),
-/* harmony export */   "faTwitterSquare": () => (/* binding */ faTwitterSquare),
-/* harmony export */   "faTypo3": () => (/* binding */ faTypo3),
-/* harmony export */   "faUber": () => (/* binding */ faUber),
-/* harmony export */   "faUbuntu": () => (/* binding */ faUbuntu),
-/* harmony export */   "faUikit": () => (/* binding */ faUikit),
-/* harmony export */   "faUmbraco": () => (/* binding */ faUmbraco),
-/* harmony export */   "faUncharted": () => (/* binding */ faUncharted),
-/* harmony export */   "faUniregistry": () => (/* binding */ faUniregistry),
-/* harmony export */   "faUnity": () => (/* binding */ faUnity),
-/* harmony export */   "faUnsplash": () => (/* binding */ faUnsplash),
-/* harmony export */   "faUntappd": () => (/* binding */ faUntappd),
-/* harmony export */   "faUps": () => (/* binding */ faUps),
-/* harmony export */   "faUsb": () => (/* binding */ faUsb),
-/* harmony export */   "faUsps": () => (/* binding */ faUsps),
-/* harmony export */   "faUssunnah": () => (/* binding */ faUssunnah),
-/* harmony export */   "faVaadin": () => (/* binding */ faVaadin),
-/* harmony export */   "faViacoin": () => (/* binding */ faViacoin),
-/* harmony export */   "faViadeo": () => (/* binding */ faViadeo),
-/* harmony export */   "faViadeoSquare": () => (/* binding */ faViadeoSquare),
-/* harmony export */   "faViber": () => (/* binding */ faViber),
-/* harmony export */   "faVimeo": () => (/* binding */ faVimeo),
-/* harmony export */   "faVimeoSquare": () => (/* binding */ faVimeoSquare),
-/* harmony export */   "faVimeoV": () => (/* binding */ faVimeoV),
-/* harmony export */   "faVine": () => (/* binding */ faVine),
-/* harmony export */   "faVk": () => (/* binding */ faVk),
-/* harmony export */   "faVnv": () => (/* binding */ faVnv),
-/* harmony export */   "faVuejs": () => (/* binding */ faVuejs),
-/* harmony export */   "faWatchmanMonitoring": () => (/* binding */ faWatchmanMonitoring),
-/* harmony export */   "faWaze": () => (/* binding */ faWaze),
-/* harmony export */   "faWeebly": () => (/* binding */ faWeebly),
-/* harmony export */   "faWeibo": () => (/* binding */ faWeibo),
-/* harmony export */   "faWeixin": () => (/* binding */ faWeixin),
-/* harmony export */   "faWhatsapp": () => (/* binding */ faWhatsapp),
-/* harmony export */   "faWhatsappSquare": () => (/* binding */ faWhatsappSquare),
-/* harmony export */   "faWhmcs": () => (/* binding */ faWhmcs),
-/* harmony export */   "faWikipediaW": () => (/* binding */ faWikipediaW),
-/* harmony export */   "faWindows": () => (/* binding */ faWindows),
-/* harmony export */   "faWix": () => (/* binding */ faWix),
-/* harmony export */   "faWizardsOfTheCoast": () => (/* binding */ faWizardsOfTheCoast),
-/* harmony export */   "faWodu": () => (/* binding */ faWodu),
-/* harmony export */   "faWolfPackBattalion": () => (/* binding */ faWolfPackBattalion),
-/* harmony export */   "faWordpress": () => (/* binding */ faWordpress),
-/* harmony export */   "faWordpressSimple": () => (/* binding */ faWordpressSimple),
-/* harmony export */   "faWpbeginner": () => (/* binding */ faWpbeginner),
-/* harmony export */   "faWpexplorer": () => (/* binding */ faWpexplorer),
-/* harmony export */   "faWpforms": () => (/* binding */ faWpforms),
-/* harmony export */   "faWpressr": () => (/* binding */ faWpressr),
-/* harmony export */   "faXbox": () => (/* binding */ faXbox),
-/* harmony export */   "faXing": () => (/* binding */ faXing),
-/* harmony export */   "faXingSquare": () => (/* binding */ faXingSquare),
-/* harmony export */   "faYCombinator": () => (/* binding */ faYCombinator),
-/* harmony export */   "faYahoo": () => (/* binding */ faYahoo),
-/* harmony export */   "faYammer": () => (/* binding */ faYammer),
-/* harmony export */   "faYandex": () => (/* binding */ faYandex),
-/* harmony export */   "faYandexInternational": () => (/* binding */ faYandexInternational),
-/* harmony export */   "faYarn": () => (/* binding */ faYarn),
-/* harmony export */   "faYelp": () => (/* binding */ faYelp),
-/* harmony export */   "faYoast": () => (/* binding */ faYoast),
-/* harmony export */   "faYoutube": () => (/* binding */ faYoutube),
-/* harmony export */   "faYoutubeSquare": () => (/* binding */ faYoutubeSquare),
-/* harmony export */   "faZhihu": () => (/* binding */ faZhihu),
-/* harmony export */   "fab": () => (/* binding */ _iconsCache),
-/* harmony export */   "prefix": () => (/* binding */ prefix)
+/* harmony export */   fa500px: () => (/* binding */ fa500px),
+/* harmony export */   faAccessibleIcon: () => (/* binding */ faAccessibleIcon),
+/* harmony export */   faAccusoft: () => (/* binding */ faAccusoft),
+/* harmony export */   faAcquisitionsIncorporated: () => (/* binding */ faAcquisitionsIncorporated),
+/* harmony export */   faAdn: () => (/* binding */ faAdn),
+/* harmony export */   faAdversal: () => (/* binding */ faAdversal),
+/* harmony export */   faAffiliatetheme: () => (/* binding */ faAffiliatetheme),
+/* harmony export */   faAirbnb: () => (/* binding */ faAirbnb),
+/* harmony export */   faAlgolia: () => (/* binding */ faAlgolia),
+/* harmony export */   faAlipay: () => (/* binding */ faAlipay),
+/* harmony export */   faAmazon: () => (/* binding */ faAmazon),
+/* harmony export */   faAmazonPay: () => (/* binding */ faAmazonPay),
+/* harmony export */   faAmilia: () => (/* binding */ faAmilia),
+/* harmony export */   faAndroid: () => (/* binding */ faAndroid),
+/* harmony export */   faAngellist: () => (/* binding */ faAngellist),
+/* harmony export */   faAngrycreative: () => (/* binding */ faAngrycreative),
+/* harmony export */   faAngular: () => (/* binding */ faAngular),
+/* harmony export */   faAppStore: () => (/* binding */ faAppStore),
+/* harmony export */   faAppStoreIos: () => (/* binding */ faAppStoreIos),
+/* harmony export */   faApper: () => (/* binding */ faApper),
+/* harmony export */   faApple: () => (/* binding */ faApple),
+/* harmony export */   faApplePay: () => (/* binding */ faApplePay),
+/* harmony export */   faArtstation: () => (/* binding */ faArtstation),
+/* harmony export */   faAsymmetrik: () => (/* binding */ faAsymmetrik),
+/* harmony export */   faAtlassian: () => (/* binding */ faAtlassian),
+/* harmony export */   faAudible: () => (/* binding */ faAudible),
+/* harmony export */   faAutoprefixer: () => (/* binding */ faAutoprefixer),
+/* harmony export */   faAvianex: () => (/* binding */ faAvianex),
+/* harmony export */   faAviato: () => (/* binding */ faAviato),
+/* harmony export */   faAws: () => (/* binding */ faAws),
+/* harmony export */   faBandcamp: () => (/* binding */ faBandcamp),
+/* harmony export */   faBattleNet: () => (/* binding */ faBattleNet),
+/* harmony export */   faBehance: () => (/* binding */ faBehance),
+/* harmony export */   faBehanceSquare: () => (/* binding */ faBehanceSquare),
+/* harmony export */   faBimobject: () => (/* binding */ faBimobject),
+/* harmony export */   faBitbucket: () => (/* binding */ faBitbucket),
+/* harmony export */   faBitcoin: () => (/* binding */ faBitcoin),
+/* harmony export */   faBity: () => (/* binding */ faBity),
+/* harmony export */   faBlackTie: () => (/* binding */ faBlackTie),
+/* harmony export */   faBlackberry: () => (/* binding */ faBlackberry),
+/* harmony export */   faBlogger: () => (/* binding */ faBlogger),
+/* harmony export */   faBloggerB: () => (/* binding */ faBloggerB),
+/* harmony export */   faBluetooth: () => (/* binding */ faBluetooth),
+/* harmony export */   faBluetoothB: () => (/* binding */ faBluetoothB),
+/* harmony export */   faBootstrap: () => (/* binding */ faBootstrap),
+/* harmony export */   faBtc: () => (/* binding */ faBtc),
+/* harmony export */   faBuffer: () => (/* binding */ faBuffer),
+/* harmony export */   faBuromobelexperte: () => (/* binding */ faBuromobelexperte),
+/* harmony export */   faBuyNLarge: () => (/* binding */ faBuyNLarge),
+/* harmony export */   faBuysellads: () => (/* binding */ faBuysellads),
+/* harmony export */   faCanadianMapleLeaf: () => (/* binding */ faCanadianMapleLeaf),
+/* harmony export */   faCcAmazonPay: () => (/* binding */ faCcAmazonPay),
+/* harmony export */   faCcAmex: () => (/* binding */ faCcAmex),
+/* harmony export */   faCcApplePay: () => (/* binding */ faCcApplePay),
+/* harmony export */   faCcDinersClub: () => (/* binding */ faCcDinersClub),
+/* harmony export */   faCcDiscover: () => (/* binding */ faCcDiscover),
+/* harmony export */   faCcJcb: () => (/* binding */ faCcJcb),
+/* harmony export */   faCcMastercard: () => (/* binding */ faCcMastercard),
+/* harmony export */   faCcPaypal: () => (/* binding */ faCcPaypal),
+/* harmony export */   faCcStripe: () => (/* binding */ faCcStripe),
+/* harmony export */   faCcVisa: () => (/* binding */ faCcVisa),
+/* harmony export */   faCentercode: () => (/* binding */ faCentercode),
+/* harmony export */   faCentos: () => (/* binding */ faCentos),
+/* harmony export */   faChrome: () => (/* binding */ faChrome),
+/* harmony export */   faChromecast: () => (/* binding */ faChromecast),
+/* harmony export */   faCloudflare: () => (/* binding */ faCloudflare),
+/* harmony export */   faCloudscale: () => (/* binding */ faCloudscale),
+/* harmony export */   faCloudsmith: () => (/* binding */ faCloudsmith),
+/* harmony export */   faCloudversify: () => (/* binding */ faCloudversify),
+/* harmony export */   faCodepen: () => (/* binding */ faCodepen),
+/* harmony export */   faCodiepie: () => (/* binding */ faCodiepie),
+/* harmony export */   faConfluence: () => (/* binding */ faConfluence),
+/* harmony export */   faConnectdevelop: () => (/* binding */ faConnectdevelop),
+/* harmony export */   faContao: () => (/* binding */ faContao),
+/* harmony export */   faCottonBureau: () => (/* binding */ faCottonBureau),
+/* harmony export */   faCpanel: () => (/* binding */ faCpanel),
+/* harmony export */   faCreativeCommons: () => (/* binding */ faCreativeCommons),
+/* harmony export */   faCreativeCommonsBy: () => (/* binding */ faCreativeCommonsBy),
+/* harmony export */   faCreativeCommonsNc: () => (/* binding */ faCreativeCommonsNc),
+/* harmony export */   faCreativeCommonsNcEu: () => (/* binding */ faCreativeCommonsNcEu),
+/* harmony export */   faCreativeCommonsNcJp: () => (/* binding */ faCreativeCommonsNcJp),
+/* harmony export */   faCreativeCommonsNd: () => (/* binding */ faCreativeCommonsNd),
+/* harmony export */   faCreativeCommonsPd: () => (/* binding */ faCreativeCommonsPd),
+/* harmony export */   faCreativeCommonsPdAlt: () => (/* binding */ faCreativeCommonsPdAlt),
+/* harmony export */   faCreativeCommonsRemix: () => (/* binding */ faCreativeCommonsRemix),
+/* harmony export */   faCreativeCommonsSa: () => (/* binding */ faCreativeCommonsSa),
+/* harmony export */   faCreativeCommonsSampling: () => (/* binding */ faCreativeCommonsSampling),
+/* harmony export */   faCreativeCommonsSamplingPlus: () => (/* binding */ faCreativeCommonsSamplingPlus),
+/* harmony export */   faCreativeCommonsShare: () => (/* binding */ faCreativeCommonsShare),
+/* harmony export */   faCreativeCommonsZero: () => (/* binding */ faCreativeCommonsZero),
+/* harmony export */   faCriticalRole: () => (/* binding */ faCriticalRole),
+/* harmony export */   faCss3: () => (/* binding */ faCss3),
+/* harmony export */   faCss3Alt: () => (/* binding */ faCss3Alt),
+/* harmony export */   faCuttlefish: () => (/* binding */ faCuttlefish),
+/* harmony export */   faDAndD: () => (/* binding */ faDAndD),
+/* harmony export */   faDAndDBeyond: () => (/* binding */ faDAndDBeyond),
+/* harmony export */   faDailymotion: () => (/* binding */ faDailymotion),
+/* harmony export */   faDashcube: () => (/* binding */ faDashcube),
+/* harmony export */   faDeezer: () => (/* binding */ faDeezer),
+/* harmony export */   faDelicious: () => (/* binding */ faDelicious),
+/* harmony export */   faDeploydog: () => (/* binding */ faDeploydog),
+/* harmony export */   faDeskpro: () => (/* binding */ faDeskpro),
+/* harmony export */   faDev: () => (/* binding */ faDev),
+/* harmony export */   faDeviantart: () => (/* binding */ faDeviantart),
+/* harmony export */   faDhl: () => (/* binding */ faDhl),
+/* harmony export */   faDiaspora: () => (/* binding */ faDiaspora),
+/* harmony export */   faDigg: () => (/* binding */ faDigg),
+/* harmony export */   faDigitalOcean: () => (/* binding */ faDigitalOcean),
+/* harmony export */   faDiscord: () => (/* binding */ faDiscord),
+/* harmony export */   faDiscourse: () => (/* binding */ faDiscourse),
+/* harmony export */   faDochub: () => (/* binding */ faDochub),
+/* harmony export */   faDocker: () => (/* binding */ faDocker),
+/* harmony export */   faDraft2digital: () => (/* binding */ faDraft2digital),
+/* harmony export */   faDribbble: () => (/* binding */ faDribbble),
+/* harmony export */   faDribbbleSquare: () => (/* binding */ faDribbbleSquare),
+/* harmony export */   faDropbox: () => (/* binding */ faDropbox),
+/* harmony export */   faDrupal: () => (/* binding */ faDrupal),
+/* harmony export */   faDyalog: () => (/* binding */ faDyalog),
+/* harmony export */   faEarlybirds: () => (/* binding */ faEarlybirds),
+/* harmony export */   faEbay: () => (/* binding */ faEbay),
+/* harmony export */   faEdge: () => (/* binding */ faEdge),
+/* harmony export */   faEdgeLegacy: () => (/* binding */ faEdgeLegacy),
+/* harmony export */   faElementor: () => (/* binding */ faElementor),
+/* harmony export */   faEllo: () => (/* binding */ faEllo),
+/* harmony export */   faEmber: () => (/* binding */ faEmber),
+/* harmony export */   faEmpire: () => (/* binding */ faEmpire),
+/* harmony export */   faEnvira: () => (/* binding */ faEnvira),
+/* harmony export */   faErlang: () => (/* binding */ faErlang),
+/* harmony export */   faEthereum: () => (/* binding */ faEthereum),
+/* harmony export */   faEtsy: () => (/* binding */ faEtsy),
+/* harmony export */   faEvernote: () => (/* binding */ faEvernote),
+/* harmony export */   faExpeditedssl: () => (/* binding */ faExpeditedssl),
+/* harmony export */   faFacebook: () => (/* binding */ faFacebook),
+/* harmony export */   faFacebookF: () => (/* binding */ faFacebookF),
+/* harmony export */   faFacebookMessenger: () => (/* binding */ faFacebookMessenger),
+/* harmony export */   faFacebookSquare: () => (/* binding */ faFacebookSquare),
+/* harmony export */   faFantasyFlightGames: () => (/* binding */ faFantasyFlightGames),
+/* harmony export */   faFedex: () => (/* binding */ faFedex),
+/* harmony export */   faFedora: () => (/* binding */ faFedora),
+/* harmony export */   faFigma: () => (/* binding */ faFigma),
+/* harmony export */   faFirefox: () => (/* binding */ faFirefox),
+/* harmony export */   faFirefoxBrowser: () => (/* binding */ faFirefoxBrowser),
+/* harmony export */   faFirstOrder: () => (/* binding */ faFirstOrder),
+/* harmony export */   faFirstOrderAlt: () => (/* binding */ faFirstOrderAlt),
+/* harmony export */   faFirstdraft: () => (/* binding */ faFirstdraft),
+/* harmony export */   faFlickr: () => (/* binding */ faFlickr),
+/* harmony export */   faFlipboard: () => (/* binding */ faFlipboard),
+/* harmony export */   faFly: () => (/* binding */ faFly),
+/* harmony export */   faFontAwesome: () => (/* binding */ faFontAwesome),
+/* harmony export */   faFontAwesomeAlt: () => (/* binding */ faFontAwesomeAlt),
+/* harmony export */   faFontAwesomeFlag: () => (/* binding */ faFontAwesomeFlag),
+/* harmony export */   faFontAwesomeLogoFull: () => (/* binding */ faFontAwesomeLogoFull),
+/* harmony export */   faFonticons: () => (/* binding */ faFonticons),
+/* harmony export */   faFonticonsFi: () => (/* binding */ faFonticonsFi),
+/* harmony export */   faFortAwesome: () => (/* binding */ faFortAwesome),
+/* harmony export */   faFortAwesomeAlt: () => (/* binding */ faFortAwesomeAlt),
+/* harmony export */   faForumbee: () => (/* binding */ faForumbee),
+/* harmony export */   faFoursquare: () => (/* binding */ faFoursquare),
+/* harmony export */   faFreeCodeCamp: () => (/* binding */ faFreeCodeCamp),
+/* harmony export */   faFreebsd: () => (/* binding */ faFreebsd),
+/* harmony export */   faFulcrum: () => (/* binding */ faFulcrum),
+/* harmony export */   faGalacticRepublic: () => (/* binding */ faGalacticRepublic),
+/* harmony export */   faGalacticSenate: () => (/* binding */ faGalacticSenate),
+/* harmony export */   faGetPocket: () => (/* binding */ faGetPocket),
+/* harmony export */   faGg: () => (/* binding */ faGg),
+/* harmony export */   faGgCircle: () => (/* binding */ faGgCircle),
+/* harmony export */   faGit: () => (/* binding */ faGit),
+/* harmony export */   faGitAlt: () => (/* binding */ faGitAlt),
+/* harmony export */   faGitSquare: () => (/* binding */ faGitSquare),
+/* harmony export */   faGithub: () => (/* binding */ faGithub),
+/* harmony export */   faGithubAlt: () => (/* binding */ faGithubAlt),
+/* harmony export */   faGithubSquare: () => (/* binding */ faGithubSquare),
+/* harmony export */   faGitkraken: () => (/* binding */ faGitkraken),
+/* harmony export */   faGitlab: () => (/* binding */ faGitlab),
+/* harmony export */   faGitter: () => (/* binding */ faGitter),
+/* harmony export */   faGlide: () => (/* binding */ faGlide),
+/* harmony export */   faGlideG: () => (/* binding */ faGlideG),
+/* harmony export */   faGofore: () => (/* binding */ faGofore),
+/* harmony export */   faGoodreads: () => (/* binding */ faGoodreads),
+/* harmony export */   faGoodreadsG: () => (/* binding */ faGoodreadsG),
+/* harmony export */   faGoogle: () => (/* binding */ faGoogle),
+/* harmony export */   faGoogleDrive: () => (/* binding */ faGoogleDrive),
+/* harmony export */   faGooglePay: () => (/* binding */ faGooglePay),
+/* harmony export */   faGooglePlay: () => (/* binding */ faGooglePlay),
+/* harmony export */   faGooglePlus: () => (/* binding */ faGooglePlus),
+/* harmony export */   faGooglePlusG: () => (/* binding */ faGooglePlusG),
+/* harmony export */   faGooglePlusSquare: () => (/* binding */ faGooglePlusSquare),
+/* harmony export */   faGoogleWallet: () => (/* binding */ faGoogleWallet),
+/* harmony export */   faGratipay: () => (/* binding */ faGratipay),
+/* harmony export */   faGrav: () => (/* binding */ faGrav),
+/* harmony export */   faGripfire: () => (/* binding */ faGripfire),
+/* harmony export */   faGrunt: () => (/* binding */ faGrunt),
+/* harmony export */   faGuilded: () => (/* binding */ faGuilded),
+/* harmony export */   faGulp: () => (/* binding */ faGulp),
+/* harmony export */   faHackerNews: () => (/* binding */ faHackerNews),
+/* harmony export */   faHackerNewsSquare: () => (/* binding */ faHackerNewsSquare),
+/* harmony export */   faHackerrank: () => (/* binding */ faHackerrank),
+/* harmony export */   faHips: () => (/* binding */ faHips),
+/* harmony export */   faHireAHelper: () => (/* binding */ faHireAHelper),
+/* harmony export */   faHive: () => (/* binding */ faHive),
+/* harmony export */   faHooli: () => (/* binding */ faHooli),
+/* harmony export */   faHornbill: () => (/* binding */ faHornbill),
+/* harmony export */   faHotjar: () => (/* binding */ faHotjar),
+/* harmony export */   faHouzz: () => (/* binding */ faHouzz),
+/* harmony export */   faHtml5: () => (/* binding */ faHtml5),
+/* harmony export */   faHubspot: () => (/* binding */ faHubspot),
+/* harmony export */   faIdeal: () => (/* binding */ faIdeal),
+/* harmony export */   faImdb: () => (/* binding */ faImdb),
+/* harmony export */   faInnosoft: () => (/* binding */ faInnosoft),
+/* harmony export */   faInstagram: () => (/* binding */ faInstagram),
+/* harmony export */   faInstagramSquare: () => (/* binding */ faInstagramSquare),
+/* harmony export */   faInstalod: () => (/* binding */ faInstalod),
+/* harmony export */   faIntercom: () => (/* binding */ faIntercom),
+/* harmony export */   faInternetExplorer: () => (/* binding */ faInternetExplorer),
+/* harmony export */   faInvision: () => (/* binding */ faInvision),
+/* harmony export */   faIoxhost: () => (/* binding */ faIoxhost),
+/* harmony export */   faItchIo: () => (/* binding */ faItchIo),
+/* harmony export */   faItunes: () => (/* binding */ faItunes),
+/* harmony export */   faItunesNote: () => (/* binding */ faItunesNote),
+/* harmony export */   faJava: () => (/* binding */ faJava),
+/* harmony export */   faJediOrder: () => (/* binding */ faJediOrder),
+/* harmony export */   faJenkins: () => (/* binding */ faJenkins),
+/* harmony export */   faJira: () => (/* binding */ faJira),
+/* harmony export */   faJoget: () => (/* binding */ faJoget),
+/* harmony export */   faJoomla: () => (/* binding */ faJoomla),
+/* harmony export */   faJs: () => (/* binding */ faJs),
+/* harmony export */   faJsSquare: () => (/* binding */ faJsSquare),
+/* harmony export */   faJsfiddle: () => (/* binding */ faJsfiddle),
+/* harmony export */   faKaggle: () => (/* binding */ faKaggle),
+/* harmony export */   faKeybase: () => (/* binding */ faKeybase),
+/* harmony export */   faKeycdn: () => (/* binding */ faKeycdn),
+/* harmony export */   faKickstarter: () => (/* binding */ faKickstarter),
+/* harmony export */   faKickstarterK: () => (/* binding */ faKickstarterK),
+/* harmony export */   faKorvue: () => (/* binding */ faKorvue),
+/* harmony export */   faLaravel: () => (/* binding */ faLaravel),
+/* harmony export */   faLastfm: () => (/* binding */ faLastfm),
+/* harmony export */   faLastfmSquare: () => (/* binding */ faLastfmSquare),
+/* harmony export */   faLeanpub: () => (/* binding */ faLeanpub),
+/* harmony export */   faLess: () => (/* binding */ faLess),
+/* harmony export */   faLine: () => (/* binding */ faLine),
+/* harmony export */   faLinkedin: () => (/* binding */ faLinkedin),
+/* harmony export */   faLinkedinIn: () => (/* binding */ faLinkedinIn),
+/* harmony export */   faLinode: () => (/* binding */ faLinode),
+/* harmony export */   faLinux: () => (/* binding */ faLinux),
+/* harmony export */   faLyft: () => (/* binding */ faLyft),
+/* harmony export */   faMagento: () => (/* binding */ faMagento),
+/* harmony export */   faMailchimp: () => (/* binding */ faMailchimp),
+/* harmony export */   faMandalorian: () => (/* binding */ faMandalorian),
+/* harmony export */   faMarkdown: () => (/* binding */ faMarkdown),
+/* harmony export */   faMastodon: () => (/* binding */ faMastodon),
+/* harmony export */   faMaxcdn: () => (/* binding */ faMaxcdn),
+/* harmony export */   faMdb: () => (/* binding */ faMdb),
+/* harmony export */   faMedapps: () => (/* binding */ faMedapps),
+/* harmony export */   faMedium: () => (/* binding */ faMedium),
+/* harmony export */   faMediumM: () => (/* binding */ faMediumM),
+/* harmony export */   faMedrt: () => (/* binding */ faMedrt),
+/* harmony export */   faMeetup: () => (/* binding */ faMeetup),
+/* harmony export */   faMegaport: () => (/* binding */ faMegaport),
+/* harmony export */   faMendeley: () => (/* binding */ faMendeley),
+/* harmony export */   faMicroblog: () => (/* binding */ faMicroblog),
+/* harmony export */   faMicrosoft: () => (/* binding */ faMicrosoft),
+/* harmony export */   faMix: () => (/* binding */ faMix),
+/* harmony export */   faMixcloud: () => (/* binding */ faMixcloud),
+/* harmony export */   faMixer: () => (/* binding */ faMixer),
+/* harmony export */   faMizuni: () => (/* binding */ faMizuni),
+/* harmony export */   faModx: () => (/* binding */ faModx),
+/* harmony export */   faMonero: () => (/* binding */ faMonero),
+/* harmony export */   faNapster: () => (/* binding */ faNapster),
+/* harmony export */   faNeos: () => (/* binding */ faNeos),
+/* harmony export */   faNimblr: () => (/* binding */ faNimblr),
+/* harmony export */   faNode: () => (/* binding */ faNode),
+/* harmony export */   faNodeJs: () => (/* binding */ faNodeJs),
+/* harmony export */   faNpm: () => (/* binding */ faNpm),
+/* harmony export */   faNs8: () => (/* binding */ faNs8),
+/* harmony export */   faNutritionix: () => (/* binding */ faNutritionix),
+/* harmony export */   faOctopusDeploy: () => (/* binding */ faOctopusDeploy),
+/* harmony export */   faOdnoklassniki: () => (/* binding */ faOdnoklassniki),
+/* harmony export */   faOdnoklassnikiSquare: () => (/* binding */ faOdnoklassnikiSquare),
+/* harmony export */   faOldRepublic: () => (/* binding */ faOldRepublic),
+/* harmony export */   faOpencart: () => (/* binding */ faOpencart),
+/* harmony export */   faOpenid: () => (/* binding */ faOpenid),
+/* harmony export */   faOpera: () => (/* binding */ faOpera),
+/* harmony export */   faOptinMonster: () => (/* binding */ faOptinMonster),
+/* harmony export */   faOrcid: () => (/* binding */ faOrcid),
+/* harmony export */   faOsi: () => (/* binding */ faOsi),
+/* harmony export */   faPage4: () => (/* binding */ faPage4),
+/* harmony export */   faPagelines: () => (/* binding */ faPagelines),
+/* harmony export */   faPalfed: () => (/* binding */ faPalfed),
+/* harmony export */   faPatreon: () => (/* binding */ faPatreon),
+/* harmony export */   faPaypal: () => (/* binding */ faPaypal),
+/* harmony export */   faPennyArcade: () => (/* binding */ faPennyArcade),
+/* harmony export */   faPerbyte: () => (/* binding */ faPerbyte),
+/* harmony export */   faPeriscope: () => (/* binding */ faPeriscope),
+/* harmony export */   faPhabricator: () => (/* binding */ faPhabricator),
+/* harmony export */   faPhoenixFramework: () => (/* binding */ faPhoenixFramework),
+/* harmony export */   faPhoenixSquadron: () => (/* binding */ faPhoenixSquadron),
+/* harmony export */   faPhp: () => (/* binding */ faPhp),
+/* harmony export */   faPiedPiper: () => (/* binding */ faPiedPiper),
+/* harmony export */   faPiedPiperAlt: () => (/* binding */ faPiedPiperAlt),
+/* harmony export */   faPiedPiperHat: () => (/* binding */ faPiedPiperHat),
+/* harmony export */   faPiedPiperPp: () => (/* binding */ faPiedPiperPp),
+/* harmony export */   faPiedPiperSquare: () => (/* binding */ faPiedPiperSquare),
+/* harmony export */   faPinterest: () => (/* binding */ faPinterest),
+/* harmony export */   faPinterestP: () => (/* binding */ faPinterestP),
+/* harmony export */   faPinterestSquare: () => (/* binding */ faPinterestSquare),
+/* harmony export */   faPlaystation: () => (/* binding */ faPlaystation),
+/* harmony export */   faProductHunt: () => (/* binding */ faProductHunt),
+/* harmony export */   faPushed: () => (/* binding */ faPushed),
+/* harmony export */   faPython: () => (/* binding */ faPython),
+/* harmony export */   faQq: () => (/* binding */ faQq),
+/* harmony export */   faQuinscape: () => (/* binding */ faQuinscape),
+/* harmony export */   faQuora: () => (/* binding */ faQuora),
+/* harmony export */   faRProject: () => (/* binding */ faRProject),
+/* harmony export */   faRaspberryPi: () => (/* binding */ faRaspberryPi),
+/* harmony export */   faRavelry: () => (/* binding */ faRavelry),
+/* harmony export */   faReact: () => (/* binding */ faReact),
+/* harmony export */   faReacteurope: () => (/* binding */ faReacteurope),
+/* harmony export */   faReadme: () => (/* binding */ faReadme),
+/* harmony export */   faRebel: () => (/* binding */ faRebel),
+/* harmony export */   faRedRiver: () => (/* binding */ faRedRiver),
+/* harmony export */   faReddit: () => (/* binding */ faReddit),
+/* harmony export */   faRedditAlien: () => (/* binding */ faRedditAlien),
+/* harmony export */   faRedditSquare: () => (/* binding */ faRedditSquare),
+/* harmony export */   faRedhat: () => (/* binding */ faRedhat),
+/* harmony export */   faRenren: () => (/* binding */ faRenren),
+/* harmony export */   faReplyd: () => (/* binding */ faReplyd),
+/* harmony export */   faResearchgate: () => (/* binding */ faResearchgate),
+/* harmony export */   faResolving: () => (/* binding */ faResolving),
+/* harmony export */   faRev: () => (/* binding */ faRev),
+/* harmony export */   faRocketchat: () => (/* binding */ faRocketchat),
+/* harmony export */   faRockrms: () => (/* binding */ faRockrms),
+/* harmony export */   faRust: () => (/* binding */ faRust),
+/* harmony export */   faSafari: () => (/* binding */ faSafari),
+/* harmony export */   faSalesforce: () => (/* binding */ faSalesforce),
+/* harmony export */   faSass: () => (/* binding */ faSass),
+/* harmony export */   faSchlix: () => (/* binding */ faSchlix),
+/* harmony export */   faScribd: () => (/* binding */ faScribd),
+/* harmony export */   faSearchengin: () => (/* binding */ faSearchengin),
+/* harmony export */   faSellcast: () => (/* binding */ faSellcast),
+/* harmony export */   faSellsy: () => (/* binding */ faSellsy),
+/* harmony export */   faServicestack: () => (/* binding */ faServicestack),
+/* harmony export */   faShirtsinbulk: () => (/* binding */ faShirtsinbulk),
+/* harmony export */   faShopify: () => (/* binding */ faShopify),
+/* harmony export */   faShopware: () => (/* binding */ faShopware),
+/* harmony export */   faSimplybuilt: () => (/* binding */ faSimplybuilt),
+/* harmony export */   faSistrix: () => (/* binding */ faSistrix),
+/* harmony export */   faSith: () => (/* binding */ faSith),
+/* harmony export */   faSketch: () => (/* binding */ faSketch),
+/* harmony export */   faSkyatlas: () => (/* binding */ faSkyatlas),
+/* harmony export */   faSkype: () => (/* binding */ faSkype),
+/* harmony export */   faSlack: () => (/* binding */ faSlack),
+/* harmony export */   faSlackHash: () => (/* binding */ faSlackHash),
+/* harmony export */   faSlideshare: () => (/* binding */ faSlideshare),
+/* harmony export */   faSnapchat: () => (/* binding */ faSnapchat),
+/* harmony export */   faSnapchatGhost: () => (/* binding */ faSnapchatGhost),
+/* harmony export */   faSnapchatSquare: () => (/* binding */ faSnapchatSquare),
+/* harmony export */   faSoundcloud: () => (/* binding */ faSoundcloud),
+/* harmony export */   faSourcetree: () => (/* binding */ faSourcetree),
+/* harmony export */   faSpeakap: () => (/* binding */ faSpeakap),
+/* harmony export */   faSpeakerDeck: () => (/* binding */ faSpeakerDeck),
+/* harmony export */   faSpotify: () => (/* binding */ faSpotify),
+/* harmony export */   faSquarespace: () => (/* binding */ faSquarespace),
+/* harmony export */   faStackExchange: () => (/* binding */ faStackExchange),
+/* harmony export */   faStackOverflow: () => (/* binding */ faStackOverflow),
+/* harmony export */   faStackpath: () => (/* binding */ faStackpath),
+/* harmony export */   faStaylinked: () => (/* binding */ faStaylinked),
+/* harmony export */   faSteam: () => (/* binding */ faSteam),
+/* harmony export */   faSteamSquare: () => (/* binding */ faSteamSquare),
+/* harmony export */   faSteamSymbol: () => (/* binding */ faSteamSymbol),
+/* harmony export */   faStickerMule: () => (/* binding */ faStickerMule),
+/* harmony export */   faStrava: () => (/* binding */ faStrava),
+/* harmony export */   faStripe: () => (/* binding */ faStripe),
+/* harmony export */   faStripeS: () => (/* binding */ faStripeS),
+/* harmony export */   faStudiovinari: () => (/* binding */ faStudiovinari),
+/* harmony export */   faStumbleupon: () => (/* binding */ faStumbleupon),
+/* harmony export */   faStumbleuponCircle: () => (/* binding */ faStumbleuponCircle),
+/* harmony export */   faSuperpowers: () => (/* binding */ faSuperpowers),
+/* harmony export */   faSupple: () => (/* binding */ faSupple),
+/* harmony export */   faSuse: () => (/* binding */ faSuse),
+/* harmony export */   faSwift: () => (/* binding */ faSwift),
+/* harmony export */   faSymfony: () => (/* binding */ faSymfony),
+/* harmony export */   faTeamspeak: () => (/* binding */ faTeamspeak),
+/* harmony export */   faTelegram: () => (/* binding */ faTelegram),
+/* harmony export */   faTelegramPlane: () => (/* binding */ faTelegramPlane),
+/* harmony export */   faTencentWeibo: () => (/* binding */ faTencentWeibo),
+/* harmony export */   faTheRedYeti: () => (/* binding */ faTheRedYeti),
+/* harmony export */   faThemeco: () => (/* binding */ faThemeco),
+/* harmony export */   faThemeisle: () => (/* binding */ faThemeisle),
+/* harmony export */   faThinkPeaks: () => (/* binding */ faThinkPeaks),
+/* harmony export */   faTiktok: () => (/* binding */ faTiktok),
+/* harmony export */   faTradeFederation: () => (/* binding */ faTradeFederation),
+/* harmony export */   faTrello: () => (/* binding */ faTrello),
+/* harmony export */   faTumblr: () => (/* binding */ faTumblr),
+/* harmony export */   faTumblrSquare: () => (/* binding */ faTumblrSquare),
+/* harmony export */   faTwitch: () => (/* binding */ faTwitch),
+/* harmony export */   faTwitter: () => (/* binding */ faTwitter),
+/* harmony export */   faTwitterSquare: () => (/* binding */ faTwitterSquare),
+/* harmony export */   faTypo3: () => (/* binding */ faTypo3),
+/* harmony export */   faUber: () => (/* binding */ faUber),
+/* harmony export */   faUbuntu: () => (/* binding */ faUbuntu),
+/* harmony export */   faUikit: () => (/* binding */ faUikit),
+/* harmony export */   faUmbraco: () => (/* binding */ faUmbraco),
+/* harmony export */   faUncharted: () => (/* binding */ faUncharted),
+/* harmony export */   faUniregistry: () => (/* binding */ faUniregistry),
+/* harmony export */   faUnity: () => (/* binding */ faUnity),
+/* harmony export */   faUnsplash: () => (/* binding */ faUnsplash),
+/* harmony export */   faUntappd: () => (/* binding */ faUntappd),
+/* harmony export */   faUps: () => (/* binding */ faUps),
+/* harmony export */   faUsb: () => (/* binding */ faUsb),
+/* harmony export */   faUsps: () => (/* binding */ faUsps),
+/* harmony export */   faUssunnah: () => (/* binding */ faUssunnah),
+/* harmony export */   faVaadin: () => (/* binding */ faVaadin),
+/* harmony export */   faViacoin: () => (/* binding */ faViacoin),
+/* harmony export */   faViadeo: () => (/* binding */ faViadeo),
+/* harmony export */   faViadeoSquare: () => (/* binding */ faViadeoSquare),
+/* harmony export */   faViber: () => (/* binding */ faViber),
+/* harmony export */   faVimeo: () => (/* binding */ faVimeo),
+/* harmony export */   faVimeoSquare: () => (/* binding */ faVimeoSquare),
+/* harmony export */   faVimeoV: () => (/* binding */ faVimeoV),
+/* harmony export */   faVine: () => (/* binding */ faVine),
+/* harmony export */   faVk: () => (/* binding */ faVk),
+/* harmony export */   faVnv: () => (/* binding */ faVnv),
+/* harmony export */   faVuejs: () => (/* binding */ faVuejs),
+/* harmony export */   faWatchmanMonitoring: () => (/* binding */ faWatchmanMonitoring),
+/* harmony export */   faWaze: () => (/* binding */ faWaze),
+/* harmony export */   faWeebly: () => (/* binding */ faWeebly),
+/* harmony export */   faWeibo: () => (/* binding */ faWeibo),
+/* harmony export */   faWeixin: () => (/* binding */ faWeixin),
+/* harmony export */   faWhatsapp: () => (/* binding */ faWhatsapp),
+/* harmony export */   faWhatsappSquare: () => (/* binding */ faWhatsappSquare),
+/* harmony export */   faWhmcs: () => (/* binding */ faWhmcs),
+/* harmony export */   faWikipediaW: () => (/* binding */ faWikipediaW),
+/* harmony export */   faWindows: () => (/* binding */ faWindows),
+/* harmony export */   faWix: () => (/* binding */ faWix),
+/* harmony export */   faWizardsOfTheCoast: () => (/* binding */ faWizardsOfTheCoast),
+/* harmony export */   faWodu: () => (/* binding */ faWodu),
+/* harmony export */   faWolfPackBattalion: () => (/* binding */ faWolfPackBattalion),
+/* harmony export */   faWordpress: () => (/* binding */ faWordpress),
+/* harmony export */   faWordpressSimple: () => (/* binding */ faWordpressSimple),
+/* harmony export */   faWpbeginner: () => (/* binding */ faWpbeginner),
+/* harmony export */   faWpexplorer: () => (/* binding */ faWpexplorer),
+/* harmony export */   faWpforms: () => (/* binding */ faWpforms),
+/* harmony export */   faWpressr: () => (/* binding */ faWpressr),
+/* harmony export */   faXbox: () => (/* binding */ faXbox),
+/* harmony export */   faXing: () => (/* binding */ faXing),
+/* harmony export */   faXingSquare: () => (/* binding */ faXingSquare),
+/* harmony export */   faYCombinator: () => (/* binding */ faYCombinator),
+/* harmony export */   faYahoo: () => (/* binding */ faYahoo),
+/* harmony export */   faYammer: () => (/* binding */ faYammer),
+/* harmony export */   faYandex: () => (/* binding */ faYandex),
+/* harmony export */   faYandexInternational: () => (/* binding */ faYandexInternational),
+/* harmony export */   faYarn: () => (/* binding */ faYarn),
+/* harmony export */   faYelp: () => (/* binding */ faYelp),
+/* harmony export */   faYoast: () => (/* binding */ faYoast),
+/* harmony export */   faYoutube: () => (/* binding */ faYoutube),
+/* harmony export */   faYoutubeSquare: () => (/* binding */ faYoutubeSquare),
+/* harmony export */   faZhihu: () => (/* binding */ faZhihu),
+/* harmony export */   fab: () => (/* binding */ _iconsCache),
+/* harmony export */   prefix: () => (/* binding */ prefix)
 /* harmony export */ });
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -5683,171 +5683,171 @@ var _iconsCache = {
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js":
+/***/ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js"
 /*!**********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-regular-svg-icons/index.es.js ***!
   \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "faAddressBook": () => (/* binding */ faAddressBook),
-/* harmony export */   "faAddressCard": () => (/* binding */ faAddressCard),
-/* harmony export */   "faAngry": () => (/* binding */ faAngry),
-/* harmony export */   "faArrowAltCircleDown": () => (/* binding */ faArrowAltCircleDown),
-/* harmony export */   "faArrowAltCircleLeft": () => (/* binding */ faArrowAltCircleLeft),
-/* harmony export */   "faArrowAltCircleRight": () => (/* binding */ faArrowAltCircleRight),
-/* harmony export */   "faArrowAltCircleUp": () => (/* binding */ faArrowAltCircleUp),
-/* harmony export */   "faBell": () => (/* binding */ faBell),
-/* harmony export */   "faBellSlash": () => (/* binding */ faBellSlash),
-/* harmony export */   "faBookmark": () => (/* binding */ faBookmark),
-/* harmony export */   "faBuilding": () => (/* binding */ faBuilding),
-/* harmony export */   "faCalendar": () => (/* binding */ faCalendar),
-/* harmony export */   "faCalendarAlt": () => (/* binding */ faCalendarAlt),
-/* harmony export */   "faCalendarCheck": () => (/* binding */ faCalendarCheck),
-/* harmony export */   "faCalendarMinus": () => (/* binding */ faCalendarMinus),
-/* harmony export */   "faCalendarPlus": () => (/* binding */ faCalendarPlus),
-/* harmony export */   "faCalendarTimes": () => (/* binding */ faCalendarTimes),
-/* harmony export */   "faCaretSquareDown": () => (/* binding */ faCaretSquareDown),
-/* harmony export */   "faCaretSquareLeft": () => (/* binding */ faCaretSquareLeft),
-/* harmony export */   "faCaretSquareRight": () => (/* binding */ faCaretSquareRight),
-/* harmony export */   "faCaretSquareUp": () => (/* binding */ faCaretSquareUp),
-/* harmony export */   "faChartBar": () => (/* binding */ faChartBar),
-/* harmony export */   "faCheckCircle": () => (/* binding */ faCheckCircle),
-/* harmony export */   "faCheckSquare": () => (/* binding */ faCheckSquare),
-/* harmony export */   "faCircle": () => (/* binding */ faCircle),
-/* harmony export */   "faClipboard": () => (/* binding */ faClipboard),
-/* harmony export */   "faClock": () => (/* binding */ faClock),
-/* harmony export */   "faClone": () => (/* binding */ faClone),
-/* harmony export */   "faClosedCaptioning": () => (/* binding */ faClosedCaptioning),
-/* harmony export */   "faComment": () => (/* binding */ faComment),
-/* harmony export */   "faCommentAlt": () => (/* binding */ faCommentAlt),
-/* harmony export */   "faCommentDots": () => (/* binding */ faCommentDots),
-/* harmony export */   "faComments": () => (/* binding */ faComments),
-/* harmony export */   "faCompass": () => (/* binding */ faCompass),
-/* harmony export */   "faCopy": () => (/* binding */ faCopy),
-/* harmony export */   "faCopyright": () => (/* binding */ faCopyright),
-/* harmony export */   "faCreditCard": () => (/* binding */ faCreditCard),
-/* harmony export */   "faDizzy": () => (/* binding */ faDizzy),
-/* harmony export */   "faDotCircle": () => (/* binding */ faDotCircle),
-/* harmony export */   "faEdit": () => (/* binding */ faEdit),
-/* harmony export */   "faEnvelope": () => (/* binding */ faEnvelope),
-/* harmony export */   "faEnvelopeOpen": () => (/* binding */ faEnvelopeOpen),
-/* harmony export */   "faEye": () => (/* binding */ faEye),
-/* harmony export */   "faEyeSlash": () => (/* binding */ faEyeSlash),
-/* harmony export */   "faFile": () => (/* binding */ faFile),
-/* harmony export */   "faFileAlt": () => (/* binding */ faFileAlt),
-/* harmony export */   "faFileArchive": () => (/* binding */ faFileArchive),
-/* harmony export */   "faFileAudio": () => (/* binding */ faFileAudio),
-/* harmony export */   "faFileCode": () => (/* binding */ faFileCode),
-/* harmony export */   "faFileExcel": () => (/* binding */ faFileExcel),
-/* harmony export */   "faFileImage": () => (/* binding */ faFileImage),
-/* harmony export */   "faFilePdf": () => (/* binding */ faFilePdf),
-/* harmony export */   "faFilePowerpoint": () => (/* binding */ faFilePowerpoint),
-/* harmony export */   "faFileVideo": () => (/* binding */ faFileVideo),
-/* harmony export */   "faFileWord": () => (/* binding */ faFileWord),
-/* harmony export */   "faFlag": () => (/* binding */ faFlag),
-/* harmony export */   "faFlushed": () => (/* binding */ faFlushed),
-/* harmony export */   "faFolder": () => (/* binding */ faFolder),
-/* harmony export */   "faFolderOpen": () => (/* binding */ faFolderOpen),
-/* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
-/* harmony export */   "faFrown": () => (/* binding */ faFrown),
-/* harmony export */   "faFrownOpen": () => (/* binding */ faFrownOpen),
-/* harmony export */   "faFutbol": () => (/* binding */ faFutbol),
-/* harmony export */   "faGem": () => (/* binding */ faGem),
-/* harmony export */   "faGrimace": () => (/* binding */ faGrimace),
-/* harmony export */   "faGrin": () => (/* binding */ faGrin),
-/* harmony export */   "faGrinAlt": () => (/* binding */ faGrinAlt),
-/* harmony export */   "faGrinBeam": () => (/* binding */ faGrinBeam),
-/* harmony export */   "faGrinBeamSweat": () => (/* binding */ faGrinBeamSweat),
-/* harmony export */   "faGrinHearts": () => (/* binding */ faGrinHearts),
-/* harmony export */   "faGrinSquint": () => (/* binding */ faGrinSquint),
-/* harmony export */   "faGrinSquintTears": () => (/* binding */ faGrinSquintTears),
-/* harmony export */   "faGrinStars": () => (/* binding */ faGrinStars),
-/* harmony export */   "faGrinTears": () => (/* binding */ faGrinTears),
-/* harmony export */   "faGrinTongue": () => (/* binding */ faGrinTongue),
-/* harmony export */   "faGrinTongueSquint": () => (/* binding */ faGrinTongueSquint),
-/* harmony export */   "faGrinTongueWink": () => (/* binding */ faGrinTongueWink),
-/* harmony export */   "faGrinWink": () => (/* binding */ faGrinWink),
-/* harmony export */   "faHandLizard": () => (/* binding */ faHandLizard),
-/* harmony export */   "faHandPaper": () => (/* binding */ faHandPaper),
-/* harmony export */   "faHandPeace": () => (/* binding */ faHandPeace),
-/* harmony export */   "faHandPointDown": () => (/* binding */ faHandPointDown),
-/* harmony export */   "faHandPointLeft": () => (/* binding */ faHandPointLeft),
-/* harmony export */   "faHandPointRight": () => (/* binding */ faHandPointRight),
-/* harmony export */   "faHandPointUp": () => (/* binding */ faHandPointUp),
-/* harmony export */   "faHandPointer": () => (/* binding */ faHandPointer),
-/* harmony export */   "faHandRock": () => (/* binding */ faHandRock),
-/* harmony export */   "faHandScissors": () => (/* binding */ faHandScissors),
-/* harmony export */   "faHandSpock": () => (/* binding */ faHandSpock),
-/* harmony export */   "faHandshake": () => (/* binding */ faHandshake),
-/* harmony export */   "faHdd": () => (/* binding */ faHdd),
-/* harmony export */   "faHeart": () => (/* binding */ faHeart),
-/* harmony export */   "faHospital": () => (/* binding */ faHospital),
-/* harmony export */   "faHourglass": () => (/* binding */ faHourglass),
-/* harmony export */   "faIdBadge": () => (/* binding */ faIdBadge),
-/* harmony export */   "faIdCard": () => (/* binding */ faIdCard),
-/* harmony export */   "faImage": () => (/* binding */ faImage),
-/* harmony export */   "faImages": () => (/* binding */ faImages),
-/* harmony export */   "faKeyboard": () => (/* binding */ faKeyboard),
-/* harmony export */   "faKiss": () => (/* binding */ faKiss),
-/* harmony export */   "faKissBeam": () => (/* binding */ faKissBeam),
-/* harmony export */   "faKissWinkHeart": () => (/* binding */ faKissWinkHeart),
-/* harmony export */   "faLaugh": () => (/* binding */ faLaugh),
-/* harmony export */   "faLaughBeam": () => (/* binding */ faLaughBeam),
-/* harmony export */   "faLaughSquint": () => (/* binding */ faLaughSquint),
-/* harmony export */   "faLaughWink": () => (/* binding */ faLaughWink),
-/* harmony export */   "faLemon": () => (/* binding */ faLemon),
-/* harmony export */   "faLifeRing": () => (/* binding */ faLifeRing),
-/* harmony export */   "faLightbulb": () => (/* binding */ faLightbulb),
-/* harmony export */   "faListAlt": () => (/* binding */ faListAlt),
-/* harmony export */   "faMap": () => (/* binding */ faMap),
-/* harmony export */   "faMeh": () => (/* binding */ faMeh),
-/* harmony export */   "faMehBlank": () => (/* binding */ faMehBlank),
-/* harmony export */   "faMehRollingEyes": () => (/* binding */ faMehRollingEyes),
-/* harmony export */   "faMinusSquare": () => (/* binding */ faMinusSquare),
-/* harmony export */   "faMoneyBillAlt": () => (/* binding */ faMoneyBillAlt),
-/* harmony export */   "faMoon": () => (/* binding */ faMoon),
-/* harmony export */   "faNewspaper": () => (/* binding */ faNewspaper),
-/* harmony export */   "faObjectGroup": () => (/* binding */ faObjectGroup),
-/* harmony export */   "faObjectUngroup": () => (/* binding */ faObjectUngroup),
-/* harmony export */   "faPaperPlane": () => (/* binding */ faPaperPlane),
-/* harmony export */   "faPauseCircle": () => (/* binding */ faPauseCircle),
-/* harmony export */   "faPlayCircle": () => (/* binding */ faPlayCircle),
-/* harmony export */   "faPlusSquare": () => (/* binding */ faPlusSquare),
-/* harmony export */   "faQuestionCircle": () => (/* binding */ faQuestionCircle),
-/* harmony export */   "faRegistered": () => (/* binding */ faRegistered),
-/* harmony export */   "faSadCry": () => (/* binding */ faSadCry),
-/* harmony export */   "faSadTear": () => (/* binding */ faSadTear),
-/* harmony export */   "faSave": () => (/* binding */ faSave),
-/* harmony export */   "faShareSquare": () => (/* binding */ faShareSquare),
-/* harmony export */   "faSmile": () => (/* binding */ faSmile),
-/* harmony export */   "faSmileBeam": () => (/* binding */ faSmileBeam),
-/* harmony export */   "faSmileWink": () => (/* binding */ faSmileWink),
-/* harmony export */   "faSnowflake": () => (/* binding */ faSnowflake),
-/* harmony export */   "faSquare": () => (/* binding */ faSquare),
-/* harmony export */   "faStar": () => (/* binding */ faStar),
-/* harmony export */   "faStarHalf": () => (/* binding */ faStarHalf),
-/* harmony export */   "faStickyNote": () => (/* binding */ faStickyNote),
-/* harmony export */   "faStopCircle": () => (/* binding */ faStopCircle),
-/* harmony export */   "faSun": () => (/* binding */ faSun),
-/* harmony export */   "faSurprise": () => (/* binding */ faSurprise),
-/* harmony export */   "faThumbsDown": () => (/* binding */ faThumbsDown),
-/* harmony export */   "faThumbsUp": () => (/* binding */ faThumbsUp),
-/* harmony export */   "faTimesCircle": () => (/* binding */ faTimesCircle),
-/* harmony export */   "faTired": () => (/* binding */ faTired),
-/* harmony export */   "faTrashAlt": () => (/* binding */ faTrashAlt),
-/* harmony export */   "faUser": () => (/* binding */ faUser),
-/* harmony export */   "faUserCircle": () => (/* binding */ faUserCircle),
-/* harmony export */   "faWindowClose": () => (/* binding */ faWindowClose),
-/* harmony export */   "faWindowMaximize": () => (/* binding */ faWindowMaximize),
-/* harmony export */   "faWindowMinimize": () => (/* binding */ faWindowMinimize),
-/* harmony export */   "faWindowRestore": () => (/* binding */ faWindowRestore),
-/* harmony export */   "far": () => (/* binding */ _iconsCache),
-/* harmony export */   "prefix": () => (/* binding */ prefix)
+/* harmony export */   faAddressBook: () => (/* binding */ faAddressBook),
+/* harmony export */   faAddressCard: () => (/* binding */ faAddressCard),
+/* harmony export */   faAngry: () => (/* binding */ faAngry),
+/* harmony export */   faArrowAltCircleDown: () => (/* binding */ faArrowAltCircleDown),
+/* harmony export */   faArrowAltCircleLeft: () => (/* binding */ faArrowAltCircleLeft),
+/* harmony export */   faArrowAltCircleRight: () => (/* binding */ faArrowAltCircleRight),
+/* harmony export */   faArrowAltCircleUp: () => (/* binding */ faArrowAltCircleUp),
+/* harmony export */   faBell: () => (/* binding */ faBell),
+/* harmony export */   faBellSlash: () => (/* binding */ faBellSlash),
+/* harmony export */   faBookmark: () => (/* binding */ faBookmark),
+/* harmony export */   faBuilding: () => (/* binding */ faBuilding),
+/* harmony export */   faCalendar: () => (/* binding */ faCalendar),
+/* harmony export */   faCalendarAlt: () => (/* binding */ faCalendarAlt),
+/* harmony export */   faCalendarCheck: () => (/* binding */ faCalendarCheck),
+/* harmony export */   faCalendarMinus: () => (/* binding */ faCalendarMinus),
+/* harmony export */   faCalendarPlus: () => (/* binding */ faCalendarPlus),
+/* harmony export */   faCalendarTimes: () => (/* binding */ faCalendarTimes),
+/* harmony export */   faCaretSquareDown: () => (/* binding */ faCaretSquareDown),
+/* harmony export */   faCaretSquareLeft: () => (/* binding */ faCaretSquareLeft),
+/* harmony export */   faCaretSquareRight: () => (/* binding */ faCaretSquareRight),
+/* harmony export */   faCaretSquareUp: () => (/* binding */ faCaretSquareUp),
+/* harmony export */   faChartBar: () => (/* binding */ faChartBar),
+/* harmony export */   faCheckCircle: () => (/* binding */ faCheckCircle),
+/* harmony export */   faCheckSquare: () => (/* binding */ faCheckSquare),
+/* harmony export */   faCircle: () => (/* binding */ faCircle),
+/* harmony export */   faClipboard: () => (/* binding */ faClipboard),
+/* harmony export */   faClock: () => (/* binding */ faClock),
+/* harmony export */   faClone: () => (/* binding */ faClone),
+/* harmony export */   faClosedCaptioning: () => (/* binding */ faClosedCaptioning),
+/* harmony export */   faComment: () => (/* binding */ faComment),
+/* harmony export */   faCommentAlt: () => (/* binding */ faCommentAlt),
+/* harmony export */   faCommentDots: () => (/* binding */ faCommentDots),
+/* harmony export */   faComments: () => (/* binding */ faComments),
+/* harmony export */   faCompass: () => (/* binding */ faCompass),
+/* harmony export */   faCopy: () => (/* binding */ faCopy),
+/* harmony export */   faCopyright: () => (/* binding */ faCopyright),
+/* harmony export */   faCreditCard: () => (/* binding */ faCreditCard),
+/* harmony export */   faDizzy: () => (/* binding */ faDizzy),
+/* harmony export */   faDotCircle: () => (/* binding */ faDotCircle),
+/* harmony export */   faEdit: () => (/* binding */ faEdit),
+/* harmony export */   faEnvelope: () => (/* binding */ faEnvelope),
+/* harmony export */   faEnvelopeOpen: () => (/* binding */ faEnvelopeOpen),
+/* harmony export */   faEye: () => (/* binding */ faEye),
+/* harmony export */   faEyeSlash: () => (/* binding */ faEyeSlash),
+/* harmony export */   faFile: () => (/* binding */ faFile),
+/* harmony export */   faFileAlt: () => (/* binding */ faFileAlt),
+/* harmony export */   faFileArchive: () => (/* binding */ faFileArchive),
+/* harmony export */   faFileAudio: () => (/* binding */ faFileAudio),
+/* harmony export */   faFileCode: () => (/* binding */ faFileCode),
+/* harmony export */   faFileExcel: () => (/* binding */ faFileExcel),
+/* harmony export */   faFileImage: () => (/* binding */ faFileImage),
+/* harmony export */   faFilePdf: () => (/* binding */ faFilePdf),
+/* harmony export */   faFilePowerpoint: () => (/* binding */ faFilePowerpoint),
+/* harmony export */   faFileVideo: () => (/* binding */ faFileVideo),
+/* harmony export */   faFileWord: () => (/* binding */ faFileWord),
+/* harmony export */   faFlag: () => (/* binding */ faFlag),
+/* harmony export */   faFlushed: () => (/* binding */ faFlushed),
+/* harmony export */   faFolder: () => (/* binding */ faFolder),
+/* harmony export */   faFolderOpen: () => (/* binding */ faFolderOpen),
+/* harmony export */   faFontAwesomeLogoFull: () => (/* binding */ faFontAwesomeLogoFull),
+/* harmony export */   faFrown: () => (/* binding */ faFrown),
+/* harmony export */   faFrownOpen: () => (/* binding */ faFrownOpen),
+/* harmony export */   faFutbol: () => (/* binding */ faFutbol),
+/* harmony export */   faGem: () => (/* binding */ faGem),
+/* harmony export */   faGrimace: () => (/* binding */ faGrimace),
+/* harmony export */   faGrin: () => (/* binding */ faGrin),
+/* harmony export */   faGrinAlt: () => (/* binding */ faGrinAlt),
+/* harmony export */   faGrinBeam: () => (/* binding */ faGrinBeam),
+/* harmony export */   faGrinBeamSweat: () => (/* binding */ faGrinBeamSweat),
+/* harmony export */   faGrinHearts: () => (/* binding */ faGrinHearts),
+/* harmony export */   faGrinSquint: () => (/* binding */ faGrinSquint),
+/* harmony export */   faGrinSquintTears: () => (/* binding */ faGrinSquintTears),
+/* harmony export */   faGrinStars: () => (/* binding */ faGrinStars),
+/* harmony export */   faGrinTears: () => (/* binding */ faGrinTears),
+/* harmony export */   faGrinTongue: () => (/* binding */ faGrinTongue),
+/* harmony export */   faGrinTongueSquint: () => (/* binding */ faGrinTongueSquint),
+/* harmony export */   faGrinTongueWink: () => (/* binding */ faGrinTongueWink),
+/* harmony export */   faGrinWink: () => (/* binding */ faGrinWink),
+/* harmony export */   faHandLizard: () => (/* binding */ faHandLizard),
+/* harmony export */   faHandPaper: () => (/* binding */ faHandPaper),
+/* harmony export */   faHandPeace: () => (/* binding */ faHandPeace),
+/* harmony export */   faHandPointDown: () => (/* binding */ faHandPointDown),
+/* harmony export */   faHandPointLeft: () => (/* binding */ faHandPointLeft),
+/* harmony export */   faHandPointRight: () => (/* binding */ faHandPointRight),
+/* harmony export */   faHandPointUp: () => (/* binding */ faHandPointUp),
+/* harmony export */   faHandPointer: () => (/* binding */ faHandPointer),
+/* harmony export */   faHandRock: () => (/* binding */ faHandRock),
+/* harmony export */   faHandScissors: () => (/* binding */ faHandScissors),
+/* harmony export */   faHandSpock: () => (/* binding */ faHandSpock),
+/* harmony export */   faHandshake: () => (/* binding */ faHandshake),
+/* harmony export */   faHdd: () => (/* binding */ faHdd),
+/* harmony export */   faHeart: () => (/* binding */ faHeart),
+/* harmony export */   faHospital: () => (/* binding */ faHospital),
+/* harmony export */   faHourglass: () => (/* binding */ faHourglass),
+/* harmony export */   faIdBadge: () => (/* binding */ faIdBadge),
+/* harmony export */   faIdCard: () => (/* binding */ faIdCard),
+/* harmony export */   faImage: () => (/* binding */ faImage),
+/* harmony export */   faImages: () => (/* binding */ faImages),
+/* harmony export */   faKeyboard: () => (/* binding */ faKeyboard),
+/* harmony export */   faKiss: () => (/* binding */ faKiss),
+/* harmony export */   faKissBeam: () => (/* binding */ faKissBeam),
+/* harmony export */   faKissWinkHeart: () => (/* binding */ faKissWinkHeart),
+/* harmony export */   faLaugh: () => (/* binding */ faLaugh),
+/* harmony export */   faLaughBeam: () => (/* binding */ faLaughBeam),
+/* harmony export */   faLaughSquint: () => (/* binding */ faLaughSquint),
+/* harmony export */   faLaughWink: () => (/* binding */ faLaughWink),
+/* harmony export */   faLemon: () => (/* binding */ faLemon),
+/* harmony export */   faLifeRing: () => (/* binding */ faLifeRing),
+/* harmony export */   faLightbulb: () => (/* binding */ faLightbulb),
+/* harmony export */   faListAlt: () => (/* binding */ faListAlt),
+/* harmony export */   faMap: () => (/* binding */ faMap),
+/* harmony export */   faMeh: () => (/* binding */ faMeh),
+/* harmony export */   faMehBlank: () => (/* binding */ faMehBlank),
+/* harmony export */   faMehRollingEyes: () => (/* binding */ faMehRollingEyes),
+/* harmony export */   faMinusSquare: () => (/* binding */ faMinusSquare),
+/* harmony export */   faMoneyBillAlt: () => (/* binding */ faMoneyBillAlt),
+/* harmony export */   faMoon: () => (/* binding */ faMoon),
+/* harmony export */   faNewspaper: () => (/* binding */ faNewspaper),
+/* harmony export */   faObjectGroup: () => (/* binding */ faObjectGroup),
+/* harmony export */   faObjectUngroup: () => (/* binding */ faObjectUngroup),
+/* harmony export */   faPaperPlane: () => (/* binding */ faPaperPlane),
+/* harmony export */   faPauseCircle: () => (/* binding */ faPauseCircle),
+/* harmony export */   faPlayCircle: () => (/* binding */ faPlayCircle),
+/* harmony export */   faPlusSquare: () => (/* binding */ faPlusSquare),
+/* harmony export */   faQuestionCircle: () => (/* binding */ faQuestionCircle),
+/* harmony export */   faRegistered: () => (/* binding */ faRegistered),
+/* harmony export */   faSadCry: () => (/* binding */ faSadCry),
+/* harmony export */   faSadTear: () => (/* binding */ faSadTear),
+/* harmony export */   faSave: () => (/* binding */ faSave),
+/* harmony export */   faShareSquare: () => (/* binding */ faShareSquare),
+/* harmony export */   faSmile: () => (/* binding */ faSmile),
+/* harmony export */   faSmileBeam: () => (/* binding */ faSmileBeam),
+/* harmony export */   faSmileWink: () => (/* binding */ faSmileWink),
+/* harmony export */   faSnowflake: () => (/* binding */ faSnowflake),
+/* harmony export */   faSquare: () => (/* binding */ faSquare),
+/* harmony export */   faStar: () => (/* binding */ faStar),
+/* harmony export */   faStarHalf: () => (/* binding */ faStarHalf),
+/* harmony export */   faStickyNote: () => (/* binding */ faStickyNote),
+/* harmony export */   faStopCircle: () => (/* binding */ faStopCircle),
+/* harmony export */   faSun: () => (/* binding */ faSun),
+/* harmony export */   faSurprise: () => (/* binding */ faSurprise),
+/* harmony export */   faThumbsDown: () => (/* binding */ faThumbsDown),
+/* harmony export */   faThumbsUp: () => (/* binding */ faThumbsUp),
+/* harmony export */   faTimesCircle: () => (/* binding */ faTimesCircle),
+/* harmony export */   faTired: () => (/* binding */ faTired),
+/* harmony export */   faTrashAlt: () => (/* binding */ faTrashAlt),
+/* harmony export */   faUser: () => (/* binding */ faUser),
+/* harmony export */   faUserCircle: () => (/* binding */ faUserCircle),
+/* harmony export */   faWindowClose: () => (/* binding */ faWindowClose),
+/* harmony export */   faWindowMaximize: () => (/* binding */ faWindowMaximize),
+/* harmony export */   faWindowMinimize: () => (/* binding */ faWindowMinimize),
+/* harmony export */   faWindowRestore: () => (/* binding */ faWindowRestore),
+/* harmony export */   far: () => (/* binding */ _iconsCache),
+/* harmony export */   prefix: () => (/* binding */ prefix)
 /* harmony export */ });
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -6772,1021 +6772,1021 @@ var _iconsCache = {
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js":
+/***/ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js"
 /*!********************************************************************!*\
   !*** ./node_modules/@fortawesome/free-solid-svg-icons/index.es.js ***!
   \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "faAd": () => (/* binding */ faAd),
-/* harmony export */   "faAddressBook": () => (/* binding */ faAddressBook),
-/* harmony export */   "faAddressCard": () => (/* binding */ faAddressCard),
-/* harmony export */   "faAdjust": () => (/* binding */ faAdjust),
-/* harmony export */   "faAirFreshener": () => (/* binding */ faAirFreshener),
-/* harmony export */   "faAlignCenter": () => (/* binding */ faAlignCenter),
-/* harmony export */   "faAlignJustify": () => (/* binding */ faAlignJustify),
-/* harmony export */   "faAlignLeft": () => (/* binding */ faAlignLeft),
-/* harmony export */   "faAlignRight": () => (/* binding */ faAlignRight),
-/* harmony export */   "faAllergies": () => (/* binding */ faAllergies),
-/* harmony export */   "faAmbulance": () => (/* binding */ faAmbulance),
-/* harmony export */   "faAmericanSignLanguageInterpreting": () => (/* binding */ faAmericanSignLanguageInterpreting),
-/* harmony export */   "faAnchor": () => (/* binding */ faAnchor),
-/* harmony export */   "faAngleDoubleDown": () => (/* binding */ faAngleDoubleDown),
-/* harmony export */   "faAngleDoubleLeft": () => (/* binding */ faAngleDoubleLeft),
-/* harmony export */   "faAngleDoubleRight": () => (/* binding */ faAngleDoubleRight),
-/* harmony export */   "faAngleDoubleUp": () => (/* binding */ faAngleDoubleUp),
-/* harmony export */   "faAngleDown": () => (/* binding */ faAngleDown),
-/* harmony export */   "faAngleLeft": () => (/* binding */ faAngleLeft),
-/* harmony export */   "faAngleRight": () => (/* binding */ faAngleRight),
-/* harmony export */   "faAngleUp": () => (/* binding */ faAngleUp),
-/* harmony export */   "faAngry": () => (/* binding */ faAngry),
-/* harmony export */   "faAnkh": () => (/* binding */ faAnkh),
-/* harmony export */   "faAppleAlt": () => (/* binding */ faAppleAlt),
-/* harmony export */   "faArchive": () => (/* binding */ faArchive),
-/* harmony export */   "faArchway": () => (/* binding */ faArchway),
-/* harmony export */   "faArrowAltCircleDown": () => (/* binding */ faArrowAltCircleDown),
-/* harmony export */   "faArrowAltCircleLeft": () => (/* binding */ faArrowAltCircleLeft),
-/* harmony export */   "faArrowAltCircleRight": () => (/* binding */ faArrowAltCircleRight),
-/* harmony export */   "faArrowAltCircleUp": () => (/* binding */ faArrowAltCircleUp),
-/* harmony export */   "faArrowCircleDown": () => (/* binding */ faArrowCircleDown),
-/* harmony export */   "faArrowCircleLeft": () => (/* binding */ faArrowCircleLeft),
-/* harmony export */   "faArrowCircleRight": () => (/* binding */ faArrowCircleRight),
-/* harmony export */   "faArrowCircleUp": () => (/* binding */ faArrowCircleUp),
-/* harmony export */   "faArrowDown": () => (/* binding */ faArrowDown),
-/* harmony export */   "faArrowLeft": () => (/* binding */ faArrowLeft),
-/* harmony export */   "faArrowRight": () => (/* binding */ faArrowRight),
-/* harmony export */   "faArrowUp": () => (/* binding */ faArrowUp),
-/* harmony export */   "faArrowsAlt": () => (/* binding */ faArrowsAlt),
-/* harmony export */   "faArrowsAltH": () => (/* binding */ faArrowsAltH),
-/* harmony export */   "faArrowsAltV": () => (/* binding */ faArrowsAltV),
-/* harmony export */   "faAssistiveListeningSystems": () => (/* binding */ faAssistiveListeningSystems),
-/* harmony export */   "faAsterisk": () => (/* binding */ faAsterisk),
-/* harmony export */   "faAt": () => (/* binding */ faAt),
-/* harmony export */   "faAtlas": () => (/* binding */ faAtlas),
-/* harmony export */   "faAtom": () => (/* binding */ faAtom),
-/* harmony export */   "faAudioDescription": () => (/* binding */ faAudioDescription),
-/* harmony export */   "faAward": () => (/* binding */ faAward),
-/* harmony export */   "faBaby": () => (/* binding */ faBaby),
-/* harmony export */   "faBabyCarriage": () => (/* binding */ faBabyCarriage),
-/* harmony export */   "faBackspace": () => (/* binding */ faBackspace),
-/* harmony export */   "faBackward": () => (/* binding */ faBackward),
-/* harmony export */   "faBacon": () => (/* binding */ faBacon),
-/* harmony export */   "faBacteria": () => (/* binding */ faBacteria),
-/* harmony export */   "faBacterium": () => (/* binding */ faBacterium),
-/* harmony export */   "faBahai": () => (/* binding */ faBahai),
-/* harmony export */   "faBalanceScale": () => (/* binding */ faBalanceScale),
-/* harmony export */   "faBalanceScaleLeft": () => (/* binding */ faBalanceScaleLeft),
-/* harmony export */   "faBalanceScaleRight": () => (/* binding */ faBalanceScaleRight),
-/* harmony export */   "faBan": () => (/* binding */ faBan),
-/* harmony export */   "faBandAid": () => (/* binding */ faBandAid),
-/* harmony export */   "faBarcode": () => (/* binding */ faBarcode),
-/* harmony export */   "faBars": () => (/* binding */ faBars),
-/* harmony export */   "faBaseballBall": () => (/* binding */ faBaseballBall),
-/* harmony export */   "faBasketballBall": () => (/* binding */ faBasketballBall),
-/* harmony export */   "faBath": () => (/* binding */ faBath),
-/* harmony export */   "faBatteryEmpty": () => (/* binding */ faBatteryEmpty),
-/* harmony export */   "faBatteryFull": () => (/* binding */ faBatteryFull),
-/* harmony export */   "faBatteryHalf": () => (/* binding */ faBatteryHalf),
-/* harmony export */   "faBatteryQuarter": () => (/* binding */ faBatteryQuarter),
-/* harmony export */   "faBatteryThreeQuarters": () => (/* binding */ faBatteryThreeQuarters),
-/* harmony export */   "faBed": () => (/* binding */ faBed),
-/* harmony export */   "faBeer": () => (/* binding */ faBeer),
-/* harmony export */   "faBell": () => (/* binding */ faBell),
-/* harmony export */   "faBellSlash": () => (/* binding */ faBellSlash),
-/* harmony export */   "faBezierCurve": () => (/* binding */ faBezierCurve),
-/* harmony export */   "faBible": () => (/* binding */ faBible),
-/* harmony export */   "faBicycle": () => (/* binding */ faBicycle),
-/* harmony export */   "faBiking": () => (/* binding */ faBiking),
-/* harmony export */   "faBinoculars": () => (/* binding */ faBinoculars),
-/* harmony export */   "faBiohazard": () => (/* binding */ faBiohazard),
-/* harmony export */   "faBirthdayCake": () => (/* binding */ faBirthdayCake),
-/* harmony export */   "faBlender": () => (/* binding */ faBlender),
-/* harmony export */   "faBlenderPhone": () => (/* binding */ faBlenderPhone),
-/* harmony export */   "faBlind": () => (/* binding */ faBlind),
-/* harmony export */   "faBlog": () => (/* binding */ faBlog),
-/* harmony export */   "faBold": () => (/* binding */ faBold),
-/* harmony export */   "faBolt": () => (/* binding */ faBolt),
-/* harmony export */   "faBomb": () => (/* binding */ faBomb),
-/* harmony export */   "faBone": () => (/* binding */ faBone),
-/* harmony export */   "faBong": () => (/* binding */ faBong),
-/* harmony export */   "faBook": () => (/* binding */ faBook),
-/* harmony export */   "faBookDead": () => (/* binding */ faBookDead),
-/* harmony export */   "faBookMedical": () => (/* binding */ faBookMedical),
-/* harmony export */   "faBookOpen": () => (/* binding */ faBookOpen),
-/* harmony export */   "faBookReader": () => (/* binding */ faBookReader),
-/* harmony export */   "faBookmark": () => (/* binding */ faBookmark),
-/* harmony export */   "faBorderAll": () => (/* binding */ faBorderAll),
-/* harmony export */   "faBorderNone": () => (/* binding */ faBorderNone),
-/* harmony export */   "faBorderStyle": () => (/* binding */ faBorderStyle),
-/* harmony export */   "faBowlingBall": () => (/* binding */ faBowlingBall),
-/* harmony export */   "faBox": () => (/* binding */ faBox),
-/* harmony export */   "faBoxOpen": () => (/* binding */ faBoxOpen),
-/* harmony export */   "faBoxTissue": () => (/* binding */ faBoxTissue),
-/* harmony export */   "faBoxes": () => (/* binding */ faBoxes),
-/* harmony export */   "faBraille": () => (/* binding */ faBraille),
-/* harmony export */   "faBrain": () => (/* binding */ faBrain),
-/* harmony export */   "faBreadSlice": () => (/* binding */ faBreadSlice),
-/* harmony export */   "faBriefcase": () => (/* binding */ faBriefcase),
-/* harmony export */   "faBriefcaseMedical": () => (/* binding */ faBriefcaseMedical),
-/* harmony export */   "faBroadcastTower": () => (/* binding */ faBroadcastTower),
-/* harmony export */   "faBroom": () => (/* binding */ faBroom),
-/* harmony export */   "faBrush": () => (/* binding */ faBrush),
-/* harmony export */   "faBug": () => (/* binding */ faBug),
-/* harmony export */   "faBuilding": () => (/* binding */ faBuilding),
-/* harmony export */   "faBullhorn": () => (/* binding */ faBullhorn),
-/* harmony export */   "faBullseye": () => (/* binding */ faBullseye),
-/* harmony export */   "faBurn": () => (/* binding */ faBurn),
-/* harmony export */   "faBus": () => (/* binding */ faBus),
-/* harmony export */   "faBusAlt": () => (/* binding */ faBusAlt),
-/* harmony export */   "faBusinessTime": () => (/* binding */ faBusinessTime),
-/* harmony export */   "faCalculator": () => (/* binding */ faCalculator),
-/* harmony export */   "faCalendar": () => (/* binding */ faCalendar),
-/* harmony export */   "faCalendarAlt": () => (/* binding */ faCalendarAlt),
-/* harmony export */   "faCalendarCheck": () => (/* binding */ faCalendarCheck),
-/* harmony export */   "faCalendarDay": () => (/* binding */ faCalendarDay),
-/* harmony export */   "faCalendarMinus": () => (/* binding */ faCalendarMinus),
-/* harmony export */   "faCalendarPlus": () => (/* binding */ faCalendarPlus),
-/* harmony export */   "faCalendarTimes": () => (/* binding */ faCalendarTimes),
-/* harmony export */   "faCalendarWeek": () => (/* binding */ faCalendarWeek),
-/* harmony export */   "faCamera": () => (/* binding */ faCamera),
-/* harmony export */   "faCameraRetro": () => (/* binding */ faCameraRetro),
-/* harmony export */   "faCampground": () => (/* binding */ faCampground),
-/* harmony export */   "faCandyCane": () => (/* binding */ faCandyCane),
-/* harmony export */   "faCannabis": () => (/* binding */ faCannabis),
-/* harmony export */   "faCapsules": () => (/* binding */ faCapsules),
-/* harmony export */   "faCar": () => (/* binding */ faCar),
-/* harmony export */   "faCarAlt": () => (/* binding */ faCarAlt),
-/* harmony export */   "faCarBattery": () => (/* binding */ faCarBattery),
-/* harmony export */   "faCarCrash": () => (/* binding */ faCarCrash),
-/* harmony export */   "faCarSide": () => (/* binding */ faCarSide),
-/* harmony export */   "faCaravan": () => (/* binding */ faCaravan),
-/* harmony export */   "faCaretDown": () => (/* binding */ faCaretDown),
-/* harmony export */   "faCaretLeft": () => (/* binding */ faCaretLeft),
-/* harmony export */   "faCaretRight": () => (/* binding */ faCaretRight),
-/* harmony export */   "faCaretSquareDown": () => (/* binding */ faCaretSquareDown),
-/* harmony export */   "faCaretSquareLeft": () => (/* binding */ faCaretSquareLeft),
-/* harmony export */   "faCaretSquareRight": () => (/* binding */ faCaretSquareRight),
-/* harmony export */   "faCaretSquareUp": () => (/* binding */ faCaretSquareUp),
-/* harmony export */   "faCaretUp": () => (/* binding */ faCaretUp),
-/* harmony export */   "faCarrot": () => (/* binding */ faCarrot),
-/* harmony export */   "faCartArrowDown": () => (/* binding */ faCartArrowDown),
-/* harmony export */   "faCartPlus": () => (/* binding */ faCartPlus),
-/* harmony export */   "faCashRegister": () => (/* binding */ faCashRegister),
-/* harmony export */   "faCat": () => (/* binding */ faCat),
-/* harmony export */   "faCertificate": () => (/* binding */ faCertificate),
-/* harmony export */   "faChair": () => (/* binding */ faChair),
-/* harmony export */   "faChalkboard": () => (/* binding */ faChalkboard),
-/* harmony export */   "faChalkboardTeacher": () => (/* binding */ faChalkboardTeacher),
-/* harmony export */   "faChargingStation": () => (/* binding */ faChargingStation),
-/* harmony export */   "faChartArea": () => (/* binding */ faChartArea),
-/* harmony export */   "faChartBar": () => (/* binding */ faChartBar),
-/* harmony export */   "faChartLine": () => (/* binding */ faChartLine),
-/* harmony export */   "faChartPie": () => (/* binding */ faChartPie),
-/* harmony export */   "faCheck": () => (/* binding */ faCheck),
-/* harmony export */   "faCheckCircle": () => (/* binding */ faCheckCircle),
-/* harmony export */   "faCheckDouble": () => (/* binding */ faCheckDouble),
-/* harmony export */   "faCheckSquare": () => (/* binding */ faCheckSquare),
-/* harmony export */   "faCheese": () => (/* binding */ faCheese),
-/* harmony export */   "faChess": () => (/* binding */ faChess),
-/* harmony export */   "faChessBishop": () => (/* binding */ faChessBishop),
-/* harmony export */   "faChessBoard": () => (/* binding */ faChessBoard),
-/* harmony export */   "faChessKing": () => (/* binding */ faChessKing),
-/* harmony export */   "faChessKnight": () => (/* binding */ faChessKnight),
-/* harmony export */   "faChessPawn": () => (/* binding */ faChessPawn),
-/* harmony export */   "faChessQueen": () => (/* binding */ faChessQueen),
-/* harmony export */   "faChessRook": () => (/* binding */ faChessRook),
-/* harmony export */   "faChevronCircleDown": () => (/* binding */ faChevronCircleDown),
-/* harmony export */   "faChevronCircleLeft": () => (/* binding */ faChevronCircleLeft),
-/* harmony export */   "faChevronCircleRight": () => (/* binding */ faChevronCircleRight),
-/* harmony export */   "faChevronCircleUp": () => (/* binding */ faChevronCircleUp),
-/* harmony export */   "faChevronDown": () => (/* binding */ faChevronDown),
-/* harmony export */   "faChevronLeft": () => (/* binding */ faChevronLeft),
-/* harmony export */   "faChevronRight": () => (/* binding */ faChevronRight),
-/* harmony export */   "faChevronUp": () => (/* binding */ faChevronUp),
-/* harmony export */   "faChild": () => (/* binding */ faChild),
-/* harmony export */   "faChurch": () => (/* binding */ faChurch),
-/* harmony export */   "faCircle": () => (/* binding */ faCircle),
-/* harmony export */   "faCircleNotch": () => (/* binding */ faCircleNotch),
-/* harmony export */   "faCity": () => (/* binding */ faCity),
-/* harmony export */   "faClinicMedical": () => (/* binding */ faClinicMedical),
-/* harmony export */   "faClipboard": () => (/* binding */ faClipboard),
-/* harmony export */   "faClipboardCheck": () => (/* binding */ faClipboardCheck),
-/* harmony export */   "faClipboardList": () => (/* binding */ faClipboardList),
-/* harmony export */   "faClock": () => (/* binding */ faClock),
-/* harmony export */   "faClone": () => (/* binding */ faClone),
-/* harmony export */   "faClosedCaptioning": () => (/* binding */ faClosedCaptioning),
-/* harmony export */   "faCloud": () => (/* binding */ faCloud),
-/* harmony export */   "faCloudDownloadAlt": () => (/* binding */ faCloudDownloadAlt),
-/* harmony export */   "faCloudMeatball": () => (/* binding */ faCloudMeatball),
-/* harmony export */   "faCloudMoon": () => (/* binding */ faCloudMoon),
-/* harmony export */   "faCloudMoonRain": () => (/* binding */ faCloudMoonRain),
-/* harmony export */   "faCloudRain": () => (/* binding */ faCloudRain),
-/* harmony export */   "faCloudShowersHeavy": () => (/* binding */ faCloudShowersHeavy),
-/* harmony export */   "faCloudSun": () => (/* binding */ faCloudSun),
-/* harmony export */   "faCloudSunRain": () => (/* binding */ faCloudSunRain),
-/* harmony export */   "faCloudUploadAlt": () => (/* binding */ faCloudUploadAlt),
-/* harmony export */   "faCocktail": () => (/* binding */ faCocktail),
-/* harmony export */   "faCode": () => (/* binding */ faCode),
-/* harmony export */   "faCodeBranch": () => (/* binding */ faCodeBranch),
-/* harmony export */   "faCoffee": () => (/* binding */ faCoffee),
-/* harmony export */   "faCog": () => (/* binding */ faCog),
-/* harmony export */   "faCogs": () => (/* binding */ faCogs),
-/* harmony export */   "faCoins": () => (/* binding */ faCoins),
-/* harmony export */   "faColumns": () => (/* binding */ faColumns),
-/* harmony export */   "faComment": () => (/* binding */ faComment),
-/* harmony export */   "faCommentAlt": () => (/* binding */ faCommentAlt),
-/* harmony export */   "faCommentDollar": () => (/* binding */ faCommentDollar),
-/* harmony export */   "faCommentDots": () => (/* binding */ faCommentDots),
-/* harmony export */   "faCommentMedical": () => (/* binding */ faCommentMedical),
-/* harmony export */   "faCommentSlash": () => (/* binding */ faCommentSlash),
-/* harmony export */   "faComments": () => (/* binding */ faComments),
-/* harmony export */   "faCommentsDollar": () => (/* binding */ faCommentsDollar),
-/* harmony export */   "faCompactDisc": () => (/* binding */ faCompactDisc),
-/* harmony export */   "faCompass": () => (/* binding */ faCompass),
-/* harmony export */   "faCompress": () => (/* binding */ faCompress),
-/* harmony export */   "faCompressAlt": () => (/* binding */ faCompressAlt),
-/* harmony export */   "faCompressArrowsAlt": () => (/* binding */ faCompressArrowsAlt),
-/* harmony export */   "faConciergeBell": () => (/* binding */ faConciergeBell),
-/* harmony export */   "faCookie": () => (/* binding */ faCookie),
-/* harmony export */   "faCookieBite": () => (/* binding */ faCookieBite),
-/* harmony export */   "faCopy": () => (/* binding */ faCopy),
-/* harmony export */   "faCopyright": () => (/* binding */ faCopyright),
-/* harmony export */   "faCouch": () => (/* binding */ faCouch),
-/* harmony export */   "faCreditCard": () => (/* binding */ faCreditCard),
-/* harmony export */   "faCrop": () => (/* binding */ faCrop),
-/* harmony export */   "faCropAlt": () => (/* binding */ faCropAlt),
-/* harmony export */   "faCross": () => (/* binding */ faCross),
-/* harmony export */   "faCrosshairs": () => (/* binding */ faCrosshairs),
-/* harmony export */   "faCrow": () => (/* binding */ faCrow),
-/* harmony export */   "faCrown": () => (/* binding */ faCrown),
-/* harmony export */   "faCrutch": () => (/* binding */ faCrutch),
-/* harmony export */   "faCube": () => (/* binding */ faCube),
-/* harmony export */   "faCubes": () => (/* binding */ faCubes),
-/* harmony export */   "faCut": () => (/* binding */ faCut),
-/* harmony export */   "faDatabase": () => (/* binding */ faDatabase),
-/* harmony export */   "faDeaf": () => (/* binding */ faDeaf),
-/* harmony export */   "faDemocrat": () => (/* binding */ faDemocrat),
-/* harmony export */   "faDesktop": () => (/* binding */ faDesktop),
-/* harmony export */   "faDharmachakra": () => (/* binding */ faDharmachakra),
-/* harmony export */   "faDiagnoses": () => (/* binding */ faDiagnoses),
-/* harmony export */   "faDice": () => (/* binding */ faDice),
-/* harmony export */   "faDiceD20": () => (/* binding */ faDiceD20),
-/* harmony export */   "faDiceD6": () => (/* binding */ faDiceD6),
-/* harmony export */   "faDiceFive": () => (/* binding */ faDiceFive),
-/* harmony export */   "faDiceFour": () => (/* binding */ faDiceFour),
-/* harmony export */   "faDiceOne": () => (/* binding */ faDiceOne),
-/* harmony export */   "faDiceSix": () => (/* binding */ faDiceSix),
-/* harmony export */   "faDiceThree": () => (/* binding */ faDiceThree),
-/* harmony export */   "faDiceTwo": () => (/* binding */ faDiceTwo),
-/* harmony export */   "faDigitalTachograph": () => (/* binding */ faDigitalTachograph),
-/* harmony export */   "faDirections": () => (/* binding */ faDirections),
-/* harmony export */   "faDisease": () => (/* binding */ faDisease),
-/* harmony export */   "faDivide": () => (/* binding */ faDivide),
-/* harmony export */   "faDizzy": () => (/* binding */ faDizzy),
-/* harmony export */   "faDna": () => (/* binding */ faDna),
-/* harmony export */   "faDog": () => (/* binding */ faDog),
-/* harmony export */   "faDollarSign": () => (/* binding */ faDollarSign),
-/* harmony export */   "faDolly": () => (/* binding */ faDolly),
-/* harmony export */   "faDollyFlatbed": () => (/* binding */ faDollyFlatbed),
-/* harmony export */   "faDonate": () => (/* binding */ faDonate),
-/* harmony export */   "faDoorClosed": () => (/* binding */ faDoorClosed),
-/* harmony export */   "faDoorOpen": () => (/* binding */ faDoorOpen),
-/* harmony export */   "faDotCircle": () => (/* binding */ faDotCircle),
-/* harmony export */   "faDove": () => (/* binding */ faDove),
-/* harmony export */   "faDownload": () => (/* binding */ faDownload),
-/* harmony export */   "faDraftingCompass": () => (/* binding */ faDraftingCompass),
-/* harmony export */   "faDragon": () => (/* binding */ faDragon),
-/* harmony export */   "faDrawPolygon": () => (/* binding */ faDrawPolygon),
-/* harmony export */   "faDrum": () => (/* binding */ faDrum),
-/* harmony export */   "faDrumSteelpan": () => (/* binding */ faDrumSteelpan),
-/* harmony export */   "faDrumstickBite": () => (/* binding */ faDrumstickBite),
-/* harmony export */   "faDumbbell": () => (/* binding */ faDumbbell),
-/* harmony export */   "faDumpster": () => (/* binding */ faDumpster),
-/* harmony export */   "faDumpsterFire": () => (/* binding */ faDumpsterFire),
-/* harmony export */   "faDungeon": () => (/* binding */ faDungeon),
-/* harmony export */   "faEdit": () => (/* binding */ faEdit),
-/* harmony export */   "faEgg": () => (/* binding */ faEgg),
-/* harmony export */   "faEject": () => (/* binding */ faEject),
-/* harmony export */   "faEllipsisH": () => (/* binding */ faEllipsisH),
-/* harmony export */   "faEllipsisV": () => (/* binding */ faEllipsisV),
-/* harmony export */   "faEnvelope": () => (/* binding */ faEnvelope),
-/* harmony export */   "faEnvelopeOpen": () => (/* binding */ faEnvelopeOpen),
-/* harmony export */   "faEnvelopeOpenText": () => (/* binding */ faEnvelopeOpenText),
-/* harmony export */   "faEnvelopeSquare": () => (/* binding */ faEnvelopeSquare),
-/* harmony export */   "faEquals": () => (/* binding */ faEquals),
-/* harmony export */   "faEraser": () => (/* binding */ faEraser),
-/* harmony export */   "faEthernet": () => (/* binding */ faEthernet),
-/* harmony export */   "faEuroSign": () => (/* binding */ faEuroSign),
-/* harmony export */   "faExchangeAlt": () => (/* binding */ faExchangeAlt),
-/* harmony export */   "faExclamation": () => (/* binding */ faExclamation),
-/* harmony export */   "faExclamationCircle": () => (/* binding */ faExclamationCircle),
-/* harmony export */   "faExclamationTriangle": () => (/* binding */ faExclamationTriangle),
-/* harmony export */   "faExpand": () => (/* binding */ faExpand),
-/* harmony export */   "faExpandAlt": () => (/* binding */ faExpandAlt),
-/* harmony export */   "faExpandArrowsAlt": () => (/* binding */ faExpandArrowsAlt),
-/* harmony export */   "faExternalLinkAlt": () => (/* binding */ faExternalLinkAlt),
-/* harmony export */   "faExternalLinkSquareAlt": () => (/* binding */ faExternalLinkSquareAlt),
-/* harmony export */   "faEye": () => (/* binding */ faEye),
-/* harmony export */   "faEyeDropper": () => (/* binding */ faEyeDropper),
-/* harmony export */   "faEyeSlash": () => (/* binding */ faEyeSlash),
-/* harmony export */   "faFan": () => (/* binding */ faFan),
-/* harmony export */   "faFastBackward": () => (/* binding */ faFastBackward),
-/* harmony export */   "faFastForward": () => (/* binding */ faFastForward),
-/* harmony export */   "faFaucet": () => (/* binding */ faFaucet),
-/* harmony export */   "faFax": () => (/* binding */ faFax),
-/* harmony export */   "faFeather": () => (/* binding */ faFeather),
-/* harmony export */   "faFeatherAlt": () => (/* binding */ faFeatherAlt),
-/* harmony export */   "faFemale": () => (/* binding */ faFemale),
-/* harmony export */   "faFighterJet": () => (/* binding */ faFighterJet),
-/* harmony export */   "faFile": () => (/* binding */ faFile),
-/* harmony export */   "faFileAlt": () => (/* binding */ faFileAlt),
-/* harmony export */   "faFileArchive": () => (/* binding */ faFileArchive),
-/* harmony export */   "faFileAudio": () => (/* binding */ faFileAudio),
-/* harmony export */   "faFileCode": () => (/* binding */ faFileCode),
-/* harmony export */   "faFileContract": () => (/* binding */ faFileContract),
-/* harmony export */   "faFileCsv": () => (/* binding */ faFileCsv),
-/* harmony export */   "faFileDownload": () => (/* binding */ faFileDownload),
-/* harmony export */   "faFileExcel": () => (/* binding */ faFileExcel),
-/* harmony export */   "faFileExport": () => (/* binding */ faFileExport),
-/* harmony export */   "faFileImage": () => (/* binding */ faFileImage),
-/* harmony export */   "faFileImport": () => (/* binding */ faFileImport),
-/* harmony export */   "faFileInvoice": () => (/* binding */ faFileInvoice),
-/* harmony export */   "faFileInvoiceDollar": () => (/* binding */ faFileInvoiceDollar),
-/* harmony export */   "faFileMedical": () => (/* binding */ faFileMedical),
-/* harmony export */   "faFileMedicalAlt": () => (/* binding */ faFileMedicalAlt),
-/* harmony export */   "faFilePdf": () => (/* binding */ faFilePdf),
-/* harmony export */   "faFilePowerpoint": () => (/* binding */ faFilePowerpoint),
-/* harmony export */   "faFilePrescription": () => (/* binding */ faFilePrescription),
-/* harmony export */   "faFileSignature": () => (/* binding */ faFileSignature),
-/* harmony export */   "faFileUpload": () => (/* binding */ faFileUpload),
-/* harmony export */   "faFileVideo": () => (/* binding */ faFileVideo),
-/* harmony export */   "faFileWord": () => (/* binding */ faFileWord),
-/* harmony export */   "faFill": () => (/* binding */ faFill),
-/* harmony export */   "faFillDrip": () => (/* binding */ faFillDrip),
-/* harmony export */   "faFilm": () => (/* binding */ faFilm),
-/* harmony export */   "faFilter": () => (/* binding */ faFilter),
-/* harmony export */   "faFingerprint": () => (/* binding */ faFingerprint),
-/* harmony export */   "faFire": () => (/* binding */ faFire),
-/* harmony export */   "faFireAlt": () => (/* binding */ faFireAlt),
-/* harmony export */   "faFireExtinguisher": () => (/* binding */ faFireExtinguisher),
-/* harmony export */   "faFirstAid": () => (/* binding */ faFirstAid),
-/* harmony export */   "faFish": () => (/* binding */ faFish),
-/* harmony export */   "faFistRaised": () => (/* binding */ faFistRaised),
-/* harmony export */   "faFlag": () => (/* binding */ faFlag),
-/* harmony export */   "faFlagCheckered": () => (/* binding */ faFlagCheckered),
-/* harmony export */   "faFlagUsa": () => (/* binding */ faFlagUsa),
-/* harmony export */   "faFlask": () => (/* binding */ faFlask),
-/* harmony export */   "faFlushed": () => (/* binding */ faFlushed),
-/* harmony export */   "faFolder": () => (/* binding */ faFolder),
-/* harmony export */   "faFolderMinus": () => (/* binding */ faFolderMinus),
-/* harmony export */   "faFolderOpen": () => (/* binding */ faFolderOpen),
-/* harmony export */   "faFolderPlus": () => (/* binding */ faFolderPlus),
-/* harmony export */   "faFont": () => (/* binding */ faFont),
-/* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
-/* harmony export */   "faFootballBall": () => (/* binding */ faFootballBall),
-/* harmony export */   "faForward": () => (/* binding */ faForward),
-/* harmony export */   "faFrog": () => (/* binding */ faFrog),
-/* harmony export */   "faFrown": () => (/* binding */ faFrown),
-/* harmony export */   "faFrownOpen": () => (/* binding */ faFrownOpen),
-/* harmony export */   "faFunnelDollar": () => (/* binding */ faFunnelDollar),
-/* harmony export */   "faFutbol": () => (/* binding */ faFutbol),
-/* harmony export */   "faGamepad": () => (/* binding */ faGamepad),
-/* harmony export */   "faGasPump": () => (/* binding */ faGasPump),
-/* harmony export */   "faGavel": () => (/* binding */ faGavel),
-/* harmony export */   "faGem": () => (/* binding */ faGem),
-/* harmony export */   "faGenderless": () => (/* binding */ faGenderless),
-/* harmony export */   "faGhost": () => (/* binding */ faGhost),
-/* harmony export */   "faGift": () => (/* binding */ faGift),
-/* harmony export */   "faGifts": () => (/* binding */ faGifts),
-/* harmony export */   "faGlassCheers": () => (/* binding */ faGlassCheers),
-/* harmony export */   "faGlassMartini": () => (/* binding */ faGlassMartini),
-/* harmony export */   "faGlassMartiniAlt": () => (/* binding */ faGlassMartiniAlt),
-/* harmony export */   "faGlassWhiskey": () => (/* binding */ faGlassWhiskey),
-/* harmony export */   "faGlasses": () => (/* binding */ faGlasses),
-/* harmony export */   "faGlobe": () => (/* binding */ faGlobe),
-/* harmony export */   "faGlobeAfrica": () => (/* binding */ faGlobeAfrica),
-/* harmony export */   "faGlobeAmericas": () => (/* binding */ faGlobeAmericas),
-/* harmony export */   "faGlobeAsia": () => (/* binding */ faGlobeAsia),
-/* harmony export */   "faGlobeEurope": () => (/* binding */ faGlobeEurope),
-/* harmony export */   "faGolfBall": () => (/* binding */ faGolfBall),
-/* harmony export */   "faGopuram": () => (/* binding */ faGopuram),
-/* harmony export */   "faGraduationCap": () => (/* binding */ faGraduationCap),
-/* harmony export */   "faGreaterThan": () => (/* binding */ faGreaterThan),
-/* harmony export */   "faGreaterThanEqual": () => (/* binding */ faGreaterThanEqual),
-/* harmony export */   "faGrimace": () => (/* binding */ faGrimace),
-/* harmony export */   "faGrin": () => (/* binding */ faGrin),
-/* harmony export */   "faGrinAlt": () => (/* binding */ faGrinAlt),
-/* harmony export */   "faGrinBeam": () => (/* binding */ faGrinBeam),
-/* harmony export */   "faGrinBeamSweat": () => (/* binding */ faGrinBeamSweat),
-/* harmony export */   "faGrinHearts": () => (/* binding */ faGrinHearts),
-/* harmony export */   "faGrinSquint": () => (/* binding */ faGrinSquint),
-/* harmony export */   "faGrinSquintTears": () => (/* binding */ faGrinSquintTears),
-/* harmony export */   "faGrinStars": () => (/* binding */ faGrinStars),
-/* harmony export */   "faGrinTears": () => (/* binding */ faGrinTears),
-/* harmony export */   "faGrinTongue": () => (/* binding */ faGrinTongue),
-/* harmony export */   "faGrinTongueSquint": () => (/* binding */ faGrinTongueSquint),
-/* harmony export */   "faGrinTongueWink": () => (/* binding */ faGrinTongueWink),
-/* harmony export */   "faGrinWink": () => (/* binding */ faGrinWink),
-/* harmony export */   "faGripHorizontal": () => (/* binding */ faGripHorizontal),
-/* harmony export */   "faGripLines": () => (/* binding */ faGripLines),
-/* harmony export */   "faGripLinesVertical": () => (/* binding */ faGripLinesVertical),
-/* harmony export */   "faGripVertical": () => (/* binding */ faGripVertical),
-/* harmony export */   "faGuitar": () => (/* binding */ faGuitar),
-/* harmony export */   "faHSquare": () => (/* binding */ faHSquare),
-/* harmony export */   "faHamburger": () => (/* binding */ faHamburger),
-/* harmony export */   "faHammer": () => (/* binding */ faHammer),
-/* harmony export */   "faHamsa": () => (/* binding */ faHamsa),
-/* harmony export */   "faHandHolding": () => (/* binding */ faHandHolding),
-/* harmony export */   "faHandHoldingHeart": () => (/* binding */ faHandHoldingHeart),
-/* harmony export */   "faHandHoldingMedical": () => (/* binding */ faHandHoldingMedical),
-/* harmony export */   "faHandHoldingUsd": () => (/* binding */ faHandHoldingUsd),
-/* harmony export */   "faHandHoldingWater": () => (/* binding */ faHandHoldingWater),
-/* harmony export */   "faHandLizard": () => (/* binding */ faHandLizard),
-/* harmony export */   "faHandMiddleFinger": () => (/* binding */ faHandMiddleFinger),
-/* harmony export */   "faHandPaper": () => (/* binding */ faHandPaper),
-/* harmony export */   "faHandPeace": () => (/* binding */ faHandPeace),
-/* harmony export */   "faHandPointDown": () => (/* binding */ faHandPointDown),
-/* harmony export */   "faHandPointLeft": () => (/* binding */ faHandPointLeft),
-/* harmony export */   "faHandPointRight": () => (/* binding */ faHandPointRight),
-/* harmony export */   "faHandPointUp": () => (/* binding */ faHandPointUp),
-/* harmony export */   "faHandPointer": () => (/* binding */ faHandPointer),
-/* harmony export */   "faHandRock": () => (/* binding */ faHandRock),
-/* harmony export */   "faHandScissors": () => (/* binding */ faHandScissors),
-/* harmony export */   "faHandSparkles": () => (/* binding */ faHandSparkles),
-/* harmony export */   "faHandSpock": () => (/* binding */ faHandSpock),
-/* harmony export */   "faHands": () => (/* binding */ faHands),
-/* harmony export */   "faHandsHelping": () => (/* binding */ faHandsHelping),
-/* harmony export */   "faHandsWash": () => (/* binding */ faHandsWash),
-/* harmony export */   "faHandshake": () => (/* binding */ faHandshake),
-/* harmony export */   "faHandshakeAltSlash": () => (/* binding */ faHandshakeAltSlash),
-/* harmony export */   "faHandshakeSlash": () => (/* binding */ faHandshakeSlash),
-/* harmony export */   "faHanukiah": () => (/* binding */ faHanukiah),
-/* harmony export */   "faHardHat": () => (/* binding */ faHardHat),
-/* harmony export */   "faHashtag": () => (/* binding */ faHashtag),
-/* harmony export */   "faHatCowboy": () => (/* binding */ faHatCowboy),
-/* harmony export */   "faHatCowboySide": () => (/* binding */ faHatCowboySide),
-/* harmony export */   "faHatWizard": () => (/* binding */ faHatWizard),
-/* harmony export */   "faHdd": () => (/* binding */ faHdd),
-/* harmony export */   "faHeadSideCough": () => (/* binding */ faHeadSideCough),
-/* harmony export */   "faHeadSideCoughSlash": () => (/* binding */ faHeadSideCoughSlash),
-/* harmony export */   "faHeadSideMask": () => (/* binding */ faHeadSideMask),
-/* harmony export */   "faHeadSideVirus": () => (/* binding */ faHeadSideVirus),
-/* harmony export */   "faHeading": () => (/* binding */ faHeading),
-/* harmony export */   "faHeadphones": () => (/* binding */ faHeadphones),
-/* harmony export */   "faHeadphonesAlt": () => (/* binding */ faHeadphonesAlt),
-/* harmony export */   "faHeadset": () => (/* binding */ faHeadset),
-/* harmony export */   "faHeart": () => (/* binding */ faHeart),
-/* harmony export */   "faHeartBroken": () => (/* binding */ faHeartBroken),
-/* harmony export */   "faHeartbeat": () => (/* binding */ faHeartbeat),
-/* harmony export */   "faHelicopter": () => (/* binding */ faHelicopter),
-/* harmony export */   "faHighlighter": () => (/* binding */ faHighlighter),
-/* harmony export */   "faHiking": () => (/* binding */ faHiking),
-/* harmony export */   "faHippo": () => (/* binding */ faHippo),
-/* harmony export */   "faHistory": () => (/* binding */ faHistory),
-/* harmony export */   "faHockeyPuck": () => (/* binding */ faHockeyPuck),
-/* harmony export */   "faHollyBerry": () => (/* binding */ faHollyBerry),
-/* harmony export */   "faHome": () => (/* binding */ faHome),
-/* harmony export */   "faHorse": () => (/* binding */ faHorse),
-/* harmony export */   "faHorseHead": () => (/* binding */ faHorseHead),
-/* harmony export */   "faHospital": () => (/* binding */ faHospital),
-/* harmony export */   "faHospitalAlt": () => (/* binding */ faHospitalAlt),
-/* harmony export */   "faHospitalSymbol": () => (/* binding */ faHospitalSymbol),
-/* harmony export */   "faHospitalUser": () => (/* binding */ faHospitalUser),
-/* harmony export */   "faHotTub": () => (/* binding */ faHotTub),
-/* harmony export */   "faHotdog": () => (/* binding */ faHotdog),
-/* harmony export */   "faHotel": () => (/* binding */ faHotel),
-/* harmony export */   "faHourglass": () => (/* binding */ faHourglass),
-/* harmony export */   "faHourglassEnd": () => (/* binding */ faHourglassEnd),
-/* harmony export */   "faHourglassHalf": () => (/* binding */ faHourglassHalf),
-/* harmony export */   "faHourglassStart": () => (/* binding */ faHourglassStart),
-/* harmony export */   "faHouseDamage": () => (/* binding */ faHouseDamage),
-/* harmony export */   "faHouseUser": () => (/* binding */ faHouseUser),
-/* harmony export */   "faHryvnia": () => (/* binding */ faHryvnia),
-/* harmony export */   "faICursor": () => (/* binding */ faICursor),
-/* harmony export */   "faIceCream": () => (/* binding */ faIceCream),
-/* harmony export */   "faIcicles": () => (/* binding */ faIcicles),
-/* harmony export */   "faIcons": () => (/* binding */ faIcons),
-/* harmony export */   "faIdBadge": () => (/* binding */ faIdBadge),
-/* harmony export */   "faIdCard": () => (/* binding */ faIdCard),
-/* harmony export */   "faIdCardAlt": () => (/* binding */ faIdCardAlt),
-/* harmony export */   "faIgloo": () => (/* binding */ faIgloo),
-/* harmony export */   "faImage": () => (/* binding */ faImage),
-/* harmony export */   "faImages": () => (/* binding */ faImages),
-/* harmony export */   "faInbox": () => (/* binding */ faInbox),
-/* harmony export */   "faIndent": () => (/* binding */ faIndent),
-/* harmony export */   "faIndustry": () => (/* binding */ faIndustry),
-/* harmony export */   "faInfinity": () => (/* binding */ faInfinity),
-/* harmony export */   "faInfo": () => (/* binding */ faInfo),
-/* harmony export */   "faInfoCircle": () => (/* binding */ faInfoCircle),
-/* harmony export */   "faItalic": () => (/* binding */ faItalic),
-/* harmony export */   "faJedi": () => (/* binding */ faJedi),
-/* harmony export */   "faJoint": () => (/* binding */ faJoint),
-/* harmony export */   "faJournalWhills": () => (/* binding */ faJournalWhills),
-/* harmony export */   "faKaaba": () => (/* binding */ faKaaba),
-/* harmony export */   "faKey": () => (/* binding */ faKey),
-/* harmony export */   "faKeyboard": () => (/* binding */ faKeyboard),
-/* harmony export */   "faKhanda": () => (/* binding */ faKhanda),
-/* harmony export */   "faKiss": () => (/* binding */ faKiss),
-/* harmony export */   "faKissBeam": () => (/* binding */ faKissBeam),
-/* harmony export */   "faKissWinkHeart": () => (/* binding */ faKissWinkHeart),
-/* harmony export */   "faKiwiBird": () => (/* binding */ faKiwiBird),
-/* harmony export */   "faLandmark": () => (/* binding */ faLandmark),
-/* harmony export */   "faLanguage": () => (/* binding */ faLanguage),
-/* harmony export */   "faLaptop": () => (/* binding */ faLaptop),
-/* harmony export */   "faLaptopCode": () => (/* binding */ faLaptopCode),
-/* harmony export */   "faLaptopHouse": () => (/* binding */ faLaptopHouse),
-/* harmony export */   "faLaptopMedical": () => (/* binding */ faLaptopMedical),
-/* harmony export */   "faLaugh": () => (/* binding */ faLaugh),
-/* harmony export */   "faLaughBeam": () => (/* binding */ faLaughBeam),
-/* harmony export */   "faLaughSquint": () => (/* binding */ faLaughSquint),
-/* harmony export */   "faLaughWink": () => (/* binding */ faLaughWink),
-/* harmony export */   "faLayerGroup": () => (/* binding */ faLayerGroup),
-/* harmony export */   "faLeaf": () => (/* binding */ faLeaf),
-/* harmony export */   "faLemon": () => (/* binding */ faLemon),
-/* harmony export */   "faLessThan": () => (/* binding */ faLessThan),
-/* harmony export */   "faLessThanEqual": () => (/* binding */ faLessThanEqual),
-/* harmony export */   "faLevelDownAlt": () => (/* binding */ faLevelDownAlt),
-/* harmony export */   "faLevelUpAlt": () => (/* binding */ faLevelUpAlt),
-/* harmony export */   "faLifeRing": () => (/* binding */ faLifeRing),
-/* harmony export */   "faLightbulb": () => (/* binding */ faLightbulb),
-/* harmony export */   "faLink": () => (/* binding */ faLink),
-/* harmony export */   "faLiraSign": () => (/* binding */ faLiraSign),
-/* harmony export */   "faList": () => (/* binding */ faList),
-/* harmony export */   "faListAlt": () => (/* binding */ faListAlt),
-/* harmony export */   "faListOl": () => (/* binding */ faListOl),
-/* harmony export */   "faListUl": () => (/* binding */ faListUl),
-/* harmony export */   "faLocationArrow": () => (/* binding */ faLocationArrow),
-/* harmony export */   "faLock": () => (/* binding */ faLock),
-/* harmony export */   "faLockOpen": () => (/* binding */ faLockOpen),
-/* harmony export */   "faLongArrowAltDown": () => (/* binding */ faLongArrowAltDown),
-/* harmony export */   "faLongArrowAltLeft": () => (/* binding */ faLongArrowAltLeft),
-/* harmony export */   "faLongArrowAltRight": () => (/* binding */ faLongArrowAltRight),
-/* harmony export */   "faLongArrowAltUp": () => (/* binding */ faLongArrowAltUp),
-/* harmony export */   "faLowVision": () => (/* binding */ faLowVision),
-/* harmony export */   "faLuggageCart": () => (/* binding */ faLuggageCart),
-/* harmony export */   "faLungs": () => (/* binding */ faLungs),
-/* harmony export */   "faLungsVirus": () => (/* binding */ faLungsVirus),
-/* harmony export */   "faMagic": () => (/* binding */ faMagic),
-/* harmony export */   "faMagnet": () => (/* binding */ faMagnet),
-/* harmony export */   "faMailBulk": () => (/* binding */ faMailBulk),
-/* harmony export */   "faMale": () => (/* binding */ faMale),
-/* harmony export */   "faMap": () => (/* binding */ faMap),
-/* harmony export */   "faMapMarked": () => (/* binding */ faMapMarked),
-/* harmony export */   "faMapMarkedAlt": () => (/* binding */ faMapMarkedAlt),
-/* harmony export */   "faMapMarker": () => (/* binding */ faMapMarker),
-/* harmony export */   "faMapMarkerAlt": () => (/* binding */ faMapMarkerAlt),
-/* harmony export */   "faMapPin": () => (/* binding */ faMapPin),
-/* harmony export */   "faMapSigns": () => (/* binding */ faMapSigns),
-/* harmony export */   "faMarker": () => (/* binding */ faMarker),
-/* harmony export */   "faMars": () => (/* binding */ faMars),
-/* harmony export */   "faMarsDouble": () => (/* binding */ faMarsDouble),
-/* harmony export */   "faMarsStroke": () => (/* binding */ faMarsStroke),
-/* harmony export */   "faMarsStrokeH": () => (/* binding */ faMarsStrokeH),
-/* harmony export */   "faMarsStrokeV": () => (/* binding */ faMarsStrokeV),
-/* harmony export */   "faMask": () => (/* binding */ faMask),
-/* harmony export */   "faMedal": () => (/* binding */ faMedal),
-/* harmony export */   "faMedkit": () => (/* binding */ faMedkit),
-/* harmony export */   "faMeh": () => (/* binding */ faMeh),
-/* harmony export */   "faMehBlank": () => (/* binding */ faMehBlank),
-/* harmony export */   "faMehRollingEyes": () => (/* binding */ faMehRollingEyes),
-/* harmony export */   "faMemory": () => (/* binding */ faMemory),
-/* harmony export */   "faMenorah": () => (/* binding */ faMenorah),
-/* harmony export */   "faMercury": () => (/* binding */ faMercury),
-/* harmony export */   "faMeteor": () => (/* binding */ faMeteor),
-/* harmony export */   "faMicrochip": () => (/* binding */ faMicrochip),
-/* harmony export */   "faMicrophone": () => (/* binding */ faMicrophone),
-/* harmony export */   "faMicrophoneAlt": () => (/* binding */ faMicrophoneAlt),
-/* harmony export */   "faMicrophoneAltSlash": () => (/* binding */ faMicrophoneAltSlash),
-/* harmony export */   "faMicrophoneSlash": () => (/* binding */ faMicrophoneSlash),
-/* harmony export */   "faMicroscope": () => (/* binding */ faMicroscope),
-/* harmony export */   "faMinus": () => (/* binding */ faMinus),
-/* harmony export */   "faMinusCircle": () => (/* binding */ faMinusCircle),
-/* harmony export */   "faMinusSquare": () => (/* binding */ faMinusSquare),
-/* harmony export */   "faMitten": () => (/* binding */ faMitten),
-/* harmony export */   "faMobile": () => (/* binding */ faMobile),
-/* harmony export */   "faMobileAlt": () => (/* binding */ faMobileAlt),
-/* harmony export */   "faMoneyBill": () => (/* binding */ faMoneyBill),
-/* harmony export */   "faMoneyBillAlt": () => (/* binding */ faMoneyBillAlt),
-/* harmony export */   "faMoneyBillWave": () => (/* binding */ faMoneyBillWave),
-/* harmony export */   "faMoneyBillWaveAlt": () => (/* binding */ faMoneyBillWaveAlt),
-/* harmony export */   "faMoneyCheck": () => (/* binding */ faMoneyCheck),
-/* harmony export */   "faMoneyCheckAlt": () => (/* binding */ faMoneyCheckAlt),
-/* harmony export */   "faMonument": () => (/* binding */ faMonument),
-/* harmony export */   "faMoon": () => (/* binding */ faMoon),
-/* harmony export */   "faMortarPestle": () => (/* binding */ faMortarPestle),
-/* harmony export */   "faMosque": () => (/* binding */ faMosque),
-/* harmony export */   "faMotorcycle": () => (/* binding */ faMotorcycle),
-/* harmony export */   "faMountain": () => (/* binding */ faMountain),
-/* harmony export */   "faMouse": () => (/* binding */ faMouse),
-/* harmony export */   "faMousePointer": () => (/* binding */ faMousePointer),
-/* harmony export */   "faMugHot": () => (/* binding */ faMugHot),
-/* harmony export */   "faMusic": () => (/* binding */ faMusic),
-/* harmony export */   "faNetworkWired": () => (/* binding */ faNetworkWired),
-/* harmony export */   "faNeuter": () => (/* binding */ faNeuter),
-/* harmony export */   "faNewspaper": () => (/* binding */ faNewspaper),
-/* harmony export */   "faNotEqual": () => (/* binding */ faNotEqual),
-/* harmony export */   "faNotesMedical": () => (/* binding */ faNotesMedical),
-/* harmony export */   "faObjectGroup": () => (/* binding */ faObjectGroup),
-/* harmony export */   "faObjectUngroup": () => (/* binding */ faObjectUngroup),
-/* harmony export */   "faOilCan": () => (/* binding */ faOilCan),
-/* harmony export */   "faOm": () => (/* binding */ faOm),
-/* harmony export */   "faOtter": () => (/* binding */ faOtter),
-/* harmony export */   "faOutdent": () => (/* binding */ faOutdent),
-/* harmony export */   "faPager": () => (/* binding */ faPager),
-/* harmony export */   "faPaintBrush": () => (/* binding */ faPaintBrush),
-/* harmony export */   "faPaintRoller": () => (/* binding */ faPaintRoller),
-/* harmony export */   "faPalette": () => (/* binding */ faPalette),
-/* harmony export */   "faPallet": () => (/* binding */ faPallet),
-/* harmony export */   "faPaperPlane": () => (/* binding */ faPaperPlane),
-/* harmony export */   "faPaperclip": () => (/* binding */ faPaperclip),
-/* harmony export */   "faParachuteBox": () => (/* binding */ faParachuteBox),
-/* harmony export */   "faParagraph": () => (/* binding */ faParagraph),
-/* harmony export */   "faParking": () => (/* binding */ faParking),
-/* harmony export */   "faPassport": () => (/* binding */ faPassport),
-/* harmony export */   "faPastafarianism": () => (/* binding */ faPastafarianism),
-/* harmony export */   "faPaste": () => (/* binding */ faPaste),
-/* harmony export */   "faPause": () => (/* binding */ faPause),
-/* harmony export */   "faPauseCircle": () => (/* binding */ faPauseCircle),
-/* harmony export */   "faPaw": () => (/* binding */ faPaw),
-/* harmony export */   "faPeace": () => (/* binding */ faPeace),
-/* harmony export */   "faPen": () => (/* binding */ faPen),
-/* harmony export */   "faPenAlt": () => (/* binding */ faPenAlt),
-/* harmony export */   "faPenFancy": () => (/* binding */ faPenFancy),
-/* harmony export */   "faPenNib": () => (/* binding */ faPenNib),
-/* harmony export */   "faPenSquare": () => (/* binding */ faPenSquare),
-/* harmony export */   "faPencilAlt": () => (/* binding */ faPencilAlt),
-/* harmony export */   "faPencilRuler": () => (/* binding */ faPencilRuler),
-/* harmony export */   "faPeopleArrows": () => (/* binding */ faPeopleArrows),
-/* harmony export */   "faPeopleCarry": () => (/* binding */ faPeopleCarry),
-/* harmony export */   "faPepperHot": () => (/* binding */ faPepperHot),
-/* harmony export */   "faPercent": () => (/* binding */ faPercent),
-/* harmony export */   "faPercentage": () => (/* binding */ faPercentage),
-/* harmony export */   "faPersonBooth": () => (/* binding */ faPersonBooth),
-/* harmony export */   "faPhone": () => (/* binding */ faPhone),
-/* harmony export */   "faPhoneAlt": () => (/* binding */ faPhoneAlt),
-/* harmony export */   "faPhoneSlash": () => (/* binding */ faPhoneSlash),
-/* harmony export */   "faPhoneSquare": () => (/* binding */ faPhoneSquare),
-/* harmony export */   "faPhoneSquareAlt": () => (/* binding */ faPhoneSquareAlt),
-/* harmony export */   "faPhoneVolume": () => (/* binding */ faPhoneVolume),
-/* harmony export */   "faPhotoVideo": () => (/* binding */ faPhotoVideo),
-/* harmony export */   "faPiggyBank": () => (/* binding */ faPiggyBank),
-/* harmony export */   "faPills": () => (/* binding */ faPills),
-/* harmony export */   "faPizzaSlice": () => (/* binding */ faPizzaSlice),
-/* harmony export */   "faPlaceOfWorship": () => (/* binding */ faPlaceOfWorship),
-/* harmony export */   "faPlane": () => (/* binding */ faPlane),
-/* harmony export */   "faPlaneArrival": () => (/* binding */ faPlaneArrival),
-/* harmony export */   "faPlaneDeparture": () => (/* binding */ faPlaneDeparture),
-/* harmony export */   "faPlaneSlash": () => (/* binding */ faPlaneSlash),
-/* harmony export */   "faPlay": () => (/* binding */ faPlay),
-/* harmony export */   "faPlayCircle": () => (/* binding */ faPlayCircle),
-/* harmony export */   "faPlug": () => (/* binding */ faPlug),
-/* harmony export */   "faPlus": () => (/* binding */ faPlus),
-/* harmony export */   "faPlusCircle": () => (/* binding */ faPlusCircle),
-/* harmony export */   "faPlusSquare": () => (/* binding */ faPlusSquare),
-/* harmony export */   "faPodcast": () => (/* binding */ faPodcast),
-/* harmony export */   "faPoll": () => (/* binding */ faPoll),
-/* harmony export */   "faPollH": () => (/* binding */ faPollH),
-/* harmony export */   "faPoo": () => (/* binding */ faPoo),
-/* harmony export */   "faPooStorm": () => (/* binding */ faPooStorm),
-/* harmony export */   "faPoop": () => (/* binding */ faPoop),
-/* harmony export */   "faPortrait": () => (/* binding */ faPortrait),
-/* harmony export */   "faPoundSign": () => (/* binding */ faPoundSign),
-/* harmony export */   "faPowerOff": () => (/* binding */ faPowerOff),
-/* harmony export */   "faPray": () => (/* binding */ faPray),
-/* harmony export */   "faPrayingHands": () => (/* binding */ faPrayingHands),
-/* harmony export */   "faPrescription": () => (/* binding */ faPrescription),
-/* harmony export */   "faPrescriptionBottle": () => (/* binding */ faPrescriptionBottle),
-/* harmony export */   "faPrescriptionBottleAlt": () => (/* binding */ faPrescriptionBottleAlt),
-/* harmony export */   "faPrint": () => (/* binding */ faPrint),
-/* harmony export */   "faProcedures": () => (/* binding */ faProcedures),
-/* harmony export */   "faProjectDiagram": () => (/* binding */ faProjectDiagram),
-/* harmony export */   "faPumpMedical": () => (/* binding */ faPumpMedical),
-/* harmony export */   "faPumpSoap": () => (/* binding */ faPumpSoap),
-/* harmony export */   "faPuzzlePiece": () => (/* binding */ faPuzzlePiece),
-/* harmony export */   "faQrcode": () => (/* binding */ faQrcode),
-/* harmony export */   "faQuestion": () => (/* binding */ faQuestion),
-/* harmony export */   "faQuestionCircle": () => (/* binding */ faQuestionCircle),
-/* harmony export */   "faQuidditch": () => (/* binding */ faQuidditch),
-/* harmony export */   "faQuoteLeft": () => (/* binding */ faQuoteLeft),
-/* harmony export */   "faQuoteRight": () => (/* binding */ faQuoteRight),
-/* harmony export */   "faQuran": () => (/* binding */ faQuran),
-/* harmony export */   "faRadiation": () => (/* binding */ faRadiation),
-/* harmony export */   "faRadiationAlt": () => (/* binding */ faRadiationAlt),
-/* harmony export */   "faRainbow": () => (/* binding */ faRainbow),
-/* harmony export */   "faRandom": () => (/* binding */ faRandom),
-/* harmony export */   "faReceipt": () => (/* binding */ faReceipt),
-/* harmony export */   "faRecordVinyl": () => (/* binding */ faRecordVinyl),
-/* harmony export */   "faRecycle": () => (/* binding */ faRecycle),
-/* harmony export */   "faRedo": () => (/* binding */ faRedo),
-/* harmony export */   "faRedoAlt": () => (/* binding */ faRedoAlt),
-/* harmony export */   "faRegistered": () => (/* binding */ faRegistered),
-/* harmony export */   "faRemoveFormat": () => (/* binding */ faRemoveFormat),
-/* harmony export */   "faReply": () => (/* binding */ faReply),
-/* harmony export */   "faReplyAll": () => (/* binding */ faReplyAll),
-/* harmony export */   "faRepublican": () => (/* binding */ faRepublican),
-/* harmony export */   "faRestroom": () => (/* binding */ faRestroom),
-/* harmony export */   "faRetweet": () => (/* binding */ faRetweet),
-/* harmony export */   "faRibbon": () => (/* binding */ faRibbon),
-/* harmony export */   "faRing": () => (/* binding */ faRing),
-/* harmony export */   "faRoad": () => (/* binding */ faRoad),
-/* harmony export */   "faRobot": () => (/* binding */ faRobot),
-/* harmony export */   "faRocket": () => (/* binding */ faRocket),
-/* harmony export */   "faRoute": () => (/* binding */ faRoute),
-/* harmony export */   "faRss": () => (/* binding */ faRss),
-/* harmony export */   "faRssSquare": () => (/* binding */ faRssSquare),
-/* harmony export */   "faRubleSign": () => (/* binding */ faRubleSign),
-/* harmony export */   "faRuler": () => (/* binding */ faRuler),
-/* harmony export */   "faRulerCombined": () => (/* binding */ faRulerCombined),
-/* harmony export */   "faRulerHorizontal": () => (/* binding */ faRulerHorizontal),
-/* harmony export */   "faRulerVertical": () => (/* binding */ faRulerVertical),
-/* harmony export */   "faRunning": () => (/* binding */ faRunning),
-/* harmony export */   "faRupeeSign": () => (/* binding */ faRupeeSign),
-/* harmony export */   "faSadCry": () => (/* binding */ faSadCry),
-/* harmony export */   "faSadTear": () => (/* binding */ faSadTear),
-/* harmony export */   "faSatellite": () => (/* binding */ faSatellite),
-/* harmony export */   "faSatelliteDish": () => (/* binding */ faSatelliteDish),
-/* harmony export */   "faSave": () => (/* binding */ faSave),
-/* harmony export */   "faSchool": () => (/* binding */ faSchool),
-/* harmony export */   "faScrewdriver": () => (/* binding */ faScrewdriver),
-/* harmony export */   "faScroll": () => (/* binding */ faScroll),
-/* harmony export */   "faSdCard": () => (/* binding */ faSdCard),
-/* harmony export */   "faSearch": () => (/* binding */ faSearch),
-/* harmony export */   "faSearchDollar": () => (/* binding */ faSearchDollar),
-/* harmony export */   "faSearchLocation": () => (/* binding */ faSearchLocation),
-/* harmony export */   "faSearchMinus": () => (/* binding */ faSearchMinus),
-/* harmony export */   "faSearchPlus": () => (/* binding */ faSearchPlus),
-/* harmony export */   "faSeedling": () => (/* binding */ faSeedling),
-/* harmony export */   "faServer": () => (/* binding */ faServer),
-/* harmony export */   "faShapes": () => (/* binding */ faShapes),
-/* harmony export */   "faShare": () => (/* binding */ faShare),
-/* harmony export */   "faShareAlt": () => (/* binding */ faShareAlt),
-/* harmony export */   "faShareAltSquare": () => (/* binding */ faShareAltSquare),
-/* harmony export */   "faShareSquare": () => (/* binding */ faShareSquare),
-/* harmony export */   "faShekelSign": () => (/* binding */ faShekelSign),
-/* harmony export */   "faShieldAlt": () => (/* binding */ faShieldAlt),
-/* harmony export */   "faShieldVirus": () => (/* binding */ faShieldVirus),
-/* harmony export */   "faShip": () => (/* binding */ faShip),
-/* harmony export */   "faShippingFast": () => (/* binding */ faShippingFast),
-/* harmony export */   "faShoePrints": () => (/* binding */ faShoePrints),
-/* harmony export */   "faShoppingBag": () => (/* binding */ faShoppingBag),
-/* harmony export */   "faShoppingBasket": () => (/* binding */ faShoppingBasket),
-/* harmony export */   "faShoppingCart": () => (/* binding */ faShoppingCart),
-/* harmony export */   "faShower": () => (/* binding */ faShower),
-/* harmony export */   "faShuttleVan": () => (/* binding */ faShuttleVan),
-/* harmony export */   "faSign": () => (/* binding */ faSign),
-/* harmony export */   "faSignInAlt": () => (/* binding */ faSignInAlt),
-/* harmony export */   "faSignLanguage": () => (/* binding */ faSignLanguage),
-/* harmony export */   "faSignOutAlt": () => (/* binding */ faSignOutAlt),
-/* harmony export */   "faSignal": () => (/* binding */ faSignal),
-/* harmony export */   "faSignature": () => (/* binding */ faSignature),
-/* harmony export */   "faSimCard": () => (/* binding */ faSimCard),
-/* harmony export */   "faSink": () => (/* binding */ faSink),
-/* harmony export */   "faSitemap": () => (/* binding */ faSitemap),
-/* harmony export */   "faSkating": () => (/* binding */ faSkating),
-/* harmony export */   "faSkiing": () => (/* binding */ faSkiing),
-/* harmony export */   "faSkiingNordic": () => (/* binding */ faSkiingNordic),
-/* harmony export */   "faSkull": () => (/* binding */ faSkull),
-/* harmony export */   "faSkullCrossbones": () => (/* binding */ faSkullCrossbones),
-/* harmony export */   "faSlash": () => (/* binding */ faSlash),
-/* harmony export */   "faSleigh": () => (/* binding */ faSleigh),
-/* harmony export */   "faSlidersH": () => (/* binding */ faSlidersH),
-/* harmony export */   "faSmile": () => (/* binding */ faSmile),
-/* harmony export */   "faSmileBeam": () => (/* binding */ faSmileBeam),
-/* harmony export */   "faSmileWink": () => (/* binding */ faSmileWink),
-/* harmony export */   "faSmog": () => (/* binding */ faSmog),
-/* harmony export */   "faSmoking": () => (/* binding */ faSmoking),
-/* harmony export */   "faSmokingBan": () => (/* binding */ faSmokingBan),
-/* harmony export */   "faSms": () => (/* binding */ faSms),
-/* harmony export */   "faSnowboarding": () => (/* binding */ faSnowboarding),
-/* harmony export */   "faSnowflake": () => (/* binding */ faSnowflake),
-/* harmony export */   "faSnowman": () => (/* binding */ faSnowman),
-/* harmony export */   "faSnowplow": () => (/* binding */ faSnowplow),
-/* harmony export */   "faSoap": () => (/* binding */ faSoap),
-/* harmony export */   "faSocks": () => (/* binding */ faSocks),
-/* harmony export */   "faSolarPanel": () => (/* binding */ faSolarPanel),
-/* harmony export */   "faSort": () => (/* binding */ faSort),
-/* harmony export */   "faSortAlphaDown": () => (/* binding */ faSortAlphaDown),
-/* harmony export */   "faSortAlphaDownAlt": () => (/* binding */ faSortAlphaDownAlt),
-/* harmony export */   "faSortAlphaUp": () => (/* binding */ faSortAlphaUp),
-/* harmony export */   "faSortAlphaUpAlt": () => (/* binding */ faSortAlphaUpAlt),
-/* harmony export */   "faSortAmountDown": () => (/* binding */ faSortAmountDown),
-/* harmony export */   "faSortAmountDownAlt": () => (/* binding */ faSortAmountDownAlt),
-/* harmony export */   "faSortAmountUp": () => (/* binding */ faSortAmountUp),
-/* harmony export */   "faSortAmountUpAlt": () => (/* binding */ faSortAmountUpAlt),
-/* harmony export */   "faSortDown": () => (/* binding */ faSortDown),
-/* harmony export */   "faSortNumericDown": () => (/* binding */ faSortNumericDown),
-/* harmony export */   "faSortNumericDownAlt": () => (/* binding */ faSortNumericDownAlt),
-/* harmony export */   "faSortNumericUp": () => (/* binding */ faSortNumericUp),
-/* harmony export */   "faSortNumericUpAlt": () => (/* binding */ faSortNumericUpAlt),
-/* harmony export */   "faSortUp": () => (/* binding */ faSortUp),
-/* harmony export */   "faSpa": () => (/* binding */ faSpa),
-/* harmony export */   "faSpaceShuttle": () => (/* binding */ faSpaceShuttle),
-/* harmony export */   "faSpellCheck": () => (/* binding */ faSpellCheck),
-/* harmony export */   "faSpider": () => (/* binding */ faSpider),
-/* harmony export */   "faSpinner": () => (/* binding */ faSpinner),
-/* harmony export */   "faSplotch": () => (/* binding */ faSplotch),
-/* harmony export */   "faSprayCan": () => (/* binding */ faSprayCan),
-/* harmony export */   "faSquare": () => (/* binding */ faSquare),
-/* harmony export */   "faSquareFull": () => (/* binding */ faSquareFull),
-/* harmony export */   "faSquareRootAlt": () => (/* binding */ faSquareRootAlt),
-/* harmony export */   "faStamp": () => (/* binding */ faStamp),
-/* harmony export */   "faStar": () => (/* binding */ faStar),
-/* harmony export */   "faStarAndCrescent": () => (/* binding */ faStarAndCrescent),
-/* harmony export */   "faStarHalf": () => (/* binding */ faStarHalf),
-/* harmony export */   "faStarHalfAlt": () => (/* binding */ faStarHalfAlt),
-/* harmony export */   "faStarOfDavid": () => (/* binding */ faStarOfDavid),
-/* harmony export */   "faStarOfLife": () => (/* binding */ faStarOfLife),
-/* harmony export */   "faStepBackward": () => (/* binding */ faStepBackward),
-/* harmony export */   "faStepForward": () => (/* binding */ faStepForward),
-/* harmony export */   "faStethoscope": () => (/* binding */ faStethoscope),
-/* harmony export */   "faStickyNote": () => (/* binding */ faStickyNote),
-/* harmony export */   "faStop": () => (/* binding */ faStop),
-/* harmony export */   "faStopCircle": () => (/* binding */ faStopCircle),
-/* harmony export */   "faStopwatch": () => (/* binding */ faStopwatch),
-/* harmony export */   "faStopwatch20": () => (/* binding */ faStopwatch20),
-/* harmony export */   "faStore": () => (/* binding */ faStore),
-/* harmony export */   "faStoreAlt": () => (/* binding */ faStoreAlt),
-/* harmony export */   "faStoreAltSlash": () => (/* binding */ faStoreAltSlash),
-/* harmony export */   "faStoreSlash": () => (/* binding */ faStoreSlash),
-/* harmony export */   "faStream": () => (/* binding */ faStream),
-/* harmony export */   "faStreetView": () => (/* binding */ faStreetView),
-/* harmony export */   "faStrikethrough": () => (/* binding */ faStrikethrough),
-/* harmony export */   "faStroopwafel": () => (/* binding */ faStroopwafel),
-/* harmony export */   "faSubscript": () => (/* binding */ faSubscript),
-/* harmony export */   "faSubway": () => (/* binding */ faSubway),
-/* harmony export */   "faSuitcase": () => (/* binding */ faSuitcase),
-/* harmony export */   "faSuitcaseRolling": () => (/* binding */ faSuitcaseRolling),
-/* harmony export */   "faSun": () => (/* binding */ faSun),
-/* harmony export */   "faSuperscript": () => (/* binding */ faSuperscript),
-/* harmony export */   "faSurprise": () => (/* binding */ faSurprise),
-/* harmony export */   "faSwatchbook": () => (/* binding */ faSwatchbook),
-/* harmony export */   "faSwimmer": () => (/* binding */ faSwimmer),
-/* harmony export */   "faSwimmingPool": () => (/* binding */ faSwimmingPool),
-/* harmony export */   "faSynagogue": () => (/* binding */ faSynagogue),
-/* harmony export */   "faSync": () => (/* binding */ faSync),
-/* harmony export */   "faSyncAlt": () => (/* binding */ faSyncAlt),
-/* harmony export */   "faSyringe": () => (/* binding */ faSyringe),
-/* harmony export */   "faTable": () => (/* binding */ faTable),
-/* harmony export */   "faTableTennis": () => (/* binding */ faTableTennis),
-/* harmony export */   "faTablet": () => (/* binding */ faTablet),
-/* harmony export */   "faTabletAlt": () => (/* binding */ faTabletAlt),
-/* harmony export */   "faTablets": () => (/* binding */ faTablets),
-/* harmony export */   "faTachometerAlt": () => (/* binding */ faTachometerAlt),
-/* harmony export */   "faTag": () => (/* binding */ faTag),
-/* harmony export */   "faTags": () => (/* binding */ faTags),
-/* harmony export */   "faTape": () => (/* binding */ faTape),
-/* harmony export */   "faTasks": () => (/* binding */ faTasks),
-/* harmony export */   "faTaxi": () => (/* binding */ faTaxi),
-/* harmony export */   "faTeeth": () => (/* binding */ faTeeth),
-/* harmony export */   "faTeethOpen": () => (/* binding */ faTeethOpen),
-/* harmony export */   "faTemperatureHigh": () => (/* binding */ faTemperatureHigh),
-/* harmony export */   "faTemperatureLow": () => (/* binding */ faTemperatureLow),
-/* harmony export */   "faTenge": () => (/* binding */ faTenge),
-/* harmony export */   "faTerminal": () => (/* binding */ faTerminal),
-/* harmony export */   "faTextHeight": () => (/* binding */ faTextHeight),
-/* harmony export */   "faTextWidth": () => (/* binding */ faTextWidth),
-/* harmony export */   "faTh": () => (/* binding */ faTh),
-/* harmony export */   "faThLarge": () => (/* binding */ faThLarge),
-/* harmony export */   "faThList": () => (/* binding */ faThList),
-/* harmony export */   "faTheaterMasks": () => (/* binding */ faTheaterMasks),
-/* harmony export */   "faThermometer": () => (/* binding */ faThermometer),
-/* harmony export */   "faThermometerEmpty": () => (/* binding */ faThermometerEmpty),
-/* harmony export */   "faThermometerFull": () => (/* binding */ faThermometerFull),
-/* harmony export */   "faThermometerHalf": () => (/* binding */ faThermometerHalf),
-/* harmony export */   "faThermometerQuarter": () => (/* binding */ faThermometerQuarter),
-/* harmony export */   "faThermometerThreeQuarters": () => (/* binding */ faThermometerThreeQuarters),
-/* harmony export */   "faThumbsDown": () => (/* binding */ faThumbsDown),
-/* harmony export */   "faThumbsUp": () => (/* binding */ faThumbsUp),
-/* harmony export */   "faThumbtack": () => (/* binding */ faThumbtack),
-/* harmony export */   "faTicketAlt": () => (/* binding */ faTicketAlt),
-/* harmony export */   "faTimes": () => (/* binding */ faTimes),
-/* harmony export */   "faTimesCircle": () => (/* binding */ faTimesCircle),
-/* harmony export */   "faTint": () => (/* binding */ faTint),
-/* harmony export */   "faTintSlash": () => (/* binding */ faTintSlash),
-/* harmony export */   "faTired": () => (/* binding */ faTired),
-/* harmony export */   "faToggleOff": () => (/* binding */ faToggleOff),
-/* harmony export */   "faToggleOn": () => (/* binding */ faToggleOn),
-/* harmony export */   "faToilet": () => (/* binding */ faToilet),
-/* harmony export */   "faToiletPaper": () => (/* binding */ faToiletPaper),
-/* harmony export */   "faToiletPaperSlash": () => (/* binding */ faToiletPaperSlash),
-/* harmony export */   "faToolbox": () => (/* binding */ faToolbox),
-/* harmony export */   "faTools": () => (/* binding */ faTools),
-/* harmony export */   "faTooth": () => (/* binding */ faTooth),
-/* harmony export */   "faTorah": () => (/* binding */ faTorah),
-/* harmony export */   "faToriiGate": () => (/* binding */ faToriiGate),
-/* harmony export */   "faTractor": () => (/* binding */ faTractor),
-/* harmony export */   "faTrademark": () => (/* binding */ faTrademark),
-/* harmony export */   "faTrafficLight": () => (/* binding */ faTrafficLight),
-/* harmony export */   "faTrailer": () => (/* binding */ faTrailer),
-/* harmony export */   "faTrain": () => (/* binding */ faTrain),
-/* harmony export */   "faTram": () => (/* binding */ faTram),
-/* harmony export */   "faTransgender": () => (/* binding */ faTransgender),
-/* harmony export */   "faTransgenderAlt": () => (/* binding */ faTransgenderAlt),
-/* harmony export */   "faTrash": () => (/* binding */ faTrash),
-/* harmony export */   "faTrashAlt": () => (/* binding */ faTrashAlt),
-/* harmony export */   "faTrashRestore": () => (/* binding */ faTrashRestore),
-/* harmony export */   "faTrashRestoreAlt": () => (/* binding */ faTrashRestoreAlt),
-/* harmony export */   "faTree": () => (/* binding */ faTree),
-/* harmony export */   "faTrophy": () => (/* binding */ faTrophy),
-/* harmony export */   "faTruck": () => (/* binding */ faTruck),
-/* harmony export */   "faTruckLoading": () => (/* binding */ faTruckLoading),
-/* harmony export */   "faTruckMonster": () => (/* binding */ faTruckMonster),
-/* harmony export */   "faTruckMoving": () => (/* binding */ faTruckMoving),
-/* harmony export */   "faTruckPickup": () => (/* binding */ faTruckPickup),
-/* harmony export */   "faTshirt": () => (/* binding */ faTshirt),
-/* harmony export */   "faTty": () => (/* binding */ faTty),
-/* harmony export */   "faTv": () => (/* binding */ faTv),
-/* harmony export */   "faUmbrella": () => (/* binding */ faUmbrella),
-/* harmony export */   "faUmbrellaBeach": () => (/* binding */ faUmbrellaBeach),
-/* harmony export */   "faUnderline": () => (/* binding */ faUnderline),
-/* harmony export */   "faUndo": () => (/* binding */ faUndo),
-/* harmony export */   "faUndoAlt": () => (/* binding */ faUndoAlt),
-/* harmony export */   "faUniversalAccess": () => (/* binding */ faUniversalAccess),
-/* harmony export */   "faUniversity": () => (/* binding */ faUniversity),
-/* harmony export */   "faUnlink": () => (/* binding */ faUnlink),
-/* harmony export */   "faUnlock": () => (/* binding */ faUnlock),
-/* harmony export */   "faUnlockAlt": () => (/* binding */ faUnlockAlt),
-/* harmony export */   "faUpload": () => (/* binding */ faUpload),
-/* harmony export */   "faUser": () => (/* binding */ faUser),
-/* harmony export */   "faUserAlt": () => (/* binding */ faUserAlt),
-/* harmony export */   "faUserAltSlash": () => (/* binding */ faUserAltSlash),
-/* harmony export */   "faUserAstronaut": () => (/* binding */ faUserAstronaut),
-/* harmony export */   "faUserCheck": () => (/* binding */ faUserCheck),
-/* harmony export */   "faUserCircle": () => (/* binding */ faUserCircle),
-/* harmony export */   "faUserClock": () => (/* binding */ faUserClock),
-/* harmony export */   "faUserCog": () => (/* binding */ faUserCog),
-/* harmony export */   "faUserEdit": () => (/* binding */ faUserEdit),
-/* harmony export */   "faUserFriends": () => (/* binding */ faUserFriends),
-/* harmony export */   "faUserGraduate": () => (/* binding */ faUserGraduate),
-/* harmony export */   "faUserInjured": () => (/* binding */ faUserInjured),
-/* harmony export */   "faUserLock": () => (/* binding */ faUserLock),
-/* harmony export */   "faUserMd": () => (/* binding */ faUserMd),
-/* harmony export */   "faUserMinus": () => (/* binding */ faUserMinus),
-/* harmony export */   "faUserNinja": () => (/* binding */ faUserNinja),
-/* harmony export */   "faUserNurse": () => (/* binding */ faUserNurse),
-/* harmony export */   "faUserPlus": () => (/* binding */ faUserPlus),
-/* harmony export */   "faUserSecret": () => (/* binding */ faUserSecret),
-/* harmony export */   "faUserShield": () => (/* binding */ faUserShield),
-/* harmony export */   "faUserSlash": () => (/* binding */ faUserSlash),
-/* harmony export */   "faUserTag": () => (/* binding */ faUserTag),
-/* harmony export */   "faUserTie": () => (/* binding */ faUserTie),
-/* harmony export */   "faUserTimes": () => (/* binding */ faUserTimes),
-/* harmony export */   "faUsers": () => (/* binding */ faUsers),
-/* harmony export */   "faUsersCog": () => (/* binding */ faUsersCog),
-/* harmony export */   "faUsersSlash": () => (/* binding */ faUsersSlash),
-/* harmony export */   "faUtensilSpoon": () => (/* binding */ faUtensilSpoon),
-/* harmony export */   "faUtensils": () => (/* binding */ faUtensils),
-/* harmony export */   "faVectorSquare": () => (/* binding */ faVectorSquare),
-/* harmony export */   "faVenus": () => (/* binding */ faVenus),
-/* harmony export */   "faVenusDouble": () => (/* binding */ faVenusDouble),
-/* harmony export */   "faVenusMars": () => (/* binding */ faVenusMars),
-/* harmony export */   "faVest": () => (/* binding */ faVest),
-/* harmony export */   "faVestPatches": () => (/* binding */ faVestPatches),
-/* harmony export */   "faVial": () => (/* binding */ faVial),
-/* harmony export */   "faVials": () => (/* binding */ faVials),
-/* harmony export */   "faVideo": () => (/* binding */ faVideo),
-/* harmony export */   "faVideoSlash": () => (/* binding */ faVideoSlash),
-/* harmony export */   "faVihara": () => (/* binding */ faVihara),
-/* harmony export */   "faVirus": () => (/* binding */ faVirus),
-/* harmony export */   "faVirusSlash": () => (/* binding */ faVirusSlash),
-/* harmony export */   "faViruses": () => (/* binding */ faViruses),
-/* harmony export */   "faVoicemail": () => (/* binding */ faVoicemail),
-/* harmony export */   "faVolleyballBall": () => (/* binding */ faVolleyballBall),
-/* harmony export */   "faVolumeDown": () => (/* binding */ faVolumeDown),
-/* harmony export */   "faVolumeMute": () => (/* binding */ faVolumeMute),
-/* harmony export */   "faVolumeOff": () => (/* binding */ faVolumeOff),
-/* harmony export */   "faVolumeUp": () => (/* binding */ faVolumeUp),
-/* harmony export */   "faVoteYea": () => (/* binding */ faVoteYea),
-/* harmony export */   "faVrCardboard": () => (/* binding */ faVrCardboard),
-/* harmony export */   "faWalking": () => (/* binding */ faWalking),
-/* harmony export */   "faWallet": () => (/* binding */ faWallet),
-/* harmony export */   "faWarehouse": () => (/* binding */ faWarehouse),
-/* harmony export */   "faWater": () => (/* binding */ faWater),
-/* harmony export */   "faWaveSquare": () => (/* binding */ faWaveSquare),
-/* harmony export */   "faWeight": () => (/* binding */ faWeight),
-/* harmony export */   "faWeightHanging": () => (/* binding */ faWeightHanging),
-/* harmony export */   "faWheelchair": () => (/* binding */ faWheelchair),
-/* harmony export */   "faWifi": () => (/* binding */ faWifi),
-/* harmony export */   "faWind": () => (/* binding */ faWind),
-/* harmony export */   "faWindowClose": () => (/* binding */ faWindowClose),
-/* harmony export */   "faWindowMaximize": () => (/* binding */ faWindowMaximize),
-/* harmony export */   "faWindowMinimize": () => (/* binding */ faWindowMinimize),
-/* harmony export */   "faWindowRestore": () => (/* binding */ faWindowRestore),
-/* harmony export */   "faWineBottle": () => (/* binding */ faWineBottle),
-/* harmony export */   "faWineGlass": () => (/* binding */ faWineGlass),
-/* harmony export */   "faWineGlassAlt": () => (/* binding */ faWineGlassAlt),
-/* harmony export */   "faWonSign": () => (/* binding */ faWonSign),
-/* harmony export */   "faWrench": () => (/* binding */ faWrench),
-/* harmony export */   "faXRay": () => (/* binding */ faXRay),
-/* harmony export */   "faYenSign": () => (/* binding */ faYenSign),
-/* harmony export */   "faYinYang": () => (/* binding */ faYinYang),
-/* harmony export */   "fas": () => (/* binding */ _iconsCache),
-/* harmony export */   "prefix": () => (/* binding */ prefix)
+/* harmony export */   faAd: () => (/* binding */ faAd),
+/* harmony export */   faAddressBook: () => (/* binding */ faAddressBook),
+/* harmony export */   faAddressCard: () => (/* binding */ faAddressCard),
+/* harmony export */   faAdjust: () => (/* binding */ faAdjust),
+/* harmony export */   faAirFreshener: () => (/* binding */ faAirFreshener),
+/* harmony export */   faAlignCenter: () => (/* binding */ faAlignCenter),
+/* harmony export */   faAlignJustify: () => (/* binding */ faAlignJustify),
+/* harmony export */   faAlignLeft: () => (/* binding */ faAlignLeft),
+/* harmony export */   faAlignRight: () => (/* binding */ faAlignRight),
+/* harmony export */   faAllergies: () => (/* binding */ faAllergies),
+/* harmony export */   faAmbulance: () => (/* binding */ faAmbulance),
+/* harmony export */   faAmericanSignLanguageInterpreting: () => (/* binding */ faAmericanSignLanguageInterpreting),
+/* harmony export */   faAnchor: () => (/* binding */ faAnchor),
+/* harmony export */   faAngleDoubleDown: () => (/* binding */ faAngleDoubleDown),
+/* harmony export */   faAngleDoubleLeft: () => (/* binding */ faAngleDoubleLeft),
+/* harmony export */   faAngleDoubleRight: () => (/* binding */ faAngleDoubleRight),
+/* harmony export */   faAngleDoubleUp: () => (/* binding */ faAngleDoubleUp),
+/* harmony export */   faAngleDown: () => (/* binding */ faAngleDown),
+/* harmony export */   faAngleLeft: () => (/* binding */ faAngleLeft),
+/* harmony export */   faAngleRight: () => (/* binding */ faAngleRight),
+/* harmony export */   faAngleUp: () => (/* binding */ faAngleUp),
+/* harmony export */   faAngry: () => (/* binding */ faAngry),
+/* harmony export */   faAnkh: () => (/* binding */ faAnkh),
+/* harmony export */   faAppleAlt: () => (/* binding */ faAppleAlt),
+/* harmony export */   faArchive: () => (/* binding */ faArchive),
+/* harmony export */   faArchway: () => (/* binding */ faArchway),
+/* harmony export */   faArrowAltCircleDown: () => (/* binding */ faArrowAltCircleDown),
+/* harmony export */   faArrowAltCircleLeft: () => (/* binding */ faArrowAltCircleLeft),
+/* harmony export */   faArrowAltCircleRight: () => (/* binding */ faArrowAltCircleRight),
+/* harmony export */   faArrowAltCircleUp: () => (/* binding */ faArrowAltCircleUp),
+/* harmony export */   faArrowCircleDown: () => (/* binding */ faArrowCircleDown),
+/* harmony export */   faArrowCircleLeft: () => (/* binding */ faArrowCircleLeft),
+/* harmony export */   faArrowCircleRight: () => (/* binding */ faArrowCircleRight),
+/* harmony export */   faArrowCircleUp: () => (/* binding */ faArrowCircleUp),
+/* harmony export */   faArrowDown: () => (/* binding */ faArrowDown),
+/* harmony export */   faArrowLeft: () => (/* binding */ faArrowLeft),
+/* harmony export */   faArrowRight: () => (/* binding */ faArrowRight),
+/* harmony export */   faArrowUp: () => (/* binding */ faArrowUp),
+/* harmony export */   faArrowsAlt: () => (/* binding */ faArrowsAlt),
+/* harmony export */   faArrowsAltH: () => (/* binding */ faArrowsAltH),
+/* harmony export */   faArrowsAltV: () => (/* binding */ faArrowsAltV),
+/* harmony export */   faAssistiveListeningSystems: () => (/* binding */ faAssistiveListeningSystems),
+/* harmony export */   faAsterisk: () => (/* binding */ faAsterisk),
+/* harmony export */   faAt: () => (/* binding */ faAt),
+/* harmony export */   faAtlas: () => (/* binding */ faAtlas),
+/* harmony export */   faAtom: () => (/* binding */ faAtom),
+/* harmony export */   faAudioDescription: () => (/* binding */ faAudioDescription),
+/* harmony export */   faAward: () => (/* binding */ faAward),
+/* harmony export */   faBaby: () => (/* binding */ faBaby),
+/* harmony export */   faBabyCarriage: () => (/* binding */ faBabyCarriage),
+/* harmony export */   faBackspace: () => (/* binding */ faBackspace),
+/* harmony export */   faBackward: () => (/* binding */ faBackward),
+/* harmony export */   faBacon: () => (/* binding */ faBacon),
+/* harmony export */   faBacteria: () => (/* binding */ faBacteria),
+/* harmony export */   faBacterium: () => (/* binding */ faBacterium),
+/* harmony export */   faBahai: () => (/* binding */ faBahai),
+/* harmony export */   faBalanceScale: () => (/* binding */ faBalanceScale),
+/* harmony export */   faBalanceScaleLeft: () => (/* binding */ faBalanceScaleLeft),
+/* harmony export */   faBalanceScaleRight: () => (/* binding */ faBalanceScaleRight),
+/* harmony export */   faBan: () => (/* binding */ faBan),
+/* harmony export */   faBandAid: () => (/* binding */ faBandAid),
+/* harmony export */   faBarcode: () => (/* binding */ faBarcode),
+/* harmony export */   faBars: () => (/* binding */ faBars),
+/* harmony export */   faBaseballBall: () => (/* binding */ faBaseballBall),
+/* harmony export */   faBasketballBall: () => (/* binding */ faBasketballBall),
+/* harmony export */   faBath: () => (/* binding */ faBath),
+/* harmony export */   faBatteryEmpty: () => (/* binding */ faBatteryEmpty),
+/* harmony export */   faBatteryFull: () => (/* binding */ faBatteryFull),
+/* harmony export */   faBatteryHalf: () => (/* binding */ faBatteryHalf),
+/* harmony export */   faBatteryQuarter: () => (/* binding */ faBatteryQuarter),
+/* harmony export */   faBatteryThreeQuarters: () => (/* binding */ faBatteryThreeQuarters),
+/* harmony export */   faBed: () => (/* binding */ faBed),
+/* harmony export */   faBeer: () => (/* binding */ faBeer),
+/* harmony export */   faBell: () => (/* binding */ faBell),
+/* harmony export */   faBellSlash: () => (/* binding */ faBellSlash),
+/* harmony export */   faBezierCurve: () => (/* binding */ faBezierCurve),
+/* harmony export */   faBible: () => (/* binding */ faBible),
+/* harmony export */   faBicycle: () => (/* binding */ faBicycle),
+/* harmony export */   faBiking: () => (/* binding */ faBiking),
+/* harmony export */   faBinoculars: () => (/* binding */ faBinoculars),
+/* harmony export */   faBiohazard: () => (/* binding */ faBiohazard),
+/* harmony export */   faBirthdayCake: () => (/* binding */ faBirthdayCake),
+/* harmony export */   faBlender: () => (/* binding */ faBlender),
+/* harmony export */   faBlenderPhone: () => (/* binding */ faBlenderPhone),
+/* harmony export */   faBlind: () => (/* binding */ faBlind),
+/* harmony export */   faBlog: () => (/* binding */ faBlog),
+/* harmony export */   faBold: () => (/* binding */ faBold),
+/* harmony export */   faBolt: () => (/* binding */ faBolt),
+/* harmony export */   faBomb: () => (/* binding */ faBomb),
+/* harmony export */   faBone: () => (/* binding */ faBone),
+/* harmony export */   faBong: () => (/* binding */ faBong),
+/* harmony export */   faBook: () => (/* binding */ faBook),
+/* harmony export */   faBookDead: () => (/* binding */ faBookDead),
+/* harmony export */   faBookMedical: () => (/* binding */ faBookMedical),
+/* harmony export */   faBookOpen: () => (/* binding */ faBookOpen),
+/* harmony export */   faBookReader: () => (/* binding */ faBookReader),
+/* harmony export */   faBookmark: () => (/* binding */ faBookmark),
+/* harmony export */   faBorderAll: () => (/* binding */ faBorderAll),
+/* harmony export */   faBorderNone: () => (/* binding */ faBorderNone),
+/* harmony export */   faBorderStyle: () => (/* binding */ faBorderStyle),
+/* harmony export */   faBowlingBall: () => (/* binding */ faBowlingBall),
+/* harmony export */   faBox: () => (/* binding */ faBox),
+/* harmony export */   faBoxOpen: () => (/* binding */ faBoxOpen),
+/* harmony export */   faBoxTissue: () => (/* binding */ faBoxTissue),
+/* harmony export */   faBoxes: () => (/* binding */ faBoxes),
+/* harmony export */   faBraille: () => (/* binding */ faBraille),
+/* harmony export */   faBrain: () => (/* binding */ faBrain),
+/* harmony export */   faBreadSlice: () => (/* binding */ faBreadSlice),
+/* harmony export */   faBriefcase: () => (/* binding */ faBriefcase),
+/* harmony export */   faBriefcaseMedical: () => (/* binding */ faBriefcaseMedical),
+/* harmony export */   faBroadcastTower: () => (/* binding */ faBroadcastTower),
+/* harmony export */   faBroom: () => (/* binding */ faBroom),
+/* harmony export */   faBrush: () => (/* binding */ faBrush),
+/* harmony export */   faBug: () => (/* binding */ faBug),
+/* harmony export */   faBuilding: () => (/* binding */ faBuilding),
+/* harmony export */   faBullhorn: () => (/* binding */ faBullhorn),
+/* harmony export */   faBullseye: () => (/* binding */ faBullseye),
+/* harmony export */   faBurn: () => (/* binding */ faBurn),
+/* harmony export */   faBus: () => (/* binding */ faBus),
+/* harmony export */   faBusAlt: () => (/* binding */ faBusAlt),
+/* harmony export */   faBusinessTime: () => (/* binding */ faBusinessTime),
+/* harmony export */   faCalculator: () => (/* binding */ faCalculator),
+/* harmony export */   faCalendar: () => (/* binding */ faCalendar),
+/* harmony export */   faCalendarAlt: () => (/* binding */ faCalendarAlt),
+/* harmony export */   faCalendarCheck: () => (/* binding */ faCalendarCheck),
+/* harmony export */   faCalendarDay: () => (/* binding */ faCalendarDay),
+/* harmony export */   faCalendarMinus: () => (/* binding */ faCalendarMinus),
+/* harmony export */   faCalendarPlus: () => (/* binding */ faCalendarPlus),
+/* harmony export */   faCalendarTimes: () => (/* binding */ faCalendarTimes),
+/* harmony export */   faCalendarWeek: () => (/* binding */ faCalendarWeek),
+/* harmony export */   faCamera: () => (/* binding */ faCamera),
+/* harmony export */   faCameraRetro: () => (/* binding */ faCameraRetro),
+/* harmony export */   faCampground: () => (/* binding */ faCampground),
+/* harmony export */   faCandyCane: () => (/* binding */ faCandyCane),
+/* harmony export */   faCannabis: () => (/* binding */ faCannabis),
+/* harmony export */   faCapsules: () => (/* binding */ faCapsules),
+/* harmony export */   faCar: () => (/* binding */ faCar),
+/* harmony export */   faCarAlt: () => (/* binding */ faCarAlt),
+/* harmony export */   faCarBattery: () => (/* binding */ faCarBattery),
+/* harmony export */   faCarCrash: () => (/* binding */ faCarCrash),
+/* harmony export */   faCarSide: () => (/* binding */ faCarSide),
+/* harmony export */   faCaravan: () => (/* binding */ faCaravan),
+/* harmony export */   faCaretDown: () => (/* binding */ faCaretDown),
+/* harmony export */   faCaretLeft: () => (/* binding */ faCaretLeft),
+/* harmony export */   faCaretRight: () => (/* binding */ faCaretRight),
+/* harmony export */   faCaretSquareDown: () => (/* binding */ faCaretSquareDown),
+/* harmony export */   faCaretSquareLeft: () => (/* binding */ faCaretSquareLeft),
+/* harmony export */   faCaretSquareRight: () => (/* binding */ faCaretSquareRight),
+/* harmony export */   faCaretSquareUp: () => (/* binding */ faCaretSquareUp),
+/* harmony export */   faCaretUp: () => (/* binding */ faCaretUp),
+/* harmony export */   faCarrot: () => (/* binding */ faCarrot),
+/* harmony export */   faCartArrowDown: () => (/* binding */ faCartArrowDown),
+/* harmony export */   faCartPlus: () => (/* binding */ faCartPlus),
+/* harmony export */   faCashRegister: () => (/* binding */ faCashRegister),
+/* harmony export */   faCat: () => (/* binding */ faCat),
+/* harmony export */   faCertificate: () => (/* binding */ faCertificate),
+/* harmony export */   faChair: () => (/* binding */ faChair),
+/* harmony export */   faChalkboard: () => (/* binding */ faChalkboard),
+/* harmony export */   faChalkboardTeacher: () => (/* binding */ faChalkboardTeacher),
+/* harmony export */   faChargingStation: () => (/* binding */ faChargingStation),
+/* harmony export */   faChartArea: () => (/* binding */ faChartArea),
+/* harmony export */   faChartBar: () => (/* binding */ faChartBar),
+/* harmony export */   faChartLine: () => (/* binding */ faChartLine),
+/* harmony export */   faChartPie: () => (/* binding */ faChartPie),
+/* harmony export */   faCheck: () => (/* binding */ faCheck),
+/* harmony export */   faCheckCircle: () => (/* binding */ faCheckCircle),
+/* harmony export */   faCheckDouble: () => (/* binding */ faCheckDouble),
+/* harmony export */   faCheckSquare: () => (/* binding */ faCheckSquare),
+/* harmony export */   faCheese: () => (/* binding */ faCheese),
+/* harmony export */   faChess: () => (/* binding */ faChess),
+/* harmony export */   faChessBishop: () => (/* binding */ faChessBishop),
+/* harmony export */   faChessBoard: () => (/* binding */ faChessBoard),
+/* harmony export */   faChessKing: () => (/* binding */ faChessKing),
+/* harmony export */   faChessKnight: () => (/* binding */ faChessKnight),
+/* harmony export */   faChessPawn: () => (/* binding */ faChessPawn),
+/* harmony export */   faChessQueen: () => (/* binding */ faChessQueen),
+/* harmony export */   faChessRook: () => (/* binding */ faChessRook),
+/* harmony export */   faChevronCircleDown: () => (/* binding */ faChevronCircleDown),
+/* harmony export */   faChevronCircleLeft: () => (/* binding */ faChevronCircleLeft),
+/* harmony export */   faChevronCircleRight: () => (/* binding */ faChevronCircleRight),
+/* harmony export */   faChevronCircleUp: () => (/* binding */ faChevronCircleUp),
+/* harmony export */   faChevronDown: () => (/* binding */ faChevronDown),
+/* harmony export */   faChevronLeft: () => (/* binding */ faChevronLeft),
+/* harmony export */   faChevronRight: () => (/* binding */ faChevronRight),
+/* harmony export */   faChevronUp: () => (/* binding */ faChevronUp),
+/* harmony export */   faChild: () => (/* binding */ faChild),
+/* harmony export */   faChurch: () => (/* binding */ faChurch),
+/* harmony export */   faCircle: () => (/* binding */ faCircle),
+/* harmony export */   faCircleNotch: () => (/* binding */ faCircleNotch),
+/* harmony export */   faCity: () => (/* binding */ faCity),
+/* harmony export */   faClinicMedical: () => (/* binding */ faClinicMedical),
+/* harmony export */   faClipboard: () => (/* binding */ faClipboard),
+/* harmony export */   faClipboardCheck: () => (/* binding */ faClipboardCheck),
+/* harmony export */   faClipboardList: () => (/* binding */ faClipboardList),
+/* harmony export */   faClock: () => (/* binding */ faClock),
+/* harmony export */   faClone: () => (/* binding */ faClone),
+/* harmony export */   faClosedCaptioning: () => (/* binding */ faClosedCaptioning),
+/* harmony export */   faCloud: () => (/* binding */ faCloud),
+/* harmony export */   faCloudDownloadAlt: () => (/* binding */ faCloudDownloadAlt),
+/* harmony export */   faCloudMeatball: () => (/* binding */ faCloudMeatball),
+/* harmony export */   faCloudMoon: () => (/* binding */ faCloudMoon),
+/* harmony export */   faCloudMoonRain: () => (/* binding */ faCloudMoonRain),
+/* harmony export */   faCloudRain: () => (/* binding */ faCloudRain),
+/* harmony export */   faCloudShowersHeavy: () => (/* binding */ faCloudShowersHeavy),
+/* harmony export */   faCloudSun: () => (/* binding */ faCloudSun),
+/* harmony export */   faCloudSunRain: () => (/* binding */ faCloudSunRain),
+/* harmony export */   faCloudUploadAlt: () => (/* binding */ faCloudUploadAlt),
+/* harmony export */   faCocktail: () => (/* binding */ faCocktail),
+/* harmony export */   faCode: () => (/* binding */ faCode),
+/* harmony export */   faCodeBranch: () => (/* binding */ faCodeBranch),
+/* harmony export */   faCoffee: () => (/* binding */ faCoffee),
+/* harmony export */   faCog: () => (/* binding */ faCog),
+/* harmony export */   faCogs: () => (/* binding */ faCogs),
+/* harmony export */   faCoins: () => (/* binding */ faCoins),
+/* harmony export */   faColumns: () => (/* binding */ faColumns),
+/* harmony export */   faComment: () => (/* binding */ faComment),
+/* harmony export */   faCommentAlt: () => (/* binding */ faCommentAlt),
+/* harmony export */   faCommentDollar: () => (/* binding */ faCommentDollar),
+/* harmony export */   faCommentDots: () => (/* binding */ faCommentDots),
+/* harmony export */   faCommentMedical: () => (/* binding */ faCommentMedical),
+/* harmony export */   faCommentSlash: () => (/* binding */ faCommentSlash),
+/* harmony export */   faComments: () => (/* binding */ faComments),
+/* harmony export */   faCommentsDollar: () => (/* binding */ faCommentsDollar),
+/* harmony export */   faCompactDisc: () => (/* binding */ faCompactDisc),
+/* harmony export */   faCompass: () => (/* binding */ faCompass),
+/* harmony export */   faCompress: () => (/* binding */ faCompress),
+/* harmony export */   faCompressAlt: () => (/* binding */ faCompressAlt),
+/* harmony export */   faCompressArrowsAlt: () => (/* binding */ faCompressArrowsAlt),
+/* harmony export */   faConciergeBell: () => (/* binding */ faConciergeBell),
+/* harmony export */   faCookie: () => (/* binding */ faCookie),
+/* harmony export */   faCookieBite: () => (/* binding */ faCookieBite),
+/* harmony export */   faCopy: () => (/* binding */ faCopy),
+/* harmony export */   faCopyright: () => (/* binding */ faCopyright),
+/* harmony export */   faCouch: () => (/* binding */ faCouch),
+/* harmony export */   faCreditCard: () => (/* binding */ faCreditCard),
+/* harmony export */   faCrop: () => (/* binding */ faCrop),
+/* harmony export */   faCropAlt: () => (/* binding */ faCropAlt),
+/* harmony export */   faCross: () => (/* binding */ faCross),
+/* harmony export */   faCrosshairs: () => (/* binding */ faCrosshairs),
+/* harmony export */   faCrow: () => (/* binding */ faCrow),
+/* harmony export */   faCrown: () => (/* binding */ faCrown),
+/* harmony export */   faCrutch: () => (/* binding */ faCrutch),
+/* harmony export */   faCube: () => (/* binding */ faCube),
+/* harmony export */   faCubes: () => (/* binding */ faCubes),
+/* harmony export */   faCut: () => (/* binding */ faCut),
+/* harmony export */   faDatabase: () => (/* binding */ faDatabase),
+/* harmony export */   faDeaf: () => (/* binding */ faDeaf),
+/* harmony export */   faDemocrat: () => (/* binding */ faDemocrat),
+/* harmony export */   faDesktop: () => (/* binding */ faDesktop),
+/* harmony export */   faDharmachakra: () => (/* binding */ faDharmachakra),
+/* harmony export */   faDiagnoses: () => (/* binding */ faDiagnoses),
+/* harmony export */   faDice: () => (/* binding */ faDice),
+/* harmony export */   faDiceD20: () => (/* binding */ faDiceD20),
+/* harmony export */   faDiceD6: () => (/* binding */ faDiceD6),
+/* harmony export */   faDiceFive: () => (/* binding */ faDiceFive),
+/* harmony export */   faDiceFour: () => (/* binding */ faDiceFour),
+/* harmony export */   faDiceOne: () => (/* binding */ faDiceOne),
+/* harmony export */   faDiceSix: () => (/* binding */ faDiceSix),
+/* harmony export */   faDiceThree: () => (/* binding */ faDiceThree),
+/* harmony export */   faDiceTwo: () => (/* binding */ faDiceTwo),
+/* harmony export */   faDigitalTachograph: () => (/* binding */ faDigitalTachograph),
+/* harmony export */   faDirections: () => (/* binding */ faDirections),
+/* harmony export */   faDisease: () => (/* binding */ faDisease),
+/* harmony export */   faDivide: () => (/* binding */ faDivide),
+/* harmony export */   faDizzy: () => (/* binding */ faDizzy),
+/* harmony export */   faDna: () => (/* binding */ faDna),
+/* harmony export */   faDog: () => (/* binding */ faDog),
+/* harmony export */   faDollarSign: () => (/* binding */ faDollarSign),
+/* harmony export */   faDolly: () => (/* binding */ faDolly),
+/* harmony export */   faDollyFlatbed: () => (/* binding */ faDollyFlatbed),
+/* harmony export */   faDonate: () => (/* binding */ faDonate),
+/* harmony export */   faDoorClosed: () => (/* binding */ faDoorClosed),
+/* harmony export */   faDoorOpen: () => (/* binding */ faDoorOpen),
+/* harmony export */   faDotCircle: () => (/* binding */ faDotCircle),
+/* harmony export */   faDove: () => (/* binding */ faDove),
+/* harmony export */   faDownload: () => (/* binding */ faDownload),
+/* harmony export */   faDraftingCompass: () => (/* binding */ faDraftingCompass),
+/* harmony export */   faDragon: () => (/* binding */ faDragon),
+/* harmony export */   faDrawPolygon: () => (/* binding */ faDrawPolygon),
+/* harmony export */   faDrum: () => (/* binding */ faDrum),
+/* harmony export */   faDrumSteelpan: () => (/* binding */ faDrumSteelpan),
+/* harmony export */   faDrumstickBite: () => (/* binding */ faDrumstickBite),
+/* harmony export */   faDumbbell: () => (/* binding */ faDumbbell),
+/* harmony export */   faDumpster: () => (/* binding */ faDumpster),
+/* harmony export */   faDumpsterFire: () => (/* binding */ faDumpsterFire),
+/* harmony export */   faDungeon: () => (/* binding */ faDungeon),
+/* harmony export */   faEdit: () => (/* binding */ faEdit),
+/* harmony export */   faEgg: () => (/* binding */ faEgg),
+/* harmony export */   faEject: () => (/* binding */ faEject),
+/* harmony export */   faEllipsisH: () => (/* binding */ faEllipsisH),
+/* harmony export */   faEllipsisV: () => (/* binding */ faEllipsisV),
+/* harmony export */   faEnvelope: () => (/* binding */ faEnvelope),
+/* harmony export */   faEnvelopeOpen: () => (/* binding */ faEnvelopeOpen),
+/* harmony export */   faEnvelopeOpenText: () => (/* binding */ faEnvelopeOpenText),
+/* harmony export */   faEnvelopeSquare: () => (/* binding */ faEnvelopeSquare),
+/* harmony export */   faEquals: () => (/* binding */ faEquals),
+/* harmony export */   faEraser: () => (/* binding */ faEraser),
+/* harmony export */   faEthernet: () => (/* binding */ faEthernet),
+/* harmony export */   faEuroSign: () => (/* binding */ faEuroSign),
+/* harmony export */   faExchangeAlt: () => (/* binding */ faExchangeAlt),
+/* harmony export */   faExclamation: () => (/* binding */ faExclamation),
+/* harmony export */   faExclamationCircle: () => (/* binding */ faExclamationCircle),
+/* harmony export */   faExclamationTriangle: () => (/* binding */ faExclamationTriangle),
+/* harmony export */   faExpand: () => (/* binding */ faExpand),
+/* harmony export */   faExpandAlt: () => (/* binding */ faExpandAlt),
+/* harmony export */   faExpandArrowsAlt: () => (/* binding */ faExpandArrowsAlt),
+/* harmony export */   faExternalLinkAlt: () => (/* binding */ faExternalLinkAlt),
+/* harmony export */   faExternalLinkSquareAlt: () => (/* binding */ faExternalLinkSquareAlt),
+/* harmony export */   faEye: () => (/* binding */ faEye),
+/* harmony export */   faEyeDropper: () => (/* binding */ faEyeDropper),
+/* harmony export */   faEyeSlash: () => (/* binding */ faEyeSlash),
+/* harmony export */   faFan: () => (/* binding */ faFan),
+/* harmony export */   faFastBackward: () => (/* binding */ faFastBackward),
+/* harmony export */   faFastForward: () => (/* binding */ faFastForward),
+/* harmony export */   faFaucet: () => (/* binding */ faFaucet),
+/* harmony export */   faFax: () => (/* binding */ faFax),
+/* harmony export */   faFeather: () => (/* binding */ faFeather),
+/* harmony export */   faFeatherAlt: () => (/* binding */ faFeatherAlt),
+/* harmony export */   faFemale: () => (/* binding */ faFemale),
+/* harmony export */   faFighterJet: () => (/* binding */ faFighterJet),
+/* harmony export */   faFile: () => (/* binding */ faFile),
+/* harmony export */   faFileAlt: () => (/* binding */ faFileAlt),
+/* harmony export */   faFileArchive: () => (/* binding */ faFileArchive),
+/* harmony export */   faFileAudio: () => (/* binding */ faFileAudio),
+/* harmony export */   faFileCode: () => (/* binding */ faFileCode),
+/* harmony export */   faFileContract: () => (/* binding */ faFileContract),
+/* harmony export */   faFileCsv: () => (/* binding */ faFileCsv),
+/* harmony export */   faFileDownload: () => (/* binding */ faFileDownload),
+/* harmony export */   faFileExcel: () => (/* binding */ faFileExcel),
+/* harmony export */   faFileExport: () => (/* binding */ faFileExport),
+/* harmony export */   faFileImage: () => (/* binding */ faFileImage),
+/* harmony export */   faFileImport: () => (/* binding */ faFileImport),
+/* harmony export */   faFileInvoice: () => (/* binding */ faFileInvoice),
+/* harmony export */   faFileInvoiceDollar: () => (/* binding */ faFileInvoiceDollar),
+/* harmony export */   faFileMedical: () => (/* binding */ faFileMedical),
+/* harmony export */   faFileMedicalAlt: () => (/* binding */ faFileMedicalAlt),
+/* harmony export */   faFilePdf: () => (/* binding */ faFilePdf),
+/* harmony export */   faFilePowerpoint: () => (/* binding */ faFilePowerpoint),
+/* harmony export */   faFilePrescription: () => (/* binding */ faFilePrescription),
+/* harmony export */   faFileSignature: () => (/* binding */ faFileSignature),
+/* harmony export */   faFileUpload: () => (/* binding */ faFileUpload),
+/* harmony export */   faFileVideo: () => (/* binding */ faFileVideo),
+/* harmony export */   faFileWord: () => (/* binding */ faFileWord),
+/* harmony export */   faFill: () => (/* binding */ faFill),
+/* harmony export */   faFillDrip: () => (/* binding */ faFillDrip),
+/* harmony export */   faFilm: () => (/* binding */ faFilm),
+/* harmony export */   faFilter: () => (/* binding */ faFilter),
+/* harmony export */   faFingerprint: () => (/* binding */ faFingerprint),
+/* harmony export */   faFire: () => (/* binding */ faFire),
+/* harmony export */   faFireAlt: () => (/* binding */ faFireAlt),
+/* harmony export */   faFireExtinguisher: () => (/* binding */ faFireExtinguisher),
+/* harmony export */   faFirstAid: () => (/* binding */ faFirstAid),
+/* harmony export */   faFish: () => (/* binding */ faFish),
+/* harmony export */   faFistRaised: () => (/* binding */ faFistRaised),
+/* harmony export */   faFlag: () => (/* binding */ faFlag),
+/* harmony export */   faFlagCheckered: () => (/* binding */ faFlagCheckered),
+/* harmony export */   faFlagUsa: () => (/* binding */ faFlagUsa),
+/* harmony export */   faFlask: () => (/* binding */ faFlask),
+/* harmony export */   faFlushed: () => (/* binding */ faFlushed),
+/* harmony export */   faFolder: () => (/* binding */ faFolder),
+/* harmony export */   faFolderMinus: () => (/* binding */ faFolderMinus),
+/* harmony export */   faFolderOpen: () => (/* binding */ faFolderOpen),
+/* harmony export */   faFolderPlus: () => (/* binding */ faFolderPlus),
+/* harmony export */   faFont: () => (/* binding */ faFont),
+/* harmony export */   faFontAwesomeLogoFull: () => (/* binding */ faFontAwesomeLogoFull),
+/* harmony export */   faFootballBall: () => (/* binding */ faFootballBall),
+/* harmony export */   faForward: () => (/* binding */ faForward),
+/* harmony export */   faFrog: () => (/* binding */ faFrog),
+/* harmony export */   faFrown: () => (/* binding */ faFrown),
+/* harmony export */   faFrownOpen: () => (/* binding */ faFrownOpen),
+/* harmony export */   faFunnelDollar: () => (/* binding */ faFunnelDollar),
+/* harmony export */   faFutbol: () => (/* binding */ faFutbol),
+/* harmony export */   faGamepad: () => (/* binding */ faGamepad),
+/* harmony export */   faGasPump: () => (/* binding */ faGasPump),
+/* harmony export */   faGavel: () => (/* binding */ faGavel),
+/* harmony export */   faGem: () => (/* binding */ faGem),
+/* harmony export */   faGenderless: () => (/* binding */ faGenderless),
+/* harmony export */   faGhost: () => (/* binding */ faGhost),
+/* harmony export */   faGift: () => (/* binding */ faGift),
+/* harmony export */   faGifts: () => (/* binding */ faGifts),
+/* harmony export */   faGlassCheers: () => (/* binding */ faGlassCheers),
+/* harmony export */   faGlassMartini: () => (/* binding */ faGlassMartini),
+/* harmony export */   faGlassMartiniAlt: () => (/* binding */ faGlassMartiniAlt),
+/* harmony export */   faGlassWhiskey: () => (/* binding */ faGlassWhiskey),
+/* harmony export */   faGlasses: () => (/* binding */ faGlasses),
+/* harmony export */   faGlobe: () => (/* binding */ faGlobe),
+/* harmony export */   faGlobeAfrica: () => (/* binding */ faGlobeAfrica),
+/* harmony export */   faGlobeAmericas: () => (/* binding */ faGlobeAmericas),
+/* harmony export */   faGlobeAsia: () => (/* binding */ faGlobeAsia),
+/* harmony export */   faGlobeEurope: () => (/* binding */ faGlobeEurope),
+/* harmony export */   faGolfBall: () => (/* binding */ faGolfBall),
+/* harmony export */   faGopuram: () => (/* binding */ faGopuram),
+/* harmony export */   faGraduationCap: () => (/* binding */ faGraduationCap),
+/* harmony export */   faGreaterThan: () => (/* binding */ faGreaterThan),
+/* harmony export */   faGreaterThanEqual: () => (/* binding */ faGreaterThanEqual),
+/* harmony export */   faGrimace: () => (/* binding */ faGrimace),
+/* harmony export */   faGrin: () => (/* binding */ faGrin),
+/* harmony export */   faGrinAlt: () => (/* binding */ faGrinAlt),
+/* harmony export */   faGrinBeam: () => (/* binding */ faGrinBeam),
+/* harmony export */   faGrinBeamSweat: () => (/* binding */ faGrinBeamSweat),
+/* harmony export */   faGrinHearts: () => (/* binding */ faGrinHearts),
+/* harmony export */   faGrinSquint: () => (/* binding */ faGrinSquint),
+/* harmony export */   faGrinSquintTears: () => (/* binding */ faGrinSquintTears),
+/* harmony export */   faGrinStars: () => (/* binding */ faGrinStars),
+/* harmony export */   faGrinTears: () => (/* binding */ faGrinTears),
+/* harmony export */   faGrinTongue: () => (/* binding */ faGrinTongue),
+/* harmony export */   faGrinTongueSquint: () => (/* binding */ faGrinTongueSquint),
+/* harmony export */   faGrinTongueWink: () => (/* binding */ faGrinTongueWink),
+/* harmony export */   faGrinWink: () => (/* binding */ faGrinWink),
+/* harmony export */   faGripHorizontal: () => (/* binding */ faGripHorizontal),
+/* harmony export */   faGripLines: () => (/* binding */ faGripLines),
+/* harmony export */   faGripLinesVertical: () => (/* binding */ faGripLinesVertical),
+/* harmony export */   faGripVertical: () => (/* binding */ faGripVertical),
+/* harmony export */   faGuitar: () => (/* binding */ faGuitar),
+/* harmony export */   faHSquare: () => (/* binding */ faHSquare),
+/* harmony export */   faHamburger: () => (/* binding */ faHamburger),
+/* harmony export */   faHammer: () => (/* binding */ faHammer),
+/* harmony export */   faHamsa: () => (/* binding */ faHamsa),
+/* harmony export */   faHandHolding: () => (/* binding */ faHandHolding),
+/* harmony export */   faHandHoldingHeart: () => (/* binding */ faHandHoldingHeart),
+/* harmony export */   faHandHoldingMedical: () => (/* binding */ faHandHoldingMedical),
+/* harmony export */   faHandHoldingUsd: () => (/* binding */ faHandHoldingUsd),
+/* harmony export */   faHandHoldingWater: () => (/* binding */ faHandHoldingWater),
+/* harmony export */   faHandLizard: () => (/* binding */ faHandLizard),
+/* harmony export */   faHandMiddleFinger: () => (/* binding */ faHandMiddleFinger),
+/* harmony export */   faHandPaper: () => (/* binding */ faHandPaper),
+/* harmony export */   faHandPeace: () => (/* binding */ faHandPeace),
+/* harmony export */   faHandPointDown: () => (/* binding */ faHandPointDown),
+/* harmony export */   faHandPointLeft: () => (/* binding */ faHandPointLeft),
+/* harmony export */   faHandPointRight: () => (/* binding */ faHandPointRight),
+/* harmony export */   faHandPointUp: () => (/* binding */ faHandPointUp),
+/* harmony export */   faHandPointer: () => (/* binding */ faHandPointer),
+/* harmony export */   faHandRock: () => (/* binding */ faHandRock),
+/* harmony export */   faHandScissors: () => (/* binding */ faHandScissors),
+/* harmony export */   faHandSparkles: () => (/* binding */ faHandSparkles),
+/* harmony export */   faHandSpock: () => (/* binding */ faHandSpock),
+/* harmony export */   faHands: () => (/* binding */ faHands),
+/* harmony export */   faHandsHelping: () => (/* binding */ faHandsHelping),
+/* harmony export */   faHandsWash: () => (/* binding */ faHandsWash),
+/* harmony export */   faHandshake: () => (/* binding */ faHandshake),
+/* harmony export */   faHandshakeAltSlash: () => (/* binding */ faHandshakeAltSlash),
+/* harmony export */   faHandshakeSlash: () => (/* binding */ faHandshakeSlash),
+/* harmony export */   faHanukiah: () => (/* binding */ faHanukiah),
+/* harmony export */   faHardHat: () => (/* binding */ faHardHat),
+/* harmony export */   faHashtag: () => (/* binding */ faHashtag),
+/* harmony export */   faHatCowboy: () => (/* binding */ faHatCowboy),
+/* harmony export */   faHatCowboySide: () => (/* binding */ faHatCowboySide),
+/* harmony export */   faHatWizard: () => (/* binding */ faHatWizard),
+/* harmony export */   faHdd: () => (/* binding */ faHdd),
+/* harmony export */   faHeadSideCough: () => (/* binding */ faHeadSideCough),
+/* harmony export */   faHeadSideCoughSlash: () => (/* binding */ faHeadSideCoughSlash),
+/* harmony export */   faHeadSideMask: () => (/* binding */ faHeadSideMask),
+/* harmony export */   faHeadSideVirus: () => (/* binding */ faHeadSideVirus),
+/* harmony export */   faHeading: () => (/* binding */ faHeading),
+/* harmony export */   faHeadphones: () => (/* binding */ faHeadphones),
+/* harmony export */   faHeadphonesAlt: () => (/* binding */ faHeadphonesAlt),
+/* harmony export */   faHeadset: () => (/* binding */ faHeadset),
+/* harmony export */   faHeart: () => (/* binding */ faHeart),
+/* harmony export */   faHeartBroken: () => (/* binding */ faHeartBroken),
+/* harmony export */   faHeartbeat: () => (/* binding */ faHeartbeat),
+/* harmony export */   faHelicopter: () => (/* binding */ faHelicopter),
+/* harmony export */   faHighlighter: () => (/* binding */ faHighlighter),
+/* harmony export */   faHiking: () => (/* binding */ faHiking),
+/* harmony export */   faHippo: () => (/* binding */ faHippo),
+/* harmony export */   faHistory: () => (/* binding */ faHistory),
+/* harmony export */   faHockeyPuck: () => (/* binding */ faHockeyPuck),
+/* harmony export */   faHollyBerry: () => (/* binding */ faHollyBerry),
+/* harmony export */   faHome: () => (/* binding */ faHome),
+/* harmony export */   faHorse: () => (/* binding */ faHorse),
+/* harmony export */   faHorseHead: () => (/* binding */ faHorseHead),
+/* harmony export */   faHospital: () => (/* binding */ faHospital),
+/* harmony export */   faHospitalAlt: () => (/* binding */ faHospitalAlt),
+/* harmony export */   faHospitalSymbol: () => (/* binding */ faHospitalSymbol),
+/* harmony export */   faHospitalUser: () => (/* binding */ faHospitalUser),
+/* harmony export */   faHotTub: () => (/* binding */ faHotTub),
+/* harmony export */   faHotdog: () => (/* binding */ faHotdog),
+/* harmony export */   faHotel: () => (/* binding */ faHotel),
+/* harmony export */   faHourglass: () => (/* binding */ faHourglass),
+/* harmony export */   faHourglassEnd: () => (/* binding */ faHourglassEnd),
+/* harmony export */   faHourglassHalf: () => (/* binding */ faHourglassHalf),
+/* harmony export */   faHourglassStart: () => (/* binding */ faHourglassStart),
+/* harmony export */   faHouseDamage: () => (/* binding */ faHouseDamage),
+/* harmony export */   faHouseUser: () => (/* binding */ faHouseUser),
+/* harmony export */   faHryvnia: () => (/* binding */ faHryvnia),
+/* harmony export */   faICursor: () => (/* binding */ faICursor),
+/* harmony export */   faIceCream: () => (/* binding */ faIceCream),
+/* harmony export */   faIcicles: () => (/* binding */ faIcicles),
+/* harmony export */   faIcons: () => (/* binding */ faIcons),
+/* harmony export */   faIdBadge: () => (/* binding */ faIdBadge),
+/* harmony export */   faIdCard: () => (/* binding */ faIdCard),
+/* harmony export */   faIdCardAlt: () => (/* binding */ faIdCardAlt),
+/* harmony export */   faIgloo: () => (/* binding */ faIgloo),
+/* harmony export */   faImage: () => (/* binding */ faImage),
+/* harmony export */   faImages: () => (/* binding */ faImages),
+/* harmony export */   faInbox: () => (/* binding */ faInbox),
+/* harmony export */   faIndent: () => (/* binding */ faIndent),
+/* harmony export */   faIndustry: () => (/* binding */ faIndustry),
+/* harmony export */   faInfinity: () => (/* binding */ faInfinity),
+/* harmony export */   faInfo: () => (/* binding */ faInfo),
+/* harmony export */   faInfoCircle: () => (/* binding */ faInfoCircle),
+/* harmony export */   faItalic: () => (/* binding */ faItalic),
+/* harmony export */   faJedi: () => (/* binding */ faJedi),
+/* harmony export */   faJoint: () => (/* binding */ faJoint),
+/* harmony export */   faJournalWhills: () => (/* binding */ faJournalWhills),
+/* harmony export */   faKaaba: () => (/* binding */ faKaaba),
+/* harmony export */   faKey: () => (/* binding */ faKey),
+/* harmony export */   faKeyboard: () => (/* binding */ faKeyboard),
+/* harmony export */   faKhanda: () => (/* binding */ faKhanda),
+/* harmony export */   faKiss: () => (/* binding */ faKiss),
+/* harmony export */   faKissBeam: () => (/* binding */ faKissBeam),
+/* harmony export */   faKissWinkHeart: () => (/* binding */ faKissWinkHeart),
+/* harmony export */   faKiwiBird: () => (/* binding */ faKiwiBird),
+/* harmony export */   faLandmark: () => (/* binding */ faLandmark),
+/* harmony export */   faLanguage: () => (/* binding */ faLanguage),
+/* harmony export */   faLaptop: () => (/* binding */ faLaptop),
+/* harmony export */   faLaptopCode: () => (/* binding */ faLaptopCode),
+/* harmony export */   faLaptopHouse: () => (/* binding */ faLaptopHouse),
+/* harmony export */   faLaptopMedical: () => (/* binding */ faLaptopMedical),
+/* harmony export */   faLaugh: () => (/* binding */ faLaugh),
+/* harmony export */   faLaughBeam: () => (/* binding */ faLaughBeam),
+/* harmony export */   faLaughSquint: () => (/* binding */ faLaughSquint),
+/* harmony export */   faLaughWink: () => (/* binding */ faLaughWink),
+/* harmony export */   faLayerGroup: () => (/* binding */ faLayerGroup),
+/* harmony export */   faLeaf: () => (/* binding */ faLeaf),
+/* harmony export */   faLemon: () => (/* binding */ faLemon),
+/* harmony export */   faLessThan: () => (/* binding */ faLessThan),
+/* harmony export */   faLessThanEqual: () => (/* binding */ faLessThanEqual),
+/* harmony export */   faLevelDownAlt: () => (/* binding */ faLevelDownAlt),
+/* harmony export */   faLevelUpAlt: () => (/* binding */ faLevelUpAlt),
+/* harmony export */   faLifeRing: () => (/* binding */ faLifeRing),
+/* harmony export */   faLightbulb: () => (/* binding */ faLightbulb),
+/* harmony export */   faLink: () => (/* binding */ faLink),
+/* harmony export */   faLiraSign: () => (/* binding */ faLiraSign),
+/* harmony export */   faList: () => (/* binding */ faList),
+/* harmony export */   faListAlt: () => (/* binding */ faListAlt),
+/* harmony export */   faListOl: () => (/* binding */ faListOl),
+/* harmony export */   faListUl: () => (/* binding */ faListUl),
+/* harmony export */   faLocationArrow: () => (/* binding */ faLocationArrow),
+/* harmony export */   faLock: () => (/* binding */ faLock),
+/* harmony export */   faLockOpen: () => (/* binding */ faLockOpen),
+/* harmony export */   faLongArrowAltDown: () => (/* binding */ faLongArrowAltDown),
+/* harmony export */   faLongArrowAltLeft: () => (/* binding */ faLongArrowAltLeft),
+/* harmony export */   faLongArrowAltRight: () => (/* binding */ faLongArrowAltRight),
+/* harmony export */   faLongArrowAltUp: () => (/* binding */ faLongArrowAltUp),
+/* harmony export */   faLowVision: () => (/* binding */ faLowVision),
+/* harmony export */   faLuggageCart: () => (/* binding */ faLuggageCart),
+/* harmony export */   faLungs: () => (/* binding */ faLungs),
+/* harmony export */   faLungsVirus: () => (/* binding */ faLungsVirus),
+/* harmony export */   faMagic: () => (/* binding */ faMagic),
+/* harmony export */   faMagnet: () => (/* binding */ faMagnet),
+/* harmony export */   faMailBulk: () => (/* binding */ faMailBulk),
+/* harmony export */   faMale: () => (/* binding */ faMale),
+/* harmony export */   faMap: () => (/* binding */ faMap),
+/* harmony export */   faMapMarked: () => (/* binding */ faMapMarked),
+/* harmony export */   faMapMarkedAlt: () => (/* binding */ faMapMarkedAlt),
+/* harmony export */   faMapMarker: () => (/* binding */ faMapMarker),
+/* harmony export */   faMapMarkerAlt: () => (/* binding */ faMapMarkerAlt),
+/* harmony export */   faMapPin: () => (/* binding */ faMapPin),
+/* harmony export */   faMapSigns: () => (/* binding */ faMapSigns),
+/* harmony export */   faMarker: () => (/* binding */ faMarker),
+/* harmony export */   faMars: () => (/* binding */ faMars),
+/* harmony export */   faMarsDouble: () => (/* binding */ faMarsDouble),
+/* harmony export */   faMarsStroke: () => (/* binding */ faMarsStroke),
+/* harmony export */   faMarsStrokeH: () => (/* binding */ faMarsStrokeH),
+/* harmony export */   faMarsStrokeV: () => (/* binding */ faMarsStrokeV),
+/* harmony export */   faMask: () => (/* binding */ faMask),
+/* harmony export */   faMedal: () => (/* binding */ faMedal),
+/* harmony export */   faMedkit: () => (/* binding */ faMedkit),
+/* harmony export */   faMeh: () => (/* binding */ faMeh),
+/* harmony export */   faMehBlank: () => (/* binding */ faMehBlank),
+/* harmony export */   faMehRollingEyes: () => (/* binding */ faMehRollingEyes),
+/* harmony export */   faMemory: () => (/* binding */ faMemory),
+/* harmony export */   faMenorah: () => (/* binding */ faMenorah),
+/* harmony export */   faMercury: () => (/* binding */ faMercury),
+/* harmony export */   faMeteor: () => (/* binding */ faMeteor),
+/* harmony export */   faMicrochip: () => (/* binding */ faMicrochip),
+/* harmony export */   faMicrophone: () => (/* binding */ faMicrophone),
+/* harmony export */   faMicrophoneAlt: () => (/* binding */ faMicrophoneAlt),
+/* harmony export */   faMicrophoneAltSlash: () => (/* binding */ faMicrophoneAltSlash),
+/* harmony export */   faMicrophoneSlash: () => (/* binding */ faMicrophoneSlash),
+/* harmony export */   faMicroscope: () => (/* binding */ faMicroscope),
+/* harmony export */   faMinus: () => (/* binding */ faMinus),
+/* harmony export */   faMinusCircle: () => (/* binding */ faMinusCircle),
+/* harmony export */   faMinusSquare: () => (/* binding */ faMinusSquare),
+/* harmony export */   faMitten: () => (/* binding */ faMitten),
+/* harmony export */   faMobile: () => (/* binding */ faMobile),
+/* harmony export */   faMobileAlt: () => (/* binding */ faMobileAlt),
+/* harmony export */   faMoneyBill: () => (/* binding */ faMoneyBill),
+/* harmony export */   faMoneyBillAlt: () => (/* binding */ faMoneyBillAlt),
+/* harmony export */   faMoneyBillWave: () => (/* binding */ faMoneyBillWave),
+/* harmony export */   faMoneyBillWaveAlt: () => (/* binding */ faMoneyBillWaveAlt),
+/* harmony export */   faMoneyCheck: () => (/* binding */ faMoneyCheck),
+/* harmony export */   faMoneyCheckAlt: () => (/* binding */ faMoneyCheckAlt),
+/* harmony export */   faMonument: () => (/* binding */ faMonument),
+/* harmony export */   faMoon: () => (/* binding */ faMoon),
+/* harmony export */   faMortarPestle: () => (/* binding */ faMortarPestle),
+/* harmony export */   faMosque: () => (/* binding */ faMosque),
+/* harmony export */   faMotorcycle: () => (/* binding */ faMotorcycle),
+/* harmony export */   faMountain: () => (/* binding */ faMountain),
+/* harmony export */   faMouse: () => (/* binding */ faMouse),
+/* harmony export */   faMousePointer: () => (/* binding */ faMousePointer),
+/* harmony export */   faMugHot: () => (/* binding */ faMugHot),
+/* harmony export */   faMusic: () => (/* binding */ faMusic),
+/* harmony export */   faNetworkWired: () => (/* binding */ faNetworkWired),
+/* harmony export */   faNeuter: () => (/* binding */ faNeuter),
+/* harmony export */   faNewspaper: () => (/* binding */ faNewspaper),
+/* harmony export */   faNotEqual: () => (/* binding */ faNotEqual),
+/* harmony export */   faNotesMedical: () => (/* binding */ faNotesMedical),
+/* harmony export */   faObjectGroup: () => (/* binding */ faObjectGroup),
+/* harmony export */   faObjectUngroup: () => (/* binding */ faObjectUngroup),
+/* harmony export */   faOilCan: () => (/* binding */ faOilCan),
+/* harmony export */   faOm: () => (/* binding */ faOm),
+/* harmony export */   faOtter: () => (/* binding */ faOtter),
+/* harmony export */   faOutdent: () => (/* binding */ faOutdent),
+/* harmony export */   faPager: () => (/* binding */ faPager),
+/* harmony export */   faPaintBrush: () => (/* binding */ faPaintBrush),
+/* harmony export */   faPaintRoller: () => (/* binding */ faPaintRoller),
+/* harmony export */   faPalette: () => (/* binding */ faPalette),
+/* harmony export */   faPallet: () => (/* binding */ faPallet),
+/* harmony export */   faPaperPlane: () => (/* binding */ faPaperPlane),
+/* harmony export */   faPaperclip: () => (/* binding */ faPaperclip),
+/* harmony export */   faParachuteBox: () => (/* binding */ faParachuteBox),
+/* harmony export */   faParagraph: () => (/* binding */ faParagraph),
+/* harmony export */   faParking: () => (/* binding */ faParking),
+/* harmony export */   faPassport: () => (/* binding */ faPassport),
+/* harmony export */   faPastafarianism: () => (/* binding */ faPastafarianism),
+/* harmony export */   faPaste: () => (/* binding */ faPaste),
+/* harmony export */   faPause: () => (/* binding */ faPause),
+/* harmony export */   faPauseCircle: () => (/* binding */ faPauseCircle),
+/* harmony export */   faPaw: () => (/* binding */ faPaw),
+/* harmony export */   faPeace: () => (/* binding */ faPeace),
+/* harmony export */   faPen: () => (/* binding */ faPen),
+/* harmony export */   faPenAlt: () => (/* binding */ faPenAlt),
+/* harmony export */   faPenFancy: () => (/* binding */ faPenFancy),
+/* harmony export */   faPenNib: () => (/* binding */ faPenNib),
+/* harmony export */   faPenSquare: () => (/* binding */ faPenSquare),
+/* harmony export */   faPencilAlt: () => (/* binding */ faPencilAlt),
+/* harmony export */   faPencilRuler: () => (/* binding */ faPencilRuler),
+/* harmony export */   faPeopleArrows: () => (/* binding */ faPeopleArrows),
+/* harmony export */   faPeopleCarry: () => (/* binding */ faPeopleCarry),
+/* harmony export */   faPepperHot: () => (/* binding */ faPepperHot),
+/* harmony export */   faPercent: () => (/* binding */ faPercent),
+/* harmony export */   faPercentage: () => (/* binding */ faPercentage),
+/* harmony export */   faPersonBooth: () => (/* binding */ faPersonBooth),
+/* harmony export */   faPhone: () => (/* binding */ faPhone),
+/* harmony export */   faPhoneAlt: () => (/* binding */ faPhoneAlt),
+/* harmony export */   faPhoneSlash: () => (/* binding */ faPhoneSlash),
+/* harmony export */   faPhoneSquare: () => (/* binding */ faPhoneSquare),
+/* harmony export */   faPhoneSquareAlt: () => (/* binding */ faPhoneSquareAlt),
+/* harmony export */   faPhoneVolume: () => (/* binding */ faPhoneVolume),
+/* harmony export */   faPhotoVideo: () => (/* binding */ faPhotoVideo),
+/* harmony export */   faPiggyBank: () => (/* binding */ faPiggyBank),
+/* harmony export */   faPills: () => (/* binding */ faPills),
+/* harmony export */   faPizzaSlice: () => (/* binding */ faPizzaSlice),
+/* harmony export */   faPlaceOfWorship: () => (/* binding */ faPlaceOfWorship),
+/* harmony export */   faPlane: () => (/* binding */ faPlane),
+/* harmony export */   faPlaneArrival: () => (/* binding */ faPlaneArrival),
+/* harmony export */   faPlaneDeparture: () => (/* binding */ faPlaneDeparture),
+/* harmony export */   faPlaneSlash: () => (/* binding */ faPlaneSlash),
+/* harmony export */   faPlay: () => (/* binding */ faPlay),
+/* harmony export */   faPlayCircle: () => (/* binding */ faPlayCircle),
+/* harmony export */   faPlug: () => (/* binding */ faPlug),
+/* harmony export */   faPlus: () => (/* binding */ faPlus),
+/* harmony export */   faPlusCircle: () => (/* binding */ faPlusCircle),
+/* harmony export */   faPlusSquare: () => (/* binding */ faPlusSquare),
+/* harmony export */   faPodcast: () => (/* binding */ faPodcast),
+/* harmony export */   faPoll: () => (/* binding */ faPoll),
+/* harmony export */   faPollH: () => (/* binding */ faPollH),
+/* harmony export */   faPoo: () => (/* binding */ faPoo),
+/* harmony export */   faPooStorm: () => (/* binding */ faPooStorm),
+/* harmony export */   faPoop: () => (/* binding */ faPoop),
+/* harmony export */   faPortrait: () => (/* binding */ faPortrait),
+/* harmony export */   faPoundSign: () => (/* binding */ faPoundSign),
+/* harmony export */   faPowerOff: () => (/* binding */ faPowerOff),
+/* harmony export */   faPray: () => (/* binding */ faPray),
+/* harmony export */   faPrayingHands: () => (/* binding */ faPrayingHands),
+/* harmony export */   faPrescription: () => (/* binding */ faPrescription),
+/* harmony export */   faPrescriptionBottle: () => (/* binding */ faPrescriptionBottle),
+/* harmony export */   faPrescriptionBottleAlt: () => (/* binding */ faPrescriptionBottleAlt),
+/* harmony export */   faPrint: () => (/* binding */ faPrint),
+/* harmony export */   faProcedures: () => (/* binding */ faProcedures),
+/* harmony export */   faProjectDiagram: () => (/* binding */ faProjectDiagram),
+/* harmony export */   faPumpMedical: () => (/* binding */ faPumpMedical),
+/* harmony export */   faPumpSoap: () => (/* binding */ faPumpSoap),
+/* harmony export */   faPuzzlePiece: () => (/* binding */ faPuzzlePiece),
+/* harmony export */   faQrcode: () => (/* binding */ faQrcode),
+/* harmony export */   faQuestion: () => (/* binding */ faQuestion),
+/* harmony export */   faQuestionCircle: () => (/* binding */ faQuestionCircle),
+/* harmony export */   faQuidditch: () => (/* binding */ faQuidditch),
+/* harmony export */   faQuoteLeft: () => (/* binding */ faQuoteLeft),
+/* harmony export */   faQuoteRight: () => (/* binding */ faQuoteRight),
+/* harmony export */   faQuran: () => (/* binding */ faQuran),
+/* harmony export */   faRadiation: () => (/* binding */ faRadiation),
+/* harmony export */   faRadiationAlt: () => (/* binding */ faRadiationAlt),
+/* harmony export */   faRainbow: () => (/* binding */ faRainbow),
+/* harmony export */   faRandom: () => (/* binding */ faRandom),
+/* harmony export */   faReceipt: () => (/* binding */ faReceipt),
+/* harmony export */   faRecordVinyl: () => (/* binding */ faRecordVinyl),
+/* harmony export */   faRecycle: () => (/* binding */ faRecycle),
+/* harmony export */   faRedo: () => (/* binding */ faRedo),
+/* harmony export */   faRedoAlt: () => (/* binding */ faRedoAlt),
+/* harmony export */   faRegistered: () => (/* binding */ faRegistered),
+/* harmony export */   faRemoveFormat: () => (/* binding */ faRemoveFormat),
+/* harmony export */   faReply: () => (/* binding */ faReply),
+/* harmony export */   faReplyAll: () => (/* binding */ faReplyAll),
+/* harmony export */   faRepublican: () => (/* binding */ faRepublican),
+/* harmony export */   faRestroom: () => (/* binding */ faRestroom),
+/* harmony export */   faRetweet: () => (/* binding */ faRetweet),
+/* harmony export */   faRibbon: () => (/* binding */ faRibbon),
+/* harmony export */   faRing: () => (/* binding */ faRing),
+/* harmony export */   faRoad: () => (/* binding */ faRoad),
+/* harmony export */   faRobot: () => (/* binding */ faRobot),
+/* harmony export */   faRocket: () => (/* binding */ faRocket),
+/* harmony export */   faRoute: () => (/* binding */ faRoute),
+/* harmony export */   faRss: () => (/* binding */ faRss),
+/* harmony export */   faRssSquare: () => (/* binding */ faRssSquare),
+/* harmony export */   faRubleSign: () => (/* binding */ faRubleSign),
+/* harmony export */   faRuler: () => (/* binding */ faRuler),
+/* harmony export */   faRulerCombined: () => (/* binding */ faRulerCombined),
+/* harmony export */   faRulerHorizontal: () => (/* binding */ faRulerHorizontal),
+/* harmony export */   faRulerVertical: () => (/* binding */ faRulerVertical),
+/* harmony export */   faRunning: () => (/* binding */ faRunning),
+/* harmony export */   faRupeeSign: () => (/* binding */ faRupeeSign),
+/* harmony export */   faSadCry: () => (/* binding */ faSadCry),
+/* harmony export */   faSadTear: () => (/* binding */ faSadTear),
+/* harmony export */   faSatellite: () => (/* binding */ faSatellite),
+/* harmony export */   faSatelliteDish: () => (/* binding */ faSatelliteDish),
+/* harmony export */   faSave: () => (/* binding */ faSave),
+/* harmony export */   faSchool: () => (/* binding */ faSchool),
+/* harmony export */   faScrewdriver: () => (/* binding */ faScrewdriver),
+/* harmony export */   faScroll: () => (/* binding */ faScroll),
+/* harmony export */   faSdCard: () => (/* binding */ faSdCard),
+/* harmony export */   faSearch: () => (/* binding */ faSearch),
+/* harmony export */   faSearchDollar: () => (/* binding */ faSearchDollar),
+/* harmony export */   faSearchLocation: () => (/* binding */ faSearchLocation),
+/* harmony export */   faSearchMinus: () => (/* binding */ faSearchMinus),
+/* harmony export */   faSearchPlus: () => (/* binding */ faSearchPlus),
+/* harmony export */   faSeedling: () => (/* binding */ faSeedling),
+/* harmony export */   faServer: () => (/* binding */ faServer),
+/* harmony export */   faShapes: () => (/* binding */ faShapes),
+/* harmony export */   faShare: () => (/* binding */ faShare),
+/* harmony export */   faShareAlt: () => (/* binding */ faShareAlt),
+/* harmony export */   faShareAltSquare: () => (/* binding */ faShareAltSquare),
+/* harmony export */   faShareSquare: () => (/* binding */ faShareSquare),
+/* harmony export */   faShekelSign: () => (/* binding */ faShekelSign),
+/* harmony export */   faShieldAlt: () => (/* binding */ faShieldAlt),
+/* harmony export */   faShieldVirus: () => (/* binding */ faShieldVirus),
+/* harmony export */   faShip: () => (/* binding */ faShip),
+/* harmony export */   faShippingFast: () => (/* binding */ faShippingFast),
+/* harmony export */   faShoePrints: () => (/* binding */ faShoePrints),
+/* harmony export */   faShoppingBag: () => (/* binding */ faShoppingBag),
+/* harmony export */   faShoppingBasket: () => (/* binding */ faShoppingBasket),
+/* harmony export */   faShoppingCart: () => (/* binding */ faShoppingCart),
+/* harmony export */   faShower: () => (/* binding */ faShower),
+/* harmony export */   faShuttleVan: () => (/* binding */ faShuttleVan),
+/* harmony export */   faSign: () => (/* binding */ faSign),
+/* harmony export */   faSignInAlt: () => (/* binding */ faSignInAlt),
+/* harmony export */   faSignLanguage: () => (/* binding */ faSignLanguage),
+/* harmony export */   faSignOutAlt: () => (/* binding */ faSignOutAlt),
+/* harmony export */   faSignal: () => (/* binding */ faSignal),
+/* harmony export */   faSignature: () => (/* binding */ faSignature),
+/* harmony export */   faSimCard: () => (/* binding */ faSimCard),
+/* harmony export */   faSink: () => (/* binding */ faSink),
+/* harmony export */   faSitemap: () => (/* binding */ faSitemap),
+/* harmony export */   faSkating: () => (/* binding */ faSkating),
+/* harmony export */   faSkiing: () => (/* binding */ faSkiing),
+/* harmony export */   faSkiingNordic: () => (/* binding */ faSkiingNordic),
+/* harmony export */   faSkull: () => (/* binding */ faSkull),
+/* harmony export */   faSkullCrossbones: () => (/* binding */ faSkullCrossbones),
+/* harmony export */   faSlash: () => (/* binding */ faSlash),
+/* harmony export */   faSleigh: () => (/* binding */ faSleigh),
+/* harmony export */   faSlidersH: () => (/* binding */ faSlidersH),
+/* harmony export */   faSmile: () => (/* binding */ faSmile),
+/* harmony export */   faSmileBeam: () => (/* binding */ faSmileBeam),
+/* harmony export */   faSmileWink: () => (/* binding */ faSmileWink),
+/* harmony export */   faSmog: () => (/* binding */ faSmog),
+/* harmony export */   faSmoking: () => (/* binding */ faSmoking),
+/* harmony export */   faSmokingBan: () => (/* binding */ faSmokingBan),
+/* harmony export */   faSms: () => (/* binding */ faSms),
+/* harmony export */   faSnowboarding: () => (/* binding */ faSnowboarding),
+/* harmony export */   faSnowflake: () => (/* binding */ faSnowflake),
+/* harmony export */   faSnowman: () => (/* binding */ faSnowman),
+/* harmony export */   faSnowplow: () => (/* binding */ faSnowplow),
+/* harmony export */   faSoap: () => (/* binding */ faSoap),
+/* harmony export */   faSocks: () => (/* binding */ faSocks),
+/* harmony export */   faSolarPanel: () => (/* binding */ faSolarPanel),
+/* harmony export */   faSort: () => (/* binding */ faSort),
+/* harmony export */   faSortAlphaDown: () => (/* binding */ faSortAlphaDown),
+/* harmony export */   faSortAlphaDownAlt: () => (/* binding */ faSortAlphaDownAlt),
+/* harmony export */   faSortAlphaUp: () => (/* binding */ faSortAlphaUp),
+/* harmony export */   faSortAlphaUpAlt: () => (/* binding */ faSortAlphaUpAlt),
+/* harmony export */   faSortAmountDown: () => (/* binding */ faSortAmountDown),
+/* harmony export */   faSortAmountDownAlt: () => (/* binding */ faSortAmountDownAlt),
+/* harmony export */   faSortAmountUp: () => (/* binding */ faSortAmountUp),
+/* harmony export */   faSortAmountUpAlt: () => (/* binding */ faSortAmountUpAlt),
+/* harmony export */   faSortDown: () => (/* binding */ faSortDown),
+/* harmony export */   faSortNumericDown: () => (/* binding */ faSortNumericDown),
+/* harmony export */   faSortNumericDownAlt: () => (/* binding */ faSortNumericDownAlt),
+/* harmony export */   faSortNumericUp: () => (/* binding */ faSortNumericUp),
+/* harmony export */   faSortNumericUpAlt: () => (/* binding */ faSortNumericUpAlt),
+/* harmony export */   faSortUp: () => (/* binding */ faSortUp),
+/* harmony export */   faSpa: () => (/* binding */ faSpa),
+/* harmony export */   faSpaceShuttle: () => (/* binding */ faSpaceShuttle),
+/* harmony export */   faSpellCheck: () => (/* binding */ faSpellCheck),
+/* harmony export */   faSpider: () => (/* binding */ faSpider),
+/* harmony export */   faSpinner: () => (/* binding */ faSpinner),
+/* harmony export */   faSplotch: () => (/* binding */ faSplotch),
+/* harmony export */   faSprayCan: () => (/* binding */ faSprayCan),
+/* harmony export */   faSquare: () => (/* binding */ faSquare),
+/* harmony export */   faSquareFull: () => (/* binding */ faSquareFull),
+/* harmony export */   faSquareRootAlt: () => (/* binding */ faSquareRootAlt),
+/* harmony export */   faStamp: () => (/* binding */ faStamp),
+/* harmony export */   faStar: () => (/* binding */ faStar),
+/* harmony export */   faStarAndCrescent: () => (/* binding */ faStarAndCrescent),
+/* harmony export */   faStarHalf: () => (/* binding */ faStarHalf),
+/* harmony export */   faStarHalfAlt: () => (/* binding */ faStarHalfAlt),
+/* harmony export */   faStarOfDavid: () => (/* binding */ faStarOfDavid),
+/* harmony export */   faStarOfLife: () => (/* binding */ faStarOfLife),
+/* harmony export */   faStepBackward: () => (/* binding */ faStepBackward),
+/* harmony export */   faStepForward: () => (/* binding */ faStepForward),
+/* harmony export */   faStethoscope: () => (/* binding */ faStethoscope),
+/* harmony export */   faStickyNote: () => (/* binding */ faStickyNote),
+/* harmony export */   faStop: () => (/* binding */ faStop),
+/* harmony export */   faStopCircle: () => (/* binding */ faStopCircle),
+/* harmony export */   faStopwatch: () => (/* binding */ faStopwatch),
+/* harmony export */   faStopwatch20: () => (/* binding */ faStopwatch20),
+/* harmony export */   faStore: () => (/* binding */ faStore),
+/* harmony export */   faStoreAlt: () => (/* binding */ faStoreAlt),
+/* harmony export */   faStoreAltSlash: () => (/* binding */ faStoreAltSlash),
+/* harmony export */   faStoreSlash: () => (/* binding */ faStoreSlash),
+/* harmony export */   faStream: () => (/* binding */ faStream),
+/* harmony export */   faStreetView: () => (/* binding */ faStreetView),
+/* harmony export */   faStrikethrough: () => (/* binding */ faStrikethrough),
+/* harmony export */   faStroopwafel: () => (/* binding */ faStroopwafel),
+/* harmony export */   faSubscript: () => (/* binding */ faSubscript),
+/* harmony export */   faSubway: () => (/* binding */ faSubway),
+/* harmony export */   faSuitcase: () => (/* binding */ faSuitcase),
+/* harmony export */   faSuitcaseRolling: () => (/* binding */ faSuitcaseRolling),
+/* harmony export */   faSun: () => (/* binding */ faSun),
+/* harmony export */   faSuperscript: () => (/* binding */ faSuperscript),
+/* harmony export */   faSurprise: () => (/* binding */ faSurprise),
+/* harmony export */   faSwatchbook: () => (/* binding */ faSwatchbook),
+/* harmony export */   faSwimmer: () => (/* binding */ faSwimmer),
+/* harmony export */   faSwimmingPool: () => (/* binding */ faSwimmingPool),
+/* harmony export */   faSynagogue: () => (/* binding */ faSynagogue),
+/* harmony export */   faSync: () => (/* binding */ faSync),
+/* harmony export */   faSyncAlt: () => (/* binding */ faSyncAlt),
+/* harmony export */   faSyringe: () => (/* binding */ faSyringe),
+/* harmony export */   faTable: () => (/* binding */ faTable),
+/* harmony export */   faTableTennis: () => (/* binding */ faTableTennis),
+/* harmony export */   faTablet: () => (/* binding */ faTablet),
+/* harmony export */   faTabletAlt: () => (/* binding */ faTabletAlt),
+/* harmony export */   faTablets: () => (/* binding */ faTablets),
+/* harmony export */   faTachometerAlt: () => (/* binding */ faTachometerAlt),
+/* harmony export */   faTag: () => (/* binding */ faTag),
+/* harmony export */   faTags: () => (/* binding */ faTags),
+/* harmony export */   faTape: () => (/* binding */ faTape),
+/* harmony export */   faTasks: () => (/* binding */ faTasks),
+/* harmony export */   faTaxi: () => (/* binding */ faTaxi),
+/* harmony export */   faTeeth: () => (/* binding */ faTeeth),
+/* harmony export */   faTeethOpen: () => (/* binding */ faTeethOpen),
+/* harmony export */   faTemperatureHigh: () => (/* binding */ faTemperatureHigh),
+/* harmony export */   faTemperatureLow: () => (/* binding */ faTemperatureLow),
+/* harmony export */   faTenge: () => (/* binding */ faTenge),
+/* harmony export */   faTerminal: () => (/* binding */ faTerminal),
+/* harmony export */   faTextHeight: () => (/* binding */ faTextHeight),
+/* harmony export */   faTextWidth: () => (/* binding */ faTextWidth),
+/* harmony export */   faTh: () => (/* binding */ faTh),
+/* harmony export */   faThLarge: () => (/* binding */ faThLarge),
+/* harmony export */   faThList: () => (/* binding */ faThList),
+/* harmony export */   faTheaterMasks: () => (/* binding */ faTheaterMasks),
+/* harmony export */   faThermometer: () => (/* binding */ faThermometer),
+/* harmony export */   faThermometerEmpty: () => (/* binding */ faThermometerEmpty),
+/* harmony export */   faThermometerFull: () => (/* binding */ faThermometerFull),
+/* harmony export */   faThermometerHalf: () => (/* binding */ faThermometerHalf),
+/* harmony export */   faThermometerQuarter: () => (/* binding */ faThermometerQuarter),
+/* harmony export */   faThermometerThreeQuarters: () => (/* binding */ faThermometerThreeQuarters),
+/* harmony export */   faThumbsDown: () => (/* binding */ faThumbsDown),
+/* harmony export */   faThumbsUp: () => (/* binding */ faThumbsUp),
+/* harmony export */   faThumbtack: () => (/* binding */ faThumbtack),
+/* harmony export */   faTicketAlt: () => (/* binding */ faTicketAlt),
+/* harmony export */   faTimes: () => (/* binding */ faTimes),
+/* harmony export */   faTimesCircle: () => (/* binding */ faTimesCircle),
+/* harmony export */   faTint: () => (/* binding */ faTint),
+/* harmony export */   faTintSlash: () => (/* binding */ faTintSlash),
+/* harmony export */   faTired: () => (/* binding */ faTired),
+/* harmony export */   faToggleOff: () => (/* binding */ faToggleOff),
+/* harmony export */   faToggleOn: () => (/* binding */ faToggleOn),
+/* harmony export */   faToilet: () => (/* binding */ faToilet),
+/* harmony export */   faToiletPaper: () => (/* binding */ faToiletPaper),
+/* harmony export */   faToiletPaperSlash: () => (/* binding */ faToiletPaperSlash),
+/* harmony export */   faToolbox: () => (/* binding */ faToolbox),
+/* harmony export */   faTools: () => (/* binding */ faTools),
+/* harmony export */   faTooth: () => (/* binding */ faTooth),
+/* harmony export */   faTorah: () => (/* binding */ faTorah),
+/* harmony export */   faToriiGate: () => (/* binding */ faToriiGate),
+/* harmony export */   faTractor: () => (/* binding */ faTractor),
+/* harmony export */   faTrademark: () => (/* binding */ faTrademark),
+/* harmony export */   faTrafficLight: () => (/* binding */ faTrafficLight),
+/* harmony export */   faTrailer: () => (/* binding */ faTrailer),
+/* harmony export */   faTrain: () => (/* binding */ faTrain),
+/* harmony export */   faTram: () => (/* binding */ faTram),
+/* harmony export */   faTransgender: () => (/* binding */ faTransgender),
+/* harmony export */   faTransgenderAlt: () => (/* binding */ faTransgenderAlt),
+/* harmony export */   faTrash: () => (/* binding */ faTrash),
+/* harmony export */   faTrashAlt: () => (/* binding */ faTrashAlt),
+/* harmony export */   faTrashRestore: () => (/* binding */ faTrashRestore),
+/* harmony export */   faTrashRestoreAlt: () => (/* binding */ faTrashRestoreAlt),
+/* harmony export */   faTree: () => (/* binding */ faTree),
+/* harmony export */   faTrophy: () => (/* binding */ faTrophy),
+/* harmony export */   faTruck: () => (/* binding */ faTruck),
+/* harmony export */   faTruckLoading: () => (/* binding */ faTruckLoading),
+/* harmony export */   faTruckMonster: () => (/* binding */ faTruckMonster),
+/* harmony export */   faTruckMoving: () => (/* binding */ faTruckMoving),
+/* harmony export */   faTruckPickup: () => (/* binding */ faTruckPickup),
+/* harmony export */   faTshirt: () => (/* binding */ faTshirt),
+/* harmony export */   faTty: () => (/* binding */ faTty),
+/* harmony export */   faTv: () => (/* binding */ faTv),
+/* harmony export */   faUmbrella: () => (/* binding */ faUmbrella),
+/* harmony export */   faUmbrellaBeach: () => (/* binding */ faUmbrellaBeach),
+/* harmony export */   faUnderline: () => (/* binding */ faUnderline),
+/* harmony export */   faUndo: () => (/* binding */ faUndo),
+/* harmony export */   faUndoAlt: () => (/* binding */ faUndoAlt),
+/* harmony export */   faUniversalAccess: () => (/* binding */ faUniversalAccess),
+/* harmony export */   faUniversity: () => (/* binding */ faUniversity),
+/* harmony export */   faUnlink: () => (/* binding */ faUnlink),
+/* harmony export */   faUnlock: () => (/* binding */ faUnlock),
+/* harmony export */   faUnlockAlt: () => (/* binding */ faUnlockAlt),
+/* harmony export */   faUpload: () => (/* binding */ faUpload),
+/* harmony export */   faUser: () => (/* binding */ faUser),
+/* harmony export */   faUserAlt: () => (/* binding */ faUserAlt),
+/* harmony export */   faUserAltSlash: () => (/* binding */ faUserAltSlash),
+/* harmony export */   faUserAstronaut: () => (/* binding */ faUserAstronaut),
+/* harmony export */   faUserCheck: () => (/* binding */ faUserCheck),
+/* harmony export */   faUserCircle: () => (/* binding */ faUserCircle),
+/* harmony export */   faUserClock: () => (/* binding */ faUserClock),
+/* harmony export */   faUserCog: () => (/* binding */ faUserCog),
+/* harmony export */   faUserEdit: () => (/* binding */ faUserEdit),
+/* harmony export */   faUserFriends: () => (/* binding */ faUserFriends),
+/* harmony export */   faUserGraduate: () => (/* binding */ faUserGraduate),
+/* harmony export */   faUserInjured: () => (/* binding */ faUserInjured),
+/* harmony export */   faUserLock: () => (/* binding */ faUserLock),
+/* harmony export */   faUserMd: () => (/* binding */ faUserMd),
+/* harmony export */   faUserMinus: () => (/* binding */ faUserMinus),
+/* harmony export */   faUserNinja: () => (/* binding */ faUserNinja),
+/* harmony export */   faUserNurse: () => (/* binding */ faUserNurse),
+/* harmony export */   faUserPlus: () => (/* binding */ faUserPlus),
+/* harmony export */   faUserSecret: () => (/* binding */ faUserSecret),
+/* harmony export */   faUserShield: () => (/* binding */ faUserShield),
+/* harmony export */   faUserSlash: () => (/* binding */ faUserSlash),
+/* harmony export */   faUserTag: () => (/* binding */ faUserTag),
+/* harmony export */   faUserTie: () => (/* binding */ faUserTie),
+/* harmony export */   faUserTimes: () => (/* binding */ faUserTimes),
+/* harmony export */   faUsers: () => (/* binding */ faUsers),
+/* harmony export */   faUsersCog: () => (/* binding */ faUsersCog),
+/* harmony export */   faUsersSlash: () => (/* binding */ faUsersSlash),
+/* harmony export */   faUtensilSpoon: () => (/* binding */ faUtensilSpoon),
+/* harmony export */   faUtensils: () => (/* binding */ faUtensils),
+/* harmony export */   faVectorSquare: () => (/* binding */ faVectorSquare),
+/* harmony export */   faVenus: () => (/* binding */ faVenus),
+/* harmony export */   faVenusDouble: () => (/* binding */ faVenusDouble),
+/* harmony export */   faVenusMars: () => (/* binding */ faVenusMars),
+/* harmony export */   faVest: () => (/* binding */ faVest),
+/* harmony export */   faVestPatches: () => (/* binding */ faVestPatches),
+/* harmony export */   faVial: () => (/* binding */ faVial),
+/* harmony export */   faVials: () => (/* binding */ faVials),
+/* harmony export */   faVideo: () => (/* binding */ faVideo),
+/* harmony export */   faVideoSlash: () => (/* binding */ faVideoSlash),
+/* harmony export */   faVihara: () => (/* binding */ faVihara),
+/* harmony export */   faVirus: () => (/* binding */ faVirus),
+/* harmony export */   faVirusSlash: () => (/* binding */ faVirusSlash),
+/* harmony export */   faViruses: () => (/* binding */ faViruses),
+/* harmony export */   faVoicemail: () => (/* binding */ faVoicemail),
+/* harmony export */   faVolleyballBall: () => (/* binding */ faVolleyballBall),
+/* harmony export */   faVolumeDown: () => (/* binding */ faVolumeDown),
+/* harmony export */   faVolumeMute: () => (/* binding */ faVolumeMute),
+/* harmony export */   faVolumeOff: () => (/* binding */ faVolumeOff),
+/* harmony export */   faVolumeUp: () => (/* binding */ faVolumeUp),
+/* harmony export */   faVoteYea: () => (/* binding */ faVoteYea),
+/* harmony export */   faVrCardboard: () => (/* binding */ faVrCardboard),
+/* harmony export */   faWalking: () => (/* binding */ faWalking),
+/* harmony export */   faWallet: () => (/* binding */ faWallet),
+/* harmony export */   faWarehouse: () => (/* binding */ faWarehouse),
+/* harmony export */   faWater: () => (/* binding */ faWater),
+/* harmony export */   faWaveSquare: () => (/* binding */ faWaveSquare),
+/* harmony export */   faWeight: () => (/* binding */ faWeight),
+/* harmony export */   faWeightHanging: () => (/* binding */ faWeightHanging),
+/* harmony export */   faWheelchair: () => (/* binding */ faWheelchair),
+/* harmony export */   faWifi: () => (/* binding */ faWifi),
+/* harmony export */   faWind: () => (/* binding */ faWind),
+/* harmony export */   faWindowClose: () => (/* binding */ faWindowClose),
+/* harmony export */   faWindowMaximize: () => (/* binding */ faWindowMaximize),
+/* harmony export */   faWindowMinimize: () => (/* binding */ faWindowMinimize),
+/* harmony export */   faWindowRestore: () => (/* binding */ faWindowRestore),
+/* harmony export */   faWineBottle: () => (/* binding */ faWineBottle),
+/* harmony export */   faWineGlass: () => (/* binding */ faWineGlass),
+/* harmony export */   faWineGlassAlt: () => (/* binding */ faWineGlassAlt),
+/* harmony export */   faWonSign: () => (/* binding */ faWonSign),
+/* harmony export */   faWrench: () => (/* binding */ faWrench),
+/* harmony export */   faXRay: () => (/* binding */ faXRay),
+/* harmony export */   faYenSign: () => (/* binding */ faYenSign),
+/* harmony export */   faYinYang: () => (/* binding */ faYinYang),
+/* harmony export */   fas: () => (/* binding */ _iconsCache),
+/* harmony export */   prefix: () => (/* binding */ prefix)
 /* harmony export */ });
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
@@ -13811,20 +13811,20 @@ var _iconsCache = {
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@fortawesome/vue-fontawesome/index.es.js":
+/***/ "./node_modules/@fortawesome/vue-fontawesome/index.es.js"
 /*!***************************************************************!*\
   !*** ./node_modules/@fortawesome/vue-fontawesome/index.es.js ***!
   \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "FontAwesomeIcon": () => (/* binding */ FontAwesomeIcon),
-/* harmony export */   "FontAwesomeLayers": () => (/* binding */ FontAwesomeLayers),
-/* harmony export */   "FontAwesomeLayersText": () => (/* binding */ FontAwesomeLayersText)
+/* harmony export */   FontAwesomeIcon: () => (/* binding */ FontAwesomeIcon),
+/* harmony export */   FontAwesomeLayers: () => (/* binding */ FontAwesomeLayers),
+/* harmony export */   FontAwesomeLayersText: () => (/* binding */ FontAwesomeLayersText)
 /* harmony export */ });
 /* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
 
@@ -14456,16 +14456,48 @@ var FontAwesomeLayersText = {
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@xmldom/xmldom/lib/conventions.js":
+/***/ "./node_modules/@xmldom/xmldom/lib/conventions.js"
 /*!********************************************************!*\
   !*** ./node_modules/@xmldom/xmldom/lib/conventions.js ***!
   \********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+(__unused_webpack_module, exports) {
 
 "use strict";
 
+
+/**
+ * Ponyfill for `Array.prototype.find` which is only available in ES6 runtimes.
+ *
+ * Works with anything that has a `length` property and index access properties, including NodeList.
+ *
+ * @template {unknown} T
+ * @param {Array<T> | ({length:number, [number]: T})} list
+ * @param {function (item: T, index: number, list:Array<T> | ({length:number, [number]: T})):boolean} predicate
+ * @param {Partial<Pick<ArrayConstructor['prototype'], 'find'>>?} ac `Array.prototype` by default,
+ * 				allows injecting a custom implementation in tests
+ * @returns {T | undefined}
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+ * @see https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.find
+ */
+function find(list, predicate, ac) {
+	if (ac === undefined) {
+		ac = Array.prototype;
+	}
+	if (list && typeof ac.find === 'function') {
+		return ac.find.call(list, predicate);
+	}
+	for (var i = 0; i < list.length; i++) {
+		if (Object.prototype.hasOwnProperty.call(list, i)) {
+			var item = list[i];
+			if (predicate.call(undefined, item, i, list)) {
+				return item;
+			}
+		}
+	}
+}
 
 /**
  * "Shallow freezes" an object to render it immutable.
@@ -14606,18 +14638,19 @@ var NAMESPACE = freeze({
 	XMLNS: 'http://www.w3.org/2000/xmlns/',
 })
 
+exports.find = find;
 exports.freeze = freeze;
 exports.MIME_TYPE = MIME_TYPE;
 exports.NAMESPACE = NAMESPACE;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@xmldom/xmldom/lib/dom-parser.js":
+/***/ "./node_modules/@xmldom/xmldom/lib/dom-parser.js"
 /*!*******************************************************!*\
   !*** ./node_modules/@xmldom/xmldom/lib/dom-parser.js ***!
   \*******************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 var conventions = __webpack_require__(/*! ./conventions */ "./node_modules/@xmldom/xmldom/lib/conventions.js");
 var dom = __webpack_require__(/*! ./dom */ "./node_modules/@xmldom/xmldom/lib/dom.js")
@@ -14889,16 +14922,17 @@ exports.DOMImplementation = dom.DOMImplementation;
 exports.XMLSerializer = dom.XMLSerializer;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@xmldom/xmldom/lib/dom.js":
+/***/ "./node_modules/@xmldom/xmldom/lib/dom.js"
 /*!************************************************!*\
   !*** ./node_modules/@xmldom/xmldom/lib/dom.js ***!
   \************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 var conventions = __webpack_require__(/*! ./conventions */ "./node_modules/@xmldom/xmldom/lib/conventions.js");
 
+var find = conventions.find;
 var NAMESPACE = conventions.NAMESPACE;
 
 /**
@@ -14961,7 +14995,9 @@ function arrayIncludes (list) {
 
 function copy(src,dest){
 	for(var p in src){
-		dest[p] = src[p];
+		if (Object.prototype.hasOwnProperty.call(src, p)) {
+			dest[p] = src[p];
+		}
 	}
 }
 
@@ -15055,24 +15091,40 @@ NodeList.prototype = {
 	 * The number of nodes in the list. The range of valid child node indices is 0 to length-1 inclusive.
 	 * @standard level1
 	 */
-	length:0, 
+	length:0,
 	/**
 	 * Returns the indexth item in the collection. If index is greater than or equal to the number of nodes in the list, this returns null.
 	 * @standard level1
-	 * @param index  unsigned long 
+	 * @param index  unsigned long
 	 *   Index into the collection.
 	 * @return Node
-	 * 	The node at the indexth position in the NodeList, or null if that is not a valid index. 
+	 * 	The node at the indexth position in the NodeList, or null if that is not a valid index.
 	 */
 	item: function(index) {
-		return this[index] || null;
+		return index >= 0 && index < this.length ? this[index] : null;
 	},
 	toString:function(isHTML,nodeFilter){
 		for(var buf = [], i = 0;i<this.length;i++){
 			serializeToString(this[i],buf,isHTML,nodeFilter);
 		}
 		return buf.join('');
-	}
+	},
+	/**
+	 * @private
+	 * @param {function (Node):boolean} predicate
+	 * @returns {Node[]}
+	 */
+	filter: function (predicate) {
+		return Array.prototype.filter.call(this, predicate);
+	},
+	/**
+	 * @private
+	 * @param {Node} item
+	 * @returns {number}
+	 */
+	indexOf: function (item) {
+		return Array.prototype.indexOf.call(this, item);
+	},
 };
 
 function LiveNodeList(node,refresh){
@@ -15082,17 +15134,23 @@ function LiveNodeList(node,refresh){
 }
 function _updateLiveList(list){
 	var inc = list._node._inc || list._node.ownerDocument._inc;
-	if(list._inc != inc){
+	if (list._inc !== inc) {
 		var ls = list._refresh(list._node);
-		//console.log(ls.length)
 		__set__(list,'length',ls.length);
+		if (!list.$$length || ls.length < list.$$length) {
+			for (var i = ls.length; i in list; i++) {
+				if (Object.prototype.hasOwnProperty.call(list, i)) {
+					delete list[i];
+				}
+			}
+		}
 		copy(ls,list);
 		list._inc = inc;
 	}
 }
 LiveNodeList.prototype.item = function(i){
 	_updateLiveList(this);
-	return this[i];
+	return this[i] || null;
 }
 
 _extends(LiveNodeList,NodeList);
@@ -15106,7 +15164,7 @@ _extends(LiveNodeList,NodeList);
  * but this is simply to allow convenient enumeration of the contents of a NamedNodeMap,
  * and does not imply that the DOM specifies an order to these Nodes.
  * NamedNodeMap objects in the DOM are live.
- * used for attributes or DocumentType entities 
+ * used for attributes or DocumentType entities
  */
 function NamedNodeMap() {
 };
@@ -15150,7 +15208,7 @@ function _removeNamedNode(el,list,attr){
 			}
 		}
 	}else{
-		throw DOMException(NOT_FOUND_ERR,new Error(el.tagName+'@'+attr))
+		throw new DOMException(NOT_FOUND_ERR,new Error(el.tagName+'@'+attr))
 	}
 }
 NamedNodeMap.prototype = {
@@ -15195,10 +15253,10 @@ NamedNodeMap.prototype = {
 		var attr = this.getNamedItem(key);
 		_removeNamedNode(this._ownerElement,this,attr);
 		return attr;
-		
-		
+
+
 	},// raises: NOT_FOUND_ERR,NO_MODIFICATION_ALLOWED_ERR
-	
+
 	//for level2
 	removeNamedItemNS:function(namespaceURI,localName){
 		var attr = this.getNamedItemNS(namespaceURI,localName);
@@ -15344,11 +15402,11 @@ Node.prototype = {
 	prefix : null,
 	localName : null,
 	// Modified in DOM Level 2:
-	insertBefore:function(newChild, refChild){//raises 
+	insertBefore:function(newChild, refChild){//raises
 		return _insertBefore(this,newChild,refChild);
 	},
-	replaceChild:function(newChild, oldChild){//raises 
-		this.insertBefore(newChild,oldChild);
+	replaceChild:function(newChild, oldChild){//raises
+		_insertBefore(this, newChild,oldChild, assertPreReplacementValidityInDocument);
 		if(oldChild){
 			this.removeChild(oldChild);
 		}
@@ -15408,9 +15466,9 @@ Node.prototype = {
     		//console.dir(map)
     		if(map){
     			for(var n in map){
-    				if(map[n] == namespaceURI){
-    					return n;
-    				}
+					if (Object.prototype.hasOwnProperty.call(map, n) && map[n] === namespaceURI) {
+						return n;
+					}
     			}
     		}
     		el = el.nodeType == ATTRIBUTE_NODE?el.ownerDocument : el.parentNode;
@@ -15425,7 +15483,9 @@ Node.prototype = {
     		//console.dir(map)
     		if(map){
     			if(prefix in map){
-    				return map[prefix] ;
+					if(Object.prototype.hasOwnProperty.call(map, prefix)){
+						return map[prefix] ;
+					}
     			}
     		}
     		el = el.nodeType == ATTRIBUTE_NODE?el.ownerDocument : el.parentNode;
@@ -15470,6 +15530,7 @@ function _visitNode(node,callback){
 
 
 function Document(){
+	this.ownerDocument = this;
 }
 
 function _onAddAttribute(doc,el,newAttr){
@@ -15506,6 +15567,7 @@ function _onUpdateChild(doc,el,newChild){
 				child =child.nextSibling;
 			}
 			cs.length = i;
+			delete cs[cs.length];
 		}
 	}
 }
@@ -15513,7 +15575,7 @@ function _onUpdateChild(doc,el,newChild){
 /**
  * attributes;
  * children;
- * 
+ *
  * writeable properties:
  * nodeValue,Attr:value,CharacterData:data
  * prefix
@@ -15531,73 +15593,337 @@ function _removeChild(parentNode,child){
 	}else{
 		parentNode.lastChild = previous;
 	}
+	child.parentNode = null;
+	child.previousSibling = null;
+	child.nextSibling = null;
 	_onUpdateChild(parentNode.ownerDocument,parentNode);
 	return child;
 }
+
 /**
- * preformance key(refChild == null)
+ * Returns `true` if `node` can be a parent for insertion.
+ * @param {Node} node
+ * @returns {boolean}
  */
-function _insertBefore(parentNode,newChild,nextChild){
-	var cp = newChild.parentNode;
-	if(cp){
-		cp.removeChild(newChild);//remove and update
+function hasValidParentNodeType(node) {
+	return (
+		node &&
+		(node.nodeType === Node.DOCUMENT_NODE || node.nodeType === Node.DOCUMENT_FRAGMENT_NODE || node.nodeType === Node.ELEMENT_NODE)
+	);
+}
+
+/**
+ * Returns `true` if `node` can be inserted according to it's `nodeType`.
+ * @param {Node} node
+ * @returns {boolean}
+ */
+function hasInsertableNodeType(node) {
+	return (
+		node &&
+		(isElementNode(node) ||
+			isTextNode(node) ||
+			isDocTypeNode(node) ||
+			node.nodeType === Node.DOCUMENT_FRAGMENT_NODE ||
+			node.nodeType === Node.COMMENT_NODE ||
+			node.nodeType === Node.PROCESSING_INSTRUCTION_NODE)
+	);
+}
+
+/**
+ * Returns true if `node` is a DOCTYPE node
+ * @param {Node} node
+ * @returns {boolean}
+ */
+function isDocTypeNode(node) {
+	return node && node.nodeType === Node.DOCUMENT_TYPE_NODE;
+}
+
+/**
+ * Returns true if the node is an element
+ * @param {Node} node
+ * @returns {boolean}
+ */
+function isElementNode(node) {
+	return node && node.nodeType === Node.ELEMENT_NODE;
+}
+/**
+ * Returns true if `node` is a text node
+ * @param {Node} node
+ * @returns {boolean}
+ */
+function isTextNode(node) {
+	return node && node.nodeType === Node.TEXT_NODE;
+}
+
+/**
+ * Check if en element node can be inserted before `child`, or at the end if child is falsy,
+ * according to the presence and position of a doctype node on the same level.
+ *
+ * @param {Document} doc The document node
+ * @param {Node} child the node that would become the nextSibling if the element would be inserted
+ * @returns {boolean} `true` if an element can be inserted before child
+ * @private
+ * https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+ */
+function isElementInsertionPossible(doc, child) {
+	var parentChildNodes = doc.childNodes || [];
+	if (find(parentChildNodes, isElementNode) || isDocTypeNode(child)) {
+		return false;
 	}
-	if(newChild.nodeType === DOCUMENT_FRAGMENT_NODE){
-		var newFirst = newChild.firstChild;
-		if (newFirst == null) {
-			return newChild;
+	var docTypeNode = find(parentChildNodes, isDocTypeNode);
+	return !(child && docTypeNode && parentChildNodes.indexOf(docTypeNode) > parentChildNodes.indexOf(child));
+}
+
+/**
+ * Check if en element node can be inserted before `child`, or at the end if child is falsy,
+ * according to the presence and position of a doctype node on the same level.
+ *
+ * @param {Node} doc The document node
+ * @param {Node} child the node that would become the nextSibling if the element would be inserted
+ * @returns {boolean} `true` if an element can be inserted before child
+ * @private
+ * https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+ */
+function isElementReplacementPossible(doc, child) {
+	var parentChildNodes = doc.childNodes || [];
+
+	function hasElementChildThatIsNotChild(node) {
+		return isElementNode(node) && node !== child;
+	}
+
+	if (find(parentChildNodes, hasElementChildThatIsNotChild)) {
+		return false;
+	}
+	var docTypeNode = find(parentChildNodes, isDocTypeNode);
+	return !(child && docTypeNode && parentChildNodes.indexOf(docTypeNode) > parentChildNodes.indexOf(child));
+}
+
+/**
+ * @private
+ * Steps 1-5 of the checks before inserting and before replacing a child are the same.
+ *
+ * @param {Node} parent the parent node to insert `node` into
+ * @param {Node} node the node to insert
+ * @param {Node=} child the node that should become the `nextSibling` of `node`
+ * @returns {Node}
+ * @throws DOMException for several node combinations that would create a DOM that is not well-formed.
+ * @throws DOMException if `child` is provided but is not a child of `parent`.
+ * @see https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+ * @see https://dom.spec.whatwg.org/#concept-node-replace
+ */
+function assertPreInsertionValidity1to5(parent, node, child) {
+	// 1. If `parent` is not a Document, DocumentFragment, or Element node, then throw a "HierarchyRequestError" DOMException.
+	if (!hasValidParentNodeType(parent)) {
+		throw new DOMException(HIERARCHY_REQUEST_ERR, 'Unexpected parent node type ' + parent.nodeType);
+	}
+	// 2. If `node` is a host-including inclusive ancestor of `parent`, then throw a "HierarchyRequestError" DOMException.
+	// not implemented!
+	// 3. If `child` is non-null and its parent is not `parent`, then throw a "NotFoundError" DOMException.
+	if (child && child.parentNode !== parent) {
+		throw new DOMException(NOT_FOUND_ERR, 'child not in parent');
+	}
+	if (
+		// 4. If `node` is not a DocumentFragment, DocumentType, Element, or CharacterData node, then throw a "HierarchyRequestError" DOMException.
+		!hasInsertableNodeType(node) ||
+		// 5. If either `node` is a Text node and `parent` is a document,
+		// the sax parser currently adds top level text nodes, this will be fixed in 0.9.0
+		// || (node.nodeType === Node.TEXT_NODE && parent.nodeType === Node.DOCUMENT_NODE)
+		// or `node` is a doctype and `parent` is not a document, then throw a "HierarchyRequestError" DOMException.
+		(isDocTypeNode(node) && parent.nodeType !== Node.DOCUMENT_NODE)
+	) {
+		throw new DOMException(
+			HIERARCHY_REQUEST_ERR,
+			'Unexpected node type ' + node.nodeType + ' for parent node type ' + parent.nodeType
+		);
+	}
+}
+
+/**
+ * @private
+ * Step 6 of the checks before inserting and before replacing a child are different.
+ *
+ * @param {Document} parent the parent node to insert `node` into
+ * @param {Node} node the node to insert
+ * @param {Node | undefined} child the node that should become the `nextSibling` of `node`
+ * @returns {Node}
+ * @throws DOMException for several node combinations that would create a DOM that is not well-formed.
+ * @throws DOMException if `child` is provided but is not a child of `parent`.
+ * @see https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+ * @see https://dom.spec.whatwg.org/#concept-node-replace
+ */
+function assertPreInsertionValidityInDocument(parent, node, child) {
+	var parentChildNodes = parent.childNodes || [];
+	var nodeChildNodes = node.childNodes || [];
+
+	// DocumentFragment
+	if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+		var nodeChildElements = nodeChildNodes.filter(isElementNode);
+		// If node has more than one element child or has a Text node child.
+		if (nodeChildElements.length > 1 || find(nodeChildNodes, isTextNode)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'More than one element or text in fragment');
 		}
-		var newLast = newChild.lastChild;
-	}else{
-		newFirst = newLast = newChild;
+		// Otherwise, if `node` has one element child and either `parent` has an element child,
+		// `child` is a doctype, or `child` is non-null and a doctype is following `child`.
+		if (nodeChildElements.length === 1 && !isElementInsertionPossible(parent, child)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Element in fragment can not be inserted before doctype');
+		}
 	}
-	var pre = nextChild ? nextChild.previousSibling : parentNode.lastChild;
+	// Element
+	if (isElementNode(node)) {
+		// `parent` has an element child, `child` is a doctype,
+		// or `child` is non-null and a doctype is following `child`.
+		if (!isElementInsertionPossible(parent, child)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Only one element can be added and only after doctype');
+		}
+	}
+	// DocumentType
+	if (isDocTypeNode(node)) {
+		// `parent` has a doctype child,
+		if (find(parentChildNodes, isDocTypeNode)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Only one doctype is allowed');
+		}
+		var parentElementChild = find(parentChildNodes, isElementNode);
+		// `child` is non-null and an element is preceding `child`,
+		if (child && parentChildNodes.indexOf(parentElementChild) < parentChildNodes.indexOf(child)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Doctype can only be inserted before an element');
+		}
+		// or `child` is null and `parent` has an element child.
+		if (!child && parentElementChild) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Doctype can not be appended since element is present');
+		}
+	}
+}
+
+/**
+ * @private
+ * Step 6 of the checks before inserting and before replacing a child are different.
+ *
+ * @param {Document} parent the parent node to insert `node` into
+ * @param {Node} node the node to insert
+ * @param {Node | undefined} child the node that should become the `nextSibling` of `node`
+ * @returns {Node}
+ * @throws DOMException for several node combinations that would create a DOM that is not well-formed.
+ * @throws DOMException if `child` is provided but is not a child of `parent`.
+ * @see https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+ * @see https://dom.spec.whatwg.org/#concept-node-replace
+ */
+function assertPreReplacementValidityInDocument(parent, node, child) {
+	var parentChildNodes = parent.childNodes || [];
+	var nodeChildNodes = node.childNodes || [];
+
+	// DocumentFragment
+	if (node.nodeType === Node.DOCUMENT_FRAGMENT_NODE) {
+		var nodeChildElements = nodeChildNodes.filter(isElementNode);
+		// If `node` has more than one element child or has a Text node child.
+		if (nodeChildElements.length > 1 || find(nodeChildNodes, isTextNode)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'More than one element or text in fragment');
+		}
+		// Otherwise, if `node` has one element child and either `parent` has an element child that is not `child` or a doctype is following `child`.
+		if (nodeChildElements.length === 1 && !isElementReplacementPossible(parent, child)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Element in fragment can not be inserted before doctype');
+		}
+	}
+	// Element
+	if (isElementNode(node)) {
+		// `parent` has an element child that is not `child` or a doctype is following `child`.
+		if (!isElementReplacementPossible(parent, child)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Only one element can be added and only after doctype');
+		}
+	}
+	// DocumentType
+	if (isDocTypeNode(node)) {
+		function hasDoctypeChildThatIsNotChild(node) {
+			return isDocTypeNode(node) && node !== child;
+		}
+
+		// `parent` has a doctype child that is not `child`,
+		if (find(parentChildNodes, hasDoctypeChildThatIsNotChild)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Only one doctype is allowed');
+		}
+		var parentElementChild = find(parentChildNodes, isElementNode);
+		// or an element is preceding `child`.
+		if (child && parentChildNodes.indexOf(parentElementChild) < parentChildNodes.indexOf(child)) {
+			throw new DOMException(HIERARCHY_REQUEST_ERR, 'Doctype can only be inserted before an element');
+		}
+	}
+}
+
+/**
+ * @private
+ * @param {Node} parent the parent node to insert `node` into
+ * @param {Node} node the node to insert
+ * @param {Node=} child the node that should become the `nextSibling` of `node`
+ * @returns {Node}
+ * @throws DOMException for several node combinations that would create a DOM that is not well-formed.
+ * @throws DOMException if `child` is provided but is not a child of `parent`.
+ * @see https://dom.spec.whatwg.org/#concept-node-ensure-pre-insertion-validity
+ */
+function _insertBefore(parent, node, child, _inDocumentAssertion) {
+	// To ensure pre-insertion validity of a node into a parent before a child, run these steps:
+	assertPreInsertionValidity1to5(parent, node, child);
+
+	// If parent is a document, and any of the statements below, switched on the interface node implements,
+	// are true, then throw a "HierarchyRequestError" DOMException.
+	if (parent.nodeType === Node.DOCUMENT_NODE) {
+		(_inDocumentAssertion || assertPreInsertionValidityInDocument)(parent, node, child);
+	}
+
+	var cp = node.parentNode;
+	if(cp){
+		cp.removeChild(node);//remove and update
+	}
+	if(node.nodeType === DOCUMENT_FRAGMENT_NODE){
+		var newFirst = node.firstChild;
+		if (newFirst == null) {
+			return node;
+		}
+		var newLast = node.lastChild;
+	}else{
+		newFirst = newLast = node;
+	}
+	var pre = child ? child.previousSibling : parent.lastChild;
 
 	newFirst.previousSibling = pre;
-	newLast.nextSibling = nextChild;
-	
-	
+	newLast.nextSibling = child;
+
+
 	if(pre){
 		pre.nextSibling = newFirst;
 	}else{
-		parentNode.firstChild = newFirst;
+		parent.firstChild = newFirst;
 	}
-	if(nextChild == null){
-		parentNode.lastChild = newLast;
+	if(child == null){
+		parent.lastChild = newLast;
 	}else{
-		nextChild.previousSibling = newLast;
+		child.previousSibling = newLast;
 	}
 	do{
-		newFirst.parentNode = parentNode;
+		newFirst.parentNode = parent;
 	}while(newFirst !== newLast && (newFirst= newFirst.nextSibling))
-	_onUpdateChild(parentNode.ownerDocument||parentNode,parentNode);
-	//console.log(parentNode.lastChild.nextSibling == null)
-	if (newChild.nodeType == DOCUMENT_FRAGMENT_NODE) {
-		newChild.firstChild = newChild.lastChild = null;
+	_onUpdateChild(parent.ownerDocument||parent, parent);
+	//console.log(parent.lastChild.nextSibling == null)
+	if (node.nodeType == DOCUMENT_FRAGMENT_NODE) {
+		node.firstChild = node.lastChild = null;
 	}
-	return newChild;
+	return node;
 }
 function _appendSingleChild(parentNode,newChild){
-	var cp = newChild.parentNode;
-	if(cp){
-		var pre = parentNode.lastChild;
-		cp.removeChild(newChild);//remove and update
-		var pre = parentNode.lastChild;
+	if (newChild.parentNode) {
+		newChild.parentNode.removeChild(newChild);
 	}
-	var pre = parentNode.lastChild;
 	newChild.parentNode = parentNode;
-	newChild.previousSibling = pre;
+	newChild.previousSibling = parentNode.lastChild;
 	newChild.nextSibling = null;
-	if(pre){
-		pre.nextSibling = newChild;
+	if (newChild.previousSibling) {
+		newChild.previousSibling.nextSibling = newChild;
 	}else{
 		parentNode.firstChild = newChild;
 	}
 	parentNode.lastChild = newChild;
 	_onUpdateChild(parentNode.ownerDocument,parentNode,newChild);
 	return newChild;
-	//console.log("__aa",parentNode.lastChild.nextSibling == null)
 }
+
 Document.prototype = {
 	//implementation : null,
 	nodeName :  '#document',
@@ -15622,17 +15948,30 @@ Document.prototype = {
 			}
 			return newChild;
 		}
-		if(this.documentElement == null && newChild.nodeType == ELEMENT_NODE){
+		_insertBefore(this, newChild, refChild);
+		newChild.ownerDocument = this;
+		if (this.documentElement === null && newChild.nodeType === ELEMENT_NODE) {
 			this.documentElement = newChild;
 		}
 
-		return _insertBefore(this,newChild,refChild),(newChild.ownerDocument = this),newChild;
+		return newChild;
 	},
 	removeChild :  function(oldChild){
 		if(this.documentElement == oldChild){
 			this.documentElement = null;
 		}
 		return _removeChild(this,oldChild);
+	},
+	replaceChild: function (newChild, oldChild) {
+		//raises
+		_insertBefore(this, newChild, oldChild, assertPreReplacementValidityInDocument);
+		newChild.ownerDocument = this;
+		if (oldChild) {
+			this.removeChild(oldChild);
+		}
+		if (isElementNode(newChild)) {
+			this.documentElement = newChild;
+		}
 	},
 	// Introduced in DOM Level 2:
 	importNode : function(importedNode,deep){
@@ -15735,8 +16074,8 @@ Document.prototype = {
 	createProcessingInstruction :	function(target,data){
 		var node = new ProcessingInstruction();
 		node.ownerDocument = this;
-		node.tagName = node.target = target;
-		node.nodeValue= node.data = data;
+		node.tagName = node.nodeName = node.target = target;
+		node.nodeValue = node.data = data;
 		return node;
 	},
 	createAttribute :	function(name){
@@ -15820,7 +16159,7 @@ Element.prototype = {
 		var attr = this.getAttributeNode(name)
 		attr && this.removeAttributeNode(attr);
 	},
-	
+
 	//four real opeartion method
 	appendChild:function(newChild){
 		if(newChild.nodeType === DOCUMENT_FRAGMENT_NODE){
@@ -15844,7 +16183,7 @@ Element.prototype = {
 		var old = this.getAttributeNodeNS(namespaceURI, localName);
 		old && this.removeAttributeNode(old);
 	},
-	
+
 	hasAttributeNS : function(namespaceURI, localName){
 		return this.getAttributeNodeNS(namespaceURI, localName)!=null;
 	},
@@ -15860,7 +16199,7 @@ Element.prototype = {
 	getAttributeNodeNS : function(namespaceURI, localName){
 		return this.attributes.getNamedItemNS(namespaceURI, localName);
 	},
-	
+
 	getElementsByTagName : function(tagName){
 		return new LiveNodeList(this,function(base){
 			var ls = [];
@@ -15881,7 +16220,7 @@ Element.prototype = {
 				}
 			});
 			return ls;
-			
+
 		});
 	}
 };
@@ -15910,7 +16249,7 @@ CharacterData.prototype = {
 	},
 	insertData: function(offset,text) {
 		this.replaceData(offset,0,text);
-	
+
 	},
 	appendChild:function(newChild){
 		throw new Error(ExceptionMessage[HIERARCHY_REQUEST_ERR])
@@ -16004,7 +16343,7 @@ function nodeSerializeToString(isHtml,nodeFilter){
 	var refNode = this.nodeType == 9 && this.documentElement || this;
 	var prefix = refNode.prefix;
 	var uri = refNode.namespaceURI;
-	
+
 	if(uri && prefix == null){
 		//console.log(prefix)
 		var prefix = refNode.lookupPrefix(uri);
@@ -16037,8 +16376,8 @@ function needNamespaceDefine(node, isHTML, visibleNamespaces) {
 	if (prefix === "xml" && uri === NAMESPACE.XML || uri === NAMESPACE.XMLNS) {
 		return false;
 	}
-	
-	var i = visibleNamespaces.length 
+
+	var i = visibleNamespaces.length
 	while (i--) {
 		var ns = visibleNamespaces[i];
 		// get namespace prefix
@@ -16082,7 +16421,7 @@ function serializeToString(node,buf,isHTML,nodeFilter,visibleNamespaces){
 		var len = attrs.length;
 		var child = node.firstChild;
 		var nodeName = node.tagName;
-		
+
 		isHTML = NAMESPACE.isHTML(node.namespaceURI) || isHTML
 
 		var prefixedNodeName = nodeName
@@ -16141,14 +16480,14 @@ function serializeToString(node,buf,isHTML,nodeFilter,visibleNamespaces){
 			serializeToString(attr,buf,isHTML,nodeFilter,visibleNamespaces);
 		}
 
-		// add namespace for current node		
+		// add namespace for current node
 		if (nodeName === prefixedNodeName && needNamespaceDefine(node, isHTML, visibleNamespaces)) {
 			var prefix = node.prefix||'';
 			var uri = node.namespaceURI;
 			addSerializedAttribute(buf, prefix ? 'xmlns:' + prefix : "xmlns", uri);
 			visibleNamespaces.push({ prefix: prefix, namespace:uri });
 		}
-		
+
 		if(child || isHTML && !/^(?:meta|link|img|br|hr|input)$/i.test(nodeName)){
 			buf.push('>');
 			//if is cdata child node
@@ -16289,11 +16628,13 @@ function importNode(doc,node,deep){
 //					attributes:1,childNodes:1,parentNode:1,documentElement:1,doctype,};
 function cloneNode(doc,node,deep){
 	var node2 = new node.constructor();
-	for(var n in node){
-		var v = node[n];
-		if(typeof v != 'object' ){
-			if(v != node2[n]){
-				node2[n] = v;
+	for (var n in node) {
+		if (Object.prototype.hasOwnProperty.call(node, n)) {
+			var v = node[n];
+			if (typeof v != "object") {
+				if (v != node2[n]) {
+					node2[n] = v;
+				}
 			}
 		}
 	}
@@ -16361,7 +16702,7 @@ try{
 				}
 			}
 		})
-		
+
 		function getTextContent(node){
 			switch(node.nodeType){
 			case ELEMENT_NODE:
@@ -16399,13 +16740,16 @@ try{
 //}
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@xmldom/xmldom/lib/entities.js":
+/***/ "./node_modules/@xmldom/xmldom/lib/entities.js"
 /*!*****************************************************!*\
   !*** ./node_modules/@xmldom/xmldom/lib/entities.js ***!
   \*****************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+
 
 var freeze = (__webpack_require__(/*! ./conventions */ "./node_modules/@xmldom/xmldom/lib/conventions.js").freeze);
 
@@ -16416,279 +16760,2170 @@ var freeze = (__webpack_require__(/*! ./conventions */ "./node_modules/@xmldom/x
  * @see https://www.w3.org/TR/2008/REC-xml-20081126/#sec-predefined-ent W3C XML 1.0
  * @see https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML Wikipedia
  */
-exports.XML_ENTITIES = freeze({amp:'&', apos:"'", gt:'>', lt:'<', quot:'"'})
+exports.XML_ENTITIES = freeze({
+	amp: '&',
+	apos: "'",
+	gt: '>',
+	lt: '<',
+	quot: '"',
+});
 
 /**
- * A map of currently 241 entities that are detected in an HTML document.
+ * A map of all entities that are detected in an HTML document.
  * They contain all entries from `XML_ENTITIES`.
  *
  * @see XML_ENTITIES
  * @see DOMParser.parseFromString
  * @see DOMImplementation.prototype.createHTMLDocument
  * @see https://html.spec.whatwg.org/#named-character-references WHATWG HTML(5) Spec
+ * @see https://html.spec.whatwg.org/entities.json JSON
  * @see https://www.w3.org/TR/xml-entity-names/ W3C XML Entity Names
  * @see https://www.w3.org/TR/html4/sgml/entities.html W3C HTML4/SGML
  * @see https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML Wikipedia (HTML)
  * @see https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Entities_representing_special_characters_in_XHTML Wikpedia (XHTML)
  */
 exports.HTML_ENTITIES = freeze({
-       lt: '<',
-       gt: '>',
-       amp: '&',
-       quot: '"',
-       apos: "'",
-       Agrave: "À",
-       Aacute: "Á",
-       Acirc: "Â",
-       Atilde: "Ã",
-       Auml: "Ä",
-       Aring: "Å",
-       AElig: "Æ",
-       Ccedil: "Ç",
-       Egrave: "È",
-       Eacute: "É",
-       Ecirc: "Ê",
-       Euml: "Ë",
-       Igrave: "Ì",
-       Iacute: "Í",
-       Icirc: "Î",
-       Iuml: "Ï",
-       ETH: "Ð",
-       Ntilde: "Ñ",
-       Ograve: "Ò",
-       Oacute: "Ó",
-       Ocirc: "Ô",
-       Otilde: "Õ",
-       Ouml: "Ö",
-       Oslash: "Ø",
-       Ugrave: "Ù",
-       Uacute: "Ú",
-       Ucirc: "Û",
-       Uuml: "Ü",
-       Yacute: "Ý",
-       THORN: "Þ",
-       szlig: "ß",
-       agrave: "à",
-       aacute: "á",
-       acirc: "â",
-       atilde: "ã",
-       auml: "ä",
-       aring: "å",
-       aelig: "æ",
-       ccedil: "ç",
-       egrave: "è",
-       eacute: "é",
-       ecirc: "ê",
-       euml: "ë",
-       igrave: "ì",
-       iacute: "í",
-       icirc: "î",
-       iuml: "ï",
-       eth: "ð",
-       ntilde: "ñ",
-       ograve: "ò",
-       oacute: "ó",
-       ocirc: "ô",
-       otilde: "õ",
-       ouml: "ö",
-       oslash: "ø",
-       ugrave: "ù",
-       uacute: "ú",
-       ucirc: "û",
-       uuml: "ü",
-       yacute: "ý",
-       thorn: "þ",
-       yuml: "ÿ",
-       nbsp: "\u00a0",
-       iexcl: "¡",
-       cent: "¢",
-       pound: "£",
-       curren: "¤",
-       yen: "¥",
-       brvbar: "¦",
-       sect: "§",
-       uml: "¨",
-       copy: "©",
-       ordf: "ª",
-       laquo: "«",
-       not: "¬",
-       shy: "­­",
-       reg: "®",
-       macr: "¯",
-       deg: "°",
-       plusmn: "±",
-       sup2: "²",
-       sup3: "³",
-       acute: "´",
-       micro: "µ",
-       para: "¶",
-       middot: "·",
-       cedil: "¸",
-       sup1: "¹",
-       ordm: "º",
-       raquo: "»",
-       frac14: "¼",
-       frac12: "½",
-       frac34: "¾",
-       iquest: "¿",
-       times: "×",
-       divide: "÷",
-       forall: "∀",
-       part: "∂",
-       exist: "∃",
-       empty: "∅",
-       nabla: "∇",
-       isin: "∈",
-       notin: "∉",
-       ni: "∋",
-       prod: "∏",
-       sum: "∑",
-       minus: "−",
-       lowast: "∗",
-       radic: "√",
-       prop: "∝",
-       infin: "∞",
-       ang: "∠",
-       and: "∧",
-       or: "∨",
-       cap: "∩",
-       cup: "∪",
-       'int': "∫",
-       there4: "∴",
-       sim: "∼",
-       cong: "≅",
-       asymp: "≈",
-       ne: "≠",
-       equiv: "≡",
-       le: "≤",
-       ge: "≥",
-       sub: "⊂",
-       sup: "⊃",
-       nsub: "⊄",
-       sube: "⊆",
-       supe: "⊇",
-       oplus: "⊕",
-       otimes: "⊗",
-       perp: "⊥",
-       sdot: "⋅",
-       Alpha: "Α",
-       Beta: "Β",
-       Gamma: "Γ",
-       Delta: "Δ",
-       Epsilon: "Ε",
-       Zeta: "Ζ",
-       Eta: "Η",
-       Theta: "Θ",
-       Iota: "Ι",
-       Kappa: "Κ",
-       Lambda: "Λ",
-       Mu: "Μ",
-       Nu: "Ν",
-       Xi: "Ξ",
-       Omicron: "Ο",
-       Pi: "Π",
-       Rho: "Ρ",
-       Sigma: "Σ",
-       Tau: "Τ",
-       Upsilon: "Υ",
-       Phi: "Φ",
-       Chi: "Χ",
-       Psi: "Ψ",
-       Omega: "Ω",
-       alpha: "α",
-       beta: "β",
-       gamma: "γ",
-       delta: "δ",
-       epsilon: "ε",
-       zeta: "ζ",
-       eta: "η",
-       theta: "θ",
-       iota: "ι",
-       kappa: "κ",
-       lambda: "λ",
-       mu: "μ",
-       nu: "ν",
-       xi: "ξ",
-       omicron: "ο",
-       pi: "π",
-       rho: "ρ",
-       sigmaf: "ς",
-       sigma: "σ",
-       tau: "τ",
-       upsilon: "υ",
-       phi: "φ",
-       chi: "χ",
-       psi: "ψ",
-       omega: "ω",
-       thetasym: "ϑ",
-       upsih: "ϒ",
-       piv: "ϖ",
-       OElig: "Œ",
-       oelig: "œ",
-       Scaron: "Š",
-       scaron: "š",
-       Yuml: "Ÿ",
-       fnof: "ƒ",
-       circ: "ˆ",
-       tilde: "˜",
-       ensp: " ",
-       emsp: " ",
-       thinsp: " ",
-       zwnj: "‌",
-       zwj: "‍",
-       lrm: "‎",
-       rlm: "‏",
-       ndash: "–",
-       mdash: "—",
-       lsquo: "‘",
-       rsquo: "’",
-       sbquo: "‚",
-       ldquo: "“",
-       rdquo: "”",
-       bdquo: "„",
-       dagger: "†",
-       Dagger: "‡",
-       bull: "•",
-       hellip: "…",
-       permil: "‰",
-       prime: "′",
-       Prime: "″",
-       lsaquo: "‹",
-       rsaquo: "›",
-       oline: "‾",
-       euro: "€",
-       trade: "™",
-       larr: "←",
-       uarr: "↑",
-       rarr: "→",
-       darr: "↓",
-       harr: "↔",
-       crarr: "↵",
-       lceil: "⌈",
-       rceil: "⌉",
-       lfloor: "⌊",
-       rfloor: "⌋",
-       loz: "◊",
-       spades: "♠",
-       clubs: "♣",
-       hearts: "♥",
-       diams: "♦"
+	Aacute: '\u00C1',
+	aacute: '\u00E1',
+	Abreve: '\u0102',
+	abreve: '\u0103',
+	ac: '\u223E',
+	acd: '\u223F',
+	acE: '\u223E\u0333',
+	Acirc: '\u00C2',
+	acirc: '\u00E2',
+	acute: '\u00B4',
+	Acy: '\u0410',
+	acy: '\u0430',
+	AElig: '\u00C6',
+	aelig: '\u00E6',
+	af: '\u2061',
+	Afr: '\uD835\uDD04',
+	afr: '\uD835\uDD1E',
+	Agrave: '\u00C0',
+	agrave: '\u00E0',
+	alefsym: '\u2135',
+	aleph: '\u2135',
+	Alpha: '\u0391',
+	alpha: '\u03B1',
+	Amacr: '\u0100',
+	amacr: '\u0101',
+	amalg: '\u2A3F',
+	AMP: '\u0026',
+	amp: '\u0026',
+	And: '\u2A53',
+	and: '\u2227',
+	andand: '\u2A55',
+	andd: '\u2A5C',
+	andslope: '\u2A58',
+	andv: '\u2A5A',
+	ang: '\u2220',
+	ange: '\u29A4',
+	angle: '\u2220',
+	angmsd: '\u2221',
+	angmsdaa: '\u29A8',
+	angmsdab: '\u29A9',
+	angmsdac: '\u29AA',
+	angmsdad: '\u29AB',
+	angmsdae: '\u29AC',
+	angmsdaf: '\u29AD',
+	angmsdag: '\u29AE',
+	angmsdah: '\u29AF',
+	angrt: '\u221F',
+	angrtvb: '\u22BE',
+	angrtvbd: '\u299D',
+	angsph: '\u2222',
+	angst: '\u00C5',
+	angzarr: '\u237C',
+	Aogon: '\u0104',
+	aogon: '\u0105',
+	Aopf: '\uD835\uDD38',
+	aopf: '\uD835\uDD52',
+	ap: '\u2248',
+	apacir: '\u2A6F',
+	apE: '\u2A70',
+	ape: '\u224A',
+	apid: '\u224B',
+	apos: '\u0027',
+	ApplyFunction: '\u2061',
+	approx: '\u2248',
+	approxeq: '\u224A',
+	Aring: '\u00C5',
+	aring: '\u00E5',
+	Ascr: '\uD835\uDC9C',
+	ascr: '\uD835\uDCB6',
+	Assign: '\u2254',
+	ast: '\u002A',
+	asymp: '\u2248',
+	asympeq: '\u224D',
+	Atilde: '\u00C3',
+	atilde: '\u00E3',
+	Auml: '\u00C4',
+	auml: '\u00E4',
+	awconint: '\u2233',
+	awint: '\u2A11',
+	backcong: '\u224C',
+	backepsilon: '\u03F6',
+	backprime: '\u2035',
+	backsim: '\u223D',
+	backsimeq: '\u22CD',
+	Backslash: '\u2216',
+	Barv: '\u2AE7',
+	barvee: '\u22BD',
+	Barwed: '\u2306',
+	barwed: '\u2305',
+	barwedge: '\u2305',
+	bbrk: '\u23B5',
+	bbrktbrk: '\u23B6',
+	bcong: '\u224C',
+	Bcy: '\u0411',
+	bcy: '\u0431',
+	bdquo: '\u201E',
+	becaus: '\u2235',
+	Because: '\u2235',
+	because: '\u2235',
+	bemptyv: '\u29B0',
+	bepsi: '\u03F6',
+	bernou: '\u212C',
+	Bernoullis: '\u212C',
+	Beta: '\u0392',
+	beta: '\u03B2',
+	beth: '\u2136',
+	between: '\u226C',
+	Bfr: '\uD835\uDD05',
+	bfr: '\uD835\uDD1F',
+	bigcap: '\u22C2',
+	bigcirc: '\u25EF',
+	bigcup: '\u22C3',
+	bigodot: '\u2A00',
+	bigoplus: '\u2A01',
+	bigotimes: '\u2A02',
+	bigsqcup: '\u2A06',
+	bigstar: '\u2605',
+	bigtriangledown: '\u25BD',
+	bigtriangleup: '\u25B3',
+	biguplus: '\u2A04',
+	bigvee: '\u22C1',
+	bigwedge: '\u22C0',
+	bkarow: '\u290D',
+	blacklozenge: '\u29EB',
+	blacksquare: '\u25AA',
+	blacktriangle: '\u25B4',
+	blacktriangledown: '\u25BE',
+	blacktriangleleft: '\u25C2',
+	blacktriangleright: '\u25B8',
+	blank: '\u2423',
+	blk12: '\u2592',
+	blk14: '\u2591',
+	blk34: '\u2593',
+	block: '\u2588',
+	bne: '\u003D\u20E5',
+	bnequiv: '\u2261\u20E5',
+	bNot: '\u2AED',
+	bnot: '\u2310',
+	Bopf: '\uD835\uDD39',
+	bopf: '\uD835\uDD53',
+	bot: '\u22A5',
+	bottom: '\u22A5',
+	bowtie: '\u22C8',
+	boxbox: '\u29C9',
+	boxDL: '\u2557',
+	boxDl: '\u2556',
+	boxdL: '\u2555',
+	boxdl: '\u2510',
+	boxDR: '\u2554',
+	boxDr: '\u2553',
+	boxdR: '\u2552',
+	boxdr: '\u250C',
+	boxH: '\u2550',
+	boxh: '\u2500',
+	boxHD: '\u2566',
+	boxHd: '\u2564',
+	boxhD: '\u2565',
+	boxhd: '\u252C',
+	boxHU: '\u2569',
+	boxHu: '\u2567',
+	boxhU: '\u2568',
+	boxhu: '\u2534',
+	boxminus: '\u229F',
+	boxplus: '\u229E',
+	boxtimes: '\u22A0',
+	boxUL: '\u255D',
+	boxUl: '\u255C',
+	boxuL: '\u255B',
+	boxul: '\u2518',
+	boxUR: '\u255A',
+	boxUr: '\u2559',
+	boxuR: '\u2558',
+	boxur: '\u2514',
+	boxV: '\u2551',
+	boxv: '\u2502',
+	boxVH: '\u256C',
+	boxVh: '\u256B',
+	boxvH: '\u256A',
+	boxvh: '\u253C',
+	boxVL: '\u2563',
+	boxVl: '\u2562',
+	boxvL: '\u2561',
+	boxvl: '\u2524',
+	boxVR: '\u2560',
+	boxVr: '\u255F',
+	boxvR: '\u255E',
+	boxvr: '\u251C',
+	bprime: '\u2035',
+	Breve: '\u02D8',
+	breve: '\u02D8',
+	brvbar: '\u00A6',
+	Bscr: '\u212C',
+	bscr: '\uD835\uDCB7',
+	bsemi: '\u204F',
+	bsim: '\u223D',
+	bsime: '\u22CD',
+	bsol: '\u005C',
+	bsolb: '\u29C5',
+	bsolhsub: '\u27C8',
+	bull: '\u2022',
+	bullet: '\u2022',
+	bump: '\u224E',
+	bumpE: '\u2AAE',
+	bumpe: '\u224F',
+	Bumpeq: '\u224E',
+	bumpeq: '\u224F',
+	Cacute: '\u0106',
+	cacute: '\u0107',
+	Cap: '\u22D2',
+	cap: '\u2229',
+	capand: '\u2A44',
+	capbrcup: '\u2A49',
+	capcap: '\u2A4B',
+	capcup: '\u2A47',
+	capdot: '\u2A40',
+	CapitalDifferentialD: '\u2145',
+	caps: '\u2229\uFE00',
+	caret: '\u2041',
+	caron: '\u02C7',
+	Cayleys: '\u212D',
+	ccaps: '\u2A4D',
+	Ccaron: '\u010C',
+	ccaron: '\u010D',
+	Ccedil: '\u00C7',
+	ccedil: '\u00E7',
+	Ccirc: '\u0108',
+	ccirc: '\u0109',
+	Cconint: '\u2230',
+	ccups: '\u2A4C',
+	ccupssm: '\u2A50',
+	Cdot: '\u010A',
+	cdot: '\u010B',
+	cedil: '\u00B8',
+	Cedilla: '\u00B8',
+	cemptyv: '\u29B2',
+	cent: '\u00A2',
+	CenterDot: '\u00B7',
+	centerdot: '\u00B7',
+	Cfr: '\u212D',
+	cfr: '\uD835\uDD20',
+	CHcy: '\u0427',
+	chcy: '\u0447',
+	check: '\u2713',
+	checkmark: '\u2713',
+	Chi: '\u03A7',
+	chi: '\u03C7',
+	cir: '\u25CB',
+	circ: '\u02C6',
+	circeq: '\u2257',
+	circlearrowleft: '\u21BA',
+	circlearrowright: '\u21BB',
+	circledast: '\u229B',
+	circledcirc: '\u229A',
+	circleddash: '\u229D',
+	CircleDot: '\u2299',
+	circledR: '\u00AE',
+	circledS: '\u24C8',
+	CircleMinus: '\u2296',
+	CirclePlus: '\u2295',
+	CircleTimes: '\u2297',
+	cirE: '\u29C3',
+	cire: '\u2257',
+	cirfnint: '\u2A10',
+	cirmid: '\u2AEF',
+	cirscir: '\u29C2',
+	ClockwiseContourIntegral: '\u2232',
+	CloseCurlyDoubleQuote: '\u201D',
+	CloseCurlyQuote: '\u2019',
+	clubs: '\u2663',
+	clubsuit: '\u2663',
+	Colon: '\u2237',
+	colon: '\u003A',
+	Colone: '\u2A74',
+	colone: '\u2254',
+	coloneq: '\u2254',
+	comma: '\u002C',
+	commat: '\u0040',
+	comp: '\u2201',
+	compfn: '\u2218',
+	complement: '\u2201',
+	complexes: '\u2102',
+	cong: '\u2245',
+	congdot: '\u2A6D',
+	Congruent: '\u2261',
+	Conint: '\u222F',
+	conint: '\u222E',
+	ContourIntegral: '\u222E',
+	Copf: '\u2102',
+	copf: '\uD835\uDD54',
+	coprod: '\u2210',
+	Coproduct: '\u2210',
+	COPY: '\u00A9',
+	copy: '\u00A9',
+	copysr: '\u2117',
+	CounterClockwiseContourIntegral: '\u2233',
+	crarr: '\u21B5',
+	Cross: '\u2A2F',
+	cross: '\u2717',
+	Cscr: '\uD835\uDC9E',
+	cscr: '\uD835\uDCB8',
+	csub: '\u2ACF',
+	csube: '\u2AD1',
+	csup: '\u2AD0',
+	csupe: '\u2AD2',
+	ctdot: '\u22EF',
+	cudarrl: '\u2938',
+	cudarrr: '\u2935',
+	cuepr: '\u22DE',
+	cuesc: '\u22DF',
+	cularr: '\u21B6',
+	cularrp: '\u293D',
+	Cup: '\u22D3',
+	cup: '\u222A',
+	cupbrcap: '\u2A48',
+	CupCap: '\u224D',
+	cupcap: '\u2A46',
+	cupcup: '\u2A4A',
+	cupdot: '\u228D',
+	cupor: '\u2A45',
+	cups: '\u222A\uFE00',
+	curarr: '\u21B7',
+	curarrm: '\u293C',
+	curlyeqprec: '\u22DE',
+	curlyeqsucc: '\u22DF',
+	curlyvee: '\u22CE',
+	curlywedge: '\u22CF',
+	curren: '\u00A4',
+	curvearrowleft: '\u21B6',
+	curvearrowright: '\u21B7',
+	cuvee: '\u22CE',
+	cuwed: '\u22CF',
+	cwconint: '\u2232',
+	cwint: '\u2231',
+	cylcty: '\u232D',
+	Dagger: '\u2021',
+	dagger: '\u2020',
+	daleth: '\u2138',
+	Darr: '\u21A1',
+	dArr: '\u21D3',
+	darr: '\u2193',
+	dash: '\u2010',
+	Dashv: '\u2AE4',
+	dashv: '\u22A3',
+	dbkarow: '\u290F',
+	dblac: '\u02DD',
+	Dcaron: '\u010E',
+	dcaron: '\u010F',
+	Dcy: '\u0414',
+	dcy: '\u0434',
+	DD: '\u2145',
+	dd: '\u2146',
+	ddagger: '\u2021',
+	ddarr: '\u21CA',
+	DDotrahd: '\u2911',
+	ddotseq: '\u2A77',
+	deg: '\u00B0',
+	Del: '\u2207',
+	Delta: '\u0394',
+	delta: '\u03B4',
+	demptyv: '\u29B1',
+	dfisht: '\u297F',
+	Dfr: '\uD835\uDD07',
+	dfr: '\uD835\uDD21',
+	dHar: '\u2965',
+	dharl: '\u21C3',
+	dharr: '\u21C2',
+	DiacriticalAcute: '\u00B4',
+	DiacriticalDot: '\u02D9',
+	DiacriticalDoubleAcute: '\u02DD',
+	DiacriticalGrave: '\u0060',
+	DiacriticalTilde: '\u02DC',
+	diam: '\u22C4',
+	Diamond: '\u22C4',
+	diamond: '\u22C4',
+	diamondsuit: '\u2666',
+	diams: '\u2666',
+	die: '\u00A8',
+	DifferentialD: '\u2146',
+	digamma: '\u03DD',
+	disin: '\u22F2',
+	div: '\u00F7',
+	divide: '\u00F7',
+	divideontimes: '\u22C7',
+	divonx: '\u22C7',
+	DJcy: '\u0402',
+	djcy: '\u0452',
+	dlcorn: '\u231E',
+	dlcrop: '\u230D',
+	dollar: '\u0024',
+	Dopf: '\uD835\uDD3B',
+	dopf: '\uD835\uDD55',
+	Dot: '\u00A8',
+	dot: '\u02D9',
+	DotDot: '\u20DC',
+	doteq: '\u2250',
+	doteqdot: '\u2251',
+	DotEqual: '\u2250',
+	dotminus: '\u2238',
+	dotplus: '\u2214',
+	dotsquare: '\u22A1',
+	doublebarwedge: '\u2306',
+	DoubleContourIntegral: '\u222F',
+	DoubleDot: '\u00A8',
+	DoubleDownArrow: '\u21D3',
+	DoubleLeftArrow: '\u21D0',
+	DoubleLeftRightArrow: '\u21D4',
+	DoubleLeftTee: '\u2AE4',
+	DoubleLongLeftArrow: '\u27F8',
+	DoubleLongLeftRightArrow: '\u27FA',
+	DoubleLongRightArrow: '\u27F9',
+	DoubleRightArrow: '\u21D2',
+	DoubleRightTee: '\u22A8',
+	DoubleUpArrow: '\u21D1',
+	DoubleUpDownArrow: '\u21D5',
+	DoubleVerticalBar: '\u2225',
+	DownArrow: '\u2193',
+	Downarrow: '\u21D3',
+	downarrow: '\u2193',
+	DownArrowBar: '\u2913',
+	DownArrowUpArrow: '\u21F5',
+	DownBreve: '\u0311',
+	downdownarrows: '\u21CA',
+	downharpoonleft: '\u21C3',
+	downharpoonright: '\u21C2',
+	DownLeftRightVector: '\u2950',
+	DownLeftTeeVector: '\u295E',
+	DownLeftVector: '\u21BD',
+	DownLeftVectorBar: '\u2956',
+	DownRightTeeVector: '\u295F',
+	DownRightVector: '\u21C1',
+	DownRightVectorBar: '\u2957',
+	DownTee: '\u22A4',
+	DownTeeArrow: '\u21A7',
+	drbkarow: '\u2910',
+	drcorn: '\u231F',
+	drcrop: '\u230C',
+	Dscr: '\uD835\uDC9F',
+	dscr: '\uD835\uDCB9',
+	DScy: '\u0405',
+	dscy: '\u0455',
+	dsol: '\u29F6',
+	Dstrok: '\u0110',
+	dstrok: '\u0111',
+	dtdot: '\u22F1',
+	dtri: '\u25BF',
+	dtrif: '\u25BE',
+	duarr: '\u21F5',
+	duhar: '\u296F',
+	dwangle: '\u29A6',
+	DZcy: '\u040F',
+	dzcy: '\u045F',
+	dzigrarr: '\u27FF',
+	Eacute: '\u00C9',
+	eacute: '\u00E9',
+	easter: '\u2A6E',
+	Ecaron: '\u011A',
+	ecaron: '\u011B',
+	ecir: '\u2256',
+	Ecirc: '\u00CA',
+	ecirc: '\u00EA',
+	ecolon: '\u2255',
+	Ecy: '\u042D',
+	ecy: '\u044D',
+	eDDot: '\u2A77',
+	Edot: '\u0116',
+	eDot: '\u2251',
+	edot: '\u0117',
+	ee: '\u2147',
+	efDot: '\u2252',
+	Efr: '\uD835\uDD08',
+	efr: '\uD835\uDD22',
+	eg: '\u2A9A',
+	Egrave: '\u00C8',
+	egrave: '\u00E8',
+	egs: '\u2A96',
+	egsdot: '\u2A98',
+	el: '\u2A99',
+	Element: '\u2208',
+	elinters: '\u23E7',
+	ell: '\u2113',
+	els: '\u2A95',
+	elsdot: '\u2A97',
+	Emacr: '\u0112',
+	emacr: '\u0113',
+	empty: '\u2205',
+	emptyset: '\u2205',
+	EmptySmallSquare: '\u25FB',
+	emptyv: '\u2205',
+	EmptyVerySmallSquare: '\u25AB',
+	emsp: '\u2003',
+	emsp13: '\u2004',
+	emsp14: '\u2005',
+	ENG: '\u014A',
+	eng: '\u014B',
+	ensp: '\u2002',
+	Eogon: '\u0118',
+	eogon: '\u0119',
+	Eopf: '\uD835\uDD3C',
+	eopf: '\uD835\uDD56',
+	epar: '\u22D5',
+	eparsl: '\u29E3',
+	eplus: '\u2A71',
+	epsi: '\u03B5',
+	Epsilon: '\u0395',
+	epsilon: '\u03B5',
+	epsiv: '\u03F5',
+	eqcirc: '\u2256',
+	eqcolon: '\u2255',
+	eqsim: '\u2242',
+	eqslantgtr: '\u2A96',
+	eqslantless: '\u2A95',
+	Equal: '\u2A75',
+	equals: '\u003D',
+	EqualTilde: '\u2242',
+	equest: '\u225F',
+	Equilibrium: '\u21CC',
+	equiv: '\u2261',
+	equivDD: '\u2A78',
+	eqvparsl: '\u29E5',
+	erarr: '\u2971',
+	erDot: '\u2253',
+	Escr: '\u2130',
+	escr: '\u212F',
+	esdot: '\u2250',
+	Esim: '\u2A73',
+	esim: '\u2242',
+	Eta: '\u0397',
+	eta: '\u03B7',
+	ETH: '\u00D0',
+	eth: '\u00F0',
+	Euml: '\u00CB',
+	euml: '\u00EB',
+	euro: '\u20AC',
+	excl: '\u0021',
+	exist: '\u2203',
+	Exists: '\u2203',
+	expectation: '\u2130',
+	ExponentialE: '\u2147',
+	exponentiale: '\u2147',
+	fallingdotseq: '\u2252',
+	Fcy: '\u0424',
+	fcy: '\u0444',
+	female: '\u2640',
+	ffilig: '\uFB03',
+	fflig: '\uFB00',
+	ffllig: '\uFB04',
+	Ffr: '\uD835\uDD09',
+	ffr: '\uD835\uDD23',
+	filig: '\uFB01',
+	FilledSmallSquare: '\u25FC',
+	FilledVerySmallSquare: '\u25AA',
+	fjlig: '\u0066\u006A',
+	flat: '\u266D',
+	fllig: '\uFB02',
+	fltns: '\u25B1',
+	fnof: '\u0192',
+	Fopf: '\uD835\uDD3D',
+	fopf: '\uD835\uDD57',
+	ForAll: '\u2200',
+	forall: '\u2200',
+	fork: '\u22D4',
+	forkv: '\u2AD9',
+	Fouriertrf: '\u2131',
+	fpartint: '\u2A0D',
+	frac12: '\u00BD',
+	frac13: '\u2153',
+	frac14: '\u00BC',
+	frac15: '\u2155',
+	frac16: '\u2159',
+	frac18: '\u215B',
+	frac23: '\u2154',
+	frac25: '\u2156',
+	frac34: '\u00BE',
+	frac35: '\u2157',
+	frac38: '\u215C',
+	frac45: '\u2158',
+	frac56: '\u215A',
+	frac58: '\u215D',
+	frac78: '\u215E',
+	frasl: '\u2044',
+	frown: '\u2322',
+	Fscr: '\u2131',
+	fscr: '\uD835\uDCBB',
+	gacute: '\u01F5',
+	Gamma: '\u0393',
+	gamma: '\u03B3',
+	Gammad: '\u03DC',
+	gammad: '\u03DD',
+	gap: '\u2A86',
+	Gbreve: '\u011E',
+	gbreve: '\u011F',
+	Gcedil: '\u0122',
+	Gcirc: '\u011C',
+	gcirc: '\u011D',
+	Gcy: '\u0413',
+	gcy: '\u0433',
+	Gdot: '\u0120',
+	gdot: '\u0121',
+	gE: '\u2267',
+	ge: '\u2265',
+	gEl: '\u2A8C',
+	gel: '\u22DB',
+	geq: '\u2265',
+	geqq: '\u2267',
+	geqslant: '\u2A7E',
+	ges: '\u2A7E',
+	gescc: '\u2AA9',
+	gesdot: '\u2A80',
+	gesdoto: '\u2A82',
+	gesdotol: '\u2A84',
+	gesl: '\u22DB\uFE00',
+	gesles: '\u2A94',
+	Gfr: '\uD835\uDD0A',
+	gfr: '\uD835\uDD24',
+	Gg: '\u22D9',
+	gg: '\u226B',
+	ggg: '\u22D9',
+	gimel: '\u2137',
+	GJcy: '\u0403',
+	gjcy: '\u0453',
+	gl: '\u2277',
+	gla: '\u2AA5',
+	glE: '\u2A92',
+	glj: '\u2AA4',
+	gnap: '\u2A8A',
+	gnapprox: '\u2A8A',
+	gnE: '\u2269',
+	gne: '\u2A88',
+	gneq: '\u2A88',
+	gneqq: '\u2269',
+	gnsim: '\u22E7',
+	Gopf: '\uD835\uDD3E',
+	gopf: '\uD835\uDD58',
+	grave: '\u0060',
+	GreaterEqual: '\u2265',
+	GreaterEqualLess: '\u22DB',
+	GreaterFullEqual: '\u2267',
+	GreaterGreater: '\u2AA2',
+	GreaterLess: '\u2277',
+	GreaterSlantEqual: '\u2A7E',
+	GreaterTilde: '\u2273',
+	Gscr: '\uD835\uDCA2',
+	gscr: '\u210A',
+	gsim: '\u2273',
+	gsime: '\u2A8E',
+	gsiml: '\u2A90',
+	Gt: '\u226B',
+	GT: '\u003E',
+	gt: '\u003E',
+	gtcc: '\u2AA7',
+	gtcir: '\u2A7A',
+	gtdot: '\u22D7',
+	gtlPar: '\u2995',
+	gtquest: '\u2A7C',
+	gtrapprox: '\u2A86',
+	gtrarr: '\u2978',
+	gtrdot: '\u22D7',
+	gtreqless: '\u22DB',
+	gtreqqless: '\u2A8C',
+	gtrless: '\u2277',
+	gtrsim: '\u2273',
+	gvertneqq: '\u2269\uFE00',
+	gvnE: '\u2269\uFE00',
+	Hacek: '\u02C7',
+	hairsp: '\u200A',
+	half: '\u00BD',
+	hamilt: '\u210B',
+	HARDcy: '\u042A',
+	hardcy: '\u044A',
+	hArr: '\u21D4',
+	harr: '\u2194',
+	harrcir: '\u2948',
+	harrw: '\u21AD',
+	Hat: '\u005E',
+	hbar: '\u210F',
+	Hcirc: '\u0124',
+	hcirc: '\u0125',
+	hearts: '\u2665',
+	heartsuit: '\u2665',
+	hellip: '\u2026',
+	hercon: '\u22B9',
+	Hfr: '\u210C',
+	hfr: '\uD835\uDD25',
+	HilbertSpace: '\u210B',
+	hksearow: '\u2925',
+	hkswarow: '\u2926',
+	hoarr: '\u21FF',
+	homtht: '\u223B',
+	hookleftarrow: '\u21A9',
+	hookrightarrow: '\u21AA',
+	Hopf: '\u210D',
+	hopf: '\uD835\uDD59',
+	horbar: '\u2015',
+	HorizontalLine: '\u2500',
+	Hscr: '\u210B',
+	hscr: '\uD835\uDCBD',
+	hslash: '\u210F',
+	Hstrok: '\u0126',
+	hstrok: '\u0127',
+	HumpDownHump: '\u224E',
+	HumpEqual: '\u224F',
+	hybull: '\u2043',
+	hyphen: '\u2010',
+	Iacute: '\u00CD',
+	iacute: '\u00ED',
+	ic: '\u2063',
+	Icirc: '\u00CE',
+	icirc: '\u00EE',
+	Icy: '\u0418',
+	icy: '\u0438',
+	Idot: '\u0130',
+	IEcy: '\u0415',
+	iecy: '\u0435',
+	iexcl: '\u00A1',
+	iff: '\u21D4',
+	Ifr: '\u2111',
+	ifr: '\uD835\uDD26',
+	Igrave: '\u00CC',
+	igrave: '\u00EC',
+	ii: '\u2148',
+	iiiint: '\u2A0C',
+	iiint: '\u222D',
+	iinfin: '\u29DC',
+	iiota: '\u2129',
+	IJlig: '\u0132',
+	ijlig: '\u0133',
+	Im: '\u2111',
+	Imacr: '\u012A',
+	imacr: '\u012B',
+	image: '\u2111',
+	ImaginaryI: '\u2148',
+	imagline: '\u2110',
+	imagpart: '\u2111',
+	imath: '\u0131',
+	imof: '\u22B7',
+	imped: '\u01B5',
+	Implies: '\u21D2',
+	in: '\u2208',
+	incare: '\u2105',
+	infin: '\u221E',
+	infintie: '\u29DD',
+	inodot: '\u0131',
+	Int: '\u222C',
+	int: '\u222B',
+	intcal: '\u22BA',
+	integers: '\u2124',
+	Integral: '\u222B',
+	intercal: '\u22BA',
+	Intersection: '\u22C2',
+	intlarhk: '\u2A17',
+	intprod: '\u2A3C',
+	InvisibleComma: '\u2063',
+	InvisibleTimes: '\u2062',
+	IOcy: '\u0401',
+	iocy: '\u0451',
+	Iogon: '\u012E',
+	iogon: '\u012F',
+	Iopf: '\uD835\uDD40',
+	iopf: '\uD835\uDD5A',
+	Iota: '\u0399',
+	iota: '\u03B9',
+	iprod: '\u2A3C',
+	iquest: '\u00BF',
+	Iscr: '\u2110',
+	iscr: '\uD835\uDCBE',
+	isin: '\u2208',
+	isindot: '\u22F5',
+	isinE: '\u22F9',
+	isins: '\u22F4',
+	isinsv: '\u22F3',
+	isinv: '\u2208',
+	it: '\u2062',
+	Itilde: '\u0128',
+	itilde: '\u0129',
+	Iukcy: '\u0406',
+	iukcy: '\u0456',
+	Iuml: '\u00CF',
+	iuml: '\u00EF',
+	Jcirc: '\u0134',
+	jcirc: '\u0135',
+	Jcy: '\u0419',
+	jcy: '\u0439',
+	Jfr: '\uD835\uDD0D',
+	jfr: '\uD835\uDD27',
+	jmath: '\u0237',
+	Jopf: '\uD835\uDD41',
+	jopf: '\uD835\uDD5B',
+	Jscr: '\uD835\uDCA5',
+	jscr: '\uD835\uDCBF',
+	Jsercy: '\u0408',
+	jsercy: '\u0458',
+	Jukcy: '\u0404',
+	jukcy: '\u0454',
+	Kappa: '\u039A',
+	kappa: '\u03BA',
+	kappav: '\u03F0',
+	Kcedil: '\u0136',
+	kcedil: '\u0137',
+	Kcy: '\u041A',
+	kcy: '\u043A',
+	Kfr: '\uD835\uDD0E',
+	kfr: '\uD835\uDD28',
+	kgreen: '\u0138',
+	KHcy: '\u0425',
+	khcy: '\u0445',
+	KJcy: '\u040C',
+	kjcy: '\u045C',
+	Kopf: '\uD835\uDD42',
+	kopf: '\uD835\uDD5C',
+	Kscr: '\uD835\uDCA6',
+	kscr: '\uD835\uDCC0',
+	lAarr: '\u21DA',
+	Lacute: '\u0139',
+	lacute: '\u013A',
+	laemptyv: '\u29B4',
+	lagran: '\u2112',
+	Lambda: '\u039B',
+	lambda: '\u03BB',
+	Lang: '\u27EA',
+	lang: '\u27E8',
+	langd: '\u2991',
+	langle: '\u27E8',
+	lap: '\u2A85',
+	Laplacetrf: '\u2112',
+	laquo: '\u00AB',
+	Larr: '\u219E',
+	lArr: '\u21D0',
+	larr: '\u2190',
+	larrb: '\u21E4',
+	larrbfs: '\u291F',
+	larrfs: '\u291D',
+	larrhk: '\u21A9',
+	larrlp: '\u21AB',
+	larrpl: '\u2939',
+	larrsim: '\u2973',
+	larrtl: '\u21A2',
+	lat: '\u2AAB',
+	lAtail: '\u291B',
+	latail: '\u2919',
+	late: '\u2AAD',
+	lates: '\u2AAD\uFE00',
+	lBarr: '\u290E',
+	lbarr: '\u290C',
+	lbbrk: '\u2772',
+	lbrace: '\u007B',
+	lbrack: '\u005B',
+	lbrke: '\u298B',
+	lbrksld: '\u298F',
+	lbrkslu: '\u298D',
+	Lcaron: '\u013D',
+	lcaron: '\u013E',
+	Lcedil: '\u013B',
+	lcedil: '\u013C',
+	lceil: '\u2308',
+	lcub: '\u007B',
+	Lcy: '\u041B',
+	lcy: '\u043B',
+	ldca: '\u2936',
+	ldquo: '\u201C',
+	ldquor: '\u201E',
+	ldrdhar: '\u2967',
+	ldrushar: '\u294B',
+	ldsh: '\u21B2',
+	lE: '\u2266',
+	le: '\u2264',
+	LeftAngleBracket: '\u27E8',
+	LeftArrow: '\u2190',
+	Leftarrow: '\u21D0',
+	leftarrow: '\u2190',
+	LeftArrowBar: '\u21E4',
+	LeftArrowRightArrow: '\u21C6',
+	leftarrowtail: '\u21A2',
+	LeftCeiling: '\u2308',
+	LeftDoubleBracket: '\u27E6',
+	LeftDownTeeVector: '\u2961',
+	LeftDownVector: '\u21C3',
+	LeftDownVectorBar: '\u2959',
+	LeftFloor: '\u230A',
+	leftharpoondown: '\u21BD',
+	leftharpoonup: '\u21BC',
+	leftleftarrows: '\u21C7',
+	LeftRightArrow: '\u2194',
+	Leftrightarrow: '\u21D4',
+	leftrightarrow: '\u2194',
+	leftrightarrows: '\u21C6',
+	leftrightharpoons: '\u21CB',
+	leftrightsquigarrow: '\u21AD',
+	LeftRightVector: '\u294E',
+	LeftTee: '\u22A3',
+	LeftTeeArrow: '\u21A4',
+	LeftTeeVector: '\u295A',
+	leftthreetimes: '\u22CB',
+	LeftTriangle: '\u22B2',
+	LeftTriangleBar: '\u29CF',
+	LeftTriangleEqual: '\u22B4',
+	LeftUpDownVector: '\u2951',
+	LeftUpTeeVector: '\u2960',
+	LeftUpVector: '\u21BF',
+	LeftUpVectorBar: '\u2958',
+	LeftVector: '\u21BC',
+	LeftVectorBar: '\u2952',
+	lEg: '\u2A8B',
+	leg: '\u22DA',
+	leq: '\u2264',
+	leqq: '\u2266',
+	leqslant: '\u2A7D',
+	les: '\u2A7D',
+	lescc: '\u2AA8',
+	lesdot: '\u2A7F',
+	lesdoto: '\u2A81',
+	lesdotor: '\u2A83',
+	lesg: '\u22DA\uFE00',
+	lesges: '\u2A93',
+	lessapprox: '\u2A85',
+	lessdot: '\u22D6',
+	lesseqgtr: '\u22DA',
+	lesseqqgtr: '\u2A8B',
+	LessEqualGreater: '\u22DA',
+	LessFullEqual: '\u2266',
+	LessGreater: '\u2276',
+	lessgtr: '\u2276',
+	LessLess: '\u2AA1',
+	lesssim: '\u2272',
+	LessSlantEqual: '\u2A7D',
+	LessTilde: '\u2272',
+	lfisht: '\u297C',
+	lfloor: '\u230A',
+	Lfr: '\uD835\uDD0F',
+	lfr: '\uD835\uDD29',
+	lg: '\u2276',
+	lgE: '\u2A91',
+	lHar: '\u2962',
+	lhard: '\u21BD',
+	lharu: '\u21BC',
+	lharul: '\u296A',
+	lhblk: '\u2584',
+	LJcy: '\u0409',
+	ljcy: '\u0459',
+	Ll: '\u22D8',
+	ll: '\u226A',
+	llarr: '\u21C7',
+	llcorner: '\u231E',
+	Lleftarrow: '\u21DA',
+	llhard: '\u296B',
+	lltri: '\u25FA',
+	Lmidot: '\u013F',
+	lmidot: '\u0140',
+	lmoust: '\u23B0',
+	lmoustache: '\u23B0',
+	lnap: '\u2A89',
+	lnapprox: '\u2A89',
+	lnE: '\u2268',
+	lne: '\u2A87',
+	lneq: '\u2A87',
+	lneqq: '\u2268',
+	lnsim: '\u22E6',
+	loang: '\u27EC',
+	loarr: '\u21FD',
+	lobrk: '\u27E6',
+	LongLeftArrow: '\u27F5',
+	Longleftarrow: '\u27F8',
+	longleftarrow: '\u27F5',
+	LongLeftRightArrow: '\u27F7',
+	Longleftrightarrow: '\u27FA',
+	longleftrightarrow: '\u27F7',
+	longmapsto: '\u27FC',
+	LongRightArrow: '\u27F6',
+	Longrightarrow: '\u27F9',
+	longrightarrow: '\u27F6',
+	looparrowleft: '\u21AB',
+	looparrowright: '\u21AC',
+	lopar: '\u2985',
+	Lopf: '\uD835\uDD43',
+	lopf: '\uD835\uDD5D',
+	loplus: '\u2A2D',
+	lotimes: '\u2A34',
+	lowast: '\u2217',
+	lowbar: '\u005F',
+	LowerLeftArrow: '\u2199',
+	LowerRightArrow: '\u2198',
+	loz: '\u25CA',
+	lozenge: '\u25CA',
+	lozf: '\u29EB',
+	lpar: '\u0028',
+	lparlt: '\u2993',
+	lrarr: '\u21C6',
+	lrcorner: '\u231F',
+	lrhar: '\u21CB',
+	lrhard: '\u296D',
+	lrm: '\u200E',
+	lrtri: '\u22BF',
+	lsaquo: '\u2039',
+	Lscr: '\u2112',
+	lscr: '\uD835\uDCC1',
+	Lsh: '\u21B0',
+	lsh: '\u21B0',
+	lsim: '\u2272',
+	lsime: '\u2A8D',
+	lsimg: '\u2A8F',
+	lsqb: '\u005B',
+	lsquo: '\u2018',
+	lsquor: '\u201A',
+	Lstrok: '\u0141',
+	lstrok: '\u0142',
+	Lt: '\u226A',
+	LT: '\u003C',
+	lt: '\u003C',
+	ltcc: '\u2AA6',
+	ltcir: '\u2A79',
+	ltdot: '\u22D6',
+	lthree: '\u22CB',
+	ltimes: '\u22C9',
+	ltlarr: '\u2976',
+	ltquest: '\u2A7B',
+	ltri: '\u25C3',
+	ltrie: '\u22B4',
+	ltrif: '\u25C2',
+	ltrPar: '\u2996',
+	lurdshar: '\u294A',
+	luruhar: '\u2966',
+	lvertneqq: '\u2268\uFE00',
+	lvnE: '\u2268\uFE00',
+	macr: '\u00AF',
+	male: '\u2642',
+	malt: '\u2720',
+	maltese: '\u2720',
+	Map: '\u2905',
+	map: '\u21A6',
+	mapsto: '\u21A6',
+	mapstodown: '\u21A7',
+	mapstoleft: '\u21A4',
+	mapstoup: '\u21A5',
+	marker: '\u25AE',
+	mcomma: '\u2A29',
+	Mcy: '\u041C',
+	mcy: '\u043C',
+	mdash: '\u2014',
+	mDDot: '\u223A',
+	measuredangle: '\u2221',
+	MediumSpace: '\u205F',
+	Mellintrf: '\u2133',
+	Mfr: '\uD835\uDD10',
+	mfr: '\uD835\uDD2A',
+	mho: '\u2127',
+	micro: '\u00B5',
+	mid: '\u2223',
+	midast: '\u002A',
+	midcir: '\u2AF0',
+	middot: '\u00B7',
+	minus: '\u2212',
+	minusb: '\u229F',
+	minusd: '\u2238',
+	minusdu: '\u2A2A',
+	MinusPlus: '\u2213',
+	mlcp: '\u2ADB',
+	mldr: '\u2026',
+	mnplus: '\u2213',
+	models: '\u22A7',
+	Mopf: '\uD835\uDD44',
+	mopf: '\uD835\uDD5E',
+	mp: '\u2213',
+	Mscr: '\u2133',
+	mscr: '\uD835\uDCC2',
+	mstpos: '\u223E',
+	Mu: '\u039C',
+	mu: '\u03BC',
+	multimap: '\u22B8',
+	mumap: '\u22B8',
+	nabla: '\u2207',
+	Nacute: '\u0143',
+	nacute: '\u0144',
+	nang: '\u2220\u20D2',
+	nap: '\u2249',
+	napE: '\u2A70\u0338',
+	napid: '\u224B\u0338',
+	napos: '\u0149',
+	napprox: '\u2249',
+	natur: '\u266E',
+	natural: '\u266E',
+	naturals: '\u2115',
+	nbsp: '\u00A0',
+	nbump: '\u224E\u0338',
+	nbumpe: '\u224F\u0338',
+	ncap: '\u2A43',
+	Ncaron: '\u0147',
+	ncaron: '\u0148',
+	Ncedil: '\u0145',
+	ncedil: '\u0146',
+	ncong: '\u2247',
+	ncongdot: '\u2A6D\u0338',
+	ncup: '\u2A42',
+	Ncy: '\u041D',
+	ncy: '\u043D',
+	ndash: '\u2013',
+	ne: '\u2260',
+	nearhk: '\u2924',
+	neArr: '\u21D7',
+	nearr: '\u2197',
+	nearrow: '\u2197',
+	nedot: '\u2250\u0338',
+	NegativeMediumSpace: '\u200B',
+	NegativeThickSpace: '\u200B',
+	NegativeThinSpace: '\u200B',
+	NegativeVeryThinSpace: '\u200B',
+	nequiv: '\u2262',
+	nesear: '\u2928',
+	nesim: '\u2242\u0338',
+	NestedGreaterGreater: '\u226B',
+	NestedLessLess: '\u226A',
+	NewLine: '\u000A',
+	nexist: '\u2204',
+	nexists: '\u2204',
+	Nfr: '\uD835\uDD11',
+	nfr: '\uD835\uDD2B',
+	ngE: '\u2267\u0338',
+	nge: '\u2271',
+	ngeq: '\u2271',
+	ngeqq: '\u2267\u0338',
+	ngeqslant: '\u2A7E\u0338',
+	nges: '\u2A7E\u0338',
+	nGg: '\u22D9\u0338',
+	ngsim: '\u2275',
+	nGt: '\u226B\u20D2',
+	ngt: '\u226F',
+	ngtr: '\u226F',
+	nGtv: '\u226B\u0338',
+	nhArr: '\u21CE',
+	nharr: '\u21AE',
+	nhpar: '\u2AF2',
+	ni: '\u220B',
+	nis: '\u22FC',
+	nisd: '\u22FA',
+	niv: '\u220B',
+	NJcy: '\u040A',
+	njcy: '\u045A',
+	nlArr: '\u21CD',
+	nlarr: '\u219A',
+	nldr: '\u2025',
+	nlE: '\u2266\u0338',
+	nle: '\u2270',
+	nLeftarrow: '\u21CD',
+	nleftarrow: '\u219A',
+	nLeftrightarrow: '\u21CE',
+	nleftrightarrow: '\u21AE',
+	nleq: '\u2270',
+	nleqq: '\u2266\u0338',
+	nleqslant: '\u2A7D\u0338',
+	nles: '\u2A7D\u0338',
+	nless: '\u226E',
+	nLl: '\u22D8\u0338',
+	nlsim: '\u2274',
+	nLt: '\u226A\u20D2',
+	nlt: '\u226E',
+	nltri: '\u22EA',
+	nltrie: '\u22EC',
+	nLtv: '\u226A\u0338',
+	nmid: '\u2224',
+	NoBreak: '\u2060',
+	NonBreakingSpace: '\u00A0',
+	Nopf: '\u2115',
+	nopf: '\uD835\uDD5F',
+	Not: '\u2AEC',
+	not: '\u00AC',
+	NotCongruent: '\u2262',
+	NotCupCap: '\u226D',
+	NotDoubleVerticalBar: '\u2226',
+	NotElement: '\u2209',
+	NotEqual: '\u2260',
+	NotEqualTilde: '\u2242\u0338',
+	NotExists: '\u2204',
+	NotGreater: '\u226F',
+	NotGreaterEqual: '\u2271',
+	NotGreaterFullEqual: '\u2267\u0338',
+	NotGreaterGreater: '\u226B\u0338',
+	NotGreaterLess: '\u2279',
+	NotGreaterSlantEqual: '\u2A7E\u0338',
+	NotGreaterTilde: '\u2275',
+	NotHumpDownHump: '\u224E\u0338',
+	NotHumpEqual: '\u224F\u0338',
+	notin: '\u2209',
+	notindot: '\u22F5\u0338',
+	notinE: '\u22F9\u0338',
+	notinva: '\u2209',
+	notinvb: '\u22F7',
+	notinvc: '\u22F6',
+	NotLeftTriangle: '\u22EA',
+	NotLeftTriangleBar: '\u29CF\u0338',
+	NotLeftTriangleEqual: '\u22EC',
+	NotLess: '\u226E',
+	NotLessEqual: '\u2270',
+	NotLessGreater: '\u2278',
+	NotLessLess: '\u226A\u0338',
+	NotLessSlantEqual: '\u2A7D\u0338',
+	NotLessTilde: '\u2274',
+	NotNestedGreaterGreater: '\u2AA2\u0338',
+	NotNestedLessLess: '\u2AA1\u0338',
+	notni: '\u220C',
+	notniva: '\u220C',
+	notnivb: '\u22FE',
+	notnivc: '\u22FD',
+	NotPrecedes: '\u2280',
+	NotPrecedesEqual: '\u2AAF\u0338',
+	NotPrecedesSlantEqual: '\u22E0',
+	NotReverseElement: '\u220C',
+	NotRightTriangle: '\u22EB',
+	NotRightTriangleBar: '\u29D0\u0338',
+	NotRightTriangleEqual: '\u22ED',
+	NotSquareSubset: '\u228F\u0338',
+	NotSquareSubsetEqual: '\u22E2',
+	NotSquareSuperset: '\u2290\u0338',
+	NotSquareSupersetEqual: '\u22E3',
+	NotSubset: '\u2282\u20D2',
+	NotSubsetEqual: '\u2288',
+	NotSucceeds: '\u2281',
+	NotSucceedsEqual: '\u2AB0\u0338',
+	NotSucceedsSlantEqual: '\u22E1',
+	NotSucceedsTilde: '\u227F\u0338',
+	NotSuperset: '\u2283\u20D2',
+	NotSupersetEqual: '\u2289',
+	NotTilde: '\u2241',
+	NotTildeEqual: '\u2244',
+	NotTildeFullEqual: '\u2247',
+	NotTildeTilde: '\u2249',
+	NotVerticalBar: '\u2224',
+	npar: '\u2226',
+	nparallel: '\u2226',
+	nparsl: '\u2AFD\u20E5',
+	npart: '\u2202\u0338',
+	npolint: '\u2A14',
+	npr: '\u2280',
+	nprcue: '\u22E0',
+	npre: '\u2AAF\u0338',
+	nprec: '\u2280',
+	npreceq: '\u2AAF\u0338',
+	nrArr: '\u21CF',
+	nrarr: '\u219B',
+	nrarrc: '\u2933\u0338',
+	nrarrw: '\u219D\u0338',
+	nRightarrow: '\u21CF',
+	nrightarrow: '\u219B',
+	nrtri: '\u22EB',
+	nrtrie: '\u22ED',
+	nsc: '\u2281',
+	nsccue: '\u22E1',
+	nsce: '\u2AB0\u0338',
+	Nscr: '\uD835\uDCA9',
+	nscr: '\uD835\uDCC3',
+	nshortmid: '\u2224',
+	nshortparallel: '\u2226',
+	nsim: '\u2241',
+	nsime: '\u2244',
+	nsimeq: '\u2244',
+	nsmid: '\u2224',
+	nspar: '\u2226',
+	nsqsube: '\u22E2',
+	nsqsupe: '\u22E3',
+	nsub: '\u2284',
+	nsubE: '\u2AC5\u0338',
+	nsube: '\u2288',
+	nsubset: '\u2282\u20D2',
+	nsubseteq: '\u2288',
+	nsubseteqq: '\u2AC5\u0338',
+	nsucc: '\u2281',
+	nsucceq: '\u2AB0\u0338',
+	nsup: '\u2285',
+	nsupE: '\u2AC6\u0338',
+	nsupe: '\u2289',
+	nsupset: '\u2283\u20D2',
+	nsupseteq: '\u2289',
+	nsupseteqq: '\u2AC6\u0338',
+	ntgl: '\u2279',
+	Ntilde: '\u00D1',
+	ntilde: '\u00F1',
+	ntlg: '\u2278',
+	ntriangleleft: '\u22EA',
+	ntrianglelefteq: '\u22EC',
+	ntriangleright: '\u22EB',
+	ntrianglerighteq: '\u22ED',
+	Nu: '\u039D',
+	nu: '\u03BD',
+	num: '\u0023',
+	numero: '\u2116',
+	numsp: '\u2007',
+	nvap: '\u224D\u20D2',
+	nVDash: '\u22AF',
+	nVdash: '\u22AE',
+	nvDash: '\u22AD',
+	nvdash: '\u22AC',
+	nvge: '\u2265\u20D2',
+	nvgt: '\u003E\u20D2',
+	nvHarr: '\u2904',
+	nvinfin: '\u29DE',
+	nvlArr: '\u2902',
+	nvle: '\u2264\u20D2',
+	nvlt: '\u003C\u20D2',
+	nvltrie: '\u22B4\u20D2',
+	nvrArr: '\u2903',
+	nvrtrie: '\u22B5\u20D2',
+	nvsim: '\u223C\u20D2',
+	nwarhk: '\u2923',
+	nwArr: '\u21D6',
+	nwarr: '\u2196',
+	nwarrow: '\u2196',
+	nwnear: '\u2927',
+	Oacute: '\u00D3',
+	oacute: '\u00F3',
+	oast: '\u229B',
+	ocir: '\u229A',
+	Ocirc: '\u00D4',
+	ocirc: '\u00F4',
+	Ocy: '\u041E',
+	ocy: '\u043E',
+	odash: '\u229D',
+	Odblac: '\u0150',
+	odblac: '\u0151',
+	odiv: '\u2A38',
+	odot: '\u2299',
+	odsold: '\u29BC',
+	OElig: '\u0152',
+	oelig: '\u0153',
+	ofcir: '\u29BF',
+	Ofr: '\uD835\uDD12',
+	ofr: '\uD835\uDD2C',
+	ogon: '\u02DB',
+	Ograve: '\u00D2',
+	ograve: '\u00F2',
+	ogt: '\u29C1',
+	ohbar: '\u29B5',
+	ohm: '\u03A9',
+	oint: '\u222E',
+	olarr: '\u21BA',
+	olcir: '\u29BE',
+	olcross: '\u29BB',
+	oline: '\u203E',
+	olt: '\u29C0',
+	Omacr: '\u014C',
+	omacr: '\u014D',
+	Omega: '\u03A9',
+	omega: '\u03C9',
+	Omicron: '\u039F',
+	omicron: '\u03BF',
+	omid: '\u29B6',
+	ominus: '\u2296',
+	Oopf: '\uD835\uDD46',
+	oopf: '\uD835\uDD60',
+	opar: '\u29B7',
+	OpenCurlyDoubleQuote: '\u201C',
+	OpenCurlyQuote: '\u2018',
+	operp: '\u29B9',
+	oplus: '\u2295',
+	Or: '\u2A54',
+	or: '\u2228',
+	orarr: '\u21BB',
+	ord: '\u2A5D',
+	order: '\u2134',
+	orderof: '\u2134',
+	ordf: '\u00AA',
+	ordm: '\u00BA',
+	origof: '\u22B6',
+	oror: '\u2A56',
+	orslope: '\u2A57',
+	orv: '\u2A5B',
+	oS: '\u24C8',
+	Oscr: '\uD835\uDCAA',
+	oscr: '\u2134',
+	Oslash: '\u00D8',
+	oslash: '\u00F8',
+	osol: '\u2298',
+	Otilde: '\u00D5',
+	otilde: '\u00F5',
+	Otimes: '\u2A37',
+	otimes: '\u2297',
+	otimesas: '\u2A36',
+	Ouml: '\u00D6',
+	ouml: '\u00F6',
+	ovbar: '\u233D',
+	OverBar: '\u203E',
+	OverBrace: '\u23DE',
+	OverBracket: '\u23B4',
+	OverParenthesis: '\u23DC',
+	par: '\u2225',
+	para: '\u00B6',
+	parallel: '\u2225',
+	parsim: '\u2AF3',
+	parsl: '\u2AFD',
+	part: '\u2202',
+	PartialD: '\u2202',
+	Pcy: '\u041F',
+	pcy: '\u043F',
+	percnt: '\u0025',
+	period: '\u002E',
+	permil: '\u2030',
+	perp: '\u22A5',
+	pertenk: '\u2031',
+	Pfr: '\uD835\uDD13',
+	pfr: '\uD835\uDD2D',
+	Phi: '\u03A6',
+	phi: '\u03C6',
+	phiv: '\u03D5',
+	phmmat: '\u2133',
+	phone: '\u260E',
+	Pi: '\u03A0',
+	pi: '\u03C0',
+	pitchfork: '\u22D4',
+	piv: '\u03D6',
+	planck: '\u210F',
+	planckh: '\u210E',
+	plankv: '\u210F',
+	plus: '\u002B',
+	plusacir: '\u2A23',
+	plusb: '\u229E',
+	pluscir: '\u2A22',
+	plusdo: '\u2214',
+	plusdu: '\u2A25',
+	pluse: '\u2A72',
+	PlusMinus: '\u00B1',
+	plusmn: '\u00B1',
+	plussim: '\u2A26',
+	plustwo: '\u2A27',
+	pm: '\u00B1',
+	Poincareplane: '\u210C',
+	pointint: '\u2A15',
+	Popf: '\u2119',
+	popf: '\uD835\uDD61',
+	pound: '\u00A3',
+	Pr: '\u2ABB',
+	pr: '\u227A',
+	prap: '\u2AB7',
+	prcue: '\u227C',
+	prE: '\u2AB3',
+	pre: '\u2AAF',
+	prec: '\u227A',
+	precapprox: '\u2AB7',
+	preccurlyeq: '\u227C',
+	Precedes: '\u227A',
+	PrecedesEqual: '\u2AAF',
+	PrecedesSlantEqual: '\u227C',
+	PrecedesTilde: '\u227E',
+	preceq: '\u2AAF',
+	precnapprox: '\u2AB9',
+	precneqq: '\u2AB5',
+	precnsim: '\u22E8',
+	precsim: '\u227E',
+	Prime: '\u2033',
+	prime: '\u2032',
+	primes: '\u2119',
+	prnap: '\u2AB9',
+	prnE: '\u2AB5',
+	prnsim: '\u22E8',
+	prod: '\u220F',
+	Product: '\u220F',
+	profalar: '\u232E',
+	profline: '\u2312',
+	profsurf: '\u2313',
+	prop: '\u221D',
+	Proportion: '\u2237',
+	Proportional: '\u221D',
+	propto: '\u221D',
+	prsim: '\u227E',
+	prurel: '\u22B0',
+	Pscr: '\uD835\uDCAB',
+	pscr: '\uD835\uDCC5',
+	Psi: '\u03A8',
+	psi: '\u03C8',
+	puncsp: '\u2008',
+	Qfr: '\uD835\uDD14',
+	qfr: '\uD835\uDD2E',
+	qint: '\u2A0C',
+	Qopf: '\u211A',
+	qopf: '\uD835\uDD62',
+	qprime: '\u2057',
+	Qscr: '\uD835\uDCAC',
+	qscr: '\uD835\uDCC6',
+	quaternions: '\u210D',
+	quatint: '\u2A16',
+	quest: '\u003F',
+	questeq: '\u225F',
+	QUOT: '\u0022',
+	quot: '\u0022',
+	rAarr: '\u21DB',
+	race: '\u223D\u0331',
+	Racute: '\u0154',
+	racute: '\u0155',
+	radic: '\u221A',
+	raemptyv: '\u29B3',
+	Rang: '\u27EB',
+	rang: '\u27E9',
+	rangd: '\u2992',
+	range: '\u29A5',
+	rangle: '\u27E9',
+	raquo: '\u00BB',
+	Rarr: '\u21A0',
+	rArr: '\u21D2',
+	rarr: '\u2192',
+	rarrap: '\u2975',
+	rarrb: '\u21E5',
+	rarrbfs: '\u2920',
+	rarrc: '\u2933',
+	rarrfs: '\u291E',
+	rarrhk: '\u21AA',
+	rarrlp: '\u21AC',
+	rarrpl: '\u2945',
+	rarrsim: '\u2974',
+	Rarrtl: '\u2916',
+	rarrtl: '\u21A3',
+	rarrw: '\u219D',
+	rAtail: '\u291C',
+	ratail: '\u291A',
+	ratio: '\u2236',
+	rationals: '\u211A',
+	RBarr: '\u2910',
+	rBarr: '\u290F',
+	rbarr: '\u290D',
+	rbbrk: '\u2773',
+	rbrace: '\u007D',
+	rbrack: '\u005D',
+	rbrke: '\u298C',
+	rbrksld: '\u298E',
+	rbrkslu: '\u2990',
+	Rcaron: '\u0158',
+	rcaron: '\u0159',
+	Rcedil: '\u0156',
+	rcedil: '\u0157',
+	rceil: '\u2309',
+	rcub: '\u007D',
+	Rcy: '\u0420',
+	rcy: '\u0440',
+	rdca: '\u2937',
+	rdldhar: '\u2969',
+	rdquo: '\u201D',
+	rdquor: '\u201D',
+	rdsh: '\u21B3',
+	Re: '\u211C',
+	real: '\u211C',
+	realine: '\u211B',
+	realpart: '\u211C',
+	reals: '\u211D',
+	rect: '\u25AD',
+	REG: '\u00AE',
+	reg: '\u00AE',
+	ReverseElement: '\u220B',
+	ReverseEquilibrium: '\u21CB',
+	ReverseUpEquilibrium: '\u296F',
+	rfisht: '\u297D',
+	rfloor: '\u230B',
+	Rfr: '\u211C',
+	rfr: '\uD835\uDD2F',
+	rHar: '\u2964',
+	rhard: '\u21C1',
+	rharu: '\u21C0',
+	rharul: '\u296C',
+	Rho: '\u03A1',
+	rho: '\u03C1',
+	rhov: '\u03F1',
+	RightAngleBracket: '\u27E9',
+	RightArrow: '\u2192',
+	Rightarrow: '\u21D2',
+	rightarrow: '\u2192',
+	RightArrowBar: '\u21E5',
+	RightArrowLeftArrow: '\u21C4',
+	rightarrowtail: '\u21A3',
+	RightCeiling: '\u2309',
+	RightDoubleBracket: '\u27E7',
+	RightDownTeeVector: '\u295D',
+	RightDownVector: '\u21C2',
+	RightDownVectorBar: '\u2955',
+	RightFloor: '\u230B',
+	rightharpoondown: '\u21C1',
+	rightharpoonup: '\u21C0',
+	rightleftarrows: '\u21C4',
+	rightleftharpoons: '\u21CC',
+	rightrightarrows: '\u21C9',
+	rightsquigarrow: '\u219D',
+	RightTee: '\u22A2',
+	RightTeeArrow: '\u21A6',
+	RightTeeVector: '\u295B',
+	rightthreetimes: '\u22CC',
+	RightTriangle: '\u22B3',
+	RightTriangleBar: '\u29D0',
+	RightTriangleEqual: '\u22B5',
+	RightUpDownVector: '\u294F',
+	RightUpTeeVector: '\u295C',
+	RightUpVector: '\u21BE',
+	RightUpVectorBar: '\u2954',
+	RightVector: '\u21C0',
+	RightVectorBar: '\u2953',
+	ring: '\u02DA',
+	risingdotseq: '\u2253',
+	rlarr: '\u21C4',
+	rlhar: '\u21CC',
+	rlm: '\u200F',
+	rmoust: '\u23B1',
+	rmoustache: '\u23B1',
+	rnmid: '\u2AEE',
+	roang: '\u27ED',
+	roarr: '\u21FE',
+	robrk: '\u27E7',
+	ropar: '\u2986',
+	Ropf: '\u211D',
+	ropf: '\uD835\uDD63',
+	roplus: '\u2A2E',
+	rotimes: '\u2A35',
+	RoundImplies: '\u2970',
+	rpar: '\u0029',
+	rpargt: '\u2994',
+	rppolint: '\u2A12',
+	rrarr: '\u21C9',
+	Rrightarrow: '\u21DB',
+	rsaquo: '\u203A',
+	Rscr: '\u211B',
+	rscr: '\uD835\uDCC7',
+	Rsh: '\u21B1',
+	rsh: '\u21B1',
+	rsqb: '\u005D',
+	rsquo: '\u2019',
+	rsquor: '\u2019',
+	rthree: '\u22CC',
+	rtimes: '\u22CA',
+	rtri: '\u25B9',
+	rtrie: '\u22B5',
+	rtrif: '\u25B8',
+	rtriltri: '\u29CE',
+	RuleDelayed: '\u29F4',
+	ruluhar: '\u2968',
+	rx: '\u211E',
+	Sacute: '\u015A',
+	sacute: '\u015B',
+	sbquo: '\u201A',
+	Sc: '\u2ABC',
+	sc: '\u227B',
+	scap: '\u2AB8',
+	Scaron: '\u0160',
+	scaron: '\u0161',
+	sccue: '\u227D',
+	scE: '\u2AB4',
+	sce: '\u2AB0',
+	Scedil: '\u015E',
+	scedil: '\u015F',
+	Scirc: '\u015C',
+	scirc: '\u015D',
+	scnap: '\u2ABA',
+	scnE: '\u2AB6',
+	scnsim: '\u22E9',
+	scpolint: '\u2A13',
+	scsim: '\u227F',
+	Scy: '\u0421',
+	scy: '\u0441',
+	sdot: '\u22C5',
+	sdotb: '\u22A1',
+	sdote: '\u2A66',
+	searhk: '\u2925',
+	seArr: '\u21D8',
+	searr: '\u2198',
+	searrow: '\u2198',
+	sect: '\u00A7',
+	semi: '\u003B',
+	seswar: '\u2929',
+	setminus: '\u2216',
+	setmn: '\u2216',
+	sext: '\u2736',
+	Sfr: '\uD835\uDD16',
+	sfr: '\uD835\uDD30',
+	sfrown: '\u2322',
+	sharp: '\u266F',
+	SHCHcy: '\u0429',
+	shchcy: '\u0449',
+	SHcy: '\u0428',
+	shcy: '\u0448',
+	ShortDownArrow: '\u2193',
+	ShortLeftArrow: '\u2190',
+	shortmid: '\u2223',
+	shortparallel: '\u2225',
+	ShortRightArrow: '\u2192',
+	ShortUpArrow: '\u2191',
+	shy: '\u00AD',
+	Sigma: '\u03A3',
+	sigma: '\u03C3',
+	sigmaf: '\u03C2',
+	sigmav: '\u03C2',
+	sim: '\u223C',
+	simdot: '\u2A6A',
+	sime: '\u2243',
+	simeq: '\u2243',
+	simg: '\u2A9E',
+	simgE: '\u2AA0',
+	siml: '\u2A9D',
+	simlE: '\u2A9F',
+	simne: '\u2246',
+	simplus: '\u2A24',
+	simrarr: '\u2972',
+	slarr: '\u2190',
+	SmallCircle: '\u2218',
+	smallsetminus: '\u2216',
+	smashp: '\u2A33',
+	smeparsl: '\u29E4',
+	smid: '\u2223',
+	smile: '\u2323',
+	smt: '\u2AAA',
+	smte: '\u2AAC',
+	smtes: '\u2AAC\uFE00',
+	SOFTcy: '\u042C',
+	softcy: '\u044C',
+	sol: '\u002F',
+	solb: '\u29C4',
+	solbar: '\u233F',
+	Sopf: '\uD835\uDD4A',
+	sopf: '\uD835\uDD64',
+	spades: '\u2660',
+	spadesuit: '\u2660',
+	spar: '\u2225',
+	sqcap: '\u2293',
+	sqcaps: '\u2293\uFE00',
+	sqcup: '\u2294',
+	sqcups: '\u2294\uFE00',
+	Sqrt: '\u221A',
+	sqsub: '\u228F',
+	sqsube: '\u2291',
+	sqsubset: '\u228F',
+	sqsubseteq: '\u2291',
+	sqsup: '\u2290',
+	sqsupe: '\u2292',
+	sqsupset: '\u2290',
+	sqsupseteq: '\u2292',
+	squ: '\u25A1',
+	Square: '\u25A1',
+	square: '\u25A1',
+	SquareIntersection: '\u2293',
+	SquareSubset: '\u228F',
+	SquareSubsetEqual: '\u2291',
+	SquareSuperset: '\u2290',
+	SquareSupersetEqual: '\u2292',
+	SquareUnion: '\u2294',
+	squarf: '\u25AA',
+	squf: '\u25AA',
+	srarr: '\u2192',
+	Sscr: '\uD835\uDCAE',
+	sscr: '\uD835\uDCC8',
+	ssetmn: '\u2216',
+	ssmile: '\u2323',
+	sstarf: '\u22C6',
+	Star: '\u22C6',
+	star: '\u2606',
+	starf: '\u2605',
+	straightepsilon: '\u03F5',
+	straightphi: '\u03D5',
+	strns: '\u00AF',
+	Sub: '\u22D0',
+	sub: '\u2282',
+	subdot: '\u2ABD',
+	subE: '\u2AC5',
+	sube: '\u2286',
+	subedot: '\u2AC3',
+	submult: '\u2AC1',
+	subnE: '\u2ACB',
+	subne: '\u228A',
+	subplus: '\u2ABF',
+	subrarr: '\u2979',
+	Subset: '\u22D0',
+	subset: '\u2282',
+	subseteq: '\u2286',
+	subseteqq: '\u2AC5',
+	SubsetEqual: '\u2286',
+	subsetneq: '\u228A',
+	subsetneqq: '\u2ACB',
+	subsim: '\u2AC7',
+	subsub: '\u2AD5',
+	subsup: '\u2AD3',
+	succ: '\u227B',
+	succapprox: '\u2AB8',
+	succcurlyeq: '\u227D',
+	Succeeds: '\u227B',
+	SucceedsEqual: '\u2AB0',
+	SucceedsSlantEqual: '\u227D',
+	SucceedsTilde: '\u227F',
+	succeq: '\u2AB0',
+	succnapprox: '\u2ABA',
+	succneqq: '\u2AB6',
+	succnsim: '\u22E9',
+	succsim: '\u227F',
+	SuchThat: '\u220B',
+	Sum: '\u2211',
+	sum: '\u2211',
+	sung: '\u266A',
+	Sup: '\u22D1',
+	sup: '\u2283',
+	sup1: '\u00B9',
+	sup2: '\u00B2',
+	sup3: '\u00B3',
+	supdot: '\u2ABE',
+	supdsub: '\u2AD8',
+	supE: '\u2AC6',
+	supe: '\u2287',
+	supedot: '\u2AC4',
+	Superset: '\u2283',
+	SupersetEqual: '\u2287',
+	suphsol: '\u27C9',
+	suphsub: '\u2AD7',
+	suplarr: '\u297B',
+	supmult: '\u2AC2',
+	supnE: '\u2ACC',
+	supne: '\u228B',
+	supplus: '\u2AC0',
+	Supset: '\u22D1',
+	supset: '\u2283',
+	supseteq: '\u2287',
+	supseteqq: '\u2AC6',
+	supsetneq: '\u228B',
+	supsetneqq: '\u2ACC',
+	supsim: '\u2AC8',
+	supsub: '\u2AD4',
+	supsup: '\u2AD6',
+	swarhk: '\u2926',
+	swArr: '\u21D9',
+	swarr: '\u2199',
+	swarrow: '\u2199',
+	swnwar: '\u292A',
+	szlig: '\u00DF',
+	Tab: '\u0009',
+	target: '\u2316',
+	Tau: '\u03A4',
+	tau: '\u03C4',
+	tbrk: '\u23B4',
+	Tcaron: '\u0164',
+	tcaron: '\u0165',
+	Tcedil: '\u0162',
+	tcedil: '\u0163',
+	Tcy: '\u0422',
+	tcy: '\u0442',
+	tdot: '\u20DB',
+	telrec: '\u2315',
+	Tfr: '\uD835\uDD17',
+	tfr: '\uD835\uDD31',
+	there4: '\u2234',
+	Therefore: '\u2234',
+	therefore: '\u2234',
+	Theta: '\u0398',
+	theta: '\u03B8',
+	thetasym: '\u03D1',
+	thetav: '\u03D1',
+	thickapprox: '\u2248',
+	thicksim: '\u223C',
+	ThickSpace: '\u205F\u200A',
+	thinsp: '\u2009',
+	ThinSpace: '\u2009',
+	thkap: '\u2248',
+	thksim: '\u223C',
+	THORN: '\u00DE',
+	thorn: '\u00FE',
+	Tilde: '\u223C',
+	tilde: '\u02DC',
+	TildeEqual: '\u2243',
+	TildeFullEqual: '\u2245',
+	TildeTilde: '\u2248',
+	times: '\u00D7',
+	timesb: '\u22A0',
+	timesbar: '\u2A31',
+	timesd: '\u2A30',
+	tint: '\u222D',
+	toea: '\u2928',
+	top: '\u22A4',
+	topbot: '\u2336',
+	topcir: '\u2AF1',
+	Topf: '\uD835\uDD4B',
+	topf: '\uD835\uDD65',
+	topfork: '\u2ADA',
+	tosa: '\u2929',
+	tprime: '\u2034',
+	TRADE: '\u2122',
+	trade: '\u2122',
+	triangle: '\u25B5',
+	triangledown: '\u25BF',
+	triangleleft: '\u25C3',
+	trianglelefteq: '\u22B4',
+	triangleq: '\u225C',
+	triangleright: '\u25B9',
+	trianglerighteq: '\u22B5',
+	tridot: '\u25EC',
+	trie: '\u225C',
+	triminus: '\u2A3A',
+	TripleDot: '\u20DB',
+	triplus: '\u2A39',
+	trisb: '\u29CD',
+	tritime: '\u2A3B',
+	trpezium: '\u23E2',
+	Tscr: '\uD835\uDCAF',
+	tscr: '\uD835\uDCC9',
+	TScy: '\u0426',
+	tscy: '\u0446',
+	TSHcy: '\u040B',
+	tshcy: '\u045B',
+	Tstrok: '\u0166',
+	tstrok: '\u0167',
+	twixt: '\u226C',
+	twoheadleftarrow: '\u219E',
+	twoheadrightarrow: '\u21A0',
+	Uacute: '\u00DA',
+	uacute: '\u00FA',
+	Uarr: '\u219F',
+	uArr: '\u21D1',
+	uarr: '\u2191',
+	Uarrocir: '\u2949',
+	Ubrcy: '\u040E',
+	ubrcy: '\u045E',
+	Ubreve: '\u016C',
+	ubreve: '\u016D',
+	Ucirc: '\u00DB',
+	ucirc: '\u00FB',
+	Ucy: '\u0423',
+	ucy: '\u0443',
+	udarr: '\u21C5',
+	Udblac: '\u0170',
+	udblac: '\u0171',
+	udhar: '\u296E',
+	ufisht: '\u297E',
+	Ufr: '\uD835\uDD18',
+	ufr: '\uD835\uDD32',
+	Ugrave: '\u00D9',
+	ugrave: '\u00F9',
+	uHar: '\u2963',
+	uharl: '\u21BF',
+	uharr: '\u21BE',
+	uhblk: '\u2580',
+	ulcorn: '\u231C',
+	ulcorner: '\u231C',
+	ulcrop: '\u230F',
+	ultri: '\u25F8',
+	Umacr: '\u016A',
+	umacr: '\u016B',
+	uml: '\u00A8',
+	UnderBar: '\u005F',
+	UnderBrace: '\u23DF',
+	UnderBracket: '\u23B5',
+	UnderParenthesis: '\u23DD',
+	Union: '\u22C3',
+	UnionPlus: '\u228E',
+	Uogon: '\u0172',
+	uogon: '\u0173',
+	Uopf: '\uD835\uDD4C',
+	uopf: '\uD835\uDD66',
+	UpArrow: '\u2191',
+	Uparrow: '\u21D1',
+	uparrow: '\u2191',
+	UpArrowBar: '\u2912',
+	UpArrowDownArrow: '\u21C5',
+	UpDownArrow: '\u2195',
+	Updownarrow: '\u21D5',
+	updownarrow: '\u2195',
+	UpEquilibrium: '\u296E',
+	upharpoonleft: '\u21BF',
+	upharpoonright: '\u21BE',
+	uplus: '\u228E',
+	UpperLeftArrow: '\u2196',
+	UpperRightArrow: '\u2197',
+	Upsi: '\u03D2',
+	upsi: '\u03C5',
+	upsih: '\u03D2',
+	Upsilon: '\u03A5',
+	upsilon: '\u03C5',
+	UpTee: '\u22A5',
+	UpTeeArrow: '\u21A5',
+	upuparrows: '\u21C8',
+	urcorn: '\u231D',
+	urcorner: '\u231D',
+	urcrop: '\u230E',
+	Uring: '\u016E',
+	uring: '\u016F',
+	urtri: '\u25F9',
+	Uscr: '\uD835\uDCB0',
+	uscr: '\uD835\uDCCA',
+	utdot: '\u22F0',
+	Utilde: '\u0168',
+	utilde: '\u0169',
+	utri: '\u25B5',
+	utrif: '\u25B4',
+	uuarr: '\u21C8',
+	Uuml: '\u00DC',
+	uuml: '\u00FC',
+	uwangle: '\u29A7',
+	vangrt: '\u299C',
+	varepsilon: '\u03F5',
+	varkappa: '\u03F0',
+	varnothing: '\u2205',
+	varphi: '\u03D5',
+	varpi: '\u03D6',
+	varpropto: '\u221D',
+	vArr: '\u21D5',
+	varr: '\u2195',
+	varrho: '\u03F1',
+	varsigma: '\u03C2',
+	varsubsetneq: '\u228A\uFE00',
+	varsubsetneqq: '\u2ACB\uFE00',
+	varsupsetneq: '\u228B\uFE00',
+	varsupsetneqq: '\u2ACC\uFE00',
+	vartheta: '\u03D1',
+	vartriangleleft: '\u22B2',
+	vartriangleright: '\u22B3',
+	Vbar: '\u2AEB',
+	vBar: '\u2AE8',
+	vBarv: '\u2AE9',
+	Vcy: '\u0412',
+	vcy: '\u0432',
+	VDash: '\u22AB',
+	Vdash: '\u22A9',
+	vDash: '\u22A8',
+	vdash: '\u22A2',
+	Vdashl: '\u2AE6',
+	Vee: '\u22C1',
+	vee: '\u2228',
+	veebar: '\u22BB',
+	veeeq: '\u225A',
+	vellip: '\u22EE',
+	Verbar: '\u2016',
+	verbar: '\u007C',
+	Vert: '\u2016',
+	vert: '\u007C',
+	VerticalBar: '\u2223',
+	VerticalLine: '\u007C',
+	VerticalSeparator: '\u2758',
+	VerticalTilde: '\u2240',
+	VeryThinSpace: '\u200A',
+	Vfr: '\uD835\uDD19',
+	vfr: '\uD835\uDD33',
+	vltri: '\u22B2',
+	vnsub: '\u2282\u20D2',
+	vnsup: '\u2283\u20D2',
+	Vopf: '\uD835\uDD4D',
+	vopf: '\uD835\uDD67',
+	vprop: '\u221D',
+	vrtri: '\u22B3',
+	Vscr: '\uD835\uDCB1',
+	vscr: '\uD835\uDCCB',
+	vsubnE: '\u2ACB\uFE00',
+	vsubne: '\u228A\uFE00',
+	vsupnE: '\u2ACC\uFE00',
+	vsupne: '\u228B\uFE00',
+	Vvdash: '\u22AA',
+	vzigzag: '\u299A',
+	Wcirc: '\u0174',
+	wcirc: '\u0175',
+	wedbar: '\u2A5F',
+	Wedge: '\u22C0',
+	wedge: '\u2227',
+	wedgeq: '\u2259',
+	weierp: '\u2118',
+	Wfr: '\uD835\uDD1A',
+	wfr: '\uD835\uDD34',
+	Wopf: '\uD835\uDD4E',
+	wopf: '\uD835\uDD68',
+	wp: '\u2118',
+	wr: '\u2240',
+	wreath: '\u2240',
+	Wscr: '\uD835\uDCB2',
+	wscr: '\uD835\uDCCC',
+	xcap: '\u22C2',
+	xcirc: '\u25EF',
+	xcup: '\u22C3',
+	xdtri: '\u25BD',
+	Xfr: '\uD835\uDD1B',
+	xfr: '\uD835\uDD35',
+	xhArr: '\u27FA',
+	xharr: '\u27F7',
+	Xi: '\u039E',
+	xi: '\u03BE',
+	xlArr: '\u27F8',
+	xlarr: '\u27F5',
+	xmap: '\u27FC',
+	xnis: '\u22FB',
+	xodot: '\u2A00',
+	Xopf: '\uD835\uDD4F',
+	xopf: '\uD835\uDD69',
+	xoplus: '\u2A01',
+	xotime: '\u2A02',
+	xrArr: '\u27F9',
+	xrarr: '\u27F6',
+	Xscr: '\uD835\uDCB3',
+	xscr: '\uD835\uDCCD',
+	xsqcup: '\u2A06',
+	xuplus: '\u2A04',
+	xutri: '\u25B3',
+	xvee: '\u22C1',
+	xwedge: '\u22C0',
+	Yacute: '\u00DD',
+	yacute: '\u00FD',
+	YAcy: '\u042F',
+	yacy: '\u044F',
+	Ycirc: '\u0176',
+	ycirc: '\u0177',
+	Ycy: '\u042B',
+	ycy: '\u044B',
+	yen: '\u00A5',
+	Yfr: '\uD835\uDD1C',
+	yfr: '\uD835\uDD36',
+	YIcy: '\u0407',
+	yicy: '\u0457',
+	Yopf: '\uD835\uDD50',
+	yopf: '\uD835\uDD6A',
+	Yscr: '\uD835\uDCB4',
+	yscr: '\uD835\uDCCE',
+	YUcy: '\u042E',
+	yucy: '\u044E',
+	Yuml: '\u0178',
+	yuml: '\u00FF',
+	Zacute: '\u0179',
+	zacute: '\u017A',
+	Zcaron: '\u017D',
+	zcaron: '\u017E',
+	Zcy: '\u0417',
+	zcy: '\u0437',
+	Zdot: '\u017B',
+	zdot: '\u017C',
+	zeetrf: '\u2128',
+	ZeroWidthSpace: '\u200B',
+	Zeta: '\u0396',
+	zeta: '\u03B6',
+	Zfr: '\u2128',
+	zfr: '\uD835\uDD37',
+	ZHcy: '\u0416',
+	zhcy: '\u0436',
+	zigrarr: '\u21DD',
+	Zopf: '\u2124',
+	zopf: '\uD835\uDD6B',
+	Zscr: '\uD835\uDCB5',
+	zscr: '\uD835\uDCCF',
+	zwj: '\u200D',
+	zwnj: '\u200C',
 });
 
 /**
  * @deprecated use `HTML_ENTITIES` instead
  * @see HTML_ENTITIES
  */
-exports.entityMap = exports.HTML_ENTITIES
+exports.entityMap = exports.HTML_ENTITIES;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@xmldom/xmldom/lib/index.js":
+/***/ "./node_modules/@xmldom/xmldom/lib/index.js"
 /*!**************************************************!*\
   !*** ./node_modules/@xmldom/xmldom/lib/index.js ***!
   \**************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 var dom = __webpack_require__(/*! ./dom */ "./node_modules/@xmldom/xmldom/lib/dom.js")
 exports.DOMImplementation = dom.DOMImplementation
@@ -16696,13 +18931,13 @@ exports.XMLSerializer = dom.XMLSerializer
 exports.DOMParser = __webpack_require__(/*! ./dom-parser */ "./node_modules/@xmldom/xmldom/lib/dom-parser.js").DOMParser
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/@xmldom/xmldom/lib/sax.js":
+/***/ "./node_modules/@xmldom/xmldom/lib/sax.js"
 /*!************************************************!*\
   !*** ./node_modules/@xmldom/xmldom/lib/sax.js ***!
   \************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 var NAMESPACE = (__webpack_require__(/*! ./conventions */ "./node_modules/@xmldom/xmldom/lib/conventions.js").NAMESPACE);
 
@@ -16718,7 +18953,7 @@ var tagNamePattern = new RegExp('^'+nameStartChar.source+nameChar.source+'*(?:\:
 //S_TAG,	S_ATTR,	S_EQ,	S_ATTR_NOQUOT_VALUE
 //S_ATTR_SPACE,	S_ATTR_END,	S_TAG_SPACE, S_TAG_CLOSE
 var S_TAG = 0;//tag name offerring
-var S_ATTR = 1;//attr name offerring 
+var S_ATTR = 1;//attr name offerring
 var S_ATTR_SPACE=2;//attr name end and space offer
 var S_EQ = 3;//=space?
 var S_ATTR_NOQUOT_VALUE = 4;//attr value(no quot value only)
@@ -16742,7 +18977,7 @@ ParseError.prototype = new Error();
 ParseError.prototype.name = ParseError.name
 
 function XMLReader(){
-	
+
 }
 
 XMLReader.prototype = {
@@ -16772,7 +19007,7 @@ function parse(source,defaultNSMapCopy,entityMap,domBuilder,errorHandler){
 	function entityReplacer(a){
 		var k = a.slice(1,-1);
 		if(k in entityMap){
-			return entityMap[k]; 
+			return entityMap[k];
 		}else if(k.charAt(0) === '#'){
 			return fixedFromCharCode(parseInt(k.substr(1).replace('x','0x')))
 		}else{
@@ -16801,7 +19036,7 @@ function parse(source,defaultNSMapCopy,entityMap,domBuilder,errorHandler){
 	var lineEnd = 0;
 	var linePattern = /.*(?:\r\n?|\n)|.*$/g
 	var locator = domBuilder.locator;
-	
+
 	var parseStack = [{currentNSMap:defaultNSMapCopy}]
 	var closeMap = {};
 	var start = 0;
@@ -16826,7 +19061,7 @@ function parse(source,defaultNSMapCopy,entityMap,domBuilder,errorHandler){
 				var tagName = source.substring(tagStart + 2, end).replace(/[ \t\n\r]+$/g, '');
 				var config = parseStack.pop();
 				if(end<0){
-					
+
 	        		tagName = source.substring(tagStart+2).replace(/[\s<].*/,'');
 	        		errorHandler.error("end tag name: "+tagName+' is not complete:'+config.tagName);
 	        		end = tagStart+1+tagName.length;
@@ -16841,8 +19076,10 @@ function parse(source,defaultNSMapCopy,entityMap,domBuilder,errorHandler){
 		        if(endIgnoreCaseMach){
 		        	domBuilder.endElement(config.uri,config.localName,tagName);
 					if(localNSMap){
-						for(var prefix in localNSMap){
-							domBuilder.endPrefixMapping(prefix) ;
+						for(var prefix in localNSMap) {
+							if (Object.prototype.hasOwnProperty.call(localNSMap, prefix)) {
+								domBuilder.endPrefixMapping(prefix);
+							}
 						}
 					}
 					if(!endMatch){
@@ -16851,7 +19088,7 @@ function parse(source,defaultNSMapCopy,entityMap,domBuilder,errorHandler){
 		        }else{
 		        	parseStack.push(config)
 		        }
-				
+
 				end++;
 				break;
 				// end elment
@@ -16870,8 +19107,8 @@ function parse(source,defaultNSMapCopy,entityMap,domBuilder,errorHandler){
 				//elStartEnd
 				var end = parseElementStartPart(source,tagStart,el,currentNSMap,entityReplacer,errorHandler);
 				var len = el.length;
-				
-				
+
+
 				if(!el.closed && fixSelfClosed(source,end,el.tagName,closeMap)){
 					el.closed = true;
 					if(!entityMap.nbsp){
@@ -17001,7 +19238,9 @@ function parseElementStartPart(source,start,el,currentNSMap,entityReplacer,error
 				el.closed = true;
 			case S_ATTR_NOQUOT_VALUE:
 			case S_ATTR:
-			case S_ATTR_SPACE:
+				break;
+				case S_ATTR_SPACE:
+					el.closed = true;
 				break;
 			//case S_EQ:
 			default:
@@ -17135,7 +19374,7 @@ function appendElement(el,domBuilder,currentNSMap){
 		}
 		//can not set prefix,because prefix !== ''
 		a.localName = localName ;
-		//prefix == null for no ns prefix attribute 
+		//prefix == null for no ns prefix attribute
 		if(nsPrefix !== false){//hack!!
 			if(localNSMap == null){
 				localNSMap = {}
@@ -17145,7 +19384,7 @@ function appendElement(el,domBuilder,currentNSMap){
 			}
 			currentNSMap[nsPrefix] = localNSMap[nsPrefix] = value;
 			a.uri = NAMESPACE.XMLNS
-			domBuilder.startPrefixMapping(nsPrefix, value) 
+			domBuilder.startPrefixMapping(nsPrefix, value)
 		}
 	}
 	var i = el.length;
@@ -17157,7 +19396,7 @@ function appendElement(el,domBuilder,currentNSMap){
 				a.uri = NAMESPACE.XML;
 			}if(prefix !== 'xmlns'){
 				a.uri = currentNSMap[prefix || '']
-				
+
 				//{console.log('###'+a.qName,domBuilder.locator.systemId+'',currentNSMap,a.uri)}
 			}
 		}
@@ -17178,8 +19417,10 @@ function appendElement(el,domBuilder,currentNSMap){
 	if(el.closed){
 		domBuilder.endElement(ns,localName,tagName);
 		if(localNSMap){
-			for(prefix in localNSMap){
-				domBuilder.endPrefixMapping(prefix) 
+			for (prefix in localNSMap) {
+				if (Object.prototype.hasOwnProperty.call(localNSMap, prefix)) {
+					domBuilder.endPrefixMapping(prefix);
+				}
 			}
 		}
 	}else{
@@ -17206,7 +19447,7 @@ function parseHtmlSpecialContent(source,elStartEnd,tagName,entityReplacer,domBui
 				domBuilder.characters(text,0,text.length);
 				return elEndStart;
 			//}
-			
+
 		}
 	}
 	return elStartEnd+1;
@@ -17223,11 +19464,17 @@ function fixSelfClosed(source,elStartEnd,tagName,closeMap){
 		closeMap[tagName] =pos
 	}
 	return pos<elStartEnd;
-	//} 
+	//}
 }
-function _copy(source,target){
-	for(var n in source){target[n] = source[n]}
+
+function _copy (source, target) {
+	for (var n in source) {
+		if (Object.prototype.hasOwnProperty.call(source, n)) {
+			target[n] = source[n];
+		}
+	}
 }
+
 function parseDCC(source,start,domBuilder,errorHandler){//sure start with '<!'
 	var next= source.charAt(start+2)
 	switch(next){
@@ -17251,11 +19498,11 @@ function parseDCC(source,start,domBuilder,errorHandler){//sure start with '<!'
 			var end = source.indexOf(']]>',start+9);
 			domBuilder.startCDATA();
 			domBuilder.characters(source,start+9,end-start-9);
-			domBuilder.endCDATA() 
+			domBuilder.endCDATA()
 			return end+3;
 		}
 		//<!DOCTYPE
-		//startDTD(java.lang.String name, java.lang.String publicId, java.lang.String systemId) 
+		//startDTD(java.lang.String name, java.lang.String publicId, java.lang.String systemId)
 		var matchs = split(source,start);
 		var len = matchs.length;
 		if(len>1 && /!doctype/i.test(matchs[0][0])){
@@ -17273,7 +19520,7 @@ function parseDCC(source,start,domBuilder,errorHandler){//sure start with '<!'
 			var lastMatch = matchs[len-1]
 			domBuilder.startDTD(name, pubid, sysid);
 			domBuilder.endDTD();
-			
+
 			return lastMatch.index+lastMatch[0].length
 		}
 	}
@@ -17322,7 +19569,7 @@ ElementAttributes.prototype = {
 	getValue:function(i){return this[i].value}
 //	,getIndex:function(uri, localName)){
 //		if(localName){
-//			
+//
 //		}else{
 //			var qName = uri
 //		}
@@ -17350,23 +19597,23 @@ exports.XMLReader = XMLReader;
 exports.ParseError = ParseError;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/index.js":
+/***/ "./node_modules/axios/index.js"
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
   \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! ./lib/axios */ "./node_modules/axios/lib/axios.js");
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/adapters/xhr.js":
+/***/ "./node_modules/axios/lib/adapters/xhr.js"
 /*!************************************************!*\
   !*** ./node_modules/axios/lib/adapters/xhr.js ***!
   \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -17560,13 +19807,13 @@ module.exports = function xhrAdapter(config) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/axios.js":
+/***/ "./node_modules/axios/lib/axios.js"
 /*!*****************************************!*\
   !*** ./node_modules/axios/lib/axios.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -17627,13 +19874,13 @@ module.exports = axios;
 module.exports["default"] = axios;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/cancel/Cancel.js":
+/***/ "./node_modules/axios/lib/cancel/Cancel.js"
 /*!*************************************************!*\
   !*** ./node_modules/axios/lib/cancel/Cancel.js ***!
   \*************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -17657,13 +19904,13 @@ Cancel.prototype.__CANCEL__ = true;
 module.exports = Cancel;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/cancel/CancelToken.js":
+/***/ "./node_modules/axios/lib/cancel/CancelToken.js"
 /*!******************************************************!*\
   !*** ./node_modules/axios/lib/cancel/CancelToken.js ***!
   \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -17725,13 +19972,13 @@ CancelToken.source = function source() {
 module.exports = CancelToken;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/cancel/isCancel.js":
+/***/ "./node_modules/axios/lib/cancel/isCancel.js"
 /*!***************************************************!*\
   !*** ./node_modules/axios/lib/cancel/isCancel.js ***!
   \***************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -17741,13 +19988,13 @@ module.exports = function isCancel(value) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/Axios.js":
+/***/ "./node_modules/axios/lib/core/Axios.js"
 /*!**********************************************!*\
   !*** ./node_modules/axios/lib/core/Axios.js ***!
   \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -17900,13 +20147,13 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 module.exports = Axios;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/InterceptorManager.js":
+/***/ "./node_modules/axios/lib/core/InterceptorManager.js"
 /*!***********************************************************!*\
   !*** ./node_modules/axios/lib/core/InterceptorManager.js ***!
   \***********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -17965,13 +20212,13 @@ InterceptorManager.prototype.forEach = function forEach(fn) {
 module.exports = InterceptorManager;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/buildFullPath.js":
+/***/ "./node_modules/axios/lib/core/buildFullPath.js"
 /*!******************************************************!*\
   !*** ./node_modules/axios/lib/core/buildFullPath.js ***!
   \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -17996,13 +20243,13 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/createError.js":
+/***/ "./node_modules/axios/lib/core/createError.js"
 /*!****************************************************!*\
   !*** ./node_modules/axios/lib/core/createError.js ***!
   \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18025,13 +20272,13 @@ module.exports = function createError(message, config, code, request, response) 
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/dispatchRequest.js":
+/***/ "./node_modules/axios/lib/core/dispatchRequest.js"
 /*!********************************************************!*\
   !*** ./node_modules/axios/lib/core/dispatchRequest.js ***!
   \********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18118,13 +20365,13 @@ module.exports = function dispatchRequest(config) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/enhanceError.js":
+/***/ "./node_modules/axios/lib/core/enhanceError.js"
 /*!*****************************************************!*\
   !*** ./node_modules/axios/lib/core/enhanceError.js ***!
   \*****************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -18171,13 +20418,13 @@ module.exports = function enhanceError(error, config, code, request, response) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/mergeConfig.js":
+/***/ "./node_modules/axios/lib/core/mergeConfig.js"
 /*!****************************************************!*\
   !*** ./node_modules/axios/lib/core/mergeConfig.js ***!
   \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18269,13 +20516,13 @@ module.exports = function mergeConfig(config1, config2) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/settle.js":
+/***/ "./node_modules/axios/lib/core/settle.js"
 /*!***********************************************!*\
   !*** ./node_modules/axios/lib/core/settle.js ***!
   \***********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18305,13 +20552,13 @@ module.exports = function settle(resolve, reject, response) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/core/transformData.js":
+/***/ "./node_modules/axios/lib/core/transformData.js"
 /*!******************************************************!*\
   !*** ./node_modules/axios/lib/core/transformData.js ***!
   \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18338,13 +20585,13 @@ module.exports = function transformData(data, headers, fns) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/defaults.js":
+/***/ "./node_modules/axios/lib/defaults.js"
 /*!********************************************!*\
   !*** ./node_modules/axios/lib/defaults.js ***!
   \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 /* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
@@ -18484,13 +20731,13 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 module.exports = defaults;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/bind.js":
+/***/ "./node_modules/axios/lib/helpers/bind.js"
 /*!************************************************!*\
   !*** ./node_modules/axios/lib/helpers/bind.js ***!
   \************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -18506,13 +20753,13 @@ module.exports = function bind(fn, thisArg) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/buildURL.js":
+/***/ "./node_modules/axios/lib/helpers/buildURL.js"
 /*!****************************************************!*\
   !*** ./node_modules/axios/lib/helpers/buildURL.js ***!
   \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18587,13 +20834,13 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/combineURLs.js":
+/***/ "./node_modules/axios/lib/helpers/combineURLs.js"
 /*!*******************************************************!*\
   !*** ./node_modules/axios/lib/helpers/combineURLs.js ***!
   \*******************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -18612,13 +20859,13 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/cookies.js":
+/***/ "./node_modules/axios/lib/helpers/cookies.js"
 /*!***************************************************!*\
   !*** ./node_modules/axios/lib/helpers/cookies.js ***!
   \***************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18676,13 +20923,13 @@ module.exports = (
 );
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/isAbsoluteURL.js":
+/***/ "./node_modules/axios/lib/helpers/isAbsoluteURL.js"
 /*!*********************************************************!*\
   !*** ./node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
   \*********************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -18701,13 +20948,13 @@ module.exports = function isAbsoluteURL(url) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/isAxiosError.js":
+/***/ "./node_modules/axios/lib/helpers/isAxiosError.js"
 /*!********************************************************!*\
   !*** ./node_modules/axios/lib/helpers/isAxiosError.js ***!
   \********************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -18723,13 +20970,13 @@ module.exports = function isAxiosError(payload) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/isURLSameOrigin.js":
+/***/ "./node_modules/axios/lib/helpers/isURLSameOrigin.js"
 /*!***********************************************************!*\
   !*** ./node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
   \***********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18802,13 +21049,13 @@ module.exports = (
 );
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/normalizeHeaderName.js":
+/***/ "./node_modules/axios/lib/helpers/normalizeHeaderName.js"
 /*!***************************************************************!*\
   !*** ./node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
   \***************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18825,13 +21072,13 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/parseHeaders.js":
+/***/ "./node_modules/axios/lib/helpers/parseHeaders.js"
 /*!********************************************************!*\
   !*** ./node_modules/axios/lib/helpers/parseHeaders.js ***!
   \********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -18889,13 +21136,13 @@ module.exports = function parseHeaders(headers) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/spread.js":
+/***/ "./node_modules/axios/lib/helpers/spread.js"
 /*!**************************************************!*\
   !*** ./node_modules/axios/lib/helpers/spread.js ***!
   \**************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -18927,13 +21174,13 @@ module.exports = function spread(callback) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/helpers/validator.js":
+/***/ "./node_modules/axios/lib/helpers/validator.js"
 /*!*****************************************************!*\
   !*** ./node_modules/axios/lib/helpers/validator.js ***!
   \*****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -19043,13 +21290,13 @@ module.exports = {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/lib/utils.js":
+/***/ "./node_modules/axios/lib/utils.js"
 /*!*****************************************!*\
   !*** ./node_modules/axios/lib/utils.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -19403,13 +21650,24 @@ module.exports = {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/axios/package.json"
+/*!*****************************************!*\
+  !*** ./node_modules/axios/package.json ***!
+  \*****************************************/
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
+
+/***/ },
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=script&lang=js"
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19437,11 +21695,9 @@ __webpack_require__.r(__webpack_exports__);
     },
     get_books: function get_books() {
       var _this = this;
-
       axios.get('load_genera_books/' + this.genera + '/' + this.sorting + '?page=' + this.book_page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this.books.push(v);
-
           if (response.data.current_page == response.data.last_page) {
             _this.book_lastpage = true;
           }
@@ -19451,11 +21707,9 @@ __webpack_require__.r(__webpack_exports__);
     },
     get_audio: function get_audio() {
       var _this2 = this;
-
       axios.get('load_genera_audio/' + this.genera + '/' + this.sorting + '?page=' + this.audio_page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this2.audio.push(v);
-
           if (response.data.current_page == response.data.last_page) {
             _this2.audio_lastpage = true;
           }
@@ -19478,14 +21732,12 @@ __webpack_require__.r(__webpack_exports__);
   },
   mounted: function mounted() {
     var _this3 = this;
-
     document.getElementById(this.selected).style = "border-bottom:3px solid #565c68";
     document.getElementById(this.selected + "_area").style = "display:block";
     document.addEventListener('scroll', function (e) {
       var documentHeight = document.body.scrollHeight;
       var currentScroll = window.scrollY + window.innerHeight;
       var modifier = 200;
-
       if (_this3.selected == "ebook_results" && _this3.book_lastpage == false) {
         if (currentScroll + modifier > documentHeight) {
           _this3.get_books();
@@ -19507,13 +21759,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=script&lang=js"
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19531,13 +21783,13 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {}
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=script&lang=js"
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19571,13 +21823,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js"
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19607,7 +21859,6 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     load_audio: function load_audio() {
       var _this = this;
-
       this.sound = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
         src: [this.file_path],
         html5: true,
@@ -19628,13 +21879,11 @@ __webpack_require__.r(__webpack_exports__);
     },
     mute_sound: function mute_sound() {
       this.mute = !this.mute;
-
       if (this.mute == true) {
         document.getElementById('mute').style = 'color:firebrick';
       } else {
         document.getElementById('mute').style = 'color:#565c68';
       }
-
       this.sound.mute(this.mute);
     },
     go_check: function go_check() {
@@ -19665,7 +21914,6 @@ __webpack_require__.r(__webpack_exports__);
       this.audio_seek = seek / this.sound.duration() * 100 || 0;
       document.getElementById('audio-seek').value = this.audio_seek;
       this.audio_seek_formated = this.get_duration(Math.round(seek));
-
       if (!this.sound.playing()) {
         clearInterval(this.is_playing);
       }
@@ -19673,7 +21921,8 @@ __webpack_require__.r(__webpack_exports__);
     change_seek: function change_seek() {
       var per = document.getElementById('audio-seek').value;
       var seek = this.sound.duration() * (per / 100);
-      this.sound.seek(seek); // console.log(per);
+      this.sound.seek(seek);
+      // console.log(per);
       // console.log(seek);
       // console.log('this '+this.sound.seek());
     },
@@ -19692,7 +21941,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     get_reader_progress: function get_reader_progress() {
       var _this2 = this;
-
       axios.get('get_book_progress/' + this.book_id + '/' + this.type).then(function (response) {
         if (response.data != null) {
           _this2.reader_progress = response.data;
@@ -19712,13 +21960,13 @@ __webpack_require__.r(__webpack_exports__);
   beforeUpdate: function beforeUpdate() {}
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js"
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19738,11 +21986,9 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     get_books: function get_books() {
       var _this = this;
-
-      axios.get('load_all_audio_books/' + this.sorting + '?page=' + this.page).then(function (response) {
+      axios.get('load_all_books/' + this.sorting + '/audiobook' + '?page=' + this.page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this.audio_books.push(v);
-
           if (response.data.current_page == response.data.last_page) {
             _this.last_page = true;
           }
@@ -19765,13 +22011,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=script&lang=js"
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=script&lang=js ***!
+  \***************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19791,11 +22037,9 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     get_books: function get_books() {
       var _this = this;
-
-      axios.get('load_all_books/' + this.sorting + '?page=' + this.page).then(function (response) {
+      axios.get('load_all_books/' + this.sorting + '/book' + '?page=' + this.page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this.books.push(v);
-
           if (response.data.current_page == response.data.last_page) {
             _this.last_page = true;
           }
@@ -19815,13 +22059,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=script&lang=js"
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19842,7 +22086,6 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     fill_star: function fill_star(num) {
       console.log(num);
-
       for (var i = 1; i <= num; i++) {
         var targetDiv = document.getElementById('star_' + i).style.color = 'goldenrod';
         console.log(targetDiv);
@@ -19850,7 +22093,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     empty_star: function empty_star() {
       var current_rate = this.my_rating;
-
       for (var i = 5; i > current_rate; i--) {
         document.getElementById('star_' + i).style.color = '#212529';
       }
@@ -19876,7 +22118,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     get_my_review: function get_my_review() {
       var _this = this;
-
       axios.get('get_my_review/' + this.id + '/' + this.type).then(function (response) {
         if (response.data != "") {
           _this.my_review.push(response.data);
@@ -19911,7 +22152,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     delete_review: function delete_review() {
       var _this2 = this;
-
       axios.get('delete_review/' + this.id + '/' + this.type).then(function (response) {
         _this2.$emit('update_review');
       });
@@ -19928,13 +22168,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=script&lang=js&":
-/*!****************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=script&lang=js"
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=script&lang=js ***!
+  \***************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -19968,7 +22208,8 @@ __webpack_require__.r(__webpack_exports__);
       this.displayed = this.rendition.display();
     },
     next_page: function next_page() {
-      this.rendition.next(); // this.set_reader_progress();
+      this.rendition.next();
+      // this.set_reader_progress();
     },
     previous_page: function previous_page() {
       this.rendition.prev();
@@ -20000,7 +22241,6 @@ __webpack_require__.r(__webpack_exports__);
     },
     get_reader_progress: function get_reader_progress() {
       var _this = this;
-
       axios.get('get_book_progress/' + this.id + '/' + this.type).then(function (response) {
         if (response.data != null) {
           _this.rendition.display(response.data);
@@ -20010,14 +22250,12 @@ __webpack_require__.r(__webpack_exports__);
   },
   mounted: function mounted() {
     var _this2 = this;
-
     this.load_book();
     this.get_reader_progress();
     this.rendition.on('relocated', function (location) {
       var temp = location.start.cfi;
       _this2.reader_progress = temp;
     });
-
     document.onfullscreenchange = function () {
       if (document.fullscreenElement != null) {
         document.getElementById('full_screen_controllers').style.display = 'block';
@@ -20025,7 +22263,6 @@ __webpack_require__.r(__webpack_exports__);
         document.getElementById('full_screen_controllers').style.display = 'none';
       }
     };
-
     document.onkeydown = function (e) {
       if (e.keyCode == '39') {
         _this2.next_page();
@@ -20033,19 +22270,18 @@ __webpack_require__.r(__webpack_exports__);
         _this2.previous_page();
       }
     };
-
     window.addEventListener('unload', this.set_reader_progress);
   },
   created: function created() {}
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=script&lang=js"
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=script&lang=js ***!
+  \*********************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -20053,6 +22289,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 // import moment from 'moment';
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "reviews_section",
   props: ['type', 'id', 'user_id'],
@@ -20067,7 +22304,6 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     get_reviews: function get_reviews() {
       var _this = this;
-
       axios.get('load_all_reviews/' + this.id + '/' + this.type + '?page=' + this.page).then(function (response) {
         $.each(response.data.data, function (key, v) {
           _this.review_data.push(v);
@@ -20085,16 +22321,15 @@ __webpack_require__.r(__webpack_exports__);
   //         return moment(date).fromNow();
   //     }
   // }
-
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=script&lang=js&":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=script&lang=js& ***!
-  \*********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=script&lang=js"
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=script&lang=js ***!
+  \********************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -20128,13 +22363,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=script&lang=js"
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=script&lang=js ***!
+  \*******************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -20168,13 +22403,13 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=script&lang=js"
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=script&lang=js ***!
+  \*******************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -20228,24 +22463,23 @@ __webpack_require__.r(__webpack_exports__);
   }
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true"
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "results_tab"
   }, [_c("a", {
@@ -20418,29 +22652,27 @@ var render = function render() {
     }
   }, [_vm._v("Sorry, we didn't find any bookmark in Audio books")])])])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true"
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "row m-auto"
   }, [_vm.rating >= 1 ? _c("span", {
@@ -20467,29 +22699,27 @@ var render = function render() {
     staticClass: "ml-2 rate"
   }, [_vm._v(_vm._s(_vm.rating) + "/5")])])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true"
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "results_tab"
   }, [_c("a", {
@@ -20584,29 +22814,27 @@ var render = function render() {
     })], 1)]);
   }), 0) : _vm._e()])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true"
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "row"
   }, [_c("img", {
@@ -20742,29 +22970,27 @@ var render = function render() {
     }
   })])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true"
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("p", {
     staticClass: "h3"
   }, [_vm._v("Audio books")]), _vm._v(" "), _c("hr"), _vm._v(" "), _c("div", {
@@ -20835,7 +23061,7 @@ var render = function render() {
     }, [_c("a", {
       staticClass: "book_card card",
       attrs: {
-        href: "check_audio_" + book["id"]
+        href: "check_book_" + book["id"]
       }
     }, [_c("img", {
       staticClass: "book_img m-auto",
@@ -20846,7 +23072,7 @@ var render = function render() {
       staticClass: "book_title m-auto h4"
     }, [_vm._v(_vm._s(book["name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("By " + _vm._s(book["author"]))]), _vm._v(" "), _c("p", {
+    }, [_vm._v("By " + _vm._s(book["author_name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
     }, [_vm._v("Narrator " + _vm._s(book["narrator"]))]), _vm._v(" "), _c("div", {
       staticClass: "row m-auto"
@@ -20867,29 +23093,27 @@ var render = function render() {
     }
   }, [_vm._v("Load more audio books")])])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true"
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("p", {
     staticClass: "h3"
   }, [_vm._v("E-books")]), _vm._v(" "), _c("hr"), _vm._v(" "), _c("div", {
@@ -20971,7 +23195,7 @@ var render = function render() {
       staticClass: "book_title m-auto h4"
     }, [_vm._v(_vm._s(book["name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("By " + _vm._s(book["author"]))]), _vm._v(" "), _c("div", {
+    }, [_vm._v("By " + _vm._s(book["author_name"]))]), _vm._v(" "), _c("div", {
       staticClass: "row m-auto"
     }, [_c("generate_stars", {
       attrs: {
@@ -20990,29 +23214,27 @@ var render = function render() {
     }
   }, [_vm._v("Load more E-books")])])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true"
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [!_vm.my_review.length ? _c("div", {
     staticClass: "review p-2"
   }, [_c("p", {
@@ -21271,29 +23493,27 @@ var render = function render() {
     }, [_vm._v("Delete")])])])]);
   })], 2);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true"
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "row",
     attrs: {
@@ -21469,29 +23689,27 @@ var render = function render() {
     }
   })])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true"
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("make_review", {
     key: _vm.made_review,
     attrs: {
@@ -21542,29 +23760,27 @@ var render = function render() {
     }, [_vm._v(_vm._s(review.review))]), _vm._v(" "), _c("hr")]);
   })], 2)], 1);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true"
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "results_tab"
   }, [_c("a", {
@@ -21719,29 +23935,27 @@ var render = function render() {
     }
   }, [_vm._v("Sorry, we didn't find any results in Authors")])])])])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("p", {
     staticClass: "h1"
   }, [_vm._v(_vm._s(_vm.user_name) + "'s bookmark list")]), _vm._v(" "), _c("div", {
@@ -21856,29 +24070,27 @@ var render = function render() {
     }
   }, [_vm._v("Sorry, we didn't find any bookmark in Audio books")])])])])]);
 };
-
 var staticRenderFns = [];
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */   render: () => (/* binding */ render),
+/* harmony export */   staticRenderFns: () => (/* binding */ staticRenderFns)
 /* harmony export */ });
 var render = function render() {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", [_c("div", {
     staticClass: "settings_tab"
   }, [_c("a", {
@@ -22071,13 +24283,11 @@ var render = function render() {
     on: {
       change: function change($event) {
         var $$a = _vm.renew_val,
-            $$el = $event.target,
-            $$c = $$el.checked ? true : false;
-
+          $$el = $event.target,
+          $$c = $$el.checked ? true : false;
         if (Array.isArray($$a)) {
           var $$v = null,
-              $$i = _vm._i($$a, $$v);
-
+            $$i = _vm._i($$a, $$v);
           if ($$el.checked) {
             $$i < 0 && (_vm.renew_val = $$a.concat([$$v]));
           } else {
@@ -22104,11 +24314,9 @@ var render = function render() {
     staticClass: "h4"
   }, [_vm._v("payment method")]), _vm._v(" "), _vm._m(5)])]);
 };
-
 var staticRenderFns = [function () {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("button", {
     staticClass: "btn mt-3",
     staticStyle: {
@@ -22124,8 +24332,7 @@ var staticRenderFns = [function () {
   })]);
 }, function () {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", {
     staticClass: "form-group"
   }, [_c("input", {
@@ -22139,8 +24346,7 @@ var staticRenderFns = [function () {
   })]);
 }, function () {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", {
     staticClass: "form-group"
   }, [_c("input", {
@@ -22154,8 +24360,7 @@ var staticRenderFns = [function () {
   })]);
 }, function () {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", {
     staticClass: "form-group"
   }, [_c("input", {
@@ -22169,8 +24374,7 @@ var staticRenderFns = [function () {
   })]);
 }, function () {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("div", {
     staticClass: "modal fade",
     attrs: {
@@ -22258,8 +24462,7 @@ var staticRenderFns = [function () {
   }, [_vm._v("close")])])])])]);
 }, function () {
   var _vm = this,
-      _c = _vm._self._c;
-
+    _c = _vm._self._c;
   return _c("p", [_c("button", {
     staticClass: "btn"
   }, [_vm._v("Add payment method")])]);
@@ -22267,163 +24470,13 @@ var staticRenderFns = [function () {
 render._withStripped = true;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
-/* harmony import */ var _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/vue-fontawesome */ "./node_modules/@fortawesome/vue-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
-/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-regular-svg-icons */ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js");
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js")["default"]);
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-Vue.component('load_book', (__webpack_require__(/*! ./components/load_book.vue */ "./resources/js/components/load_book.vue")["default"]));
-Vue.component('load_audiobooks', (__webpack_require__(/*! ./components/load_audiobooks.vue */ "./resources/js/components/load_audiobooks.vue")["default"]));
-Vue.component('generate_stars', (__webpack_require__(/*! ./components/generate_stars.vue */ "./resources/js/components/generate_stars.vue")["default"]));
-Vue.component('reviews_section', (__webpack_require__(/*! ./components/reviews_section.vue */ "./resources/js/components/reviews_section.vue")["default"]));
-Vue.component('read_book', (__webpack_require__(/*! ./components/read_book.vue */ "./resources/js/components/read_book.vue")["default"]));
-Vue.component('listen_audiobook', (__webpack_require__(/*! ./components/listen_audiobook.vue */ "./resources/js/components/listen_audiobook.vue")["default"]));
-Vue.component('make_review', (__webpack_require__(/*! ./components/make_review.vue */ "./resources/js/components/make_review.vue")["default"]));
-Vue.component('search_results', (__webpack_require__(/*! ./components/search_results.vue */ "./resources/js/components/search_results.vue")["default"]));
-Vue.component('get_author_work', (__webpack_require__(/*! ./components/get_author_work.vue */ "./resources/js/components/get_author_work.vue")["default"]));
-Vue.component('user_bookmark', (__webpack_require__(/*! ./components/user_bookmark.vue */ "./resources/js/components/user_bookmark.vue")["default"]));
-Vue.component('user_settings', (__webpack_require__(/*! ./components/user_settings.vue */ "./resources/js/components/user_settings.vue")["default"]));
-Vue.component('book_genera', (__webpack_require__(/*! ./components/book_genera.vue */ "./resources/js/components/book_genera.vue")["default"]));
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
-
-
-
-
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.fas);
-
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.fab);
-
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_4__.far);
-
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.dom.watch();
-var app = new Vue({
-  el: 'load_book'
-});
-var app2 = new Vue({
-  el: 'load_audiobooks'
-});
-var app3 = new Vue({
-  el: 'generate_stars'
-});
-var app4 = new Vue({
-  el: 'reviews_section'
-});
-var app5 = new Vue({
-  el: 'read_book'
-});
-var app6 = new Vue({
-  el: 'listen_audiobook'
-});
-var app7 = new Vue({
-  el: 'make_review'
-});
-var app8 = new Vue({
-  el: 'search_results'
-});
-var app9 = new Vue({
-  el: 'get_author_work'
-});
-var app10 = new Vue({
-  el: 'user_bookmark'
-});
-var app11 = new Vue({
-  el: 'user_settings'
-});
-var app12 = new Vue({
-  el: 'book_genera'
-});
-app.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app2.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app3.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app4.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app5.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app6.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app7.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-app7.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
-
-/***/ }),
-
-/***/ "./resources/js/bootstrap.js":
-/*!***********************************!*\
-  !*** ./resources/js/bootstrap.js ***!
-  \***********************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
-/**
- * We'll load jQuery and the Bootstrap jQuery plugin which provides support
- * for JavaScript based Bootstrap features such as modals and tabs. This
- * code may be modified to fit the specific needs of your application.
- */
-
-try {
-  window.Popper = (__webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")["default"]);
-  window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-
-  __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
-} catch (e) {}
-/**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
- */
-
-
-window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-/**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
- */
-// import Echo from 'laravel-echo';
-// window.Pusher = require('pusher-js');
-// window.Echo = new Echo({
-//     broadcaster: 'pusher',
-//     key: process.env.MIX_PUSHER_APP_KEY,
-//     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-//     forceTLS: true
-// });
-
-/***/ }),
-
-/***/ "./node_modules/base64-js/index.js":
+/***/ "./node_modules/base64-js/index.js"
 /*!*****************************************!*\
   !*** ./node_modules/base64-js/index.js ***!
   \*****************************************/
-/***/ ((__unused_webpack_module, exports) => {
+(__unused_webpack_module, exports) {
 
 "use strict";
 
@@ -22578,13 +24631,13 @@ function fromByteArray (uint8) {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
+/***/ "./node_modules/bootstrap/dist/js/bootstrap.js"
 /*!*****************************************************!*\
   !*** ./node_modules/bootstrap/dist/js/bootstrap.js ***!
   \*****************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 /*!
   * Bootstrap v4.6.2 (https://getbootstrap.com/)
@@ -26943,13 +28996,13 @@ function fromByteArray (uint8) {
 //# sourceMappingURL=bootstrap.js.map
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/buffer/index.js":
+/***/ "./node_modules/buffer/index.js"
 /*!**************************************!*\
   !*** ./node_modules/buffer/index.js ***!
   \**************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 /*!
@@ -28743,13 +30796,13 @@ function isnan (val) {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/d/index.js":
+/***/ "./node_modules/d/index.js"
 /*!*********************************!*\
   !*** ./node_modules/d/index.js ***!
   \*********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -28816,13 +30869,13 @@ d.gs = function (dscr, get, set/*, options*/) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/annotations.js":
+/***/ "./node_modules/epubjs/src/annotations.js"
 /*!************************************************!*\
   !*** ./node_modules/epubjs/src/annotations.js ***!
   \************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -29136,13 +31189,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_0___default()(Annotation.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Annotations);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/archive.js":
+/***/ "./node_modules/epubjs/src/archive.js"
 /*!********************************************!*\
   !*** ./node_modules/epubjs/src/archive.js ***!
   \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -29412,13 +31465,13 @@ class Archive {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Archive);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/book.js":
+/***/ "./node_modules/epubjs/src/book.js"
 /*!*****************************************!*\
   !*** ./node_modules/epubjs/src/book.js ***!
   \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -30214,13 +32267,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_0___default()(Book.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Book);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/container.js":
+/***/ "./node_modules/epubjs/src/container.js"
 /*!**********************************************!*\
   !*** ./node_modules/epubjs/src/container.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -30282,13 +32335,13 @@ class Container {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Container);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/contents.js":
+/***/ "./node_modules/epubjs/src/contents.js"
 /*!*********************************************!*\
   !*** ./node_modules/epubjs/src/contents.js ***!
   \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -31568,13 +33621,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_0___default()(Contents.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contents);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/displayoptions.js":
+/***/ "./node_modules/epubjs/src/displayoptions.js"
 /*!***************************************************!*\
   !*** ./node_modules/epubjs/src/displayoptions.js ***!
   \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -31654,13 +33707,13 @@ class DisplayOptions {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DisplayOptions);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/epub.js":
+/***/ "./node_modules/epubjs/src/epub.js"
 /*!*****************************************!*\
   !*** ./node_modules/epubjs/src/epub.js ***!
   \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -31713,13 +33766,13 @@ ePub.utils = _utils_core__WEBPACK_IMPORTED_MODULE_4__;
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ePub);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/epubcfi.js":
+/***/ "./node_modules/epubjs/src/epubcfi.js"
 /*!********************************************!*\
   !*** ./node_modules/epubjs/src/epubcfi.js ***!
   \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -32777,22 +34830,22 @@ class EpubCFI {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EpubCFI);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/index.js":
+/***/ "./node_modules/epubjs/src/index.js"
 /*!******************************************!*\
   !*** ./node_modules/epubjs/src/index.js ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Book": () => (/* reexport safe */ _book__WEBPACK_IMPORTED_MODULE_0__["default"]),
-/* harmony export */   "Contents": () => (/* reexport safe */ _contents__WEBPACK_IMPORTED_MODULE_3__["default"]),
-/* harmony export */   "EpubCFI": () => (/* reexport safe */ _epubcfi__WEBPACK_IMPORTED_MODULE_1__["default"]),
-/* harmony export */   "Layout": () => (/* reexport safe */ _layout__WEBPACK_IMPORTED_MODULE_4__["default"]),
-/* harmony export */   "Rendition": () => (/* reexport safe */ _rendition__WEBPACK_IMPORTED_MODULE_2__["default"]),
+/* harmony export */   Book: () => (/* reexport safe */ _book__WEBPACK_IMPORTED_MODULE_0__["default"]),
+/* harmony export */   Contents: () => (/* reexport safe */ _contents__WEBPACK_IMPORTED_MODULE_3__["default"]),
+/* harmony export */   EpubCFI: () => (/* reexport safe */ _epubcfi__WEBPACK_IMPORTED_MODULE_1__["default"]),
+/* harmony export */   Layout: () => (/* reexport safe */ _layout__WEBPACK_IMPORTED_MODULE_4__["default"]),
+/* harmony export */   Rendition: () => (/* reexport safe */ _rendition__WEBPACK_IMPORTED_MODULE_2__["default"]),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _book__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./book */ "./node_modules/epubjs/src/book.js");
@@ -32812,13 +34865,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/layout.js":
+/***/ "./node_modules/epubjs/src/layout.js"
 /*!*******************************************!*\
   !*** ./node_modules/epubjs/src/layout.js ***!
   \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -33091,13 +35144,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_2___default()(Layout.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/locations.js":
+/***/ "./node_modules/epubjs/src/locations.js"
 /*!**********************************************!*\
   !*** ./node_modules/epubjs/src/locations.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -33613,13 +35666,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_4___default()(Locations.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Locations);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/managers/continuous/index.js":
+/***/ "./node_modules/epubjs/src/managers/continuous/index.js"
 /*!**************************************************************!*\
   !*** ./node_modules/epubjs/src/managers/continuous/index.js ***!
   \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -34226,13 +36279,13 @@ class ContinuousViewManager extends _default__WEBPACK_IMPORTED_MODULE_1__["defau
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContinuousViewManager);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/managers/default/index.js":
+/***/ "./node_modules/epubjs/src/managers/default/index.js"
 /*!***********************************************************!*\
   !*** ./node_modules/epubjs/src/managers/default/index.js ***!
   \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -35327,13 +37380,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_0___default()(DefaultViewManager.prototyp
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (DefaultViewManager);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/managers/helpers/snap.js":
+/***/ "./node_modules/epubjs/src/managers/helpers/snap.js"
 /*!**********************************************************!*\
   !*** ./node_modules/epubjs/src/managers/helpers/snap.js ***!
   \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -35684,13 +37737,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_2___default()(Snap.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Snap);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/managers/helpers/stage.js":
+/***/ "./node_modules/epubjs/src/managers/helpers/stage.js"
 /*!***********************************************************!*\
   !*** ./node_modules/epubjs/src/managers/helpers/stage.js ***!
   \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -36065,13 +38118,13 @@ class Stage {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Stage);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/managers/helpers/views.js":
+/***/ "./node_modules/epubjs/src/managers/helpers/views.js"
 /*!***********************************************************!*\
   !*** ./node_modules/epubjs/src/managers/helpers/views.js ***!
   \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -36247,13 +38300,13 @@ class Views {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Views);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/managers/views/iframe.js":
+/***/ "./node_modules/epubjs/src/managers/views/iframe.js"
 /*!**********************************************************!*\
   !*** ./node_modules/epubjs/src/managers/views/iframe.js ***!
   \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -37120,13 +39173,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_0___default()(IframeView.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IframeView);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/mapping.js":
+/***/ "./node_modules/epubjs/src/mapping.js"
 /*!********************************************!*\
   !*** ./node_modules/epubjs/src/mapping.js ***!
   \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -37648,13 +39701,13 @@ class Mapping {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Mapping);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/navigation.js":
+/***/ "./node_modules/epubjs/src/navigation.js"
 /*!***********************************************!*\
   !*** ./node_modules/epubjs/src/navigation.js ***!
   \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -38021,13 +40074,13 @@ class Navigation {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/packaging.js":
+/***/ "./node_modules/epubjs/src/packaging.js"
 /*!**********************************************!*\
   !*** ./node_modules/epubjs/src/packaging.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -38410,13 +40463,13 @@ class Packaging {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Packaging);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/pagelist.js":
+/***/ "./node_modules/epubjs/src/pagelist.js"
 /*!*********************************************!*\
   !*** ./node_modules/epubjs/src/pagelist.js ***!
   \*********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -38695,13 +40748,13 @@ class PageList {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PageList);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/rendition.js":
+/***/ "./node_modules/epubjs/src/rendition.js"
 /*!**********************************************!*\
   !*** ./node_modules/epubjs/src/rendition.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -39793,13 +41846,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_0___default()(Rendition.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Rendition);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/resources.js":
+/***/ "./node_modules/epubjs/src/resources.js"
 /*!**********************************************!*\
   !*** ./node_modules/epubjs/src/resources.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -40135,13 +42188,13 @@ class Resources {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Resources);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/section.js":
+/***/ "./node_modules/epubjs/src/section.js"
 /*!********************************************!*\
   !*** ./node_modules/epubjs/src/section.js ***!
   \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -40479,13 +42532,13 @@ class Section {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Section);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/spine.js":
+/***/ "./node_modules/epubjs/src/spine.js"
 /*!******************************************!*\
   !*** ./node_modules/epubjs/src/spine.js ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -40772,13 +42825,13 @@ class Spine {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Spine);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/store.js":
+/***/ "./node_modules/epubjs/src/store.js"
 /*!******************************************!*\
   !*** ./node_modules/epubjs/src/store.js ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -41179,13 +43232,13 @@ event_emitter__WEBPACK_IMPORTED_MODULE_4___default()(Store.prototype);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Store);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/themes.js":
+/***/ "./node_modules/epubjs/src/themes.js"
 /*!*******************************************!*\
   !*** ./node_modules/epubjs/src/themes.js ***!
   \*******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -41463,20 +43516,20 @@ class Themes {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Themes);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/constants.js":
+/***/ "./node_modules/epubjs/src/utils/constants.js"
 /*!****************************************************!*\
   !*** ./node_modules/epubjs/src/utils/constants.js ***!
   \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "DOM_EVENTS": () => (/* binding */ DOM_EVENTS),
-/* harmony export */   "EPUBJS_VERSION": () => (/* binding */ EPUBJS_VERSION),
-/* harmony export */   "EVENTS": () => (/* binding */ EVENTS)
+/* harmony export */   DOM_EVENTS: () => (/* binding */ DOM_EVENTS),
+/* harmony export */   EPUBJS_VERSION: () => (/* binding */ EPUBJS_VERSION),
+/* harmony export */   EVENTS: () => (/* binding */ EVENTS)
 /* harmony export */ });
 const EPUBJS_VERSION = "0.3";
 
@@ -41542,57 +43595,57 @@ const EVENTS = {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/core.js":
+/***/ "./node_modules/epubjs/src/utils/core.js"
 /*!***********************************************!*\
   !*** ./node_modules/epubjs/src/utils/core.js ***!
   \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "RangeObject": () => (/* binding */ RangeObject),
-/* harmony export */   "blob2base64": () => (/* binding */ blob2base64),
-/* harmony export */   "borders": () => (/* binding */ borders),
-/* harmony export */   "bounds": () => (/* binding */ bounds),
-/* harmony export */   "createBase64Url": () => (/* binding */ createBase64Url),
-/* harmony export */   "createBlob": () => (/* binding */ createBlob),
-/* harmony export */   "createBlobUrl": () => (/* binding */ createBlobUrl),
-/* harmony export */   "defaults": () => (/* binding */ defaults),
-/* harmony export */   "defer": () => (/* binding */ defer),
-/* harmony export */   "documentHeight": () => (/* binding */ documentHeight),
-/* harmony export */   "extend": () => (/* binding */ extend),
-/* harmony export */   "filterChildren": () => (/* binding */ filterChildren),
-/* harmony export */   "findChildren": () => (/* binding */ findChildren),
-/* harmony export */   "getParentByTagName": () => (/* binding */ getParentByTagName),
-/* harmony export */   "indexOfElementNode": () => (/* binding */ indexOfElementNode),
-/* harmony export */   "indexOfNode": () => (/* binding */ indexOfNode),
-/* harmony export */   "indexOfSorted": () => (/* binding */ indexOfSorted),
-/* harmony export */   "indexOfTextNode": () => (/* binding */ indexOfTextNode),
-/* harmony export */   "insert": () => (/* binding */ insert),
-/* harmony export */   "isElement": () => (/* binding */ isElement),
-/* harmony export */   "isFloat": () => (/* binding */ isFloat),
-/* harmony export */   "isNumber": () => (/* binding */ isNumber),
-/* harmony export */   "isXml": () => (/* binding */ isXml),
-/* harmony export */   "locationOf": () => (/* binding */ locationOf),
-/* harmony export */   "nodeBounds": () => (/* binding */ nodeBounds),
-/* harmony export */   "parents": () => (/* binding */ parents),
-/* harmony export */   "parse": () => (/* binding */ parse),
-/* harmony export */   "prefixed": () => (/* binding */ prefixed),
-/* harmony export */   "qs": () => (/* binding */ qs),
-/* harmony export */   "qsa": () => (/* binding */ qsa),
-/* harmony export */   "qsp": () => (/* binding */ qsp),
-/* harmony export */   "querySelectorByType": () => (/* binding */ querySelectorByType),
-/* harmony export */   "requestAnimationFrame": () => (/* binding */ requestAnimationFrame),
-/* harmony export */   "revokeBlobUrl": () => (/* binding */ revokeBlobUrl),
-/* harmony export */   "sprint": () => (/* binding */ sprint),
-/* harmony export */   "treeWalker": () => (/* binding */ treeWalker),
-/* harmony export */   "type": () => (/* binding */ type),
-/* harmony export */   "uuid": () => (/* binding */ uuid),
-/* harmony export */   "walk": () => (/* binding */ walk),
-/* harmony export */   "windowBounds": () => (/* binding */ windowBounds)
+/* harmony export */   RangeObject: () => (/* binding */ RangeObject),
+/* harmony export */   blob2base64: () => (/* binding */ blob2base64),
+/* harmony export */   borders: () => (/* binding */ borders),
+/* harmony export */   bounds: () => (/* binding */ bounds),
+/* harmony export */   createBase64Url: () => (/* binding */ createBase64Url),
+/* harmony export */   createBlob: () => (/* binding */ createBlob),
+/* harmony export */   createBlobUrl: () => (/* binding */ createBlobUrl),
+/* harmony export */   defaults: () => (/* binding */ defaults),
+/* harmony export */   defer: () => (/* binding */ defer),
+/* harmony export */   documentHeight: () => (/* binding */ documentHeight),
+/* harmony export */   extend: () => (/* binding */ extend),
+/* harmony export */   filterChildren: () => (/* binding */ filterChildren),
+/* harmony export */   findChildren: () => (/* binding */ findChildren),
+/* harmony export */   getParentByTagName: () => (/* binding */ getParentByTagName),
+/* harmony export */   indexOfElementNode: () => (/* binding */ indexOfElementNode),
+/* harmony export */   indexOfNode: () => (/* binding */ indexOfNode),
+/* harmony export */   indexOfSorted: () => (/* binding */ indexOfSorted),
+/* harmony export */   indexOfTextNode: () => (/* binding */ indexOfTextNode),
+/* harmony export */   insert: () => (/* binding */ insert),
+/* harmony export */   isElement: () => (/* binding */ isElement),
+/* harmony export */   isFloat: () => (/* binding */ isFloat),
+/* harmony export */   isNumber: () => (/* binding */ isNumber),
+/* harmony export */   isXml: () => (/* binding */ isXml),
+/* harmony export */   locationOf: () => (/* binding */ locationOf),
+/* harmony export */   nodeBounds: () => (/* binding */ nodeBounds),
+/* harmony export */   parents: () => (/* binding */ parents),
+/* harmony export */   parse: () => (/* binding */ parse),
+/* harmony export */   prefixed: () => (/* binding */ prefixed),
+/* harmony export */   qs: () => (/* binding */ qs),
+/* harmony export */   qsa: () => (/* binding */ qsa),
+/* harmony export */   qsp: () => (/* binding */ qsp),
+/* harmony export */   querySelectorByType: () => (/* binding */ querySelectorByType),
+/* harmony export */   requestAnimationFrame: () => (/* binding */ requestAnimationFrame),
+/* harmony export */   revokeBlobUrl: () => (/* binding */ revokeBlobUrl),
+/* harmony export */   sprint: () => (/* binding */ sprint),
+/* harmony export */   treeWalker: () => (/* binding */ treeWalker),
+/* harmony export */   type: () => (/* binding */ type),
+/* harmony export */   uuid: () => (/* binding */ uuid),
+/* harmony export */   walk: () => (/* binding */ walk),
+/* harmony export */   windowBounds: () => (/* binding */ windowBounds)
 /* harmony export */ });
 /* harmony import */ var _xmldom_xmldom__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @xmldom/xmldom */ "./node_modules/@xmldom/xmldom/lib/index.js");
 /**
@@ -42473,13 +44526,13 @@ class RangeObject {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/hook.js":
+/***/ "./node_modules/epubjs/src/utils/hook.js"
 /*!***********************************************!*\
   !*** ./node_modules/epubjs/src/utils/hook.js ***!
   \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -42570,13 +44623,13 @@ class Hook {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hook);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/mime.js":
+/***/ "./node_modules/epubjs/src/utils/mime.js"
 /*!***********************************************!*\
   !*** ./node_modules/epubjs/src/utils/mime.js ***!
   \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -42754,13 +44807,13 @@ function lookup(filename) {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({ lookup });
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/path.js":
+/***/ "./node_modules/epubjs/src/utils/path.js"
 /*!***********************************************!*\
   !*** ./node_modules/epubjs/src/utils/path.js ***!
   \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -42873,18 +44926,18 @@ class Path {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Path);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/queue.js":
+/***/ "./node_modules/epubjs/src/utils/queue.js"
 /*!************************************************!*\
   !*** ./node_modules/epubjs/src/utils/queue.js ***!
   \************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Task": () => (/* binding */ Task),
+/* harmony export */   Task: () => (/* binding */ Task),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core */ "./node_modules/epubjs/src/utils/core.js");
@@ -43136,22 +45189,22 @@ class Task {
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/replacements.js":
+/***/ "./node_modules/epubjs/src/utils/replacements.js"
 /*!*******************************************************!*\
   !*** ./node_modules/epubjs/src/utils/replacements.js ***!
   \*******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "replaceBase": () => (/* binding */ replaceBase),
-/* harmony export */   "replaceCanonical": () => (/* binding */ replaceCanonical),
-/* harmony export */   "replaceLinks": () => (/* binding */ replaceLinks),
-/* harmony export */   "replaceMeta": () => (/* binding */ replaceMeta),
-/* harmony export */   "substitute": () => (/* binding */ substitute)
+/* harmony export */   replaceBase: () => (/* binding */ replaceBase),
+/* harmony export */   replaceCanonical: () => (/* binding */ replaceCanonical),
+/* harmony export */   replaceLinks: () => (/* binding */ replaceLinks),
+/* harmony export */   replaceMeta: () => (/* binding */ replaceMeta),
+/* harmony export */   substitute: () => (/* binding */ substitute)
 /* harmony export */ });
 /* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./core */ "./node_modules/epubjs/src/utils/core.js");
 /* harmony import */ var _url__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./url */ "./node_modules/epubjs/src/utils/url.js");
@@ -43296,13 +45349,13 @@ function substitute(content, urls, replacements) {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/request.js":
+/***/ "./node_modules/epubjs/src/utils/request.js"
 /*!**************************************************!*\
   !*** ./node_modules/epubjs/src/utils/request.js ***!
   \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -43463,18 +45516,18 @@ function request(url, type, withCredentials, headers) {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (request);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/scrolltype.js":
+/***/ "./node_modules/epubjs/src/utils/scrolltype.js"
 /*!*****************************************************!*\
   !*** ./node_modules/epubjs/src/utils/scrolltype.js ***!
   \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "createDefiner": () => (/* binding */ createDefiner),
+/* harmony export */   createDefiner: () => (/* binding */ createDefiner),
 /* harmony export */   "default": () => (/* binding */ scrollType)
 /* harmony export */ });
 // Detect RTL scroll type
@@ -43534,13 +45587,13 @@ function createDefiner() {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/epubjs/src/utils/url.js":
+/***/ "./node_modules/epubjs/src/utils/url.js"
 /*!**********************************************!*\
   !*** ./node_modules/epubjs/src/utils/url.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -43660,13 +45713,13 @@ class Url {
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Url);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/function/noop.js":
+/***/ "./node_modules/es5-ext/function/noop.js"
 /*!***********************************************!*\
   !*** ./node_modules/es5-ext/function/noop.js ***!
   \***********************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -43675,13 +45728,13 @@ class Url {
 module.exports = function () {};
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/assign/index.js":
+/***/ "./node_modules/es5-ext/object/assign/index.js"
 /*!*****************************************************!*\
   !*** ./node_modules/es5-ext/object/assign/index.js ***!
   \*****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43689,13 +45742,13 @@ module.exports = function () {};
 module.exports = __webpack_require__(/*! ./is-implemented */ "./node_modules/es5-ext/object/assign/is-implemented.js")() ? Object.assign : __webpack_require__(/*! ./shim */ "./node_modules/es5-ext/object/assign/shim.js");
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/assign/is-implemented.js":
+/***/ "./node_modules/es5-ext/object/assign/is-implemented.js"
 /*!**************************************************************!*\
   !*** ./node_modules/es5-ext/object/assign/is-implemented.js ***!
   \**************************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -43709,13 +45762,13 @@ module.exports = function () {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/assign/shim.js":
+/***/ "./node_modules/es5-ext/object/assign/shim.js"
 /*!****************************************************!*\
   !*** ./node_modules/es5-ext/object/assign/shim.js ***!
   \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43743,13 +45796,13 @@ module.exports = function (dest, src /*, …srcn*/) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/is-value.js":
+/***/ "./node_modules/es5-ext/object/is-value.js"
 /*!*************************************************!*\
   !*** ./node_modules/es5-ext/object/is-value.js ***!
   \*************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43759,13 +45812,13 @@ var _undefined = __webpack_require__(/*! ../function/noop */ "./node_modules/es5
 module.exports = function (val) { return val !== _undefined && val !== null; };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/keys/index.js":
+/***/ "./node_modules/es5-ext/object/keys/index.js"
 /*!***************************************************!*\
   !*** ./node_modules/es5-ext/object/keys/index.js ***!
   \***************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43773,13 +45826,13 @@ module.exports = function (val) { return val !== _undefined && val !== null; };
 module.exports = __webpack_require__(/*! ./is-implemented */ "./node_modules/es5-ext/object/keys/is-implemented.js")() ? Object.keys : __webpack_require__(/*! ./shim */ "./node_modules/es5-ext/object/keys/shim.js");
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/keys/is-implemented.js":
+/***/ "./node_modules/es5-ext/object/keys/is-implemented.js"
 /*!************************************************************!*\
   !*** ./node_modules/es5-ext/object/keys/is-implemented.js ***!
   \************************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -43794,13 +45847,13 @@ module.exports = function () {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/keys/shim.js":
+/***/ "./node_modules/es5-ext/object/keys/shim.js"
 /*!**************************************************!*\
   !*** ./node_modules/es5-ext/object/keys/shim.js ***!
   \**************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43812,13 +45865,13 @@ var keys = Object.keys;
 module.exports = function (object) { return keys(isValue(object) ? Object(object) : object); };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/normalize-options.js":
+/***/ "./node_modules/es5-ext/object/normalize-options.js"
 /*!**********************************************************!*\
   !*** ./node_modules/es5-ext/object/normalize-options.js ***!
   \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43843,13 +45896,13 @@ module.exports = function (opts1 /*, …options*/) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/valid-callable.js":
+/***/ "./node_modules/es5-ext/object/valid-callable.js"
 /*!*******************************************************!*\
   !*** ./node_modules/es5-ext/object/valid-callable.js ***!
   \*******************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -43860,13 +45913,13 @@ module.exports = function (fn) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/object/valid-value.js":
+/***/ "./node_modules/es5-ext/object/valid-value.js"
 /*!****************************************************!*\
   !*** ./node_modules/es5-ext/object/valid-value.js ***!
   \****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43879,13 +45932,13 @@ module.exports = function (value) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/string/\u0000#/contains/index.js":
+/***/ "./node_modules/es5-ext/string/\u0000#/contains/index.js"
 /*!**********************************************************!*\
   !*** ./node_modules/es5-ext/string/ #/contains/index.js ***!
   \**********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -43893,13 +45946,13 @@ module.exports = function (value) {
 module.exports = __webpack_require__(/*! ./is-implemented */ "./node_modules/es5-ext/string/\u0000#/contains/is-implemented.js")() ? String.prototype.contains : __webpack_require__(/*! ./shim */ "./node_modules/es5-ext/string/\u0000#/contains/shim.js");
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/string/\u0000#/contains/is-implemented.js":
+/***/ "./node_modules/es5-ext/string/\u0000#/contains/is-implemented.js"
 /*!*******************************************************************!*\
   !*** ./node_modules/es5-ext/string/ #/contains/is-implemented.js ***!
   \*******************************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -43912,13 +45965,13 @@ module.exports = function () {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/es5-ext/string/\u0000#/contains/shim.js":
+/***/ "./node_modules/es5-ext/string/\u0000#/contains/shim.js"
 /*!*********************************************************!*\
   !*** ./node_modules/es5-ext/string/ #/contains/shim.js ***!
   \*********************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -43930,13 +45983,13 @@ module.exports = function (searchString /*, position*/) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/event-emitter/index.js":
+/***/ "./node_modules/event-emitter/index.js"
 /*!*********************************************!*\
   !*** ./node_modules/event-emitter/index.js ***!
   \*********************************************/
-/***/ ((module, exports, __webpack_require__) => {
+(module, exports, __webpack_require__) {
 
 "use strict";
 
@@ -44073,16 +46126,16 @@ module.exports = exports = function (o) {
 exports.methods = methods;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/howler/dist/howler.js":
+/***/ "./node_modules/howler/dist/howler.js"
 /*!********************************************!*\
   !*** ./node_modules/howler/dist/howler.js ***!
   \********************************************/
-/***/ ((module, exports, __webpack_require__) => {
+(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- *  howler.js v2.2.3
+ *  howler.js v2.2.4
  *  howlerjs.com
  *
  *  (c) 2013-2020, James Simpson of GoldFire Studios
@@ -44348,7 +46401,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
       // Opera version <33 has mixed MP3 support, so we need to check for and block it.
       var ua = self._navigator ? self._navigator.userAgent : '';
-      var checkOpera = ua.match(/OPR\/([0-6].)/g);
+      var checkOpera = ua.match(/OPR\/(\d+)/g);
       var isOldOpera = (checkOpera && parseInt(checkOpera[0].split('/')[1], 10) < 33);
       var checkSafari = ua.indexOf('Safari') !== -1 && ua.indexOf('Chrome') === -1;
       var safariVersion = ua.match(/Version\/(.*?) /);
@@ -46250,6 +48303,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
       var self = this;
       var isIOS = Howler._navigator && Howler._navigator.vendor.indexOf('Apple') >= 0;
 
+      if (!node.bufferSource) {
+        return self;
+      }
+
       if (Howler._scratchBuffer && node.bufferSource) {
         node.bufferSource.onended = null;
         node.bufferSource.disconnect(0);
@@ -46670,7 +48727,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 /*!
  *  Spatial Plugin - Adds support for stereo and 3D audio where Web Audio is supported.
  *  
- *  howler.js v2.2.3
+ *  howler.js v2.2.4
  *  howlerjs.com
  *
  *  (c) 2013-2020, James Simpson of GoldFire Studios
@@ -47183,18 +49240,9 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
           panningModel: typeof o.panningModel !== 'undefined' ? o.panningModel : pa.panningModel
         };
 
-        // Update the panner values or create a new panner if none exists.
+        // Create a new panner node if one doesn't already exist.
         var panner = sound._panner;
-        if (panner) {
-          panner.coneInnerAngle = pa.coneInnerAngle;
-          panner.coneOuterAngle = pa.coneOuterAngle;
-          panner.coneOuterGain = pa.coneOuterGain;
-          panner.distanceModel = pa.distanceModel;
-          panner.maxDistance = pa.maxDistance;
-          panner.refDistance = pa.refDistance;
-          panner.rolloffFactor = pa.rolloffFactor;
-          panner.panningModel = pa.panningModel;
-        } else {
+        if (!panner) {
           // Make sure we have a position to setup the node with.
           if (!sound._pos) {
             sound._pos = self._pos || [0, 0, -0.5];
@@ -47202,7 +49250,18 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
           // Create a new panner node.
           setupPanner(sound, 'spatial');
+          panner = sound._panner
         }
+
+        // Update the panner values or create a new panner if none exists.
+        panner.coneInnerAngle = pa.coneInnerAngle;
+        panner.coneOuterAngle = pa.coneOuterAngle;
+        panner.coneOuterGain = pa.coneOuterGain;
+        panner.distanceModel = pa.distanceModel;
+        panner.maxDistance = pa.maxDistance;
+        panner.refDistance = pa.refDistance;
+        panner.rolloffFactor = pa.rolloffFactor;
+        panner.panningModel = pa.panningModel;
       }
     }
 
@@ -47326,13 +49385,13 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 })();
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/ieee754/index.js":
+/***/ "./node_modules/ieee754/index.js"
 /*!***************************************!*\
   !*** ./node_modules/ieee754/index.js ***!
   \***************************************/
-/***/ ((__unused_webpack_module, exports) => {
+(__unused_webpack_module, exports) {
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
@@ -47421,13 +49480,13 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/isarray/index.js":
+/***/ "./node_modules/isarray/index.js"
 /*!***************************************!*\
   !*** ./node_modules/isarray/index.js ***!
   \***************************************/
-/***/ ((module) => {
+(module) {
 
 var toString = {}.toString;
 
@@ -47436,26 +49495,23 @@ module.exports = Array.isArray || function (arr) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/jquery/dist/jquery.js":
+/***/ "./node_modules/jquery/dist/jquery.js"
 /*!********************************************!*\
   !*** ./node_modules/jquery/dist/jquery.js ***!
   \********************************************/
-/***/ (function(module, exports) {
+(module, exports) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * jQuery JavaScript Library v3.6.1
+ * jQuery JavaScript Library v3.7.1
  * https://jquery.com/
- *
- * Includes Sizzle.js
- * https://sizzlejs.com/
  *
  * Copyright OpenJS Foundation and other contributors
  * Released under the MIT license
  * https://jquery.org/license
  *
- * Date: 2022-08-26T17:52Z
+ * Date: 2023-08-28T13:37Z
  */
 ( function( global, factory ) {
 
@@ -47596,8 +49652,9 @@ function toType( obj ) {
 
 
 
-var
-	version = "3.6.1",
+var version = "3.7.1",
+
+	rhtmlSuffix = /HTML$/i,
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
@@ -47843,6 +49900,38 @@ jQuery.extend( {
 		return obj;
 	},
 
+
+	// Retrieve the text value of an array of DOM nodes
+	text: function( elem ) {
+		var node,
+			ret = "",
+			i = 0,
+			nodeType = elem.nodeType;
+
+		if ( !nodeType ) {
+
+			// If no nodeType, this is expected to be an array
+			while ( ( node = elem[ i++ ] ) ) {
+
+				// Do not traverse comment nodes
+				ret += jQuery.text( node );
+			}
+		}
+		if ( nodeType === 1 || nodeType === 11 ) {
+			return elem.textContent;
+		}
+		if ( nodeType === 9 ) {
+			return elem.documentElement.textContent;
+		}
+		if ( nodeType === 3 || nodeType === 4 ) {
+			return elem.nodeValue;
+		}
+
+		// Do not include comment or processing instruction nodes
+
+		return ret;
+	},
+
 	// results is for internal usage only
 	makeArray: function( arr, results ) {
 		var ret = results || [];
@@ -47863,6 +49952,15 @@ jQuery.extend( {
 
 	inArray: function( elem, arr, i ) {
 		return arr == null ? -1 : indexOf.call( arr, elem, i );
+	},
+
+	isXMLDoc: function( elem ) {
+		var namespace = elem && elem.namespaceURI,
+			docElem = elem && ( elem.ownerDocument || elem ).documentElement;
+
+		// Assume HTML when documentElement doesn't yet exist, such as inside
+		// document fragments.
+		return !rhtmlSuffix.test( namespace || docElem && docElem.nodeName || "HTML" );
 	},
 
 	// Support: Android <=4.0 only, PhantomJS 1 only
@@ -47966,43 +50064,98 @@ function isArrayLike( obj ) {
 	return type === "array" || length === 0 ||
 		typeof length === "number" && length > 0 && ( length - 1 ) in obj;
 }
-var Sizzle =
-/*!
- * Sizzle CSS Selector Engine v2.3.6
- * https://sizzlejs.com/
- *
- * Copyright JS Foundation and other contributors
- * Released under the MIT license
- * https://js.foundation/
- *
- * Date: 2021-02-16
- */
-( function( window ) {
+
+
+function nodeName( elem, name ) {
+
+	return elem.nodeName && elem.nodeName.toLowerCase() === name.toLowerCase();
+
+}
+var pop = arr.pop;
+
+
+var sort = arr.sort;
+
+
+var splice = arr.splice;
+
+
+var whitespace = "[\\x20\\t\\r\\n\\f]";
+
+
+var rtrimCSS = new RegExp(
+	"^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" + whitespace + "+$",
+	"g"
+);
+
+
+
+
+// Note: an element does not contain itself
+jQuery.contains = function( a, b ) {
+	var bup = b && b.parentNode;
+
+	return a === bup || !!( bup && bup.nodeType === 1 && (
+
+		// Support: IE 9 - 11+
+		// IE doesn't have `contains` on SVG.
+		a.contains ?
+			a.contains( bup ) :
+			a.compareDocumentPosition && a.compareDocumentPosition( bup ) & 16
+	) );
+};
+
+
+
+
+// CSS string/identifier serialization
+// https://drafts.csswg.org/cssom/#common-serializing-idioms
+var rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\x80-\uFFFF\w-]/g;
+
+function fcssescape( ch, asCodePoint ) {
+	if ( asCodePoint ) {
+
+		// U+0000 NULL becomes U+FFFD REPLACEMENT CHARACTER
+		if ( ch === "\0" ) {
+			return "\uFFFD";
+		}
+
+		// Control characters and (dependent upon position) numbers get escaped as code points
+		return ch.slice( 0, -1 ) + "\\" + ch.charCodeAt( ch.length - 1 ).toString( 16 ) + " ";
+	}
+
+	// Other potentially-special ASCII characters get backslash-escaped
+	return "\\" + ch;
+}
+
+jQuery.escapeSelector = function( sel ) {
+	return ( sel + "" ).replace( rcssescape, fcssescape );
+};
+
+
+
+
+var preferredDoc = document,
+	pushNative = push;
+
+( function() {
+
 var i,
-	support,
 	Expr,
-	getText,
-	isXML,
-	tokenize,
-	compile,
-	select,
 	outermostContext,
 	sortInput,
 	hasDuplicate,
+	push = pushNative,
 
 	// Local document vars
-	setDocument,
 	document,
-	docElem,
+	documentElement,
 	documentIsHTML,
 	rbuggyQSA,
-	rbuggyMatches,
 	matches,
-	contains,
 
 	// Instance-specific data
-	expando = "sizzle" + 1 * new Date(),
-	preferredDoc = window.document,
+	expando = jQuery.expando,
 	dirruns = 0,
 	done = 0,
 	classCache = createCache(),
@@ -48016,47 +50169,22 @@ var i,
 		return 0;
 	},
 
-	// Instance methods
-	hasOwn = ( {} ).hasOwnProperty,
-	arr = [],
-	pop = arr.pop,
-	pushNative = arr.push,
-	push = arr.push,
-	slice = arr.slice,
-
-	// Use a stripped-down indexOf as it's faster than native
-	// https://jsperf.com/thor-indexof-vs-for/5
-	indexOf = function( list, elem ) {
-		var i = 0,
-			len = list.length;
-		for ( ; i < len; i++ ) {
-			if ( list[ i ] === elem ) {
-				return i;
-			}
-		}
-		return -1;
-	},
-
-	booleans = "checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|" +
-		"ismap|loop|multiple|open|readonly|required|scoped",
+	booleans = "checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|" +
+		"loop|multiple|open|readonly|required|scoped",
 
 	// Regular expressions
-
-	// http://www.w3.org/TR/css3-selectors/#whitespace
-	whitespace = "[\\x20\\t\\r\\n\\f]",
 
 	// https://www.w3.org/TR/css-syntax-3/#ident-token-diagram
 	identifier = "(?:\\\\[\\da-fA-F]{1,6}" + whitespace +
 		"?|\\\\[^\\r\\n\\f]|[\\w-]|[^\0-\\x7f])+",
 
-	// Attribute selectors: http://www.w3.org/TR/selectors/#attribute-selectors
+	// Attribute selectors: https://www.w3.org/TR/selectors/#attribute-selectors
 	attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
 
 		// Operator (capture 2)
 		"*([*^$|!~]?=)" + whitespace +
 
-		// "Attribute values must be CSS identifiers [capture 5]
-		// or strings [capture 3 or capture 4]"
+		// "Attribute values must be CSS identifiers [capture 5] or strings [capture 3 or capture 4]"
 		"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|(" + identifier + "))|)" +
 		whitespace + "*\\]",
 
@@ -48075,40 +50203,36 @@ var i,
 
 	// Leading and non-escaped trailing whitespace, capturing some non-whitespace characters preceding the latter
 	rwhitespace = new RegExp( whitespace + "+", "g" ),
-	rtrim = new RegExp( "^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" +
-		whitespace + "+$", "g" ),
 
 	rcomma = new RegExp( "^" + whitespace + "*," + whitespace + "*" ),
-	rcombinators = new RegExp( "^" + whitespace + "*([>+~]|" + whitespace + ")" + whitespace +
-		"*" ),
+	rleadingCombinator = new RegExp( "^" + whitespace + "*([>+~]|" + whitespace + ")" +
+		whitespace + "*" ),
 	rdescend = new RegExp( whitespace + "|>" ),
 
 	rpseudo = new RegExp( pseudos ),
 	ridentifier = new RegExp( "^" + identifier + "$" ),
 
 	matchExpr = {
-		"ID": new RegExp( "^#(" + identifier + ")" ),
-		"CLASS": new RegExp( "^\\.(" + identifier + ")" ),
-		"TAG": new RegExp( "^(" + identifier + "|[*])" ),
-		"ATTR": new RegExp( "^" + attributes ),
-		"PSEUDO": new RegExp( "^" + pseudos ),
-		"CHILD": new RegExp( "^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
-			whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
-			whitespace + "*(\\d+)|))" + whitespace + "*\\)|)", "i" ),
-		"bool": new RegExp( "^(?:" + booleans + ")$", "i" ),
+		ID: new RegExp( "^#(" + identifier + ")" ),
+		CLASS: new RegExp( "^\\.(" + identifier + ")" ),
+		TAG: new RegExp( "^(" + identifier + "|[*])" ),
+		ATTR: new RegExp( "^" + attributes ),
+		PSEUDO: new RegExp( "^" + pseudos ),
+		CHILD: new RegExp(
+			"^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
+				whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
+				whitespace + "*(\\d+)|))" + whitespace + "*\\)|)", "i" ),
+		bool: new RegExp( "^(?:" + booleans + ")$", "i" ),
 
 		// For use in libraries implementing .is()
 		// We use this for POS matching in `select`
-		"needsContext": new RegExp( "^" + whitespace +
+		needsContext: new RegExp( "^" + whitespace +
 			"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\(" + whitespace +
 			"*((?:-\\d)?\\d*)" + whitespace + "*\\)|)(?=[^-]|$)", "i" )
 	},
 
-	rhtml = /HTML$/i,
 	rinputs = /^(?:input|select|textarea|button)$/i,
 	rheader = /^h\d$/i,
-
-	rnative = /^[^{]+\{\s*\[native \w/,
 
 	// Easily-parseable/retrievable ID or TAG or CLASS selectors
 	rquickExpr = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
@@ -48116,59 +50240,50 @@ var i,
 	rsibling = /[+~]/,
 
 	// CSS escapes
-	// http://www.w3.org/TR/CSS21/syndata.html#escaped-characters
-	runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace + "?|\\\\([^\\r\\n\\f])", "g" ),
+	// https://www.w3.org/TR/CSS21/syndata.html#escaped-characters
+	runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
+		"?|\\\\([^\\r\\n\\f])", "g" ),
 	funescape = function( escape, nonHex ) {
 		var high = "0x" + escape.slice( 1 ) - 0x10000;
 
-		return nonHex ?
+		if ( nonHex ) {
 
 			// Strip the backslash prefix from a non-hex escape sequence
-			nonHex :
-
-			// Replace a hexadecimal escape sequence with the encoded Unicode code point
-			// Support: IE <=11+
-			// For values outside the Basic Multilingual Plane (BMP), manually construct a
-			// surrogate pair
-			high < 0 ?
-				String.fromCharCode( high + 0x10000 ) :
-				String.fromCharCode( high >> 10 | 0xD800, high & 0x3FF | 0xDC00 );
-	},
-
-	// CSS string/identifier serialization
-	// https://drafts.csswg.org/cssom/#common-serializing-idioms
-	rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\0-\x1f\x7f-\uFFFF\w-]/g,
-	fcssescape = function( ch, asCodePoint ) {
-		if ( asCodePoint ) {
-
-			// U+0000 NULL becomes U+FFFD REPLACEMENT CHARACTER
-			if ( ch === "\0" ) {
-				return "\uFFFD";
-			}
-
-			// Control characters and (dependent upon position) numbers get escaped as code points
-			return ch.slice( 0, -1 ) + "\\" +
-				ch.charCodeAt( ch.length - 1 ).toString( 16 ) + " ";
+			return nonHex;
 		}
 
-		// Other potentially-special ASCII characters get backslash-escaped
-		return "\\" + ch;
+		// Replace a hexadecimal escape sequence with the encoded Unicode code point
+		// Support: IE <=11+
+		// For values outside the Basic Multilingual Plane (BMP), manually construct a
+		// surrogate pair
+		return high < 0 ?
+			String.fromCharCode( high + 0x10000 ) :
+			String.fromCharCode( high >> 10 | 0xD800, high & 0x3FF | 0xDC00 );
 	},
 
-	// Used for iframes
-	// See setDocument()
+	// Used for iframes; see `setDocument`.
+	// Support: IE 9 - 11+, Edge 12 - 18+
 	// Removing the function wrapper causes a "Permission Denied"
-	// error in IE
+	// error in IE/Edge.
 	unloadHandler = function() {
 		setDocument();
 	},
 
 	inDisabledFieldset = addCombinator(
 		function( elem ) {
-			return elem.disabled === true && elem.nodeName.toLowerCase() === "fieldset";
+			return elem.disabled === true && nodeName( elem, "fieldset" );
 		},
 		{ dir: "parentNode", next: "legend" }
 	);
+
+// Support: IE <=9 only
+// Accessing document.activeElement can throw unexpectedly
+// https://bugs.jquery.com/ticket/13393
+function safeActiveElement() {
+	try {
+		return document.activeElement;
+	} catch ( err ) { }
+}
 
 // Optimize for push.apply( _, NodeList )
 try {
@@ -48177,32 +50292,22 @@ try {
 		preferredDoc.childNodes
 	);
 
-	// Support: Android<4.0
+	// Support: Android <=4.0
 	// Detect silently failing push.apply
 	// eslint-disable-next-line no-unused-expressions
 	arr[ preferredDoc.childNodes.length ].nodeType;
 } catch ( e ) {
-	push = { apply: arr.length ?
-
-		// Leverage slice if possible
-		function( target, els ) {
+	push = {
+		apply: function( target, els ) {
 			pushNative.apply( target, slice.call( els ) );
-		} :
-
-		// Support: IE<9
-		// Otherwise append directly
-		function( target, els ) {
-			var j = target.length,
-				i = 0;
-
-			// Can't trust NodeList.length
-			while ( ( target[ j++ ] = els[ i++ ] ) ) {}
-			target.length = j - 1;
+		},
+		call: function( target ) {
+			pushNative.apply( target, slice.call( arguments, 1 ) );
 		}
 	};
 }
 
-function Sizzle( selector, context, results, seed ) {
+function find( selector, context, results, seed ) {
 	var m, i, elem, nid, match, groups, newSelector,
 		newContext = context && context.ownerDocument,
 
@@ -48236,11 +50341,10 @@ function Sizzle( selector, context, results, seed ) {
 					if ( nodeType === 9 ) {
 						if ( ( elem = context.getElementById( m ) ) ) {
 
-							// Support: IE, Opera, Webkit
-							// TODO: identify versions
+							// Support: IE 9 only
 							// getElementById can match elements by name instead of ID
 							if ( elem.id === m ) {
-								results.push( elem );
+								push.call( results, elem );
 								return results;
 							}
 						} else {
@@ -48250,14 +50354,13 @@ function Sizzle( selector, context, results, seed ) {
 					// Element context
 					} else {
 
-						// Support: IE, Opera, Webkit
-						// TODO: identify versions
+						// Support: IE 9 only
 						// getElementById can match elements by name instead of ID
 						if ( newContext && ( elem = newContext.getElementById( m ) ) &&
-							contains( context, elem ) &&
+							find.contains( context, elem ) &&
 							elem.id === m ) {
 
-							results.push( elem );
+							push.call( results, elem );
 							return results;
 						}
 					}
@@ -48268,22 +50371,15 @@ function Sizzle( selector, context, results, seed ) {
 					return results;
 
 				// Class selector
-				} else if ( ( m = match[ 3 ] ) && support.getElementsByClassName &&
-					context.getElementsByClassName ) {
-
+				} else if ( ( m = match[ 3 ] ) && context.getElementsByClassName ) {
 					push.apply( results, context.getElementsByClassName( m ) );
 					return results;
 				}
 			}
 
 			// Take advantage of querySelectorAll
-			if ( support.qsa &&
-				!nonnativeSelectorCache[ selector + " " ] &&
-				( !rbuggyQSA || !rbuggyQSA.test( selector ) ) &&
-
-				// Support: IE 8 only
-				// Exclude object elements
-				( nodeType !== 1 || context.nodeName.toLowerCase() !== "object" ) ) {
+			if ( !nonnativeSelectorCache[ selector + " " ] &&
+				( !rbuggyQSA || !rbuggyQSA.test( selector ) ) ) {
 
 				newSelector = selector;
 				newContext = context;
@@ -48296,7 +50392,7 @@ function Sizzle( selector, context, results, seed ) {
 				// as such selectors are not recognized by querySelectorAll.
 				// Thanks to Andrew Dupont for this technique.
 				if ( nodeType === 1 &&
-					( rdescend.test( selector ) || rcombinators.test( selector ) ) ) {
+					( rdescend.test( selector ) || rleadingCombinator.test( selector ) ) ) {
 
 					// Expand context for sibling selectors
 					newContext = rsibling.test( selector ) && testContext( context.parentNode ) ||
@@ -48304,11 +50400,15 @@ function Sizzle( selector, context, results, seed ) {
 
 					// We can use :scope instead of the ID hack if the browser
 					// supports it & if we're not changing the context.
-					if ( newContext !== context || !support.scope ) {
+					// Support: IE 11+, Edge 17 - 18+
+					// IE/Edge sometimes throw a "Permission denied" error when
+					// strict-comparing two documents; shallow comparisons work.
+					// eslint-disable-next-line eqeqeq
+					if ( newContext != context || !support.scope ) {
 
 						// Capture the context ID, setting it first if necessary
 						if ( ( nid = context.getAttribute( "id" ) ) ) {
-							nid = nid.replace( rcssescape, fcssescape );
+							nid = jQuery.escapeSelector( nid );
 						} else {
 							context.setAttribute( "id", ( nid = expando ) );
 						}
@@ -48341,7 +50441,7 @@ function Sizzle( selector, context, results, seed ) {
 	}
 
 	// All others
-	return select( selector.replace( rtrim, "$1" ), context, results, seed );
+	return select( selector.replace( rtrimCSS, "$1" ), context, results, seed );
 }
 
 /**
@@ -48355,7 +50455,8 @@ function createCache() {
 
 	function cache( key, value ) {
 
-		// Use (key + " ") to avoid collision with native prototype properties (see Issue #157)
+		// Use (key + " ") to avoid collision with native prototype properties
+		// (see https://github.com/jquery/sizzle/issues/157)
 		if ( keys.push( key + " " ) > Expr.cacheLength ) {
 
 			// Only keep the most recent entries
@@ -48367,7 +50468,7 @@ function createCache() {
 }
 
 /**
- * Mark a function for special use by Sizzle
+ * Mark a function for special use by jQuery selector module
  * @param {Function} fn The function to mark
  */
 function markFunction( fn ) {
@@ -48399,55 +50500,12 @@ function assert( fn ) {
 }
 
 /**
- * Adds the same handler for all of the specified attrs
- * @param {String} attrs Pipe-separated list of attributes
- * @param {Function} handler The method that will be applied
- */
-function addHandle( attrs, handler ) {
-	var arr = attrs.split( "|" ),
-		i = arr.length;
-
-	while ( i-- ) {
-		Expr.attrHandle[ arr[ i ] ] = handler;
-	}
-}
-
-/**
- * Checks document order of two siblings
- * @param {Element} a
- * @param {Element} b
- * @returns {Number} Returns less than 0 if a precedes b, greater than 0 if a follows b
- */
-function siblingCheck( a, b ) {
-	var cur = b && a,
-		diff = cur && a.nodeType === 1 && b.nodeType === 1 &&
-			a.sourceIndex - b.sourceIndex;
-
-	// Use IE sourceIndex if available on both nodes
-	if ( diff ) {
-		return diff;
-	}
-
-	// Check if b follows a
-	if ( cur ) {
-		while ( ( cur = cur.nextSibling ) ) {
-			if ( cur === b ) {
-				return -1;
-			}
-		}
-	}
-
-	return a ? 1 : -1;
-}
-
-/**
  * Returns a function to use in pseudos for input types
  * @param {String} type
  */
 function createInputPseudo( type ) {
 	return function( elem ) {
-		var name = elem.nodeName.toLowerCase();
-		return name === "input" && elem.type === type;
+		return nodeName( elem, "input" ) && elem.type === type;
 	};
 }
 
@@ -48457,8 +50515,8 @@ function createInputPseudo( type ) {
  */
 function createButtonPseudo( type ) {
 	return function( elem ) {
-		var name = elem.nodeName.toLowerCase();
-		return ( name === "input" || name === "button" ) && elem.type === type;
+		return ( nodeName( elem, "input" ) || nodeName( elem, "button" ) ) &&
+			elem.type === type;
 	};
 }
 
@@ -48494,14 +50552,13 @@ function createDisabledPseudo( disabled ) {
 					}
 				}
 
-				// Support: IE 6 - 11
+				// Support: IE 6 - 11+
 				// Use the isDisabled shortcut property to check for disabled fieldset ancestors
 				return elem.isDisabled === disabled ||
 
 					// Where there is no isDisabled, check manually
-					/* jshint -W018 */
 					elem.isDisabled !== !disabled &&
-					inDisabledFieldset( elem ) === disabled;
+						inDisabledFieldset( elem ) === disabled;
 			}
 
 			return elem.disabled === disabled;
@@ -48541,7 +50598,7 @@ function createPositionalPseudo( fn ) {
 }
 
 /**
- * Checks a node for validity as a Sizzle context
+ * Checks a node for validity as a jQuery selector context
  * @param {Element|Object=} context
  * @returns {Element|Object|Boolean} The input node if acceptable, otherwise a falsy value
  */
@@ -48549,31 +50606,13 @@ function testContext( context ) {
 	return context && typeof context.getElementsByTagName !== "undefined" && context;
 }
 
-// Expose support vars for convenience
-support = Sizzle.support = {};
-
-/**
- * Detects XML nodes
- * @param {Element|Object} elem An element or a document
- * @returns {Boolean} True iff elem is a non-HTML XML node
- */
-isXML = Sizzle.isXML = function( elem ) {
-	var namespace = elem && elem.namespaceURI,
-		docElem = elem && ( elem.ownerDocument || elem ).documentElement;
-
-	// Support: IE <=8
-	// Assume HTML when documentElement doesn't yet exist, such as inside loading iframes
-	// https://bugs.jquery.com/ticket/4833
-	return !rhtml.test( namespace || docElem && docElem.nodeName || "HTML" );
-};
-
 /**
  * Sets document-related variables once based on the current document
- * @param {Element|Object} [doc] An element or document object to use to set the document
+ * @param {Element|Object} [node] An element or document object to use to set the document
  * @returns {Object} Returns the current document
  */
-setDocument = Sizzle.setDocument = function( node ) {
-	var hasCompare, subWindow,
+function setDocument( node ) {
+	var subWindow,
 		doc = node ? node.ownerDocument || node : preferredDoc;
 
 	// Return early if doc is invalid or already selected
@@ -48587,87 +50626,90 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 	// Update global variables
 	document = doc;
-	docElem = document.documentElement;
-	documentIsHTML = !isXML( document );
+	documentElement = document.documentElement;
+	documentIsHTML = !jQuery.isXMLDoc( document );
+
+	// Support: iOS 7 only, IE 9 - 11+
+	// Older browsers didn't support unprefixed `matches`.
+	matches = documentElement.matches ||
+		documentElement.webkitMatchesSelector ||
+		documentElement.msMatchesSelector;
 
 	// Support: IE 9 - 11+, Edge 12 - 18+
-	// Accessing iframe documents after unload throws "permission denied" errors (jQuery #13936)
-	// Support: IE 11+, Edge 17 - 18+
-	// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
-	// two documents; shallow comparisons work.
-	// eslint-disable-next-line eqeqeq
-	if ( preferredDoc != document &&
+	// Accessing iframe documents after unload throws "permission denied" errors
+	// (see trac-13936).
+	// Limit the fix to IE & Edge Legacy; despite Edge 15+ implementing `matches`,
+	// all IE 9+ and Edge Legacy versions implement `msMatchesSelector` as well.
+	if ( documentElement.msMatchesSelector &&
+
+		// Support: IE 11+, Edge 17 - 18+
+		// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+		// two documents; shallow comparisons work.
+		// eslint-disable-next-line eqeqeq
+		preferredDoc != document &&
 		( subWindow = document.defaultView ) && subWindow.top !== subWindow ) {
 
-		// Support: IE 11, Edge
-		if ( subWindow.addEventListener ) {
-			subWindow.addEventListener( "unload", unloadHandler, false );
-
-		// Support: IE 9 - 10 only
-		} else if ( subWindow.attachEvent ) {
-			subWindow.attachEvent( "onunload", unloadHandler );
-		}
+		// Support: IE 9 - 11+, Edge 12 - 18+
+		subWindow.addEventListener( "unload", unloadHandler );
 	}
 
-	// Support: IE 8 - 11+, Edge 12 - 18+, Chrome <=16 - 25 only, Firefox <=3.6 - 31 only,
-	// Safari 4 - 5 only, Opera <=11.6 - 12.x only
-	// IE/Edge & older browsers don't support the :scope pseudo-class.
-	// Support: Safari 6.0 only
-	// Safari 6.0 supports :scope but it's an alias of :root there.
-	support.scope = assert( function( el ) {
-		docElem.appendChild( el ).appendChild( document.createElement( "div" ) );
-		return typeof el.querySelectorAll !== "undefined" &&
-			!el.querySelectorAll( ":scope fieldset div" ).length;
-	} );
-
-	/* Attributes
-	---------------------------------------------------------------------- */
-
-	// Support: IE<8
-	// Verify that getAttribute really returns attributes and not properties
-	// (excepting IE8 booleans)
-	support.attributes = assert( function( el ) {
-		el.className = "i";
-		return !el.getAttribute( "className" );
-	} );
-
-	/* getElement(s)By*
-	---------------------------------------------------------------------- */
-
-	// Check if getElementsByTagName("*") returns only elements
-	support.getElementsByTagName = assert( function( el ) {
-		el.appendChild( document.createComment( "" ) );
-		return !el.getElementsByTagName( "*" ).length;
-	} );
-
-	// Support: IE<9
-	support.getElementsByClassName = rnative.test( document.getElementsByClassName );
-
-	// Support: IE<10
+	// Support: IE <10
 	// Check if getElementById returns elements by name
 	// The broken getElementById methods don't pick up programmatically-set names,
 	// so use a roundabout getElementsByName test
 	support.getById = assert( function( el ) {
-		docElem.appendChild( el ).id = expando;
-		return !document.getElementsByName || !document.getElementsByName( expando ).length;
+		documentElement.appendChild( el ).id = jQuery.expando;
+		return !document.getElementsByName ||
+			!document.getElementsByName( jQuery.expando ).length;
+	} );
+
+	// Support: IE 9 only
+	// Check to see if it's possible to do matchesSelector
+	// on a disconnected node.
+	support.disconnectedMatch = assert( function( el ) {
+		return matches.call( el, "*" );
+	} );
+
+	// Support: IE 9 - 11+, Edge 12 - 18+
+	// IE/Edge don't support the :scope pseudo-class.
+	support.scope = assert( function() {
+		return document.querySelectorAll( ":scope" );
+	} );
+
+	// Support: Chrome 105 - 111 only, Safari 15.4 - 16.3 only
+	// Make sure the `:has()` argument is parsed unforgivingly.
+	// We include `*` in the test to detect buggy implementations that are
+	// _selectively_ forgiving (specifically when the list includes at least
+	// one valid selector).
+	// Note that we treat complete lack of support for `:has()` as if it were
+	// spec-compliant support, which is fine because use of `:has()` in such
+	// environments will fail in the qSA path and fall back to jQuery traversal
+	// anyway.
+	support.cssHas = assert( function() {
+		try {
+			document.querySelector( ":has(*,:jqfake)" );
+			return false;
+		} catch ( e ) {
+			return true;
+		}
 	} );
 
 	// ID filter and find
 	if ( support.getById ) {
-		Expr.filter[ "ID" ] = function( id ) {
+		Expr.filter.ID = function( id ) {
 			var attrId = id.replace( runescape, funescape );
 			return function( elem ) {
 				return elem.getAttribute( "id" ) === attrId;
 			};
 		};
-		Expr.find[ "ID" ] = function( id, context ) {
+		Expr.find.ID = function( id, context ) {
 			if ( typeof context.getElementById !== "undefined" && documentIsHTML ) {
 				var elem = context.getElementById( id );
 				return elem ? [ elem ] : [];
 			}
 		};
 	} else {
-		Expr.filter[ "ID" ] =  function( id ) {
+		Expr.filter.ID =  function( id ) {
 			var attrId = id.replace( runescape, funescape );
 			return function( elem ) {
 				var node = typeof elem.getAttributeNode !== "undefined" &&
@@ -48678,7 +50720,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 		// Support: IE 6 - 7 only
 		// getElementById is not reliable as a find shortcut
-		Expr.find[ "ID" ] = function( id, context ) {
+		Expr.find.ID = function( id, context ) {
 			if ( typeof context.getElementById !== "undefined" && documentIsHTML ) {
 				var node, i, elems,
 					elem = context.getElementById( id );
@@ -48708,40 +50750,18 @@ setDocument = Sizzle.setDocument = function( node ) {
 	}
 
 	// Tag
-	Expr.find[ "TAG" ] = support.getElementsByTagName ?
-		function( tag, context ) {
-			if ( typeof context.getElementsByTagName !== "undefined" ) {
-				return context.getElementsByTagName( tag );
+	Expr.find.TAG = function( tag, context ) {
+		if ( typeof context.getElementsByTagName !== "undefined" ) {
+			return context.getElementsByTagName( tag );
 
-			// DocumentFragment nodes don't have gEBTN
-			} else if ( support.qsa ) {
-				return context.querySelectorAll( tag );
-			}
-		} :
-
-		function( tag, context ) {
-			var elem,
-				tmp = [],
-				i = 0,
-
-				// By happy coincidence, a (broken) gEBTN appears on DocumentFragment nodes too
-				results = context.getElementsByTagName( tag );
-
-			// Filter out possible comments
-			if ( tag === "*" ) {
-				while ( ( elem = results[ i++ ] ) ) {
-					if ( elem.nodeType === 1 ) {
-						tmp.push( elem );
-					}
-				}
-
-				return tmp;
-			}
-			return results;
-		};
+		// DocumentFragment nodes don't have gEBTN
+		} else {
+			return context.querySelectorAll( tag );
+		}
+	};
 
 	// Class
-	Expr.find[ "CLASS" ] = support.getElementsByClassName && function( className, context ) {
+	Expr.find.CLASS = function( className, context ) {
 		if ( typeof context.getElementsByClassName !== "undefined" && documentIsHTML ) {
 			return context.getElementsByClassName( className );
 		}
@@ -48752,177 +50772,94 @@ setDocument = Sizzle.setDocument = function( node ) {
 
 	// QSA and matchesSelector support
 
-	// matchesSelector(:active) reports false when true (IE9/Opera 11.5)
-	rbuggyMatches = [];
-
-	// qSa(:focus) reports false when true (Chrome 21)
-	// We allow this because of a bug in IE8/9 that throws an error
-	// whenever `document.activeElement` is accessed on an iframe
-	// So, we allow :focus to pass through QSA all the time to avoid the IE error
-	// See https://bugs.jquery.com/ticket/13378
 	rbuggyQSA = [];
 
-	if ( ( support.qsa = rnative.test( document.querySelectorAll ) ) ) {
+	// Build QSA regex
+	// Regex strategy adopted from Diego Perini
+	assert( function( el ) {
 
-		// Build QSA regex
-		// Regex strategy adopted from Diego Perini
-		assert( function( el ) {
+		var input;
 
-			var input;
+		documentElement.appendChild( el ).innerHTML =
+			"<a id='" + expando + "' href='' disabled='disabled'></a>" +
+			"<select id='" + expando + "-\r\\' disabled='disabled'>" +
+			"<option selected=''></option></select>";
 
-			// Select is set to empty string on purpose
-			// This is to test IE's treatment of not explicitly
-			// setting a boolean content attribute,
-			// since its presence should be enough
-			// https://bugs.jquery.com/ticket/12359
-			docElem.appendChild( el ).innerHTML = "<a id='" + expando + "'></a>" +
-				"<select id='" + expando + "-\r\\' msallowcapture=''>" +
-				"<option selected=''></option></select>";
+		// Support: iOS <=7 - 8 only
+		// Boolean attributes and "value" are not treated correctly in some XML documents
+		if ( !el.querySelectorAll( "[selected]" ).length ) {
+			rbuggyQSA.push( "\\[" + whitespace + "*(?:value|" + booleans + ")" );
+		}
 
-			// Support: IE8, Opera 11-12.16
-			// Nothing should be selected when empty strings follow ^= or $= or *=
-			// The test attribute must be unknown in Opera but "safe" for WinRT
-			// https://msdn.microsoft.com/en-us/library/ie/hh465388.aspx#attribute_section
-			if ( el.querySelectorAll( "[msallowcapture^='']" ).length ) {
-				rbuggyQSA.push( "[*^$]=" + whitespace + "*(?:''|\"\")" );
-			}
+		// Support: iOS <=7 - 8 only
+		if ( !el.querySelectorAll( "[id~=" + expando + "-]" ).length ) {
+			rbuggyQSA.push( "~=" );
+		}
 
-			// Support: IE8
-			// Boolean attributes and "value" are not treated correctly
-			if ( !el.querySelectorAll( "[selected]" ).length ) {
-				rbuggyQSA.push( "\\[" + whitespace + "*(?:value|" + booleans + ")" );
-			}
+		// Support: iOS 8 only
+		// https://bugs.webkit.org/show_bug.cgi?id=136851
+		// In-page `selector#id sibling-combinator selector` fails
+		if ( !el.querySelectorAll( "a#" + expando + "+*" ).length ) {
+			rbuggyQSA.push( ".#.+[+~]" );
+		}
 
-			// Support: Chrome<29, Android<4.4, Safari<7.0+, iOS<7.0+, PhantomJS<1.9.8+
-			if ( !el.querySelectorAll( "[id~=" + expando + "-]" ).length ) {
-				rbuggyQSA.push( "~=" );
-			}
+		// Support: Chrome <=105+, Firefox <=104+, Safari <=15.4+
+		// In some of the document kinds, these selectors wouldn't work natively.
+		// This is probably OK but for backwards compatibility we want to maintain
+		// handling them through jQuery traversal in jQuery 3.x.
+		if ( !el.querySelectorAll( ":checked" ).length ) {
+			rbuggyQSA.push( ":checked" );
+		}
 
-			// Support: IE 11+, Edge 15 - 18+
-			// IE 11/Edge don't find elements on a `[name='']` query in some cases.
-			// Adding a temporary attribute to the document before the selection works
-			// around the issue.
-			// Interestingly, IE 10 & older don't seem to have the issue.
-			input = document.createElement( "input" );
-			input.setAttribute( "name", "" );
-			el.appendChild( input );
-			if ( !el.querySelectorAll( "[name='']" ).length ) {
-				rbuggyQSA.push( "\\[" + whitespace + "*name" + whitespace + "*=" +
-					whitespace + "*(?:''|\"\")" );
-			}
+		// Support: Windows 8 Native Apps
+		// The type and name attributes are restricted during .innerHTML assignment
+		input = document.createElement( "input" );
+		input.setAttribute( "type", "hidden" );
+		el.appendChild( input ).setAttribute( "name", "D" );
 
-			// Webkit/Opera - :checked should return selected option elements
-			// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
-			// IE8 throws error here and will not see later tests
-			if ( !el.querySelectorAll( ":checked" ).length ) {
-				rbuggyQSA.push( ":checked" );
-			}
+		// Support: IE 9 - 11+
+		// IE's :disabled selector does not pick up the children of disabled fieldsets
+		// Support: Chrome <=105+, Firefox <=104+, Safari <=15.4+
+		// In some of the document kinds, these selectors wouldn't work natively.
+		// This is probably OK but for backwards compatibility we want to maintain
+		// handling them through jQuery traversal in jQuery 3.x.
+		documentElement.appendChild( el ).disabled = true;
+		if ( el.querySelectorAll( ":disabled" ).length !== 2 ) {
+			rbuggyQSA.push( ":enabled", ":disabled" );
+		}
 
-			// Support: Safari 8+, iOS 8+
-			// https://bugs.webkit.org/show_bug.cgi?id=136851
-			// In-page `selector#id sibling-combinator selector` fails
-			if ( !el.querySelectorAll( "a#" + expando + "+*" ).length ) {
-				rbuggyQSA.push( ".#.+[+~]" );
-			}
+		// Support: IE 11+, Edge 15 - 18+
+		// IE 11/Edge don't find elements on a `[name='']` query in some cases.
+		// Adding a temporary attribute to the document before the selection works
+		// around the issue.
+		// Interestingly, IE 10 & older don't seem to have the issue.
+		input = document.createElement( "input" );
+		input.setAttribute( "name", "" );
+		el.appendChild( input );
+		if ( !el.querySelectorAll( "[name='']" ).length ) {
+			rbuggyQSA.push( "\\[" + whitespace + "*name" + whitespace + "*=" +
+				whitespace + "*(?:''|\"\")" );
+		}
+	} );
 
-			// Support: Firefox <=3.6 - 5 only
-			// Old Firefox doesn't throw on a badly-escaped identifier.
-			el.querySelectorAll( "\\\f" );
-			rbuggyQSA.push( "[\\r\\n\\f]" );
-		} );
+	if ( !support.cssHas ) {
 
-		assert( function( el ) {
-			el.innerHTML = "<a href='' disabled='disabled'></a>" +
-				"<select disabled='disabled'><option/></select>";
-
-			// Support: Windows 8 Native Apps
-			// The type and name attributes are restricted during .innerHTML assignment
-			var input = document.createElement( "input" );
-			input.setAttribute( "type", "hidden" );
-			el.appendChild( input ).setAttribute( "name", "D" );
-
-			// Support: IE8
-			// Enforce case-sensitivity of name attribute
-			if ( el.querySelectorAll( "[name=d]" ).length ) {
-				rbuggyQSA.push( "name" + whitespace + "*[*^$|!~]?=" );
-			}
-
-			// FF 3.5 - :enabled/:disabled and hidden elements (hidden elements are still enabled)
-			// IE8 throws error here and will not see later tests
-			if ( el.querySelectorAll( ":enabled" ).length !== 2 ) {
-				rbuggyQSA.push( ":enabled", ":disabled" );
-			}
-
-			// Support: IE9-11+
-			// IE's :disabled selector does not pick up the children of disabled fieldsets
-			docElem.appendChild( el ).disabled = true;
-			if ( el.querySelectorAll( ":disabled" ).length !== 2 ) {
-				rbuggyQSA.push( ":enabled", ":disabled" );
-			}
-
-			// Support: Opera 10 - 11 only
-			// Opera 10-11 does not throw on post-comma invalid pseudos
-			el.querySelectorAll( "*,:x" );
-			rbuggyQSA.push( ",.*:" );
-		} );
-	}
-
-	if ( ( support.matchesSelector = rnative.test( ( matches = docElem.matches ||
-		docElem.webkitMatchesSelector ||
-		docElem.mozMatchesSelector ||
-		docElem.oMatchesSelector ||
-		docElem.msMatchesSelector ) ) ) ) {
-
-		assert( function( el ) {
-
-			// Check to see if it's possible to do matchesSelector
-			// on a disconnected node (IE 9)
-			support.disconnectedMatch = matches.call( el, "*" );
-
-			// This should fail with an exception
-			// Gecko does not error, returns false instead
-			matches.call( el, "[s!='']:x" );
-			rbuggyMatches.push( "!=", pseudos );
-		} );
+		// Support: Chrome 105 - 110+, Safari 15.4 - 16.3+
+		// Our regular `try-catch` mechanism fails to detect natively-unsupported
+		// pseudo-classes inside `:has()` (such as `:has(:contains("Foo"))`)
+		// in browsers that parse the `:has()` argument as a forgiving selector list.
+		// https://drafts.csswg.org/selectors/#relational now requires the argument
+		// to be parsed unforgivingly, but browsers have not yet fully adjusted.
+		rbuggyQSA.push( ":has" );
 	}
 
 	rbuggyQSA = rbuggyQSA.length && new RegExp( rbuggyQSA.join( "|" ) );
-	rbuggyMatches = rbuggyMatches.length && new RegExp( rbuggyMatches.join( "|" ) );
-
-	/* Contains
-	---------------------------------------------------------------------- */
-	hasCompare = rnative.test( docElem.compareDocumentPosition );
-
-	// Element contains another
-	// Purposefully self-exclusive
-	// As in, an element does not contain itself
-	contains = hasCompare || rnative.test( docElem.contains ) ?
-		function( a, b ) {
-			var adown = a.nodeType === 9 ? a.documentElement : a,
-				bup = b && b.parentNode;
-			return a === bup || !!( bup && bup.nodeType === 1 && (
-				adown.contains ?
-					adown.contains( bup ) :
-					a.compareDocumentPosition && a.compareDocumentPosition( bup ) & 16
-			) );
-		} :
-		function( a, b ) {
-			if ( b ) {
-				while ( ( b = b.parentNode ) ) {
-					if ( b === a ) {
-						return true;
-					}
-				}
-			}
-			return false;
-		};
 
 	/* Sorting
 	---------------------------------------------------------------------- */
 
 	// Document order sorting
-	sortOrder = hasCompare ?
-	function( a, b ) {
+	sortOrder = function( a, b ) {
 
 		// Flag for duplicate removal
 		if ( a === b ) {
@@ -48956,8 +50893,8 @@ setDocument = Sizzle.setDocument = function( node ) {
 			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
 			// two documents; shallow comparisons work.
 			// eslint-disable-next-line eqeqeq
-			if ( a == document || a.ownerDocument == preferredDoc &&
-				contains( preferredDoc, a ) ) {
+			if ( a === document || a.ownerDocument == preferredDoc &&
+				find.contains( preferredDoc, a ) ) {
 				return -1;
 			}
 
@@ -48965,100 +50902,33 @@ setDocument = Sizzle.setDocument = function( node ) {
 			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
 			// two documents; shallow comparisons work.
 			// eslint-disable-next-line eqeqeq
-			if ( b == document || b.ownerDocument == preferredDoc &&
-				contains( preferredDoc, b ) ) {
+			if ( b === document || b.ownerDocument == preferredDoc &&
+				find.contains( preferredDoc, b ) ) {
 				return 1;
 			}
 
 			// Maintain original order
 			return sortInput ?
-				( indexOf( sortInput, a ) - indexOf( sortInput, b ) ) :
+				( indexOf.call( sortInput, a ) - indexOf.call( sortInput, b ) ) :
 				0;
 		}
 
 		return compare & 4 ? -1 : 1;
-	} :
-	function( a, b ) {
-
-		// Exit early if the nodes are identical
-		if ( a === b ) {
-			hasDuplicate = true;
-			return 0;
-		}
-
-		var cur,
-			i = 0,
-			aup = a.parentNode,
-			bup = b.parentNode,
-			ap = [ a ],
-			bp = [ b ];
-
-		// Parentless nodes are either documents or disconnected
-		if ( !aup || !bup ) {
-
-			// Support: IE 11+, Edge 17 - 18+
-			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
-			// two documents; shallow comparisons work.
-			/* eslint-disable eqeqeq */
-			return a == document ? -1 :
-				b == document ? 1 :
-				/* eslint-enable eqeqeq */
-				aup ? -1 :
-				bup ? 1 :
-				sortInput ?
-				( indexOf( sortInput, a ) - indexOf( sortInput, b ) ) :
-				0;
-
-		// If the nodes are siblings, we can do a quick check
-		} else if ( aup === bup ) {
-			return siblingCheck( a, b );
-		}
-
-		// Otherwise we need full lists of their ancestors for comparison
-		cur = a;
-		while ( ( cur = cur.parentNode ) ) {
-			ap.unshift( cur );
-		}
-		cur = b;
-		while ( ( cur = cur.parentNode ) ) {
-			bp.unshift( cur );
-		}
-
-		// Walk down the tree looking for a discrepancy
-		while ( ap[ i ] === bp[ i ] ) {
-			i++;
-		}
-
-		return i ?
-
-			// Do a sibling check if the nodes have a common ancestor
-			siblingCheck( ap[ i ], bp[ i ] ) :
-
-			// Otherwise nodes in our document sort first
-			// Support: IE 11+, Edge 17 - 18+
-			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
-			// two documents; shallow comparisons work.
-			/* eslint-disable eqeqeq */
-			ap[ i ] == preferredDoc ? -1 :
-			bp[ i ] == preferredDoc ? 1 :
-			/* eslint-enable eqeqeq */
-			0;
 	};
 
 	return document;
+}
+
+find.matches = function( expr, elements ) {
+	return find( expr, null, null, elements );
 };
 
-Sizzle.matches = function( expr, elements ) {
-	return Sizzle( expr, null, null, elements );
-};
-
-Sizzle.matchesSelector = function( elem, expr ) {
+find.matchesSelector = function( elem, expr ) {
 	setDocument( elem );
 
-	if ( support.matchesSelector && documentIsHTML &&
+	if ( documentIsHTML &&
 		!nonnativeSelectorCache[ expr + " " ] &&
-		( !rbuggyMatches || !rbuggyMatches.test( expr ) ) &&
-		( !rbuggyQSA     || !rbuggyQSA.test( expr ) ) ) {
+		( !rbuggyQSA || !rbuggyQSA.test( expr ) ) ) {
 
 		try {
 			var ret = matches.call( elem, expr );
@@ -49066,9 +50936,9 @@ Sizzle.matchesSelector = function( elem, expr ) {
 			// IE 9's matchesSelector returns false on disconnected nodes
 			if ( ret || support.disconnectedMatch ||
 
-				// As well, disconnected nodes are said to be in a document
-				// fragment in IE 9
-				elem.document && elem.document.nodeType !== 11 ) {
+					// As well, disconnected nodes are said to be in a document
+					// fragment in IE 9
+					elem.document && elem.document.nodeType !== 11 ) {
 				return ret;
 			}
 		} catch ( e ) {
@@ -49076,10 +50946,10 @@ Sizzle.matchesSelector = function( elem, expr ) {
 		}
 	}
 
-	return Sizzle( expr, document, null, [ elem ] ).length > 0;
+	return find( expr, document, null, [ elem ] ).length > 0;
 };
 
-Sizzle.contains = function( context, elem ) {
+find.contains = function( context, elem ) {
 
 	// Set document vars if needed
 	// Support: IE 11+, Edge 17 - 18+
@@ -49089,10 +50959,11 @@ Sizzle.contains = function( context, elem ) {
 	if ( ( context.ownerDocument || context ) != document ) {
 		setDocument( context );
 	}
-	return contains( context, elem );
+	return jQuery.contains( context, elem );
 };
 
-Sizzle.attr = function( elem, name ) {
+
+find.attr = function( elem, name ) {
 
 	// Set document vars if needed
 	// Support: IE 11+, Edge 17 - 18+
@@ -49105,25 +50976,19 @@ Sizzle.attr = function( elem, name ) {
 
 	var fn = Expr.attrHandle[ name.toLowerCase() ],
 
-		// Don't get fooled by Object.prototype properties (jQuery #13807)
+		// Don't get fooled by Object.prototype properties (see trac-13807)
 		val = fn && hasOwn.call( Expr.attrHandle, name.toLowerCase() ) ?
 			fn( elem, name, !documentIsHTML ) :
 			undefined;
 
-	return val !== undefined ?
-		val :
-		support.attributes || !documentIsHTML ?
-			elem.getAttribute( name ) :
-			( val = elem.getAttributeNode( name ) ) && val.specified ?
-				val.value :
-				null;
+	if ( val !== undefined ) {
+		return val;
+	}
+
+	return elem.getAttribute( name );
 };
 
-Sizzle.escape = function( sel ) {
-	return ( sel + "" ).replace( rcssescape, fcssescape );
-};
-
-Sizzle.error = function( msg ) {
+find.error = function( msg ) {
 	throw new Error( "Syntax error, unrecognized expression: " + msg );
 };
 
@@ -49131,16 +50996,20 @@ Sizzle.error = function( msg ) {
  * Document sorting and removing duplicates
  * @param {ArrayLike} results
  */
-Sizzle.uniqueSort = function( results ) {
+jQuery.uniqueSort = function( results ) {
 	var elem,
 		duplicates = [],
 		j = 0,
 		i = 0;
 
 	// Unless we *know* we can detect duplicates, assume their presence
-	hasDuplicate = !support.detectDuplicates;
-	sortInput = !support.sortStable && results.slice( 0 );
-	results.sort( sortOrder );
+	//
+	// Support: Android <=4.0+
+	// Testing for detecting duplicates is unpredictable so instead assume we can't
+	// depend on duplicate detection in all browsers without a stable sort.
+	hasDuplicate = !support.sortStable;
+	sortInput = !support.sortStable && slice.call( results, 0 );
+	sort.call( results, sortOrder );
 
 	if ( hasDuplicate ) {
 		while ( ( elem = results[ i++ ] ) ) {
@@ -49149,7 +51018,7 @@ Sizzle.uniqueSort = function( results ) {
 			}
 		}
 		while ( j-- ) {
-			results.splice( duplicates[ j ], 1 );
+			splice.call( results, duplicates[ j ], 1 );
 		}
 	}
 
@@ -49160,47 +51029,11 @@ Sizzle.uniqueSort = function( results ) {
 	return results;
 };
 
-/**
- * Utility function for retrieving the text value of an array of DOM nodes
- * @param {Array|Element} elem
- */
-getText = Sizzle.getText = function( elem ) {
-	var node,
-		ret = "",
-		i = 0,
-		nodeType = elem.nodeType;
-
-	if ( !nodeType ) {
-
-		// If no nodeType, this is expected to be an array
-		while ( ( node = elem[ i++ ] ) ) {
-
-			// Do not traverse comment nodes
-			ret += getText( node );
-		}
-	} else if ( nodeType === 1 || nodeType === 9 || nodeType === 11 ) {
-
-		// Use textContent for elements
-		// innerText usage removed for consistency of new lines (jQuery #11153)
-		if ( typeof elem.textContent === "string" ) {
-			return elem.textContent;
-		} else {
-
-			// Traverse its children
-			for ( elem = elem.firstChild; elem; elem = elem.nextSibling ) {
-				ret += getText( elem );
-			}
-		}
-	} else if ( nodeType === 3 || nodeType === 4 ) {
-		return elem.nodeValue;
-	}
-
-	// Do not include comment or processing instruction nodes
-
-	return ret;
+jQuery.fn.uniqueSort = function() {
+	return this.pushStack( jQuery.uniqueSort( slice.apply( this ) ) );
 };
 
-Expr = Sizzle.selectors = {
+Expr = jQuery.expr = {
 
 	// Can be adjusted by the user
 	cacheLength: 50,
@@ -49221,12 +51054,12 @@ Expr = Sizzle.selectors = {
 	},
 
 	preFilter: {
-		"ATTR": function( match ) {
+		ATTR: function( match ) {
 			match[ 1 ] = match[ 1 ].replace( runescape, funescape );
 
 			// Move the given value to match[3] whether quoted or unquoted
-			match[ 3 ] = ( match[ 3 ] || match[ 4 ] ||
-				match[ 5 ] || "" ).replace( runescape, funescape );
+			match[ 3 ] = ( match[ 3 ] || match[ 4 ] || match[ 5 ] || "" )
+				.replace( runescape, funescape );
 
 			if ( match[ 2 ] === "~=" ) {
 				match[ 3 ] = " " + match[ 3 ] + " ";
@@ -49235,7 +51068,7 @@ Expr = Sizzle.selectors = {
 			return match.slice( 0, 4 );
 		},
 
-		"CHILD": function( match ) {
+		CHILD: function( match ) {
 
 			/* matches from matchExpr["CHILD"]
 				1 type (only|nth|...)
@@ -49253,29 +51086,30 @@ Expr = Sizzle.selectors = {
 
 				// nth-* requires argument
 				if ( !match[ 3 ] ) {
-					Sizzle.error( match[ 0 ] );
+					find.error( match[ 0 ] );
 				}
 
 				// numeric x and y parameters for Expr.filter.CHILD
 				// remember that false/true cast respectively to 0/1
 				match[ 4 ] = +( match[ 4 ] ?
 					match[ 5 ] + ( match[ 6 ] || 1 ) :
-					2 * ( match[ 3 ] === "even" || match[ 3 ] === "odd" ) );
+					2 * ( match[ 3 ] === "even" || match[ 3 ] === "odd" )
+				);
 				match[ 5 ] = +( ( match[ 7 ] + match[ 8 ] ) || match[ 3 ] === "odd" );
 
-				// other types prohibit arguments
+			// other types prohibit arguments
 			} else if ( match[ 3 ] ) {
-				Sizzle.error( match[ 0 ] );
+				find.error( match[ 0 ] );
 			}
 
 			return match;
 		},
 
-		"PSEUDO": function( match ) {
+		PSEUDO: function( match ) {
 			var excess,
 				unquoted = !match[ 6 ] && match[ 2 ];
 
-			if ( matchExpr[ "CHILD" ].test( match[ 0 ] ) ) {
+			if ( matchExpr.CHILD.test( match[ 0 ] ) ) {
 				return null;
 			}
 
@@ -49304,36 +51138,36 @@ Expr = Sizzle.selectors = {
 
 	filter: {
 
-		"TAG": function( nodeNameSelector ) {
-			var nodeName = nodeNameSelector.replace( runescape, funescape ).toLowerCase();
+		TAG: function( nodeNameSelector ) {
+			var expectedNodeName = nodeNameSelector.replace( runescape, funescape ).toLowerCase();
 			return nodeNameSelector === "*" ?
 				function() {
 					return true;
 				} :
 				function( elem ) {
-					return elem.nodeName && elem.nodeName.toLowerCase() === nodeName;
+					return nodeName( elem, expectedNodeName );
 				};
 		},
 
-		"CLASS": function( className ) {
+		CLASS: function( className ) {
 			var pattern = classCache[ className + " " ];
 
 			return pattern ||
-				( pattern = new RegExp( "(^|" + whitespace +
-					")" + className + "(" + whitespace + "|$)" ) ) && classCache(
-						className, function( elem ) {
-							return pattern.test(
-								typeof elem.className === "string" && elem.className ||
-								typeof elem.getAttribute !== "undefined" &&
-									elem.getAttribute( "class" ) ||
-								""
-							);
+				( pattern = new RegExp( "(^|" + whitespace + ")" + className +
+					"(" + whitespace + "|$)" ) ) &&
+				classCache( className, function( elem ) {
+					return pattern.test(
+						typeof elem.className === "string" && elem.className ||
+							typeof elem.getAttribute !== "undefined" &&
+								elem.getAttribute( "class" ) ||
+							""
+					);
 				} );
 		},
 
-		"ATTR": function( name, operator, check ) {
+		ATTR: function( name, operator, check ) {
 			return function( elem ) {
-				var result = Sizzle.attr( elem, name );
+				var result = find.attr( elem, name );
 
 				if ( result == null ) {
 					return operator === "!=";
@@ -49344,22 +51178,34 @@ Expr = Sizzle.selectors = {
 
 				result += "";
 
-				/* eslint-disable max-len */
+				if ( operator === "=" ) {
+					return result === check;
+				}
+				if ( operator === "!=" ) {
+					return result !== check;
+				}
+				if ( operator === "^=" ) {
+					return check && result.indexOf( check ) === 0;
+				}
+				if ( operator === "*=" ) {
+					return check && result.indexOf( check ) > -1;
+				}
+				if ( operator === "$=" ) {
+					return check && result.slice( -check.length ) === check;
+				}
+				if ( operator === "~=" ) {
+					return ( " " + result.replace( rwhitespace, " " ) + " " )
+						.indexOf( check ) > -1;
+				}
+				if ( operator === "|=" ) {
+					return result === check || result.slice( 0, check.length + 1 ) === check + "-";
+				}
 
-				return operator === "=" ? result === check :
-					operator === "!=" ? result !== check :
-					operator === "^=" ? check && result.indexOf( check ) === 0 :
-					operator === "*=" ? check && result.indexOf( check ) > -1 :
-					operator === "$=" ? check && result.slice( -check.length ) === check :
-					operator === "~=" ? ( " " + result.replace( rwhitespace, " " ) + " " ).indexOf( check ) > -1 :
-					operator === "|=" ? result === check || result.slice( 0, check.length + 1 ) === check + "-" :
-					false;
-				/* eslint-enable max-len */
-
+				return false;
 			};
 		},
 
-		"CHILD": function( type, what, _argument, first, last ) {
+		CHILD: function( type, what, _argument, first, last ) {
 			var simple = type.slice( 0, 3 ) !== "nth",
 				forward = type.slice( -4 ) !== "last",
 				ofType = what === "of-type";
@@ -49372,7 +51218,7 @@ Expr = Sizzle.selectors = {
 				} :
 
 				function( elem, _context, xml ) {
-					var cache, uniqueCache, outerCache, node, nodeIndex, start,
+					var cache, outerCache, node, nodeIndex, start,
 						dir = simple !== forward ? "nextSibling" : "previousSibling",
 						parent = elem.parentNode,
 						name = ofType && elem.nodeName.toLowerCase(),
@@ -49387,7 +51233,7 @@ Expr = Sizzle.selectors = {
 								node = elem;
 								while ( ( node = node[ dir ] ) ) {
 									if ( ofType ?
-										node.nodeName.toLowerCase() === name :
+										nodeName( node, name ) :
 										node.nodeType === 1 ) {
 
 										return false;
@@ -49406,17 +51252,8 @@ Expr = Sizzle.selectors = {
 						if ( forward && useCache ) {
 
 							// Seek `elem` from a previously-cached index
-
-							// ...in a gzip-friendly way
-							node = parent;
-							outerCache = node[ expando ] || ( node[ expando ] = {} );
-
-							// Support: IE <9 only
-							// Defend against cloned attroperties (jQuery gh-1709)
-							uniqueCache = outerCache[ node.uniqueID ] ||
-								( outerCache[ node.uniqueID ] = {} );
-
-							cache = uniqueCache[ type ] || [];
+							outerCache = parent[ expando ] || ( parent[ expando ] = {} );
+							cache = outerCache[ type ] || [];
 							nodeIndex = cache[ 0 ] === dirruns && cache[ 1 ];
 							diff = nodeIndex && cache[ 2 ];
 							node = nodeIndex && parent.childNodes[ nodeIndex ];
@@ -49428,7 +51265,7 @@ Expr = Sizzle.selectors = {
 
 								// When found, cache indexes on `parent` and break
 								if ( node.nodeType === 1 && ++diff && node === elem ) {
-									uniqueCache[ type ] = [ dirruns, nodeIndex, diff ];
+									outerCache[ type ] = [ dirruns, nodeIndex, diff ];
 									break;
 								}
 							}
@@ -49437,17 +51274,8 @@ Expr = Sizzle.selectors = {
 
 							// Use previously-cached element index if available
 							if ( useCache ) {
-
-								// ...in a gzip-friendly way
-								node = elem;
-								outerCache = node[ expando ] || ( node[ expando ] = {} );
-
-								// Support: IE <9 only
-								// Defend against cloned attroperties (jQuery gh-1709)
-								uniqueCache = outerCache[ node.uniqueID ] ||
-									( outerCache[ node.uniqueID ] = {} );
-
-								cache = uniqueCache[ type ] || [];
+								outerCache = elem[ expando ] || ( elem[ expando ] = {} );
+								cache = outerCache[ type ] || [];
 								nodeIndex = cache[ 0 ] === dirruns && cache[ 1 ];
 								diff = nodeIndex;
 							}
@@ -49461,7 +51289,7 @@ Expr = Sizzle.selectors = {
 									( diff = nodeIndex = 0 ) || start.pop() ) ) {
 
 									if ( ( ofType ?
-										node.nodeName.toLowerCase() === name :
+										nodeName( node, name ) :
 										node.nodeType === 1 ) &&
 										++diff ) {
 
@@ -49469,13 +51297,7 @@ Expr = Sizzle.selectors = {
 										if ( useCache ) {
 											outerCache = node[ expando ] ||
 												( node[ expando ] = {} );
-
-											// Support: IE <9 only
-											// Defend against cloned attroperties (jQuery gh-1709)
-											uniqueCache = outerCache[ node.uniqueID ] ||
-												( outerCache[ node.uniqueID ] = {} );
-
-											uniqueCache[ type ] = [ dirruns, diff ];
+											outerCache[ type ] = [ dirruns, diff ];
 										}
 
 										if ( node === elem ) {
@@ -49493,19 +51315,19 @@ Expr = Sizzle.selectors = {
 				};
 		},
 
-		"PSEUDO": function( pseudo, argument ) {
+		PSEUDO: function( pseudo, argument ) {
 
 			// pseudo-class names are case-insensitive
-			// http://www.w3.org/TR/selectors/#pseudo-classes
+			// https://www.w3.org/TR/selectors/#pseudo-classes
 			// Prioritize by case sensitivity in case custom pseudos are added with uppercase letters
 			// Remember that setFilters inherits from pseudos
 			var args,
 				fn = Expr.pseudos[ pseudo ] || Expr.setFilters[ pseudo.toLowerCase() ] ||
-					Sizzle.error( "unsupported pseudo: " + pseudo );
+					find.error( "unsupported pseudo: " + pseudo );
 
 			// The user may use createPseudo to indicate that
 			// arguments are needed to create the filter function
-			// just as Sizzle does
+			// just as jQuery does
 			if ( fn[ expando ] ) {
 				return fn( argument );
 			}
@@ -49519,7 +51341,7 @@ Expr = Sizzle.selectors = {
 							matched = fn( seed, argument ),
 							i = matched.length;
 						while ( i-- ) {
-							idx = indexOf( seed, matched[ i ] );
+							idx = indexOf.call( seed, matched[ i ] );
 							seed[ idx ] = !( matches[ idx ] = matched[ i ] );
 						}
 					} ) :
@@ -49535,14 +51357,14 @@ Expr = Sizzle.selectors = {
 	pseudos: {
 
 		// Potentially complex pseudos
-		"not": markFunction( function( selector ) {
+		not: markFunction( function( selector ) {
 
 			// Trim the selector passed to compile
 			// to avoid treating leading and trailing
 			// spaces as combinators
 			var input = [],
 				results = [],
-				matcher = compile( selector.replace( rtrim, "$1" ) );
+				matcher = compile( selector.replace( rtrimCSS, "$1" ) );
 
 			return matcher[ expando ] ?
 				markFunction( function( seed, matches, _context, xml ) {
@@ -49561,22 +51383,23 @@ Expr = Sizzle.selectors = {
 					input[ 0 ] = elem;
 					matcher( input, null, xml, results );
 
-					// Don't keep the element (issue #299)
+					// Don't keep the element
+					// (see https://github.com/jquery/sizzle/issues/299)
 					input[ 0 ] = null;
 					return !results.pop();
 				};
 		} ),
 
-		"has": markFunction( function( selector ) {
+		has: markFunction( function( selector ) {
 			return function( elem ) {
-				return Sizzle( selector, elem ).length > 0;
+				return find( selector, elem ).length > 0;
 			};
 		} ),
 
-		"contains": markFunction( function( text ) {
+		contains: markFunction( function( text ) {
 			text = text.replace( runescape, funescape );
 			return function( elem ) {
-				return ( elem.textContent || getText( elem ) ).indexOf( text ) > -1;
+				return ( elem.textContent || jQuery.text( elem ) ).indexOf( text ) > -1;
 			};
 		} ),
 
@@ -49586,12 +51409,12 @@ Expr = Sizzle.selectors = {
 		// or beginning with the identifier C immediately followed by "-".
 		// The matching of C against the element's language value is performed case-insensitively.
 		// The identifier C does not have to be a valid language name."
-		// http://www.w3.org/TR/selectors/#lang-pseudo
-		"lang": markFunction( function( lang ) {
+		// https://www.w3.org/TR/selectors/#lang-pseudo
+		lang: markFunction( function( lang ) {
 
 			// lang value must be a valid identifier
 			if ( !ridentifier.test( lang || "" ) ) {
-				Sizzle.error( "unsupported lang: " + lang );
+				find.error( "unsupported lang: " + lang );
 			}
 			lang = lang.replace( runescape, funescape ).toLowerCase();
 			return function( elem ) {
@@ -49610,38 +51433,39 @@ Expr = Sizzle.selectors = {
 		} ),
 
 		// Miscellaneous
-		"target": function( elem ) {
+		target: function( elem ) {
 			var hash = window.location && window.location.hash;
 			return hash && hash.slice( 1 ) === elem.id;
 		},
 
-		"root": function( elem ) {
-			return elem === docElem;
+		root: function( elem ) {
+			return elem === documentElement;
 		},
 
-		"focus": function( elem ) {
-			return elem === document.activeElement &&
-				( !document.hasFocus || document.hasFocus() ) &&
+		focus: function( elem ) {
+			return elem === safeActiveElement() &&
+				document.hasFocus() &&
 				!!( elem.type || elem.href || ~elem.tabIndex );
 		},
 
 		// Boolean properties
-		"enabled": createDisabledPseudo( false ),
-		"disabled": createDisabledPseudo( true ),
+		enabled: createDisabledPseudo( false ),
+		disabled: createDisabledPseudo( true ),
 
-		"checked": function( elem ) {
+		checked: function( elem ) {
 
 			// In CSS3, :checked should return both checked and selected elements
-			// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
-			var nodeName = elem.nodeName.toLowerCase();
-			return ( nodeName === "input" && !!elem.checked ) ||
-				( nodeName === "option" && !!elem.selected );
+			// https://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
+			return ( nodeName( elem, "input" ) && !!elem.checked ) ||
+				( nodeName( elem, "option" ) && !!elem.selected );
 		},
 
-		"selected": function( elem ) {
+		selected: function( elem ) {
 
-			// Accessing this property makes selected-by-default
-			// options in Safari work properly
+			// Support: IE <=11+
+			// Accessing the selectedIndex property
+			// forces the browser to treat the default option as
+			// selected when in an optgroup.
 			if ( elem.parentNode ) {
 				// eslint-disable-next-line no-unused-expressions
 				elem.parentNode.selectedIndex;
@@ -49651,9 +51475,9 @@ Expr = Sizzle.selectors = {
 		},
 
 		// Contents
-		"empty": function( elem ) {
+		empty: function( elem ) {
 
-			// http://www.w3.org/TR/selectors/#empty-pseudo
+			// https://www.w3.org/TR/selectors/#empty-pseudo
 			// :empty is negated by element (1) or content nodes (text: 3; cdata: 4; entity ref: 5),
 			//   but not by others (comment: 8; processing instruction: 7; etc.)
 			// nodeType < 6 works because attributes (2) do not appear as children
@@ -49665,49 +51489,49 @@ Expr = Sizzle.selectors = {
 			return true;
 		},
 
-		"parent": function( elem ) {
-			return !Expr.pseudos[ "empty" ]( elem );
+		parent: function( elem ) {
+			return !Expr.pseudos.empty( elem );
 		},
 
 		// Element/input types
-		"header": function( elem ) {
+		header: function( elem ) {
 			return rheader.test( elem.nodeName );
 		},
 
-		"input": function( elem ) {
+		input: function( elem ) {
 			return rinputs.test( elem.nodeName );
 		},
 
-		"button": function( elem ) {
-			var name = elem.nodeName.toLowerCase();
-			return name === "input" && elem.type === "button" || name === "button";
+		button: function( elem ) {
+			return nodeName( elem, "input" ) && elem.type === "button" ||
+				nodeName( elem, "button" );
 		},
 
-		"text": function( elem ) {
+		text: function( elem ) {
 			var attr;
-			return elem.nodeName.toLowerCase() === "input" &&
-				elem.type === "text" &&
+			return nodeName( elem, "input" ) && elem.type === "text" &&
 
-				// Support: IE<8
-				// New HTML5 attribute values (e.g., "search") appear with elem.type === "text"
+				// Support: IE <10 only
+				// New HTML5 attribute values (e.g., "search") appear
+				// with elem.type === "text"
 				( ( attr = elem.getAttribute( "type" ) ) == null ||
 					attr.toLowerCase() === "text" );
 		},
 
 		// Position-in-collection
-		"first": createPositionalPseudo( function() {
+		first: createPositionalPseudo( function() {
 			return [ 0 ];
 		} ),
 
-		"last": createPositionalPseudo( function( _matchIndexes, length ) {
+		last: createPositionalPseudo( function( _matchIndexes, length ) {
 			return [ length - 1 ];
 		} ),
 
-		"eq": createPositionalPseudo( function( _matchIndexes, length, argument ) {
+		eq: createPositionalPseudo( function( _matchIndexes, length, argument ) {
 			return [ argument < 0 ? argument + length : argument ];
 		} ),
 
-		"even": createPositionalPseudo( function( matchIndexes, length ) {
+		even: createPositionalPseudo( function( matchIndexes, length ) {
 			var i = 0;
 			for ( ; i < length; i += 2 ) {
 				matchIndexes.push( i );
@@ -49715,7 +51539,7 @@ Expr = Sizzle.selectors = {
 			return matchIndexes;
 		} ),
 
-		"odd": createPositionalPseudo( function( matchIndexes, length ) {
+		odd: createPositionalPseudo( function( matchIndexes, length ) {
 			var i = 1;
 			for ( ; i < length; i += 2 ) {
 				matchIndexes.push( i );
@@ -49723,19 +51547,24 @@ Expr = Sizzle.selectors = {
 			return matchIndexes;
 		} ),
 
-		"lt": createPositionalPseudo( function( matchIndexes, length, argument ) {
-			var i = argument < 0 ?
-				argument + length :
-				argument > length ?
-					length :
-					argument;
+		lt: createPositionalPseudo( function( matchIndexes, length, argument ) {
+			var i;
+
+			if ( argument < 0 ) {
+				i = argument + length;
+			} else if ( argument > length ) {
+				i = length;
+			} else {
+				i = argument;
+			}
+
 			for ( ; --i >= 0; ) {
 				matchIndexes.push( i );
 			}
 			return matchIndexes;
 		} ),
 
-		"gt": createPositionalPseudo( function( matchIndexes, length, argument ) {
+		gt: createPositionalPseudo( function( matchIndexes, length, argument ) {
 			var i = argument < 0 ? argument + length : argument;
 			for ( ; ++i < length; ) {
 				matchIndexes.push( i );
@@ -49745,7 +51574,7 @@ Expr = Sizzle.selectors = {
 	}
 };
 
-Expr.pseudos[ "nth" ] = Expr.pseudos[ "eq" ];
+Expr.pseudos.nth = Expr.pseudos.eq;
 
 // Add button/input type pseudos
 for ( i in { radio: true, checkbox: true, file: true, password: true, image: true } ) {
@@ -49760,7 +51589,7 @@ function setFilters() {}
 setFilters.prototype = Expr.filters = Expr.pseudos;
 Expr.setFilters = new setFilters();
 
-tokenize = Sizzle.tokenize = function( selector, parseOnly ) {
+function tokenize( selector, parseOnly ) {
 	var matched, match, tokens, type,
 		soFar, groups, preFilters,
 		cached = tokenCache[ selector + " " ];
@@ -49788,13 +51617,13 @@ tokenize = Sizzle.tokenize = function( selector, parseOnly ) {
 		matched = false;
 
 		// Combinators
-		if ( ( match = rcombinators.exec( soFar ) ) ) {
+		if ( ( match = rleadingCombinator.exec( soFar ) ) ) {
 			matched = match.shift();
 			tokens.push( {
 				value: matched,
 
 				// Cast descendant combinators to space
-				type: match[ 0 ].replace( rtrim, " " )
+				type: match[ 0 ].replace( rtrimCSS, " " )
 			} );
 			soFar = soFar.slice( matched.length );
 		}
@@ -49821,14 +51650,16 @@ tokenize = Sizzle.tokenize = function( selector, parseOnly ) {
 	// Return the length of the invalid excess
 	// if we're just parsing
 	// Otherwise, throw an error or return tokens
-	return parseOnly ?
-		soFar.length :
-		soFar ?
-			Sizzle.error( selector ) :
+	if ( parseOnly ) {
+		return soFar.length;
+	}
 
-			// Cache the tokens
-			tokenCache( selector, groups ).slice( 0 );
-};
+	return soFar ?
+		find.error( selector ) :
+
+		// Cache the tokens
+		tokenCache( selector, groups ).slice( 0 );
+}
 
 function toSelector( tokens ) {
 	var i = 0,
@@ -49861,7 +51692,7 @@ function addCombinator( matcher, combinator, base ) {
 
 		// Check against all ancestor/preceding elements
 		function( elem, context, xml ) {
-			var oldCache, uniqueCache, outerCache,
+			var oldCache, outerCache,
 				newCache = [ dirruns, doneName ];
 
 			// We can't set arbitrary data on XML nodes, so they don't benefit from combinator caching
@@ -49878,14 +51709,9 @@ function addCombinator( matcher, combinator, base ) {
 					if ( elem.nodeType === 1 || checkNonElements ) {
 						outerCache = elem[ expando ] || ( elem[ expando ] = {} );
 
-						// Support: IE <9 only
-						// Defend against cloned attroperties (jQuery gh-1709)
-						uniqueCache = outerCache[ elem.uniqueID ] ||
-							( outerCache[ elem.uniqueID ] = {} );
-
-						if ( skip && skip === elem.nodeName.toLowerCase() ) {
+						if ( skip && nodeName( elem, skip ) ) {
 							elem = elem[ dir ] || elem;
-						} else if ( ( oldCache = uniqueCache[ key ] ) &&
+						} else if ( ( oldCache = outerCache[ key ] ) &&
 							oldCache[ 0 ] === dirruns && oldCache[ 1 ] === doneName ) {
 
 							// Assign to newCache so results back-propagate to previous elements
@@ -49893,7 +51719,7 @@ function addCombinator( matcher, combinator, base ) {
 						} else {
 
 							// Reuse newcache so results back-propagate to previous elements
-							uniqueCache[ key ] = newCache;
+							outerCache[ key ] = newCache;
 
 							// A match means we're done; a fail means we have to keep checking
 							if ( ( newCache[ 2 ] = matcher( elem, context, xml ) ) ) {
@@ -49925,7 +51751,7 @@ function multipleContexts( selector, contexts, results ) {
 	var i = 0,
 		len = contexts.length;
 	for ( ; i < len; i++ ) {
-		Sizzle( selector, contexts[ i ], results );
+		find( selector, contexts[ i ], results );
 	}
 	return results;
 }
@@ -49959,38 +51785,37 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 		postFinder = setMatcher( postFinder, postSelector );
 	}
 	return markFunction( function( seed, results, context, xml ) {
-		var temp, i, elem,
+		var temp, i, elem, matcherOut,
 			preMap = [],
 			postMap = [],
 			preexisting = results.length,
 
 			// Get initial elements from seed or context
-			elems = seed || multipleContexts(
-				selector || "*",
-				context.nodeType ? [ context ] : context,
-				[]
-			),
+			elems = seed ||
+				multipleContexts( selector || "*",
+					context.nodeType ? [ context ] : context, [] ),
 
 			// Prefilter to get matcher input, preserving a map for seed-results synchronization
 			matcherIn = preFilter && ( seed || !selector ) ?
 				condense( elems, preMap, preFilter, context, xml ) :
-				elems,
+				elems;
 
-			matcherOut = matcher ?
-
-				// If we have a postFinder, or filtered seed, or non-seed postFilter or preexisting results,
-				postFinder || ( seed ? preFilter : preexisting || postFilter ) ?
-
-					// ...intermediate processing is necessary
-					[] :
-
-					// ...otherwise use results directly
-					results :
-				matcherIn;
-
-		// Find primary matches
 		if ( matcher ) {
+
+			// If we have a postFinder, or filtered seed, or non-seed postFilter
+			// or preexisting results,
+			matcherOut = postFinder || ( seed ? preFilter : preexisting || postFilter ) ?
+
+				// ...intermediate processing is necessary
+				[] :
+
+				// ...otherwise use results directly
+				results;
+
+			// Find primary matches
 			matcher( matcherIn, matcherOut, context, xml );
+		} else {
+			matcherOut = matcherIn;
 		}
 
 		// Apply postFilter
@@ -50028,7 +51853,7 @@ function setMatcher( preFilter, selector, matcher, postFilter, postFinder, postS
 				i = matcherOut.length;
 				while ( i-- ) {
 					if ( ( elem = matcherOut[ i ] ) &&
-						( temp = postFinder ? indexOf( seed, elem ) : preMap[ i ] ) > -1 ) {
+						( temp = postFinder ? indexOf.call( seed, elem ) : preMap[ i ] ) > -1 ) {
 
 						seed[ temp ] = !( results[ temp ] = elem );
 					}
@@ -50063,15 +51888,21 @@ function matcherFromTokens( tokens ) {
 			return elem === checkContext;
 		}, implicitRelative, true ),
 		matchAnyContext = addCombinator( function( elem ) {
-			return indexOf( checkContext, elem ) > -1;
+			return indexOf.call( checkContext, elem ) > -1;
 		}, implicitRelative, true ),
 		matchers = [ function( elem, context, xml ) {
-			var ret = ( !leadingRelative && ( xml || context !== outermostContext ) ) || (
+
+			// Support: IE 11+, Edge 17 - 18+
+			// IE/Edge sometimes throw a "Permission denied" error when strict-comparing
+			// two documents; shallow comparisons work.
+			// eslint-disable-next-line eqeqeq
+			var ret = ( !leadingRelative && ( xml || context != outermostContext ) ) || (
 				( checkContext = context ).nodeType ?
 					matchContext( elem, context, xml ) :
 					matchAnyContext( elem, context, xml ) );
 
-			// Avoid hanging onto element (issue #299)
+			// Avoid hanging onto element
+			// (see https://github.com/jquery/sizzle/issues/299)
 			checkContext = null;
 			return ret;
 		} ];
@@ -50096,11 +51927,10 @@ function matcherFromTokens( tokens ) {
 					i > 1 && elementMatcher( matchers ),
 					i > 1 && toSelector(
 
-					// If the preceding token was a descendant combinator, insert an implicit any-element `*`
-					tokens
-						.slice( 0, i - 1 )
-						.concat( { value: tokens[ i - 2 ].type === " " ? "*" : "" } )
-					).replace( rtrim, "$1" ),
+						// If the preceding token was a descendant combinator, insert an implicit any-element `*`
+						tokens.slice( 0, i - 1 )
+							.concat( { value: tokens[ i - 2 ].type === " " ? "*" : "" } )
+					).replace( rtrimCSS, "$1" ),
 					matcher,
 					i < j && matcherFromTokens( tokens.slice( i, j ) ),
 					j < len && matcherFromTokens( ( tokens = tokens.slice( j ) ) ),
@@ -50126,7 +51956,7 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 				contextBackup = outermostContext,
 
 				// We must always have either seed elements or outermost context
-				elems = seed || byElement && Expr.find[ "TAG" ]( "*", outermost ),
+				elems = seed || byElement && Expr.find.TAG( "*", outermost ),
 
 				// Use integer dirruns iff this is the outermost matcher
 				dirrunsUnique = ( dirruns += contextBackup == null ? 1 : Math.random() || 0.1 ),
@@ -50142,8 +51972,9 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 			}
 
 			// Add elements passing elementMatchers directly to results
-			// Support: IE<9, Safari
-			// Tolerate NodeList properties (IE: "length"; Safari: <number>) matching elements by id
+			// Support: iOS <=7 - 9 only
+			// Tolerate NodeList properties (IE: "length"; Safari: <number>) matching
+			// elements by id. (see trac-14142)
 			for ( ; i !== len && ( elem = elems[ i ] ) != null; i++ ) {
 				if ( byElement && elem ) {
 					j = 0;
@@ -50158,7 +51989,7 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 					}
 					while ( ( matcher = elementMatchers[ j++ ] ) ) {
 						if ( matcher( elem, context || document, xml ) ) {
-							results.push( elem );
+							push.call( results, elem );
 							break;
 						}
 					}
@@ -50221,7 +52052,7 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 				if ( outermost && !seed && setMatched.length > 0 &&
 					( matchedCount + setMatchers.length ) > 1 ) {
 
-					Sizzle.uniqueSort( results );
+					jQuery.uniqueSort( results );
 				}
 			}
 
@@ -50239,7 +52070,7 @@ function matcherFromGroupMatchers( elementMatchers, setMatchers ) {
 		superMatcher;
 }
 
-compile = Sizzle.compile = function( selector, match /* Internal Use Only */ ) {
+function compile( selector, match /* Internal Use Only */ ) {
 	var i,
 		setMatchers = [],
 		elementMatchers = [],
@@ -50262,27 +52093,25 @@ compile = Sizzle.compile = function( selector, match /* Internal Use Only */ ) {
 		}
 
 		// Cache the compiled function
-		cached = compilerCache(
-			selector,
-			matcherFromGroupMatchers( elementMatchers, setMatchers )
-		);
+		cached = compilerCache( selector,
+			matcherFromGroupMatchers( elementMatchers, setMatchers ) );
 
 		// Save selector and tokenization
 		cached.selector = selector;
 	}
 	return cached;
-};
+}
 
 /**
- * A low-level selection function that works with Sizzle's compiled
+ * A low-level selection function that works with jQuery's compiled
  *  selector functions
  * @param {String|Function} selector A selector or a pre-compiled
- *  selector function built with Sizzle.compile
+ *  selector function built with jQuery selector compile
  * @param {Element} context
  * @param {Array} [results]
  * @param {Array} [seed] A set of elements to match against
  */
-select = Sizzle.select = function( selector, context, results, seed ) {
+function select( selector, context, results, seed ) {
 	var i, tokens, token, type, find,
 		compiled = typeof selector === "function" && selector,
 		match = !seed && tokenize( ( selector = compiled.selector || selector ) );
@@ -50296,10 +52125,12 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 		// Reduce context if the leading compound selector is an ID
 		tokens = match[ 0 ] = match[ 0 ].slice( 0 );
 		if ( tokens.length > 2 && ( token = tokens[ 0 ] ).type === "ID" &&
-			context.nodeType === 9 && documentIsHTML && Expr.relative[ tokens[ 1 ].type ] ) {
+				context.nodeType === 9 && documentIsHTML && Expr.relative[ tokens[ 1 ].type ] ) {
 
-			context = ( Expr.find[ "ID" ]( token.matches[ 0 ]
-				.replace( runescape, funescape ), context ) || [] )[ 0 ];
+			context = ( Expr.find.ID(
+				token.matches[ 0 ].replace( runescape, funescape ),
+				context
+			) || [] )[ 0 ];
 			if ( !context ) {
 				return results;
 
@@ -50312,7 +52143,7 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 		}
 
 		// Fetch a seed set for right-to-left matching
-		i = matchExpr[ "needsContext" ].test( selector ) ? 0 : tokens.length;
+		i = matchExpr.needsContext.test( selector ) ? 0 : tokens.length;
 		while ( i-- ) {
 			token = tokens[ i ];
 
@@ -50325,8 +52156,8 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 				// Search, expanding context for leading sibling combinators
 				if ( ( seed = find(
 					token.matches[ 0 ].replace( runescape, funescape ),
-					rsibling.test( tokens[ 0 ].type ) && testContext( context.parentNode ) ||
-						context
+					rsibling.test( tokens[ 0 ].type ) &&
+						testContext( context.parentNode ) || context
 				) ) ) {
 
 					// If seed is empty or no tokens remain, we can return early
@@ -50353,21 +52184,18 @@ select = Sizzle.select = function( selector, context, results, seed ) {
 		!context || rsibling.test( selector ) && testContext( context.parentNode ) || context
 	);
 	return results;
-};
+}
 
 // One-time assignments
 
+// Support: Android <=4.0 - 4.1+
 // Sort stability
 support.sortStable = expando.split( "" ).sort( sortOrder ).join( "" ) === expando;
-
-// Support: Chrome 14-35+
-// Always assume duplicates if they aren't passed to the comparison function
-support.detectDuplicates = !!hasDuplicate;
 
 // Initialize against the default document
 setDocument();
 
-// Support: Webkit<537.32 - Safari 6.0.3/Chrome 25 (fixed in Chrome 27)
+// Support: Android <=4.0 - 4.1+
 // Detached nodes confoundingly follow *each other*
 support.sortDetached = assert( function( el ) {
 
@@ -50375,68 +52203,29 @@ support.sortDetached = assert( function( el ) {
 	return el.compareDocumentPosition( document.createElement( "fieldset" ) ) & 1;
 } );
 
-// Support: IE<8
-// Prevent attribute/property "interpolation"
-// https://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
-if ( !assert( function( el ) {
-	el.innerHTML = "<a href='#'></a>";
-	return el.firstChild.getAttribute( "href" ) === "#";
-} ) ) {
-	addHandle( "type|href|height|width", function( elem, name, isXML ) {
-		if ( !isXML ) {
-			return elem.getAttribute( name, name.toLowerCase() === "type" ? 1 : 2 );
-		}
-	} );
-}
-
-// Support: IE<9
-// Use defaultValue in place of getAttribute("value")
-if ( !support.attributes || !assert( function( el ) {
-	el.innerHTML = "<input/>";
-	el.firstChild.setAttribute( "value", "" );
-	return el.firstChild.getAttribute( "value" ) === "";
-} ) ) {
-	addHandle( "value", function( elem, _name, isXML ) {
-		if ( !isXML && elem.nodeName.toLowerCase() === "input" ) {
-			return elem.defaultValue;
-		}
-	} );
-}
-
-// Support: IE<9
-// Use getAttributeNode to fetch booleans when getAttribute lies
-if ( !assert( function( el ) {
-	return el.getAttribute( "disabled" ) == null;
-} ) ) {
-	addHandle( booleans, function( elem, name, isXML ) {
-		var val;
-		if ( !isXML ) {
-			return elem[ name ] === true ? name.toLowerCase() :
-				( val = elem.getAttributeNode( name ) ) && val.specified ?
-					val.value :
-					null;
-		}
-	} );
-}
-
-return Sizzle;
-
-} )( window );
-
-
-
-jQuery.find = Sizzle;
-jQuery.expr = Sizzle.selectors;
+jQuery.find = find;
 
 // Deprecated
 jQuery.expr[ ":" ] = jQuery.expr.pseudos;
-jQuery.uniqueSort = jQuery.unique = Sizzle.uniqueSort;
-jQuery.text = Sizzle.getText;
-jQuery.isXMLDoc = Sizzle.isXML;
-jQuery.contains = Sizzle.contains;
-jQuery.escapeSelector = Sizzle.escape;
+jQuery.unique = jQuery.uniqueSort;
 
+// These have always been private, but they used to be documented as part of
+// Sizzle so let's maintain them for now for backwards compatibility purposes.
+find.compile = compile;
+find.select = select;
+find.setDocument = setDocument;
+find.tokenize = tokenize;
 
+find.escape = jQuery.escapeSelector;
+find.getText = jQuery.text;
+find.isXML = jQuery.isXMLDoc;
+find.selectors = jQuery.expr;
+find.support = jQuery.support;
+find.uniqueSort = jQuery.uniqueSort;
+
+	/* eslint-enable */
+
+} )();
 
 
 var dir = function( elem, dir, until ) {
@@ -50470,13 +52259,6 @@ var siblings = function( n, elem ) {
 
 var rneedsContext = jQuery.expr.match.needsContext;
 
-
-
-function nodeName( elem, name ) {
-
-	return elem.nodeName && elem.nodeName.toLowerCase() === name.toLowerCase();
-
-}
 var rsingleTag = ( /^<([a-z][^\/\0>:\x20\t\r\n\f]*)[\x20\t\r\n\f]*\/?>(?:<\/\1>|)$/i );
 
 
@@ -50727,7 +52509,7 @@ jQuery.fn.extend( {
 					if ( cur.nodeType < 11 && ( targets ?
 						targets.index( cur ) > -1 :
 
-						// Don't pass non-elements to Sizzle
+						// Don't pass non-elements to jQuery#find
 						cur.nodeType === 1 &&
 							jQuery.find.matchesSelector( cur, selectors ) ) ) {
 
@@ -51282,7 +53064,7 @@ jQuery.extend( {
 
 											if ( jQuery.Deferred.exceptionHook ) {
 												jQuery.Deferred.exceptionHook( e,
-													process.stackTrace );
+													process.error );
 											}
 
 											// Support: Promises/A+ section 2.3.3.3.4.1
@@ -51310,10 +53092,17 @@ jQuery.extend( {
 								process();
 							} else {
 
-								// Call an optional hook to record the stack, in case of exception
+								// Call an optional hook to record the error, in case of exception
 								// since it's otherwise lost when execution goes async
-								if ( jQuery.Deferred.getStackHook ) {
-									process.stackTrace = jQuery.Deferred.getStackHook();
+								if ( jQuery.Deferred.getErrorHook ) {
+									process.error = jQuery.Deferred.getErrorHook();
+
+								// The deprecated alias of the above. While the name suggests
+								// returning the stack, not an error instance, jQuery just passes
+								// it directly to `console.warn` so both will work; an instance
+								// just better cooperates with source maps.
+								} else if ( jQuery.Deferred.getStackHook ) {
+									process.error = jQuery.Deferred.getStackHook();
 								}
 								window.setTimeout( process );
 							}
@@ -51488,12 +53277,16 @@ jQuery.extend( {
 // warn about them ASAP rather than swallowing them by default.
 var rerrorNames = /^(Eval|Internal|Range|Reference|Syntax|Type|URI)Error$/;
 
-jQuery.Deferred.exceptionHook = function( error, stack ) {
+// If `jQuery.Deferred.getErrorHook` is defined, `asyncError` is an error
+// captured before the async barrier to get the original error cause
+// which may otherwise be hidden.
+jQuery.Deferred.exceptionHook = function( error, asyncError ) {
 
 	// Support: IE 8 - 9 only
 	// Console exists when dev tools are open, which can happen at any time
 	if ( window.console && window.console.warn && error && rerrorNames.test( error.name ) ) {
-		window.console.warn( "jQuery.Deferred exception: " + error.message, error.stack, stack );
+		window.console.warn( "jQuery.Deferred exception: " + error.message,
+			error.stack, asyncError );
 	}
 };
 
@@ -52549,25 +54342,6 @@ function returnFalse() {
 	return false;
 }
 
-// Support: IE <=9 - 11+
-// focus() and blur() are asynchronous, except when they are no-op.
-// So expect focus to be synchronous when the element is already active,
-// and blur to be synchronous when the element is not already active.
-// (focus and blur are always synchronous in other supported browsers,
-// this just defines when we can count on it).
-function expectSync( elem, type ) {
-	return ( elem === safeActiveElement() ) === ( type === "focus" );
-}
-
-// Support: IE <=9 only
-// Accessing document.activeElement can throw unexpectedly
-// https://bugs.jquery.com/ticket/13393
-function safeActiveElement() {
-	try {
-		return document.activeElement;
-	} catch ( err ) { }
-}
-
 function on( elem, types, selector, data, fn, one ) {
 	var origFn, type;
 
@@ -53005,7 +54779,7 @@ jQuery.event = {
 					el.click && nodeName( el, "input" ) ) {
 
 					// dataPriv.set( el, "click", ... )
-					leverageNative( el, "click", returnTrue );
+					leverageNative( el, "click", true );
 				}
 
 				// Return false to allow normal processing in the caller
@@ -53056,10 +54830,10 @@ jQuery.event = {
 // synthetic events by interrupting progress until reinvoked in response to
 // *native* events that it fires directly, ensuring that state changes have
 // already occurred before other listeners are invoked.
-function leverageNative( el, type, expectSync ) {
+function leverageNative( el, type, isSetup ) {
 
-	// Missing expectSync indicates a trigger call, which must force setup through jQuery.event.add
-	if ( !expectSync ) {
+	// Missing `isSetup` indicates a trigger call, which must force setup through jQuery.event.add
+	if ( !isSetup ) {
 		if ( dataPriv.get( el, type ) === undefined ) {
 			jQuery.event.add( el, type, returnTrue );
 		}
@@ -53071,15 +54845,13 @@ function leverageNative( el, type, expectSync ) {
 	jQuery.event.add( el, type, {
 		namespace: false,
 		handler: function( event ) {
-			var notAsync, result,
+			var result,
 				saved = dataPriv.get( this, type );
 
 			if ( ( event.isTrigger & 1 ) && this[ type ] ) {
 
 				// Interrupt processing of the outer synthetic .trigger()ed event
-				// Saved data should be false in such cases, but might be a leftover capture object
-				// from an async native handler (gh-4350)
-				if ( !saved.length ) {
+				if ( !saved ) {
 
 					// Store arguments for use when handling the inner native event
 					// There will always be at least one argument (an event object), so this array
@@ -53088,33 +54860,22 @@ function leverageNative( el, type, expectSync ) {
 					dataPriv.set( this, type, saved );
 
 					// Trigger the native event and capture its result
-					// Support: IE <=9 - 11+
-					// focus() and blur() are asynchronous
-					notAsync = expectSync( this, type );
 					this[ type ]();
 					result = dataPriv.get( this, type );
-					if ( saved !== result || notAsync ) {
-						dataPriv.set( this, type, false );
-					} else {
-						result = {};
-					}
+					dataPriv.set( this, type, false );
+
 					if ( saved !== result ) {
 
 						// Cancel the outer synthetic event
 						event.stopImmediatePropagation();
 						event.preventDefault();
 
-						// Support: Chrome 86+
-						// In Chrome, if an element having a focusout handler is blurred by
-						// clicking outside of it, it invokes the handler synchronously. If
-						// that handler calls `.remove()` on the element, the data is cleared,
-						// leaving `result` undefined. We need to guard against this.
-						return result && result.value;
+						return result;
 					}
 
 				// If this is an inner synthetic event for an event with a bubbling surrogate
-				// (focus or blur), assume that the surrogate already propagated from triggering the
-				// native event and prevent that from happening again here.
+				// (focus or blur), assume that the surrogate already propagated from triggering
+				// the native event and prevent that from happening again here.
 				// This technically gets the ordering wrong w.r.t. to `.trigger()` (in which the
 				// bubbling surrogate propagates *after* the non-bubbling base), but that seems
 				// less bad than duplication.
@@ -53124,22 +54885,25 @@ function leverageNative( el, type, expectSync ) {
 
 			// If this is a native event triggered above, everything is now in order
 			// Fire an inner synthetic event with the original arguments
-			} else if ( saved.length ) {
+			} else if ( saved ) {
 
 				// ...and capture the result
-				dataPriv.set( this, type, {
-					value: jQuery.event.trigger(
+				dataPriv.set( this, type, jQuery.event.trigger(
+					saved[ 0 ],
+					saved.slice( 1 ),
+					this
+				) );
 
-						// Support: IE <=9 - 11+
-						// Extend with the prototype to reset the above stopImmediatePropagation()
-						jQuery.extend( saved[ 0 ], jQuery.Event.prototype ),
-						saved.slice( 1 ),
-						this
-					)
-				} );
-
-				// Abort handling of the native event
-				event.stopImmediatePropagation();
+				// Abort handling of the native event by all jQuery handlers while allowing
+				// native handlers on the same element to run. On target, this is achieved
+				// by stopping immediate propagation just on the jQuery event. However,
+				// the native event is re-wrapped by a jQuery one on each level of the
+				// propagation so the only way to stop it for jQuery is to stop it for
+				// everyone via native `stopPropagation()`. This is not a problem for
+				// focus/blur which don't bubble, but it does also stop click on checkboxes
+				// and radios. We accept this limitation.
+				event.stopPropagation();
+				event.isImmediatePropagationStopped = returnTrue;
 			}
 		}
 	} );
@@ -53278,18 +55042,73 @@ jQuery.each( {
 }, jQuery.event.addProp );
 
 jQuery.each( { focus: "focusin", blur: "focusout" }, function( type, delegateType ) {
+
+	function focusMappedHandler( nativeEvent ) {
+		if ( document.documentMode ) {
+
+			// Support: IE 11+
+			// Attach a single focusin/focusout handler on the document while someone wants
+			// focus/blur. This is because the former are synchronous in IE while the latter
+			// are async. In other browsers, all those handlers are invoked synchronously.
+
+			// `handle` from private data would already wrap the event, but we need
+			// to change the `type` here.
+			var handle = dataPriv.get( this, "handle" ),
+				event = jQuery.event.fix( nativeEvent );
+			event.type = nativeEvent.type === "focusin" ? "focus" : "blur";
+			event.isSimulated = true;
+
+			// First, handle focusin/focusout
+			handle( nativeEvent );
+
+			// ...then, handle focus/blur
+			//
+			// focus/blur don't bubble while focusin/focusout do; simulate the former by only
+			// invoking the handler at the lower level.
+			if ( event.target === event.currentTarget ) {
+
+				// The setup part calls `leverageNative`, which, in turn, calls
+				// `jQuery.event.add`, so event handle will already have been set
+				// by this point.
+				handle( event );
+			}
+		} else {
+
+			// For non-IE browsers, attach a single capturing handler on the document
+			// while someone wants focusin/focusout.
+			jQuery.event.simulate( delegateType, nativeEvent.target,
+				jQuery.event.fix( nativeEvent ) );
+		}
+	}
+
 	jQuery.event.special[ type ] = {
 
 		// Utilize native event if possible so blur/focus sequence is correct
 		setup: function() {
 
+			var attaches;
+
 			// Claim the first handler
 			// dataPriv.set( this, "focus", ... )
 			// dataPriv.set( this, "blur", ... )
-			leverageNative( this, type, expectSync );
+			leverageNative( this, type, true );
 
-			// Return false to allow normal processing in the caller
-			return false;
+			if ( document.documentMode ) {
+
+				// Support: IE 9 - 11+
+				// We use the same native handler for focusin & focus (and focusout & blur)
+				// so we need to coordinate setup & teardown parts between those events.
+				// Use `delegateType` as the key as `type` is already used by `leverageNative`.
+				attaches = dataPriv.get( this, delegateType );
+				if ( !attaches ) {
+					this.addEventListener( delegateType, focusMappedHandler );
+				}
+				dataPriv.set( this, delegateType, ( attaches || 0 ) + 1 );
+			} else {
+
+				// Return false to allow normal processing in the caller
+				return false;
+			}
 		},
 		trigger: function() {
 
@@ -53300,6 +55119,24 @@ jQuery.each( { focus: "focusin", blur: "focusout" }, function( type, delegateTyp
 			return true;
 		},
 
+		teardown: function() {
+			var attaches;
+
+			if ( document.documentMode ) {
+				attaches = dataPriv.get( this, delegateType ) - 1;
+				if ( !attaches ) {
+					this.removeEventListener( delegateType, focusMappedHandler );
+					dataPriv.remove( this, delegateType );
+				} else {
+					dataPriv.set( this, delegateType, attaches );
+				}
+			} else {
+
+				// Return false to indicate standard teardown should be applied
+				return false;
+			}
+		},
+
 		// Suppress native focus or blur if we're currently inside
 		// a leveraged native-event stack
 		_default: function( event ) {
@@ -53307,6 +55144,58 @@ jQuery.each( { focus: "focusin", blur: "focusout" }, function( type, delegateTyp
 		},
 
 		delegateType: delegateType
+	};
+
+	// Support: Firefox <=44
+	// Firefox doesn't have focus(in | out) events
+	// Related ticket - https://bugzilla.mozilla.org/show_bug.cgi?id=687787
+	//
+	// Support: Chrome <=48 - 49, Safari <=9.0 - 9.1
+	// focus(in | out) events fire after focus & blur events,
+	// which is spec violation - http://www.w3.org/TR/DOM-Level-3-Events/#events-focusevent-event-order
+	// Related ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=449857
+	//
+	// Support: IE 9 - 11+
+	// To preserve relative focusin/focus & focusout/blur event order guaranteed on the 3.x branch,
+	// attach a single handler for both events in IE.
+	jQuery.event.special[ delegateType ] = {
+		setup: function() {
+
+			// Handle: regular nodes (via `this.ownerDocument`), window
+			// (via `this.document`) & document (via `this`).
+			var doc = this.ownerDocument || this.document || this,
+				dataHolder = document.documentMode ? this : doc,
+				attaches = dataPriv.get( dataHolder, delegateType );
+
+			// Support: IE 9 - 11+
+			// We use the same native handler for focusin & focus (and focusout & blur)
+			// so we need to coordinate setup & teardown parts between those events.
+			// Use `delegateType` as the key as `type` is already used by `leverageNative`.
+			if ( !attaches ) {
+				if ( document.documentMode ) {
+					this.addEventListener( delegateType, focusMappedHandler );
+				} else {
+					doc.addEventListener( type, focusMappedHandler, true );
+				}
+			}
+			dataPriv.set( dataHolder, delegateType, ( attaches || 0 ) + 1 );
+		},
+		teardown: function() {
+			var doc = this.ownerDocument || this.document || this,
+				dataHolder = document.documentMode ? this : doc,
+				attaches = dataPriv.get( dataHolder, delegateType ) - 1;
+
+			if ( !attaches ) {
+				if ( document.documentMode ) {
+					this.removeEventListener( delegateType, focusMappedHandler );
+				} else {
+					doc.removeEventListener( type, focusMappedHandler, true );
+				}
+				dataPriv.remove( dataHolder, delegateType );
+			} else {
+				dataPriv.set( dataHolder, delegateType, attaches );
+			}
+		}
 	};
 } );
 
@@ -53539,7 +55428,7 @@ function domManip( collection, args, callback, ignored ) {
 			if ( hasScripts ) {
 				doc = scripts[ scripts.length - 1 ].ownerDocument;
 
-				// Reenable scripts
+				// Re-enable scripts
 				jQuery.map( scripts, restoreScript );
 
 				// Evaluate executable scripts on first document insertion
@@ -53610,7 +55499,8 @@ jQuery.extend( {
 		if ( !support.noCloneChecked && ( elem.nodeType === 1 || elem.nodeType === 11 ) &&
 				!jQuery.isXMLDoc( elem ) ) {
 
-			// We eschew Sizzle here for performance reasons: https://jsperf.com/getall-vs-sizzle/2
+			// We eschew jQuery#find here for performance reasons:
+			// https://jsperf.com/getall-vs-sizzle/2
 			destElements = getAll( clone );
 			srcElements = getAll( elem );
 
@@ -53886,15 +55776,6 @@ var swap = function( elem, options, callback ) {
 
 var rboxStyle = new RegExp( cssExpand.join( "|" ), "i" );
 
-var whitespace = "[\\x20\\t\\r\\n\\f]";
-
-
-var rtrimCSS = new RegExp(
-	"^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" + whitespace + "+$",
-	"g"
-);
-
-
 
 
 ( function() {
@@ -54004,7 +55885,7 @@ var rtrimCSS = new RegExp(
 				trChild = document.createElement( "div" );
 
 				table.style.cssText = "position:absolute;left:-11111px;border-collapse:separate";
-				tr.style.cssText = "border:1px solid";
+				tr.style.cssText = "box-sizing:content-box;border:1px solid";
 
 				// Support: Chrome 86+
 				// Height set through cssText does not get applied.
@@ -54016,7 +55897,7 @@ var rtrimCSS = new RegExp(
 				// In our bodyBackground.html iframe,
 				// display for all div elements is set to "inline",
 				// which causes a problem only in Android 8 Chrome 86.
-				// Ensuring the div is display: block
+				// Ensuring the div is `display: block`
 				// gets around this issue.
 				trChild.style.display = "block";
 
@@ -54054,17 +55935,37 @@ function curCSS( elem, name, computed ) {
 	//   .css('filter') (IE 9 only, trac-12537)
 	//   .css('--customProperty) (gh-3144)
 	if ( computed ) {
+
+		// Support: IE <=9 - 11+
+		// IE only supports `"float"` in `getPropertyValue`; in computed styles
+		// it's only available as `"cssFloat"`. We no longer modify properties
+		// sent to `.css()` apart from camelCasing, so we need to check both.
+		// Normally, this would create difference in behavior: if
+		// `getPropertyValue` returns an empty string, the value returned
+		// by `.css()` would be `undefined`. This is usually the case for
+		// disconnected elements. However, in IE even disconnected elements
+		// with no styles return `"none"` for `getPropertyValue( "float" )`
 		ret = computed.getPropertyValue( name ) || computed[ name ];
 
-		// trim whitespace for custom property (issue gh-4926)
-		if ( isCustomProp ) {
+		if ( isCustomProp && ret ) {
 
-			// rtrim treats U+000D CARRIAGE RETURN and U+000C FORM FEED
+			// Support: Firefox 105+, Chrome <=105+
+			// Spec requires trimming whitespace for custom properties (gh-4926).
+			// Firefox only trims leading whitespace. Chrome just collapses
+			// both leading & trailing whitespace to a single space.
+			//
+			// Fall back to `undefined` if empty string returned.
+			// This collapses a missing definition with property defined
+			// and set to an empty string but there's no standard API
+			// allowing us to differentiate them without a performance penalty
+			// and returning `undefined` aligns with older jQuery.
+			//
+			// rtrimCSS treats U+000D CARRIAGE RETURN and U+000C FORM FEED
 			// as whitespace while CSS does not, but this is not a problem
 			// because CSS preprocessing replaces them with U+000A LINE FEED
 			// (which *is* CSS whitespace)
 			// https://www.w3.org/TR/css-syntax-3/#input-preprocessing
-			ret = ret.replace( rtrimCSS, "$1" );
+			ret = ret.replace( rtrimCSS, "$1" ) || undefined;
 		}
 
 		if ( ret === "" && !isAttached( elem ) ) {
@@ -54183,7 +56084,8 @@ function setPositiveNumber( _elem, value, subtract ) {
 function boxModelAdjustment( elem, dimension, box, isBorderBox, styles, computedVal ) {
 	var i = dimension === "width" ? 1 : 0,
 		extra = 0,
-		delta = 0;
+		delta = 0,
+		marginDelta = 0;
 
 	// Adjustment may not be necessary
 	if ( box === ( isBorderBox ? "border" : "content" ) ) {
@@ -54193,8 +56095,10 @@ function boxModelAdjustment( elem, dimension, box, isBorderBox, styles, computed
 	for ( ; i < 4; i += 2 ) {
 
 		// Both box models exclude margin
+		// Count margin delta separately to only add it after scroll gutter adjustment.
+		// This is needed to make negative margins work with `outerHeight( true )` (gh-3982).
 		if ( box === "margin" ) {
-			delta += jQuery.css( elem, box + cssExpand[ i ], true, styles );
+			marginDelta += jQuery.css( elem, box + cssExpand[ i ], true, styles );
 		}
 
 		// If we get here with a content-box, we're seeking "padding" or "border" or "margin"
@@ -54245,7 +56149,7 @@ function boxModelAdjustment( elem, dimension, box, isBorderBox, styles, computed
 		) ) || 0;
 	}
 
-	return delta;
+	return delta + marginDelta;
 }
 
 function getWidthOrHeight( elem, dimension, extra ) {
@@ -54343,26 +56247,35 @@ jQuery.extend( {
 
 	// Don't automatically add "px" to these possibly-unitless properties
 	cssNumber: {
-		"animationIterationCount": true,
-		"columnCount": true,
-		"fillOpacity": true,
-		"flexGrow": true,
-		"flexShrink": true,
-		"fontWeight": true,
-		"gridArea": true,
-		"gridColumn": true,
-		"gridColumnEnd": true,
-		"gridColumnStart": true,
-		"gridRow": true,
-		"gridRowEnd": true,
-		"gridRowStart": true,
-		"lineHeight": true,
-		"opacity": true,
-		"order": true,
-		"orphans": true,
-		"widows": true,
-		"zIndex": true,
-		"zoom": true
+		animationIterationCount: true,
+		aspectRatio: true,
+		borderImageSlice: true,
+		columnCount: true,
+		flexGrow: true,
+		flexShrink: true,
+		fontWeight: true,
+		gridArea: true,
+		gridColumn: true,
+		gridColumnEnd: true,
+		gridColumnStart: true,
+		gridRow: true,
+		gridRowEnd: true,
+		gridRowStart: true,
+		lineHeight: true,
+		opacity: true,
+		order: true,
+		orphans: true,
+		scale: true,
+		widows: true,
+		zIndex: true,
+		zoom: true,
+
+		// SVG-related
+		fillOpacity: true,
+		floodOpacity: true,
+		stopOpacity: true,
+		strokeMiterlimit: true,
+		strokeOpacity: true
 	},
 
 	// Add in properties whose names you wish to fix before
@@ -56088,9 +58001,39 @@ jQuery.each( [ "radio", "checkbox" ], function() {
 
 
 // Return jQuery for attributes-only inclusion
+var location = window.location;
+
+var nonce = { guid: Date.now() };
+
+var rquery = ( /\?/ );
 
 
-support.focusin = "onfocusin" in window;
+
+// Cross-browser xml parsing
+jQuery.parseXML = function( data ) {
+	var xml, parserErrorElem;
+	if ( !data || typeof data !== "string" ) {
+		return null;
+	}
+
+	// Support: IE 9 - 11 only
+	// IE throws on parseFromString with invalid input.
+	try {
+		xml = ( new window.DOMParser() ).parseFromString( data, "text/xml" );
+	} catch ( e ) {}
+
+	parserErrorElem = xml && xml.getElementsByTagName( "parsererror" )[ 0 ];
+	if ( !xml || parserErrorElem ) {
+		jQuery.error( "Invalid XML: " + (
+			parserErrorElem ?
+				jQuery.map( parserErrorElem.childNodes, function( el ) {
+					return el.textContent;
+				} ).join( "\n" ) :
+				data
+		) );
+	}
+	return xml;
+};
 
 
 var rfocusMorph = /^(?:focusinfocus|focusoutblur)$/,
@@ -56276,85 +58219,6 @@ jQuery.fn.extend( {
 		}
 	}
 } );
-
-
-// Support: Firefox <=44
-// Firefox doesn't have focus(in | out) events
-// Related ticket - https://bugzilla.mozilla.org/show_bug.cgi?id=687787
-//
-// Support: Chrome <=48 - 49, Safari <=9.0 - 9.1
-// focus(in | out) events fire after focus & blur events,
-// which is spec violation - http://www.w3.org/TR/DOM-Level-3-Events/#events-focusevent-event-order
-// Related ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=449857
-if ( !support.focusin ) {
-	jQuery.each( { focus: "focusin", blur: "focusout" }, function( orig, fix ) {
-
-		// Attach a single capturing handler on the document while someone wants focusin/focusout
-		var handler = function( event ) {
-			jQuery.event.simulate( fix, event.target, jQuery.event.fix( event ) );
-		};
-
-		jQuery.event.special[ fix ] = {
-			setup: function() {
-
-				// Handle: regular nodes (via `this.ownerDocument`), window
-				// (via `this.document`) & document (via `this`).
-				var doc = this.ownerDocument || this.document || this,
-					attaches = dataPriv.access( doc, fix );
-
-				if ( !attaches ) {
-					doc.addEventListener( orig, handler, true );
-				}
-				dataPriv.access( doc, fix, ( attaches || 0 ) + 1 );
-			},
-			teardown: function() {
-				var doc = this.ownerDocument || this.document || this,
-					attaches = dataPriv.access( doc, fix ) - 1;
-
-				if ( !attaches ) {
-					doc.removeEventListener( orig, handler, true );
-					dataPriv.remove( doc, fix );
-
-				} else {
-					dataPriv.access( doc, fix, attaches );
-				}
-			}
-		};
-	} );
-}
-var location = window.location;
-
-var nonce = { guid: Date.now() };
-
-var rquery = ( /\?/ );
-
-
-
-// Cross-browser xml parsing
-jQuery.parseXML = function( data ) {
-	var xml, parserErrorElem;
-	if ( !data || typeof data !== "string" ) {
-		return null;
-	}
-
-	// Support: IE 9 - 11 only
-	// IE throws on parseFromString with invalid input.
-	try {
-		xml = ( new window.DOMParser() ).parseFromString( data, "text/xml" );
-	} catch ( e ) {}
-
-	parserErrorElem = xml && xml.getElementsByTagName( "parsererror" )[ 0 ];
-	if ( !xml || parserErrorElem ) {
-		jQuery.error( "Invalid XML: " + (
-			parserErrorElem ?
-				jQuery.map( parserErrorElem.childNodes, function( el ) {
-					return el.textContent;
-				} ).join( "\n" ) :
-				data
-		) );
-	}
-	return xml;
-};
 
 
 var
@@ -58201,7 +60065,9 @@ jQuery.fn.extend( {
 	},
 
 	hover: function( fnOver, fnOut ) {
-		return this.mouseenter( fnOver ).mouseleave( fnOut || fnOver );
+		return this
+			.on( "mouseenter", fnOver )
+			.on( "mouseleave", fnOut || fnOver );
 	}
 } );
 
@@ -58356,13 +60222,13 @@ return jQuery;
 } );
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/jszip/dist/jszip.js":
+/***/ "./node_modules/jszip/dist/jszip.js"
 /*!******************************************!*\
   !*** ./node_modules/jszip/dist/jszip.js ***!
   \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 /* provided dependency */ var Buffer = __webpack_require__(/*! buffer */ "./node_modules/buffer/index.js")["Buffer"];
 /* provided dependency */ var process = __webpack_require__(/*! process/browser.js */ "./node_modules/process/browser.js");
@@ -58378,7 +60244,8 @@ JSZip uses the library pako released under the MIT license :
 https://github.com/nodeca/pako/blob/main/LICENSE
 */
 
-(function(f){if(true){module.exports=f()}else { var g; }})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=undefined;if(!u&&a)return require(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=undefined;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+(function(f){if(true){module.exports=f()}else // removed by dead control flow
+{ var g; }})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=undefined;if(!u&&a)return require(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=undefined;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 "use strict";
 var utils = require("./utils");
 var support = require("./support");
@@ -69944,13 +71811,13 @@ module.exports = ZStream;
 },{}]},{},[10])(10)
 });
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css"
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -69968,13 +71835,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.results_tab[data-v-7049f81f]{\n\n  
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css&":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css"
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -69992,13 +71859,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.checked[data-v-5a3cdca2] {\n    col
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70016,13 +71883,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.results_tab[data-v-65519f3e]{\n    
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css&":
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css& ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css"
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70040,13 +71907,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.player[data-v-e0e1cbdc]{\n    backg
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70064,13 +71931,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.book_card[data-v-7957d792]{\n    bo
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css"
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70088,13 +71955,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.book_card[data-v-47a2a7e7]{\n    bo
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css&":
-/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css& ***!
-  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css"
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70112,13 +71979,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.comment_in[data-v-f19c8564]{\n    m
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css&":
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css"
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70136,13 +72003,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n#epub_reader[data-v-dc774d92]{\n    
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70160,13 +72027,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.userAvatar[data-v-61f86a74]{\n\n   
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css&":
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css& ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css"
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70184,13 +72051,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.results_tab[data-v-4f5887ea]{\n\n  
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css"
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70208,13 +72075,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.results_tab[data-v-375135ef]{\n\n  
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css"
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -70232,13 +72099,13 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.settings_tab[data-v-3a45e348]{\n\n 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js":
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js"
 /*!******************************************************************************!*\
   !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/runtime/api.js ***!
   \******************************************************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -70308,13 +72175,13 @@ module.exports = function (cssWithMappingToString) {
   return list;
 };
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/localforage/dist/localforage.js":
+/***/ "./node_modules/localforage/dist/localforage.js"
 /*!******************************************************!*\
   !*** ./node_modules/localforage/dist/localforage.js ***!
   \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 /*!
     localForage -- Offline Storage, Improved
@@ -70322,7 +72189,8 @@ module.exports = function (cssWithMappingToString) {
     https://localforage.github.io/localForage
     (c) 2013-2017 Mozilla, Apache License 2.0
 */
-(function(f){if(true){module.exports=f()}else { var g; }})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=undefined;if(!u&&a)return require(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw (f.code="MODULE_NOT_FOUND", f)}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=undefined;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
+(function(f){if(true){module.exports=f()}else // removed by dead control flow
+{ var g; }})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=undefined;if(!u&&a)return require(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw (f.code="MODULE_NOT_FOUND", f)}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=undefined;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
 (function (global){
 'use strict';
 var Mutation = global.MutationObserver || global.WebKitMutationObserver;
@@ -73134,13 +75002,13 @@ module.exports = localforage_js;
 });
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_Symbol.js":
+/***/ "./node_modules/lodash/_Symbol.js"
 /*!****************************************!*\
   !*** ./node_modules/lodash/_Symbol.js ***!
   \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
 
@@ -73150,13 +75018,13 @@ var Symbol = root.Symbol;
 module.exports = Symbol;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_baseGetTag.js":
+/***/ "./node_modules/lodash/_baseGetTag.js"
 /*!********************************************!*\
   !*** ./node_modules/lodash/_baseGetTag.js ***!
   \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js"),
     getRawTag = __webpack_require__(/*! ./_getRawTag */ "./node_modules/lodash/_getRawTag.js"),
@@ -73188,13 +75056,13 @@ function baseGetTag(value) {
 module.exports = baseGetTag;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_baseTrim.js":
+/***/ "./node_modules/lodash/_baseTrim.js"
 /*!******************************************!*\
   !*** ./node_modules/lodash/_baseTrim.js ***!
   \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var trimmedEndIndex = __webpack_require__(/*! ./_trimmedEndIndex */ "./node_modules/lodash/_trimmedEndIndex.js");
 
@@ -73217,13 +75085,13 @@ function baseTrim(string) {
 module.exports = baseTrim;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_freeGlobal.js":
+/***/ "./node_modules/lodash/_freeGlobal.js"
 /*!********************************************!*\
   !*** ./node_modules/lodash/_freeGlobal.js ***!
   \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 /** Detect free variable `global` from Node.js. */
 var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__.g && __webpack_require__.g.Object === Object && __webpack_require__.g;
@@ -73231,13 +75099,13 @@ var freeGlobal = typeof __webpack_require__.g == 'object' && __webpack_require__
 module.exports = freeGlobal;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_getRawTag.js":
+/***/ "./node_modules/lodash/_getRawTag.js"
 /*!*******************************************!*\
   !*** ./node_modules/lodash/_getRawTag.js ***!
   \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(/*! ./_Symbol */ "./node_modules/lodash/_Symbol.js");
 
@@ -73287,13 +75155,13 @@ function getRawTag(value) {
 module.exports = getRawTag;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_objectToString.js":
+/***/ "./node_modules/lodash/_objectToString.js"
 /*!************************************************!*\
   !*** ./node_modules/lodash/_objectToString.js ***!
   \************************************************/
-/***/ ((module) => {
+(module) {
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -73319,13 +75187,13 @@ function objectToString(value) {
 module.exports = objectToString;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_root.js":
+/***/ "./node_modules/lodash/_root.js"
 /*!**************************************!*\
   !*** ./node_modules/lodash/_root.js ***!
   \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(/*! ./_freeGlobal */ "./node_modules/lodash/_freeGlobal.js");
 
@@ -73338,13 +75206,13 @@ var root = freeGlobal || freeSelf || Function('return this')();
 module.exports = root;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/_trimmedEndIndex.js":
+/***/ "./node_modules/lodash/_trimmedEndIndex.js"
 /*!*************************************************!*\
   !*** ./node_modules/lodash/_trimmedEndIndex.js ***!
   \*************************************************/
-/***/ ((module) => {
+(module) {
 
 /** Used to match a single whitespace character. */
 var reWhitespace = /\s/;
@@ -73367,13 +75235,13 @@ function trimmedEndIndex(string) {
 module.exports = trimmedEndIndex;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/debounce.js":
+/***/ "./node_modules/lodash/debounce.js"
 /*!*****************************************!*\
   !*** ./node_modules/lodash/debounce.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
     now = __webpack_require__(/*! ./now */ "./node_modules/lodash/now.js"),
@@ -73568,13 +75436,13 @@ function debounce(func, wait, options) {
 module.exports = debounce;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/isObject.js":
+/***/ "./node_modules/lodash/isObject.js"
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isObject.js ***!
   \*****************************************/
-/***/ ((module) => {
+(module) {
 
 /**
  * Checks if `value` is the
@@ -73609,13 +75477,13 @@ function isObject(value) {
 module.exports = isObject;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/isObjectLike.js":
+/***/ "./node_modules/lodash/isObjectLike.js"
 /*!*********************************************!*\
   !*** ./node_modules/lodash/isObjectLike.js ***!
   \*********************************************/
-/***/ ((module) => {
+(module) {
 
 /**
  * Checks if `value` is object-like. A value is object-like if it's not `null`
@@ -73648,13 +75516,13 @@ function isObjectLike(value) {
 module.exports = isObjectLike;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/isSymbol.js":
+/***/ "./node_modules/lodash/isSymbol.js"
 /*!*****************************************!*\
   !*** ./node_modules/lodash/isSymbol.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(/*! ./_baseGetTag */ "./node_modules/lodash/_baseGetTag.js"),
     isObjectLike = __webpack_require__(/*! ./isObjectLike */ "./node_modules/lodash/isObjectLike.js");
@@ -73687,13 +75555,13 @@ function isSymbol(value) {
 module.exports = isSymbol;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/lodash.js":
+/***/ "./node_modules/lodash/lodash.js"
 /*!***************************************!*\
   !*** ./node_modules/lodash/lodash.js ***!
   \***************************************/
-/***/ (function(module, exports, __webpack_require__) {
+(module, exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
 var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -90895,17 +92763,18 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 		__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
   }
   // Check for `exports` after `define` in case a build optimizer adds it.
-  else {}
+  else // removed by dead control flow
+{}
 }.call(this));
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/now.js":
+/***/ "./node_modules/lodash/now.js"
 /*!************************************!*\
   !*** ./node_modules/lodash/now.js ***!
   \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var root = __webpack_require__(/*! ./_root */ "./node_modules/lodash/_root.js");
 
@@ -90932,13 +92801,13 @@ var now = function() {
 module.exports = now;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/throttle.js":
+/***/ "./node_modules/lodash/throttle.js"
 /*!*****************************************!*\
   !*** ./node_modules/lodash/throttle.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var debounce = __webpack_require__(/*! ./debounce */ "./node_modules/lodash/debounce.js"),
     isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js");
@@ -91011,13 +92880,13 @@ function throttle(func, wait, options) {
 module.exports = throttle;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/lodash/toNumber.js":
+/***/ "./node_modules/lodash/toNumber.js"
 /*!*****************************************!*\
   !*** ./node_modules/lodash/toNumber.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 var baseTrim = __webpack_require__(/*! ./_baseTrim */ "./node_modules/lodash/_baseTrim.js"),
     isObject = __webpack_require__(/*! ./isObject */ "./node_modules/lodash/isObject.js"),
@@ -91085,13 +92954,13 @@ function toNumber(value) {
 module.exports = toNumber;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/marks-pane/lib/events.js":
+/***/ "./node_modules/marks-pane/lib/events.js"
 /*!***********************************************!*\
   !*** ./node_modules/marks-pane/lib/events.js ***!
   \***********************************************/
-/***/ ((__unused_webpack_module, exports) => {
+(__unused_webpack_module, exports) {
 
 "use strict";
 
@@ -91224,13 +93093,13 @@ function contains(item, target, x, y) {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/marks-pane/lib/marks.js":
+/***/ "./node_modules/marks-pane/lib/marks.js"
 /*!**********************************************!*\
   !*** ./node_modules/marks-pane/lib/marks.js ***!
   \**********************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 
@@ -91554,13 +93423,13 @@ function contains(rect1, rect2) {
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/marks-pane/lib/svg.js":
+/***/ "./node_modules/marks-pane/lib/svg.js"
 /*!********************************************!*\
   !*** ./node_modules/marks-pane/lib/svg.js ***!
   \********************************************/
-/***/ ((__unused_webpack_module, exports) => {
+(__unused_webpack_module, exports) {
 
 "use strict";
 
@@ -91578,26 +93447,13 @@ exports["default"] = {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./resources/sass/app.scss":
-/*!*********************************!*\
-  !*** ./resources/sass/app.scss ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./node_modules/path-webpack/path.js":
+/***/ "./node_modules/path-webpack/path.js"
 /*!*******************************************!*\
   !*** ./node_modules/path-webpack/path.js ***!
   \*******************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -92156,13 +94012,13 @@ var posix = {
 module.exports = posix;
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/popper.js/dist/esm/popper.js":
+/***/ "./node_modules/popper.js/dist/esm/popper.js"
 /*!***************************************************!*\
   !*** ./node_modules/popper.js/dist/esm/popper.js ***!
   \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -94787,13 +96643,13 @@ Popper.Defaults = Defaults;
 //# sourceMappingURL=popper.js.map
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/process/browser.js":
+/***/ "./node_modules/process/browser.js"
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
   \*****************************************/
-/***/ ((module) => {
+(module) {
 
 // shim for using process in browser
 var process = module.exports = {};
@@ -94981,43 +96837,13 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -95026,7 +96852,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css");
 
             
 
@@ -95035,259 +96861,19 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css&":
-/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css& ***!
-  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css&":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css&":
-/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css&":
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css& ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css&");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css&":
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css"
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css& ***!
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -95296,7 +96882,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css");
 
             
 
@@ -95305,19 +96891,229 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css&":
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css"
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css"
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css"
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css"
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css"
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css"
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css"
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css"
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css& ***!
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -95326,7 +97122,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css& */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css");
 
             
 
@@ -95335,19 +97131,79 @@ var options = {};
 options.insert = "head";
 options.singleton = false;
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
 
 
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css"
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css"
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ },
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js"
 /*!****************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
   \****************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -95620,13 +97476,13 @@ module.exports = function (list, options) {
   };
 };
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/type/function/is.js":
+/***/ "./node_modules/type/function/is.js"
 /*!******************************************!*\
   !*** ./node_modules/type/function/is.js ***!
   \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -95650,13 +97506,13 @@ module.exports = function (value) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/type/object/is.js":
+/***/ "./node_modules/type/object/is.js"
 /*!****************************************!*\
   !*** ./node_modules/type/object/is.js ***!
   \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -95672,13 +97528,13 @@ module.exports = function (value) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/type/plain-function/is.js":
+/***/ "./node_modules/type/plain-function/is.js"
 /*!************************************************!*\
   !*** ./node_modules/type/plain-function/is.js ***!
   \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -95694,13 +97550,13 @@ module.exports = function (value) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/type/prototype/is.js":
+/***/ "./node_modules/type/prototype/is.js"
 /*!*******************************************!*\
   !*** ./node_modules/type/prototype/is.js ***!
   \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
@@ -95718,13 +97574,13 @@ module.exports = function (value) {
 };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/type/value/is.js":
+/***/ "./node_modules/type/value/is.js"
 /*!***************************************!*\
   !*** ./node_modules/type/value/is.js ***!
   \***************************************/
-/***/ ((module) => {
+(module) {
 
 "use strict";
 
@@ -95735,1057 +97591,13 @@ var _undefined = void 0;
 module.exports = function (value) { return value !== _undefined && value !== null; };
 
 
-/***/ }),
+/***/ },
 
-/***/ "./resources/js/components/book_genera.vue":
-/*!*************************************************!*\
-  !*** ./resources/js/components/book_genera.vue ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _book_genera_vue_vue_type_template_id_7049f81f_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./book_genera.vue?vue&type=template&id=7049f81f&scoped=true& */ "./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true&");
-/* harmony import */ var _book_genera_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./book_genera.vue?vue&type=script&lang=js& */ "./resources/js/components/book_genera.vue?vue&type=script&lang=js&");
-/* harmony import */ var _book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css& */ "./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _book_genera_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _book_genera_vue_vue_type_template_id_7049f81f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _book_genera_vue_vue_type_template_id_7049f81f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "7049f81f",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/book_genera.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/generate_stars.vue":
-/*!****************************************************!*\
-  !*** ./resources/js/components/generate_stars.vue ***!
-  \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true& */ "./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true&");
-/* harmony import */ var _generate_stars_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./generate_stars.vue?vue&type=script&lang=js& */ "./resources/js/components/generate_stars.vue?vue&type=script&lang=js&");
-/* harmony import */ var _generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css& */ "./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _generate_stars_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "5a3cdca2",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/generate_stars.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/get_author_work.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/components/get_author_work.vue ***!
-  \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _get_author_work_vue_vue_type_template_id_65519f3e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./get_author_work.vue?vue&type=template&id=65519f3e&scoped=true& */ "./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true&");
-/* harmony import */ var _get_author_work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./get_author_work.vue?vue&type=script&lang=js& */ "./resources/js/components/get_author_work.vue?vue&type=script&lang=js&");
-/* harmony import */ var _get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css& */ "./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _get_author_work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _get_author_work_vue_vue_type_template_id_65519f3e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _get_author_work_vue_vue_type_template_id_65519f3e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "65519f3e",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/get_author_work.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/listen_audiobook.vue":
-/*!******************************************************!*\
-  !*** ./resources/js/components/listen_audiobook.vue ***!
-  \******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true& */ "./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true&");
-/* harmony import */ var _listen_audiobook_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./listen_audiobook.vue?vue&type=script&lang=js& */ "./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js&");
-/* harmony import */ var _listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css& */ "./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _listen_audiobook_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "e0e1cbdc",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/listen_audiobook.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/load_audiobooks.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/components/load_audiobooks.vue ***!
-  \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true& */ "./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true&");
-/* harmony import */ var _load_audiobooks_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./load_audiobooks.vue?vue&type=script&lang=js& */ "./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js&");
-/* harmony import */ var _load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css& */ "./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _load_audiobooks_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "7957d792",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/load_audiobooks.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/load_book.vue":
-/*!***********************************************!*\
-  !*** ./resources/js/components/load_book.vue ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _load_book_vue_vue_type_template_id_47a2a7e7_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./load_book.vue?vue&type=template&id=47a2a7e7&scoped=true& */ "./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true&");
-/* harmony import */ var _load_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./load_book.vue?vue&type=script&lang=js& */ "./resources/js/components/load_book.vue?vue&type=script&lang=js&");
-/* harmony import */ var _load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css& */ "./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _load_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _load_book_vue_vue_type_template_id_47a2a7e7_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _load_book_vue_vue_type_template_id_47a2a7e7_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "47a2a7e7",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/load_book.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/make_review.vue":
-/*!*************************************************!*\
-  !*** ./resources/js/components/make_review.vue ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _make_review_vue_vue_type_template_id_f19c8564_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./make_review.vue?vue&type=template&id=f19c8564&scoped=true& */ "./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true&");
-/* harmony import */ var _make_review_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./make_review.vue?vue&type=script&lang=js& */ "./resources/js/components/make_review.vue?vue&type=script&lang=js&");
-/* harmony import */ var _make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css& */ "./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _make_review_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _make_review_vue_vue_type_template_id_f19c8564_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _make_review_vue_vue_type_template_id_f19c8564_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "f19c8564",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/make_review.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/read_book.vue":
-/*!***********************************************!*\
-  !*** ./resources/js/components/read_book.vue ***!
-  \***********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _read_book_vue_vue_type_template_id_dc774d92_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./read_book.vue?vue&type=template&id=dc774d92&scoped=true& */ "./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true&");
-/* harmony import */ var _read_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./read_book.vue?vue&type=script&lang=js& */ "./resources/js/components/read_book.vue?vue&type=script&lang=js&");
-/* harmony import */ var _read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css& */ "./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _read_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _read_book_vue_vue_type_template_id_dc774d92_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _read_book_vue_vue_type_template_id_dc774d92_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "dc774d92",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/read_book.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/reviews_section.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/components/reviews_section.vue ***!
-  \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _reviews_section_vue_vue_type_template_id_61f86a74_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reviews_section.vue?vue&type=template&id=61f86a74&scoped=true& */ "./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true&");
-/* harmony import */ var _reviews_section_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reviews_section.vue?vue&type=script&lang=js& */ "./resources/js/components/reviews_section.vue?vue&type=script&lang=js&");
-/* harmony import */ var _reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css& */ "./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _reviews_section_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _reviews_section_vue_vue_type_template_id_61f86a74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _reviews_section_vue_vue_type_template_id_61f86a74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "61f86a74",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/reviews_section.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/search_results.vue":
-/*!****************************************************!*\
-  !*** ./resources/js/components/search_results.vue ***!
-  \****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _search_results_vue_vue_type_template_id_4f5887ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./search_results.vue?vue&type=template&id=4f5887ea&scoped=true& */ "./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true&");
-/* harmony import */ var _search_results_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./search_results.vue?vue&type=script&lang=js& */ "./resources/js/components/search_results.vue?vue&type=script&lang=js&");
-/* harmony import */ var _search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css& */ "./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _search_results_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _search_results_vue_vue_type_template_id_4f5887ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _search_results_vue_vue_type_template_id_4f5887ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "4f5887ea",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/search_results.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/user_bookmark.vue":
-/*!***************************************************!*\
-  !*** ./resources/js/components/user_bookmark.vue ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _user_bookmark_vue_vue_type_template_id_375135ef_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./user_bookmark.vue?vue&type=template&id=375135ef&scoped=true& */ "./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true&");
-/* harmony import */ var _user_bookmark_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./user_bookmark.vue?vue&type=script&lang=js& */ "./resources/js/components/user_bookmark.vue?vue&type=script&lang=js&");
-/* harmony import */ var _user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css& */ "./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _user_bookmark_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _user_bookmark_vue_vue_type_template_id_375135ef_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _user_bookmark_vue_vue_type_template_id_375135ef_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "375135ef",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/user_bookmark.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/user_settings.vue":
-/*!***************************************************!*\
-  !*** ./resources/js/components/user_settings.vue ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _user_settings_vue_vue_type_template_id_3a45e348_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./user_settings.vue?vue&type=template&id=3a45e348&scoped=true& */ "./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true&");
-/* harmony import */ var _user_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./user_settings.vue?vue&type=script&lang=js& */ "./resources/js/components/user_settings.vue?vue&type=script&lang=js&");
-/* harmony import */ var _user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css& */ "./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-;
-
-
-/* normalize component */
-
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _user_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _user_settings_vue_vue_type_template_id_3a45e348_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
-  _user_settings_vue_vue_type_template_id_3a45e348_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
-  false,
-  null,
-  "3a45e348",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/user_settings.vue"
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/book_genera.vue?vue&type=script&lang=js&":
-/*!**************************************************************************!*\
-  !*** ./resources/js/components/book_genera.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/generate_stars.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/components/generate_stars.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/get_author_work.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/get_author_work.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/load_book.vue?vue&type=script&lang=js&":
-/*!************************************************************************!*\
-  !*** ./resources/js/components/load_book.vue?vue&type=script&lang=js& ***!
-  \************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/make_review.vue?vue&type=script&lang=js&":
-/*!**************************************************************************!*\
-  !*** ./resources/js/components/make_review.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/read_book.vue?vue&type=script&lang=js&":
-/*!************************************************************************!*\
-  !*** ./resources/js/components/read_book.vue?vue&type=script&lang=js& ***!
-  \************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/reviews_section.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/components/reviews_section.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/search_results.vue?vue&type=script&lang=js&":
-/*!*****************************************************************************!*\
-  !*** ./resources/js/components/search_results.vue?vue&type=script&lang=js& ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/user_bookmark.vue?vue&type=script&lang=js&":
-/*!****************************************************************************!*\
-  !*** ./resources/js/components/user_bookmark.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/user_settings.vue?vue&type=script&lang=js&":
-/*!****************************************************************************!*\
-  !*** ./resources/js/components/user_settings.vue?vue&type=script&lang=js& ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true&":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true& ***!
-  \********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_template_id_7049f81f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_template_id_7049f81f_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_template_id_7049f81f_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=template&id=7049f81f&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true& ***!
-  \***********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true& ***!
-  \************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_template_id_65519f3e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_template_id_65519f3e_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_template_id_65519f3e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=template&id=65519f3e&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true& ***!
-  \*************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true& ***!
-  \************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true& ***!
-  \******************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_template_id_47a2a7e7_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_template_id_47a2a7e7_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_template_id_47a2a7e7_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=template&id=47a2a7e7&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true&":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true& ***!
-  \********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_template_id_f19c8564_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_template_id_f19c8564_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_template_id_f19c8564_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=template&id=f19c8564&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true&":
-/*!******************************************************************************************!*\
-  !*** ./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true& ***!
-  \******************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_template_id_dc774d92_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_template_id_dc774d92_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_template_id_dc774d92_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=template&id=dc774d92&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true& ***!
-  \************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_template_id_61f86a74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_template_id_61f86a74_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_template_id_61f86a74_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=template&id=61f86a74&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true&":
-/*!***********************************************************************************************!*\
-  !*** ./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true& ***!
-  \***********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_template_id_4f5887ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_template_id_4f5887ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_template_id_4f5887ea_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=template&id=4f5887ea&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true& ***!
-  \**********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_template_id_375135ef_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_template_id_375135ef_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_template_id_375135ef_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=template&id=375135ef&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true&":
-/*!**********************************************************************************************!*\
-  !*** ./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true& ***!
-  \**********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_template_id_3a45e348_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_template_id_3a45e348_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
-/* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_template_id_3a45e348_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=template&id=3a45e348&scoped=true& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css& ***!
-  \**********************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css& ***!
-  \*************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css& ***!
-  \**************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css&":
-/*!***************************************************************************************************************!*\
-  !*** ./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css& ***!
-  \***************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css& ***!
-  \**************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css& ***!
-  \********************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css& ***!
-  \**********************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css&":
-/*!********************************************************************************************************!*\
-  !*** ./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css& ***!
-  \********************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css&":
-/*!**************************************************************************************************************!*\
-  !*** ./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css& ***!
-  \**************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css&":
-/*!*************************************************************************************************************!*\
-  !*** ./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css& ***!
-  \*************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css&":
-/*!************************************************************************************************************!*\
-  !*** ./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css& ***!
-  \************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css&":
-/*!************************************************************************************************************!*\
-  !*** ./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css& ***!
-  \************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css&");
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
+/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js"
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
   \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
@@ -96890,78 +97702,78 @@ function normalizeComponent(
 }
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/vue/dist/vue.esm.js":
+/***/ "./node_modules/vue/dist/vue.esm.js"
 /*!******************************************!*\
   !*** ./node_modules/vue/dist/vue.esm.js ***!
   \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "EffectScope": () => (/* binding */ EffectScope),
-/* harmony export */   "computed": () => (/* binding */ computed),
-/* harmony export */   "customRef": () => (/* binding */ customRef),
+/* harmony export */   EffectScope: () => (/* binding */ EffectScope),
+/* harmony export */   computed: () => (/* binding */ computed),
+/* harmony export */   customRef: () => (/* binding */ customRef),
 /* harmony export */   "default": () => (/* binding */ Vue),
-/* harmony export */   "defineAsyncComponent": () => (/* binding */ defineAsyncComponent),
-/* harmony export */   "defineComponent": () => (/* binding */ defineComponent),
-/* harmony export */   "del": () => (/* binding */ del),
-/* harmony export */   "effectScope": () => (/* binding */ effectScope),
-/* harmony export */   "getCurrentInstance": () => (/* binding */ getCurrentInstance),
-/* harmony export */   "getCurrentScope": () => (/* binding */ getCurrentScope),
-/* harmony export */   "h": () => (/* binding */ h),
-/* harmony export */   "inject": () => (/* binding */ inject),
-/* harmony export */   "isProxy": () => (/* binding */ isProxy),
-/* harmony export */   "isReactive": () => (/* binding */ isReactive),
-/* harmony export */   "isReadonly": () => (/* binding */ isReadonly),
-/* harmony export */   "isRef": () => (/* binding */ isRef),
-/* harmony export */   "isShallow": () => (/* binding */ isShallow),
-/* harmony export */   "markRaw": () => (/* binding */ markRaw),
-/* harmony export */   "mergeDefaults": () => (/* binding */ mergeDefaults),
-/* harmony export */   "nextTick": () => (/* binding */ nextTick),
-/* harmony export */   "onActivated": () => (/* binding */ onActivated),
-/* harmony export */   "onBeforeMount": () => (/* binding */ onBeforeMount),
-/* harmony export */   "onBeforeUnmount": () => (/* binding */ onBeforeUnmount),
-/* harmony export */   "onBeforeUpdate": () => (/* binding */ onBeforeUpdate),
-/* harmony export */   "onDeactivated": () => (/* binding */ onDeactivated),
-/* harmony export */   "onErrorCaptured": () => (/* binding */ onErrorCaptured),
-/* harmony export */   "onMounted": () => (/* binding */ onMounted),
-/* harmony export */   "onRenderTracked": () => (/* binding */ onRenderTracked),
-/* harmony export */   "onRenderTriggered": () => (/* binding */ onRenderTriggered),
-/* harmony export */   "onScopeDispose": () => (/* binding */ onScopeDispose),
-/* harmony export */   "onServerPrefetch": () => (/* binding */ onServerPrefetch),
-/* harmony export */   "onUnmounted": () => (/* binding */ onUnmounted),
-/* harmony export */   "onUpdated": () => (/* binding */ onUpdated),
-/* harmony export */   "provide": () => (/* binding */ provide),
-/* harmony export */   "proxyRefs": () => (/* binding */ proxyRefs),
-/* harmony export */   "reactive": () => (/* binding */ reactive),
-/* harmony export */   "readonly": () => (/* binding */ readonly),
-/* harmony export */   "ref": () => (/* binding */ ref$1),
-/* harmony export */   "set": () => (/* binding */ set),
-/* harmony export */   "shallowReactive": () => (/* binding */ shallowReactive),
-/* harmony export */   "shallowReadonly": () => (/* binding */ shallowReadonly),
-/* harmony export */   "shallowRef": () => (/* binding */ shallowRef),
-/* harmony export */   "toRaw": () => (/* binding */ toRaw),
-/* harmony export */   "toRef": () => (/* binding */ toRef),
-/* harmony export */   "toRefs": () => (/* binding */ toRefs),
-/* harmony export */   "triggerRef": () => (/* binding */ triggerRef),
-/* harmony export */   "unref": () => (/* binding */ unref),
-/* harmony export */   "useAttrs": () => (/* binding */ useAttrs),
-/* harmony export */   "useCssModule": () => (/* binding */ useCssModule),
-/* harmony export */   "useCssVars": () => (/* binding */ useCssVars),
-/* harmony export */   "useListeners": () => (/* binding */ useListeners),
-/* harmony export */   "useSlots": () => (/* binding */ useSlots),
-/* harmony export */   "version": () => (/* binding */ version),
-/* harmony export */   "watch": () => (/* binding */ watch),
-/* harmony export */   "watchEffect": () => (/* binding */ watchEffect),
-/* harmony export */   "watchPostEffect": () => (/* binding */ watchPostEffect),
-/* harmony export */   "watchSyncEffect": () => (/* binding */ watchSyncEffect)
+/* harmony export */   defineAsyncComponent: () => (/* binding */ defineAsyncComponent),
+/* harmony export */   defineComponent: () => (/* binding */ defineComponent),
+/* harmony export */   del: () => (/* binding */ del),
+/* harmony export */   effectScope: () => (/* binding */ effectScope),
+/* harmony export */   getCurrentInstance: () => (/* binding */ getCurrentInstance),
+/* harmony export */   getCurrentScope: () => (/* binding */ getCurrentScope),
+/* harmony export */   h: () => (/* binding */ h),
+/* harmony export */   inject: () => (/* binding */ inject),
+/* harmony export */   isProxy: () => (/* binding */ isProxy),
+/* harmony export */   isReactive: () => (/* binding */ isReactive),
+/* harmony export */   isReadonly: () => (/* binding */ isReadonly),
+/* harmony export */   isRef: () => (/* binding */ isRef),
+/* harmony export */   isShallow: () => (/* binding */ isShallow),
+/* harmony export */   markRaw: () => (/* binding */ markRaw),
+/* harmony export */   mergeDefaults: () => (/* binding */ mergeDefaults),
+/* harmony export */   nextTick: () => (/* binding */ nextTick),
+/* harmony export */   onActivated: () => (/* binding */ onActivated),
+/* harmony export */   onBeforeMount: () => (/* binding */ onBeforeMount),
+/* harmony export */   onBeforeUnmount: () => (/* binding */ onBeforeUnmount),
+/* harmony export */   onBeforeUpdate: () => (/* binding */ onBeforeUpdate),
+/* harmony export */   onDeactivated: () => (/* binding */ onDeactivated),
+/* harmony export */   onErrorCaptured: () => (/* binding */ onErrorCaptured),
+/* harmony export */   onMounted: () => (/* binding */ onMounted),
+/* harmony export */   onRenderTracked: () => (/* binding */ onRenderTracked),
+/* harmony export */   onRenderTriggered: () => (/* binding */ onRenderTriggered),
+/* harmony export */   onScopeDispose: () => (/* binding */ onScopeDispose),
+/* harmony export */   onServerPrefetch: () => (/* binding */ onServerPrefetch),
+/* harmony export */   onUnmounted: () => (/* binding */ onUnmounted),
+/* harmony export */   onUpdated: () => (/* binding */ onUpdated),
+/* harmony export */   provide: () => (/* binding */ provide),
+/* harmony export */   proxyRefs: () => (/* binding */ proxyRefs),
+/* harmony export */   reactive: () => (/* binding */ reactive),
+/* harmony export */   readonly: () => (/* binding */ readonly),
+/* harmony export */   ref: () => (/* binding */ ref$1),
+/* harmony export */   set: () => (/* binding */ set),
+/* harmony export */   shallowReactive: () => (/* binding */ shallowReactive),
+/* harmony export */   shallowReadonly: () => (/* binding */ shallowReadonly),
+/* harmony export */   shallowRef: () => (/* binding */ shallowRef),
+/* harmony export */   toRaw: () => (/* binding */ toRaw),
+/* harmony export */   toRef: () => (/* binding */ toRef),
+/* harmony export */   toRefs: () => (/* binding */ toRefs),
+/* harmony export */   triggerRef: () => (/* binding */ triggerRef),
+/* harmony export */   unref: () => (/* binding */ unref),
+/* harmony export */   useAttrs: () => (/* binding */ useAttrs),
+/* harmony export */   useCssModule: () => (/* binding */ useCssModule),
+/* harmony export */   useCssVars: () => (/* binding */ useCssVars),
+/* harmony export */   useListeners: () => (/* binding */ useListeners),
+/* harmony export */   useSlots: () => (/* binding */ useSlots),
+/* harmony export */   version: () => (/* binding */ version),
+/* harmony export */   watch: () => (/* binding */ watch),
+/* harmony export */   watchEffect: () => (/* binding */ watchEffect),
+/* harmony export */   watchPostEffect: () => (/* binding */ watchPostEffect),
+/* harmony export */   watchSyncEffect: () => (/* binding */ watchSyncEffect)
 /* harmony export */ });
 /*!
- * Vue.js v2.7.10
- * (c) 2014-2022 Evan You
+ * Vue.js v2.7.16
+ * (c) 2014-2023 Evan You
  * Released under the MIT License.
  */
 var emptyObject = Object.freeze({});
@@ -97037,8 +97849,15 @@ function toString(val) {
     return val == null
         ? ''
         : Array.isArray(val) || (isPlainObject(val) && val.toString === _toString)
-            ? JSON.stringify(val, null, 2)
+            ? JSON.stringify(val, replacer, 2)
             : String(val);
+}
+function replacer(_key, val) {
+    // avoid circular deps from v3
+    if (val && val.__v_isRef) {
+        return val.value;
+    }
+    return val;
 }
 /**
  * Convert an input value to a number for persistence.
@@ -97072,7 +97891,13 @@ var isReservedAttribute = makeMap('key,ref,slot,slot-scope,is');
  * Remove an item from an array.
  */
 function remove$2(arr, item) {
-    if (arr.length) {
+    var len = arr.length;
+    if (len) {
+        // fast path for the only / last item
+        if (item === arr[len - 1]) {
+            arr.length = len - 1;
+            return;
+        }
         var index = arr.indexOf(item);
         if (index > -1) {
             return arr.splice(index, 1);
@@ -97195,9 +98020,7 @@ var identity = function (_) { return _; };
  */
 function genStaticKeys$1(modules) {
     return modules
-        .reduce(function (keys, m) {
-        return keys.concat(m.staticKeys || []);
-    }, [])
+        .reduce(function (keys, m) { return keys.concat(m.staticKeys || []); }, [])
         .join(',');
 }
 /**
@@ -97700,7 +98523,21 @@ var __assign = function() {
     return __assign.apply(this, arguments);
 };
 
+typeof SuppressedError === "function" ? SuppressedError : function (error, suppressed, message) {
+    var e = new Error(message);
+    return e.name = "SuppressedError", e.error = error, e.suppressed = suppressed, e;
+};
+
 var uid$2 = 0;
+var pendingCleanupDeps = [];
+var cleanupDeps = function () {
+    for (var i = 0; i < pendingCleanupDeps.length; i++) {
+        var dep = pendingCleanupDeps[i];
+        dep.subs = dep.subs.filter(function (s) { return s; });
+        dep._pending = false;
+    }
+    pendingCleanupDeps.length = 0;
+};
 /**
  * A dep is an observable that can have multiple
  * directives subscribing to it.
@@ -97708,6 +98545,8 @@ var uid$2 = 0;
  */
 var Dep = /** @class */ (function () {
     function Dep() {
+        // pending subs cleanup
+        this._pending = false;
         this.id = uid$2++;
         this.subs = [];
     }
@@ -97715,7 +98554,15 @@ var Dep = /** @class */ (function () {
         this.subs.push(sub);
     };
     Dep.prototype.removeSub = function (sub) {
-        remove$2(this.subs, sub);
+        // #12696 deps with massive amount of subscribers are extremely slow to
+        // clean up in Chromium
+        // to workaround this, we unset the sub for now, and clear them on
+        // next scheduler flush.
+        this.subs[this.subs.indexOf(sub)] = null;
+        if (!this._pending) {
+            this._pending = true;
+            pendingCleanupDeps.push(this);
+        }
     };
     Dep.prototype.depend = function (info) {
         if (Dep.target) {
@@ -97727,7 +98574,7 @@ var Dep = /** @class */ (function () {
     };
     Dep.prototype.notify = function (info) {
         // stabilize the subscriber list first
-        var subs = this.subs.slice();
+        var subs = this.subs.filter(function (s) { return s; });
         if ( true && !config.async) {
             // subs aren't sorted in scheduler if not running async
             // we need to sort them now to make sure they fire in correct
@@ -97735,12 +98582,12 @@ var Dep = /** @class */ (function () {
             subs.sort(function (a, b) { return a.id - b.id; });
         }
         for (var i = 0, l = subs.length; i < l; i++) {
+            var sub = subs[i];
             if ( true && info) {
-                var sub = subs[i];
                 sub.onTrigger &&
                     sub.onTrigger(__assign({ effect: subs[i] }, info));
             }
-            subs[i].update();
+            sub.update();
         }
     };
     return Dep;
@@ -97807,13 +98654,14 @@ methodsToPatch.forEach(function (method) {
                 key: method
             });
         }
-        else {}
+        else // removed by dead control flow
+{}
         return result;
     });
 });
 
 var arrayKeys = Object.getOwnPropertyNames(arrayMethods);
-var NO_INIITIAL_VALUE = {};
+var NO_INITIAL_VALUE = {};
 /**
  * In some cases we may want to disable observation inside a component's
  * update computation.
@@ -97872,7 +98720,7 @@ var Observer = /** @class */ (function () {
             var keys = Object.keys(value);
             for (var i = 0; i < keys.length; i++) {
                 var key = keys[i];
-                defineReactive(value, key, NO_INIITIAL_VALUE, undefined, shallow, mock);
+                defineReactive(value, key, NO_INITIAL_VALUE, undefined, shallow, mock);
             }
         }
     }
@@ -97893,26 +98741,24 @@ var Observer = /** @class */ (function () {
  * or the existing observer if the value already has one.
  */
 function observe(value, shallow, ssrMockReactivity) {
-    if (!isObject(value) || isRef(value) || value instanceof VNode) {
-        return;
+    if (value && hasOwn(value, '__ob__') && value.__ob__ instanceof Observer) {
+        return value.__ob__;
     }
-    var ob;
-    if (hasOwn(value, '__ob__') && value.__ob__ instanceof Observer) {
-        ob = value.__ob__;
-    }
-    else if (shouldObserve &&
+    if (shouldObserve &&
         (ssrMockReactivity || !isServerRendering()) &&
         (isArray(value) || isPlainObject(value)) &&
         Object.isExtensible(value) &&
-        !value.__v_skip /* ReactiveFlags.SKIP */) {
-        ob = new Observer(value, shallow, ssrMockReactivity);
+        !value.__v_skip /* ReactiveFlags.SKIP */ &&
+        !isRef(value) &&
+        !(value instanceof VNode)) {
+        return new Observer(value, shallow, ssrMockReactivity);
     }
-    return ob;
 }
 /**
  * Define a reactive property on an Object.
  */
-function defineReactive(obj, key, val, customSetter, shallow, mock) {
+function defineReactive(obj, key, val, customSetter, shallow, mock, observeEvenIfShallow) {
+    if (observeEvenIfShallow === void 0) { observeEvenIfShallow = false; }
     var dep = new Dep();
     var property = Object.getOwnPropertyDescriptor(obj, key);
     if (property && property.configurable === false) {
@@ -97922,10 +98768,10 @@ function defineReactive(obj, key, val, customSetter, shallow, mock) {
     var getter = property && property.get;
     var setter = property && property.set;
     if ((!getter || setter) &&
-        (val === NO_INIITIAL_VALUE || arguments.length === 2)) {
+        (val === NO_INITIAL_VALUE || arguments.length === 2)) {
         val = obj[key];
     }
-    var childOb = !shallow && observe(val, false, mock);
+    var childOb = shallow ? val && val.__ob__ : observe(val, false, mock);
     Object.defineProperty(obj, key, {
         enumerable: true,
         configurable: true,
@@ -97939,7 +98785,8 @@ function defineReactive(obj, key, val, customSetter, shallow, mock) {
                         key: key
                     });
                 }
-                else {}
+                else // removed by dead control flow
+{}
                 if (childOb) {
                     childOb.dep.depend();
                     if (isArray(value)) {
@@ -97971,7 +98818,7 @@ function defineReactive(obj, key, val, customSetter, shallow, mock) {
             else {
                 val = newVal;
             }
-            childOb = !shallow && observe(newVal, false, mock);
+            childOb = shallow ? newVal && newVal.__ob__ : observe(newVal, false, mock);
             if (true) {
                 dep.notify({
                     type: "set" /* TriggerOpTypes.SET */,
@@ -97981,7 +98828,8 @@ function defineReactive(obj, key, val, customSetter, shallow, mock) {
                     oldValue: value
                 });
             }
-            else {}
+            else // removed by dead control flow
+{}
         }
     });
     return dep;
@@ -98028,7 +98876,8 @@ function set(target, key, val) {
             oldValue: undefined
         });
     }
-    else {}
+    else // removed by dead control flow
+{}
     return val;
 }
 function del(target, key) {
@@ -98065,7 +98914,8 @@ function del(target, key) {
             key: key
         });
     }
-    else {}
+    else // removed by dead control flow
+{}
 }
 /**
  * Collect dependencies on array elements when the array is touched, since
@@ -98140,7 +98990,10 @@ function toRaw(observed) {
     return raw ? toRaw(raw) : observed;
 }
 function markRaw(value) {
-    def(value, "__v_skip" /* ReactiveFlags.SKIP */, true);
+    // non-extensible objects won't be observed anyway
+    if (Object.isExtensible(value)) {
+        def(value, "__v_skip" /* ReactiveFlags.SKIP */, true);
+    }
     return value;
 }
 /**
@@ -98186,7 +99039,8 @@ function triggerRef(ref) {
                 key: 'value'
             });
     }
-    else {}
+    else // removed by dead control flow
+{}
 }
 function unref(ref) {
     return isRef(ref) ? ref.value : ref;
@@ -98239,7 +99093,8 @@ function customRef(factory) {
                 key: 'value'
             });
         }
-        else {}
+        else // removed by dead control flow
+{}
     }, function () {
         if (true) {
             dep.notify({
@@ -98248,7 +99103,8 @@ function customRef(factory) {
                 key: 'value'
             });
         }
-        else {}
+        else // removed by dead control flow
+{}
     }), get = _a.get, set = _a.set;
     var ref = {
         get value() {
@@ -98308,6 +99164,9 @@ function createReadonly(target, shallow) {
             }
         }
         return target;
+    }
+    if ( true && !Object.isExtensible(target)) {
+        warn$2("Vue 2 does not support creating readonly proxy for non-extensible object.");
     }
     // already a readonly object
     if (isReadonly(target)) {
@@ -99422,7 +100281,8 @@ function initRender(vm) {
             !isUpdatingChildComponent && warn$2("$listeners is readonly.", vm);
         }, true);
     }
-    else {}
+    else // removed by dead control flow
+{}
 }
 var currentRenderingInstance = null;
 function renderMixin(Vue) {
@@ -99444,11 +100304,10 @@ function renderMixin(Vue) {
         // to the data on the placeholder node.
         vm.$vnode = _parentVnode;
         // render self
+        var prevInst = currentInstance;
+        var prevRenderInst = currentRenderingInstance;
         var vnode;
         try {
-            // There's no need to maintain a stack because all render fns are called
-            // separately from one another. Nested component's render fns are called
-            // when parent component is patched.
             setCurrentInstance(vm);
             currentRenderingInstance = vm;
             vnode = render.call(vm._renderProxy, vm.$createElement);
@@ -99472,8 +100331,8 @@ function renderMixin(Vue) {
             }
         }
         finally {
-            currentRenderingInstance = null;
-            setCurrentInstance();
+            currentRenderingInstance = prevRenderInst;
+            setCurrentInstance(prevInst);
         }
         // if the returned array contains only a single node, allow it
         if (isArray(vnode) && vnode.length === 1) {
@@ -99737,6 +100596,112 @@ function eventsMixin(Vue) {
         }
         return vm;
     };
+}
+
+var activeEffectScope;
+var EffectScope = /** @class */ (function () {
+    function EffectScope(detached) {
+        if (detached === void 0) { detached = false; }
+        this.detached = detached;
+        /**
+         * @internal
+         */
+        this.active = true;
+        /**
+         * @internal
+         */
+        this.effects = [];
+        /**
+         * @internal
+         */
+        this.cleanups = [];
+        this.parent = activeEffectScope;
+        if (!detached && activeEffectScope) {
+            this.index =
+                (activeEffectScope.scopes || (activeEffectScope.scopes = [])).push(this) - 1;
+        }
+    }
+    EffectScope.prototype.run = function (fn) {
+        if (this.active) {
+            var currentEffectScope = activeEffectScope;
+            try {
+                activeEffectScope = this;
+                return fn();
+            }
+            finally {
+                activeEffectScope = currentEffectScope;
+            }
+        }
+        else if (true) {
+            warn$2("cannot run an inactive effect scope.");
+        }
+    };
+    /**
+     * This should only be called on non-detached scopes
+     * @internal
+     */
+    EffectScope.prototype.on = function () {
+        activeEffectScope = this;
+    };
+    /**
+     * This should only be called on non-detached scopes
+     * @internal
+     */
+    EffectScope.prototype.off = function () {
+        activeEffectScope = this.parent;
+    };
+    EffectScope.prototype.stop = function (fromParent) {
+        if (this.active) {
+            var i = void 0, l = void 0;
+            for (i = 0, l = this.effects.length; i < l; i++) {
+                this.effects[i].teardown();
+            }
+            for (i = 0, l = this.cleanups.length; i < l; i++) {
+                this.cleanups[i]();
+            }
+            if (this.scopes) {
+                for (i = 0, l = this.scopes.length; i < l; i++) {
+                    this.scopes[i].stop(true);
+                }
+            }
+            // nested scope, dereference from parent to avoid memory leaks
+            if (!this.detached && this.parent && !fromParent) {
+                // optimized O(1) removal
+                var last = this.parent.scopes.pop();
+                if (last && last !== this) {
+                    this.parent.scopes[this.index] = last;
+                    last.index = this.index;
+                }
+            }
+            this.parent = undefined;
+            this.active = false;
+        }
+    };
+    return EffectScope;
+}());
+function effectScope(detached) {
+    return new EffectScope(detached);
+}
+/**
+ * @internal
+ */
+function recordEffectScope(effect, scope) {
+    if (scope === void 0) { scope = activeEffectScope; }
+    if (scope && scope.active) {
+        scope.effects.push(effect);
+    }
+}
+function getCurrentScope() {
+    return activeEffectScope;
+}
+function onScopeDispose(fn) {
+    if (activeEffectScope) {
+        activeEffectScope.cleanups.push(fn);
+    }
+    else if (true) {
+        warn$2("onScopeDispose() is called when there is no active effect scope" +
+            " to be associated with.");
+    }
 }
 
 var activeInstance = null;
@@ -100041,7 +101006,8 @@ function callHook$1(vm, hook, args, setContext) {
     if (setContext === void 0) { setContext = true; }
     // #7573 disable dep collection when invoking lifecycle hooks
     pushTarget();
-    var prev = currentInstance;
+    var prevInst = currentInstance;
+    var prevScope = getCurrentScope();
     setContext && setCurrentInstance(vm);
     var handlers = vm.$options[hook];
     var info = "".concat(hook, " hook");
@@ -100053,7 +101019,10 @@ function callHook$1(vm, hook, args, setContext) {
     if (vm._hasHookEvent) {
         vm.$emit('hook:' + hook);
     }
-    setContext && setCurrentInstance(prev);
+    if (setContext) {
+        setCurrentInstance(prevInst);
+        prevScope && prevScope.on();
+    }
     popTarget();
 }
 
@@ -100157,6 +101126,7 @@ function flushSchedulerQueue() {
     // call component updated and activated hooks
     callActivatedHooks(activatedQueue);
     callUpdatedHooks(updatedQueue);
+    cleanupDeps();
     // devtool hook
     /* istanbul ignore if */
     if (devtools && config.devtools) {
@@ -100272,7 +101242,10 @@ function doWatch(source, cb, _a) {
     var instance = currentInstance;
     var call = function (fn, type, args) {
         if (args === void 0) { args = null; }
-        return invokeWithErrorHandling(fn, null, args, instance, type);
+        var res = invokeWithErrorHandling(fn, null, args, instance, type);
+        if (deep && res && res.__ob__)
+            res.__ob__.dep.depend();
+        return res;
     };
     var getter;
     var forceTrigger = false;
@@ -100297,6 +101270,7 @@ function doWatch(source, cb, _a) {
                     return s.value;
                 }
                 else if (isReactive(s)) {
+                    s.__ob__.dep.depend();
                     return traverse(s);
                 }
                 else if (isFunction(s)) {
@@ -100438,110 +101412,6 @@ function doWatch(source, cb, _a) {
     return function () {
         watcher.teardown();
     };
-}
-
-var activeEffectScope;
-var EffectScope = /** @class */ (function () {
-    function EffectScope(detached) {
-        if (detached === void 0) { detached = false; }
-        /**
-         * @internal
-         */
-        this.active = true;
-        /**
-         * @internal
-         */
-        this.effects = [];
-        /**
-         * @internal
-         */
-        this.cleanups = [];
-        if (!detached && activeEffectScope) {
-            this.parent = activeEffectScope;
-            this.index =
-                (activeEffectScope.scopes || (activeEffectScope.scopes = [])).push(this) - 1;
-        }
-    }
-    EffectScope.prototype.run = function (fn) {
-        if (this.active) {
-            var currentEffectScope = activeEffectScope;
-            try {
-                activeEffectScope = this;
-                return fn();
-            }
-            finally {
-                activeEffectScope = currentEffectScope;
-            }
-        }
-        else if (true) {
-            warn$2("cannot run an inactive effect scope.");
-        }
-    };
-    /**
-     * This should only be called on non-detached scopes
-     * @internal
-     */
-    EffectScope.prototype.on = function () {
-        activeEffectScope = this;
-    };
-    /**
-     * This should only be called on non-detached scopes
-     * @internal
-     */
-    EffectScope.prototype.off = function () {
-        activeEffectScope = this.parent;
-    };
-    EffectScope.prototype.stop = function (fromParent) {
-        if (this.active) {
-            var i = void 0, l = void 0;
-            for (i = 0, l = this.effects.length; i < l; i++) {
-                this.effects[i].teardown();
-            }
-            for (i = 0, l = this.cleanups.length; i < l; i++) {
-                this.cleanups[i]();
-            }
-            if (this.scopes) {
-                for (i = 0, l = this.scopes.length; i < l; i++) {
-                    this.scopes[i].stop(true);
-                }
-            }
-            // nested scope, dereference from parent to avoid memory leaks
-            if (this.parent && !fromParent) {
-                // optimized O(1) removal
-                var last = this.parent.scopes.pop();
-                if (last && last !== this) {
-                    this.parent.scopes[this.index] = last;
-                    last.index = this.index;
-                }
-            }
-            this.active = false;
-        }
-    };
-    return EffectScope;
-}());
-function effectScope(detached) {
-    return new EffectScope(detached);
-}
-/**
- * @internal
- */
-function recordEffectScope(effect, scope) {
-    if (scope === void 0) { scope = activeEffectScope; }
-    if (scope && scope.active) {
-        scope.effects.push(effect);
-    }
-}
-function getCurrentScope() {
-    return activeEffectScope;
-}
-function onScopeDispose(fn) {
-    if (activeEffectScope) {
-        activeEffectScope.cleanups.push(fn);
-    }
-    else if (true) {
-        warn$2("onScopeDispose() is called when there is no active effect scope" +
-            " to be associated with.");
-    }
 }
 
 function provide(key, value) {
@@ -100848,7 +101718,7 @@ function defineAsyncComponent(source) {
     suspensible = _b === void 0 ? false : _b, // in Vue 3 default is true
     userOnError = source.onError;
     if ( true && suspensible) {
-        warn$2("The suspensiblbe option for async components is not supported in Vue2. It is ignored.");
+        warn$2("The suspensible option for async components is not supported in Vue2. It is ignored.");
     }
     var pendingRequest = null;
     var retries = 0;
@@ -100952,7 +101822,7 @@ function onErrorCaptured(hook, target) {
 /**
  * Note: also update dist/vue.runtime.mjs when adding new exports to this file.
  */
-var version = '2.7.10';
+var version = '2.7.16';
 /**
  * @internal type is manually declared in <root>/types/v3-define-component.d.ts
  */
@@ -100975,6 +101845,7 @@ function _traverse(val, seen) {
     var i, keys;
     var isA = isArray(val);
     if ((!isA && !isObject(val)) ||
+        val.__v_skip /* ReactiveFlags.SKIP */ ||
         Object.isFrozen(val) ||
         val instanceof VNode) {
         return;
@@ -101269,9 +102140,10 @@ function initProps$1(vm, propsOptions) {
                         "Instead, use a data or computed property based on the prop's " +
                         "value. Prop being mutated: \"".concat(key, "\""), vm);
                 }
-            });
+            }, true /* shallow */);
         }
-        else {}
+        else // removed by dead control flow
+{}
         // static props are already proxied on the component's prototype
         // during Vue.extend(). We only need to proxy props defined at
         // instantiation here.
@@ -101536,7 +102408,8 @@ function initInjections(vm) {
                         "injection being mutated: \"".concat(key, "\""), vm);
                 });
             }
-            else {}
+            else // removed by dead control flow
+{}
         });
         toggleObserving(true);
     }
@@ -101589,6 +102462,9 @@ function initMixin$1(Vue) {
         vm.__v_skip = true;
         // effect scope
         vm._scope = new EffectScope(true /* detached */);
+        // #13134 edge case where a child component is manually created during the
+        // render of a parent component
+        vm._scope.parent = undefined;
         vm._scope._vm = true;
         // merge options
         if (options && options._isComponent) {
@@ -101604,7 +102480,8 @@ function initMixin$1(Vue) {
         if (true) {
             initProxy(vm);
         }
-        else {}
+        else // removed by dead control flow
+{}
         // expose real self
         vm._self = vm;
         initLifecycle(vm);
@@ -102099,7 +102976,8 @@ if (true) {
 /**
  * Helper that recursively merges two data objects together.
  */
-function mergeData(to, from) {
+function mergeData(to, from, recursive) {
+    if (recursive === void 0) { recursive = true; }
     if (!from)
         return to;
     var key, toVal, fromVal;
@@ -102113,7 +102991,7 @@ function mergeData(to, from) {
             continue;
         toVal = to[key];
         fromVal = from[key];
-        if (!hasOwn(to, key)) {
+        if (!recursive || !hasOwn(to, key)) {
             set(to, key, fromVal);
         }
         else if (toVal !== fromVal &&
@@ -102274,7 +103152,19 @@ strats.props =
                         extend(ret, childVal);
                     return ret;
                 };
-strats.provide = mergeDataOrFn;
+strats.provide = function (parentVal, childVal) {
+    if (!parentVal)
+        return childVal;
+    return function () {
+        var ret = Object.create(null);
+        mergeData(ret, isFunction(parentVal) ? parentVal.call(this) : parentVal);
+        if (childVal) {
+            mergeData(ret, isFunction(childVal) ? childVal.call(this) : childVal, false // non-recursive
+            );
+        }
+        return ret;
+    };
+};
 /**
  * Default strategy.
  */
@@ -102824,7 +103714,7 @@ function matches(pattern, name) {
     return false;
 }
 function pruneCache(keepAliveInstance, filter) {
-    var cache = keepAliveInstance.cache, keys = keepAliveInstance.keys, _vnode = keepAliveInstance._vnode;
+    var cache = keepAliveInstance.cache, keys = keepAliveInstance.keys, _vnode = keepAliveInstance._vnode, $vnode = keepAliveInstance.$vnode;
     for (var key in cache) {
         var entry = cache[key];
         if (entry) {
@@ -102834,6 +103724,7 @@ function pruneCache(keepAliveInstance, filter) {
             }
         }
     }
+    $vnode.componentOptions.children = undefined;
 }
 function pruneCacheEntry(cache, key, keys, current) {
     var entry = cache[key];
@@ -103155,7 +104046,7 @@ function isUnknownElement(tag) {
     }
     var el = document.createElement(tag);
     if (tag.indexOf('-') > -1) {
-        // http://stackoverflow.com/a/28210364/1070244
+        // https://stackoverflow.com/a/28210364/1070244
         return (unknownElementCache[tag] =
             el.constructor === window.HTMLUnknownElement ||
                 el.constructor === window.HTMLElement);
@@ -104032,8 +104923,11 @@ function createPatchFunction(backend) {
                             var insert_1 = ancestor.data.hook.insert;
                             if (insert_1.merged) {
                                 // start at index 1 to avoid re-invoking component mounted hook
-                                for (var i_10 = 1; i_10 < insert_1.fns.length; i_10++) {
-                                    insert_1.fns[i_10]();
+                                // clone insert hooks to avoid being mutated during iteration.
+                                // e.g. for customed directives under transition group.
+                                var cloned = insert_1.fns.slice(1);
+                                for (var i_10 = 0; i_10 < cloned.length; i_10++) {
+                                    cloned[i_10]();
                                 }
                             }
                         }
@@ -105172,10 +106066,8 @@ function updateStyle(oldVnode, vnode) {
     }
     for (name in newStyle) {
         cur = newStyle[name];
-        if (cur !== oldStyle[name]) {
-            // ie9 setting to null has no effect, must use empty string
-            setProp(el, name, cur == null ? '' : cur);
-        }
+        // ie9 setting to null has no effect, must use empty string
+        setProp(el, name, cur == null ? '' : cur);
     }
 }
 var style$1 = {
@@ -106424,7 +107316,7 @@ function parseHTML(html, options) {
                         return "continue";
                     }
                 }
-                // http://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment
+                // https://en.wikipedia.org/wiki/Conditional_comment#Downlevel-revealed_conditional_comment
                 if (conditionalComment.test(html)) {
                     var conditionalEnd = html.indexOf(']>');
                     if (conditionalEnd >= 0) {
@@ -108035,7 +108927,7 @@ function genFor(el, state, altGen, altHelper) {
         !el.key) {
         state.warn("<".concat(el.tag, " v-for=\"").concat(alias, " in ").concat(exp, "\">: component lists rendered with ") +
             "v-for should have explicit keys. " +
-            "See https://vuejs.org/guide/list.html#key for more info.", el.rawAttrsMap['v-for'], true /* tip */);
+            "See https://v2.vuejs.org/v2/guide/list.html#key for more info.", el.rawAttrsMap['v-for'], true /* tip */);
     }
     el.forProcessed = true; // avoid recursion
     return ("".concat(altHelper || '_l', "((").concat(exp, "),") +
@@ -108785,18 +109677,1231 @@ Vue.compile = compileToFunctions;
 
 
 
-/***/ }),
+/***/ },
 
-/***/ "./node_modules/axios/package.json":
-/*!*****************************************!*\
-  !*** ./node_modules/axios/package.json ***!
-  \*****************************************/
-/***/ ((module) => {
+/***/ "./resources/js/app.js"
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
+/* harmony import */ var _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/vue-fontawesome */ "./node_modules/@fortawesome/vue-fontawesome/index.es.js");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
+/* harmony import */ var _fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-regular-svg-icons */ "./node_modules/@fortawesome/free-regular-svg-icons/index.es.js");
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
 
-/***/ })
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js")["default"]);
+
+/**
+ * The following block of code may be used to automatically register your
+ * Vue components. It will recursively scan this directory for the Vue
+ * components and automatically register them with their "basename".
+ *
+ * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ */
+
+// const files = require.context('./', true, /\.vue$/i)
+// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+
+Vue.component('load_book', (__webpack_require__(/*! ./components/load_book.vue */ "./resources/js/components/load_book.vue")["default"]));
+Vue.component('load_audiobooks', (__webpack_require__(/*! ./components/load_audiobooks.vue */ "./resources/js/components/load_audiobooks.vue")["default"]));
+Vue.component('generate_stars', (__webpack_require__(/*! ./components/generate_stars.vue */ "./resources/js/components/generate_stars.vue")["default"]));
+Vue.component('reviews_section', (__webpack_require__(/*! ./components/reviews_section.vue */ "./resources/js/components/reviews_section.vue")["default"]));
+Vue.component('read_book', (__webpack_require__(/*! ./components/read_book.vue */ "./resources/js/components/read_book.vue")["default"]));
+Vue.component('listen_audiobook', (__webpack_require__(/*! ./components/listen_audiobook.vue */ "./resources/js/components/listen_audiobook.vue")["default"]));
+Vue.component('make_review', (__webpack_require__(/*! ./components/make_review.vue */ "./resources/js/components/make_review.vue")["default"]));
+Vue.component('search_results', (__webpack_require__(/*! ./components/search_results.vue */ "./resources/js/components/search_results.vue")["default"]));
+Vue.component('get_author_work', (__webpack_require__(/*! ./components/get_author_work.vue */ "./resources/js/components/get_author_work.vue")["default"]));
+Vue.component('user_bookmark', (__webpack_require__(/*! ./components/user_bookmark.vue */ "./resources/js/components/user_bookmark.vue")["default"]));
+Vue.component('user_settings', (__webpack_require__(/*! ./components/user_settings.vue */ "./resources/js/components/user_settings.vue")["default"]));
+Vue.component('book_genera', (__webpack_require__(/*! ./components/book_genera.vue */ "./resources/js/components/book_genera.vue")["default"]));
+/**
+ * Next, we will create a fresh Vue application instance and attach it to
+ * the page. Then, you may begin adding components to this application
+ * or customize the JavaScript scaffolding to fit your unique needs.
+ */
+
+
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.fas);
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_3__.fab);
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.library.add(_fortawesome_free_regular_svg_icons__WEBPACK_IMPORTED_MODULE_4__.far);
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.dom.watch();
+var app = new Vue({
+  el: 'load_book'
+});
+var app2 = new Vue({
+  el: 'load_audiobooks'
+});
+var app3 = new Vue({
+  el: 'generate_stars'
+});
+var app4 = new Vue({
+  el: 'reviews_section'
+});
+var app5 = new Vue({
+  el: 'read_book'
+});
+var app6 = new Vue({
+  el: 'listen_audiobook'
+});
+var app7 = new Vue({
+  el: 'make_review'
+});
+var app8 = new Vue({
+  el: 'search_results'
+});
+var app9 = new Vue({
+  el: 'get_author_work'
+});
+var app10 = new Vue({
+  el: 'user_bookmark'
+});
+var app11 = new Vue({
+  el: 'user_settings'
+});
+var app12 = new Vue({
+  el: 'book_genera'
+});
+app.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app2.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app3.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app4.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app5.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app6.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app7.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+app7.component("font-awesome-icon", _fortawesome_vue_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon);
+
+/***/ },
+
+/***/ "./resources/js/bootstrap.js"
+/*!***********************************!*\
+  !*** ./resources/js/bootstrap.js ***!
+  \***********************************/
+(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
+
+window._ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+
+/**
+ * We'll load jQuery and the Bootstrap jQuery plugin which provides support
+ * for JavaScript based Bootstrap features such as modals and tabs. This
+ * code may be modified to fit the specific needs of your application.
+ */
+
+try {
+  window.Popper = (__webpack_require__(/*! popper.js */ "./node_modules/popper.js/dist/esm/popper.js")["default"]);
+  window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+  __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
+} catch (e) {}
+
+/**
+ * We'll load the axios HTTP library which allows us to easily issue requests
+ * to our Laravel back-end. This library automatically handles sending the
+ * CSRF token as a header based on the value of the "XSRF" token cookie.
+ */
+
+window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+
+/**
+ * Echo exposes an expressive API for subscribing to channels and listening
+ * for events that are broadcast by Laravel. Echo and event broadcasting
+ * allows your team to easily build robust real-time web applications.
+ */
+
+// import Echo from 'laravel-echo';
+
+// window.Pusher = require('pusher-js');
+
+// window.Echo = new Echo({
+//     broadcaster: 'pusher',
+//     key: process.env.MIX_PUSHER_APP_KEY,
+//     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
+//     forceTLS: true
+// });
+
+/***/ },
+
+/***/ "./resources/js/components/book_genera.vue"
+/*!*************************************************!*\
+  !*** ./resources/js/components/book_genera.vue ***!
+  \*************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _book_genera_vue_vue_type_template_id_7049f81f_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./book_genera.vue?vue&type=template&id=7049f81f&scoped=true */ "./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true");
+/* harmony import */ var _book_genera_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./book_genera.vue?vue&type=script&lang=js */ "./resources/js/components/book_genera.vue?vue&type=script&lang=js");
+/* harmony import */ var _book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css */ "./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _book_genera_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _book_genera_vue_vue_type_template_id_7049f81f_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _book_genera_vue_vue_type_template_id_7049f81f_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "7049f81f",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/book_genera.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/book_genera.vue?vue&type=script&lang=js"
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/book_genera.vue?vue&type=script&lang=js ***!
+  \*************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css"
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css ***!
+  \*********************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_style_index_0_id_7049f81f_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=style&index=0&id=7049f81f&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true"
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true ***!
+  \*******************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_template_id_7049f81f_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_template_id_7049f81f_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_book_genera_vue_vue_type_template_id_7049f81f_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./book_genera.vue?vue&type=template&id=7049f81f&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/book_genera.vue?vue&type=template&id=7049f81f&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/generate_stars.vue"
+/*!****************************************************!*\
+  !*** ./resources/js/components/generate_stars.vue ***!
+  \****************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true */ "./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true");
+/* harmony import */ var _generate_stars_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./generate_stars.vue?vue&type=script&lang=js */ "./resources/js/components/generate_stars.vue?vue&type=script&lang=js");
+/* harmony import */ var _generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css */ "./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _generate_stars_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "5a3cdca2",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/generate_stars.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/generate_stars.vue?vue&type=script&lang=js"
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/generate_stars.vue?vue&type=script&lang=js ***!
+  \****************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css"
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css ***!
+  \************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_style_index_0_id_5a3cdca2_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=style&index=0&id=5a3cdca2&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true"
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true ***!
+  \**********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_generate_stars_vue_vue_type_template_id_5a3cdca2_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/generate_stars.vue?vue&type=template&id=5a3cdca2&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/get_author_work.vue"
+/*!*****************************************************!*\
+  !*** ./resources/js/components/get_author_work.vue ***!
+  \*****************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _get_author_work_vue_vue_type_template_id_65519f3e_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./get_author_work.vue?vue&type=template&id=65519f3e&scoped=true */ "./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true");
+/* harmony import */ var _get_author_work_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./get_author_work.vue?vue&type=script&lang=js */ "./resources/js/components/get_author_work.vue?vue&type=script&lang=js");
+/* harmony import */ var _get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css */ "./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _get_author_work_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _get_author_work_vue_vue_type_template_id_65519f3e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _get_author_work_vue_vue_type_template_id_65519f3e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "65519f3e",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/get_author_work.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/get_author_work.vue?vue&type=script&lang=js"
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/get_author_work.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css"
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css ***!
+  \*************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_style_index_0_id_65519f3e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=style&index=0&id=65519f3e&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true"
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true ***!
+  \***********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_template_id_65519f3e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_template_id_65519f3e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_get_author_work_vue_vue_type_template_id_65519f3e_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./get_author_work.vue?vue&type=template&id=65519f3e&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/get_author_work.vue?vue&type=template&id=65519f3e&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/listen_audiobook.vue"
+/*!******************************************************!*\
+  !*** ./resources/js/components/listen_audiobook.vue ***!
+  \******************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true */ "./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true");
+/* harmony import */ var _listen_audiobook_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./listen_audiobook.vue?vue&type=script&lang=js */ "./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js");
+/* harmony import */ var _listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css */ "./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _listen_audiobook_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "e0e1cbdc",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/listen_audiobook.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js"
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js ***!
+  \******************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css"
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css ***!
+  \**************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_style_index_0_id_e0e1cbdc_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=style&index=0&id=e0e1cbdc&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true"
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true ***!
+  \************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_listen_audiobook_vue_vue_type_template_id_e0e1cbdc_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/listen_audiobook.vue?vue&type=template&id=e0e1cbdc&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/load_audiobooks.vue"
+/*!*****************************************************!*\
+  !*** ./resources/js/components/load_audiobooks.vue ***!
+  \*****************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true */ "./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true");
+/* harmony import */ var _load_audiobooks_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./load_audiobooks.vue?vue&type=script&lang=js */ "./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js");
+/* harmony import */ var _load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css */ "./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _load_audiobooks_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "7957d792",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/load_audiobooks.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js"
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css"
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css ***!
+  \*************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_style_index_0_id_7957d792_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=style&index=0&id=7957d792&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true"
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true ***!
+  \***********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_audiobooks_vue_vue_type_template_id_7957d792_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_audiobooks.vue?vue&type=template&id=7957d792&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/load_book.vue"
+/*!***********************************************!*\
+  !*** ./resources/js/components/load_book.vue ***!
+  \***********************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _load_book_vue_vue_type_template_id_47a2a7e7_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./load_book.vue?vue&type=template&id=47a2a7e7&scoped=true */ "./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true");
+/* harmony import */ var _load_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./load_book.vue?vue&type=script&lang=js */ "./resources/js/components/load_book.vue?vue&type=script&lang=js");
+/* harmony import */ var _load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css */ "./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _load_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _load_book_vue_vue_type_template_id_47a2a7e7_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _load_book_vue_vue_type_template_id_47a2a7e7_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "47a2a7e7",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/load_book.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/load_book.vue?vue&type=script&lang=js"
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/load_book.vue?vue&type=script&lang=js ***!
+  \***********************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css"
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css ***!
+  \*******************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_style_index_0_id_47a2a7e7_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=style&index=0&id=47a2a7e7&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true"
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true ***!
+  \*****************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_template_id_47a2a7e7_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_template_id_47a2a7e7_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_load_book_vue_vue_type_template_id_47a2a7e7_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./load_book.vue?vue&type=template&id=47a2a7e7&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/load_book.vue?vue&type=template&id=47a2a7e7&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/make_review.vue"
+/*!*************************************************!*\
+  !*** ./resources/js/components/make_review.vue ***!
+  \*************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _make_review_vue_vue_type_template_id_f19c8564_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./make_review.vue?vue&type=template&id=f19c8564&scoped=true */ "./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true");
+/* harmony import */ var _make_review_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./make_review.vue?vue&type=script&lang=js */ "./resources/js/components/make_review.vue?vue&type=script&lang=js");
+/* harmony import */ var _make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css */ "./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _make_review_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _make_review_vue_vue_type_template_id_f19c8564_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _make_review_vue_vue_type_template_id_f19c8564_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "f19c8564",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/make_review.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/make_review.vue?vue&type=script&lang=js"
+/*!*************************************************************************!*\
+  !*** ./resources/js/components/make_review.vue?vue&type=script&lang=js ***!
+  \*************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css"
+/*!*********************************************************************************************************!*\
+  !*** ./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css ***!
+  \*********************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_style_index_0_id_f19c8564_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=style&index=0&id=f19c8564&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true"
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true ***!
+  \*******************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_template_id_f19c8564_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_template_id_f19c8564_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_make_review_vue_vue_type_template_id_f19c8564_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./make_review.vue?vue&type=template&id=f19c8564&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/make_review.vue?vue&type=template&id=f19c8564&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/read_book.vue"
+/*!***********************************************!*\
+  !*** ./resources/js/components/read_book.vue ***!
+  \***********************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _read_book_vue_vue_type_template_id_dc774d92_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./read_book.vue?vue&type=template&id=dc774d92&scoped=true */ "./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true");
+/* harmony import */ var _read_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./read_book.vue?vue&type=script&lang=js */ "./resources/js/components/read_book.vue?vue&type=script&lang=js");
+/* harmony import */ var _read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css */ "./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _read_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _read_book_vue_vue_type_template_id_dc774d92_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _read_book_vue_vue_type_template_id_dc774d92_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "dc774d92",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/read_book.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/read_book.vue?vue&type=script&lang=js"
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/read_book.vue?vue&type=script&lang=js ***!
+  \***********************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css"
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css ***!
+  \*******************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_style_index_0_id_dc774d92_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=style&index=0&id=dc774d92&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true"
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true ***!
+  \*****************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_template_id_dc774d92_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_template_id_dc774d92_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_read_book_vue_vue_type_template_id_dc774d92_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./read_book.vue?vue&type=template&id=dc774d92&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/read_book.vue?vue&type=template&id=dc774d92&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/reviews_section.vue"
+/*!*****************************************************!*\
+  !*** ./resources/js/components/reviews_section.vue ***!
+  \*****************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _reviews_section_vue_vue_type_template_id_61f86a74_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reviews_section.vue?vue&type=template&id=61f86a74&scoped=true */ "./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true");
+/* harmony import */ var _reviews_section_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reviews_section.vue?vue&type=script&lang=js */ "./resources/js/components/reviews_section.vue?vue&type=script&lang=js");
+/* harmony import */ var _reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css */ "./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _reviews_section_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _reviews_section_vue_vue_type_template_id_61f86a74_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _reviews_section_vue_vue_type_template_id_61f86a74_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "61f86a74",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/reviews_section.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/reviews_section.vue?vue&type=script&lang=js"
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/reviews_section.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css"
+/*!*************************************************************************************************************!*\
+  !*** ./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css ***!
+  \*************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_style_index_0_id_61f86a74_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=style&index=0&id=61f86a74&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true"
+/*!***********************************************************************************************!*\
+  !*** ./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true ***!
+  \***********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_template_id_61f86a74_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_template_id_61f86a74_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_reviews_section_vue_vue_type_template_id_61f86a74_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./reviews_section.vue?vue&type=template&id=61f86a74&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/reviews_section.vue?vue&type=template&id=61f86a74&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/search_results.vue"
+/*!****************************************************!*\
+  !*** ./resources/js/components/search_results.vue ***!
+  \****************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _search_results_vue_vue_type_template_id_4f5887ea_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./search_results.vue?vue&type=template&id=4f5887ea&scoped=true */ "./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true");
+/* harmony import */ var _search_results_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./search_results.vue?vue&type=script&lang=js */ "./resources/js/components/search_results.vue?vue&type=script&lang=js");
+/* harmony import */ var _search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css */ "./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _search_results_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _search_results_vue_vue_type_template_id_4f5887ea_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _search_results_vue_vue_type_template_id_4f5887ea_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "4f5887ea",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/search_results.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/search_results.vue?vue&type=script&lang=js"
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/search_results.vue?vue&type=script&lang=js ***!
+  \****************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css"
+/*!************************************************************************************************************!*\
+  !*** ./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css ***!
+  \************************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_style_index_0_id_4f5887ea_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=style&index=0&id=4f5887ea&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true"
+/*!**********************************************************************************************!*\
+  !*** ./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true ***!
+  \**********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_template_id_4f5887ea_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_template_id_4f5887ea_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_search_results_vue_vue_type_template_id_4f5887ea_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./search_results.vue?vue&type=template&id=4f5887ea&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/search_results.vue?vue&type=template&id=4f5887ea&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/user_bookmark.vue"
+/*!***************************************************!*\
+  !*** ./resources/js/components/user_bookmark.vue ***!
+  \***************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _user_bookmark_vue_vue_type_template_id_375135ef_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./user_bookmark.vue?vue&type=template&id=375135ef&scoped=true */ "./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true");
+/* harmony import */ var _user_bookmark_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./user_bookmark.vue?vue&type=script&lang=js */ "./resources/js/components/user_bookmark.vue?vue&type=script&lang=js");
+/* harmony import */ var _user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css */ "./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _user_bookmark_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _user_bookmark_vue_vue_type_template_id_375135ef_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _user_bookmark_vue_vue_type_template_id_375135ef_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "375135ef",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/user_bookmark.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/user_bookmark.vue?vue&type=script&lang=js"
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/user_bookmark.vue?vue&type=script&lang=js ***!
+  \***************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css"
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css ***!
+  \***********************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_style_index_0_id_375135ef_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=style&index=0&id=375135ef&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true"
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true ***!
+  \*********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_template_id_375135ef_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_template_id_375135ef_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_bookmark_vue_vue_type_template_id_375135ef_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_bookmark.vue?vue&type=template&id=375135ef&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_bookmark.vue?vue&type=template&id=375135ef&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/js/components/user_settings.vue"
+/*!***************************************************!*\
+  !*** ./resources/js/components/user_settings.vue ***!
+  \***************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _user_settings_vue_vue_type_template_id_3a45e348_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./user_settings.vue?vue&type=template&id=3a45e348&scoped=true */ "./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true");
+/* harmony import */ var _user_settings_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./user_settings.vue?vue&type=script&lang=js */ "./resources/js/components/user_settings.vue?vue&type=script&lang=js");
+/* harmony import */ var _user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css */ "./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _user_settings_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"],
+  _user_settings_vue_vue_type_template_id_3a45e348_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render,
+  _user_settings_vue_vue_type_template_id_3a45e348_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3a45e348",
+  null
+  
+)
+
+/* hot reload */
+if (false) // removed by dead control flow
+{ var api; }
+component.options.__file = "resources/js/components/user_settings.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ },
+
+/***/ "./resources/js/components/user_settings.vue?vue&type=script&lang=js"
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/user_settings.vue?vue&type=script&lang=js ***!
+  \***************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=script&lang=js");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ },
+
+/***/ "./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css"
+/*!***********************************************************************************************************!*\
+  !*** ./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css ***!
+  \***********************************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_style_index_0_id_3a45e348_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=style&index=0&id=3a45e348&scoped=true&lang=css");
+
+
+/***/ },
+
+/***/ "./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true"
+/*!*********************************************************************************************!*\
+  !*** ./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true ***!
+  \*********************************************************************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   render: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_template_id_3a45e348_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   staticRenderFns: () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_template_id_3a45e348_scoped_true__WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_lib_loaders_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_lib_index_js_vue_loader_options_user_settings_vue_vue_type_template_id_3a45e348_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./user_settings.vue?vue&type=template&id=3a45e348&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/user_settings.vue?vue&type=template&id=3a45e348&scoped=true");
+
+
+/***/ },
+
+/***/ "./resources/sass/app.scss"
+/*!*********************************!*\
+  !*** ./resources/sass/app.scss ***!
+  \*********************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }
 
 /******/ 	});
 /************************************************************************/
@@ -108809,6 +110914,12 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		var cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Check if module exists (development only)
+/******/ 		if (__webpack_modules__[moduleId] === undefined) {
+/******/ 			var e = new Error("Cannot find module '" + moduleId + "'");
+/******/ 			e.code = 'MODULE_NOT_FOUND';
+/******/ 			throw e;
 /******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = __webpack_module_cache__[moduleId] = {

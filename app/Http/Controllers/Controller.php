@@ -12,42 +12,17 @@ use Illuminate\Support\Facades\DB;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public function user_settings()
-    {
-return view('pages.settings');
-    }
-    public function query()
+    public function test()
     {
         for($i=0;$i<=100;$i++ )
         {
             $rnum=rand(1,5);
-            DB::select (DB::raw("INSERT INTO `audio_books` (`name`, `author`, `text`, `cover_img`, `rating`,`category`, `created_at`, `updated_at`,`narrator`) VALUES ('The great gatsby', 'F.scott fitzgerald', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '5.jpeg', '$rnum', 'Classics','2021-12-09 22:40:18', '2021-12-09 22:40:18','mohamad abd-elhady');"));
-            DB::select (DB::raw("INSERT INTO `books` ( `name`, `author`, `text`, `cover_img`, `rating`,`category`, `created_at`, `updated_at`) VALUES ('Frankenstein ', 'Mary Shelley', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '4.jpg', '$rnum', 'Classics','2021-12-09 22:40:18', '2021-12-09 22:40:18');"));
+            $type=$i%2==0?"book":"audiobook";
+            DB::select (DB::raw("INSERT INTO `books` ( `name`, `author_id`, `text`, `cover_img`, `rating`,`category`, `created_at`, `updated_at`,`narrator`,`type`) VALUES ('Frankenstein ', '1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', '4.jpg', '$rnum', 'Classics','2021-12-09 22:40:18', '2021-12-09 22:40:18','mohamad abd-elhady','$type');"));
             echo "dfjjf";
         }
 
     }
-    public function get_author($author)
-    {
-        $data=DB::table('authors')->where('name','=',$author)->first();
-        $books=DB::table('books')->where('author','=',$author)->get();
-        $audio=DB::table('audio_books')->where('author','=',$author)->get();
-        return view('pages.about_author')->with(compact('data','books','audio'));
-    }
-public function get_settings()
-{
-    $check=DB::table('users')->where('id','=',auth()->user()->id)->select('google_id')->first();
-    $is0auth=false;
-    if($check->google_id!=null){$is0auth=true;}
-    return view('pages.settings')->with(compact('is0auth'));
-}
-public function get_aboutus()
-{
-    return view('pages.about_us');
-}
-public function get_contact()
-{
-    return view('pages.contact_us');
-}
+
 
 }
