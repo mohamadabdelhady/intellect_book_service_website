@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @routes
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -13,9 +14,9 @@
 @include('User.nav-bar')
 <div class="container">
     <div class="" id="main_div">
-
-        <read_book :file_name="{{json_encode( $book->stored_name)}}":type="0":name="{{json_encode($book->name)}}" :book_id="{{json_encode($book->id)}}"></read_book>
-
+        <div id="app">
+        <read_book :file_name="{{json_encode( $book->stored_name)}}":name="{{json_encode($book->name)}}" :book_id="{{json_encode($book->id)}}"></read_book>
+        </div>
     </div>
     @include('User.footer')
 </div>

@@ -7,7 +7,7 @@ use App\Models\UserBookProgress;
 use Illuminate\Http\Request;
 
 
-class UserProgressController extends Controller
+class UserBookProgressController extends Controller
 {
     public function create(Request $request)
     {
@@ -21,7 +21,7 @@ class UserProgressController extends Controller
     }
     public function get($id)
     {
-       $progress=UserBookProgress::progressForBook($id);
+       $progress=UserBookProgress::getProgressForUser(auth()->user()->id, $id);
          return response()->json(['progress' => $progress]);
     }
 }

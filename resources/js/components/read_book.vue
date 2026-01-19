@@ -7,9 +7,9 @@
     <a href="#" v-on:click.prevent="previous_page"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
     <a href="#" v-on:click.prevent="next_page"><i class="fas fa-chevron-circle-right fa-2x"></i></a>
     <span class="ml-5">
-        <a href="#" v-on:click.prevent="change_fontsize('-')"><i class="fas fa-minus-circle"></i></a>
+        <!-- <a href="#" v-on:click.prevent="change_fontsize('-')"><i class="fas fa-minus-circle"></i></a>
         <span>{{font_size}}%</span>
-        <a href="#" v-on:click.prevent="change_fontsize('+')"><i class="fas fa-plus-circle"></i></a>
+        <a href="#" v-on:click.prevent="change_fontsize('+')"><i class="fas fa-plus-circle"></i></a> -->
 
     </span>
     <a href="#" v-on:click.prevent="exit_fullScreen"><i class="fas fa-times-circle fa-2x mr-2" style="float:right;"></i></a>
@@ -45,19 +45,20 @@
 
 <script>
 import ePub from "epubjs";
+import { route } from 'ziggy-js';
 export default {
     name: "read_book",
-    props:['file_name','type','name','book_id'],
+    props:['file_name','name','book_id'],
     data()
     {
         return{
-            file_path:"books/epub_files/"+this.file_name+".epub",
+            file_path:"/books/epub_files/"+this.file_name+".epub",
             book:"",
             rendition:"",
             displayed:"",
             font_size:100,
             reader_progress:'',
-           id:this.book_id
+           id:this.book_id,
 
         }
     },
@@ -106,7 +107,7 @@ export default {
         },
         set_reader_progress()
         {
-        axios.post('set_book_progress',{
+        axios.post(route('set-book-progress'),{
             book_id:this.book_id,
             progress:this.reader_progress,
             type:this.type
@@ -115,7 +116,7 @@ export default {
 
         get_reader_progress()
         {
-            axios.get('get_book_progress/'+this.id+'/'+this.type).then(response => {
+            axios.get(route('get-book-progress', {id: this.id})).then(response => {
                 if (response.data!=null) {
                     this.rendition.display(response.data)
                 }

@@ -15,7 +15,9 @@
     <div class="row" id="main_div">
         <div class="genera-banner h1"><p>{{$genera}}</p></div>
         <div class="col-12">
+            <div id="app">
            <book_genera :genera="{{json_encode($genera)}}"></book_genera>
+           </div>
         </div>
 
     </div>

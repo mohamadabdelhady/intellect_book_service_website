@@ -24,8 +24,9 @@
     </div>
     <div class="row">
         <div class="row-12">
-
+            <div id="app">
             <get_author_work :books="{{json_encode($books)}}" :audio="{{json_encode($audio)}}"></get_author_work>
+            </div>
         </div>
     </div>
     @include('User.footer')

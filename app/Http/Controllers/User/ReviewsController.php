@@ -10,14 +10,14 @@ class ReviewsController extends Controller
 {
     public function index($id)
     {
-        $reviews = BookReviews::getBookReviewsExceptUser(auth()->user()->id,$id)->paginate(10);
-        return response()->json(['reviews' => $reviews]);
+        $reviews = BookReviews::getBookReviewsExceptUser($id,auth()->user()->id)->paginate(10);
+        return response()->json([$reviews]);
     }
     public function post(Request $request)
     {
         BookReviews::addForUser(
             auth()->user()->id,
-            $request->input('book_id'),
+            $request->input('id'),
             $request->input('review'),
             $request->input('rating'),
         );
@@ -33,7 +33,7 @@ class ReviewsController extends Controller
         );
         return response()->json(['status' => 'success']);
     }
-    public function destroy($id,$type)
+    public function destroy($id)
     {
         BookReviews::deleteForUser(auth()->user()->id, $id);
         return response()->json(['status' => 'success']);
@@ -41,7 +41,7 @@ class ReviewsController extends Controller
     public function show($id)
     {
         $review=BookReviews::getUserReviewForBook($id,auth()->user()->id);
-        return response()->json(['review' => $review]);
+        return response()->json([$review]);
     }
    
 }

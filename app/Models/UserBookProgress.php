@@ -35,4 +35,12 @@ class UserBookProgress extends Model
             ]
         );
     }
+
+    public static function getProgressForUser($userId, $bookId)
+    {
+        return static::where('user_id', $userId)
+            ->where('book_id', $bookId)
+            ->first()
+            ?->progress;
+    }
 }

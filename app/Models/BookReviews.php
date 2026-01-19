@@ -13,6 +13,8 @@ class BookReviews extends Model
         'book_id','type','user_id','review','rating',
     ];
 
+    protected $appends = ["profile_img"];
+
     public function user()
     {
         return $this->belongsTo(User::class);
@@ -26,8 +28,7 @@ class BookReviews extends Model
     public static function getBookReviewsExceptUser($bookId, $userId)
     {
         return static::where('book_id', $bookId)
-            ->where('user_id', '!=', $userId)
-            ->with('user');
+            ->where('user_id', '!=', $userId);
     }
 
     public static function getUserReviewForBook($bookId, $userId)
@@ -66,5 +67,9 @@ class BookReviews extends Model
             'user_id' => $userId,
             'book_id' => $bookId,
         ])->delete();
+    }
+    public function getProfileImgAttribute()
+    {
+        return $this->user ? $this->user->profile_img : null;
     }
 }

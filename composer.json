@@ -13,7 +13,8 @@
         "laravel/socialite": "^5.2",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
-        "socialiteproviders/google": "^4.1"
+        "socialiteproviders/google": "^4.1",
+        "tightenco/ziggy": "^2.6"
     },
     "require-dev": {
         "spatie/laravel-ignition": "^1.0",

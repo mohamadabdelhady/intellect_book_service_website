@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @routes
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -16,14 +17,14 @@
 
     <img src="/books/{{$book->cover_img}}" class="cover_overview">
     <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('read_btn').click();"><i class="fas fa-book-reader fa-2x" style=""></i></button>
-    <a href="read/{{$book->id}}/book" style="display: none" id="read_btn"></a>
+    <a href="{{ route('read-or-listen', ['id' => $book->id,'type' => 'book']) }}" style="display: none" id="read_btn"></a>
     @if(!$book->is_bookmarked)
 
     <button class="btn mt-3" style="width: 100%"><i class="fas fa-bookmark fa-2x" onclick="event.preventDefault(); document.getElementById('bookmark_btn').click();"></i></button>
-    <a href="bookmark_{{$book->id}}/0" style="display: none" id="bookmark_btn" ></a>
+    <a href="{{ route('add-bookmark', ['id' => $book->id, 'type' => 'book']) }}" style="display: none" id="bookmark_btn" ></a>
     @else
         <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault();document.getElementById('Rbookmark_btn').click();"><img src="https://img.icons8.com/glyph-neue/32/000000/delete-bookmark.png"/></button>
-        <a href="remove_bookmark_{{$book->id}}/0" style="display: none" id="Rbookmark_btn" ></a>
+        <a href="{{ route('remove-bookmark', ['id' => $book->id, 'type' => 'book']) }}" style="display: none" id="Rbookmark_btn" ></a>
     @endif
 </div>
         <div class="col-sm-8 col-7 col-xl-9 col-lg-9">
@@ -39,7 +40,9 @@
     <div class="row">
         <div class="col-12">
             <hr>
-            <reviews_section :type="0":id="{{$book->id}}":user_id="{{json_encode(auth()->user()->id)}}"></reviews_section>
+            <div id="app">
+            <reviews_section :id="{{$book->id}}" :user_id="{{json_encode(auth()->user()->id)}}"></reviews_section>
+            </div>
         </div>
     </div>
     @include('User.footer')

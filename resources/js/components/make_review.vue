@@ -44,9 +44,11 @@
 </template>
 
 <script>
+import { route } from 'ziggy-js';
+
 export default {
     name: "make_review",
-    props: ['user_id', 'type', 'id','is_edit'],
+    props: ['user_id', 'id','is_edit'],
     data() {
         return {
             my_rating: "",
@@ -76,11 +78,10 @@ export default {
         add_review() {
             if (this.my_rating != '') {
                 document.getElementById('error_post').style.display = 'none';
-                axios.post('post_review', {
+                axios.post(route('post-review'), {
                     review: this.user_review,
                     rating: this.my_rating,
                     id: this.id,
-                    type: this.type,
                     user: this.user_id,
                 })
                 this.user_review = "";
@@ -90,9 +91,9 @@ export default {
             }
         },
         get_my_review() {
-            axios.get('get_my_review/' + this.id + '/' + this.type).then(response => {
+            axios.get(route('get-my-review', {id: this.id})).then(response => {
                 if (response.data != "") {
-                    this.my_review.push(response.data);
+                    this.my_review.push(response.data[0]);
 
                 } else {
                     this.my_review = [];
@@ -114,7 +115,7 @@ export default {
         {
             if (this.my_rating != '') {
                 document.getElementById('error_post').style.display = 'none';
-                axios.post('edit_review', {
+                axios.post(route('edit-review'), {
                     review: this.user_review,
                     rating: this.my_rating,
                     user: this.user_id,
@@ -127,7 +128,7 @@ export default {
         },
         delete_review()
         {
-            axios.get('delete_review/'+this.id+'/'+this.type).then(response => {
+            axios.delete(route('delete-review', {id: this.id})).then(response => {
                 this.$emit('update_review');
             });
         },

@@ -17,7 +17,7 @@
         </div>
         <div class="row">
         <div class="m-auto" v-for="(book, index) in books">
-            <a :href="'check_book_'+book['id']" class="book_card card">
+            <a :href="route('check-book', {id: book['id']})" class="book_card card">
         <img :src="'books/'+book['cover_img']" class="book_img m-auto">
             <p class="book_title m-auto h4">{{book['name']}}</p>
                 <p class="book_title m-auto h6">By {{book['author_name']}}</p>
@@ -36,6 +36,7 @@
 </template>
 
 <script>
+import { route } from 'ziggy-js';
 export default {
 name:'load_book',
 
@@ -51,9 +52,10 @@ name:'load_book',
         },
     methods:{
         get_books(){
-            axios.get('load_all_books/'+this.sorting+'/book'+'?page='+this.page).then(response=> {
+            axios.get(route('get-all-books', {sort: this.sorting, type: 'book', page: this.page})).then(response=> {
                 $.each(response.data.data, (key, v) => {
                     this.books.push(v);
+                    console.log(v);
                     if (response.data.current_page==response.data.last_page){
                         this.last_page=true;
                     }

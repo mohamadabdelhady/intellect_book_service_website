@@ -2,7 +2,7 @@
     <div>
     <div class="row">
 
-        <img :src="'/audio_books/covers/'+book_cover['cover_img']" class="m-auto cover">
+        <img :src="'/audio_books/covers/'+book_cover" class="m-auto cover">
         <div class="player">
             <div class="song-slider">
                 <input type="range" value="0" class="seek-bar" id="audio-seek" >
@@ -46,14 +46,16 @@
 
 <script>
 import {Howl, Howler} from 'howler';
+import { route } from 'ziggy-js';
+
 export default {
     name: "listen_audiobook",
-    props:['file_name','book_id','type','book_cover'],
+    props:['file_name','book_id','book_cover'],
     data()
     {
         return{
             sound:"",
-            file_path:"audio_books/audio_files/"+this.file_name+".mp3",
+            file_path:"/audio_books/audio_files/"+this.file_name+".mp3",
             audio_seek:0,
             audio_seek_formated:"00:00",
             volume:100,
@@ -168,7 +170,7 @@ export default {
             set_reader_progress()
             {
                 let progress=this.sound.seek();
-                axios.post('set_book_progress',{
+                axios.post(route('set_book_progress'),{
                     book_id:this.book_id,
                     progress:progress,
                     type:this.type
@@ -177,7 +179,7 @@ export default {
 
             get_reader_progress()
             {
-                axios.get('get_book_progress/'+this.book_id+'/'+this.type).then(response => {
+                axios.get(route('get_book_progress', {book_id: this.book_id})).then(response => {
                     if (response.data!=null) {
                         this.reader_progress=response.data;
                     }

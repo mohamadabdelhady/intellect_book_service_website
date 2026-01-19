@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    @routes
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -49,9 +50,13 @@
 
         </div>
     </div>
-    <div class="col-12"><load_book></load_book>
+    
+    <div class="col-12">
+        <div id="app">
+        <load_book></load_book>
         <br>
     <load_audiobooks></load_audiobooks>
+    </div>
     </div>
 </div>
     @include('User.footer')

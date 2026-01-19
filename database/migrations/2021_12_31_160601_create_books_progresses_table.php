@@ -13,7 +13,7 @@ class CreateBooksProgressesTable extends Migration
      */
     public function up()
     {
-        Schema::create('user_book_progresses', function (Blueprint $table) {
+        Schema::create('user_book_progress', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->references('id')->on('users');
             $table->foreignId('book_id')->references('id')->on('books');

@@ -24,7 +24,7 @@
             <div class="menu-content" id="menu-content">
                 <br>
                 <p class="ml-3"> {{auth()->user()->name}}</p><hr>
-                <a class="dropdown-item" href="bookmarks_list">Bookmark list</a>
+                <a class="dropdown-item" href="{{ route('user-bookmarks') }}">Bookmark list</a>
                 <a class="dropdown-item" href="settings">Settings</a>
                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"> <span class="ml-1">Sign out</span></a>
                                 <form id="logout-form" action="{{route('logout')}}" method="post" style="display: none;">
