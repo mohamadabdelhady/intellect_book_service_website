@@ -13,7 +13,7 @@
                 <a :href="'check_book_'+book['id']" class="book_card card">
                 <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
                 <p class="book_title m-auto h4">{{book['name']}}</p>
-                    <p class="book_title m-auto h6">By {{book['author']}}</p>
+                    <p class="book_title m-auto h6">By {{book['author_name']}}</p>
                 <div class="row m-auto">
                     <generate_stars :rating="book['rating']"></generate_stars>
                 </div>
@@ -30,7 +30,7 @@
                     <a :href="'check_audio_'+book['id']" class="book_card card">
                     <img :src="'/audio_books/covers/'+book['cover_img']" class="book_img m-auto">
                     <p class="book_title m-auto h4">{{book['name']}}</p>
-                        <p class="book_title m-auto h6">By {{book['author']}}</p>
+                        <p class="book_title m-auto h6">By {{book['author_name']}}</p>
                         <p class="book_title m-auto h6">Narrator {{book['narrator']}}</p>
                     <div class="row m-auto">
                         <generate_stars :rating="book['rating']"></generate_stars>

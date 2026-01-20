@@ -29,7 +29,7 @@
 </div>
         <div class="col-sm-8 col-7 col-xl-9 col-lg-9">
             <p class="m-3 h2">{{$book->name}}</p>
-            <p class="m-3 h5">by <a href="get/{{$book->author_id}}">{{$book->author_name}}</a></p>
+            <p class="m-3 h5">by <a href="{{ route('get-author', ['author' => $book->author_id]) }}">{{$book->author_name}}</a></p>
             <generate_stars :rating="{{$book->rating}}" class="m-3"></generate_stars>
             <hr>
             <p class="h4">Description</p>

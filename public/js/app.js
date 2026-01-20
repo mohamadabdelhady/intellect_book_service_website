@@ -22407,12 +22407,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var ziggy_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ziggy-js */ "./node_modules/ziggy-js/dist/index.js");
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "user_bookmark",
-  props: ['books', 'audio', 'user_name'],
+  props: ['books', 'audiobooks', 'user_name'],
   data: function data() {
     return {
-      selected: "ebook_results"
+      selected: "ebook_results",
+      books: [],
+      audiobooks: []
     };
   },
   methods: {
@@ -22475,14 +22479,16 @@ __webpack_require__.r(__webpack_exports__);
       document.getElementById(newVal + "_area").style = "display:block;";
     },
     renew_val: function renew_val() {
-      axios.post('change_renew_sub', {
+      axios.post(route('change-renew-setting'), {
         isRenew: this.renew_val
       }).then(function (res) {
-        document.getElementById('notification').style.display = "block";
-        $('#main_div').css('padding-top', function (index, curValue) {
-          return parseInt(curValue, 10) + 2 + 'px';
-        });
-        document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>" + res.data + "</li>";
+        if (res.data.status === 'success') {
+          document.getElementById('notification').style.display = "block";
+          $('#main_div').css('padding-top', function (index, curValue) {
+            return parseInt(curValue, 10) + 2 + 'px';
+          });
+          document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>Renewal setting updated successfully.</li>";
+        }
       })["catch"](function (error) {
         document.getElementById('notification').style.display = "block";
         $('#main_div').css('padding-top', function (index, curValue) {
@@ -23868,7 +23874,7 @@ var render = function render() {
       staticClass: "book_title m-auto h4"
     }, [_vm._v(_vm._s(book["name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("By " + _vm._s(book["author"]))]), _vm._v(" "), _c("div", {
+    }, [_vm._v("By " + _vm._s(book["author_name"]))]), _vm._v(" "), _c("div", {
       staticClass: "row m-auto"
     }, [_c("generate_stars", {
       attrs: {
@@ -23903,7 +23909,7 @@ var render = function render() {
       staticClass: "book_title m-auto h4"
     }, [_vm._v(_vm._s(book["name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("By " + _vm._s(book["author"]))]), _vm._v(" "), _c("p", {
+    }, [_vm._v("By " + _vm._s(book["author_name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
     }, [_vm._v("Narrator " + _vm._s(book["narrator"]))]), _vm._v(" "), _c("div", {
       staticClass: "row m-auto"
@@ -24000,7 +24006,7 @@ var render = function render() {
     attrs: {
       id: "audiobooks_results"
     }
-  }, [_vm._v("Audio books (" + _vm._s(_vm.audio.length) + ")")])]), _vm._v(" "), _c("hr", {
+  }, [_vm._v("Audio books (" + _vm._s(_vm.audiobooks.length) + ")")])]), _vm._v(" "), _c("hr", {
     staticStyle: {
       width: "80vw"
     }
@@ -24019,22 +24025,22 @@ var render = function render() {
     }, [_c("a", {
       staticClass: "book_card card",
       attrs: {
-        href: "check_book_" + book["id"]
+        href: _vm.route("check-book", book.book["id"])
       }
     }, [_c("img", {
       staticClass: "book_img m-auto",
       attrs: {
-        src: "/books/" + book["cover_img"]
+        src: "/books/" + book.book["cover_img"]
       }
     }), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h4"
-    }, [_vm._v(_vm._s(book["name"]))]), _vm._v(" "), _c("p", {
+    }, [_vm._v(_vm._s(book.book["name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("By " + _vm._s(book["author"]))]), _vm._v(" "), _c("div", {
+    }, [_vm._v("By " + _vm._s(book.book["author_name"]))]), _vm._v(" "), _c("div", {
       staticClass: "row m-auto"
     }, [_c("generate_stars", {
       attrs: {
-        rating: book["rating"]
+        rating: book.book["rating"]
       }
     })], 1)])]);
   }), 0) : _c("div", [_c("p", {
@@ -24048,30 +24054,30 @@ var render = function render() {
     attrs: {
       id: "audiobooks_results_area"
     }
-  }, [_vm.audio.length != 0 ? _c("div", {
+  }, [_vm.audiobooks.length != 0 ? _c("div", {
     staticClass: "row"
-  }, _vm._l(_vm.audio, function (book, index) {
+  }, _vm._l(_vm.audiobooks, function (book, index) {
     return _c("div", {}, [_c("a", {
       staticClass: "book_card card",
       attrs: {
-        href: "check_audio_" + book["id"]
+        href: _vm.route("check-book", book.book["id"])
       }
     }, [_c("img", {
       staticClass: "book_img m-auto",
       attrs: {
-        src: "/audio_books/covers/" + book["cover_img"]
+        src: "/audio_books/covers/" + book.book["cover_img"]
       }
     }), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h4"
-    }, [_vm._v(_vm._s(book["name"]))]), _vm._v(" "), _c("p", {
+    }, [_vm._v(_vm._s(book.book["name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("By " + _vm._s(book["author"]))]), _vm._v(" "), _c("p", {
+    }, [_vm._v("By " + _vm._s(book.book["author_name"]))]), _vm._v(" "), _c("p", {
       staticClass: "book_title m-auto h6"
-    }, [_vm._v("Narrator " + _vm._s(book["narrator"]))]), _vm._v(" "), _c("div", {
+    }, [_vm._v("Narrator " + _vm._s(book.book["narrator"]))]), _vm._v(" "), _c("div", {
       staticClass: "row m-auto"
     }, [_c("generate_stars", {
       attrs: {
-        rating: book["rating"]
+        rating: book.book["rating"]
       }
     })], 1)])]);
   }), 0) : _c("div", [_c("p", {
@@ -24163,7 +24169,7 @@ var render = function render() {
     },
     attrs: {
       id: "change_prof",
-      action: "prof_change",
+      action: _vm.route("change-profile-img"),
       method: "POST",
       enctype: "multipart/form-data"
     }

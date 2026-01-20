@@ -3,19 +3,19 @@
         <p class="h1">{{ user_name }}'s bookmark list</p>
         <div class="results_tab">
             <a href="#" v-on:click.prevent="change_selected('ebook_results')"><span id="ebook_results" class="ml-3">E-books ({{books.length}})</span></a>
-            <a href="#" v-on:click.prevent="change_selected('audiobooks_results')"> <span id="audiobooks_results" class="ml-3">Audio books ({{audio.length}})</span></a>
+            <a href="#" v-on:click.prevent="change_selected('audiobooks_results')"> <span id="audiobooks_results" class="ml-3">Audio books ({{audiobooks.length}})</span></a>
             <hr style="width: 80vw">
         </div>
         <div>
         <div id="ebook_results_area"  style="display: none;">
             <div v-if="books.length!=0" class="row">
                 <div class=" " v-for="(book, index) in books">
-                    <a :href="'check_book_'+book['id']" class="book_card card">
-                        <img :src="'/books/'+book['cover_img']" class="book_img m-auto">
-                        <p class="book_title m-auto h4">{{book['name']}}</p>
-                        <p class="book_title m-auto h6">By {{book['author']}}</p>
+                    <a :href="route('check-book', book.book['id'])" class="book_card card">
+                        <img :src="'/books/'+book.book['cover_img']" class="book_img m-auto">
+                        <p class="book_title m-auto h4">{{book.book['name']}}</p>
+                        <p class="book_title m-auto h6">By {{book.book['author_name']}}</p>
                         <div class="row m-auto">
-                            <generate_stars :rating="book['rating']"></generate_stars>
+                            <generate_stars :rating="book.book['rating']"></generate_stars>
                         </div>
                     </a>
                 </div>
@@ -25,15 +25,15 @@
             </div>
         </div>
         <div id="audiobooks_results_area"  style="display:none;">
-            <div v-if="audio.length!=0" class="row">
-                <div class="" v-for="(book, index) in audio">
-                    <a :href="'check_audio_'+book['id']" class="book_card card">
-                        <img :src="'/audio_books/covers/'+book['cover_img']" class="book_img m-auto">
-                        <p class="book_title m-auto h4">{{book['name']}}</p>
-                        <p class="book_title m-auto h6">By {{book['author']}}</p>
-                        <p class="book_title m-auto h6">Narrator {{book['narrator']}}</p>
+            <div v-if="audiobooks.length!=0" class="row">
+                <div class="" v-for="(book, index) in audiobooks">
+                    <a :href="route('check-book', book.book['id'])" class="book_card card">
+                        <img :src="'/audio_books/covers/'+book.book['cover_img']" class="book_img m-auto">
+                        <p class="book_title m-auto h4">{{book.book['name']}}</p>
+                        <p class="book_title m-auto h6">By {{book.book['author_name']}}</p>
+                        <p class="book_title m-auto h6">Narrator {{book.book['narrator']}}</p>
                         <div class="row m-auto">
-                            <generate_stars :rating="book['rating']"></generate_stars>
+                            <generate_stars :rating="book.book['rating']"></generate_stars>
                         </div>
                     </a>
                 </div>
@@ -47,14 +47,16 @@
 </template>
 
 <script>
+import { route } from 'ziggy-js';
+
 export default {
     name: "user_bookmark",
-    props:['books','audio','user_name'],
+    props:['books','audiobooks','user_name'],
     data(){
         return{
             selected:"ebook_results",
-
-
+            books: [],         
+            audiobooks: [],
         }
     },
     methods:
@@ -62,6 +64,7 @@ export default {
             change_selected(select)
             {
                 this.selected=select;
+                
             }
         },
     mounted() {

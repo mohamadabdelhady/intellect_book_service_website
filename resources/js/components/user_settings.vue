@@ -10,7 +10,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5 col-5" style="border-right:1px solid #cbcaca;">
                     <img :src="profile_img" class="user_profile " v-if="is0auth==true">
                     <img v-else :src="'/images/users_profile_img/'+profile_img" class="user_profile">
-                    <form id="change_prof" action="prof_change" method="POST"  style="display: none;" enctype="multipart/form-data">
+                    <form id="change_prof" :action="route('change-profile-img')" method="POST"  style="display: none;" enctype="multipart/form-data">
                         <input type="hidden" name="_token" v-bind:value="csrf">
                         <input type="file"  directory  accept="image/*" style="display: none;" id="upload-img_prof" class="form-control" name="profimg" onchange="document.getElementById('change_prof').submit()">
                     </form>
@@ -132,13 +132,16 @@ export default {
         },
         renew_val:function ()
         {
-            axios.post('change_renew_sub',{isRenew:this.renew_val})
+            axios.post(route('change-renew-setting'),{isRenew:this.renew_val})
                 .then((res)=>{
+                    if(res.data.status==='success')
+                    {
                     document.getElementById('notification').style.display="block";
                     $('#main_div').css('padding-top', function (index, curValue) {
                         return parseInt(curValue, 10) + 2 + 'px';
                     });
-                    document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>"+res.data+"</li>";
+                    document.getElementById("notification-message").innerHTML += "<li><i class='fas fa-exclamation-circle'></i>Renewal setting updated successfully.</li>";
+                }
 
                 })
                 .catch((error)=>{

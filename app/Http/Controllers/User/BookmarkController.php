@@ -10,8 +10,9 @@ class BookmarkController extends Controller
     public function index()
     {
         $user=auth()->user();
-        $books=$user->bookmarks;
-        return view('User.user_bookmark')->with(compact('books'));
+        $books = Bookmark::getBookmarksForUser($user->id,'book')->merge(Bookmark::getBookmarksForUser($user->id,'audiobook'));
+        $audiobooks = Bookmark::getBookmarksForUser($user->id,'audiobook');
+        return view('User.user_bookmark')->with(compact('books','audiobooks'));
     }
 
      public function create($id,$type)

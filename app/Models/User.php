@@ -23,7 +23,8 @@ class User extends Authenticatable implements MustVerifyEmail
         'google_id',
         'profile_img',
         'email_verified_at',
-        'first_time'
+        'first_time',
+        'auto_renew_sub'
     ];
 
     /**
@@ -76,13 +77,11 @@ class User extends Authenticatable implements MustVerifyEmail
 
     public function updateProfileImg($imageName)
     {
-        return $this->where('id', auth()->id())
-            ->update(['profile_img' => $imageName]);
+        return $this->update(['profile_img' => $imageName]);
     }
 
     public function UpdateRenewSetting($isRenew)
     {
-        return $this->where('id', auth()->id())
-            ->update(['auto_renew_sub' => $isRenew]);
+        return $this->update(['auto_renew_sub' => $isRenew]);
     }
 }

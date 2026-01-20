@@ -43,7 +43,7 @@ Route::group(['middleware' => ['auth','verified','subscribed']], function () {
     Route::get('/book/{id}',[BooksController::class,'show'])->name('check-book');
     Route::get('/read/{id}/{type}',[BooksController::class,'readOrListen'])->name('read-or-listen');
     Route::post('/search',[BooksController::class,'search'])->name("search-results");
-    Route::get('/get/{author}',[BooksController::class,'getAuthor'])->name('get-author');
+    Route::get('/author/{author}',[BooksController::class,'getAuthor'])->name('get-author');
     //book reviews routes
     Route::get('/reviews/{id}',[ReviewsController::class,'index'])->name('get-all-reviews');
     Route::post('/review',[ReviewsController::class,'post'])->name('post-review');
@@ -59,7 +59,7 @@ Route::group(['middleware' => ['auth','verified','subscribed']], function () {
     Route::delete('/bookmark/{id}/{type}',[BookmarkController::class,'destroy'])->name('remove-bookmark');
     //genera routes
     Route::get('/genera-books/{genera}/{sort}/{type}',[GeneraController::class,'getBooksByGenera'])->name('get-genera-books');
-    Route::get('/{genera}',[GeneraController::class,'getGenera'])->name('get-genera');
+    Route::get('/{genera}/section',[GeneraController::class,'getGenera'])->name('get-genera');
     //settings routes
     Route::get('/settings',[SettingsController::class,'getSettings'])->name('user-settings');
     Route::post('/change-profile',[SettingsController::class,'changeProfileImg'])->name('change-profile-img');

@@ -39,4 +39,9 @@ class Bookmark extends Model
             'type'    => $type,
         ])->delete();
     }
+
+    public static function getBookmarksForUser($userId,$type)
+    {
+        return static::where('user_id', $userId)->where('type', $type)->with('book')->get();
+    }
 }

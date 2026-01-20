@@ -17,10 +17,10 @@ class Author extends Model
         return $this->hasMany(Book::class);
     }
 
-    public function seatchAuthors($keyword)
+    public static function searchAuthors($keyword)
     {
-        return $this->where('name', 'LIKE', "%$keyword%")
-            ->orWhere('bio', 'LIKE', "%$keyword%");
+        return self::where('name', 'LIKE', "%$keyword%")
+            ->orWhere('About', 'LIKE', "%$keyword%");
     }
 
     public static function getAuthorById($id)

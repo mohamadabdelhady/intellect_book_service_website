@@ -71,10 +71,10 @@ class Book extends Model
         return $query->where('author_id', $authorId);
     }
 
-    public function searchBooks($keyword)
+    public static function searchBooks($keyword)
     {
         $keyword = trim($keyword);
-        return $this->where('name', 'LIKE', "%{$keyword}%")
+        return self::where('name', 'LIKE', "%{$keyword}%")
                       ->orWhereHas('author', function ($query) use ($keyword) {
                           $query->where('name', 'LIKE', "%{$keyword}%");
                       });

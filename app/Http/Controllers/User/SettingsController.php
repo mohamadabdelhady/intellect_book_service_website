@@ -10,7 +10,7 @@ class SettingsController extends Controller
 {
     public function getSettings()
 {
-    $is0auth=User::isOAuthUser();
+   $is0auth = auth()->user()->isOAuthUser();
     return view('User.settings')->with(compact('is0auth'));
 }
 
@@ -19,13 +19,13 @@ class SettingsController extends Controller
         $imageName = time() . '.' . 'png';
         $request->file('profimg')->move(public_path('images/users_profile_img'), $imageName);
 
-        User::updateProfileImg($imageName);
+        auth()->user()->updateProfileImg($imageName);
 
         return back();
     }
     public function changeRenewSetting(Request $request)
     {
-        User::updateRenewSetting($request->isRenew);
+        auth()->user()->updateRenewSetting($request->isRenew);
         return response()->json(['status' => 'success']);
     }
 }
