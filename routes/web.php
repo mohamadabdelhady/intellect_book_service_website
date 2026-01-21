@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\Dashboard\AdminAuthController;
+use App\Http\Controllers\Dashboard\AdminDashboardController;
 use App\Http\Controllers\User\HomeController;
 use App\Http\Controllers\User\BookmarkController;
 use App\Http\Controllers\User\BooksController;
@@ -67,7 +69,15 @@ Route::group(['middleware' => ['auth','verified','subscribed']], function () {
 });
 
 //Dashboard routes
-Route::group(['middleware'=>[],'prefix'=>'dashboard'], function () {
+Route::prefix('admin')->name('admin.')->group(function () {
+    //Admin Auth controllers
+    Route::get('login',[AdminAuthController::class,'showLoginForm'])->name('login');
+    Route::post('login',[AdminAuthController::class,'login'])->name('login.submit');
 
+    Route::middleware('admin.auth')->group(function(){
+       Route::get('logout',[AdminAuthController::class,'logout'])->name('logout');
+       
+       Route::get('/',[AdminDashboardController::class,'index'])->name('dashboard');
+    });
 });
 
