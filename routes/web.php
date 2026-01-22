@@ -2,7 +2,12 @@
 
 use App\Http\Controllers\Controller;
 use App\Http\Controllers\Dashboard\AdminAuthController;
+use App\Http\Controllers\Dashboard\AdminAuthorController;
+use App\Http\Controllers\Dashboard\AdminBookController;
+use App\Http\Controllers\Dashboard\AdminController;
 use App\Http\Controllers\Dashboard\AdminDashboardController;
+use App\Http\Controllers\Dashboard\AdminReviewController;
+use App\Http\Controllers\Dashboard\AdminUserController;
 use App\Http\Controllers\User\HomeController;
 use App\Http\Controllers\User\BookmarkController;
 use App\Http\Controllers\User\BooksController;
@@ -78,6 +83,17 @@ Route::prefix('admin')->name('admin.')->group(function () {
        Route::get('logout',[AdminAuthController::class,'logout'])->name('logout');
        
        Route::get('/',[AdminDashboardController::class,'index'])->name('dashboard');
+
+         //Admin management routes  
+         Route::resource('admins',AdminController::class);
+         //Books management routes
+         Route::resource('books',AdminBookController::class);
+         //Authors management routes
+         Route::resource('authors',AdminAuthorController::class);
+         //Users management routes
+         Route::resource('users',AdminUserController::class);
+         //Reviews management routes
+         Route::resource('reviews',AdminReviewController::class);
     });
 });
 

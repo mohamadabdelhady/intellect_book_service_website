@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use App\Enums\BookType;
+use App\Enums\AdminRole;
 
 return new class extends Migration
 {
@@ -14,9 +14,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::table('books',function (Blueprint $table){
-            $table->string('type')->default(BookType::BOOK->value)->enum(BookType::BOOK->value, BookType::AUDIOBOOK->value);
-            $table->string('narrator')->nullable();
+        Schema::table('admins', function (Blueprint $table) {
+            $table->string('role')->default(AdminRole::ADMIN_EDITOR->value)->after('password');
         });
     }
 
@@ -27,9 +26,8 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::table('books',function (Blueprint $table){
-            $table->dropColumn('type');
-            $table->dropColumn('narrator');
+        Schema::table('admins', function (Blueprint $table) {
+            $table->dropColumn('role');
         });
     }
 };
