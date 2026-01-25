@@ -11,7 +11,7 @@
     <div class="d-flex min-vh-100">
 
         <!-- PAGE CONTENT -->
-        <main class="flex-grow-1 p-4 overflow-auto">
+        <main class="flex-grow-1 p-4 overflow-auto main-content">
             @yield('content')
         </main>
 

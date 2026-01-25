@@ -1,9 +1,9 @@
 <?php
 
+use App\Enums\AdminRole;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use App\Enums\AdminRole;
 
 return new class extends Migration
 {

@@ -12,14 +12,14 @@ class AdminUserController extends Controller
     {
         return view('Dashboard.admin.users.index');
     }
+
     public function create()
     {
         return view('Dashboard.admin.users.create');
     }
-    public function store()
-    {
 
-    }
+    public function store() {}
+
     public function show(User $user)
     {
         return view('Dashboard.admin.users.show', compact('user'));
@@ -29,12 +29,8 @@ class AdminUserController extends Controller
     {
         return view('Dashboard.admin.users.edit', compact('user'));
     }
-    public function update(Request $request, User $user)
-    {
 
-    }
-    public function destroy(User $user)
-    {
+    public function update(Request $request, User $user) {}
 
-    }
+    public function destroy(User $user) {}
 }

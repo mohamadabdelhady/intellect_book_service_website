@@ -18,10 +18,7 @@ class AdminAuthorController extends Controller
         return view('Dashboard.admin.authors.create');
     }
 
-    public function store()
-    {
-
-    }
+    public function store() {}
 
     public function show(Author $author)
     {
@@ -33,13 +30,7 @@ class AdminAuthorController extends Controller
         return view('Dashboard.admin.authors.edit', compact('author'));
     }
 
-    public function update(Request $request, Author $author)
-    {
+    public function update(Request $request, Author $author) {}
 
-    }
-
-    public function destroy(Author $author)
-    {
-
-    }
+    public function destroy(Author $author) {}
 }

@@ -3,19 +3,19 @@ window.Vue = require('vue').default;
 
 // 1. Import Ziggy and add it to the Vue Prototype
 import { route } from 'ziggy-js';
-Vue.prototype.route = route; 
+Vue.prototype.route = route;
 
 // 2. FontAwesome Setup
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { fas } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
-import { dom } from "@fortawesome/fontawesome-svg-core";
+import { dom } from '@fortawesome/fontawesome-svg-core';
 
 library.add(fas, fab, far);
 dom.watch();
-Vue.component("font-awesome-icon", FontAwesomeIcon);
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 // 3. Register Components
 Vue.component('load_book', require('./components/load_book.vue').default);
@@ -31,8 +31,11 @@ Vue.component('user_bookmark', require('./components/user_bookmark.vue').default
 Vue.component('user_settings', require('./components/user_settings.vue').default);
 Vue.component('book_genera', require('./components/book_genera.vue').default);
 
-// 4. Create ONE Vue instance
-// Wrap your main content in <div id="app"> in your Blade file
+// Admin Components
+Vue.component('get_books', require('./components/admin/get_books.vue').default);
+Vue.component('view_book', require('./components/admin/view_book.vue').default);
+Vue.component('edit_book', require('./components/admin/edit_book.vue').default);
+
 const app = new Vue({
-    el: '#app',
+  el: '#app',
 });

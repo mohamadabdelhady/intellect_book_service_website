@@ -7,7 +7,8 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "format": "npx prettier --write resources && ./vendor/bin/pint"
     },
     "devDependencies": {
         "axios": "^0.21",
@@ -17,6 +18,8 @@
         "lodash": "^4.17.19",
         "popper.js": "^1.16.1",
         "postcss": "^8.1.14",
+        "prettier": "^3.8.1",
+        "prettier-plugin-blade": "^2.1.21",
         "resolve-url-loader": "^3.1.2",
         "sass": "^1.32.11",
         "sass-loader": "^11.0.1",

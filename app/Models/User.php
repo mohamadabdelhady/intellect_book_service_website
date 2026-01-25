@@ -24,7 +24,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'profile_img',
         'email_verified_at',
         'first_time',
-        'auto_renew_sub'
+        'auto_renew_sub',
     ];
 
     /**
@@ -46,7 +46,6 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified_at' => 'datetime',
     ];
 
-    
     public function isOAuthUser()
     {
         return $this->google_id !== null;
@@ -56,7 +55,6 @@ class User extends Authenticatable implements MustVerifyEmail
     {
         return $this->hasMany(Bookmark::class);
     }
-
 
     public function reviews()
     {
@@ -71,8 +69,8 @@ class User extends Authenticatable implements MustVerifyEmail
     public function progressForBook($bookId)
     {
         return $this->userBookProgresses()
-                    ->where('book_id', $bookId)
-                    ->first();
+            ->where('book_id', $bookId)
+            ->first();
     }
 
     public function updateProfileImg($imageName)

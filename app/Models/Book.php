@@ -4,17 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Book extends Model
 {
-    use HasFactory;
+    use HasFactory,SoftDeletes;
 
     protected $fillable = [
-        'name','author_id','text','cover_img','rating','type','narrator'
+        'name', 'author_id', 'text', 'cover_img', 'rating', 'type', 'narrator',
     ];
 
-    protected $appends = ['is_bookmarked','stored_name','author_name'];
+    protected $appends = ['is_bookmarked', 'stored_name', 'author_name'];
 
     public function author()
     {
@@ -48,17 +48,17 @@ class Book extends Model
 
     public function scopeSorted($query, $sort)
     {
-        return match($sort) {
-            'rate'   => $query->orderByDesc('rating'),
+        return match ($sort) {
+            'rate' => $query->orderByDesc('rating'),
             'newest' => $query->orderByDesc('created_at'),
             'oldest' => $query->orderBy('created_at'),
-            default  => $query,
+            default => $query,
         };
     }
 
-     public function getIsBookmarkedAttribute()
+    public function getIsBookmarkedAttribute()
     {
-       return $this->bookmarks()->where('user_id', auth()->id())->exists();
+        return $this->bookmarks()->where('user_id', auth()->id())->exists();
     }
 
     public function getStoredNameAttribute()
@@ -74,15 +74,15 @@ class Book extends Model
     public static function searchBooks($keyword)
     {
         $keyword = trim($keyword);
+
         return self::where('name', 'LIKE', "%{$keyword}%")
-                      ->orWhereHas('author', function ($query) use ($keyword) {
-                          $query->where('name', 'LIKE', "%{$keyword}%");
-                      });
+            ->orWhereHas('author', function ($query) use ($keyword) {
+                $query->where('name', 'LIKE', "%{$keyword}%");
+            });
     }
 
     public function getAuthorNameAttribute()
     {
         return $this->author ? $this->author->name : null;
     }
-   
 }

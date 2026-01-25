@@ -18,10 +18,7 @@ class AdminController extends Controller
         return view('Dashboard.admin.create');
     }
 
-    public function store()
-    {
-
-    }
+    public function store() {}
 
     public function show(Admin $admin)
     {
@@ -32,12 +29,8 @@ class AdminController extends Controller
     {
         return view('Dashboard.admin.edit', compact('admin'));
     }
-    public function update(Request $request, Admin $admin)
-    {
 
-    }
-    public function destroy(Admin $admin)
-    {
-        
-    }
+    public function update(Request $request, Admin $admin) {}
+
+    public function destroy(Admin $admin) {}
 }

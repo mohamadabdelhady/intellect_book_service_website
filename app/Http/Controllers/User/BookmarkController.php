@@ -9,21 +9,24 @@ class BookmarkController extends Controller
 {
     public function index()
     {
-        $user=auth()->user();
-        $books = Bookmark::getBookmarksForUser($user->id,'book')->merge(Bookmark::getBookmarksForUser($user->id,'audiobook'));
-        $audiobooks = Bookmark::getBookmarksForUser($user->id,'audiobook');
-        return view('User.user_bookmark')->with(compact('books','audiobooks'));
+        $user = auth()->user();
+        $books = Bookmark::getBookmarksForUser($user->id, 'book')->merge(Bookmark::getBookmarksForUser($user->id, 'audiobook'));
+        $audiobooks = Bookmark::getBookmarksForUser($user->id, 'audiobook');
+
+        return view('User.user_bookmark')->with(compact('books', 'audiobooks'));
     }
 
-     public function create($id,$type)
+    public function create($id, $type)
     {
         Bookmark::addForUser(auth()->user()->id, $id, $type);
+
         return back();
     }
 
-    public function destroy($id,$type)
+    public function destroy($id, $type)
     {
         Bookmark::removeForUser(auth()->user()->id, $id, $type);
+
         return back();
     }
 }

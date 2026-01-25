@@ -15,22 +15,22 @@ class AdminAuthController extends Controller
 
     public function login(Request $request)
     {
-       $credentials=$request->validate([
-        'email'=>'required|email',
-        'password'=>'required|min:6'
-       ]);
+        $credentials = $request->validate([
+            'email' => 'required|email',
+            'password' => 'required|min:6',
+        ]);
 
-       if(Auth::guard('admin')->attempt($credentials))
-        {
+        if (Auth::guard('admin')->attempt($credentials)) {
             return redirect()->route('admin.dashboard');
         }
 
-        return back()->withErrors(['email'=>'Invalid Credentials']);
+        return back()->withErrors(['email' => 'Invalid Credentials']);
     }
 
     public function logout()
     {
         Auth::guard('admin')->logout();
+
         return redirect()->route('admin.login');
     }
 }

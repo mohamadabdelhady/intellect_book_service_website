@@ -18,10 +18,7 @@ class AdminReviewController extends Controller
         return view('Dashboard.admin.reviews.create');
     }
 
-    public function store()
-    {
-
-    }
+    public function store() {}
 
     public function show(BookReviews $review)
     {
@@ -33,13 +30,7 @@ class AdminReviewController extends Controller
         return view('Dashboard.admin.reviews.edit', compact('review'));
     }
 
-    public function update(Request $request, BookReviews $review)
-    {
+    public function update(Request $request, BookReviews $review) {}
 
-    }
-
-    public function destroy(BookReviews $review)
-    {
-
-    }
+    public function destroy(BookReviews $review) {}
 }

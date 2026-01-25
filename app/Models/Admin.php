@@ -2,11 +2,9 @@
 
 namespace App\Models;
 
+use App\Enums\AdminRole;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use PhpParser\Node\Expr\Cast;
-use App\Enums\AdminRole;    
 
 class Admin extends Authenticatable
 {
@@ -23,7 +21,7 @@ class Admin extends Authenticatable
     ];
 
     protected $casts = [
-        'role'=>AdminRole::class,
+        'role' => AdminRole::class,
     ];
 
     public function hasRole($role)

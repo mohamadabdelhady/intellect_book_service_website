@@ -8,8 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class UserBookProgress extends Model
 {
     use HasFactory;
+
     protected $fillable = [
-        'user_id','book_id','progress','type',
+        'user_id', 'book_id', 'progress', 'type',
     ];
 
     public function user()
@@ -28,7 +29,7 @@ class UserBookProgress extends Model
             [
                 'user_id' => $userId,
                 'book_id' => $bookId,
-                'type'    => $type,
+                'type' => $type,
             ],
             [
                 'progress' => $progress,

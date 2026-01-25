@@ -10,13 +10,14 @@ class Bookmark extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id','book_id','type',
+        'user_id', 'book_id', 'type',
     ];
 
     public function user()
     {
         return $this->belongsTo(User::class);
     }
+
     public function book()
     {
         return $this->belongsTo(Book::class);
@@ -27,7 +28,7 @@ class Bookmark extends Model
         return static::firstOrCreate([
             'user_id' => $userId,
             'book_id' => $bookId,
-            'type'    => $type,
+            'type' => $type,
         ]);
     }
 
@@ -36,11 +37,11 @@ class Bookmark extends Model
         return static::where([
             'user_id' => $userId,
             'book_id' => $bookId,
-            'type'    => $type,
+            'type' => $type,
         ])->delete();
     }
 
-    public static function getBookmarksForUser($userId,$type)
+    public static function getBookmarksForUser($userId, $type)
     {
         return static::where('user_id', $userId)->where('type', $type)->with('book')->get();
     }

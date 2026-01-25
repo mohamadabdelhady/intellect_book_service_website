@@ -10,13 +10,14 @@ class HomeController extends Controller
     {
         return view('User.main');
     }
+
     public function getAboutus()
     {
-    return view('User.about_us');
+        return view('User.about_us');
     }
 
     public function getContact()
     {
-    return view('User.contact_us');
+        return view('User.contact_us');
     }
 }

@@ -10,10 +10,10 @@ class BookReviews extends Model
     use HasFactory;
 
     protected $fillable = [
-        'book_id','type','user_id','review','rating',
+        'book_id', 'type', 'user_id', 'review', 'rating',
     ];
 
-    protected $appends = ["profile_img"];
+    protected $appends = ['profile_img'];
 
     public function user()
     {
@@ -45,8 +45,8 @@ class BookReviews extends Model
             'user_id' => $userId,
             'book_id' => $bookId,
         ], [
-            'review'  => $review,
-            'rating'  => $rating,
+            'review' => $review,
+            'rating' => $rating,
         ]);
     }
 
@@ -56,8 +56,8 @@ class BookReviews extends Model
             'user_id' => $userId,
             'book_id' => $bookId,
         ])->update([
-            'review'  => $review,
-            'rating'  => $rating,
+            'review' => $review,
+            'rating' => $rating,
         ]);
     }
 
@@ -68,6 +68,7 @@ class BookReviews extends Model
             'book_id' => $bookId,
         ])->delete();
     }
+
     public function getProfileImgAttribute()
     {
         return $this->user ? $this->user->profile_img : null;
