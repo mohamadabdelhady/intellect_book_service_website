@@ -20,14 +20,32 @@
       </div>
     </div>
     <div class="row">
+      <div class="col-6 mb-4">
+        <input
+          type="text"
+          class="form-control m-auto"
+          placeholder="Search books..."
+          v-model="searchQuery"
+          @keyup.enter="fetchBooks"
+        />
+      </div>
+      <div class="col-6 mb-4 text-end">
+        <a href="/admin/books/create" class="btn">Add New Book</a>
+      </div>
+      <div
+        class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 min-vh-100 m-auto text-center"
+        v-if="!booksData.data.length"
+      >
+        <p class="txts">There are no books available.</p>
+      </div>
       <div
         class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"
-        v-for="book in booksData"
+        v-for="book in booksData.data"
         :key="book.id"
       >
         <div class="card mb-4 shadow-sm">
           <img
-            :src="'/books/' + book.cover_img"
+            :src="`/storage/${book.cover_img}`"
             class="bd-placeholder-img card-img-top"
             width="100%"
             height="225"
@@ -60,26 +78,54 @@
       <div class="col-md-12 d-flex justify-content-center">
         <nav aria-label="Page navigation">
           <ul class="pagination">
-            <li class="page-item" :class="{ disabled: !books.prev_page_url }">
-              <a class="page-link" :href="books.prev_page_url" aria-label="Previous">
+            <li class="page-item" :class="{ disabled: !booksData.prev_page_url }">
+              <a
+                v-if="searchQuery && searchQuery.trim()"
+                class="page-link"
+                :href="booksData.prev_page_url + '&query=' + searchQuery"
+                aria-label="Previous"
+              >
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+              <a v-else class="page-link" :href="booksData.prev_page_url" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
             <li class="page-item disabled">
               <a class="page-link" href="#"
-                >Page {{ books.current_page }} of {{ books.last_page }}</a
+                >Page {{ booksData.current_page }} of {{ booksData.last_page }}</a
               >
             </li>
-            <li class="page-item" :class="{ disabled: !books.next_page_url }">
-              <a class="page-link" :href="books.next_page_url" aria-label="Next">
+            <li class="page-item" :class="{ disabled: !booksData.next_page_url }">
+              <a
+                v-if="searchQuery && searchQuery.trim()"
+                class="page-link"
+                :href="booksData.next_page_url + '&query=' + searchQuery"
+                aria-label="Next"
+              >
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+              <a v-else class="page-link" :href="booksData.next_page_url" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" :href="books.first_page_url">First</a>
+              <a
+                v-if="searchQuery && searchQuery.trim()"
+                class="page-link"
+                :href="booksData.first_page_url + '&query=' + searchQuery"
+                >First</a
+              >
+              <a v-else class="page-link" :href="booksData.first_page_url">First</a>
             </li>
             <li class="page-item">
-              <a class="page-link" :href="books.last_page_url">Last</a>
+              <a
+                v-if="searchQuery && searchQuery.trim()"
+                class="page-link"
+                :href="booksData.last_page_url + '&query=' + searchQuery"
+                >Last</a
+              >
+              <a v-else class="page-link" :href="booksData.last_page_url">Last</a>
             </li>
           </ul>
         </nav>
@@ -93,11 +139,12 @@ import { Modal } from 'bootstrap';
 
 export default {
   name: 'get_books',
-  props: ['books'],
+  props: ['books', 'query'],
   data() {
     return {
-      booksData: this.books.data,
+      booksData: this.books,
       selectedBook: null,
+      searchQuery: this.query,
     };
   },
   methods: {
@@ -114,6 +161,9 @@ export default {
     deleteBook(bookId) {
       this.deleteModal.show();
       this.selectedBook = bookId;
+    },
+    fetchBooks() {
+      window.location.href = `/admin/books?query=${this.searchQuery}`;
     },
   },
   mounted() {

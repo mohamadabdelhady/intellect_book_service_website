@@ -24,10 +24,10 @@
     <div class="row">
       <div class="col-xl-6 col-lg-5 col-md-6 col-sm-6 col-12">
         <img
-          :src="'/books/' + book.cover_img"
+          :src="`/storage/${book.cover_img}`"
           class="bd-placeholder-img"
           height="auto"
-          width="auto"
+          width="100%"
           margin="auto"
           alt="Book Cover"
         />

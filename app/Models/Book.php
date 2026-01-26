@@ -11,7 +11,7 @@ class Book extends Model
     use HasFactory,SoftDeletes;
 
     protected $fillable = [
-        'name', 'author_id', 'text', 'cover_img', 'rating', 'type', 'narrator',
+        'name', 'author_id', 'text', 'cover_img', 'rating', 'type', 'narrator', 'category_id', 'file_path',
     ];
 
     protected $appends = ['is_bookmarked', 'stored_name', 'author_name'];
@@ -34,6 +34,11 @@ class Book extends Model
     public function userProgresses()
     {
         return $this->hasMany(UserBookProgress::class);
+    }
+
+    public function category()
+    {
+        return $this->belongsTo(Category::class);
     }
 
     public function scopeOfCategory($query, $category)

@@ -35,6 +35,9 @@ Vue.component('book_genera', require('./components/book_genera.vue').default);
 Vue.component('get_books', require('./components/admin/get_books.vue').default);
 Vue.component('view_book', require('./components/admin/view_book.vue').default);
 Vue.component('edit_book', require('./components/admin/edit_book.vue').default);
+Vue.component('create_book', require('./components/admin/create_book.vue').default);
+
+// 4. Create Vue Instance
 
 const app = new Vue({
   el: '#app',

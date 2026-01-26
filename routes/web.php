@@ -90,8 +90,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
         // Authors management routes
         Route::resource('authors', AdminAuthorController::class);
         // Users management routes
-        Route::resource('users',AdminUserController::class);
+        Route::resource('users', AdminUserController::class);
         // Reviews management routes
-        Route::resource('reviews',AdminReviewController::class);
+        Route::resource('reviews', AdminReviewController::class);
     });
 });
