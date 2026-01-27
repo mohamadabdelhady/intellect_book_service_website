@@ -21674,6 +21674,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'edit_book',
   props: ['authors', 'categories'],
@@ -21688,14 +21691,22 @@ __webpack_require__.r(__webpack_exports__);
         file: null,
         text: ''
       },
-      newBookCoverImg: null
+      newBookCoverImg: null,
+      errors: {}
     };
   },
   methods: {
     createBook: function createBook() {
+      var _this = this;
       var formData = new FormData();
+      var keyMap = {
+        category_id: 'category',
+        author_id: 'author'
+      };
       for (var key in this.newBook) {
-        formData.append(key, this.newBook[key]);
+        var _keyMap$key;
+        var formKey = (_keyMap$key = keyMap[key]) !== null && _keyMap$key !== void 0 ? _keyMap$key : key;
+        formData.append(formKey, this.newBook[key]);
       }
       axios.post('/admin/books', formData, {
         headers: {
@@ -21704,7 +21715,9 @@ __webpack_require__.r(__webpack_exports__);
       }).then(function (response) {
         window.location.href = '/admin/books/' + response.data.book.id;
       })["catch"](function (error) {
-        console.error('There was an error creating the book:', error);
+        if (error.response && error.response.status === 422) {
+          _this.errors = error.response.data.errors;
+        }
       });
     },
     previewImage: function previewImage(event) {
@@ -21748,16 +21761,36 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
   data: function data() {
     return {
       selectedBook: _objectSpread({}, this.book),
-      selectedBookCoverImg: this.book.cover_img
+      selectedBookCoverImg: this.book.cover_img ? '/storage/' + this.book.cover_img : null,
+      errors: {}
     };
   },
   methods: {
     updateBook: function updateBook() {
       var _this = this;
-      axios.put('/admin/books/' + this.selectedBook.id, this.selectedBook).then(function (response) {
-        window.location.href = '/admin/books/' + _this.selectedBook.id;
+      var formData = new FormData();
+      formData.append('name', this.selectedBook.name);
+      formData.append('author', this.selectedBook.author_id);
+      formData.append('category', this.selectedBook.category_id);
+      formData.append('type', this.selectedBook.type);
+      formData.append('text', this.selectedBook.text);
+      if (this.selectedBook.file instanceof File) {
+        formData.append('file', this.selectedBook.file);
+      }
+      if (this.selectedBook.cover_img instanceof File) {
+        formData.append('cover_img', this.selectedBook.cover_img);
+      }
+      formData.append('_method', 'PUT');
+      axios.post('/admin/books/' + this.selectedBook.id, formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      }).then(function (response) {
+        window.location.href = '/admin/books/' + response.data.book.id;
       })["catch"](function (error) {
-        console.error('There was an error updating the book:', error);
+        if (error.response && error.response.status === 422) {
+          _this.errors = error.response.data.errors;
+        }
       });
     },
     previewImage: function previewImage(event) {
@@ -21765,6 +21798,12 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
       if (file) {
         this.selectedBookCoverImg = URL.createObjectURL(file);
         this.selectedBook.cover_img = file;
+      }
+    },
+    handleFileUpload: function handleFileUpload(event) {
+      var file = event.target.files[0];
+      if (file) {
+        this.selectedBook.file = file;
       }
     }
   }
@@ -22734,6 +22773,9 @@ var render = function render() {
       expression: "newBook.name"
     }],
     staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.name
+    },
     attrs: {
       "type": "text",
       "id": "bookName"
@@ -22747,7 +22789,9 @@ var render = function render() {
         _vm.$set(_vm.newBook, "name", $event.target.value);
       }
     }
-  })]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _vm.errors.name ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.name[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_vm._m(0), _vm._v(" "), _c('select', {
     directives: [{
@@ -22757,6 +22801,12 @@ var render = function render() {
       expression: "newBook.author_id"
     }],
     staticClass: "form-select",
+    "class": {
+      'is-invalid': _vm.errors.author
+    },
+    attrs: {
+      "name": "author"
+    },
     on: {
       "change": function change($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
@@ -22780,7 +22830,9 @@ var render = function render() {
         "value": author.id
       }
     }, [_vm._v("\n          " + _vm._s(author.name) + "\n        ")]);
-  })], 2)]), _vm._v(" "), _c('div', {
+  })], 2), _vm._v(" "), _vm.errors.author ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.author[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_vm._m(1), _vm._v(" "), _c('select', {
     directives: [{
@@ -22790,6 +22842,12 @@ var render = function render() {
       expression: "newBook.category_id"
     }],
     staticClass: "form-select",
+    "class": {
+      'is-invalid': _vm.errors.category
+    },
+    attrs: {
+      "name": "category"
+    },
     on: {
       "change": function change($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
@@ -22813,7 +22871,9 @@ var render = function render() {
         "value": category.id
       }
     }, [_vm._v("\n          " + _vm._s(category.name) + "\n        ")]);
-  })], 2)]), _vm._v(" "), _c('div', {
+  })], 2), _vm._v(" "), _vm.errors.category ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.category[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_vm._m(2), _vm._v(" "), _c('select', {
     directives: [{
@@ -22823,6 +22883,9 @@ var render = function render() {
       expression: "newBook.type"
     }],
     staticClass: "form-select",
+    "class": {
+      'is-invalid': _vm.errors.type
+    },
     on: {
       "change": function change($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
@@ -22847,7 +22910,9 @@ var render = function render() {
     attrs: {
       "value": "audiobook"
     }
-  }, [_vm._v("Audiobook")])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Audiobook")])]), _vm._v(" "), _vm.errors.type ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.type[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_c('img', {
     staticClass: "img-thumbnail mb-2",
@@ -22866,6 +22931,9 @@ var render = function render() {
     }
   }), _vm._v(" "), _c('input', {
     ref: "fileInput",
+    "class": {
+      'is-invalid': _vm.errors.file
+    },
     attrs: {
       "id": "book-file",
       "hidden": "",
@@ -22876,7 +22944,9 @@ var render = function render() {
     on: {
       "change": _vm.handleFileUpload
     }
-  })]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _vm.errors.file ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.file[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [!_vm.newBookCoverImg ? _c('img', {
     staticClass: "img-thumbnail mb-2",
@@ -22911,6 +22981,9 @@ var render = function render() {
   }), _vm._v(" "), _c('input', {
     ref: "imageInput",
     staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.cover_img
+    },
     attrs: {
       "id": "image-file",
       "hidden": "",
@@ -22921,7 +22994,9 @@ var render = function render() {
     on: {
       "change": _vm.previewImage
     }
-  })]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _vm.errors.cover_img ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.cover_img[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_c('label', {
     staticClass: "form-label",
@@ -22936,6 +23011,9 @@ var render = function render() {
       expression: "newBook.text"
     }],
     staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.text
+    },
     attrs: {
       "id": "bookDescription",
       "rows": "3"
@@ -22949,7 +23027,9 @@ var render = function render() {
         _vm.$set(_vm.newBook, "text", $event.target.value);
       }
     }
-  })]), _vm._v(" "), _c('button', {
+  }), _vm._v(" "), _vm.errors.text ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.text[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('button', {
     staticClass: "btn",
     attrs: {
       "type": "submit"
@@ -22962,7 +23042,7 @@ var staticRenderFns = [function () {
   return _c('div', [_c('label', {
     staticClass: "form-label",
     attrs: {
-      "for": "authorSelect"
+      "for": "author"
     }
   }, [_vm._v("Author")])]);
 }, function () {
@@ -22971,7 +23051,7 @@ var staticRenderFns = [function () {
   return _c('div', [_c('label', {
     staticClass: "form-label",
     attrs: {
-      "for": "categorySelect"
+      "for": "category"
     }
   }, [_vm._v("Category")])]);
 }, function () {
@@ -23026,6 +23106,9 @@ var render = function render() {
       expression: "selectedBook.name"
     }],
     staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.name
+    },
     attrs: {
       "type": "text",
       "id": "bookName"
@@ -23039,7 +23122,9 @@ var render = function render() {
         _vm.$set(_vm.selectedBook, "name", $event.target.value);
       }
     }
-  })]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _vm.errors.name ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.name[0]) + "\n      ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_vm._m(0), _vm._v(" "), _c('select', {
     directives: [{
@@ -23049,6 +23134,12 @@ var render = function render() {
       expression: "selectedBook.author_id"
     }],
     staticClass: "form-select",
+    "class": {
+      'is-invalid': _vm.errors.author
+    },
+    attrs: {
+      "name": "author"
+    },
     on: {
       "change": function change($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
@@ -23072,7 +23163,9 @@ var render = function render() {
         "value": author.id
       }
     }, [_vm._v("\n          " + _vm._s(author.name) + "\n        ")]);
-  })], 2)]), _vm._v(" "), _c('div', {
+  })], 2), _vm._v(" "), _vm.errors.author ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.author[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_vm._m(1), _vm._v(" "), _c('select', {
     directives: [{
@@ -23082,6 +23175,12 @@ var render = function render() {
       expression: "selectedBook.category_id"
     }],
     staticClass: "form-select",
+    "class": {
+      'is-invalid': _vm.errors.category
+    },
+    attrs: {
+      "name": "category"
+    },
     on: {
       "change": function change($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
@@ -23105,7 +23204,9 @@ var render = function render() {
         "value": category.id
       }
     }, [_vm._v("\n          " + _vm._s(category.name) + "\n        ")]);
-  })], 2)]), _vm._v(" "), _c('div', {
+  })], 2), _vm._v(" "), _vm.errors.category ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.category[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_vm._m(2), _vm._v(" "), _c('select', {
     directives: [{
@@ -23115,6 +23216,9 @@ var render = function render() {
       expression: "selectedBook.type"
     }],
     staticClass: "form-select",
+    "class": {
+      'is-invalid': _vm.errors.type
+    },
     on: {
       "change": function change($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
@@ -23139,9 +23243,45 @@ var render = function render() {
     attrs: {
       "value": "audiobook"
     }
-  }, [_vm._v("Audiobook")])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Audiobook")])]), _vm._v(" "), _vm.errors.type ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.type[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
-  }, [!_vm.newBookCoverImg ? _c('img', {
+  }, [_c('img', {
+    staticClass: "img-thumbnail mb-2",
+    staticStyle: {
+      "max-width": "200px",
+      "cursor": "pointer"
+    },
+    attrs: {
+      "src": "/images/file_upload.png",
+      "alt": "File Upload"
+    },
+    on: {
+      "click": function click($event) {
+        return _vm.$refs.fileInput.click();
+      }
+    }
+  }), _vm._v(" "), _c('input', {
+    ref: "fileInput",
+    "class": {
+      'is-valid': _vm.errors.file
+    },
+    attrs: {
+      "id": "book-file",
+      "hidden": "",
+      "name": "file",
+      "type": "file",
+      "accept": ".epub,audio/*"
+    },
+    on: {
+      "change": _vm.handleFileUpload
+    }
+  }), _vm._v(" "), _vm.errors.file ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.file[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
+    staticClass: "mb-3"
+  }, [!_vm.selectedBookCoverImg ? _c('img', {
     staticClass: "img-thumbnail mb-2",
     staticStyle: {
       "max-width": "200px",
@@ -23174,6 +23314,9 @@ var render = function render() {
   }), _vm._v(" "), _c('input', {
     ref: "imageInput",
     staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.cover_img
+    },
     attrs: {
       "id": "image-file",
       "hidden": "",
@@ -23184,7 +23327,9 @@ var render = function render() {
     on: {
       "change": _vm.previewImage
     }
-  })]), _vm._v(" "), _c('div', {
+  }), _vm._v(" "), _vm.errors.cover_img ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.cover_img[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_c('label', {
     staticClass: "form-label",
@@ -23199,6 +23344,9 @@ var render = function render() {
       expression: "selectedBook.text"
     }],
     staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.text
+    },
     attrs: {
       "id": "bookDescription",
       "rows": "3"
@@ -23212,8 +23360,10 @@ var render = function render() {
         _vm.$set(_vm.selectedBook, "text", $event.target.value);
       }
     }
-  })]), _vm._v(" "), _c('button', {
-    staticClass: "btn btn-primary",
+  }), _vm._v(" "), _vm.errors.text ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.text[0]) + "\n        ")]) : _vm._e()]), _vm._v(" "), _c('button', {
+    staticClass: "btn",
     attrs: {
       "type": "submit"
     }
@@ -23225,7 +23375,7 @@ var staticRenderFns = [function () {
   return _c('div', [_c('label', {
     staticClass: "form-label",
     attrs: {
-      "for": "authorSelect"
+      "for": "author"
     }
   }, [_vm._v("Author")])]);
 }, function () {
@@ -23234,7 +23384,7 @@ var staticRenderFns = [function () {
   return _c('div', [_c('label', {
     staticClass: "form-label",
     attrs: {
-      "for": "categorySelect"
+      "for": "category"
     }
   }, [_vm._v("Category")])]);
 }, function () {

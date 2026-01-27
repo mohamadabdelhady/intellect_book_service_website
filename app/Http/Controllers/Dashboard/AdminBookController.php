@@ -35,9 +35,9 @@ class AdminBookController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
-            'author_id' => 'required|exists:authors,id',
-            'category_id' => 'required|exists:categories,id',
-            'file' => 'required|file|mimes:epub,audio/*',
+            'author' => 'required|exists:authors,id',
+            'category' => 'required|exists:categories,id',
+            'file' => 'required|file|mimes:epub,mp3,wav,ogg',
             'text' => 'required|string',
             'cover_img' => 'required|image|max:2048',
             'type' => 'required|string|max:100',
@@ -52,26 +52,26 @@ class AdminBookController extends Controller
         $mime = $request->file('file')->getMimeType();
         if ($mime === 'application/epub+zip') {
             if ($request->type !== BookType::BOOK->value) {
-                return response()->json(['message' => 'File type does not match the selected book type.'], 422);
+                return response()->json(['file' => 'File type does not match the selected book type.'], 422);
             }
 
             $path = $request->file('file')->store('books/epub_files', 'public');
             $validatedData['file'] = $path;
         } elseif (str_starts_with($mime, 'audio/')) {
             if ($request->type !== BookType::AUDIOBOOK->value) {
-                return response()->json(['message' => 'File type does not match the selected book type.'], 422);
+                return response()->json(['file' => 'File type does not match the selected book type.'], 422);
             }
 
             $path = $request->file('file')->store('books/audio_files', 'public');
             $validatedData['file'] = $path;
         } else {
-            return response()->json(['message' => 'Unsupported file type.'], 422);
+            return response()->json(['file' => 'Unsupported file type.'], 422);
         }
 
         $book = Book::create([
             'name' => $validatedData['name'],
-            'author_id' => $validatedData['author_id'],
-            'category_id' => $validatedData['category_id'],
+            'author_id' => $validatedData['author'],
+            'category_id' => $validatedData['category'],
             'text' => $validatedData['text'],
             'cover_img' => $validatedData['cover_img'],
             'type' => $validatedData['type'],
@@ -99,21 +99,64 @@ class AdminBookController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
-            'author_id' => 'required|exists:authors,id',
+            'author' => 'required|exists:authors,id',
+            'category' => 'required|exists:categories,id',
+            'file' => 'nullable|file|mimes:epub,mp3,wav,ogg',
             'text' => 'required|string',
             'cover_img' => 'nullable|image|max:2048',
             'type' => 'required|string|max:100',
             'narrator' => 'nullable|string|max:255',
         ]);
 
+        if (! $request->hasFile('cover_img') && ! $book->cover_img) {
+            return response()->json(['cover_img' => 'Cover image is required.'], 422);
+        }
+
         if ($request->hasFile('cover_img')) {
             $coverImagePath = $request->file('cover_img')->store('books/covers', 'public');
             $validatedData['cover_img'] = $coverImagePath;
         }
 
-        $book->update($validatedData);
+        if ($validatedData['type'] !== $book->type && ! $request->hasFile('file')) {
+            $validatedData['file'] = $book->file_path;
+        } else {
 
-        return response()->json(['message' => 'Book updated successfully.']);
+            if (! $request->hasFile('file')) {
+                return response()->json(['file' => 'File is required when changing book type.'], 422);
+            }
+
+            $mime = $request->file('file')->getMimeType();
+            if ($mime === 'application/epub+zip') {
+                if ($request->type !== BookType::BOOK->value) {
+                    return response()->json(['file' => 'File type does not match the selected book type.'], 422);
+                }
+
+                $path = $request->file('file')->store('books/epub_files', 'public');
+                $validatedData['file'] = $path;
+            } elseif (str_starts_with($mime, 'audio/')) {
+                if ($request->type !== BookType::AUDIOBOOK->value) {
+                    return response()->json(['file' => 'File type does not match the selected book type.'], 422);
+                }
+
+                $path = $request->file('file')->store('books/audio_files', 'public');
+                $validatedData['file'] = $path;
+            } else {
+                return response()->json(['file' => 'Unsupported file type.'], 422);
+            }
+        }
+
+        $book->update([
+            'name' => $validatedData['name'],
+            'author_id' => $validatedData['author'],
+            'category_id' => $validatedData['category'],
+            'text' => $validatedData['text'],
+            'cover_img' => $validatedData['cover_img'],
+            'type' => $validatedData['type'],
+            'narrator' => $validatedData['narrator'] ?? null,
+            'file_path' => $validatedData['file'],
+        ]);
+
+        return response()->json(['message' => 'Book updated successfully.', 'book' => $book]);
     }
 
     public function destroy(Book $book)
