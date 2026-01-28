@@ -4,6 +4,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\Dashboard\AdminAuthController;
 use App\Http\Controllers\Dashboard\AdminAuthorController;
 use App\Http\Controllers\Dashboard\AdminBookController;
+use App\Http\Controllers\Dashboard\AdminCategoryController;
 use App\Http\Controllers\Dashboard\AdminController;
 use App\Http\Controllers\Dashboard\AdminDashboardController;
 use App\Http\Controllers\Dashboard\AdminReviewController;
@@ -93,5 +94,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::resource('users', AdminUserController::class);
         // Reviews management routes
         Route::resource('reviews', AdminReviewController::class);
+        // Categories management routes
+        Route::resource('categories', AdminCategoryController::class);
     });
 });

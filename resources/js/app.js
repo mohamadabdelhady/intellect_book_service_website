@@ -41,6 +41,7 @@ Vue.component('get_authors', require('./components/admin/get_authors.vue').defau
 Vue.component('edit_author', require('./components/admin/edit_author.vue').default);
 Vue.component('view_author', require('./components/admin/view_author.vue').default);
 Vue.component('create_author', require('./components/admin/create_author.vue').default);
+Vue.component('get_categories', require('./components/admin/get_categories.vue').default);
 
 // 4. Create Vue Instance
 
