@@ -68,6 +68,12 @@
                 <button @click="deleteBook(book.id)" class="btn btn-sm btn-outline-secondary">
                   Delete
                 </button>
+                <a
+                  :href="'/reviews/' + book.id"
+                  target="_blank"
+                  class="btn btn-sm btn-outline-secondary"
+                  >Reviews</a
+                >
               </div>
             </div>
           </div>

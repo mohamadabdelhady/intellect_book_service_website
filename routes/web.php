@@ -93,7 +93,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
         // Users management routes
         Route::resource('users', AdminUserController::class);
         // Reviews management routes
-        Route::resource('reviews', AdminReviewController::class);
+        Route::resource('reviews', AdminReviewController::class)->except(['index']);
+        Route::get('reviews/book/{book}', [AdminReviewController::class, 'index'])->name('reviews.index');
         // Categories management routes
         Route::resource('categories', AdminCategoryController::class);
     });

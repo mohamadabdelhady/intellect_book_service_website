@@ -3,14 +3,22 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
+use App\Models\Book;
 use App\Models\BookReviews;
 use Illuminate\Http\Request;
 
 class AdminReviewController extends Controller
 {
-    public function index()
+    public function index(Book $book, Request $request)
     {
-        return view('Dashboard.admin.reviews.index');
+        $query = $request->input('query');
+        if (! empty($query)) {
+            $reviews = $book->reviews()->search($query)->paginate(10);
+        } else {
+            $reviews = $book->reviews()->paginate(10);
+        }
+
+        return view('Dashboard.admin.reviews.index', compact('book', 'reviews', 'query'));
     }
 
     public function create()

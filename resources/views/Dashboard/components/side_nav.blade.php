@@ -10,5 +10,4 @@ use App\Enums\AdminRole;
     <a href="{{ route('admin.books.index') }}" class="side-nav-link">Books</a>
     <a href="{{ route('admin.authors.index') }}" class="side-nav-link">Authors</a>
     <a href="{{ route('admin.categories.index') }}" class="side-nav-link">Categories</a>
-    <a href="{{ route('admin.reviews.index') }}" class="side-nav-link">Reviews</a>
 </div>

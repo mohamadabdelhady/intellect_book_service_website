@@ -73,4 +73,9 @@ class BookReviews extends Model
     {
         return $this->user ? $this->user->profile_img : null;
     }
+
+    public function search($query)
+    {
+        return $this->where('review', 'like', '%'.$query.'%');
+    }
 }
