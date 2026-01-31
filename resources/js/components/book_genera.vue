@@ -32,9 +32,9 @@
       <div v-if="books.length != 0" class="row">
         <div class=" " v-for="(book, index) in books">
           <a :href="'check_book_' + book['id']" class="book_card card">
-            <img :src="'/books/' + book['cover_img']" class="book_img m-auto" />
+            <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
             <p class="book_title m-auto h4">{{ book['name'] }}</p>
-            <p class="book_title m-auto h6">By {{ book['author'] }}</p>
+            <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
             <div class="row m-auto">
               <generate_stars :rating="book['rating']"></generate_stars>
             </div>
@@ -49,9 +49,9 @@
       <div v-if="audio.length != 0" class="row">
         <div class="" v-for="(book, index) in audio">
           <a :href="'check_audio_' + book['id']" class="book_card card">
-            <img :src="'/audio_books/covers/' + book['cover_img']" class="book_img m-auto" />
+            <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
             <p class="book_title m-auto h4">{{ book['name'] }}</p>
-            <p class="book_title m-auto h6">By {{ book['author'] }}</p>
+            <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
             <p class="book_title m-auto h6">Narrator {{ book['narrator'] }}</p>
             <div class="row m-auto">
               <generate_stars :rating="book['rating']"></generate_stars>
@@ -68,6 +68,8 @@
 </template>
 
 <script>
+import { route } from 'ziggy-js';
+
 export default {
   name: 'book_genera',
   props: ['genera'],
@@ -81,15 +83,28 @@ export default {
       book_lastpage: false,
       audio_lastpage: false,
       sorting: 'default',
+      type: 'book',
     };
   },
   methods: {
     change_selected(select) {
       this.selected = select;
+      if (select == 'ebook_results') {
+        this.type = 'book';
+      } else if (select == 'audiobooks_results') {
+        this.type = 'audiobook';
+      }
     },
     get_books() {
       axios
-        .get('load_genera_books/' + this.genera + '/' + this.sorting + '?page=' + this.book_page)
+        .get(
+          route('get-genera-books', {
+            genera: this.genera,
+            type: this.type,
+            sort: this.sorting,
+            page: this.book_page,
+          }),
+        )
         .then((response) => {
           $.each(response.data.data, (key, v) => {
             this.books.push(v);
@@ -102,7 +117,14 @@ export default {
     },
     get_audio() {
       axios
-        .get('load_genera_audio/' + this.genera + '/' + this.sorting + '?page=' + this.audio_page)
+        .get(
+          route('get-genera-books', {
+            genera: this.genera,
+            type: this.type,
+            sort: this.sorting,
+            page: this.audio_page,
+          }),
+        )
         .then((response) => {
           $.each(response.data.data, (key, v) => {
             this.audio.push(v);
@@ -136,10 +158,12 @@ export default {
       let modifier = 200;
       if (this.selected == 'ebook_results' && this.book_lastpage == false) {
         if (currentScroll + modifier > documentHeight) {
+          this.type = 'book';
           this.get_books();
         }
       } else if (this.selected == 'audiobooks_results' && this.audio_lastpage == false) {
         if (currentScroll + modifier > documentHeight) {
+          this.type = 'audiobook';
           this.get_audio();
         }
       }

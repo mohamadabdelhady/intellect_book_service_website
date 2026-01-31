@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="audio_books.length > 0">
     <p class="h3">Audio books</p>
     <hr />
     <div class="dropdown">
@@ -21,9 +21,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="m-auto" v-for="(book, index) in audio_books">
+      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12" v-for="(book, index) in audio_books">
         <a :href="route('check-book', { id: book['id'] })" class="book_card card">
-          <img :src="'audio_books/covers/' + book['cover_img']" class="book_img m-auto" />
+          <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
           <p class="book_title m-auto h4">{{ book['name'] }}</p>
           <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
           <p class="book_title m-auto h6">Narrator {{ book['narrator'] }}</p>

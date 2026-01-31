@@ -1,5 +1,4 @@
 <div style="padding-top: 100px">
-
 <hr>
 <div class="row">
     <div class="" style="min-width: 100%"></div>

@@ -16,10 +16,9 @@ class SettingsController extends Controller
 
     public function changeProfileImg(Request $request)
     {
-        $imageName = time().'.'.'png';
-        $request->file('profimg')->move(public_path('images/users_profile_img'), $imageName);
+        $image_path = $request->file('profimg')->store('users/profile_images', 'public');
 
-        auth()->user()->updateProfileImg($imageName);
+        auth()->user()->updateProfileImg($image_path);
 
         return back();
     }

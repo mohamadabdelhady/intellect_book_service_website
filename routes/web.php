@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Controller;
 use App\Http\Controllers\Dashboard\AdminAuthController;
 use App\Http\Controllers\Dashboard\AdminAuthorController;
 use App\Http\Controllers\Dashboard\AdminBookController;
@@ -36,8 +35,6 @@ Route::get('/subscribe', [AuthController::class, 'register'])->name('register-fo
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::get('/auth/redirect', [AuthController::class, 'redirectToGoogle'])->name('google-auth-redirect');
 Route::get('/auth/callback', [AuthController::class, 'handleGoogleCallback'])->name('google-auth-callback');
-
-Route::get('/test', [Controller::class, 'test'])->name('test');
 
 // routes that do require authentication and verification and subscription
 Route::group(['middleware' => ['auth', 'verified', 'subscribed']], function () {

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 use App\Models\Book;
+use App\Models\Category;
 
 class GeneraController extends Controller
 {
@@ -14,7 +15,8 @@ class GeneraController extends Controller
 
     public function getGenera($genera)
     {
-        abort_unless(in_array($genera, ['classics', 'history', 'science']), 404);
+        $genera = Category::findOrFail($genera);
+        abort_if(! $genera, 404);
 
         return view('User.genera', compact('genera'));
     }

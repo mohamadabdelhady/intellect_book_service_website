@@ -16,7 +16,8 @@
           style="border-right: 1px solid #cbcaca"
         >
           <img :src="profile_img" class="user_profile" v-if="is0auth == true" />
-          <img v-else :src="'/images/users_profile_img/' + profile_img" class="user_profile" />
+          <img v-if="profile_img == null" src="/images/user_default.png" class="user_profile" />
+          <img v-else :src="'/storage/' + profile_img" class="user_profile" />
           <form
             id="change_prof"
             :action="route('change-profile-img')"

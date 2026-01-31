@@ -65,10 +65,10 @@ import ePub from 'epubjs';
 import { route } from 'ziggy-js';
 export default {
   name: 'read_book',
-  props: ['file_name', 'name', 'book_id'],
+  props: ['file_path', 'name', 'book_id'],
   data() {
     return {
-      file_path: '/books/epub_files/' + this.file_name + '.epub',
+      epup_path: '/storage/' + this.file_path,
       book: '',
       rendition: '',
       displayed: '',
@@ -79,14 +79,14 @@ export default {
   },
   methods: {
     load_book() {
-      this.book = ePub(this.file_path);
+      this.book = ePub(this.epup_path);
       this.rendition = this.book.renderTo('epub_reader', { width: '100%', height: '100%' });
       this.rendition.themes.fontSize(this.font_size);
       this.displayed = this.rendition.display();
     },
     next_page() {
       this.rendition.next();
-      // this.set_reader_progress();
+      this.set_reader_progress();
     },
     previous_page() {
       this.rendition.prev();

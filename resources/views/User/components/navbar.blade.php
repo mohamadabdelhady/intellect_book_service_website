@@ -17,7 +17,9 @@
                 @if(auth()->user()->profile_img&&auth()->user()->google_id)
                     <p> <img src="{{url(auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
                 @elseif(auth()->user()->profile_img)
-                <p> <img src="{{url('/images/users_profile_img/' . auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
+                <p> <img src="{{url('/storage/' . auth()->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
+                @else
+                    <p> <img src="{{url('/images/user_default.png')}}" id="userAvatar"><i class="arrow down"></i></p>
                                 @endif
             </div>
             </a>
@@ -50,9 +52,9 @@
     </div>
     <a href="#"onclick="event.preventDefault(); openGen('genera_b')">book genera<i class="arrow down" style="border: solid white;border-width: 0 3px 3px 0;"></i></a>
     <div class="books_genera" id="genera_b">
-        <a href="classics">Classics</a>
-        <a href="history">History</a>
-        <a href="science">Science</a>
+        @foreach($categories as $category)
+            <a href="{{ route('get-genera', ['genera' => $category->id]) }}">{{$category->name}}</a>
+        @endforeach
     </div>
     <a href="about">about us</a>
     <a href="contact">Contact us</a>

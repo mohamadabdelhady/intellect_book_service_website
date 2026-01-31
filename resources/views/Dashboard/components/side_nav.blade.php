@@ -3,7 +3,7 @@ use App\Enums\AdminRole;
 ?>
 <div class="side-nav-links" id="side-nav-links">
     <a href="{{ route('admin.dashboard') }}" class="side-nav-link">Dashboard</a>
-    @if (auth('admin')->user()->hasRole(AdminRole::ADMIN_SUPER))
+    @if (auth('admin')->check() && auth('admin')->user()->hasRole(AdminRole::ADMIN_SUPER))
     <a href="{{ route('admin.admins.index') }}" class="side-nav-link">Admins</a>
     <a href="{{ route('admin.users.index') }}" class="side-nav-link">Users</a>
     @endif

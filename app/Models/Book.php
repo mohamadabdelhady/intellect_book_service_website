@@ -14,7 +14,7 @@ class Book extends Model
         'name', 'author_id', 'text', 'cover_img', 'rating', 'type', 'narrator', 'category_id', 'file_path',
     ];
 
-    protected $appends = ['is_bookmarked', 'stored_name', 'author_name'];
+    protected $appends = ['is_bookmarked', 'author_name'];
 
     public function author()
     {
@@ -43,7 +43,7 @@ class Book extends Model
 
     public function scopeOfCategory($query, $category)
     {
-        return $query->where('category', $category);
+        return $query->where('category_id', $category);
     }
 
     public function scopeOfType($query, $type)
@@ -64,11 +64,6 @@ class Book extends Model
     public function getIsBookmarkedAttribute()
     {
         return $this->bookmarks()->where('user_id', auth()->id())->exists();
-    }
-
-    public function getStoredNameAttribute()
-    {
-        return 'id_'.$this->id.'_'.$this->name;
     }
 
     public function scopeOfAuthor($query, $authorId)

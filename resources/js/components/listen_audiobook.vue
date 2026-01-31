@@ -69,11 +69,11 @@ import { route } from 'ziggy-js';
 
 export default {
   name: 'listen_audiobook',
-  props: ['file_name', 'book_id', 'book_cover'],
+  props: ['file_path', 'book_id', 'book_cover'],
   data() {
     return {
       sound: '',
-      file_path: '/audio_books/audio_files/' + this.file_name + '.mp3',
+      file_path: '/storage/' + this.file_path,
       audio_seek: 0,
       audio_seek_formated: '00:00',
       volume: 100,

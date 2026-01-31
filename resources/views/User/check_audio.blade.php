@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @routes
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-@include('User.nav-bar')
+@extends('User.components.layout')
+@section('content')
 <div class="container">
     <div class="row" id="main_div">
         <div class="col-sm-4 col-4 col-xl-3 col-lg-3 cover">
-            <img src="/audio_books/covers/{{$book->cover_img}}" class="cover_overview">
+            <img src="/storage/{{$book->cover_img}}" class="cover_overview">
             <button class="btn mt-3" style="width: 100%" onclick="event.preventDefault(); document.getElementById('listen_btn').click();"><i class="fas fa-headphones-alt fa-2x" style=""></i></button>
             <a href="{{ route('read-or-listen', ['id' => $book->id,'type' => 'audiobook']) }}" style="display: none" id="listen_btn"></a>
             @if(!$book->is_bookmarked)
@@ -45,8 +34,5 @@
             </div>
     </div>
     </div>
-    @include('User.footer')
 </div>
-
-</body>
-</html>
+@endsection

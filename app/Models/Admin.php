@@ -28,4 +28,11 @@ class Admin extends Authenticatable
     {
         return $this->role === $role;
     }
+
+    public static function searchAdmins($keyword)
+    {
+        $keyword = trim($keyword);
+
+        return self::where('id', '!=', auth('admin')->id())->where('name', 'like', "%$keyword%");
+    }
 }

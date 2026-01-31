@@ -1,28 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @routes
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
-@include('User.nav-bar')
+@extends('User.components.layout')
+@section('content')
 <div class="container">
     <div class="" id="main_div">
         <div id="app">
-        <listen_audiobook :file_name="{{json_encode($book->stored_name)}}" :book_id="{{json_encode($book->id)}}":book_cover="{{json_encode($book->cover_img)}}"></listen_audiobook>
+        <listen_audiobook :file_path="{{json_encode($book->file_path)}}" :book_id="{{json_encode($book->id)}}":book_cover="{{json_encode($book->cover_img)}}"></listen_audiobook>
         </div>
     </div>
-
-@include('User.footer')
 </div>
-</body>
-</html>
-<script>
-
-</script>
+@endsection

@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    @routes
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="csrf-token" content="{{ csrf_token() }}" />
-</head>
-<body>
-@include('User.nav-bar')
-
-
+@extends('User.components.layout')
+@section('content')
 <div class="container">
     <div  id="main_div">
         <div id="app">
@@ -34,9 +19,5 @@
             @endforeach
         </script>
     @endif
-    @include('User.footer')
 </div>
-
-
-</body>
-</html>
+@endsection

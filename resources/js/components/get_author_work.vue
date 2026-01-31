@@ -13,7 +13,7 @@
       <div v-if="books.length != 0" class="">
         <div class="item" v-for="(book, index) in books">
           <a :href="'check_book_' + book['id']" class="" target="_blank">
-            <img :src="'books/' + book['cover_img']" class="book_img" />
+            <img :src="'/storage/' + book['cover_img']" class="book_img" />
             <span style="margin-left: 20px">{{ book['name'] }}</span>
             <generate_stars :rating="book['rating']" style="float: right"></generate_stars>
           </a>
@@ -24,7 +24,7 @@
       <div v-if="audio.length != 0" class="col">
         <div class="item" v-for="(book, index) in audio">
           <a :href="'check_audio_' + book['id']" class="" target="_blank">
-            <img :src="'books/' + book['cover_img']" class="book_img" />
+            <img :src="'/storage/' + book['cover_img']" class="book_img" />
             <span>{{ book['name'] }}</span>
             <generate_stars :rating="book['rating']" id="stars"></generate_stars>
           </a>

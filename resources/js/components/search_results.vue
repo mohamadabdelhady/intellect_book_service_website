@@ -17,7 +17,7 @@
         <div v-if="books.length != 0" class="row">
           <div class=" " v-for="(book, index) in books">
             <a :href="'check_book_' + book['id']" class="book_card card">
-              <img :src="'/books/' + book['cover_img']" class="book_img m-auto" />
+              <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
               <p class="book_title m-auto h4">{{ book['name'] }}</p>
               <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
               <div class="row m-auto">
@@ -34,7 +34,7 @@
         <div v-if="audio.length != 0" class="row">
           <div class="" v-for="(book, index) in audio">
             <a :href="'check_audio_' + book['id']" class="book_card card">
-              <img :src="'/audio_books/covers/' + book['cover_img']" class="book_img m-auto" />
+              <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
               <p class="book_title m-auto h4">{{ book['name'] }}</p>
               <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
               <p class="book_title m-auto h6">Narrator {{ book['narrator'] }}</p>
@@ -52,7 +52,7 @@
         <div v-if="authors.length != 0" class="row">
           <div class="" v-for="(author, index) in authors">
             <a :href="'get_' + author['name']" class="book_card card">
-              <img :src="'/authors_imges/' + author['img']" class="book_img m-auto" />
+              <img :src="'/storage/' + author['img']" class="book_img m-auto" />
               <p class="book_title m-auto h4">{{ author['name'] }}</p>
             </a>
           </div>

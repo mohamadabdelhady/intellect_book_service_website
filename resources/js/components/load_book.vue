@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="books.length > 0">
     <p class="h3">E-books</p>
 
     <hr />
@@ -22,9 +22,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="m-auto" v-for="(book, index) in books">
+      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12" v-for="(book, index) in books">
         <a :href="route('check-book', { id: book['id'] })" class="book_card card">
-          <img :src="'books/' + book['cover_img']" class="book_img m-auto" />
+          <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
           <p class="book_title m-auto h4">{{ book['name'] }}</p>
           <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
           <div class="row m-auto">

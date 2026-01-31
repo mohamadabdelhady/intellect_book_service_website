@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    @routes
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script>
-        @if((auth()->user()->first_time)==true)
-            window.onload = function() {
-            $('#myModal').modal('toggle');
-        }
-        {{\Illuminate\Support\Facades\DB::table('users')->where('id','=',auth()->user()->id)->update(['first_time'=>false])}}
-        @endif
-    </script>
-</head>
-<body>
-@include('User.nav-bar')
+@extends('User.components.layout')
+@section('content')
 <div class="container">
 <div class="row" id="main_div">
     <div id="myModal" class="modal fade" role="dialog">
@@ -59,7 +38,13 @@
     </div>
     </div>
 </div>
-    @include('User.footer')
 </div>
-</body>
-</html>
+@endsection
+<script>
+        @if((auth()->user()->first_time)==true)
+            window.onload = function() {
+            $('#myModal').modal('toggle');
+        }
+        {{\Illuminate\Support\Facades\DB::table('users')->where('id','=',auth()->user()->id)->update(['first_time'=>false])}}
+        @endif
+    </script>
