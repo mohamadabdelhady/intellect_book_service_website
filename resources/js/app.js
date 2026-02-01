@@ -47,6 +47,8 @@ Vue.component('view_category', require('./components/admin/view_category.vue').d
 Vue.component('create_category', require('./components/admin/create_category.vue').default);
 Vue.component('get_admins', require('./components/admin/get_admins.vue').default);
 Vue.component('create_admin', require('./components/admin/create_admin.vue').default);
+Vue.component('edit_admin', require('./components/admin/edit_admin.vue').default);
+Vue.component('view_admin', require('./components/admin/view_admin.vue').default);
 
 // 4. Create Vue Instance
 

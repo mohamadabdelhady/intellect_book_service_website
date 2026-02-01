@@ -48,15 +48,42 @@ class AdminController extends Controller
 
     public function show(Admin $admin)
     {
-        return view('Dashboard.admin.show', compact('admin'));
+        return view('Dashboard.admin.admin.show', compact('admin'));
     }
 
     public function edit(Admin $admin)
     {
-        return view('Dashboard.admin.edit', compact('admin'));
+        return view('Dashboard.admin.admin.edit', compact('admin'));
     }
 
-    public function update(Request $request, Admin $admin) {}
+    public function update(Request $request, Admin $admin)
+    {
+        $validatedData = $request->validate([
+            'name' => 'required|string|max:255',
+            'photo' => 'nullable|image|max:2048',
+            'email' => 'required|string|email|max:255|unique:admins,email,'.$admin->id,
+            'password' => 'nullable|string|min:8|confirmed',
+            'role' => 'required|in:admin_super,admin_editor',
+        ]);
 
-    public function destroy(Admin $admin) {}
+        $admin->name = $validatedData['name'];
+        if (isset($validatedData['photo'])) {
+            $admin->profile_img = $validatedData['photo'];
+        }
+        $admin->email = $validatedData['email'];
+        if (! empty($validatedData['password'])) {
+            $admin->password = bcrypt($validatedData['password']);
+        }
+        $admin->role = $validatedData['role'];
+        $admin->save();
+
+        return response()->json(['message' => 'Admin updated successfully', 'admin' => $admin], 200);
+    }
+
+    public function destroy(Admin $admin)
+    {
+        $admin->delete();
+
+        return response()->json(['message' => 'Admin deleted successfully'], 200);
+    }
 }

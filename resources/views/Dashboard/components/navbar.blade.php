@@ -5,7 +5,7 @@
         @if (Auth::guard('admin')->check())
         <div class="main-menu">
         <a href="" class="main-btn" onclick="event.preventDefault(); view_menu();">
-            <p> <img src="{{url('/images/users_profile_img/'.auth('admin')->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
+            <p> <img src="{{url('/images/user_default.png/'.auth('admin')->user()->profile_img)}}" id="userAvatar"><i class="arrow down"></i></p>
         </a>
         <div class="menu-content" id="menu-content">
                 <br>

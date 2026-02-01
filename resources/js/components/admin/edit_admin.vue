@@ -1,14 +1,14 @@
 <template>
   <div>
-    <form @submit.prevent="createAdmin">
+    <form @submit.prevent="updateAdmin">
       <div class="mb-3">
-        <label for="adminName" class="form-label">Admin Name</label>
+        <label for="bookName" class="form-label">Admin Name</label>
         <input
           type="text"
           class="form-control"
-          id="adminName"
           :class="{ 'is-invalid': errors.name }"
-          v-model="newAdmin.name"
+          id="bookName"
+          v-model="selectedAdmin.name"
         />
         <div class="invalid-feedback" v-if="errors.name">
           {{ errors.name[0] }}
@@ -21,7 +21,7 @@
           class="form-control"
           id="adminEmail"
           :class="{ 'is-invalid': errors.email }"
-          v-model="newAdmin.email"
+          v-model="selectedAdmin.email"
         />
         <div class="invalid-feedback" v-if="errors.email">
           {{ errors.email[0] }}
@@ -34,7 +34,7 @@
           class="form-control"
           id="adminPassword"
           :class="{ 'is-invalid': errors.password }"
-          v-model="newAdmin.password"
+          v-model="selectedAdmin.password"
         />
         <div class="invalid-feedback" v-if="errors.password">
           {{ errors.password[0] }}
@@ -47,16 +47,31 @@
           class="form-control"
           id="adminPasswordConfirmation"
           :class="{ 'is-invalid': errors.password_confirmation }"
-          v-model="newAdmin.password_confirmation"
+          v-model="selectedAdmin.password_confirmation"
         />
         <div class="invalid-feedback" v-if="errors.password_confirmation">
           {{ errors.password_confirmation[0] }}
         </div>
       </div>
       <div class="mb-3">
+        <div><label for="adminRole" class="form-label">Admin Role</label></div>
+        <select
+          id="adminRole"
+          class="form-select"
+          v-model="selectedAdmin.role"
+          :class="{ 'is-invalid': errors.role }"
+        >
+          <option value="admin_super">Super Admin</option>
+          <option value="admin_editor">Editor</option>
+        </select>
+        <div class="invalid-feedback" v-if="errors.role">
+          {{ errors.role[0] }}
+        </div>
+      </div>
+      <div class="mb-3">
         <img
-          v-if="!newAdminPhotoImg"
-          src="https://placehold.co/200x200"
+          v-if="!selectedAdminPhotoImg"
+          src="/images/user_default.png"
           alt="Placeholder Image"
           class="img-thumbnail mb-2"
           style="max-width: 200px; cursor: pointer"
@@ -64,7 +79,7 @@
         />
         <img
           v-else
-          :src="newAdminPhotoImg"
+          :src="selectedAdminPhotoImg"
           alt="Photo Image"
           class="img-thumbnail mb-2"
           style="max-width: 200px; cursor: pointer"
@@ -81,57 +96,44 @@
           @change="previewImage"
           :class="{ 'is-invalid': errors.photo }"
         />
-        <div class="invalid-feedback" v-if="errors.profile_img">
+        <div class="invalid-feedback" v-if="errors.photo">
           {{ errors.photo[0] }}
         </div>
       </div>
-      <div class="mb-3">
-        <select class="form-select" v-model="newAdmin.role" :class="{ 'is-invalid': errors.role }">
-          <option value="admin_super">Super Admin</option>
-          <option value="admin_editor">Editor Admin</option>
-        </select>
-        <div class="invalid-feedback" v-if="errors.role">
-          {{ errors.role[0] }}
-        </div>
-      </div>
-
-      <button type="submit" class="btn">create</button>
+      <button type="submit" class="btn">Update</button>
     </form>
   </div>
 </template>
 <script>
 export default {
-  name: 'create_admin',
-  props: [],
+  name: 'edit_admin',
+  props: ['admin'],
   data() {
     return {
-      newAdmin: {
-        name: '',
-        profile_img: null,
-        About: '',
-      },
-      newAdminPhotoImg: null,
+      selectedAdmin: { ...this.admin },
+      selectedAdminPhotoImg: this.admin.profile_img
+        ? '/storage/' + this.admin.profile_img
+        : '/images/user_default.png',
       errors: {},
     };
   },
   methods: {
-    createAdmin() {
+    updateAdmin() {
       const formData = new FormData();
 
-      const keyMap = {
-        img: 'photo',
-      };
-
-      for (const key in this.newAdmin) {
-        if (key === 'profile_img' && !this.newAdmin.profile_img) {
-          continue;
-        }
-        const formKey = keyMap[key] ?? key;
-        formData.append(formKey, this.newAdmin[key]);
+      formData.append('name', this.selectedAdmin.name);
+      formData.append('email', this.selectedAdmin.email);
+      formData.append('password', this.selectedAdmin.password);
+      formData.append('password_confirmation', this.selectedAdmin.password_confirmation);
+      formData.append('role', this.selectedAdmin.role);
+      if (this.selectedAdmin.profile_img instanceof File) {
+        formData.append('photo', this.selectedAdmin.profile_img);
       }
 
+      formData.append('_method', 'PUT');
+
       axios
-        .post('/admin/admins', formData, {
+        .post('/admin/admins/' + this.selectedAdmin.id, formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
@@ -149,8 +151,8 @@ export default {
     previewImage(event) {
       const file = event.target.files[0];
       if (file) {
-        this.newAuthorPhotoImg = URL.createObjectURL(file);
-        this.newAuthor.img = file;
+        this.selectedAdminPhotoImg = URL.createObjectURL(file);
+        this.selectedAdmin.profile_img = file;
       }
     },
   },

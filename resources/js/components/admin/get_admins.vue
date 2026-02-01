@@ -45,9 +45,7 @@
       >
         <div class="card mb-4 shadow-sm">
           <img
-            :src="
-              admin.profile_img ? `/storage/${admin.profile_img}` : 'https://placehold.co/200x200'
-            "
+            :src="admin.profile_img ? `/storage/${admin.profile_img}` : '/images/user_default.png'"
             class="bd-placeholder-img card-img-top"
             width="100%"
             height="225"
