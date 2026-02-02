@@ -63,6 +63,19 @@
           {{ errors.type[0] }}
         </div>
       </div>
+      <div class="mb-3" v-if="selectedBook.type === 'audiobook'">
+        <label for="bookFile" class="form-label">Book Narrrator</label>
+        <input
+          type="text"
+          class="form-control"
+          id="bookNarrator"
+          :class="{ 'is-invalid': errors.narrator }"
+          v-model="selectedBook.narrator"
+        />
+        <div class="invalid-feedback" v-if="errors.narrator">
+          {{ errors.narrator[0] }}
+        </div>
+      </div>
       <div class="mb-3">
         <img
           src="/images/file_upload.png"
@@ -154,6 +167,9 @@ export default {
       formData.append('category', this.selectedBook.category_id);
       formData.append('type', this.selectedBook.type);
       formData.append('text', this.selectedBook.text);
+      if (this.selectedBook.type === 'audiobook') {
+        formData.append('narrator', this.selectedBook.narrator);
+      }
 
       if (this.selectedBook.file instanceof File) {
         formData.append('file', this.selectedBook.file);

@@ -14,7 +14,6 @@ class UserBookProgressController extends Controller
             auth()->user()->id,
             $request->input('book_id'),
             $request->input('progress'),
-            $request->input('type'),
         );
 
         return response()->json(['status' => 'success']);

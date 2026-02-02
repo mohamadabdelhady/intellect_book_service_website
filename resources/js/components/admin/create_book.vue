@@ -50,13 +50,31 @@
       </div>
       <div class="mb-3">
         <div><label for="bookType" class="form-label">Book Type</label></div>
-        <select class="form-select" :class="{ 'is-invalid': errors.type }" v-model="newBook.type">
+        <select
+          class="form-select"
+          :class="{ 'is-invalid': errors.type }"
+          v-model="selectedType"
+          @change="newBook.type = selectedType"
+        >
           <option disabled value="">Select Book Type</option>
           <option value="book">book</option>
           <option value="audiobook">Audiobook</option>
         </select>
         <div class="invalid-feedback" v-if="errors.type">
           {{ errors.type[0] }}
+        </div>
+      </div>
+      <div class="mb-3" v-if="selectedType === 'audiobook'">
+        <label for="bookFile" class="form-label">Book Narrrator</label>
+        <input
+          type="text"
+          class="form-control"
+          id="bookNarrrator"
+          :class="{ 'is-invalid': errors.narrrator }"
+          v-model="newBook.narrrator"
+        />
+        <div class="invalid-feedback" v-if="errors.narrrator">
+          {{ errors.narrrator[0] }}
         </div>
       </div>
       <div class="mb-3">
@@ -131,8 +149,6 @@
   </div>
 </template>
 <script>
-import { error } from 'jquery';
-
 export default {
   name: 'edit_book',
   props: ['authors', 'categories'],
@@ -145,9 +161,11 @@ export default {
         type: '',
         cover_img: null,
         file: null,
+        narrator: '',
         text: '',
       },
       newBookCoverImg: null,
+      selectedType: '',
       errors: {},
     };
   },
@@ -161,6 +179,9 @@ export default {
       };
 
       for (const key in this.newBook) {
+        if (key == 'narrator' && this.newBook.type !== 'audiobook') {
+          continue;
+        }
         const formKey = keyMap[key] ?? key;
         formData.append(formKey, this.newBook[key]);
       }

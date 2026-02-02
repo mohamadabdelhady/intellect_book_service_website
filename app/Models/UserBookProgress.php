@@ -23,13 +23,12 @@ class UserBookProgress extends Model
         return $this->belongsTo(Book::class);
     }
 
-    public static function setProgressForUser($userId, $bookId, $progress, $type)
+    public static function setProgressForUser($userId, $bookId, $progress)
     {
         return static::updateOrCreate(
             [
                 'user_id' => $userId,
                 'book_id' => $bookId,
-                'type' => $type,
             ],
             [
                 'progress' => $progress,

@@ -12,6 +12,10 @@ class AuthController extends Controller
 {
     public function index()
     {
+        if (Auth::check()) {
+            return redirect()->route('home');
+        }
+
         return view('Auth.home');
     }
 

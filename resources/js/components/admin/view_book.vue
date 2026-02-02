@@ -41,6 +41,7 @@
         </button>
         <h2>{{ book.name }}</h2>
         <p><strong>Author:</strong> {{ book.author_name }}</p>
+        <p v-if="book.type === 'audiobook'"><strong>Narrator:</strong> {{ book.narrator }}</p>
         <p><strong>Type:</strong> {{ book.type }}</p>
         <p><strong>Description:</strong> {{ book.text }}</p>
       </div>

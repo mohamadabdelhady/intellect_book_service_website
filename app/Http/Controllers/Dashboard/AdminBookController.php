@@ -41,7 +41,7 @@ class AdminBookController extends Controller
             'text' => 'required|string',
             'cover_img' => 'required|image|max:2048',
             'type' => 'required|string|max:100',
-            'narrator' => 'nullable|string|max:255',
+            'narrator' => 'required_if:type,audiobook|string|max:255',
         ]);
 
         if ($request->hasFile('cover_img')) {
@@ -105,7 +105,7 @@ class AdminBookController extends Controller
             'text' => 'required|string',
             'cover_img' => 'nullable|image|max:2048',
             'type' => 'required|string|max:100',
-            'narrator' => 'nullable|string|max:255',
+            'narrator' => 'required_if:type,audiobook|string|max:255',
         ]);
 
         if (! $request->hasFile('cover_img') && ! $book->cover_img) {
@@ -115,9 +115,11 @@ class AdminBookController extends Controller
         if ($request->hasFile('cover_img')) {
             $coverImagePath = $request->file('cover_img')->store('books/covers', 'public');
             $validatedData['cover_img'] = $coverImagePath;
+        } else {
+            $validatedData['cover_img'] = $book->cover_img;
         }
 
-        if ($validatedData['type'] !== $book->type && ! $request->hasFile('file')) {
+        if ($validatedData['type'] == $book->type) {
             $validatedData['file'] = $book->file_path;
         } else {
 

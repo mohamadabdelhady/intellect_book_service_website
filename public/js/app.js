@@ -21802,9 +21802,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'edit_book',
   props: ['authors', 'categories'],
@@ -21817,9 +21814,11 @@ __webpack_require__.r(__webpack_exports__);
         type: '',
         cover_img: null,
         file: null,
+        narrator: '',
         text: ''
       },
       newBookCoverImg: null,
+      selectedType: '',
       errors: {}
     };
   },
@@ -21833,6 +21832,9 @@ __webpack_require__.r(__webpack_exports__);
       };
       for (var key in this.newBook) {
         var _keyMap$key;
+        if (key == 'narrator' && this.newBook.type !== 'audiobook') {
+          continue;
+        }
         var formKey = (_keyMap$key = keyMap[key]) !== null && _keyMap$key !== void 0 ? _keyMap$key : key;
         formData.append(formKey, this.newBook[key]);
       }
@@ -22087,6 +22089,9 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
       formData.append('category', this.selectedBook.category_id);
       formData.append('type', this.selectedBook.type);
       formData.append('text', this.selectedBook.text);
+      if (this.selectedBook.type === 'audiobook') {
+        formData.append('narrator', this.selectedBook.narrator);
+      }
       if (this.selectedBook.file instanceof File) {
         formData.append('file', this.selectedBook.file);
       }
@@ -22732,7 +22737,7 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       sound: '',
-      file_path: '/storage/' + this.file_path,
+      file: '/storage/' + this.file_path,
       audio_seek: 0,
       audio_seek_formated: '00:00',
       volume: 100,
@@ -22740,18 +22745,20 @@ __webpack_require__.r(__webpack_exports__);
       is_playing: '',
       playback_rate: 1.0,
       mute: false,
-      reader_progress: 0
+      reader_progress: 0,
+      progress_interval: null
     };
   },
   methods: {
     load_audio: function load_audio() {
       var _this = this;
       this.sound = new howler__WEBPACK_IMPORTED_MODULE_0__.Howl({
-        src: [this.file_path],
+        src: [this.file],
         html5: true,
         autoplay: false,
         onplay: function onplay() {
           _this.is_playing = setInterval(_this.update_seekbar, 1000);
+          _this.progress_interval = setInterval(_this.set_reader_progress, 10000);
         }
       });
     },
@@ -22809,9 +22816,6 @@ __webpack_require__.r(__webpack_exports__);
       var per = document.getElementById('audio-seek').value;
       var seek = this.sound.duration() * (per / 100);
       this.sound.seek(seek);
-      // console.log(per);
-      // console.log(seek);
-      // console.log('this '+this.sound.seek());
     },
     change_volume: function change_volume() {
       this.volume = document.getElementById('volume').value;
@@ -22820,16 +22824,15 @@ __webpack_require__.r(__webpack_exports__);
     },
     set_reader_progress: function set_reader_progress() {
       var progress = this.sound.seek();
-      axios.post((0,ziggy_js__WEBPACK_IMPORTED_MODULE_1__.route)('set_book_progress'), {
+      axios.post((0,ziggy_js__WEBPACK_IMPORTED_MODULE_1__.route)('set-book-progress'), {
         book_id: this.book_id,
-        progress: progress,
-        type: this.type
+        progress: progress
       });
     },
     get_reader_progress: function get_reader_progress() {
       var _this2 = this;
-      axios.get((0,ziggy_js__WEBPACK_IMPORTED_MODULE_1__.route)('get_book_progress', {
-        book_id: this.book_id
+      axios.get((0,ziggy_js__WEBPACK_IMPORTED_MODULE_1__.route)('get-book-progress', {
+        id: this.book_id
       })).then(function (response) {
         if (response.data != null) {
           _this2.reader_progress = response.data;
@@ -22841,7 +22844,7 @@ __webpack_require__.r(__webpack_exports__);
     document.getElementById('audio-seek').addEventListener('change', this.change_seek, false);
     document.getElementById('volume').addEventListener('change', this.change_volume, false);
     this.get_reader_progress();
-    window.addEventListener('unload', this.set_reader_progress);
+    window.addEventListener('beforeunload', this.set_reader_progress);
   },
   created: function created() {
     this.load_audio();
@@ -23932,23 +23935,25 @@ var render = function render() {
     directives: [{
       name: "model",
       rawName: "v-model",
-      value: _vm.newBook.type,
-      expression: "newBook.type"
+      value: _vm.selectedType,
+      expression: "selectedType"
     }],
     staticClass: "form-select",
     "class": {
       'is-invalid': _vm.errors.type
     },
     on: {
-      "change": function change($event) {
+      "change": [function ($event) {
         var $$selectedVal = Array.prototype.filter.call($event.target.options, function (o) {
           return o.selected;
         }).map(function (o) {
           var val = "_value" in o ? o._value : o.value;
           return val;
         });
-        _vm.$set(_vm.newBook, "type", $event.target.multiple ? $$selectedVal : $$selectedVal[0]);
-      }
+        _vm.selectedType = $event.target.multiple ? $$selectedVal : $$selectedVal[0];
+      }, function ($event) {
+        _vm.newBook.type = _vm.selectedType;
+      }]
     }
   }, [_c('option', {
     attrs: {
@@ -23965,7 +23970,40 @@ var render = function render() {
     }
   }, [_vm._v("Audiobook")])]), _vm._v(" "), _vm.errors.type ? _c('div', {
     staticClass: "invalid-feedback"
-  }, [_vm._v("\n        " + _vm._s(_vm.errors.type[0]) + "\n      ")]) : _vm._e()]), _vm._v(" "), _c('div', {
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.type[0]) + "\n      ")]) : _vm._e()]), _vm._v(" "), _vm.selectedType === 'audiobook' ? _c('div', {
+    staticClass: "mb-3"
+  }, [_c('label', {
+    staticClass: "form-label",
+    attrs: {
+      "for": "bookFile"
+    }
+  }, [_vm._v("Book Narrrator")]), _vm._v(" "), _c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: _vm.newBook.narrrator,
+      expression: "newBook.narrrator"
+    }],
+    staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.narrrator
+    },
+    attrs: {
+      "type": "text",
+      "id": "bookNarrrator"
+    },
+    domProps: {
+      "value": _vm.newBook.narrrator
+    },
+    on: {
+      "input": function input($event) {
+        if ($event.target.composing) return;
+        _vm.$set(_vm.newBook, "narrrator", $event.target.value);
+      }
+    }
+  }), _vm._v(" "), _vm.errors.narrrator ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.narrrator[0]) + "\n        ")]) : _vm._e()]) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_c('img', {
     staticClass: "img-thumbnail mb-2",
@@ -24830,7 +24868,40 @@ var render = function render() {
     }
   }, [_vm._v("Audiobook")])]), _vm._v(" "), _vm.errors.type ? _c('div', {
     staticClass: "invalid-feedback"
-  }, [_vm._v("\n        " + _vm._s(_vm.errors.type[0]) + "\n      ")]) : _vm._e()]), _vm._v(" "), _c('div', {
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.type[0]) + "\n      ")]) : _vm._e()]), _vm._v(" "), _vm.selectedBook.type === 'audiobook' ? _c('div', {
+    staticClass: "mb-3"
+  }, [_c('label', {
+    staticClass: "form-label",
+    attrs: {
+      "for": "bookFile"
+    }
+  }, [_vm._v("Book Narrrator")]), _vm._v(" "), _c('input', {
+    directives: [{
+      name: "model",
+      rawName: "v-model",
+      value: _vm.selectedBook.narrator,
+      expression: "selectedBook.narrator"
+    }],
+    staticClass: "form-control",
+    "class": {
+      'is-invalid': _vm.errors.narrator
+    },
+    attrs: {
+      "type": "text",
+      "id": "bookNarrator"
+    },
+    domProps: {
+      "value": _vm.selectedBook.narrator
+    },
+    on: {
+      "input": function input($event) {
+        if ($event.target.composing) return;
+        _vm.$set(_vm.selectedBook, "narrator", $event.target.value);
+      }
+    }
+  }), _vm._v(" "), _vm.errors.narrator ? _c('div', {
+    staticClass: "invalid-feedback"
+  }, [_vm._v("\n        " + _vm._s(_vm.errors.narrator[0]) + "\n      ")]) : _vm._e()]) : _vm._e(), _vm._v(" "), _c('div', {
     staticClass: "mb-3"
   }, [_c('img', {
     staticClass: "img-thumbnail mb-2",
@@ -26412,7 +26483,7 @@ var render = function render() {
         return _vm.deleteModal.show();
       }
     }
-  }, [_vm._v("\n        Delete\n      ")]), _vm._v(" "), _c('h2', [_vm._v(_vm._s(_vm.book.name))]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Author:")]), _vm._v(" " + _vm._s(_vm.book.author_name))]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Type:")]), _vm._v(" " + _vm._s(_vm.book.type))]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Description:")]), _vm._v(" " + _vm._s(_vm.book.text))])])])]);
+  }, [_vm._v("\n        Delete\n      ")]), _vm._v(" "), _c('h2', [_vm._v(_vm._s(_vm.book.name))]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Author:")]), _vm._v(" " + _vm._s(_vm.book.author_name))]), _vm._v(" "), _vm.book.type === 'audiobook' ? _c('p', [_c('strong', [_vm._v("Narrator:")]), _vm._v(" " + _vm._s(_vm.book.narrator))]) : _vm._e(), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Type:")]), _vm._v(" " + _vm._s(_vm.book.type))]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("Description:")]), _vm._v(" " + _vm._s(_vm.book.text))])])])]);
 };
 var staticRenderFns = [function () {
   var _vm = this,
@@ -26926,7 +26997,7 @@ var render = function render() {
   }, [_c('img', {
     staticClass: "m-auto cover",
     attrs: {
-      "src": '/audio_books/covers/' + _vm.book_cover
+      "src": '/storage/' + _vm.book_cover
     }
   }), _vm._v(" "), _c('div', {
     staticClass: "player"
@@ -75972,7 +76043,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.player[data-v-e0e1cbdc] {\n  background-color: #f1f1f0;\n  border: 1px solid #e1cfa9;\n  height: 80px;\n  border-radius: 1%;\n}\n.controllers a[data-v-e0e1cbdc] {\n  color: #565c68;\n}\n.cover[data-v-e0e1cbdc] {\n  height: 350px;\n  width: 200px;\n}\n.song-slider[data-v-e0e1cbdc] {\n  width: 98%;\n  position: relative;\n}\n.seek-bar[data-v-e0e1cbdc] {\n  -webkit-appearance: none;\n  margin-left: 5px;\n  width: 80vw;\n  height: 5px;\n  border-radius: 10px;\n  background: white;\n  overflow: hidden;\n  cursor: pointer;\n}\n.seek-bar[data-v-e0e1cbdc]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  width: 1px;\n  height: 20px;\n  box-shadow: -80vw 0 0 80vw #e1cfa9;\n}\n.current-time[data-v-e0e1cbdc],\n.song-duration[data-v-e0e1cbdc] {\n  font-size: 14px;\n  margin-left: 5px;\n}\n.song-duration[data-v-e0e1cbdc] {\n  position: absolute;\n  right: 0;\n}\n@media screen and (max-width: 576px) {\n.cover[data-v-e0e1cbdc] {\n    height: 250px;\n    width: 200px;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.player[data-v-e0e1cbdc] {\n  background-color: #f1f1f0;\n  border: 1px solid #e1cfa9;\n  height: 90px;          \n  padding: 6px 10px; \n  border-radius: 1%;\n}\n.controllers a[data-v-e0e1cbdc] {\n  color: #565c68;\n}\n.cover[data-v-e0e1cbdc] {\n  height: 350px;\n  width: 200px;\n}\n.song-slider[data-v-e0e1cbdc] {\n  width: 98%;\n  position: relative;\n}\n.seek-bar[data-v-e0e1cbdc] {\n  -webkit-appearance: none;\n  margin-left: 5px;\n  width: 50vw;\n  height: 5px;\n  border-radius: 10px;\n  background: white;\n  overflow: hidden;\n  cursor: pointer;\n}\n.seek-bar[data-v-e0e1cbdc]::-webkit-slider-thumb {\n  -webkit-appearance: none;\n  width: 1px;\n  height: 20px;\n  box-shadow: -80vw 0 0 80vw #e1cfa9;\n}\n.current-time[data-v-e0e1cbdc],\n.song-duration[data-v-e0e1cbdc] {\n  font-size: 14px;\n  margin-left: 5px;\n}\n.song-duration[data-v-e0e1cbdc] {\n  position: absolute;\n  right: 0;\n}\n@media screen and (max-width: 576px) {\n.cover[data-v-e0e1cbdc] {\n    height: 250px;\n    width: 200px;\n}\n.seek-bar[data-v-e0e1cbdc] {\n    width: 45vw;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

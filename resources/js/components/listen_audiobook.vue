@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <img :src="'/audio_books/covers/' + book_cover" class="m-auto cover" />
+      <img :src="'/storage/' + book_cover" class="m-auto cover" />
       <div class="player">
         <div class="song-slider">
           <input type="range" value="0" class="seek-bar" id="audio-seek" />
@@ -73,7 +73,7 @@ export default {
   data() {
     return {
       sound: '',
-      file_path: '/storage/' + this.file_path,
+      file: '/storage/' + this.file_path,
       audio_seek: 0,
       audio_seek_formated: '00:00',
       volume: 100,
@@ -82,16 +82,18 @@ export default {
       playback_rate: 1.0,
       mute: false,
       reader_progress: 0,
+      progress_interval: null,
     };
   },
   methods: {
     load_audio() {
       this.sound = new Howl({
-        src: [this.file_path],
+        src: [this.file],
         html5: true,
         autoplay: false,
         onplay: () => {
           this.is_playing = setInterval(this.update_seekbar, 1000);
+          this.progress_interval = setInterval(this.set_reader_progress, 10000);
         },
       });
     },
@@ -149,9 +151,6 @@ export default {
       let per = document.getElementById('audio-seek').value;
       let seek = this.sound.duration() * (per / 100);
       this.sound.seek(seek);
-      // console.log(per);
-      // console.log(seek);
-      // console.log('this '+this.sound.seek());
     },
     change_volume() {
       this.volume = document.getElementById('volume').value;
@@ -160,15 +159,14 @@ export default {
     },
     set_reader_progress() {
       let progress = this.sound.seek();
-      axios.post(route('set_book_progress'), {
+      axios.post(route('set-book-progress'), {
         book_id: this.book_id,
         progress: progress,
-        type: this.type,
       });
     },
 
     get_reader_progress() {
-      axios.get(route('get_book_progress', { book_id: this.book_id })).then((response) => {
+      axios.get(route('get-book-progress', { id: this.book_id })).then((response) => {
         if (response.data != null) {
           this.reader_progress = response.data;
         }
@@ -179,7 +177,7 @@ export default {
     document.getElementById('audio-seek').addEventListener('change', this.change_seek, false);
     document.getElementById('volume').addEventListener('change', this.change_volume, false);
     this.get_reader_progress();
-    window.addEventListener('unload', this.set_reader_progress);
+    window.addEventListener('beforeunload', this.set_reader_progress);
   },
   created() {
     this.load_audio();
@@ -192,7 +190,8 @@ export default {
 .player {
   background-color: #f1f1f0;
   border: 1px solid #e1cfa9;
-  height: 80px;
+  height: 90px;
+  padding: 6px 10px;
   border-radius: 1%;
 }
 
@@ -211,7 +210,7 @@ export default {
 .seek-bar {
   -webkit-appearance: none;
   margin-left: 5px;
-  width: 80vw;
+  width: 50vw;
   height: 5px;
   border-radius: 10px;
   background: white;
@@ -239,6 +238,9 @@ export default {
   .cover {
     height: 250px;
     width: 200px;
+  }
+  .seek-bar {
+    width: 45vw;
   }
 }
 </style>
