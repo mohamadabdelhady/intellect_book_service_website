@@ -82,4 +82,11 @@ class User extends Authenticatable implements MustVerifyEmail
     {
         return $this->update(['auto_renew_sub' => $isRenew]);
     }
+
+    public static function searchUsers($keyword)
+    {
+        $keyword = trim($keyword);
+
+        return self::where('id', '!=', auth()->id())->where('name', 'like', "%$keyword%");
+    }
 }

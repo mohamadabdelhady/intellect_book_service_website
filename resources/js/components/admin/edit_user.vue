@@ -1,53 +1,53 @@
 <template>
   <div>
-    <form @submit.prevent="createAdmin">
+    <form @submit.prevent="updateUser">
       <div class="mb-3">
-        <label for="adminName" class="form-label">Admin Name</label>
+        <label for="bookName" class="form-label">User Name</label>
         <input
           type="text"
           class="form-control"
-          id="adminName"
           :class="{ 'is-invalid': errors.name }"
-          v-model="newAdmin.name"
+          id="bookName"
+          v-model="selectedUser.name"
         />
         <div class="invalid-feedback" v-if="errors.name">
           {{ errors.name[0] }}
         </div>
       </div>
       <div class="mb-3">
-        <label for="adminEmail" class="form-label">Admin Email</label>
+        <label for="UserEmail" class="form-label">User Email</label>
         <input
           type="email"
           class="form-control"
-          id="adminEmail"
+          id="userEmail"
           :class="{ 'is-invalid': errors.email }"
-          v-model="newAdmin.email"
+          v-model="selectedUser.email"
         />
         <div class="invalid-feedback" v-if="errors.email">
           {{ errors.email[0] }}
         </div>
       </div>
       <div class="mb-3">
-        <label for="adminPassword" class="form-label">Admin Password</label>
+        <label for="userPassword" class="form-label">User Password</label>
         <input
           type="password"
           class="form-control"
-          id="adminPassword"
+          id="userPassword"
           :class="{ 'is-invalid': errors.password }"
-          v-model="newAdmin.password"
+          v-model="selectedUser.password"
         />
         <div class="invalid-feedback" v-if="errors.password">
           {{ errors.password[0] }}
         </div>
       </div>
       <div class="mb-3">
-        <label for="adminPasswordConfirmation" class="form-label">Confirm Password</label>
+        <label for="userPasswordConfirmation" class="form-label">Confirm Password</label>
         <input
           type="password"
           class="form-control"
-          id="adminPasswordConfirmation"
+          id="userPasswordConfirmation"
           :class="{ 'is-invalid': errors.password_confirmation }"
-          v-model="newAdmin.password_confirmation"
+          v-model="selectedUser.password_confirmation"
         />
         <div class="invalid-feedback" v-if="errors.password_confirmation">
           {{ errors.password_confirmation[0] }}
@@ -55,8 +55,8 @@
       </div>
       <div class="mb-3">
         <img
-          v-if="!newAdminPhotoImg"
-          src="https://placehold.co/200x200"
+          v-if="!selectedUserPhotoImg"
+          src="/images/user_default.png"
           alt="Placeholder Image"
           class="img-thumbnail mb-2"
           style="max-width: 200px; cursor: pointer"
@@ -64,7 +64,7 @@
         />
         <img
           v-else
-          :src="newAdminPhotoImg"
+          :src="selectedUserPhotoImg"
           alt="Photo Image"
           class="img-thumbnail mb-2"
           style="max-width: 200px; cursor: pointer"
@@ -81,64 +81,49 @@
           @change="previewImage"
           :class="{ 'is-invalid': errors.photo }"
         />
-        <div class="invalid-feedback" v-if="errors.profile_img">
+        <div class="invalid-feedback" v-if="errors.photo">
           {{ errors.photo[0] }}
         </div>
       </div>
-      <div class="mb-3">
-        <select class="form-select" v-model="newAdmin.role" :class="{ 'is-invalid': errors.role }">
-          <option value="admin_super">Super Admin</option>
-          <option value="admin_editor">Editor Admin</option>
-        </select>
-        <div class="invalid-feedback" v-if="errors.role">
-          {{ errors.role[0] }}
-        </div>
-      </div>
-
-      <button type="submit" class="btn">create</button>
+      <button type="submit" class="btn">Update</button>
     </form>
   </div>
 </template>
 <script>
 export default {
-  name: 'create_admin',
-  props: [],
+  name: 'edit_user',
+  props: ['user'],
   data() {
     return {
-      newAdmin: {
-        name: '',
-        profile_img: null,
-        password: '',
-        password_confirmation: '',
-      },
-      newAdminPhotoImg: null,
+      selectedUser: { ...this.user },
+      selectedUserPhotoImg: this.user.profile_img
+        ? '/storage/' + this.user.profile_img
+        : '/images/user_default.png',
       errors: {},
     };
   },
   methods: {
-    createAdmin() {
+    updateUser() {
       const formData = new FormData();
 
-      const keyMap = {
-        img: 'photo',
-      };
-
-      for (const key in this.newAdmin) {
-        if (key === 'profile_img' && !this.newAdmin.profile_img) {
-          continue;
-        }
-        const formKey = keyMap[key] ?? key;
-        formData.append(formKey, this.newAdmin[key]);
+      formData.append('name', this.selectedUser.name);
+      formData.append('email', this.selectedUser.email);
+      formData.append('password', this.selectedUser.password);
+      formData.append('password_confirmation', this.selectedUser.password_confirmation);
+      if (this.selectedUser.profile_img instanceof File) {
+        formData.append('photo', this.selectedUser.profile_img);
       }
 
+      formData.append('_method', 'PUT');
+
       axios
-        .post('/admin/admins', formData, {
+        .post('/admin/users/' + this.selectedUser.id, formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
         })
         .then((response) => {
-          window.location.href = '/admin/admins/' + response.data.admin.id;
+          window.location.href = '/admin/users/' + response.data.user.id;
         })
         .catch((error) => {
           if (error.response && error.response.status === 422) {
@@ -150,8 +135,8 @@ export default {
     previewImage(event) {
       const file = event.target.files[0];
       if (file) {
-        this.newAuthorPhotoImg = URL.createObjectURL(file);
-        this.newAuthor.img = file;
+        this.selectedAdminPhotoImg = URL.createObjectURL(file);
+        this.selectedAdmin.profile_img = file;
       }
     },
   },

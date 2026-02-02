@@ -49,6 +49,10 @@ Vue.component('get_admins', require('./components/admin/get_admins.vue').default
 Vue.component('create_admin', require('./components/admin/create_admin.vue').default);
 Vue.component('edit_admin', require('./components/admin/edit_admin.vue').default);
 Vue.component('view_admin', require('./components/admin/view_admin.vue').default);
+Vue.component('get_users', require('./components/admin/get_users.vue').default);
+Vue.component('view_user', require('./components/admin/view_user.vue').default);
+Vue.component('create_user', require('./components/admin/create_user.vue').default);
+Vue.component('edit_user', require('./components/admin/edit_user.vue').default);
 
 // 4. Create Vue Instance
 

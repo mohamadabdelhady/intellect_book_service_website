@@ -1,40 +1,40 @@
 <template>
   <div>
-    <form @submit.prevent="createAdmin">
+    <form @submit.prevent="createUser">
       <div class="mb-3">
-        <label for="adminName" class="form-label">Admin Name</label>
+        <label for="adminName" class="form-label">User Name</label>
         <input
           type="text"
           class="form-control"
           id="adminName"
           :class="{ 'is-invalid': errors.name }"
-          v-model="newAdmin.name"
+          v-model="newUser.name"
         />
         <div class="invalid-feedback" v-if="errors.name">
           {{ errors.name[0] }}
         </div>
       </div>
       <div class="mb-3">
-        <label for="adminEmail" class="form-label">Admin Email</label>
+        <label for="UserEmail" class="form-label">User Email</label>
         <input
           type="email"
           class="form-control"
           id="adminEmail"
           :class="{ 'is-invalid': errors.email }"
-          v-model="newAdmin.email"
+          v-model="newUser.email"
         />
         <div class="invalid-feedback" v-if="errors.email">
           {{ errors.email[0] }}
         </div>
       </div>
       <div class="mb-3">
-        <label for="adminPassword" class="form-label">Admin Password</label>
+        <label for="Password" class="form-label">User Password</label>
         <input
           type="password"
           class="form-control"
           id="adminPassword"
           :class="{ 'is-invalid': errors.password }"
-          v-model="newAdmin.password"
+          v-model="newUser.password"
         />
         <div class="invalid-feedback" v-if="errors.password">
           {{ errors.password[0] }}
@@ -45,9 +45,9 @@
         <input
           type="password"
           class="form-control"
-          id="adminPasswordConfirmation"
+          id="userPasswordConfirmation"
           :class="{ 'is-invalid': errors.password_confirmation }"
-          v-model="newAdmin.password_confirmation"
+          v-model="newUser.password_confirmation"
         />
         <div class="invalid-feedback" v-if="errors.password_confirmation">
           {{ errors.password_confirmation[0] }}
@@ -55,7 +55,7 @@
       </div>
       <div class="mb-3">
         <img
-          v-if="!newAdminPhotoImg"
+          v-if="!newUserPhotoImg"
           src="https://placehold.co/200x200"
           alt="Placeholder Image"
           class="img-thumbnail mb-2"
@@ -64,7 +64,7 @@
         />
         <img
           v-else
-          :src="newAdminPhotoImg"
+          :src="newUserPhotoImg"
           alt="Photo Image"
           class="img-thumbnail mb-2"
           style="max-width: 200px; cursor: pointer"
@@ -85,60 +85,50 @@
           {{ errors.photo[0] }}
         </div>
       </div>
-      <div class="mb-3">
-        <select class="form-select" v-model="newAdmin.role" :class="{ 'is-invalid': errors.role }">
-          <option value="admin_super">Super Admin</option>
-          <option value="admin_editor">Editor Admin</option>
-        </select>
-        <div class="invalid-feedback" v-if="errors.role">
-          {{ errors.role[0] }}
-        </div>
-      </div>
-
       <button type="submit" class="btn">create</button>
     </form>
   </div>
 </template>
 <script>
 export default {
-  name: 'create_admin',
+  name: 'create_user',
   props: [],
   data() {
     return {
-      newAdmin: {
+      newUser: {
         name: '',
         profile_img: null,
         password: '',
         password_confirmation: '',
       },
-      newAdminPhotoImg: null,
+      newUserPhotoImg: null,
       errors: {},
     };
   },
   methods: {
-    createAdmin() {
+    createUser() {
       const formData = new FormData();
 
       const keyMap = {
         img: 'photo',
       };
 
-      for (const key in this.newAdmin) {
-        if (key === 'profile_img' && !this.newAdmin.profile_img) {
+      for (const key in this.newUser) {
+        if (key === 'profile_img' && !this.newUser.profile_img) {
           continue;
         }
         const formKey = keyMap[key] ?? key;
-        formData.append(formKey, this.newAdmin[key]);
+        formData.append(formKey, this.newUser[key]);
       }
 
       axios
-        .post('/admin/admins', formData, {
+        .post('/admin/users', formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
         })
         .then((response) => {
-          window.location.href = '/admin/admins/' + response.data.admin.id;
+          window.location.href = '/admin/users/' + response.data.user.id;
         })
         .catch((error) => {
           if (error.response && error.response.status === 422) {
@@ -150,8 +140,8 @@ export default {
     previewImage(event) {
       const file = event.target.files[0];
       if (file) {
-        this.newAuthorPhotoImg = URL.createObjectURL(file);
-        this.newAuthor.img = file;
+        this.newUserPhotoImg = URL.createObjectURL(file);
+        this.newUser.profile_img = file;
       }
     },
   },
