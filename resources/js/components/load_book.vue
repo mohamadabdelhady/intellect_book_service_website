@@ -27,8 +27,11 @@
           <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
           <p class="book_title m-auto h4">{{ book['name'] }}</p>
           <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
-          <div class="row m-auto">
+          <div class="row m-auto" v-if="rating > 0">
             <generate_stars :rating="book['rating']"></generate_stars>
+          </div>
+          <div class="row m-auto" v-else>
+            <p>No reviews</p>
           </div>
         </a>
       </div>

@@ -40,12 +40,18 @@ How to set up the project after cloning it
 <li>type "npm install"</li>
 <li>type "cp .env.example .env"</li>
 <li>type "php artisan key:generate"</li>
-<li>Creat a database with the same name of the same name as "DB_DATABASE" field in .env file</li>
+<li>type "php artisan storage:link"</li>
 <li>type "php artisan migrate"</li>
+<li>type " php artisan db:seed --class=AdminSeeder"
 <li>To run the project on your browser type "php artisan serve"</li>
-<li>To put test data into the database type "query" into the url</li>
 </ol>
-<h2>How to use the website</h2>
+<h2>How to use the dashboard pannel</h2>
+<ul>
+<li>type "/admin" directly after the app url
+<li>in the login page for the dashbord type email"admin@example.com" and password "Admin2025123" as the super admin</li>
+<li>the dashbord will open where you can add books or more admin or users</li>
+</ul>
+<h2>How to use the mainwebsite</h2>
 <ul>
 <li>After opening the home page click the signup button which will take to signup page</li>
 <li>You can sign up wit your username, email and password or with your google account</li>

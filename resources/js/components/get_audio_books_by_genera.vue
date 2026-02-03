@@ -47,7 +47,8 @@
 <script>
 import { route } from 'ziggy-js';
 export default {
-  name: 'load_AudioBooks',
+  name: 'get_audio_books_by_genera',
+  props: ['genera'],
   data() {
     return {
       audio_books: [],
@@ -59,7 +60,14 @@ export default {
   methods: {
     get_books() {
       axios
-        .get(route('get-all-books', { sort: this.sorting, type: 'audiobook', page: this.page }))
+        .get(
+          route('get-genera-books', {
+            genera: this.genera,
+            type: 'audiobook',
+            sort: this.sorting,
+            page: this.book_page,
+          }),
+        )
         .then((response) => {
           $.each(response.data.data, (key, v) => {
             this.audio_books.push(v);

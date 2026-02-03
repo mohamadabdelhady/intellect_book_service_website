@@ -30,7 +30,6 @@ Vue.component('search_results', require('./components/search_results.vue').defau
 Vue.component('get_author_work', require('./components/get_author_work.vue').default);
 Vue.component('user_bookmark', require('./components/user_bookmark.vue').default);
 Vue.component('user_settings', require('./components/user_settings.vue').default);
-Vue.component('book_genera', require('./components/book_genera.vue').default);
 
 // Admin Components
 Vue.component('get_books', require('./components/admin/get_books.vue').default);
@@ -53,6 +52,11 @@ Vue.component('get_users', require('./components/admin/get_users.vue').default);
 Vue.component('view_user', require('./components/admin/view_user.vue').default);
 Vue.component('create_user', require('./components/admin/create_user.vue').default);
 Vue.component('edit_user', require('./components/admin/edit_user.vue').default);
+Vue.component('get_books_by_genera', require('./components/get_books_by_genera.vue').default);
+Vue.component(
+  'get_audio_books_by_genera',
+  require('./components/get_audio_books_by_genera.vue').default,
+);
 
 // 4. Create Vue Instance
 

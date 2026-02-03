@@ -1,6 +1,7 @@
 <template>
-  <div v-if="audio_books.length > 0">
-    <p class="h3">Audio books</p>
+  <div v-if="books.length > 0">
+    <p class="h3">E-books</p>
+
     <hr />
     <div class="dropdown">
       <button
@@ -21,12 +22,11 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12" v-for="(book, index) in audio_books">
+      <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12" v-for="(book, index) in books">
         <a :href="route('check-book', { id: book['id'] })" class="book_card card">
           <img :src="'/storage/' + book['cover_img']" class="book_img m-auto" />
           <p class="book_title m-auto h4">{{ book['name'] }}</p>
           <p class="book_title m-auto h6">By {{ book['author_name'] }}</p>
-          <p class="book_title m-auto h6">Narrator {{ book['narrator'] }}</p>
           <div class="row m-auto" v-if="rating > 0">
             <generate_stars :rating="book['rating']"></generate_stars>
           </div>
@@ -38,7 +38,7 @@
     </div>
     <div class="row">
       <button class="btn m-auto mt-4" v-on:click="get_books" :disabled="last_page == true">
-        Load more audio books
+        Load more E-books
       </button>
     </div>
   </div>
@@ -47,10 +47,12 @@
 <script>
 import { route } from 'ziggy-js';
 export default {
-  name: 'load_AudioBooks',
+  name: 'get_books_by_genera',
+  props: ['genera'],
+
   data() {
     return {
-      audio_books: [],
+      books: [],
       page: 1,
       last_page: false,
       sorting: 'default',
@@ -59,10 +61,18 @@ export default {
   methods: {
     get_books() {
       axios
-        .get(route('get-all-books', { sort: this.sorting, type: 'audiobook', page: this.page }))
+        .get(
+          route('get-genera-books', {
+            genera: this.genera,
+            type: 'book',
+            sort: this.sorting,
+            page: this.book_page,
+          }),
+        )
         .then((response) => {
           $.each(response.data.data, (key, v) => {
-            this.audio_books.push(v);
+            this.books.push(v);
+            console.log(v);
             if (response.data.current_page == response.data.last_page) {
               this.last_page = true;
             }
@@ -70,13 +80,10 @@ export default {
         });
       this.page++;
     },
-    show() {
-      console.log(this.sorting);
-    },
     change_sort(sort) {
       this.page = 1;
       this.sorting = sort;
-      this.audio_books = [];
+      this.books = [];
       this.get_books();
     },
   },
@@ -89,7 +96,7 @@ export default {
 <style scoped>
 .book_card {
   border: 1px solid #e1cfa9;
-  width: 250px;
+  width: 200px;
   height: 400px;
   margin: 10px;
   background-color: white;
@@ -98,7 +105,7 @@ export default {
   .book_card {
     border: 1px solid #e1cfa9;
     width: 150px;
-    height: 320px;
+    height: 200px;
     margin: 10px;
     padding: 5px;
     background-color: white;

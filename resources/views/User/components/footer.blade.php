@@ -1,13 +1,13 @@
-<div style="padding-top: 100px">
+<div class="ml-4 mr-4">
 <hr>
 <div class="row">
     <div class="" style="min-width: 100%"></div>
 <div class="col-6">
     <p class="h4">book genera</p>
     <ul>
-        <li><a href="classics">Classics</a></li>
-        <li><a href="history">History</a></li>
-        <li><a href="science">Science</a></li>
+         @foreach($categories as $category)
+            <li><a href="{{ route('get-genera', ['genera' => $category->id]) }}">{{$category->name}}</a></li>
+        @endforeach
     </ul>
 </div>
 
