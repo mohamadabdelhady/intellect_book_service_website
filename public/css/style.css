@@ -274,6 +274,11 @@ color: #565c68;
 .main-content {
     margin-right: 260px;
 }
+.genera-image{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
 /*input[type="search"]::-webkit-search-cancel-button {*/
 /*    -webkit-appearance: none;*/
 /*    background-color:rebeccapurple;*/

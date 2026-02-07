@@ -51,7 +51,7 @@ Route::group(['middleware' => ['auth', 'verified', 'subscribed']], function () {
     // book reviews routes
     Route::get('/reviews/{id}', [ReviewsController::class, 'index'])->name('get-all-reviews');
     Route::post('/review', [ReviewsController::class, 'post'])->name('post-review');
-    Route::post('/review', [ReviewsController::class, 'update'])->name('edit-review');
+    Route::patch('/review', [ReviewsController::class, 'update'])->name('edit-review');
     Route::get('/review/{id}', [ReviewsController::class, 'show'])->name('get-my-review');
     Route::delete('/review/{id}', [ReviewsController::class, 'destroy'])->name('delete-review');
     // book progress routes

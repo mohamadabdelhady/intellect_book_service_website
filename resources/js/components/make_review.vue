@@ -151,10 +151,8 @@ export default {
   },
   methods: {
     fill_star(num) {
-      console.log(num);
       for (let i = 1; i <= num; i++) {
         let targetDiv = (document.getElementById('star_' + i).style.color = 'goldenrod');
-        console.log(targetDiv);
       }
     },
     empty_star() {
@@ -173,7 +171,6 @@ export default {
           review: this.user_review,
           rating: this.my_rating,
           id: this.id,
-          user: this.user_id,
         });
         this.user_review = '';
         this.$emit('update_review');
@@ -203,10 +200,10 @@ export default {
     update_review() {
       if (this.my_rating != '') {
         document.getElementById('error_post').style.display = 'none';
-        axios.post(route('edit-review'), {
+        axios.patch(route('edit-review'), {
           review: this.user_review,
           rating: this.my_rating,
-          user: this.user_id,
+          book_id: this.id,
         });
         this.user_review = '';
         this.$emit('update_review');
